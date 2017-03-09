@@ -1,5 +1,8 @@
 # 16bh.github.io
 
-> where i record useful informations while working.
+我的个人博客
+- 记录工作所得
+- 收录好的软件
+- 随笔
 
->u can visit https://16bh.github.io to see my blog website
+>博客地址：jimxu.me
