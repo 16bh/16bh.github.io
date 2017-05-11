@@ -1,0 +1,55 @@
+# Header
+menu:
+  首页: /
+  所有文章: /archives
+  留言板: /message
+  Magento: /tags/magento
+  Hexo: /tags/hexo
+  豆瓣: https://www.douban.com/people/49684619/
+  关于: /about
+rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+fancybox: false
+mathjax: false
+
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts
+- category
+- tagcloud
+- archive
+- links
+- duoshuo_recent_comments
+
+# Links
+links:
+  stackoverflow的magento版块: http://magento.stackexchange.com
+  程序员技能树: http://skill.phodal.com/#_a2b2c2dekm2_1_Name
+  水水的magento专栏: http://blog.csdn.net/shuishui8310/
+  钥匙的magento视频教程: http://www.tudou.com/plcover/u5VY89ki_4U/
+  廖雪峰老师的Git教程: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+  七天学会node.js: https://nqdeng.github.io/7-days-nodejs/
+  每日随机高清壁纸: https://unsplash.it/1920/1080/?random
+  Hexo使用说明文档: https://hexo.io/zh-cn/docs/
+  风雪博客: http://wxsblog.com/
+  Netcan: http://www.netcan666.com/
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins: 
+fb_app_id:
+
+# Duoshuo
+duoshuo_shortname: jimxu 
+
+# Baidu share
+baidushare: true
+
+swift_search:
+  enable: true
