@@ -3,10 +3,13 @@
   <entry>
     <title><![CDATA[从零搭建mac开发环境]]></title>
     <url>%2F2017%2F05%2F10%2F%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83%2F</url>
-    <content type="text"><![CDATA[登录apple账号 设置快捷键 设置触摸板（三指拖拽功能在辅助功能中设置） 设置触发角 下载已购项目 设置dock置于左侧将窗口最小化为应用程序图标 安装homebrew 1ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 通过homebrew安装homebrew-cask 1brew tap caskroom/cask 通过homebrew-cask安装shadowsocksx 1brew cask install shadowsocksx 开启shadowsocksx,登录chrome浏览器，同步书签和插件 安装alfred并安装chrome书签的workflow 安装git 怎样在一台电脑上同时使用公司 GitLab 和 Github 的服务 终端输入git 安装iterm2 1https://www.iterm2.com/downloads.html 安装oh my zsh 1sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot; 安装wd和zsh-wakatime插件 设置主题为powerline 安装powerline等宽字体 1234git clone https://github.com/powerline/fonts.gitcd fonts./install.shcd .. &amp;&amp; rm -rf fonts 设置等宽字体Profiles - Text - Font 使用zsh 1chsh -s /bin/zsh 安装nginxbrew install nginx配置servers文件设置log路径 安装phpbrew install php70设置环境变量设置log路径安装扩展 安装redisbrew install redis设置log路径关闭持久化 安装mysql 下载安装：http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html 配置：http://www.jianshu.com/p/fd3aae701db9 安装reeder，登录inoreader账号 安装quiver、paste、yonik、bartender、moom、dash等常用软件 安装hexo 设置开启启动app]]></content>
+    <content type="text"><![CDATA[从头安装开发环境 登录apple账号 设置快捷键 设置触摸板（三指拖拽功能在辅助功能中设置） 设置触发角 下载已购项目 设置dock置于左侧将窗口最小化为应用程序图标 安装homebrew 1ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot; 通过homebrew安装homebrew-cask 1brew tap caskroom/cask 通过homebrew-cask安装shadowsocksx 1brew cask install shadowsocksx 开启shadowsocksx,登录chrome浏览器，同步书签和插件 安装alfred并安装chrome书签的workflow 安装git 怎样在一台电脑上同时使用公司 GitLab 和 Github 的服务 终端输入git 安装iterm2 1https://www.iterm2.com/downloads.html 安装oh my zsh 1sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot; 安装wd和zsh-wakatime插件 设置主题为powerline 安装powerline等宽字体 1234git clone https://github.com/powerline/fonts.gitcd fonts./install.shcd .. &amp;&amp; rm -rf fonts 设置等宽字体Profiles - Text - Font 使用zsh 1chsh -s /bin/zsh 安装nginxbrew install nginx配置servers文件设置log路径 安装phpbrew install php70设置环境变量设置log路径安装扩展 安装redisbrew install redis设置log路径关闭持久化 安装mysql 下载安装：http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html 配置：http://www.jianshu.com/p/fd3aae701db9 安装reeder，登录inoreader账号 安装quiver、paste、yonik、bartender、moom、dash等常用软件 安装hexo 设置开启启动app]]></content>
       <categories>
         <category>Mac</category>
       </categories>
+      <tags>
+        <tag>mac</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[phpstorm安装Atom主题]]></title>

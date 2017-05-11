@@ -121,13 +121,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mac/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/homebrew/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -207,6 +200,13 @@
     <url>
         <loc>http://jimxu.me/tags/magento/</loc>
         <lastmod>2017-05-11T09:59:13.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/mac/</loc>
+        <lastmod>2017-05-11T10:08:24.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
