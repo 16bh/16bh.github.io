@@ -1,7 +1,7 @@
 ---
 title: 从零搭建mac开发环境
 categories: Mac
-tags: []
+tags: mac
 toc: false
 comment: true
 date: 2017-05-10 21:48:02
@@ -9,7 +9,7 @@ date: 2017-05-10 21:48:02
 
 
 
-
+从头安装开发环境
 
 
 <!--more-->
