@@ -1,0 +1,865 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next pisces" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="php, magento, software" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jimxu技术日记" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="网址导航常用 google - 外事不决问谷歌 126邮箱  生活，从音乐开始 Lavaradio:情景音乐 豆瓣电台  开始工作了，不是工作日的话看看有什么可玩的 邮件 - 先看看公司的邮件吧 tower - 看看有人给我分配任务吗 蝉道 - 可能有bug,真讨厌 jenkins - 改完bug提交代码了要记得构建哦 石墨 - 记录了内部共享文档 gitlab - 提交merge request">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jim&#39;s website">
+<meta property="og:url" content="http://jimxu.me/website/index.html">
+<meta property="og:site_name" content="Jimxu技术日记">
+<meta property="og:description" content="网址导航常用 google - 外事不决问谷歌 126邮箱  生活，从音乐开始 Lavaradio:情景音乐 豆瓣电台  开始工作了，不是工作日的话看看有什么可玩的 邮件 - 先看看公司的邮件吧 tower - 看看有人给我分配任务吗 蝉道 - 可能有bug,真讨厌 jenkins - 改完bug提交代码了要记得构建哦 石墨 - 记录了内部共享文档 gitlab - 提交merge request">
+<meta property="og:updated_time" content="2017-05-11T09:50:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Jim&#39;s website">
+<meta name="twitter:description" content="网址导航常用 google - 外事不决问谷歌 126邮箱  生活，从音乐开始 Lavaradio:情景音乐 豆瓣电台  开始工作了，不是工作日的话看看有什么可玩的 邮件 - 先看看公司的邮件吧 tower - 看看有人给我分配任务吗 蝉道 - 可能有bug,真讨厌 jenkins - 改完bug提交代码了要记得构建哦 石墨 - 记录了内部共享文档 gitlab - 提交merge request">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://jimxu.me/website/"/>
+
+
+
+
+
+  <title>
+  
+
+  
+    Jim's website | Jimxu技术日记
+  
+</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left  ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jimxu技术日记</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">个人标签：宅男、PHP开发、软件、手游、小说</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-message board">
+          <a href="/messageboard" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            留言板
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+  <header class="post-header">
+
+	<h1 class="post-title" itemprop="name headline">Jim's website</h1>
+
+
+
+</header>
+
+    
+    
+      <h1 id="网址导航"><a href="#网址导航" class="headerlink" title="网址导航"></a>网址导航</h1><h2 id="常用"><a href="#常用" class="headerlink" title="常用"></a>常用</h2><ul>
+<li><a href="https://www.google.com.hk/" target="_blank" rel="external">google - 外事不决问谷歌</a></li>
+<li><a href="http://mail.126.com" target="_blank" rel="external">126邮箱</a></li>
+</ul>
+<h2 id="生活，从音乐开始"><a href="#生活，从音乐开始" class="headerlink" title="生活，从音乐开始"></a>生活，从音乐开始</h2><ul>
+<li><a href="http://www.lavaradio.com/#module=radio&amp;action=radio&amp;radio_id=1&amp;channel_id=6&amp;tag=编程" target="_blank" rel="external">Lavaradio:情景音乐</a></li>
+<li><a href="https://douban.fm" target="_blank" rel="external">豆瓣电台</a></li>
+</ul>
+<h2 id="开始工作了，不是工作日的话看看有什么可玩的"><a href="#开始工作了，不是工作日的话看看有什么可玩的" class="headerlink" title="开始工作了，不是工作日的话看看有什么可玩的"></a>开始工作了，<a href="#jump">不是工作日的话看看有什么可玩的</a></h2><ul>
+<li><a href="https://outlook.office365.com/owa/" target="_blank" rel="external">邮件 - 先看看公司的邮件吧</a></li>
+<li><a href="https://tower.im/users/sign_in" target="_blank" rel="external">tower - 看看有人给我分配任务吗</a></li>
+<li><a href="https://cd.cn.memebox.com/index.php?m=my&amp;f=index" target="_blank" rel="external">蝉道 - 可能有bug,真讨厌</a></li>
+<li><a href="https://jenkins.cn.memebox.com:8443" target="_blank" rel="external">jenkins - 改完bug提交代码了要记得构建哦</a></li>
+<li><a href="https://shimo.im" target="_blank" rel="external">石墨 - 记录了内部共享文档</a></li>
+<li><a href="https://git.memebox.com" target="_blank" rel="external">gitlab - 提交merge request</a></li>
+<li><a href="https://saas.tingyun.com/web/console/console" target="_blank" rel="external">听云 - 记录了服务器接口和数据库的性能</a></li>
+<li><a href="http://122.144.173.66:6021/emp/" target="_blank" rel="external">梦网 - 客户接收短信有问题?</a></li>
+<li><a href="https://app.betterworks.com/app/splash/#/signin?next=" target="_blank" rel="external">betterworks - 不知道干啥用的</a></li>
+<li><a href="http://zabbix.memetest.com/screens.php?elementid=23" target="_blank" rel="external">zabbix - 监控服务器性能</a></li>
+<li><a href="https://shimo.im/spreadsheet/MHWKklGP9wETlVJN" target="_blank" rel="external">加班 - 在这里记录</a></li>
+<li><a href="https://shimo.im/doc/PYgKIyA1g4srbTCG" target="_blank" rel="external">上线规范</a></li>
+</ul>
+<h2 id="在线工具集合"><a href="#在线工具集合" class="headerlink" title="在线工具集合"></a>在线工具集合</h2><ul>
+<li><a href="http://tool.chinaz.com/Tools/URLEncode.aspx" target="_blank" rel="external">url解析</a></li>
+<li><a href="http://json.parser.online.fr/" target="_blank" rel="external">在线json解析</a></li>
+<li><a href="http://www.webtoolkitonline.com/xml-formatter.html" target="_blank" rel="external">在线xml解析</a></li>
+<li><a href="http://www.shucunwang.com/RunCode/php5.6/" target="_blank" rel="external">在线调试php代码</a></li>
+<li><a href="http://cli.im/url" target="_blank" rel="external">生成二维码</a></li>
+<li><a href="https://www.processon.com/i/5760ecd1e4b04678e07895bb" target="_blank" rel="external">在线绘制流程图</a></li>
+<li><a href="http://www.appinn.com/waifu2x/" target="_blank" rel="external">二次元图片进行无损放大</a></li>
+</ul>
+<h2 id="碰到疑问了-查找资料"><a href="#碰到疑问了-查找资料" class="headerlink" title="碰到疑问了?查找资料"></a>碰到疑问了?查找资料</h2><ul>
+<li><a href="http://www.zhihu.com/" target="_blank" rel="external">知乎 - 内事不决问知乎</a></li>
+<li><a href="http://cn.bing.com/" target="_blank" rel="external">必应 - 不能科学上网的时候就用必应吧，每日壁纸棒棒哒</a></li>
+<li><a href="https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5" target="_blank" rel="external">维基 - 查找资料找维基百科,超全的</a></li>
+</ul>
+<h2 id="博客相关"><a href="#博客相关" class="headerlink" title="博客相关"></a>博客相关</h2><ul>
+<li><a href="https://github.com/" target="_blank" rel="external">github</a></li>
+<li><a href="http://jimxu.duoshuo.com/admin/" target="_blank" rel="external">多说评论</a></li>
+<li><a href="https://au.godaddy.com/" target="_blank" rel="external">狗爹服务器</a></li>
+<li><a href="https://portal.qiniu.com/signin" target="_blank" rel="external">七牛云服务器</a></li>
+</ul>
+<h2 id="没事干？学点知识"><a href="#没事干？学点知识" class="headerlink" title="没事干？学点知识"></a>没事干？学点知识</h2><ul>
+<li><a href="http://www.w3school.com.cn/index.html" target="_blank" rel="external">w3school</a></li>
+<li><a href="http://www.imooc.com/u/3159302/plans" target="_blank" rel="external">慕课网</a></li>
+<li><a href="https://cn.udacity.com/" target="_blank" rel="external">优达学院</a></li>
+<li><a href="http://www.liaoxuefeng.com" target="_blank" rel="external">廖雪峰教程:提供js、git、python的详细教程，零基础入门</a></li>
+<li><a href="http://www.digpage.com/mvc.html#id2" target="_blank" rel="external">深入理解Yii2.0</a></li>
+<li><a href="https://mp.weixin.qq.com/debug/wxadoc/dev/framework/app-service/app.html?t=20161107" target="_blank" rel="external">微信公众平台小程序教程</a></li>
+<li><a href="http://mp.weixin.qq.com/wiki/10/0234e39a2025342c17a7d23595c6b40a.html" target="_blank" rel="external">微信公众号开发者文档</a></li>
+</ul>
+<h2 id="啦啦啦，分类名好难起"><a href="#啦啦啦，分类名好难起" class="headerlink" title="啦啦啦，分类名好难起"></a>啦啦啦，分类名好难起</h2><ul>
+<li><a href="http://wowubuntu.com/markdown/" target="_blank" rel="external">markdown语法，忘了的时候看看</a></li>
+<li><a href="https://psr.phphub.org/" target="_blank" rel="external">psr规范</a></li>
+<li><a href="http://www.agilemanifesto.org/principles.html" target="_blank" rel="external">敏捷开发宣言</a></li>
+</ul>
+<h2 id="读一读大牛的博客"><a href="#读一读大牛的博客" class="headerlink" title="读一读大牛的博客"></a>读一读大牛的博客</h2><ul>
+<li><a href="http://blog.csdn.net/shuishui8310/" target="_blank" rel="external">水水的magento专栏</a></li>
+<li><a href="http://www.tudou.com/plcover/u5VY89ki_4U/" target="_blank" rel="external">钥匙的magento视频教程</a></li>
+<li><a href="http://wxsblog.com/" target="_blank" rel="external">风雪博客</a></li>
+<li><a href="http://www.netcan666.com/" target="_blank" rel="external">Netcan</a></li>
+<li><a href="http://www.ruanyifeng.com/blog/archives.html" target="_blank" rel="external">阮一峰的网络日志</a></li>
+<li><a href="macshuo.com">MacTalk-池建强的随想录</a></li>
+</ul>
+<h2 id="逛逛技术社区"><a href="#逛逛技术社区" class="headerlink" title="逛逛技术社区"></a>逛逛技术社区</h2><ul>
+<li><a href="http://www.v2ex.com/?r=jimxu16" target="_blank" rel="external">V2EX：国内热门的技术讨论社区</a></li>
+<li><a href="http://magento.stackexchange.com" target="_blank" rel="external">stackoverflow的magento版块</a></li>
+<li><a href="https://segmentfault.com" target="_blank" rel="external">segmentfault,国内的stackoverflow</a></li>
+<li><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="external">Hexo使用说明文档</a></li>
+<li><a href="https://makandracards.com/magento" target="_blank" rel="external">magento代码片段</a></li>
+<li><a href="http://www.cnblogs.com" target="_blank" rel="external">博客园</a></li>
+</ul>
+<h2 id="mac软件下载"><a href="#mac软件下载" class="headerlink" title="mac软件下载"></a>mac软件下载</h2><ul>
+<li><a href="https://atom-china.org" target="_blank" rel="external">Atom中文社区</a></li>
+<li><a href="http://sspai.com/search/?q=%E8%A3%85%E4%BA%86%E5%95%A5" target="_blank" rel="external">少数派-装了啥专栏</a></li>
+<li><a href="http://xclient.info/s/" target="_blank" rel="external">xclient.info: mac软件下载</a></li>
+<li><a href="http://bbs.feng.com/forum.php?mod=forumdisplay&amp;fid=19&amp;page=" target="_blank" rel="external">威锋网</a></li>
+<li><a href="http://appshopper.com" target="_blank" rel="external">关注appshopper-软件降价了给你发邮件</a></li>
+</ul>
+<h2 id="要做报告-找ppt模板"><a href="#要做报告-找ppt模板" class="headerlink" title="要做报告,找ppt模板"></a>要做报告,找ppt模板</h2><ul>
+<li><a href="http://www.officeplus.cn/Template/Home.shtml" target="_blank" rel="external">OfficePLUS，微软Office官方在线模板网站！</a> </li>
+<li><a href="http://www.docer.com" target="_blank" rel="external">稻壳儿</a></li>
+<li><a href="http://www.51pptmoban.com/ppt/" target="_blank" rel="external">51PPT模板网</a></li>
+<li><a href="http://www.pptmind.com" target="_blank" rel="external">PPTMind | 专注分享高端ppt模板&amp;keynote模板</a></li>
+</ul>
+<h2 id="好玩的"><a href="#好玩的" class="headerlink" title="好玩的"></a>好玩的</h2><ul>
+<li><a href="http://skill.phodal.com/#_a2b2c2dekm2_1_Name" target="_blank" rel="external">程序员技能树</a></li>
+<li><a href="https://unsplash.it/1920/1080/?random" target="_blank" rel="external">每日随机高清壁纸： 可以用来生成随机网站背景</a></li>
+<li><a href="http://cn.bing.com/dreammap/?mkt=zh-cn&amp;lat=50.569656&amp;lon=-3.898700&amp;ct=%E5%BE%B7%E6%96%87%E9%83%A1&amp;cy=%E8%8B%B1%E5%9B%BD&amp;sib=1&amp;FORM=BNLH" target="_blank" rel="external">必应梦想地图</a></li>
+<li><a href="https://1111.segmentfault.com/" target="_blank" rel="external">光棍节程序员闯关游戏</a></li>
+</ul>
+<h2 id="备份，早晚用的上"><a href="#备份，早晚用的上" class="headerlink" title="备份，早晚用的上"></a>备份，早晚用的上</h2><ul>
+<li><a href="https://chi.miantiao.me/zhihu-daily-rss/" target="_blank" rel="external">知乎日报rss订阅</a></li>
+</ul>
+<h2 id="张弛有度？娱乐的也不能少"><a href="#张弛有度？娱乐的也不能少" class="headerlink" title="张弛有度？娱乐的也不能少"></a><span id="jump">张弛有度？娱乐的也不能少</span></h2><ul>
+<li><a href="http://www.bilibili.com" target="_blank" rel="external">壮哉我大B站</a></li>
+<li><a href="http://www.acfun.tv" target="_blank" rel="external">B站挂了可以上A站</a></li>
+<li><a href="http://www.u17.com" target="_blank" rel="external">有妖气漫画</a></li>
+<li><a href="http://ac.qq.com" target="_blank" rel="external">腾讯漫画</a></li>
+<li><a href="http://ac.qq.com/Comic/comicInfo/id/524356" target="_blank" rel="external">腾讯漫画-从前有座灵剑山</a></li>
+<li><a href="http://www.bilibili.com/video/av5702566/" target="_blank" rel="external">腾讯电视剧-诛仙青云志</a></li>
+<li><a href="https://www.youtube.com/?hl=zh-cn" target="_blank" rel="external">youtube</a></li>
+<li><a href="https://twitter.com/?request_context=signup" target="_blank" rel="external">twitter</a></li>
+<li><a href="http://www.iqiyi.com/a_19rrhb3xvl.html#vfrm=2-3-0-1" target="_blank" rel="external">看海贼王就去爱奇艺</a></li>
+<li><a href="">看电视剧用优酷pc客户端，没广告</a></li>
+<li><a href="http://boards.4chan.org/v/" target="_blank" rel="external">4chan没品笑话，慎点</a></li>
+</ul>
+<h2 id="无聊的时候"><a href="#无聊的时候" class="headerlink" title="无聊的时候"></a>无聊的时候</h2><ul>
+<li><a href="http://www.yilan.io/home/?category=_recommend" target="_blank" rel="external">一览，看看有什么新鲜事</a></li>
+<li><a href="http://www.tianya.cn" target="_blank" rel="external">啥事不决问天涯</a></li>
+<li><a href="http://www.jianshu.com" target="_blank" rel="external">简书</a></li>
+<li><a href="http://tieba.baidu.com" target="_blank" rel="external">贴吧</a></li>
+</ul>
+
+    
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="Jimxu" />
+          <p class="site-author-name" itemprop="name">Jimxu</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">108</span>
+                <span class="site-state-item-name">文章</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">33</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">35</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jimxu</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 提供技术支持
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "203f2163604d4e4dbad7cfd8affbb7f0",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+</body>
+</html>

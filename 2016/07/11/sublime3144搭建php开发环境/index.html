@@ -1,0 +1,1064 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next pisces" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="php,sublime," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jimxu技术日记" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="sublime是兼备美观、轻便、扩展性强为一身的最强大的编辑器之一（没有之一的话会被打的吧） 最新版的sublime自带的GOTO功能解决了php需要安装ctags插件才能进行跳转的不方便之处，无需手动生成tags文件即可跳转 配置环境为mac，部分内容可能不适合windows环境 sublime虽然也支持debug功能，但肯定没有phpstorm好用，如果经常需要debug功能的，建议切换到p">
+<meta name="keywords" content="php,sublime">
+<meta property="og:type" content="article">
+<meta property="og:title" content="sublime3144版本搭建php开发环境">
+<meta property="og:url" content="http://jimxu.me/2016/07/11/sublime3144搭建php开发环境/index.html">
+<meta property="og:site_name" content="Jimxu技术日记">
+<meta property="og:description" content="sublime是兼备美观、轻便、扩展性强为一身的最强大的编辑器之一（没有之一的话会被打的吧） 最新版的sublime自带的GOTO功能解决了php需要安装ctags插件才能进行跳转的不方便之处，无需手动生成tags文件即可跳转 配置环境为mac，部分内容可能不适合windows环境 sublime虽然也支持debug功能，但肯定没有phpstorm好用，如果经常需要debug功能的，建议切换到p">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468233622657.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468231624322.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468233896575.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468477997880.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468233445271.png">
+<meta property="og:updated_time" content="2017-05-11T09:50:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="sublime3144版本搭建php开发环境">
+<meta name="twitter:description" content="sublime是兼备美观、轻便、扩展性强为一身的最强大的编辑器之一（没有之一的话会被打的吧） 最新版的sublime自带的GOTO功能解决了php需要安装ctags插件才能进行跳转的不方便之处，无需手动生成tags文件即可跳转 配置环境为mac，部分内容可能不适合windows环境 sublime虽然也支持debug功能，但肯定没有phpstorm好用，如果经常需要debug功能的，建议切换到p">
+<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468233622657.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://jimxu.me/2016/07/11/sublime3144搭建php开发环境/"/>
+
+
+
+
+
+  <title> sublime3144版本搭建php开发环境 | Jimxu技术日记 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jimxu技术日记</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">个人标签：宅男、PHP开发、软件、手游、小说</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-message board">
+          <a href="/messageboard" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            留言板
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/07/11/sublime3144搭建php开发环境/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jimxu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jimxu技术日记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                sublime3144版本搭建php开发环境
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-11T17:36:35+08:00">
+                2016-07-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Editor/" itemprop="url" rel="index">
+                    <span itemprop="name">Editor</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Editor/sublime/" itemprop="url" rel="index">
+                    <span itemprop="name">sublime</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2016/07/11/sublime3144搭建php开发环境/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">已有
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>人阅读
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p><code>sublime</code>是兼备美观、轻便、扩展性强为一身的最强大的编辑器之一（没有之一的话会被打的吧）</p>
+<p>最新版的<code>sublime</code>自带的<code>GOTO</code>功能解决了<code>php</code>需要安装<code>ctags</code>插件才能进行跳转的不方便之处，无需手动生成<code>tags</code>文件即可跳转</p>
+<p>配置环境为<code>mac</code>，部分内容可能不适合<code>windows</code>环境</p>
+<p><code>sublime</code>虽然也支持<code>debug</code>功能，但肯定没有<code>phpstorm</code>好用，如果经常需要<code>debug</code>功能的，建议切换到<code>phpstorm</code>使用</p>
+</blockquote>
+<a id="more"></a>
+<h1 id="sublime下载"><a href="#sublime下载" class="headerlink" title="sublime下载"></a>sublime下载</h1><p>直接从<code>sublime</code>的官网下载安装文件：<a href="https://www.sublimetext.com/" target="_blank" rel="external">https://www.sublimetext.com/</a></p>
+<h1 id="万物的起始-安装插件管理工具package-control"><a href="#万物的起始-安装插件管理工具package-control" class="headerlink" title="万物的起始:安装插件管理工具package control"></a>万物的起始:安装插件管理工具<code>package control</code></h1><p>使用<code>Ctrl</code>+<code>、</code>（数字1左边那个）快捷键或者通过<code>View</code>&gt;<code>Show Console</code>菜单打开命令行</p>
+<p>输入以下内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">import urllib.request,os; pf = &apos;Package Control.sublime-package&apos;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &apos;wb&apos;).write(urllib.request.urlopen( &apos;http://sublime.wbond.net/&apos; + pf.replace(&apos; &apos;,&apos;%20&apos;)).read())</div></pre></td></tr></table></figure>
+<p>按确认后即开始安装<code>package control</code></p>
+<blockquote>
+<p>安装报错：No such file or directory: ‘/Users/jim/Library/Application Support/Sublime Text 3/Installed Packages/Package Control.sublime-package’<br>参考<code>https://packagecontrol.io/installation</code>手动安装即可</p>
+<p>不能获取插件列表 Package Control：There are no packages available for installation错误解决方案：</p>
+<ul>
+<li>cmd下输入ping sublime.wbond.net链接一下看下sublime.wbond.net这个域名的ip.</li>
+<li>打开<code>\etc\hosts</code>文件。在最后面加上例如50.116.34.243 sublime.wbond.net这样的对应关系，IP是上面测试的。</li>
+<li>然后请关闭Submine Text并重启，即不会再弹出更新提醒了。</li>
+</ul>
+</blockquote>
+<h1 id="配置和快捷键修改"><a href="#配置和快捷键修改" class="headerlink" title="配置和快捷键修改"></a>配置和快捷键修改</h1><p>进入<code>Sublime Text</code>&gt;<code>Perferences</code><br>可以看到<code>Settings - Default</code>系统设置、<code>Settings - User</code>用户设置、<code>Key Bindings - Default</code>系统快捷键、<code>Key Bindings - User</code>用户快捷键</p>
+<p>不管是修改<code>Default</code>还是<code>User</code>都可以，但是，推荐的做法（也是为了以后备份的需要），是先将<code>Default</code>里的内容拷贝一份到<code>User</code>中，再在<code>User</code>中进行修改</p>
+<h1 id="php开发插件推荐"><a href="#php开发插件推荐" class="headerlink" title="php开发插件推荐"></a>php开发插件推荐</h1><p>插件安装的方法及其简便，<code>Command</code>+<code>Shift</code>+<code>P</code>唤出命令面板，输入<code>install</code>,选择<code>Package Control : Install Package</code>，确认后过一段时间加载出包安装界面，输入扩展的名称搜索，选中你想安装的扩展确认即可自动安装</p>
+<p>如果一直无法加载出包安装界面，说明你的网络存在问题</p>
+<p>以下是推荐安装的插件</p>
+<ul>
+<li><p>SideBarEnhancement  侧边栏增强插件<br>  必装插件，安装完该插件后，在侧边栏文件上右击即可看到效果</p>
+</li>
+<li><p>Colorsublime    主题库插件<br>  Why we use sublime? beacuse it is Cool!<br>  安装<code>colorsublime</code>插件后，为自动为你下载近百套主题到本地，供你切换使用，你只需<code>Command</code>+<code>Shift</code>+<code>P</code>呼出控制面板，输入<code>install theme</code>，确认后出现主题列表，可以用上下键预览主题的效果，按确认键确定主题</p>
+</li>
+</ul>
+<ul>
+<li><p>SideBarFolders    项目列表插件<br>  如果需要打开多个项目文件夹，切经常在多个项目之间切换工作空间，可以安装<code>SideBarFolders</code>插件，该插件在在菜单栏多出一个<code>Folders</code>选项，点击可查看所有项目文件夹</p>
+</li>
+<li><p>AllAutocomplete    代码自动补全插件<br>  默认的补全只能根据当前文件进行补全，安装了<code>AllAutocomplete</code>插件后会根据你已经打开的标签文件进行补全</p>
+</li>
+<li><p>BracketHignlighter    高亮配对的括号插件<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1468233622657.png" alt=""></p>
+</li>
+</ul>
+<ul>
+<li><p>SyncedSidevarBg插件    修改侧边栏颜色插件<br>  使用深色主题的时候，感觉白色的<code>Sublime Text</code>&gt;<code>Perferences</code>侧边栏与之颜色不搭，可以使用<code>SyncedSidevarBg</code>插件<br>  该插件会使得侧边栏的颜色和编辑区背景颜色保持一致,配合主题切换插件使用效果更加</p>
+</li>
+<li><p>Seti_UI    自带精美的文件图标的主题<br>  如图所示，会为侧边栏的文件生成不同样式的文件图标，同时不需要安装上面的<code>SyncedSidevarBg</code>插件也可以解决侧边栏颜色的问题<br>  <img src="http://o9xbyqajf.bkt.clouddn.com/images/1468231624322.png" alt=""></p>
+</li>
+</ul>
+<p>安装完成后，修改配置文件（<code>Sublime Text</code>&gt;<code>Perferences</code>&gt;<code>Settings - User</code>），加入以下内容启用<code>Seti-UI</code>主题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    &quot;theme&quot;: &quot;Seti.sublime-theme&quot;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<ul>
+<li>SideBarGit    在侧边栏显示文件的git状态的插件<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1468233896575.png" alt=""></li>
+</ul>
+<ul>
+<li>SublimeLinter和SublimeLinter-php    php错误提示插件<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1468477997880.png" alt=""></li>
+</ul>
+<ul>
+<li>Color Highlighter和ColorPicker    css颜色插件</li>
+</ul>
+<p>见单独介绍部分：<a href="http://jimxu.me/2016/07/06/sublime%E6%8F%92%E4%BB%B6-css%E9%A2%9C%E8%89%B2%E9%AB%98%E4%BA%AE%E4%B8%8E%E5%8F%96%E8%89%B2%E5%99%A8/">sublime插件 - css颜色高亮与取色器
+</a></p>
+<ul>
+<li><p>Markdown Preview和MarkdownEditing    Markdown编辑插件<br>见单独介绍部分:<a href="http://jimxu.me/2016/07/11/sublime%E6%8F%92%E4%BB%B6-markdown%E7%BC%96%E8%BE%91%E5%92%8C%E9%A2%84%E8%A7%88/">sublime插件 - markdown编辑和预览</a></p>
+</li>
+<li><p>WakaTime    记录编程习惯<br>见单独介绍部分:<a href="http://jimxu.me/2016/07/11/%E8%AE%B0%E5%BD%95%E4%BD%A0%E7%9A%84%E7%BC%96%E7%A8%8B%E4%B9%A0%E6%83%AF-%E7%BC%96%E8%BE%91%E5%99%A8%E9%80%9A%E7%94%A8%E6%8F%92%E4%BB%B6%EF%BC%9AWakaTime/">记录你的编程习惯 - 编辑器通用插件：WakaTime</a></p>
+</li>
+<li><p>AutoFileName    自动补全文件路径</p>
+</li>
+<li><p>Clickable URLs    链接可以点击</p>
+</li>
+<li><p>DashDoc    在<code>Dash</code>中查找光标所在的单词</p>
+</li>
+<li>outline    显示函数列表</li>
+</ul>
+<h1 id="其他配置"><a href="#其他配置" class="headerlink" title="其他配置"></a>其他配置</h1><h2 id="显示所有已打开的文件"><a href="#显示所有已打开的文件" class="headerlink" title="显示所有已打开的文件"></a>显示所有已打开的文件</h2><p>  <code>View</code> &gt; <code>Side Bar</code> &gt; <code>Show Open Files</code><br>  <img src="http://o9xbyqajf.bkt.clouddn.com/images/1468233445271.png" alt=""></p>
+<h2 id="配置php的编译环境"><a href="#配置php的编译环境" class="headerlink" title="配置php的编译环境"></a>配置php的编译环境</h2><p>见单独介绍部分：<a href="http://jimxu.me/2016/06/28/mac%E7%8E%AF%E5%A2%83sublime%E5%A2%9E%E5%8A%A0php%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/">mac环境sublime配置php编译环境</a></p>
+<h2 id="开启vim模式"><a href="#开启vim模式" class="headerlink" title="开启vim模式"></a>开启vim模式</h2><p><code>sublime</code>其实自带了<code>vim</code>的插件<code>Vintage</code>，但是被默认禁用了，只需要在配置文件中取消禁用即可</p>
+<p>打开<code>Sublime Text</code>&gt;<code>Perferences</code>&gt;<code>Settings - User</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&quot;ignored_packages&quot;: [&quot;Vintage&quot;],</div></pre></td></tr></table></figure>
+<p>修改为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&quot;ignored_packages&quot;: [],    //取消禁用Vintage模块</div><div class="line">&quot;vintage_ctrl_keys&quot;: true,     //在vim模式下支持ctrl快捷键的使用   </div><div class="line">&quot;vintage_start_in_command_mode&quot;: true,    //默认使用vim输入模式而不是插入模式</div></pre></td></tr></table></figure>
+<p>然后就可以欢快的像使用<code>vim</code>模式进行编辑了</p>
+<h2 id="sublime个人配置"><a href="#sublime个人配置" class="headerlink" title="sublime个人配置"></a>sublime个人配置</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">&quot;auto_find_in_selection&quot;: true,</div><div class="line">&quot;bold_folder_labels&quot;: true,</div><div class="line">&quot;color_scheme&quot;: &quot;Packages/User/SublimeLinter/1337 (SL).tmTheme&quot;,</div><div class="line">&quot;disable_tab_abbreviations&quot;: true,</div><div class="line">&quot;draw_minimap_border&quot;: true,    //在小地图上显示当前代码的位置</div><div class="line">&quot;draw_white_space&quot;: &quot;all&quot;,    //显示不可见的空格字符</div><div class="line">&quot;fade_fold_buttons&quot;: false,</div><div class="line">&quot;font_size&quot;: 14,    //字体大小</div><div class="line">&quot;highlight_line&quot;: true,    //高亮当前行</div><div class="line">&quot;highlight_modified_tabs&quot;: true,    //高亮已修改的标签页</div><div class="line">&quot;line_padding_bottom&quot;: 1,</div><div class="line">&quot;line_padding_top&quot;: 1,</div><div class="line">&quot;margin&quot;: 4,</div><div class="line">&quot;save_on_focus_lost&quot;: true,    //自动保存</div><div class="line">&quot;show_full_path&quot;: true,    //显示完成的文件目录</div><div class="line">&quot;tab_size&quot;: 4,    //一个tab转4个空格</div><div class="line">&quot;theme&quot;: &quot;Seti.sublime-theme&quot;,</div><div class="line">&quot;translate_tabs_to_spaces&quot;: true,    //tab键自动转空格</div><div class="line">&quot;vintage_ctrl_keys&quot;: true,    //vim模式支持ctrl组合的快捷键</div><div class="line">&quot;vintage_start_in_command_mode&quot;: true    //默认启动vim模式</div></pre></td></tr></table></figure>
+<h2 id="sublime个人热键设置"><a href="#sublime个人热键设置" class="headerlink" title="sublime个人热键设置"></a>sublime个人热键设置</h2><ul>
+<li>设置了跳转到方法以及返回的快捷键为<code>Command</code>+<code>[</code>,<code>Command</code>+<code>]</code></li>
+<li>参照<code>atom</code>的快捷键，设置了隐藏侧边栏为<code>Command</code>+<code>Shit</code>+<code>\</code>,在侧边栏中显示当前文件为<code>Command</code>+<code>\</code></li>
+<li>设置了预览在默认浏览器中预览<code>markdown</code>文件为<code>Option</code>+<code>M</code></li>
+<li>设置了在<code>Dash</code>中搜索光标所在词为<code>Option</code>+<code>D</code></li>
+</ul>
+<pre><code>{ &quot;keys&quot;: [&quot;super+left&quot;], &quot;command&quot;: &quot;jump_back&quot; },
+  { &quot;keys&quot;: [&quot;super+right&quot;], &quot;command&quot;: &quot;goto_definition&quot; },
+  { &quot;keys&quot;: [&quot;super+shift+\\&quot;], &quot;command&quot;: &quot;toggle_side_bar&quot; },
+  { &quot;keys&quot;: [&quot;super+\\&quot;], &quot;command&quot;: &quot;reveal_in_side_bar&quot;},
+  { &quot;keys&quot;: [&quot;alt+m&quot;], &quot;command&quot;: &quot;markdown_preview&quot;, &quot;args&quot;: { &quot;target&quot;: &quot;browser&quot;}},
+   { &quot;keys&quot;: [&quot;alt+d&quot;], &quot;command&quot;: &quot;dash_doc&quot;},
+</code></pre><h2 id="备份sublime插件及设置"><a href="#备份sublime插件及设置" class="headerlink" title="备份sublime插件及设置"></a>备份sublime插件及设置</h2><p>将<code>~/Library/Application Support/Sublime Text 3/Packages/User</code>文件夹备份到可同步的云盘文件夹，如<code>坚果云</code>，即可自动备份<code>sublime</code>中已安装的插件和设置</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/php/" rel="tag"># php</a>
+          
+            <a href="/tags/sublime/" rel="tag"># sublime</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/11/magento汉化/" rel="next" title="magento后台汉化">
+                <i class="fa fa-chevron-left"></i> magento后台汉化
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/07/11/sublime插件-markdown编辑和预览/" rel="prev" title="sublime插件 - markdown编辑和预览">
+                sublime插件 - markdown编辑和预览 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="Jimxu" />
+          <p class="site-author-name" itemprop="name">Jimxu</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">108</span>
+                <span class="site-state-item-name">文章</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">33</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">35</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#sublime下载"><span class="nav-number">1.</span> <span class="nav-text">sublime下载</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#万物的起始-安装插件管理工具package-control"><span class="nav-number">2.</span> <span class="nav-text">万物的起始:安装插件管理工具package control</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#配置和快捷键修改"><span class="nav-number">3.</span> <span class="nav-text">配置和快捷键修改</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#php开发插件推荐"><span class="nav-number">4.</span> <span class="nav-text">php开发插件推荐</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其他配置"><span class="nav-number">5.</span> <span class="nav-text">其他配置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#显示所有已打开的文件"><span class="nav-number">5.1.</span> <span class="nav-text">显示所有已打开的文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#配置php的编译环境"><span class="nav-number">5.2.</span> <span class="nav-text">配置php的编译环境</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开启vim模式"><span class="nav-number">5.3.</span> <span class="nav-text">开启vim模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sublime个人配置"><span class="nav-number">5.4.</span> <span class="nav-text">sublime个人配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#sublime个人热键设置"><span class="nav-number">5.5.</span> <span class="nav-text">sublime个人热键设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#备份sublime插件及设置"><span class="nav-number">5.6.</span> <span class="nav-text">备份sublime插件及设置</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jimxu</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 提供技术支持
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "203f2163604d4e4dbad7cfd8affbb7f0",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+</body>
+</html>

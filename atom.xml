@@ -1,0 +1,1196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jimxu技术日记</title>
+  <subtitle>个人标签：宅男、PHP开发、软件、手游、小说</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://jimxu.me/"/>
+  <updated>2017-05-11T09:59:35.000Z</updated>
+  <id>http://jimxu.me/</id>
+  
+  <author>
+    <name>Jimxu</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从零搭建mac开发环境</title>
+    <link href="http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/"/>
+    <id>http://jimxu.me/2017/05/10/从零搭建mac环境/</id>
+    <published>2017-05-10T13:48:02.000Z</published>
+    <updated>2017-05-11T09:59:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<ul>
+<li>登录apple账号</li>
+<li>设置快捷键</li>
+<li>设置触摸板（三指拖拽功能在<code>辅助功能</code>中设置）</li>
+<li>设置触发角</li>
+<li>下载已购项目</li>
+<li>设置dock<br>置于左侧<br>将窗口最小化为应用程序图标</li>
+<li>安装homebrew</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></pre></td></tr></table></figure>
+<ul>
+<li>通过homebrew安装homebrew-cask</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew tap caskroom/cask</div></pre></td></tr></table></figure>
+<ul>
+<li>通过homebrew-cask安装shadowsocksx</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew cask install shadowsocksx</div></pre></td></tr></table></figure>
+<ul>
+<li>开启shadowsocksx,登录chrome浏览器，同步书签和插件</li>
+<li>安装alfred并安装chrome书签的workflow</li>
+<li>安装git</li>
+</ul>
+<p><a href="https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md" target="_blank" rel="external">怎样在一台电脑上同时使用公司 GitLab 和 Github 的服务</a></p>
+<blockquote>
+<p>终端输入git</p>
+</blockquote>
+<ul>
+<li>安装iterm2</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">https://www.iterm2.com/downloads.html</div></pre></td></tr></table></figure>
+<ul>
+<li>安装oh my zsh</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
+<p>安装wd和zsh-wakatime插件</p>
+<p>设置主题为powerline</p>
+<p>安装powerline等宽字体</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/powerline/fonts.git</div><div class="line">cd fonts</div><div class="line">./install.sh</div><div class="line">cd .. &amp;&amp; rm -rf fonts</div></pre></td></tr></table></figure>
+<p>设置等宽字体<br>Profiles - Text - Font</p>
+<ul>
+<li>使用zsh</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chsh -s /bin/zsh</div></pre></td></tr></table></figure>
+<ul>
+<li><p>安装nginx<br>brew install nginx<br>配置servers文件<br>设置log路径</p>
+</li>
+<li><p>安装php<br>brew install php70<br>设置环境变量<br>设置log路径<br>安装扩展</p>
+</li>
+<li><p>安装redis<br>brew install redis<br>设置log路径<br>关闭持久化</p>
+</li>
+<li><p>安装mysql</p>
+</li>
+</ul>
+<p><a href="http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html" target="_blank" rel="external">下载安装：http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html</a></p>
+<p><a href="http://www.jianshu.com/p/fd3aae701db9" target="_blank" rel="external">配置：http://www.jianshu.com/p/fd3aae701db9
+</a></p>
+<ul>
+<li>安装reeder，登录inoreader账号</li>
+<li>安装quiver、paste、yonik、bartender、moom、dash等常用软件</li>
+<li>安装hexo</li>
+<li>设置开启启动app</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;登录apple账号&lt;/li&gt;
+&lt;li&gt;设置快捷键&lt;/li&gt;
+&lt;li&gt;设置触摸板（三指拖拽功能在&lt;code&gt;辅助功能&lt;/code&gt;中设置）&lt;/li&gt;
+&lt;li&gt;设置触发角&lt;/li&gt;
+&lt;li&gt;下载已购项目&lt;/li&gt;
+&lt;li&gt;设置do
+    
+    </summary>
+    
+      <category term="Mac" scheme="http://jimxu.me/categories/Mac/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>phpstorm安装Atom主题</title>
+    <link href="http://jimxu.me/2017/04/27/phpstorm%E5%AE%89%E8%A3%85Atom%E4%B8%BB%E9%A2%98/"/>
+    <id>http://jimxu.me/2017/04/27/phpstorm安装Atom主题/</id>
+    <published>2017-04-27T10:47:52.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<ol>
+<li>下载atom主题icls文件<br><a href="https://github.com/jesusOmar/one-dark-phpstorm" target="_blank" rel="external">https://github.com/jesusOmar/one-dark-phpstorm</a></li>
+</ol>
+<ol>
+<li><p>拷贝到<code>/Users/jim/Library/Preferences/PhpStorm2016.2/colors</code>路径</p>
+</li>
+<li><p>设置主题<br><code>Editor/Colors &amp; Fonts/</code></p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ol&gt;
+&lt;li&gt;下载atom主题icls文件&lt;br&gt;&lt;a href=&quot;https://github.com/jesusOmar/one-dark-phpstorm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https:/
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
+    
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>后端开发技能树</title>
+    <link href="http://jimxu.me/2017/04/20/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/"/>
+    <id>http://jimxu.me/2017/04/20/后端开发必备技能/</id>
+    <published>2017-04-20T15:54:54.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<ul>
+<li>PHP<ul>
+<li>基础语法</li>
+<li>各版本新特性</li>
+<li>PHP7</li>
+<li>php-fpm</li>
+<li>常用框架<ul>
+<li>Yii</li>
+<li>CI</li>
+<li>thinkphp</li>
+<li>Laravel</li>
+<li>magento</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>GO<ul>
+<li>和其他语言比较</li>
+<li>goroutine和channel</li>
+</ul>
+</li>
+<li>nginx</li>
+<li>apache</li>
+<li>curl(get/post)</li>
+<li>json</li>
+<li>前端知识<ul>
+<li>html5</li>
+<li>css3</li>
+<li>node.js</li>
+<li>js</li>
+</ul>
+</li>
+<li>debug</li>
+<li>单元测试</li>
+<li>redis<ul>
+<li>与memecached比较</li>
+<li>缓存穿透</li>
+<li>原子性</li>
+</ul>
+</li>
+<li>操作系统<ul>
+<li>windows</li>
+<li>macos</li>
+<li>linux</li>
+</ul>
+</li>
+<li>SQL<ul>
+<li>常用命令</li>
+<li>索引 index</li>
+<li>事务 transaction</li>
+<li>优化</li>
+<li>存储过程</li>
+</ul>
+</li>
+<li>面向对象<ul>
+<li>继承</li>
+<li>组合(接口)</li>
+</ul>
+</li>
+<li>设计模式<ul>
+<li>23种设计模式</li>
+</ul>
+</li>
+<li>异步<ul>
+<li>ajax</li>
+<li>队列 queue</li>
+</ul>
+</li>
+<li>微服务化<ul>
+<li>服务间通信</li>
+<li>日志</li>
+</ul>
+</li>
+<li>工具<ul>
+<li>git</li>
+<li>soureTree</li>
+<li>phpStorm</li>
+<li>phpunit</li>
+<li>phpcs</li>
+<li>phpmd</li>
+</ul>
+</li>
+<li>大数据时代<ul>
+<li>用户画像 </li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;PHP&lt;ul&gt;
+&lt;li&gt;基础语法&lt;/li&gt;
+&lt;li&gt;各版本新特性&lt;/li&gt;
+&lt;li&gt;PHP7&lt;/li&gt;
+&lt;li&gt;php-fpm&lt;/li&gt;
+&lt;li&gt;常用框架&lt;ul&gt;
+&lt;li&gt;Yii&lt;/li&gt;
+&lt;li&gt;CI&lt;/li&gt;
+&lt;li&gt;th
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>书单</title>
+    <link href="http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/"/>
+    <id>http://jimxu.me/2017/04/15/书单/</id>
+    <published>2017-04-15T00:34:23.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h1 id="PHP与Mysql开发"><a href="#PHP与Mysql开发" class="headerlink" title="PHP与Mysql开发"></a>PHP与Mysql开发</h1><h1 id="PHP对象、设计与实践"><a href="#PHP对象、设计与实践" class="headerlink" title="PHP对象、设计与实践"></a>PHP对象、设计与实践</h1><h1 id="程序员修炼之道：从小工到专家"><a href="#程序员修炼之道：从小工到专家" class="headerlink" title="程序员修炼之道：从小工到专家"></a>程序员修炼之道：从小工到专家</h1><h1 id="黑客与画家"><a href="#黑客与画家" class="headerlink" title="黑客与画家"></a>黑客与画家</h1><h1 id="人月神话"><a href="#人月神话" class="headerlink" title="人月神话"></a>人月神话</h1><h1 id="重构"><a href="#重构" class="headerlink" title="重构"></a>重构</h1><h1 id="代码整洁之道"><a href="#代码整洁之道" class="headerlink" title="代码整洁之道"></a>代码整洁之道</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;PHP与Mysql开发&quot;&gt;&lt;a href=&quot;#PHP与Mysql开发&quot; class=&quot;headerlink&quot; title=&quot;PHP与Mysql开发&quot;&gt;&lt;/a&gt;PHP与Mysql开发&lt;/h1&gt;&lt;h1 id=&quot;PHP对象、设计与实践
+    
+    </summary>
+    
+      <category term="Reading" scheme="http://jimxu.me/categories/Reading/"/>
+    
+    
+      <category term="reading" scheme="http://jimxu.me/tags/reading/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[mysql error]The server quit without updating PID file </title>
+    <link href="http://jimxu.me/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/"/>
+    <id>http://jimxu.me/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/</id>
+    <published>2017-04-12T11:06:00.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>mysql是通过homebrew安装的,重启电脑后启动mysql报错</p>
+<a id="more"></a>
+<p>debug前须知：<br>mysql配置文件依次读取：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">/etc/my.cnf</div><div class="line">/etc/mysql/my.cnf</div><div class="line">~/my.cnf</div></pre></td></tr></table></figure></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017041214919952361252.png" alt="2017041214919952361252.png"></p>
+<p>网上提供的错误解决方法：</p>
+<h2 id="查看报错信息，有两处报错"><a href="#查看报错信息，有两处报错" class="headerlink" title="查看报错信息，有两处报错"></a>查看报错信息，有两处报错</h2><p>err文件位于<code>/usr/local/var/mysql/data</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199540435226.png" alt="20170412149199540435226.png"></p>
+<pre><code>- Can&apos;t open the mysql.plugin table. Please run mysql_upgrade to create it.
+按照提示运行`mysql_upgrade`报错
+![20170412149199546335602.png](http://o9xbyqajf.bkt.clouddn.com/20170412149199546335602.png)
+&gt;mysql_upgrade: Got error: 2002: Can&apos;t connect to local MySQL server through socket &apos;/tmp/mysql.sock&apos; (2) while connecting to the MySQL server
+</code></pre><p>Upgrade process encountered error and will not continue.</p>
+<pre><code>- Fatal error: Can&apos;t open and lock privilege tables: Table &apos;mysql.user&apos; doesn&apos;t exist
+</code></pre><h2 id="检查是否有实例正在运行"><a href="#检查是否有实例正在运行" class="headerlink" title="检查是否有实例正在运行"></a>检查是否有实例正在运行</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ps -ef | grep mysql</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199567567857.png" alt="20170412149199567567857.png"><br>结果：没有</p>
+<h2 id="删除-err文件"><a href="#删除-err文件" class="headerlink" title="删除.err文件"></a>删除.err文件</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199529841695.png" alt="20170412149199529841695.png"><br>结果：无效</p>
+<h2 id="改变权限"><a href="#改变权限" class="headerlink" title="改变权限"></a>改变权限</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chown -R _mysql:mysql /usr/local/var/mysql</div></pre></td></tr></table></figure>
+<p>结果：无效</p>
+<h2 id="重新初始化"><a href="#重新初始化" class="headerlink" title="重新初始化"></a>重新初始化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">unset TMPDIR</div><div class="line">mysql_install_db --verbose --user=`whoami` --basedir=&quot;$(brew --prefix mysql)&quot; --datadir=/usr/local/var/mysql/data --tmpdir=/tmp</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199560432948.png" alt="20170412149199560432948.png"></p>
+<p>因为/usr/local/var/mysql/data目录不为空，所以没法初始化，那么先清空目录，再初始化</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">unset TMPDIR</div><div class="line">cd /usr/local/var/mysql/data</div><div class="line">sudo rm *</div><div class="line">mysql_install_db</div></pre></td></tr></table></figure>
+<p>再运行<code>sudo mysql.server start</code>命令启动，依然报错，查看目录文件权限，原来初始化的时候又改变权限了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chown -R _mysql:mysql /usr/local/var/mysql</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017041214919969007399.png" alt="2017041214919969007399.png"></p>
+<p>DONE！</p>
+<p> brew services start mysql与mysql.server start</p>
+<p>2017-04-12T12:00:55.701485Z 1 [Note] A temporary password is generated for root@localhost: ZCBp1r-K0RlE</p>
+<p>If you lose this password, please consult the section How to Reset the Root Password in the MySQL reference manual.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mysql是通过homebrew安装的,重启电脑后启动mysql报错&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="mysql" scheme="http://jimxu.me/categories/IT/mysql/"/>
+    
+    
+      <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
+    
+      <category term="error" scheme="http://jimxu.me/tags/error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phpStorm快捷键个人设置</title>
+    <link href="http://jimxu.me/2017/04/12/phpStorm%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE/"/>
+    <id>http://jimxu.me/2017/04/12/phpStorm快捷键设置/</id>
+    <published>2017-04-12T07:12:11.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149198604588533.png" alt="20170412149198604588533.png"></p>
+<p>自定义phpstorm快捷键，类sublime风格</p>
+<a id="more"></a>
+<h1 id="将phpstorm快捷键设置为其它编辑器的"><a href="#将phpstorm快捷键设置为其它编辑器的" class="headerlink" title="将phpstorm快捷键设置为其它编辑器的"></a>将phpstorm快捷键设置为其它编辑器的</h1><p>从以下编辑器切换到phpstorm的可以直接使用原先的快捷键：</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149198586170323.png" alt="20170412149198586170323.png"></p>
+<h1 id="自定义快捷键"><a href="#自定义快捷键" class="headerlink" title="自定义快捷键"></a>自定义快捷键</h1><p>直接搜索快捷键的关键字修改</p>
+<h2 id="atom风格快捷键："><a href="#atom风格快捷键：" class="headerlink" title="atom风格快捷键："></a>atom风格快捷键：</h2><ul>
+<li>打开项目<code>Project</code></li>
+</ul>
+<blockquote>
+<p>command+\</p>
+</blockquote>
+<ul>
+<li>在项目中定位当前文件<code>Scroll From Source</code>(需要先安装Scorll From Source插件) </li>
+</ul>
+<blockquote>
+<p>command+shift+\</p>
+</blockquote>
+<h2 id="sublime风格快捷键"><a href="#sublime风格快捷键" class="headerlink" title="sublime风格快捷键:"></a>sublime风格快捷键:</h2><ul>
+<li>查找文件<code>Navigate-File</code></li>
+</ul>
+<blockquote>
+<p>command+p</p>
+</blockquote>
+<ul>
+<li>复制行 <code>Duplicate Line or Slection</code></li>
+</ul>
+<blockquote>
+<p>command+shift+d</p>
+</blockquote>
+<ul>
+<li>查找下一重复项 <code>Add Selection for Next Occurrence</code></li>
+</ul>
+<blockquote>
+<p>command+d</p>
+</blockquote>
+<ul>
+<li>查找所有重复项 <code>Select All Occurrences</code></li>
+</ul>
+<blockquote>
+<p>command+ctrl+g</p>
+</blockquote>
+<h2 id="vim风格快捷键"><a href="#vim风格快捷键" class="headerlink" title="vim风格快捷键"></a>vim风格快捷键</h2><ul>
+<li>代码片段展开 <code>Expand Live Template / Emmet Abbreviation</code></li>
+</ul>
+<blockquote>
+<p>ctrl+j</p>
+</blockquote>
+<ul>
+<li>格式化代码 <code>Refomat Code</code></li>
+</ul>
+<blockquote>
+<p>ctrl+alt+l</p>
+</blockquote>
+<h1 id="phpstorm其它常用快捷键"><a href="#phpstorm其它常用快捷键" class="headerlink" title="phpstorm其它常用快捷键"></a>phpstorm其它常用快捷键</h1><ul>
+<li>查找并替换 <code>Edit - Find - Replace</code></li>
+</ul>
+<blockquote>
+<p>command+r <code>Edit - Find - Find in Path</code></p>
+</blockquote>
+<ul>
+<li>全局搜索代码</li>
+</ul>
+<blockquote>
+<p>command+shift+f</p>
+</blockquote>
+<ul>
+<li>search everywhere</li>
+</ul>
+<blockquote>
+<p>shift+shift</p>
+</blockquote>
+<ul>
+<li>查找用例</li>
+</ul>
+<blockquote>
+<p>alt+F7</p>
+</blockquote>
+<ul>
+<li>重命名</li>
+</ul>
+<blockquote>
+<p>shift+F6 修改为F2</p>
+</blockquote>
+<ul>
+<li>打开终端</li>
+</ul>
+<blockquote>
+<p>command + -</p>
+</blockquote>
+<ul>
+<li>在Dash中查找</li>
+</ul>
+<blockquote>
+<p>alt+d</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170412149198604588533.png&quot; alt=&quot;20170412149198604588533.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;自定义phpstorm快捷键，类sublime风格&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
+    
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode搭建go-lang开发环境</title>
+    <link href="http://jimxu.me/2017/04/11/VScode%E6%90%AD%E5%BB%BAgo-lang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://jimxu.me/2017/04/11/VScode搭建go-lang开发环境/</id>
+    <published>2017-04-11T08:26:03.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h1 id="安装Go插件"><a href="#安装Go插件" class="headerlink" title="安装Go插件"></a>安装Go插件</h1><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189925767872.png" alt="20170411149189925767872.png"></p>
+<h1 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h1><p><code>command+,</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&quot;go.gopath&quot;: &quot;/users/jim/Documents/code/go&quot;,</div><div class="line">&quot;go.goroot&quot;: &quot;/usr/local/opt/go/libexec&quot;</div></pre></td></tr></table></figure></p>
+<h1 id="安装-golang-debug-插件-delve"><a href="#安装-golang-debug-插件-delve" class="headerlink" title="安装 golang debug 插件 delve"></a>安装 golang debug 插件 delve</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install go-delve/delve/delve</div></pre></td></tr></table></figure>
+<h1 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h1><p>当vocode提示缺少以下依赖的时候，选择安装<br>若安装失败，在终端运行对应的命令<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">go get -u -v github.com/nsf/gocode</div><div class="line">go get -u -v github.com/rogpeppe/godef</div><div class="line">go get -u -v github.com/golang/lint/golint</div><div class="line">go get -u -v github.com/lukehoban/go-outline</div><div class="line">go get -u -v sourcegraph.com/sqs/goreturns</div><div class="line">go get -u -v golang.org/x/tools/cmd/gorename</div><div class="line">go get -u -v github.com/tpng/gopkgs</div><div class="line">go get -u -v github.com/newhook/go-symbols</div><div class="line">go get -u -v golang.org/x/tools/cmd/guru</div></pre></td></tr></table></figure></p>
+<h1 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h1><p><code>调试 - 添加配置</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189954583746.png" alt="20170411149189954583746.png"></p>
+<p>修改<code>program</code>为文件路径</p>
+<figure class="highlight json"><figcaption><span>/Users/jim/Documents/code/go/.vscode/launch.json</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    <span class="attr">"version"</span>: <span class="string">"0.2.0"</span>,</div><div class="line">    <span class="attr">"configurations"</span>: [</div><div class="line">        &#123;</div><div class="line">            <span class="attr">"name"</span>: <span class="string">"Launch file"</span>,</div><div class="line">            <span class="attr">"type"</span>: <span class="string">"go"</span>,</div><div class="line">            <span class="attr">"request"</span>: <span class="string">"launch"</span>,</div><div class="line">            <span class="attr">"mode"</span>: <span class="string">"debug"</span>,</div><div class="line">            <span class="attr">"program"</span>: <span class="string">"/Users/jim/Documents/code/go/src/hello.go"</span></div><div class="line">        &#125;</div><div class="line">    ],</div><div class="line">    <span class="attr">"compounds"</span>: []</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>开始调试：</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189917370532.png" alt="20170411149189917370532.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;安装Go插件&quot;&gt;&lt;a href=&quot;#安装Go插件&quot; class=&quot;headerlink&quot; title=&quot;安装Go插件&quot;&gt;&lt;/a&gt;安装Go插件&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.cloud
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="vscode" scheme="http://jimxu.me/categories/Editor/vscode/"/>
+    
+    
+      <category term="vscode" scheme="http://jimxu.me/tags/vscode/"/>
+    
+      <category term="go" scheme="http://jimxu.me/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sublime搭建go-lang开发环境</title>
+    <link href="http://jimxu.me/2017/04/11/sublime%E6%90%AD%E5%BB%BAgo-lang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
+    <id>http://jimxu.me/2017/04/11/sublime搭建go-lang开发环境/</id>
+    <published>2017-04-11T06:39:36.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="安装GoSublime插件"><a href="#安装GoSublime插件" class="headerlink" title="安装GoSublime插件"></a>安装GoSublime插件</h2><p><code>package control</code>安装</p>
+<h2 id="设置GoSublime插件"><a href="#设置GoSublime插件" class="headerlink" title="设置GoSublime插件"></a>设置GoSublime插件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    &quot;env&quot;: &#123;</div><div class="line">        &quot;GOPATH&quot;: &quot;/Users/jim/Documents/code/go&quot;,</div><div class="line">        &quot;GOROOT&quot;: &quot;/usr/local/opt/go/libexec&quot;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="build-system"><a href="#build-system" class="headerlink" title="build system"></a>build system</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;安装GoSublime插件&quot;&gt;&lt;a href=&quot;#安装GoSublime插件&quot; class=&quot;headerlink&quot; title=&quot;安装GoSublime插件&quot;&gt;&lt;/a&gt;安装GoSublime插件&lt;/h2&gt;&lt;p&gt;&lt;code&gt;pa
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="sublime" scheme="http://jimxu.me/categories/Editor/sublime/"/>
+    
+    
+      <category term="go" scheme="http://jimxu.me/tags/go/"/>
+    
+      <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>sublime报错There are no packages available for installation</title>
+    <link href="http://jimxu.me/2017/04/11/sublime%E6%8A%A5%E9%94%99There-are-no-packages-available-for-installation/"/>
+    <id>http://jimxu.me/2017/04/11/sublime报错There-are-no-packages-available-for-installation/</id>
+    <published>2017-04-11T06:20:42.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189251312084.png" alt="20170411149189251312084.png"><br><code>There are no packages available for installation</code>报错可能只是你自己网络有问题</p>
+<a id="more"></a>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189167643657.png" alt="20170411149189167643657.png"></p>
+<blockquote>
+<p>Package Control</p>
+</blockquote>
+<p>There are no packages available for installation</p>
+<p>Please see <a href="https://packagecontrol.io/docs/troubleshooting" target="_blank" rel="external">https://packagecontrol.io/docs/troubleshooting</a> for help<br>&gt;</p>
+<p>网上的解决方案：</p>
+<ul>
+<li>IPV6,修改hosts</li>
+<li>json</li>
+<li>重装</li>
+</ul>
+<p>后来发现只是网络问题，只要使用科学上网法就可以解决了<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189200069709.png" alt="20170411149189200069709.png"></p>
+<p>如上图，开始使用的是自动代理模式，可能没有应用到sublime，设置成全局代理就ok了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170411149189251312084.png&quot; alt=&quot;20170411149189251312084.png&quot;&gt;&lt;br&gt;&lt;code&gt;There are no packages available for installation&lt;/code&gt;报错可能只是你自己网络有问题&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="sublime" scheme="http://jimxu.me/categories/Editor/sublime/"/>
+    
+    
+      <category term="error" scheme="http://jimxu.me/tags/error/"/>
+    
+      <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac安装go并运行第一个程序</title>
+    <link href="http://jimxu.me/2017/04/11/mac%E5%AE%89%E8%A3%85go%E5%B9%B6%E8%BF%90%E8%A1%8C%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F/"/>
+    <id>http://jimxu.me/2017/04/11/mac安装go并运行第一个程序/</id>
+    <published>2017-04-11T03:53:15.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149188484167726.png" alt="20170411149188484167726.png"></p>
+<ul>
+<li>homebrew安装go</li>
+<li>配置环境变量</li>
+<li>在终端运行go程序</li>
+</ul>
+<a id="more"></a>
+<h1 id="通过homebrew安装go"><a href="#通过homebrew安装go" class="headerlink" title="通过homebrew安装go"></a>通过homebrew安装go</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew update</div><div class="line">brew install go</div></pre></td></tr></table></figure>
+<h1 id="添加环境变量"><a href="#添加环境变量" class="headerlink" title="添加环境变量"></a>添加环境变量</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">#编辑~/.zshrc</div><div class="line">export GOROOT=/usr/local/opt/go/libexec</div><div class="line">export GOPATH=$HOME/.go</div><div class="line">export PATH=$PATH:$GOROOT/bin:$GOPATH/bin</div></pre></td></tr></table></figure>
+<p>保存后执行<code>source ~/.zshrc</code></p>
+<h1 id="在终端环境运行go程序"><a href="#在终端环境运行go程序" class="headerlink" title="在终端环境运行go程序"></a>在终端环境运行go程序</h1><p>新建文件<code>hello.go</code>，编辑如下并保存<br><figure class="highlight go"><figcaption><span>~/code/go/src/hello.go</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// hello.go</span></div><div class="line"><span class="keyword">package</span> main</div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">  fmt.Printf(<span class="string">"Hello, world!"</span>)</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>在终端执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd ~/code/go/src/hello.go</div><div class="line">go run hello.go</div></pre></td></tr></table></figure></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149188473495637.png" alt="20170411149188473495637.png"></p>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><blockquote>
+<p><a href="https://golang.org/doc/install?download=go1.8.1.darwin-amd64.pkg" target="_blank" rel="external">https://golang.org/doc/install?download=go1.8.1.darwin-amd64.pkg</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170411149188484167726.png&quot; alt=&quot;20170411149188484167726.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;homebrew安装go&lt;/li&gt;
+&lt;li&gt;配置环境变量&lt;/li&gt;
+&lt;li&gt;在终端运行go程序&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="go" scheme="http://jimxu.me/categories/IT/go/"/>
+    
+    
+      <category term="go" scheme="http://jimxu.me/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go语言入门知识点</title>
+    <link href="http://jimxu.me/2017/04/11/go%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E7%82%B9/"/>
+    <id>http://jimxu.me/2017/04/11/go语言入门知识点/</id>
+    <published>2017-04-11T02:09:55.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>初步学习go语言，为GopherChina大会作准备</p>
+<blockquote>
+<p><a href="https://www.gitbook.com/book/tl3shi/the-way-to-go" target="_blank" rel="external">GO入门指南</a><br><a href="https://wizardforcel.gitbooks.io/gopl-zh/content/" target="_blank" rel="external">GO语言圣经</a></p>
+</blockquote>
+<a id="more"></a>
+<h2 id="day-1"><a href="#day-1" class="headerlink" title="day 1"></a>day 1</h2><ul>
+<li>大神开发</li>
+<li>google线上使用</li>
+<li>C过时，早晚淘汰</li>
+<li>C编译太慢，需要一门低级语言代替它</li>
+<li>GO吸收了包括C和JAVA等在内的语言的优势</li>
+<li>自行解决内存问题</li>
+<li>统一自动格式化gofmt</li>
+<li>运行前编译</li>
+<li>效率比脚本需要高的多</li>
+<li>可以调用c语言中的方法</li>
+<li>关键字少，代码简洁</li>
+<li>语句不用分号结束，多个语句放在一行才要用分号</li>
+<li>其实编译时自行加上分号</li>
+<li>包的引入</li>
+<li>包的后缀pkg</li>
+<li>go文件的后缀go</li>
+<li>编译后可执行文件的后缀a</li>
+<li>在第一行申明文件的pkg</li>
+<li>一个go文件只能属于一个pkg,一个pkg可以包含多个go文件</li>
+<li>有且必须要有有一个main包</li>
+<li>包的依赖关系影响编译的顺序</li>
+<li>import 多个包时可以将多个包名放在数组中</li>
+<li>以大写字母打头的标识符类似public，以小写字母打头的标识符类似private </li>
+<li>import 一个包不使用它会报错</li>
+<li>go中没有不必要的代码</li>
+<li>和C一样有个main函数，入口执行函数</li>
+<li>main包中没有main函数会报错</li>
+<li>main函数没有参数和返回值，有就报错</li>
+<li>函数的开始花括号必须和函数申明在同一行，否则报错</li>
+<li>而函数的结束化括号必须紧接函数体</li>
+<li>上面两句总结成一句话：跟psr一样</li>
+<li>返回值列表在参数列表后面</li>
+<li>大写字母开头的方法名遵循Pascal命名法</li>
+<li>输出方法print,println</li>
+<li>程序正常结束返回0，程序异常终止返回1</li>
+<li>注释有通用的单行注释和多行注释</li>
+<li>注释可以通过godoc文档化</li>
+<li>方法的注释应该以方法名开头</li>
+<li>结构化类型的默认值是nil，跟Object-C一致</li>
+<li>go没有类型继承</li>
+<li>type关键字自定义类型</li>
+<li>函数可以有多个返回值，类似js,lua</li>
+<li>类型可以强制转换</li>
+<li><code>const</code>定义常量</li>
+<li>变量的类型可以不指定，会自动判断</li>
+</ul>
+<h2 id="day-2"><a href="#day-2" class="headerlink" title="day 2"></a>day 2</h2><ul>
+<li><code>$GOROOT</code>是安装目录，<code>$GOPATH</code>是项目目录</li>
+<li><code>iota</code>用于常量定义，初始值为0，可以自增</li>
+<li>go特有的：申明变量时将变量的类型放在变量名的右边</li>
+<li>可以根据变量的值推断变量的类型</li>
+</ul>
+<h2 id="day-3"><a href="#day-3" class="headerlink" title="day 3"></a>day 3</h2><ul>
+<li>格式化输出时%v使用类型的默认输出格式</li>
+<li>与Printf相比，Sprintf会将格式化后的变量作为返回值</li>
+<li><p>变量初始化的三种形式</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a <span class="keyword">int</span> = <span class="number">30</span>;<span class="comment">//int 可省略，可自动识别</span></div><div class="line"><span class="keyword">var</span> a = <span class="number">30</span>;</div><div class="line">a := <span class="number">30</span>;</div></pre></td></tr></table></figure>
+</li>
+<li><p>:=的初始化方式只能用于方法体内</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;初步学习go语言，为GopherChina大会作准备&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gitbook.com/book/tl3shi/the-way-to-go&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GO入门指南&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://wizardforcel.gitbooks.io/gopl-zh/content/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GO语言圣经&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="go" scheme="http://jimxu.me/categories/IT/go/"/>
+    
+    
+      <category term="go" scheme="http://jimxu.me/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Magento后台配置攻略</title>
+    <link href="http://jimxu.me/2017/04/10/Magento%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE%E6%94%BB%E7%95%A5/"/>
+    <id>http://jimxu.me/2017/04/10/Magento后台配置攻略/</id>
+    <published>2017-04-10T10:57:15.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170410149182291382585.png" alt="20170410149182291382585.png"></p>
+<ul>
+<li>设置magento后台配置</li>
+<li>magento后台配置保存后触发的事件</li>
+</ul>
+<a id="more"></a>
+<h1 id="magento的后台配置"><a href="#magento的后台配置" class="headerlink" title="magento的后台配置"></a>magento的后台配置</h1><p>以<code>Core</code>模块etc目录下的<code>system.xml</code>为例<br><figure class="highlight xml"><figcaption><span>app/code/core/Mage/Cron/etc/system.xml</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span><span class="meta">?&gt;</span></span></div><div class="line"><span class="tag">&lt;<span class="name">config</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">sections</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">system</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">groups</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">cron</span> <span class="attr">translate</span>=<span class="string">"label comment"</span> <span class="attr">module</span>=<span class="string">"cron"</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">label</span>&gt;</span>Cron (Scheduled Tasks) - all the times are in minutes<span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">frontend_type</span>&gt;</span>text<span class="tag">&lt;/<span class="name">frontend_type</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">sort_order</span>&gt;</span>15<span class="tag">&lt;/<span class="name">sort_order</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">show_in_default</span>&gt;</span>1<span class="tag">&lt;/<span class="name">show_in_default</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">show_in_website</span>&gt;</span>0<span class="tag">&lt;/<span class="name">show_in_website</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">show_in_store</span>&gt;</span>0<span class="tag">&lt;/<span class="name">show_in_store</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">comment</span>&gt;</span>For correct URLs generated during cron runs please make sure that Web &gt; Secure and Unsecure Base URLs are explicitly set.<span class="tag">&lt;/<span class="name">comment</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">fields</span>&gt;</span></div><div class="line">                        <span class="tag">&lt;<span class="name">schedule_generate_every</span> <span class="attr">translate</span>=<span class="string">"label"</span>&gt;</span></div><div class="line">                            <span class="tag">&lt;<span class="name">label</span>&gt;</span>Generate Schedules Every<span class="tag">&lt;/<span class="name">label</span>&gt;</span></div><div class="line">                            <span class="tag">&lt;<span class="name">frontend_type</span>&gt;</span>text<span class="tag">&lt;/<span class="name">frontend_type</span>&gt;</span></div><div class="line">                            <span class="tag">&lt;<span class="name">sort_order</span>&gt;</span>10<span class="tag">&lt;/<span class="name">sort_order</span>&gt;</span></div><div class="line">                            <span class="tag">&lt;<span class="name">show_in_default</span>&gt;</span>1<span class="tag">&lt;/<span class="name">show_in_default</span>&gt;</span></div><div class="line">                            <span class="tag">&lt;<span class="name">show_in_website</span>&gt;</span>1<span class="tag">&lt;/<span class="name">show_in_website</span>&gt;</span></div><div class="line">                            <span class="tag">&lt;<span class="name">show_in_store</span>&gt;</span>1<span class="tag">&lt;/<span class="name">show_in_store</span>&gt;</span></div><div class="line">                        <span class="tag">&lt;/<span class="name">schedule_generate_every</span>&gt;</span></div><div class="line">                        <span class="comment">&lt;!--...省略其它fileds...--&gt;</span></div><div class="line">                    <span class="tag">&lt;/<span class="name">fields</span>&gt;</span></div><div class="line">                <span class="tag">&lt;/<span class="name">cron</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">groups</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">system</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">sections</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">config</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<h3 id="配置文件"><a href="#配置文件" class="headerlink" title="配置文件"></a>配置文件</h3><p>有<code>config - sections - groups - fields</code>四个层级<br>如上面的配置文件中，<code>sections</code>只有system一项，<code>groups</code> 只有cron一项，而<code>fileds</code>包括schedule_generate_every、schedule_lifetime、history_cleanup_every、history_success_lifetime、history_failure_lifetime</p>
+<h3 id="配置项"><a href="#配置项" class="headerlink" title="配置项"></a>配置项</h3><ul>
+<li>label 显示的标签</li>
+<li>frontend_type 输入类型<ul>
+<li>text 文本框</li>
+</ul>
+</li>
+<li>sort_order 排序 数值越大，排在越后面</li>
+<li>show_in_default 是否默认显示 1，是；0，否</li>
+<li>show_in_website 是否在网站显示 1，是；0，否</li>
+<li>show_in_store 是否在店铺显示 1，是；0，否</li>
+<li>comment 备注说明</li>
+</ul>
+<h3 id="配置文件合并"><a href="#配置文件合并" class="headerlink" title="配置文件合并"></a>配置文件合并</h3><p>因为Magento在初始化的时候会将分散在所有模块中的system.xml文件合并成一个大的system.xml，所以sections、groups、fields的标签都要求是唯一的</p>
+<h3 id="配置项的数据存储"><a href="#配置项的数据存储" class="headerlink" title="配置项的数据存储"></a>配置项的数据存储</h3><p>在<code>core_config_data</code>中可以看到配置保存的内容<br><img src="http://o9xbyqajf.bkt.clouddn.com/2017041014918264023772.png" alt="2017041014918264023772.png"><br>如上图所示，表示cron模块在后台配置项的值<br>我们可以直接修改数据库中的内容，这和在mangento后台编辑并保存的最终效果是一样的，只是不会触发下面介绍的配置保存的事件</p>
+<h3 id="取配置项的值"><a href="#取配置项的值" class="headerlink" title="取配置项的值"></a>取配置项的值</h3><p>还是上面数据库中的第四列表示配置项的路径，当我们要在代码中获取某个配置项，如<code>schedule_generate_every</code>的值的时候，可以用下面的方法</p>
+<figure class="highlight php"><figcaption><span>app/Mage.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="function"><span class="keyword">function</span> <span class="title">getStoreConfig</span><span class="params">($path, $store = null)</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">return</span> <span class="keyword">self</span>::app()-&gt;getStore($store)-&gt;getConfig($path);</div><div class="line">&#125;</div><div class="line"><span class="comment">//example</span></div><div class="line">Mage::getStoreConfig(<span class="string">'system/cron/schedule_generate_every'</span>,Mage::app()-&gt;getStore());</div></pre></td></tr></table></figure>
+<p>如果配置项schedule_generate_every设置的frontend_type是boolean类型的话，那么最好用下面的方法取默认值</p>
+<figure class="highlight php"><figcaption><span>app/Mage.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="function"><span class="keyword">function</span> <span class="title">getStoreConfigFlag</span><span class="params">($path, $store = null)</span></span></div><div class="line">&#123;</div><div class="line">    $flag = strtolower(<span class="keyword">self</span>::getStoreConfig($path, $store));</div><div class="line">    <span class="keyword">if</span> (!<span class="keyword">empty</span>($flag) &amp;&amp; <span class="string">'false'</span> !== $flag) &#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">true</span>;</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">        <span class="keyword">return</span> <span class="keyword">false</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">//example:</span></div><div class="line">Mage::getStoreConfigFlag(<span class="string">'system/cron/schedule_generate_every'</span>,Mage::app()-&gt;getStore());</div></pre></td></tr></table></figure>
+<p><code>getStoreConfigFlag</code>会将配置的值转化为true或false后返回给你</p>
+<h3 id="设置配置项的默认值"><a href="#设置配置项的默认值" class="headerlink" title="设置配置项的默认值"></a>设置配置项的默认值</h3><p>前面提到了，我们建立了配置项之后，要么在后台设置它的值并保存，要么修改数据库</p>
+<p>而当配置项需要在多个测试环境配置相同的值时，不管是上面的哪种方法，都挺烦人的，其实在建立配置项的同时就可以把默认值设置好了</p>
+<p>系统自带的cron模块就采用了这种方法来设置默认值，在和system.xml同目录的config.xml中，有下面的代码：<br><figure class="highlight xml"><figcaption><span>app/code/core/Mage/Cron/etc/config.xml</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">default</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">system</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">cron</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">schedule_generate_every</span>&gt;</span>15<span class="tag">&lt;/<span class="name">schedule_generate_every</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">schedule_ahead_for</span>&gt;</span>20<span class="tag">&lt;/<span class="name">schedule_ahead_for</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">schedule_lifetime</span>&gt;</span>15<span class="tag">&lt;/<span class="name">schedule_lifetime</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">history_cleanup_every</span>&gt;</span>10<span class="tag">&lt;/<span class="name">history_cleanup_every</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">history_success_lifetime</span>&gt;</span>60<span class="tag">&lt;/<span class="name">history_success_lifetime</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">history_failure_lifetime</span>&gt;</span>600<span class="tag">&lt;/<span class="name">history_failure_lifetime</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">cron</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">system</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">default</span>&gt;</span></div></pre></td></tr></table></figure></p>
+<p>默认值的目录和system.xml中的<code>config - sections - groups - fields</code>是完全一致的</p>
+<p>设置默认值之后没有生效，你可能要注意的一点是：</p>
+<blockquote>
+<p>只有当默认值和配置项同时建立的时候，才能一次性的在magento后台展示出默认值。<br>如果我们先建立的配置项，在后台看到的都是空白值之后才在<code>config.xml</code>中建立默认值并清除configration后，在magento看到的依然是空白<br>我们可以尝试在magento后台重新保存一下配置</p>
+</blockquote>
+<h3 id="配置的缓存问题"><a href="#配置的缓存问题" class="headerlink" title="配置的缓存问题"></a>配置的缓存问题</h3><p>修改了<code>congig.xml</code>和<code>system.xml</code>文件后，永远不要忘记清除configration缓存，才能使得修改生效</p>
+<h1 id="magento后台配置修改后触发的事件"><a href="#magento后台配置修改后触发的事件" class="headerlink" title="magento后台配置修改后触发的事件"></a>magento后台配置修改后触发的事件</h1><figure class="highlight php"><figcaption><span>app/code/core/Mage/Adminhtml/controllers/System/ConfigController.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * Save configuration</div><div class="line"> *</div><div class="line"> */</div><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">saveAction</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    $session = Mage::getSingleton(<span class="string">'adminhtml/session'</span>);</div><div class="line">    <span class="comment">/* <span class="doctag">@var</span> $session Mage_Adminhtml_Model_Session */</span></div><div class="line"></div><div class="line">    $groups = <span class="keyword">$this</span>-&gt;getRequest()-&gt;getPost(<span class="string">'groups'</span>);</div><div class="line"></div><div class="line">    <span class="keyword">if</span> (<span class="keyword">isset</span>($_FILES[<span class="string">'groups'</span>][<span class="string">'name'</span>]) &amp;&amp; is_array($_FILES[<span class="string">'groups'</span>][<span class="string">'name'</span>])) &#123;</div><div class="line">        <span class="comment">/**</span></div><div class="line">         * Carefully merge $_FILES and $_POST information</div><div class="line">         * None of '+=' or 'array_merge_recursive' can do this correct</div><div class="line">         */</div><div class="line">        <span class="keyword">foreach</span>($_FILES[<span class="string">'groups'</span>][<span class="string">'name'</span>] <span class="keyword">as</span> $groupName =&gt; $group) &#123;</div><div class="line">            <span class="keyword">if</span> (is_array($group)) &#123;</div><div class="line">                <span class="keyword">foreach</span> ($group[<span class="string">'fields'</span>] <span class="keyword">as</span> $fieldName =&gt; $field) &#123;</div><div class="line">                    <span class="keyword">if</span> (!<span class="keyword">empty</span>($field[<span class="string">'value'</span>])) &#123;</div><div class="line">                        $groups[$groupName][<span class="string">'fields'</span>][$fieldName] = <span class="keyword">array</span>(<span class="string">'value'</span> =&gt; $field[<span class="string">'value'</span>]);</div><div class="line">                    &#125;</div><div class="line">                &#125;</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">try</span> &#123;</div><div class="line">        <span class="keyword">if</span> (!<span class="keyword">$this</span>-&gt;_isSectionAllowed(<span class="keyword">$this</span>-&gt;getRequest()-&gt;getParam(<span class="string">'section'</span>))) &#123;</div><div class="line">            <span class="keyword">throw</span> <span class="keyword">new</span> <span class="keyword">Exception</span>(Mage::helper(<span class="string">'adminhtml'</span>)-&gt;__(<span class="string">'This section is not allowed.'</span>));</div><div class="line">        &#125;</div><div class="line"></div><div class="line">        <span class="comment">// custom save logic</span></div><div class="line">        <span class="keyword">$this</span>-&gt;_saveSection();</div><div class="line">        $section = <span class="keyword">$this</span>-&gt;getRequest()-&gt;getParam(<span class="string">'section'</span>);</div><div class="line">        $website = <span class="keyword">$this</span>-&gt;getRequest()-&gt;getParam(<span class="string">'website'</span>);</div><div class="line">        $store   = <span class="keyword">$this</span>-&gt;getRequest()-&gt;getParam(<span class="string">'store'</span>);</div><div class="line">        Mage::getSingleton(<span class="string">'adminhtml/config_data'</span>)</div><div class="line">            -&gt;setSection($section)</div><div class="line">            -&gt;setWebsite($website)</div><div class="line">            -&gt;setStore($store)</div><div class="line">            -&gt;setGroups($groups)</div><div class="line">            -&gt;save();</div><div class="line"></div><div class="line">        <span class="comment">// reinit configuration</span></div><div class="line">        Mage::getConfig()-&gt;reinit();</div><div class="line">        Mage::dispatchEvent(<span class="string">'admin_system_config_section_save_after'</span>, <span class="keyword">array</span>(</div><div class="line">            <span class="string">'website'</span> =&gt; $website,</div><div class="line">            <span class="string">'store'</span>   =&gt; $store,</div><div class="line">            <span class="string">'section'</span> =&gt; $section</div><div class="line">        ));</div><div class="line">        Mage::app()-&gt;reinitStores();</div><div class="line"></div><div class="line">        <span class="comment">// website and store codes can be used in event implementation, so set them as well</span></div><div class="line">        Mage::dispatchEvent(<span class="string">"admin_system_config_changed_section_&#123;$section&#125;"</span>,</div><div class="line">            <span class="keyword">array</span>(<span class="string">'website'</span> =&gt; $website, <span class="string">'store'</span> =&gt; $store)</div><div class="line">        );</div><div class="line">        $session-&gt;addSuccess(Mage::helper(<span class="string">'adminhtml'</span>)-&gt;__(<span class="string">'The configuration has been saved.'</span>));</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">catch</span> (Mage_Core_Exception $e) &#123;</div><div class="line">        <span class="keyword">foreach</span>(explode(<span class="string">"\n"</span>, $e-&gt;getMessage()) <span class="keyword">as</span> $message) &#123;</div><div class="line">            $session-&gt;addError($message);</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">catch</span> (<span class="keyword">Exception</span> $e) &#123;</div><div class="line">        $session-&gt;addException($e,</div><div class="line">            Mage::helper(<span class="string">'adminhtml'</span>)-&gt;__(<span class="string">'An error occurred while saving this configuration:'</span>) . <span class="string">' '</span></div><div class="line">            . $e-&gt;getMessage());</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">$this</span>-&gt;_saveState(<span class="keyword">$this</span>-&gt;getRequest()-&gt;getPost(<span class="string">'config_state'</span>));</div><div class="line"></div><div class="line">    <span class="keyword">$this</span>-&gt;_redirect(<span class="string">'*/*/edit'</span>, <span class="keyword">array</span>(<span class="string">'_current'</span> =&gt; <span class="keyword">array</span>(<span class="string">'section'</span>, <span class="string">'website'</span>, <span class="string">'store'</span>)));</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>保存configuration后</p>
+<ol>
+<li>触发<code>admin_system_config_section_save_after</code>事件，事件会带website、store、section参数</li>
+<li>稍后触发<code>admin_system_config_changed_section_{$section}</code>事件</li>
+</ol>
+<p>当我们在后台修改cron的配置后，就会触发admin_system_config_changed_section_cron事件，在<code>config.xml</code>文件中监听这个事件，进行响应的逻辑处理</p>
+<figure class="highlight xml"><figcaption><span>app/code/core/Mage/Cron/etc/config.xml</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">config</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">global</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">events</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">admin_system_config_changed_section_cataloginventory</span>&gt;</span></div><div class="line">                <span class="tag">&lt;<span class="name">observers</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;<span class="name">cron</span>&gt;</span></div><div class="line">                        <span class="tag">&lt;<span class="name">class</span>&gt;</span>cron/observer<span class="tag">&lt;/<span class="name">class</span>&gt;</span></div><div class="line">                        <span class="tag">&lt;<span class="name">method</span>&gt;</span>doSomethingAfterCronSave<span class="tag">&lt;/<span class="name">method</span>&gt;</span></div><div class="line">                    <span class="tag">&lt;/<span class="name">cron</span>&gt;</span></div><div class="line">                <span class="tag">&lt;/<span class="name">observers</span>&gt;</span></div><div class="line">            <span class="tag">&lt;/<span class="name">admin_system_config_changed_section_cataloginventory</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">events</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">global</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">config</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>然后就可以在<code>Cron/Model/Observers.php</code>文件的<code>doSomethingAfterCronSave</code>方法中执行你想要的操作了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170410149182291382585.png&quot; alt=&quot;20170410149182291382585.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;设置magento后台配置&lt;/li&gt;
+&lt;li&gt;magento后台配置保存后触发的事件&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Magento" scheme="http://jimxu.me/categories/Magento/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MarkDown插入图片技巧</title>
+    <link href="http://jimxu.me/2017/04/07/MarkDown%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%8A%80%E5%B7%A7/"/>
+    <id>http://jimxu.me/2017/04/07/MarkDown插入图片技巧/</id>
+    <published>2017-04-07T03:39:01.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149158020754096.png" alt="20170407149158020754096.png"></p>
+<p>将图片上传到七牛云，获取图片的链接，粘贴到md文件中：</p>
+<ul>
+<li>通过Alfred的Workflow实现</li>
+<li>通过U图床或iPic工具实现</li>
+<li>AutoHotkey</li>
+</ul>
+<a id="more"></a>
+<h2 id="Alfred"><a href="#Alfred" class="headerlink" title="Alfred"></a>Alfred</h2><p>使用方法：截图或复制图片到剪切板后，按workflow的快捷键，workflow自动上传图片并将图片链接保存在剪贴板中<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170408149162737051667.png" alt="20170408149162737051667.png"></p>
+<p>workflow开发者下载页面：<a href="https://github.com/tiann/markdown-img-upload" target="_blank" rel="external">https://github.com/tiann/markdown-img-upload</a></p>
+<h2 id="U图床-iPic（推荐）"><a href="#U图床-iPic（推荐）" class="headerlink" title="U图床/iPic（推荐）"></a>U图床/iPic（推荐）</h2><p>优点：</p>
+<ul>
+<li>剪切板自动上传</li>
+<li>拖拽上传，支持gif文件</li>
+</ul>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149157029132684.gif" alt="20170407149157029132684.gif"></p>
+<h2 id="AutoHotkey"><a href="#AutoHotkey" class="headerlink" title="AutoHotkey"></a>AutoHotkey</h2><p>参考下面的文章</p>
+<ul>
+<li><a href="http://jverson.com/2016/08/30/autohotkey-markdown-uploadImage/" target="_blank" rel="external">AutoHotkey&amp;qshell 实现图片自动上传七牛并返回markdown引用</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170407149158020754096.png&quot; alt=&quot;20170407149158020754096.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;将图片上传到七牛云，获取图片的链接，粘贴到md文件中：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;通过Alfred的Workflow实现&lt;/li&gt;
+&lt;li&gt;通过U图床或iPic工具实现&lt;/li&gt;
+&lt;li&gt;AutoHotkey&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="markDown" scheme="http://jimxu.me/categories/Editor/markDown/"/>
+    
+    
+      <category term="markdown" scheme="http://jimxu.me/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MarkDown基础介绍</title>
+    <link href="http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/"/>
+    <id>http://jimxu.me/2017/04/07/MarkDown基础介绍/</id>
+    <published>2017-04-07T03:38:38.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170408149162816052701.png" alt="20170408149162816052701.png"></p>
+<a id="more"></a>
+<h2 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a>编辑器</h2><ul>
+<li>Mou</li>
+<li>MacDown</li>
+<li>Haroopad</li>
+<li>Sublime\Atom\VSC</li>
+</ul>
+<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># 一级标题</div><div class="line">## 二级标题</div><div class="line">### 三级标题</div></pre></td></tr></table></figure>
+</blockquote>
+<p>效果：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="字体效果"><a href="#字体效果" class="headerlink" title="字体效果"></a>字体效果</h2><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">**粗体**</div><div class="line">*斜体*</div><div class="line">++下划线++</div><div class="line">==高亮==</div><div class="line">word^上标^</div><div class="line">word~下标~</div></pre></td></tr></table></figure>
+</blockquote>
+<p><em>斜体</em><br>++下划线++<br>==高亮==<br>word^上标^<br>word~下标~</p>
+<h2 id="插入图片和网址"><a href="#插入图片和网址" class="headerlink" title="插入图片和网址"></a>插入图片和网址</h2><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[一个普通的网址](http://www.baidu.com)</div><div class="line">![一张平凡的图片](![20170408149163204466917.png](http://o9xbyqajf.bkt.clouddn.com/20170408149163204466917.png)</div></pre></td></tr></table></figure>
+</blockquote>
+<p>效果：<br><a href="http://www.baidu.com" target="_blank" rel="external">一个普通的网址</a><br><img src="http://o9xbyqajf.bkt.clouddn.com/20170408149163204466917.png" alt="一张平凡的图片]"></p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">1. 第一件事</div><div class="line">2. 第二件事</div><div class="line">3. 第三件事</div><div class="line">&gt;</div></pre></td></tr></table></figure>
+<p>效果：</p>
+<ol>
+<li>第一件事</li>
+<li>第二件事</li>
+<li>第三件事</li>
+</ol>
+</blockquote>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- 无序列表</div><div class="line">- 无序列表</div><div class="line">- 无序列表</div></pre></td></tr></table></figure>
+<p>效果：</p>
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- [x] 今天干了啥</div><div class="line">- [x] 今天干了啥</div><div class="line">- [ ] 今天有啥没干</div></pre></td></tr></table></figure>
+</blockquote>
+<p>效果：</p>
+<ul>
+<li>[x] 今天干了啥</li>
+<li>[x] 今天干了啥</li>
+<li>[ ] 今天有啥没干</li>
+</ul>
+<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>不一定支持</p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[TOC]</div></pre></td></tr></table></figure>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170408149162816052701.png&quot; alt=&quot;20170408149162816052701.png&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="markDown" scheme="http://jimxu.me/categories/Editor/markDown/"/>
+    
+    
+      <category term="markdown" scheme="http://jimxu.me/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Magento升级脚本常见问题</title>
+    <link href="http://jimxu.me/2017/04/07/Magento%E5%8D%87%E7%BA%A7%E8%84%9A%E6%9C%AC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
+    <id>http://jimxu.me/2017/04/07/Magento升级脚本常见问题/</id>
+    <published>2017-04-07T03:02:02.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153451049148.png" alt="20170407149153451049148.png"></p>
+<p>magento通过自带的升级脚本操作数据库，常见问题的解决方法如下</p>
+<a id="more"></a>
+<h2 id="对表的修改（增删改等）没有生效？"><a href="#对表的修改（增删改等）没有生效？" class="headerlink" title="对表的修改（增删改等）没有生效？"></a>对表的修改（增删改等）没有生效？</h2><ul>
+<li>sql目录下是否有升级脚</li>
+<li>升级脚本是否正确（看Exception日志）</li>
+<li><code>config.xml</code>中有没有升级版本号</li>
+<li>有没有清magento的configration缓存</li>
+<li>如果安装了redis，有没有清redis缓存</li>
+</ul>
+<h2 id="升级脚本升级成功了怎么修改？"><a href="#升级脚本升级成功了怎么修改？" class="headerlink" title="升级脚本升级成功了怎么修改？"></a>升级脚本升级成功了怎么修改？</h2><p>可能是想在升级脚本中对表插入一个叫<code>customer_name</code>的字段,不小心输入错误成了<code>customer_wrong_name</code>，然后提交了代码，脚本成功升级了,错误的字段也加上了，怎么修改呢？</p>
+<p>两种解决方法：</p>
+<ol>
+<li>再写一个升级脚本，修改表字段名称</li>
+<li><p>直接修改升级脚本，<code>在core_resource</code>表中将模块的版本号修改为升级前的版本号，清除congfigration缓存后重新升级</p>
+<p>第一种方法适用于已经发布到线上的脚本<br>第二种方法适用于本地开发，保证自己的代码都是正确的，没有修修补补的内容</p>
+</li>
+</ol>
+<h2 id="表中新增字段成功了，但是对应的字段无法插入正确的值？"><a href="#表中新增字段成功了，但是对应的字段无法插入正确的值？" class="headerlink" title="表中新增字段成功了，但是对应的字段无法插入正确的值？"></a>表中新增字段成功了，但是对应的字段无法插入正确的值？</h2><p>如果你是通过<code>$object-&gt;setData(&#39;a&#39;,123)-&gt;save();</code>这样的对象方法进行的数据库操作没有成功，试试下面的方法：</p>
+<p><code>System/Cache Management/Flush Cache Storage</code></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153414619038.png" alt="20170407149153414619038.png"></p>
+<p>原理：Magento采用的是ORM模型，表的数据结构保存在DDL缓存里，对表的结构进行修改后要更新DDL缓存才能正确地进行值的插入</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170407149153451049148.png&quot; alt=&quot;20170407149153451049148.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;magento通过自带的升级脚本操作数据库，常见问题的解决方法如下&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Magento" scheme="http://jimxu.me/categories/Magento/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
+    
+      <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phpStorm格式化代码设置等号对齐</title>
+    <link href="http://jimxu.me/2017/04/06/phpStorm%E8%AE%BE%E7%BD%AE%E7%AD%89%E5%8F%B7%E5%AF%B9%E9%BD%90/"/>
+    <id>http://jimxu.me/2017/04/06/phpStorm设置等号对齐/</id>
+    <published>2017-04-06T13:41:56.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148651479249.png" alt="20170406149148651479249.png"></p>
+<ul>
+<li>格式化代码</li>
+<li>变量按等号=对齐</li>
+<li>数组键值对按=&gt;对齐</li>
+</ul>
+<a id="more"></a>
+<h2 id="格式化代码"><a href="#格式化代码" class="headerlink" title="格式化代码"></a>格式化代码</h2><p>选择<code>Reformat Code</code>后,phpStorm会按照设置好的code style，自动格式化代码</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017040614914862099563.png" alt="2017040614914862099563.png"></p>
+<h2 id="设置code-style，实现等号对齐"><a href="#设置code-style，实现等号对齐" class="headerlink" title="设置code style，实现等号对齐"></a>设置code style，实现等号对齐</h2><p>路径：<code>Editor/Code Style/PHP/Wrapping and Braces</code><br>勾选前</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148630999516.png" alt="20170406149148630999516.png"></p>
+<p>勾选后</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148632661565.png" alt="20170406149148632661565.png"></p>
+<h2 id="设置code-style-实现数组内键值对对齐"><a href="#设置code-style-实现数组内键值对对齐" class="headerlink" title="设置code style,实现数组内键值对对齐"></a>设置code style,实现数组内键值对对齐</h2><p>路径：<code>Editor/Code Style/PHP/Other</code></p>
+<p>勾选前<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148640886799.png" alt="20170406149148640886799.png"></p>
+<p>勾选后<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148644388972.png" alt="20170406149148644388972.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170406149148651479249.png&quot; alt=&quot;20170406149148651479249.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;格式化代码&lt;/li&gt;
+&lt;li&gt;变量按等号=对齐&lt;/li&gt;
+&lt;li&gt;数组键值对按=&amp;gt;对齐&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Magento根据订单获取地址信息</title>
+    <link href="http://jimxu.me/2017/04/06/Magento%E6%A0%B9%E6%8D%AE%E8%AE%A2%E5%8D%95%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF/"/>
+    <id>http://jimxu.me/2017/04/06/Magento根据订单获取地址信息/</id>
+    <published>2017-04-06T06:35:24.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149146130740929.png" alt="20170406149146130740929.png"></p>
+<p>根据orderid获取address信息</p>
+<a id="more"></a>
+<p>代码实现：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">$orderModel = Mage::getModel(<span class="string">'sales/order'</span>)-&gt;loadByIncrementId($orderId);</div><div class="line">$address = $orderModel-&gt;getShippingAddress();</div><div class="line">$street = $address-&gt;getStreet();</div><div class="line">$address_data = <span class="keyword">array</span>(</div><div class="line">    <span class="string">'name'</span> =&gt; $address-&gt;getData(<span class="string">'lastname'</span>).$address-&gt;getData(<span class="string">'firstname'</span>),<span class="comment">//姓名</span></div><div class="line">    <span class="string">'phone'</span> =&gt; $address-&gt;getData(<span class="string">'telephone'</span>),<span class="comment">//手机号</span></div><div class="line">    <span class="string">'province'</span> =&gt; $address-&gt;getData(<span class="string">'region'</span>),<span class="comment">//省</span></div><div class="line">    <span class="string">'city'</span> =&gt; $address-&gt;getData(<span class="string">'city'</span>),<span class="comment">//市</span></div><div class="line">    <span class="string">'district'</span> =&gt; $street[<span class="number">0</span>],<span class="comment">//区</span></div><div class="line">    <span class="string">'street'</span> =&gt; $street[<span class="number">1</span>],<span class="comment">//街道</span></div><div class="line">);</div></pre></td></tr></table></figure>
+<p>原理：</p>
+<figure class="highlight php"><figcaption><span>app/code/core/Mage/Sales/Model/Order.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getShippingAddress</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line"><span class="keyword">foreach</span> (<span class="keyword">$this</span>-&gt;getAddressesCollection() <span class="keyword">as</span> $address) &#123;</div><div class="line">    <span class="keyword">if</span> ($address-&gt;getAddressType()==<span class="string">'shipping'</span> &amp;&amp; !$address-&gt;isDeleted()) &#123;</div><div class="line">        <span class="keyword">return</span> $address;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">return</span> <span class="keyword">false</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"> <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getAddressesCollection</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">if</span> (is_null(<span class="keyword">$this</span>-&gt;_addresses)) &#123;</div><div class="line">        <span class="keyword">$this</span>-&gt;_addresses = Mage::getResourceModel(<span class="string">'sales/order_address_collection'</span>)</div><div class="line">            -&gt;setOrderFilter(<span class="keyword">$this</span>);</div><div class="line"></div><div class="line">        <span class="keyword">if</span> (<span class="keyword">$this</span>-&gt;getId()) &#123;</div><div class="line">            <span class="keyword">foreach</span> (<span class="keyword">$this</span>-&gt;_addresses <span class="keyword">as</span> $address) &#123;</div><div class="line">                $address-&gt;setOrder(<span class="keyword">$this</span>);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> <span class="keyword">$this</span>-&gt;_addresses;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight php"><figcaption><span>app/code/core/Mage/Customer/Model/Address/Abstract.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * get address street</div><div class="line"> *</div><div class="line"> * <span class="doctag">@param</span>   int $line address line index</div><div class="line"> * <span class="doctag">@return</span>  string</div><div class="line"> */</div><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getStreet</span><span class="params">($line=<span class="number">0</span>)</span></span></div><div class="line">&#123;</div><div class="line">    $street = <span class="keyword">parent</span>::getData(<span class="string">'street'</span>);</div><div class="line">    <span class="keyword">if</span> (<span class="number">-1</span> === $line) &#123;</div><div class="line">        <span class="keyword">return</span> $street;</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">        $arr = is_array($street) ? $street : explode(<span class="string">"\n"</span>, $street);</div><div class="line">        <span class="keyword">if</span> (<span class="number">0</span> === $line || $line === <span class="keyword">null</span>) &#123;</div><div class="line">            <span class="keyword">return</span> $arr;</div><div class="line">        &#125; <span class="keyword">elseif</span> (<span class="keyword">isset</span>($arr[$line<span class="number">-1</span>])) &#123;</div><div class="line">            <span class="keyword">return</span> $arr[$line<span class="number">-1</span>];</div><div class="line">        &#125; <span class="keyword">else</span> &#123;</div><div class="line">            <span class="keyword">return</span> <span class="string">''</span>;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170406149146130740929.png&quot; alt=&quot;20170406149146130740929.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;根据orderid获取address信息&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Magento" scheme="http://jimxu.me/categories/Magento/"/>
+    
+    
+      <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac下phpStorm配置使用phpmd</title>
+    <link href="http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/"/>
+    <id>http://jimxu.me/2017/04/01/mac下phpStorm配置使用phpmd/</id>
+    <published>2017-04-01T09:02:33.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017040114910397507946.png" alt="2017040114910397507946.png"><br>如果说phpcs规范了php代码的规范，那么phpmd就是aa检测php代码错误的利器</p>
+<a id="more"></a>
+<h2 id="什么是phpmd"><a href="#什么是phpmd" class="headerlink" title="什么是phpmd"></a>什么是phpmd</h2><blockquote>
+<p>phpmd,short of PHP Mess Detector,is a tool that checks if you aren’t making a mess of your code. Think of methods of hundreds of lines, classes that extend class after class after class, lack of documentation, nested loops, etc. PHP Mess Detector points out these culprits and aids into writing more manageable code.</p>
+</blockquote>
+<h2 id="安装phpmd"><a href="#安装phpmd" class="headerlink" title="安装phpmd"></a>安装phpmd</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install phpmd</div></pre></td></tr></table></figure>
+<p>安装之后查看phpmd的路径<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103931820920.png" alt="20170401149103931820920.png"><br>路径就是<code>/usr/local/bin/phpmd</code></p>
+<h2 id="配置phpmd"><a href="#配置phpmd" class="headerlink" title="配置phpmd"></a>配置phpmd</h2><p><code>Preferences/Languages &amp; Frameworks/PHP/Mess Detector</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103941390595.png" alt="20170401149103941390595.png"><br>点开<code>Local</code>后的<code>...</code>,输入phpmd的路径<code>/usr/local/bin/phpmd</code>,点击<code>Validate</code>进行验证<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103954380798.png" alt="20170401149103954380798.png"></p>
+<p><code>Preferences/Editor/Inspections/PHP/PHP Mess Detector validation</code></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103936778520.png" alt="20170401149103936778520.png"><br>勾选中<code>PHP Mess Detector validation</code>,并选择右侧建议的<code>Options</code>规则，规则的说明参考：<a href="https://phpmd.org/rules/index.html" target="_blank" rel="external">https://phpmd.org/rules/index.html</a>：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103968164148.png" alt="20170401149103968164148.png"></p>
+<h2 id="使用phpmd"><a href="#使用phpmd" class="headerlink" title="使用phpmd"></a>使用phpmd</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103926528991.png" alt="20170401149103926528991.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/2017040114910397507946.png&quot; alt=&quot;2017040114910397507946.png&quot;&gt;&lt;br&gt;如果说phpcs规范了php代码的规范，那么phpmd就是aa检测php代码错误的利器&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
+    
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+      <category term="phpmd" scheme="http://jimxu.me/tags/phpmd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用phpStorm进行magento开发的几个Tips</title>
+    <link href="http://jimxu.me/2017/04/01/%E7%94%A8phpStorm%E8%BF%9B%E8%A1%8Cmagento%E5%BC%80%E5%8F%91%E7%9A%84%E5%87%A0%E4%B8%AATips/"/>
+    <id>http://jimxu.me/2017/04/01/用phpStorm进行magento开发的几个Tips/</id>
+    <published>2017-04-01T08:41:58.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103658911016.png" alt="20170401149103658911016.png"></p>
+<ul>
+<li>安装phpcs</li>
+<li>安装phpmd</li>
+<li>安装magicento插件</li>
+<li>只索引有用的文件夹</li>
+<li>常用magento代码片段</li>
+</ul>
+<a id="more"></a>
+<blockquote>
+<p>参考：<br><a href="https://mirasvit.com/blog/guide-for-setting-up-phpstorm-for-magento-2-developments.html" target="_blank" rel="external">https://mirasvit.com/blog/guide-for-setting-up-phpstorm-for-magento-2-developments.html</a></p>
+</blockquote>
+<h1 id="安装phpcs"><a href="#安装phpcs" class="headerlink" title="安装phpcs"></a>安装phpcs</h1><p>phpcs可以统一编码的规范，常用的是psr2</p>
+<p><a href="http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpcs/">怎么在phpStorm中配置使用phpcs？</a></p>
+<h1 id="安装phpmd"><a href="#安装phpmd" class="headerlink" title="安装phpmd"></a>安装phpmd</h1><p>php代码纠错</p>
+<p><a href="http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/">怎么在phpStorm中配置使用phpmd？</a></p>
+<h1 id="安装magicento插件"><a href="#安装magicento插件" class="headerlink" title="安装magicento插件"></a>安装<a href="http://magicento.com/" target="_blank" rel="external">magicento</a>插件</h1><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103633058337.png" alt="20170401149103633058337.png"></p>
+<h1 id="只对用的到的文件夹进行索引"><a href="#只对用的到的文件夹进行索引" class="headerlink" title="只对用的到的文件夹进行索引"></a>只对用的到的文件夹进行索引</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">/bin/</div><div class="line">/dev/</div><div class="line">/pub/</div><div class="line">/setup/</div><div class="line">/var/cache/</div><div class="line">/var/log/</div><div class="line">/var/page_cache</div><div class="line">/var/view_processed</div></pre></td></tr></table></figure>
+<p>建议将以上的文件夹标记为<code>Excluded</code>，这样就不会浪费phpStorm的性能对它们进行索引了</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103630080427.png" alt="20170401149103630080427.png"></p>
+<h1 id="设置常用代码片段"><a href="#设置常用代码片段" class="headerlink" title="设置常用代码片段"></a>设置常用代码片段</h1><p>用过magento的人起码手动输入过上百次以下的代码了<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Mage::log($test,<span class="keyword">null</span>,<span class="string">'test.log'</span>);</div><div class="line">$order = Mage::getModel(<span class="string">'sales/order'</span>)-&gt;loadByIncrementId($orderNumber);</div><div class="line">$customer = Mage::getModel(<span class="string">'customer/customer'</span>)-&gt;load($customer_id);</div></pre></td></tr></table></figure></p>
+<p>其实这些常用的代码可以设置成代码片段<br>路径：<code>Editor/Live Templates</code></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153181620126.png" alt="20170407149153181620126.png"><br>如图，点击右上角的+号可以新增代码片段<br><code>Abbreviation</code>表示设置的片段的关键字<br><code>Description</code>是关键字可以不填<br><code>Template text</code>是片段的内容</p>
+<p>我们新建一个片段叫<code>order</code>，内容为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$order = Mage::getModel(&apos;sales/order&apos;)-&gt;loadByIncrementId($END$);//$END$是光标最后会停留的位置，可以输入用户自定义的订单编号</div></pre></td></tr></table></figure>
+<p>有两种触发片段的方法</p>
+<ul>
+<li>按快捷键展开<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153260586416.png" alt="20170407149153260586416.png"></li>
+<li>直接输入片段的关键字，<code>Enter</code>确认后展开<br><img src="http://o9xbyqajf.bkt.clouddn.com/QQ20170407-104052-HD.gif" alt="http://o9xbyqajf.bkt.clouddn.com/QQ20170407-104052-HD.gif"></li>
+</ul>
+<p>可以将多个位置设置成同一变量，如下所示<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149155255061216.png" alt="20170407149155255061216.png"><br>效果如图：</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149157042959651.gif" alt="20170407149157042959651.gif"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170401149103658911016.png&quot; alt=&quot;20170401149103658911016.png&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;安装phpcs&lt;/li&gt;
+&lt;li&gt;安装phpmd&lt;/li&gt;
+&lt;li&gt;安装magicento插件&lt;/li&gt;
+&lt;li&gt;只索引有用的文件夹&lt;/li&gt;
+&lt;li&gt;常用magento代码片段&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
+    
+      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+      <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>psr2规范</title>
+    <link href="http://jimxu.me/2017/04/01/psr2%E8%A7%84%E8%8C%83/"/>
+    <id>http://jimxu.me/2017/04/01/psr2规范/</id>
+    <published>2017-04-01T08:19:26.000Z</published>
+    <updated>2017-05-11T09:50:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103566288287.png" alt="20170401149103566288287.png"></p>
+<p>给phpStorm安装phpcs之后，碰到的psr问题都记录下来</p>
+<a id="more"></a>
+<ul>
+<li>A file SHOULD declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it SHOULD execute logic with side effects, but SHOULD NOT do both.</li>
+</ul>
+<p>PHP代码中应该只定义类、函数、常量等声明，或其他会产生 从属效应 的操作（如：生成文件输出以及修改.ini配置文件等），二者只能选其一；</p>
+<ul>
+<li><p>The closing brace for the class must go on the next line after the body</p>
+<p>类的开始花括号({)必须写在函数声明后自成一行，结束花括号(})也必须写在函数主体后自成一行</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line"></div><div class="line">class Text</div><div class="line">&#123;</div><div class="line">    public function test()</div><div class="line">    &#123;</div><div class="line">        test;</div><div class="line">    &#125;</div><div class="line">&#125;//正确</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line"></div><div class="line">class Text</div><div class="line">&#123;</div><div class="line">    public function test()</div><div class="line">    &#123;</div><div class="line">        test;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">&#125;//错误,类的结束花括号应该紧邻body</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103534322168.png" alt="20170401149103534322168.png"></p>
+<ul>
+<li>Each class must be in a namespace of at least one level(a top-level vendor name)</li>
+</ul>
+<p>根据规范，每个类都独立为一个文件，且命名空间至少有一个层次：顶级的组织名称（vendor name）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">//正确写法</div><div class="line">&lt;?php</div><div class="line">// PHP 5.3及以后版本的写法</div><div class="line">namespace Vendor\Model;</div><div class="line"></div><div class="line">class Foo</div><div class="line">&#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//错误写法</div><div class="line">&lt;?php</div><div class="line"></div><div class="line">class Foo</div><div class="line">&#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>Class name “A_B_C_D” is not in camel caps format</li>
+</ul>
+<p>类的命名要遵循大写开头的驼峰命名规范</p>
+<ul>
+<li>参数以分布在多行，随后的行应该缩进一次。如果这么做，第一项应该 在下一行，而且每一个参数独占一行；<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170405149139889813936.png" alt="20170405149139889813936.png"></li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">//错误</div><div class="line">$className-&gt;funcName($param1, $param2, $param3mayhaveaveryverylongnamelongerthen120words);</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//正确</div><div class="line">$className-&gt; funcName(</div><div class="line">                        $param1,</div><div class="line">                        $param2,</div><div class="line">                        $param3mayhaveaveryverylongnamelongerthen120words</div><div class="line">                    );</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170401149103566288287.png&quot; alt=&quot;20170401149103566288287.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;给phpStorm安装phpcs之后，碰到的psr问题都记录下来&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="psr" scheme="http://jimxu.me/tags/psr/"/>
+    
+  </entry>
+  
+</feed>

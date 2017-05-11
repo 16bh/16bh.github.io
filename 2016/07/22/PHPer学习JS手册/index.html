@@ -1,0 +1,1292 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next pisces" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="js," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jimxu技术日记" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="学习廖雪峰老师的javaScript教程笔记 重点关注js与PHP的异同点">
+<meta name="keywords" content="js">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PHPer学习JS 语法">
+<meta property="og:url" content="http://jimxu.me/2016/07/22/PHPer学习JS手册/index.html">
+<meta property="og:site_name" content="Jimxu技术日记">
+<meta property="og:description" content="学习廖雪峰老师的javaScript教程笔记 重点关注js与PHP的异同点">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1469516107543.png">
+<meta property="og:updated_time" content="2017-05-11T09:50:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PHPer学习JS 语法">
+<meta name="twitter:description" content="学习廖雪峰老师的javaScript教程笔记 重点关注js与PHP的异同点">
+<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1469516107543.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://jimxu.me/2016/07/22/PHPer学习JS手册/"/>
+
+
+
+
+
+  <title> PHPer学习JS 语法 | Jimxu技术日记 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jimxu技术日记</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">个人标签：宅男、PHP开发、软件、手游、小说</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-message board">
+          <a href="/messageboard" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            留言板
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/07/22/PHPer学习JS手册/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jimxu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jimxu技术日记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                PHPer学习JS 语法
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-22T10:32:45+08:00">
+                2016-07-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/js/" itemprop="url" rel="index">
+                    <span itemprop="name">js</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a class="cloud-tie-join-count" href="/2016/07/22/PHPer学习JS手册/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="page-pv">已有
+            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>人阅读
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>学习廖雪峰老师的<code>javaScript</code>教程笔记</p>
+<p>重点关注<code>js</code>与<code>PHP</code>的异同点</p>
+<a id="more"></a>
+<h1 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h1><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>用<code>var</code>申明变量，后面跟变量名称，在方法体内不使用<code>var</code>申明的是全局变量，在方法体外申明的变量也是全局变量<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</div></pre></td></tr></table></figure></p>
+<p>在<code>php</code>中申明变量在变量名前面加上<code>$</code>符号<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$a = <span class="number">1</span>;</div></pre></td></tr></table></figure></p>
+<p><code>js</code>中可以先申明变量再赋值，<code>php</code>中没有创建变量的命令，变量会在首次给它赋值的时候被创建</p>
+<h2 id="strict模式"><a href="#strict模式" class="headerlink" title="strict模式"></a>strict模式</h2><p>开启<code>strict</code>模式后，若不使用<code>var</code>申明变量，浏览器会报错<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">'use strict'</span>;</div></pre></td></tr></table></figure></p>
+<h2 id="查看变量类型"><a href="#查看变量类型" class="headerlink" title="查看变量类型"></a>查看变量类型</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> a);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>number</p>
+</blockquote>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$a =<span class="number">1</span>;</div><div class="line"><span class="keyword">echo</span> getType($a);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>integer</p>
+</blockquote>
+<p>变量类型对比如下：</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>js</th>
+<th>php</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>整数</td>
+<td>number</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>小数</td>
+<td>number</td>
+<td>double</td>
+</tr>
+<tr>
+<td>字符串</td>
+<td>string</td>
+<td>string</td>
+</tr>
+<tr>
+<td>布尔值</td>
+<td>boolean</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>数组</td>
+<td>object</td>
+<td>array</td>
+</tr>
+</tbody>
+</table>
+<h2 id="与"><a href="#与" class="headerlink" title="==与==="></a>==与===</h2><p><code>==</code>会自动转换数据类型再比较，所以比较的时候用<code>===</code><br>与<code>PHP</code>中功能类似</p>
+<h2 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h2><p>要比较两个浮点数是否相等，只能计算它们之间的差值的绝对值是否小于某个阈值</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.abs(<span class="number">1</span> / <span class="number">3</span> - (<span class="number">1</span> - <span class="number">2</span> / <span class="number">3</span>)) &lt; <span class="number">0.0000001</span>;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>php中同理</p>
+</blockquote>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p>可以用<code>array()</code>和<code>[]</code>两种表示方法，跟php相同</p>
+<blockquote>
+<p>用<code>[]</code>表示数组是<code>php``5.4</code>版本之后才有的功能</p>
+</blockquote>
+<h2 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h2><p>用<code>{}</code>表示对象<br>在<code>php</code>中不区分对象和数组，对象被视为一维数组，也用<code>array()</code>及<code>[]</code>表示</p>
+<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><ul>
+<li><p><code>js</code>中用<code>alert()</code>方法在浏览器中弹窗显示文本，<code>console.log()</code>方法打印输出</p>
+</li>
+<li><p><code>php</code>中用<code>echo()</code>或<code>print()</code>方法输出字符串，不同之处在于<code>print()</code>输出后会返回1，而<code>echo()</code>输出后返回void；用<code>print_r()</code>和<code>var_dump()</code>方法输出数组,二者的区别在于<code>var_dump()</code>会显示变量的类型，<code>prinr_r</code>无法区分<code>0</code>与<code>0.0</code>或<code>false</code>与<code>&#39;&#39;</code>,如下所示：</p>
+</li>
+</ul>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$values = <span class="keyword">array</span>(<span class="number">0</span>, <span class="number">0.0</span>, <span class="keyword">false</span>, <span class="string">''</span>);</div><div class="line">var_dump($values);</div><div class="line">print_r ($values);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>结果为：<br>array(4) {<br>  [0]=&gt;<br>  int(0)<br>  [1]=&gt;<br>  float(0)<br>  [2]=&gt;<br>  bool(false)<br>  [3]=&gt;<br>  string(0) “”<br>}</p>
+<p>Array<br>(<br>    [0] =&gt; 0<br>    [1] =&gt; 0<br>    [2] =&gt;<br>    [3] =&gt;<br>)</p>
+</blockquote>
+<h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h2 id="单引号和双引号"><a href="#单引号和双引号" class="headerlink" title="单引号和双引号"></a>单引号和双引号</h2><p><code>js</code>和<code>php</code>都可以用<code>&#39;&#39;</code>和<code>&quot;&quot;</code>表示字符串，都可以在<code>&quot;&quot;</code>中直接使用<code>&#39;&#39;</code>,区别在于在<code>php</code>中，单引号字符串中的反斜杠只能转义单引号<code>&#39;</code>和反斜杠<code>\</code></p>
+<p>如下所示:<br><figure class="highlight js"><figcaption><span>1.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(<span class="string">'I\'m \"aaa\"!'</span>);	<span class="comment">//输出I'm "aaa"!，跟php不同</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'bbbb'</span>);	<span class="comment">//输出bbbb，同php</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">"'cccc'"</span>);	<span class="comment">//输出'cccc'，同php</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">"\'dddd\""</span>);	<span class="comment">//输出'dddd"，同php</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>1.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="keyword">echo</span> <span class="string">'I\'m \"aaa\"!'</span>;	<span class="comment">//输出I'm \"aaa\"!,说明单引号中无法转义双引号字符</span></div><div class="line"><span class="keyword">echo</span> <span class="string">'bbbb'</span>;	<span class="comment">//输出bbbb</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"'cccc'"</span>;		<span class="comment">//输出'cccc'</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"\'dddd\""</span>;	<span class="comment">//输出'dddd"</span></div></pre></td></tr></table></figure>
+<h2 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h2><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>php</th>
+<th>js</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>字符串长度</td>
+<td>length属性</td>
+<td>strlen()</td>
+</tr>
+<tr>
+<td>转大写字母</td>
+<td>toUpperCase()</td>
+<td>strtoupper()</td>
+</tr>
+<tr>
+<td>转小写字母</td>
+<td>toLowerCase()</td>
+<td>strtolower()</td>
+</tr>
+<tr>
+<td>在字符串内搜索</td>
+<td>indexOf()</td>
+<td>strpos()</td>
+</tr>
+<tr>
+<td>截取字符串</td>
+<td>substring()</td>
+<td>substr()</td>
+</tr>
+<tr>
+<td>字符串连接</td>
+<td>+符号</td>
+<td>.符号</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>substring(2,4)是从第2位截取到第4位（不包括第4位）<br>substr(2,4)是从第2为开始截取，总共截取4位</p>
+</blockquote>
+<p>示例：<br><figure class="highlight js"><figcaption><span>2.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="string">"abCDefg"</span>;</div><div class="line"><span class="built_in">console</span>.log(a.length);		<span class="comment">//输出7</span></div><div class="line"><span class="built_in">console</span>.log(a.toUpperCase());	<span class="comment">//输出ABCDEF</span></div><div class="line"><span class="built_in">console</span>.log(a.toLowerCase());	<span class="comment">//输出abcdef</span></div><div class="line"><span class="built_in">console</span>.log(a.indexOf(<span class="string">'e'</span>)); 	<span class="comment">//输出4</span></div><div class="line"><span class="built_in">console</span>.log(a.substring(<span class="number">2</span>,<span class="number">4</span>));	<span class="comment">//输出CD,注意与php的不同之处</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'a'</span>+<span class="string">'b'</span>);	<span class="comment">//输出ab</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>2.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">$a = <span class="string">"abCDefg"</span>;</div><div class="line"><span class="keyword">echo</span> strlen($a);	<span class="comment">//输出7</span></div><div class="line"><span class="keyword">echo</span> strtoupper($a);	<span class="comment">//输出ABCDEF</span></div><div class="line"><span class="keyword">echo</span> strtolower($a);	<span class="comment">//输出abcdef</span></div><div class="line"><span class="keyword">echo</span> strpos($a,<span class="string">'e'</span>);	<span class="comment">//输出4</span></div><div class="line"><span class="keyword">echo</span> substr($a,<span class="number">2</span>,<span class="number">4</span>);	<span class="comment">//输出CDef</span></div><div class="line"><span class="keyword">echo</span> <span class="string">'a'</span>.<span class="string">'b'</span>;	<span class="comment">//输出ab</span></div></pre></td></tr></table></figure>
+<h1 id="数组-1"><a href="#数组-1" class="headerlink" title="数组"></a>数组</h1><h2 id="数组函数："><a href="#数组函数：" class="headerlink" title="数组函数："></a>数组函数：</h2><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>js</th>
+<th>php</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数组长度</td>
+<td>length属性</td>
+<td>count()</td>
+</tr>
+<tr>
+<td>在数组中查找</td>
+<td>indexOf()</td>
+<td>array_search()</td>
+</tr>
+<tr>
+<td>数组截取</td>
+<td>slice()</td>
+<td>array_slice()</td>
+</tr>
+<tr>
+<td>数组尾部插入元素</td>
+<td>push()</td>
+<td>array_push(),一般不用</td>
+</tr>
+<tr>
+<td>数组尾部删除元素</td>
+<td>pop()</td>
+<td>array_pop()</td>
+</tr>
+<tr>
+<td>数组头部插入元素</td>
+<td>unshift()</td>
+<td>array_unshift()</td>
+</tr>
+<tr>
+<td>数组头部删除元素</td>
+<td>shift()</td>
+<td>array_shift()</td>
+</tr>
+<tr>
+<td>数组排序</td>
+<td>sort()</td>
+<td>sort()</td>
+</tr>
+<tr>
+<td>删除并替换数组中指定的元素</td>
+<td>splice()</td>
+<td>array_splice()</td>
+</tr>
+<tr>
+<td>数组合并</td>
+<td>concat()</td>
+<td>array_merge()</td>
+</tr>
+<tr>
+<td>将数组中的元素用字符连接成字符串</td>
+<td>join()</td>
+<td>implode()</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><code>js</code>中的<code>slice(2,4)</code>截取第2位到第4位（不包括第4位）的元素;<code>php</code>中的<code>array_slice(2,4)</code>截取第2位到第4位（包括第4位）的元素</p>
+</blockquote>
+<p>示例：<br><figure class="highlight js"><figcaption><span>3.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'e'</span>,<span class="string">'a'</span>,<span class="string">'d'</span>];</div><div class="line"><span class="built_in">console</span>.log(arr.length);	<span class="comment">//输出5</span></div><div class="line"><span class="built_in">console</span>.log(arr.indexOf(<span class="string">'e'</span>));	<span class="comment">//输出2</span></div><div class="line"><span class="keyword">var</span> arr2 = arr.slice(<span class="number">2</span>,<span class="number">4</span>);<span class="built_in">console</span>.log(arr2);	<span class="comment">//输出[ 'e', 'a' ]，注意与php的不同之处</span></div><div class="line">arr.push(<span class="string">'F'</span>);<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd', 'F' ]</span></div><div class="line">arr.pop();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">arr.unshift(<span class="string">'A'</span>);<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'A', 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">arr.shift();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">arr.sort();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'a', 'b', 'c', 'd', 'e' ]</span></div><div class="line">arr.reverse();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'e', 'd', 'c', 'b', 'a' ]</span></div><div class="line">arr.splice(<span class="number">2</span>,<span class="number">3</span>,<span class="string">'f'</span>);<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line"><span class="built_in">console</span>.log(arr.concat([<span class="string">'g'</span>,<span class="string">'h'</span>]));	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line"><span class="built_in">console</span>.log(arr.join(<span class="string">'-'</span>));	<span class="comment">//输出e-d-f</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>3.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">$arr = [<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'e'</span>,<span class="string">'a'</span>,<span class="string">'d'</span>];</div><div class="line"><span class="keyword">echo</span> count($arr);	<span class="comment">//输出5</span></div><div class="line"><span class="keyword">echo</span> array_search(<span class="string">'e'</span>, $arr);	<span class="comment">//输出2</span></div><div class="line">$arr2 = array_slice($arr,<span class="number">2</span>,<span class="number">4</span>);print_r($arr2);	<span class="comment">//输出[ 'e', 'a','d']，注意与php的不同之处</span></div><div class="line">array_push($arr,<span class="string">'F'</span>);print_r($arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd', 'F' ]</span></div><div class="line">array_pop($arr);print_r($arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">array_unshift($arr,<span class="string">'A'</span>);print_r($arr);</div><div class="line">	<span class="comment">//输出[ 'A', 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">array_shift($arr);print_r($arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">sort($arr);print_r($arr);	<span class="comment">//输出[ 'a', 'b', 'c', 'd', 'e' ]</span></div><div class="line">rsort($arr);print_r($arr);	<span class="comment">//输出[ 'e', 'd', 'c', 'b', 'a' ]</span></div><div class="line">array_splice($arr,<span class="number">2</span>,<span class="number">3</span>,<span class="string">'f'</span>);print_r($arr);	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line">$arr2 = array_merge($arr,[<span class="string">'g'</span>,<span class="string">'h'</span>]);print_r($arr2);	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line">print_r(implode(<span class="string">'-'</span>,$arr));	<span class="comment">//输出e-d-f</span></div></pre></td></tr></table></figure>
+<h1 id="对象-1"><a href="#对象-1" class="headerlink" title="对象"></a>对象</h1><h2 id="在js和php中的区别"><a href="#在js和php中的区别" class="headerlink" title="在js和php中的区别"></a>在js和php中的区别</h2><ul>
+<li><p><code>js</code>中的属性，相当于<code>php</code>中数组的键</p>
+</li>
+<li><p><code>js</code>中的对象是<code>key-value</code>的形式，而数组不是,对象中的属性可以直接用<code>对象名.属性名</code>进行访问</p>
+</li>
+<li><p><code>js</code>中若属性名中包含特殊字符，需要用<code>&#39;&#39;</code>括起来,<code>php</code>中键若不为数字，也要用<code>&#39;&#39;</code>括起来</p>
+</li>
+</ul>
+<h2 id="对象方法"><a href="#对象方法" class="headerlink" title="对象方法"></a>对象方法</h2><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>js</th>
+<th>php</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>获取对象中属性</td>
+<td>.</td>
+<td>下标</td>
+</tr>
+<tr>
+<td>删除属性</td>
+<td>delete</td>
+<td>unset()</td>
+</tr>
+<tr>
+<td>判断属性是否存在</td>
+<td>in</td>
+<td>in_array()</td>
+</tr>
+<tr>
+<td>判断属性是否存在且是自身的属性</td>
+<td>hasOwnProperty()</td>
+<td>in_array</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><code>js</code>所有的对象都继承自<code>object</code>对象，所以也拥有<code>object</code>对象的属性，如<code>toString</code>,若要判断一个对象自身的属性是否存在时，用<code>hasOwnProperty()</code>方法</p>
+</blockquote>
+<p>示例：<br><figure class="highlight js"><figcaption><span>4.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> obj = &#123;</div><div class="line">    <span class="attr">a2</span>:<span class="number">1</span>,</div><div class="line">    <span class="string">'a-2'</span>:<span class="number">2</span>,</div><div class="line">    <span class="attr">test</span>:<span class="number">3</span>,</div><div class="line">&#125;;</div><div class="line"><span class="built_in">console</span>.log(obj.a2);	<span class="comment">//输出2</span></div><div class="line"><span class="keyword">delete</span> obj.test;<span class="built_in">console</span>.log(obj);	<span class="comment">//输出&#123; a2: 1, 'a-2': 2 &#125;</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'name'</span> <span class="keyword">in</span> obj);	<span class="comment">//输出false</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'toString'</span> <span class="keyword">in</span> obj);	<span class="comment">//输出true</span></div><div class="line"><span class="built_in">console</span>.log(obj.hasOwnProperty(<span class="string">'toString'</span>));	<span class="comment">//输出false</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>4.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">$obj = <span class="keyword">array</span>(</div><div class="line">        <span class="string">'a2'</span> =&gt; <span class="number">1</span>,</div><div class="line">        <span class="string">'a-2'</span> =&gt; <span class="number">2</span>,</div><div class="line">        <span class="string">'test'</span> =&gt; <span class="number">3</span>,</div><div class="line">    );</div><div class="line"><span class="keyword">echo</span> $obj[<span class="string">'a2'</span>];	<span class="comment">//输出2</span></div><div class="line"><span class="keyword">unset</span>($obj[<span class="string">'test'</span>]);var_dump($obj);	<span class="comment">//输出&#123; 'a2' =&gt; 1, 'a-2'=&gt; 2 &#125;</span></div><div class="line">var_dump(in_array(<span class="string">'name'</span>,$obj));	<span class="comment">//输出false</span></div><div class="line">var_dump(in_array(<span class="string">'toString'</span>,$obj));	<span class="comment">//输出false</span></div></pre></td></tr></table></figure>
+<h1 id="条件与循环"><a href="#条件与循环" class="headerlink" title="条件与循环"></a>条件与循环</h1><h2 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h2><p><code>if-else</code>条件语句的使用方法完全一致</p>
+<blockquote>
+<p><code>js</code>把<code>null</code>、<code>undefined</code>、<code>0</code>、<code>NaN</code>和空字符串<code>&#39;&#39;</code>视为false，其他值包括<code>[ ]</code>、<code>{}</code>一概视为true<br><code>php</code>把<code>null</code>、<code>0</code>、<code>&#39;&#39;</code>、<code>[ ]</code>视为false,<code>NaN</code>与<code>undefined</code>在<code>php</code>没有特定意义，会视为true</p>
+</blockquote>
+<h2 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h2><p><code>for</code>、<code>while</code>、<code>do...whild</code>、<code>break</code>用法二者完全一致</p>
+<p>更便捷的遍历数组的方法，<code>js</code>中有<code>for in</code>，<code>php</code>中有<code>foreach</code><br>示例：</p>
+<figure class="highlight js"><figcaption><span>5.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>];</div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i <span class="keyword">in</span> arr)&#123;</div><div class="line">    <span class="built_in">console</span>.log(i+<span class="string">'-'</span>+arr[i]);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>运行结果：<br>0-a<br>1-b<br>2-c</p>
+</blockquote>
+<figure class="highlight php"><figcaption><span>5.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span> </div><div class="line">$arr = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>];</div><div class="line"><span class="keyword">foreach</span>($arr <span class="keyword">as</span> $key =&gt; $value)&#123;</div><div class="line">    <span class="keyword">echo</span> $key.<span class="string">'-'</span>.$value.<span class="string">"\n"</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>运行结果：<br>0-a<br>1-b<br>2-c</p>
+</blockquote>
+<h1 id="Map、Set、iterable-ES6"><a href="#Map、Set、iterable-ES6" class="headerlink" title="Map、Set、iterable(ES6)"></a>Map、Set、iterable(ES6)</h1><hr>
+<h2 id="从下面开始基本上已经找不到跟php类似的地方了"><a href="#从下面开始基本上已经找不到跟php类似的地方了" class="headerlink" title="从下面开始基本上已经找不到跟php类似的地方了"></a>从下面开始基本上已经找不到跟<code>php</code>类似的地方了</h2><h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><h2 id="函数的定义"><a href="#函数的定义" class="headerlink" title="函数的定义"></a>函数的定义</h2><p><code>js</code>中没有<code>return</code>语句会返回<code>undefined</code>,<code>php</code>则不会</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">abs</span>(<span class="params">x</span>)</span>&#123;</div><div class="line">	... ...</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>等价于</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> abs = <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;	<span class="comment">//定义匿名函数，没有函数名，通过变量名abs调用函数</span></div><div class="line">    ... ...</div><div class="line">    &#125;;	<span class="comment">//以分号收尾</span></div></pre></td></tr></table></figure>
+<p>第二种定义函数的方式只有<code>js</code>支持，<code>php</code>不支持</p>
+<h2 id="函数入参"><a href="#函数入参" class="headerlink" title="函数入参"></a>函数入参</h2><blockquote>
+<p>arguments指向当前函数的调用者传入的所有参数<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> sum=<span class="number">0</span>;</div><div class="line">    <span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="built_in">arguments</span>.length;i++)&#123;</div><div class="line">        sum +=<span class="built_in">arguments</span>[i];</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> sum;</div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(add(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>));	<span class="comment">//输出6</span></div></pre></td></tr></table></figure></p>
+<p>rest(ES6)指向当前函数的调用者传入的除已定义参数外的其它参数<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params">a, b, ...rest</span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'a = '</span> + a);</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'b = '</span> + b);</div><div class="line">    <span class="built_in">console</span>.log(rest);</div><div class="line">&#125;</div><div class="line">foo(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>);</div><div class="line"><span class="comment">// 结果:</span></div><div class="line"><span class="comment">// a = 1</span></div><div class="line"><span class="comment">// b = 2</span></div><div class="line"><span class="comment">// Array [ 3, 4, 5 ]</span></div><div class="line">foo(<span class="number">1</span>);</div><div class="line"><span class="comment">// 结果:</span></div><div class="line"><span class="comment">// a = 1</span></div><div class="line"><span class="comment">// b = undefined</span></div><div class="line"><span class="comment">// Array []</span></div></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="变量提升"><a href="#变量提升" class="headerlink" title="变量提升"></a>变量提升</h2><p>JavaScript的函数定义有个特点，它会先扫描整个函数体的语句，把所有申明的变量“提升”到函数顶部</p>
+<blockquote>
+<p>意思是说如果你先使用变量，再在后面申明不会报错，但是前面使用的变量值是<code>undefined</code>,所以要用的变量最好提前声明</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> x = <span class="string">'Hello, '</span> + y;</div><div class="line">    alert(x);</div><div class="line">    <span class="keyword">var</span> y = <span class="string">'Bob'</span>;</div><div class="line">&#125;</div><div class="line">foo();</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出：<br>Hello, undefined</p>
+</blockquote>
+<h2 id="全局作用域"><a href="#全局作用域" class="headerlink" title="全局作用域"></a>全局作用域</h2><p>默认的全局对象<code>window</code>，全局作用域的变量和方法都被绑定为<code>window</code>的一个属性</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">'use strict'</span>;</div><div class="line"><span class="keyword">var</span> a = <span class="number">3</span>;</div><div class="line"><span class="built_in">console</span>.log(a);</div><div class="line"><span class="built_in">console</span>.log(<span class="built_in">window</span>.a);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">func</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'test'</span>);</div><div class="line">&#125;</div><div class="line">func();</div><div class="line"><span class="built_in">window</span>.func();</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出：<br>3<br>3<br>test<br>test</p>
+</blockquote>
+<h2 id="块级作用域let"><a href="#块级作用域let" class="headerlink" title="块级作用域let"></a>块级作用域let</h2><p>比<code>var</code>的作用范围小，可以只在<code>if</code>、<code>for</code>的代码块中生效</p>
+<p>变量的作用域：<br><code>全局变量 &gt; 成员变量 &gt; 块级变量</code></p>
+<p>s</p>
+<h2 id="ES6可以用const声明常量"><a href="#ES6可以用const声明常量" class="headerlink" title="ES6可以用const声明常量"></a>ES6可以用<code>const</code>声明常量</h2><p>用<code>var</code>来申明常量，属于一种约定,意思是告诉别人我申明的是一个常量，但修改它的值不会报错</p>
+<p>如果常量是用<code>const</code>申明的话，修改它的值会报错</p>
+<h2 id="this"><a href="#this" class="headerlink" title="this"></a>this</h2><p>函数内部<code>this</code>指向<br>如果以对象的方法形式调用，如<code>object.func()</code>,那么<code>func()</code>方法中的<code>this</code>就指向<code>object</code>对象；单独调用<code>func()</code>方法中的<code>this</code>指向全局的<code>window</code>对象(<code>strict</code>模式下指向<code>undefined</code>)</p>
+<h2 id="高阶函数"><a href="#高阶函数" class="headerlink" title="高阶函数"></a>高阶函数</h2><p><code>js</code>中函数也可以当做变量<br>以函数为入参的函数就是高阶函数</p>
+<h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><blockquote>
+<p>用指定的方法作用于数组中的每一个元素</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</div><div class="line"><span class="keyword">var</span> add = <span class="function"><span class="keyword">function</span>(<span class="params">x</span>)</span>&#123;</div><div class="line">    <span class="keyword">return</span> ++x;</div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> arr2 = arr.map(add);	<span class="comment">//相当于[1+1,2+1,3+1,4+1]</span></div><div class="line">alert(arr2);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>结果为：<br>2,3,4,5</p>
+</blockquote>
+<p>如果<code>map</code>参数中使用的方法支持多个入参，需要小心，可能踩坑。看下面的例子（<code>parseInt</code>是字符串转换为整数的方法）：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'1'</span>,<span class="string">'2'</span>,<span class="string">'3'</span>,<span class="string">'4'</span>];</div><div class="line"><span class="keyword">var</span> arr2 = arr.map(<span class="built_in">parseInt</span>);</div><div class="line">alert(arr2);</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>输出<br>[ 1, NaN, NaN, NaN ]</p>
+</blockquote>
+<p>为了帮助理解，我们看一下map方法向它向作为参数的函数传递的是怎样的参数<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'1'</span>,<span class="string">'2'</span>,<span class="string">'3'</span>,<span class="string">'4'</span>];</div><div class="line"><span class="keyword">var</span> arr2 = arr.map(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	alert(<span class="built_in">arguments</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>输出：<br>{ ‘0’: ‘1’, ‘1’: 0, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }<br>{ ‘0’: ‘2’, ‘1’: 1, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }<br>{ ‘0’: ‘3’, ‘1’: 2, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }<br>{ ‘0’: ‘4’, ‘1’: 3, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }</p>
+</blockquote>
+<p><code>map</code>传递了三个参数：<code>值</code>、<code>索引</code>、<code>数组</code></p>
+<p>而<code>parseInt</code>函数说明如下：<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1469516107543.png" alt=""></p>
+<p>之前的程序相当于依次执行下面的操作：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">parseInt</span>(<span class="number">1</span>,<span class="number">0</span>);</div><div class="line"><span class="built_in">parseInt</span>(<span class="number">2</span>,<span class="number">1</span>);</div><div class="line"><span class="built_in">parseInt</span>(<span class="number">3</span>,<span class="number">2</span>);</div><div class="line"><span class="built_in">parseInt</span>(<span class="number">4</span>,<span class="number">3</span>);</div></pre></td></tr></table></figure></p>
+<h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><blockquote>
+<p>指定的方法作用于数组的前两个元素，得到的结果与下一个元素重复此过程</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</div><div class="line"><span class="keyword">var</span> add = <span class="function"><span class="keyword">function</span>(<span class="params">x,y</span>)</span>&#123;</div><div class="line">	<span class="keyword">return</span> x+y;</div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> arr2 = arr.reduce(add);	<span class="comment">//相当于((1+2)+3)+4</span></div><div class="line">alert(arr2);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>结果为：<br>10</p>
+</blockquote>
+<h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><blockquote>
+<p>在<code>filter</code>的入参中指定筛选的规则,最后返回数组中满足条件的部分</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</div><div class="line"><span class="keyword">var</span> rule = <span class="function"><span class="keyword">function</span>(<span class="params">x</span>)</span>&#123;</div><div class="line">    <span class="keyword">return</span> x % <span class="number">2</span> == <span class="number">0</span>; </div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> arr2 = arr.filter(rule);</div><div class="line">alert(arr2);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出:<br>2,4</p>
+</blockquote>
+<h3 id="sort"><a href="#sort" class="headerlink" title="sort"></a>sort</h3><blockquote>
+<p>默认的<code>sort()</code>方法先将要比较的对象先转为字符串再比较，比较字符串的时候会根据<code>ASCII</code>值进行比较</p>
+</blockquote>
+<p>因此如果直接用<code>sort</code>方法比较整数数组数组时，可能会出现问题，如下</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alert([<span class="number">1</span>,<span class="number">2</span>,<span class="number">10</span>].sort());</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>1,10,2</p>
+</blockquote>
+<p>好在<code>sort</code>方法是个高阶函数，允许我们在使用的时候指定排序的规则：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">alert([<span class="number">1</span>,<span class="number">2</span>,<span class="number">10</span>].sort(<span class="function"><span class="keyword">function</span>(<span class="params">x,y</span>)</span>&#123;</div><div class="line">    <span class="keyword">if</span>(x&gt;y)&#123;<span class="keyword">return</span> <span class="number">1</span>;&#125;</div><div class="line">    <span class="keyword">if</span>(x=y)&#123;<span class="keyword">return</span> <span class="number">0</span>;&#125;</div><div class="line">    <span class="keyword">if</span>(x&lt;y)&#123;<span class="keyword">return</span> <span class="number">-1</span>;&#125;</div><div class="line">&#125;));</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>1,2,10</p>
+</blockquote>
+<h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><h1 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数"></a>箭头函数</h1><h1 id="gennerator"><a href="#gennerator" class="headerlink" title="gennerator"></a>gennerator</h1>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/js/" rel="tag"># js</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/07/21/sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境/" rel="next" title="sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境">
+                <i class="fa fa-chevron-left"></i> sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/07/27/hexo的yelee主题设置/" rel="prev" title="hexo的yelee主题设置">
+                hexo的yelee主题设置 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.png"
+               alt="Jimxu" />
+          <p class="site-author-name" itemprop="name">Jimxu</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">108</span>
+                <span class="site-state-item-name">文章</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">33</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">35</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#入门"><span class="nav-number">1.</span> <span class="nav-text">入门</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#变量"><span class="nav-number">1.1.</span> <span class="nav-text">变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#strict模式"><span class="nav-number">1.2.</span> <span class="nav-text">strict模式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看变量类型"><span class="nav-number">1.3.</span> <span class="nav-text">查看变量类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#与"><span class="nav-number">1.4.</span> <span class="nav-text">==与===</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#浮点数"><span class="nav-number">1.5.</span> <span class="nav-text">浮点数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#数组"><span class="nav-number">1.6.</span> <span class="nav-text">数组</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#对象"><span class="nav-number">1.7.</span> <span class="nav-text">对象</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#输出"><span class="nav-number">1.8.</span> <span class="nav-text">输出</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#字符串"><span class="nav-number">2.</span> <span class="nav-text">字符串</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#单引号和双引号"><span class="nav-number">2.1.</span> <span class="nav-text">单引号和双引号</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#字符串函数"><span class="nav-number">2.2.</span> <span class="nav-text">字符串函数</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#数组-1"><span class="nav-number">3.</span> <span class="nav-text">数组</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#数组函数："><span class="nav-number">3.1.</span> <span class="nav-text">数组函数：</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对象-1"><span class="nav-number">4.</span> <span class="nav-text">对象</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#在js和php中的区别"><span class="nav-number">4.1.</span> <span class="nav-text">在js和php中的区别</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#对象方法"><span class="nav-number">4.2.</span> <span class="nav-text">对象方法</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#条件与循环"><span class="nav-number">5.</span> <span class="nav-text">条件与循环</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#条件语句"><span class="nav-number">5.1.</span> <span class="nav-text">条件语句</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#循环语句"><span class="nav-number">5.2.</span> <span class="nav-text">循环语句</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Map、Set、iterable-ES6"><span class="nav-number">6.</span> <span class="nav-text">Map、Set、iterable(ES6)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#从下面开始基本上已经找不到跟php类似的地方了"><span class="nav-number">6.1.</span> <span class="nav-text">从下面开始基本上已经找不到跟php类似的地方了</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#函数"><span class="nav-number">7.</span> <span class="nav-text">函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#函数的定义"><span class="nav-number">7.1.</span> <span class="nav-text">函数的定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#函数入参"><span class="nav-number">7.2.</span> <span class="nav-text">函数入参</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#变量提升"><span class="nav-number">7.3.</span> <span class="nav-text">变量提升</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#全局作用域"><span class="nav-number">7.4.</span> <span class="nav-text">全局作用域</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#块级作用域let"><span class="nav-number">7.5.</span> <span class="nav-text">块级作用域let</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#ES6可以用const声明常量"><span class="nav-number">7.6.</span> <span class="nav-text">ES6可以用const声明常量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#this"><span class="nav-number">7.7.</span> <span class="nav-text">this</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#高阶函数"><span class="nav-number">7.8.</span> <span class="nav-text">高阶函数</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#map"><span class="nav-number">7.8.1.</span> <span class="nav-text">map</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#reduce"><span class="nav-number">7.8.2.</span> <span class="nav-text">reduce</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#filter"><span class="nav-number">7.8.3.</span> <span class="nav-text">filter</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#sort"><span class="nav-number">7.8.4.</span> <span class="nav-text">sort</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#闭包"><span class="nav-number">8.</span> <span class="nav-text">闭包</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#箭头函数"><span class="nav-number">9.</span> <span class="nav-text">箭头函数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#gennerator"><span class="nav-number">10.</span> <span class="nav-text">gennerator</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jimxu</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 提供技术支持
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      本站访客数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      本站总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+    
+    <script>
+      var cloudTieConfig = {
+        url: document.location.href, 
+        sourceId: "",
+        productKey: "203f2163604d4e4dbad7cfd8affbb7f0",
+        target: "cloud-tie-wrapper"
+      };
+    </script>
+    <script src="https://img1.ws.126.net/f2e/tie/yun/sdk/loader.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.popup').toggle();
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var matchcounts = 0;
+            var str='<ul class=\"search-result-list\">';
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            $resultContent.innerHTML = "";
+            if (this.value.trim().length > 1) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var content_index = [];
+                var data_title = data.title.trim().toLowerCase();
+                var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                var data_url = decodeURIComponent(data.url);
+                var index_title = -1;
+                var index_content = -1;
+                var first_occur = -1;
+                // only match artiles with not empty titles and contents
+                if(data_title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    index_title = data_title.indexOf(keyword);
+                    index_content = data_content.indexOf(keyword);
+                    if( index_title >= 0 || index_content >= 0 ){
+                      isMatch = true;
+                      if (i == 0) {
+                        first_occur = index_content;
+                      }
+                    }
+
+                  });
+                }
+                // show search results
+                if (isMatch) {
+                  matchcounts += 1;
+                  str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                  var content = data.content.trim().replace(/<[^>]+>/g,"");
+                  if (first_occur >= 0) {
+                    // cut out 100 characters
+                    var start = first_occur - 20;
+                    var end = first_occur + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if(start == 0){
+                      end = 50;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    var match_content = content.substring(start, end);
+                    // highlight all keywords
+                    keywords.forEach(function(keyword){
+                      var regS = new RegExp(keyword, "gi");
+                      match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                    });
+
+                    str += "<p class=\"search-result\">" + match_content +"...</p>"
+                  }
+                  str += "</li>";
+                }
+              })};
+            str += "</ul>";
+            if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+            if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+            $resultContent.innerHTML = str;
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+
+</body>
+</html>
