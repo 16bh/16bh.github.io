@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-05-11T11:11:55.000Z</updated>
+  <updated>2017-05-12T13:34:35.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/"/>
     <id>http://jimxu.me/2017/05/10/从零搭建mac环境/</id>
     <published>2017-05-10T13:48:02.000Z</published>
-    <updated>2017-05-11T11:11:55.000Z</updated>
+    <updated>2017-05-12T13:34:35.000Z</updated>
     
     <content type="html"><![CDATA[<p>从头安装开发环境</p>
 <a id="more"></a>
@@ -76,12 +76,19 @@
 <li>设置log路径</li>
 </ul>
 </li>
-<li><p>安装php</p>
+<li><p>安装php！</p>
 <ul>
 <li>brew install php70</li>
 <li>设置环境变量</li>
 <li>设置log路径</li>
 <li>安装扩展</li>
+</ul>
+</li>
+<li><p>安装phpstorm!</p>
+<ul>
+<li>下载安装</li>
+<li>导入配置（安装前导出备份） </li>
+<li>安装必要的插件</li>
 </ul>
 </li>
 <li><p>安装redis</p>
@@ -91,8 +98,12 @@
 <li>关闭持久化</li>
 </ul>
 </li>
-<li><p>安装mysql</p>
-</li>
+</ul>
+<blockquote>
+<p>建议将php,redis,nginx等错误日志放在一个文件夹中</p>
+</blockquote>
+<ul>
+<li>安装mysql</li>
 </ul>
 <p><a href="http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html" target="_blank" rel="external">下载安装：http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html</a></p>
 <p><a href="http://www.jianshu.com/p/fd3aae701db9" target="_blank" rel="external">配置：http://www.jianshu.com/p/fd3aae701db9
@@ -483,9 +494,10 @@
     <link href="http://jimxu.me/2017/04/11/VScode%E6%90%AD%E5%BB%BAgo-lang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
     <id>http://jimxu.me/2017/04/11/VScode搭建go-lang开发环境/</id>
     <published>2017-04-11T08:26:03.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
+    <updated>2017-05-12T11:20:46.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
+    <content type="html"><![CDATA[<p>vscode搭建go开发环境</p>
+<a id="more"></a>
 <h1 id="安装Go插件"><a href="#安装Go插件" class="headerlink" title="安装Go插件"></a>安装Go插件</h1><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189925767872.png" alt="20170411149189925767872.png"></p>
 <h1 id="修改配置"><a href="#修改配置" class="headerlink" title="修改配置"></a>修改配置</h1><p><code>command+,</code><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&quot;go.gopath&quot;: &quot;/users/jim/Documents/code/go&quot;,</div><div class="line">&quot;go.goroot&quot;: &quot;/usr/local/opt/go/libexec&quot;</div></pre></td></tr></table></figure></p>
 <h1 id="安装-golang-debug-插件-delve"><a href="#安装-golang-debug-插件-delve" class="headerlink" title="安装 golang debug 插件 delve"></a>安装 golang debug 插件 delve</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install go-delve/delve/delve</div></pre></td></tr></table></figure>
@@ -499,8 +511,7 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;安装Go插件&quot;&gt;&lt;a href=&quot;#安装Go插件&quot; class=&quot;headerlink&quot; title=&quot;安装Go插件&quot;&gt;&lt;/a&gt;安装Go插件&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.cloud
+      &lt;p&gt;vscode搭建go开发环境&lt;/p&gt;
     
     </summary>
     
