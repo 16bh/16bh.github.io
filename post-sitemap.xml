@@ -7,8 +7,32 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/2016/07/11/sublime3144%E6%90%AD%E5%BB%BAphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+        <lastmod>2017-05-12T09:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2016/08/16/mac%20software%20list/</loc>
+        <lastmod>2017-05-12T09:37:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/</loc>
-        <lastmod>2017-05-11T10:08:24.000Z</lastmod>
+        <lastmod>2017-05-11T11:11:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2016/10/27/ios%E5%92%8Cmacos%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+        <lastmod>2017-05-11T10:43:07.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -255,14 +279,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/10/27/ios%E5%92%8Cmacos%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jimxu.me/2016/06/16/homebrew%E3%80%81homebrew-cask%E5%8F%8Acakebrew/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -288,14 +304,6 @@
 
     <url>
         <loc>http://jimxu.me/2016/07/06/landscape-plus%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85%E4%B8%8D%E8%92%9C%E5%AD%90%E8%AE%BF%E9%97%AE%E9%87%8F%E7%BB%9F%E8%AE%A1%E6%8F%92%E4%BB%B6/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2016/08/16/mac%20software%20list/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -544,14 +552,6 @@
 
     <url>
         <loc>http://jimxu.me/2016/07/07/python%E5%AE%89%E8%A3%85requests%E5%BA%93/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2016/07/11/sublime3144%E6%90%AD%E5%BB%BAphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

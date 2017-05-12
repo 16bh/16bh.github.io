@@ -14,20 +14,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/Software/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/categories/Editor/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/categories/IT/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -119,13 +105,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/Editor/sublime/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/categories/IT/mysql/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -155,7 +134,28 @@
 
     <url>
         <loc>http://jimxu.me/categories/Mac/</loc>
-        <lastmod>2017-05-11T10:08:24.000Z</lastmod>
+        <lastmod>2017-05-11T11:11:55.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Software/</loc>
+        <lastmod>2017-05-12T09:37:23.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Editor/</loc>
+        <lastmod>2017-05-12T09:43:43.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Editor/sublime/</loc>
+        <lastmod>2017-05-12T09:43:43.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

@@ -99,7 +99,7 @@
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468233896575.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468477997880.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1468233445271.png">
-<meta property="og:updated_time" content="2017-05-11T09:50:47.000Z">
+<meta property="og:updated_time" content="2017-05-12T09:43:43.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="sublime3144版本搭建php开发环境">
 <meta name="twitter:description" content="sublime是兼备美观、轻便、扩展性强为一身的最强大的编辑器之一（没有之一的话会被打的吧） 最新版的sublime自带的GOTO功能解决了php需要安装ctags插件才能进行跳转的不方便之处，无需手动生成tags文件即可跳转 配置环境为mac，部分内容可能不适合windows环境 sublime虽然也支持debug功能，但肯定没有phpstorm好用，如果经常需要debug功能的，建议切换到p">
@@ -438,7 +438,10 @@
 </blockquote>
 <a id="more"></a>
 <h1 id="sublime下载"><a href="#sublime下载" class="headerlink" title="sublime下载"></a>sublime下载</h1><p>直接从<code>sublime</code>的官网下载安装文件：<a href="https://www.sublimetext.com/" target="_blank" rel="external">https://www.sublimetext.com/</a></p>
-<h1 id="万物的起始-安装插件管理工具package-control"><a href="#万物的起始-安装插件管理工具package-control" class="headerlink" title="万物的起始:安装插件管理工具package control"></a>万物的起始:安装插件管理工具<code>package control</code></h1><p>使用<code>Ctrl</code>+<code>、</code>（数字1左边那个）快捷键或者通过<code>View</code>&gt;<code>Show Console</code>菜单打开命令行</p>
+<h1 id="万物的起始-安装插件管理工具package-control"><a href="#万物的起始-安装插件管理工具package-control" class="headerlink" title="万物的起始:安装插件管理工具package control"></a>万物的起始:安装插件管理工具<code>package control</code></h1><blockquote>
+<p>2017-5-12更新  最新版本的sublime在控制台直接输入<code>install package control</code>即可安装使用</p>
+</blockquote>
+<p>使用<code>Ctrl</code>+<code>、</code>（数字1左边那个）快捷键或者通过<code>View</code>&gt;<code>Show Console</code>菜单打开命令行</p>
 <p>输入以下内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">import urllib.request,os; pf = &apos;Package Control.sublime-package&apos;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), &apos;wb&apos;).write(urllib.request.urlopen( &apos;http://sublime.wbond.net/&apos; + pf.replace(&apos; &apos;,&apos;%20&apos;)).read())</div></pre></td></tr></table></figure>
 <p>按确认后即开始安装<code>package control</code></p>

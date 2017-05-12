@@ -4,12 +4,79 @@
 
     
   <url>
+    <loc>http://jimxu.me/2016/07/11/sublime3144%E6%90%AD%E5%BB%BAphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2017-05-12T09:43:43.000Z</lastmod>
+    <data>
+        <display>
+        <title>sublime3144版本搭建php开发环境</title>
+        <pubTime>2016-07-11T09:36:35.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/08/16/mac%20software%20list/</loc>
+    <lastmod>2017-05-12T09:37:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>SoftWare List - Mac</title>
+        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
+        
+        <tag>software</tag>
+         
+        <tag>mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://jimxu.me/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2017-05-11T10:08:24.000Z</lastmod>
+    <lastmod>2017-05-11T11:11:55.000Z</lastmod>
     <data>
         <display>
         <title>从零搭建mac开发环境</title>
         <pubTime>2017-05-10T13:48:02.000Z</pubTime>
+        
+        <tag>mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://jimxu.me/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/10/27/ios%E5%92%8Cmacos%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2017-05-11T10:43:07.000Z</lastmod>
+    <data>
+        <display>
+        <title>ios\macOs技巧</title>
+        <pubTime>2016-10-27T10:14:23.000Z</pubTime>
         
         <tag>mac</tag>
          
@@ -57,71 +124,6 @@
            
              
               <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/10/Magento%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE%E6%94%BB%E7%95%A5/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>Magento后台配置攻略</title>
-        <pubTime>2017-04-10T10:57:15.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/06/Magento%E6%A0%B9%E6%8D%AE%E8%AE%A2%E5%8D%95%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>Magento根据订单获取地址信息</title>
-        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>MarkDown基础介绍</title>
-        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-         
-           
-             
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
           
         </display>
     </data>
@@ -613,19 +615,22 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/10/27/ios%E5%92%8Cmacos%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://jimxu.me/2017/01/03/Lua%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>ios\macOs技巧</title>
-        <pubTime>2016-10-27T10:14:23.000Z</pubTime>
+        <title>Lua学习笔记</title>
+        <pubTime>2017-01-03T14:23:05.000Z</pubTime>
         
-        <tag>mac</tag>
+        <tag>lua</tag>
          
          
            
              
-              <breadCrumb title="Mac" url="http://jimxu.me/categories/Mac/"/>
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="lua" url="http://jimxu.me/categories/IT/lua/"/>
           
         </display>
     </data>
@@ -710,21 +715,23 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/08/16/mac%20software%20list/</loc>
+    <loc>http://jimxu.me/2017/04/07/Magento%E5%8D%87%E7%BA%A7%E8%84%9A%E6%9C%AC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>SoftWare List - Mac</title>
-        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
+        <title>Magento升级脚本常见问题</title>
+        <pubTime>2017-04-07T03:02:02.000Z</pubTime>
         
-        <tag>software</tag>
+        <tag>php</tag>
          
-        <tag>mac</tag>
+        <tag>magento</tag>
+         
+        <tag>mysql</tag>
          
          
            
              
-              <breadCrumb title="Software" url="http://jimxu.me/categories/Software/"/>
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
           
         </display>
     </data>
@@ -1425,24 +1432,21 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/11/sublime3144%E6%90%AD%E5%BB%BAphp%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <loc>http://jimxu.me/2017/04/10/Magento%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE%E6%94%BB%E7%95%A5/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>sublime3144版本搭建php开发环境</title>
-        <pubTime>2016-07-11T09:36:35.000Z</pubTime>
+        <title>Magento后台配置攻略</title>
+        <pubTime>2017-04-10T10:57:15.000Z</pubTime>
         
         <tag>php</tag>
          
-        <tag>sublime</tag>
+        <tag>magento</tag>
          
          
            
              
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
           
         </display>
     </data>
@@ -1689,22 +1693,19 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/01/03/Lua%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <loc>http://jimxu.me/2017/04/06/Magento%E6%A0%B9%E6%8D%AE%E8%AE%A2%E5%8D%95%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>Lua学习笔记</title>
-        <pubTime>2017-01-03T14:23:05.000Z</pubTime>
+        <title>Magento根据订单获取地址信息</title>
+        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
         
-        <tag>lua</tag>
+        <tag>magento</tag>
          
          
            
              
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="lua" url="http://jimxu.me/categories/IT/lua/"/>
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
           
         </display>
     </data>
@@ -1877,23 +1878,22 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/07/Magento%E5%8D%87%E7%BA%A7%E8%84%9A%E6%9C%AC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <loc>http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>Magento升级脚本常见问题</title>
-        <pubTime>2017-04-07T03:02:02.000Z</pubTime>
+        <title>MarkDown基础介绍</title>
+        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
         
-        <tag>php</tag>
-         
-        <tag>magento</tag>
-         
-        <tag>mysql</tag>
+        <tag>markdown</tag>
          
          
            
              
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
           
         </display>
     </data>
