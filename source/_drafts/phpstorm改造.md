@@ -1,5 +1,5 @@
 ---
-title: phpstorm改造
+title: phpstorm插件
 toc: false
 date: 2016-07-12 19:34:16
 categories: [编辑器,phpStorm]

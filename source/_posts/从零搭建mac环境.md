@@ -45,7 +45,7 @@ brew cask install shadowsocksx
 
 [怎样在一台电脑上同时使用公司 GitLab 和 Github 的服务](https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md)
 
-> 终端输入git
+> 终端输入git命令即可安装git
 
 - 安装iterm2
 
@@ -58,11 +58,10 @@ https://www.iterm2.com/downloads.html
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-安装wd和zsh-wakatime插件
 
-设置主题为powerline
-
-安装powerline等宽字体
+	- 安装wd和zsh-wakatime插件
+	- 设置主题为powerline
+	- 安装powerline等宽字体
 
 ```
 git clone https://github.com/powerline/fonts.git
@@ -81,20 +80,27 @@ chsh -s /bin/zsh
 ```
 
 - 安装nginx
-brew install nginx
-配置servers文件
-设置log路径
+	- brew install nginx
+	- 配置servers文件
+	- 设置log路径
 
-- 安装php
-brew install php70
-设置环境变量
-设置log路径
-安装扩展
+- 安装php！
+	- brew install php70
+	- 设置环境变量
+	- 设置log路径
+	- 安装扩展
+	
+- 安装phpstorm!
+	- 下载安装
+	- 导入配置（安装前导出备份） 
+	- 安装必要的插件
 
 - 安装redis
-brew install redis
-设置log路径
-关闭持久化
+	- brew install redis
+	- 设置log路径
+	- 关闭持久化
+
+> 建议将php,redis,nginx等错误日志放在一个文件夹中
 
 - 安装mysql
 
@@ -107,5 +113,8 @@ brew install redis
 - 安装reeder，登录inoreader账号
 - 安装quiver、paste、yonik、bartender、moom、dash等常用软件
 - 安装hexo
+
+[迁移hexo](https://www.zhihu.com/question/21193762)
+
 - 设置开启启动app
 

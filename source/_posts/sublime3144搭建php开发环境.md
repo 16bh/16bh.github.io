@@ -24,6 +24,8 @@ tags: [php,sublime]
 
 # 万物的起始:安装插件管理工具`package control`
 
+> 2017-5-12更新  最新版本的sublime在控制台直接输入`install package control`即可安装使用
+
 使用`Ctrl`+`、`（数字1左边那个）快捷键或者通过`View`>`Show Console`菜单打开命令行
 
 输入以下内容：

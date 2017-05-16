@@ -58,6 +58,7 @@ tags: [software,mac]
 - `Cocoa Rest Client` 
 - `DiffMerge`  免费的代码比对工具
 - [`Beyond Compare`](http://www.scootersoftware.com/download.php)  代码比对
+- `Medis`  收费的redis交互软件
 - `redis desk manager`  免费的可视化redis工具，缺点是在mac系统容易crash
 
 # 服务
