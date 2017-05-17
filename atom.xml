@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-05-12T13:34:35.000Z</updated>
+  <updated>2017-05-17T10:16:51.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -16,11 +16,56 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Laravel目录结构</title>
+    <link href="http://jimxu.me/2017/05/17/Laravel%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
+    <id>http://jimxu.me/2017/05/17/Laravel目录结构/</id>
+    <published>2017-05-17T10:15:38.000Z</published>
+    <updated>2017-05-17T10:16:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>laravel目录</p>
+<p>2017-05-17 新建</p>
+<a id="more"></a>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170517149501610994155.png" alt="20170517149501610994155.png"></p>
+<ul>
+<li>routes 路由</li>
+<li>app     模型</li>
+<li>resources/views  blade视图</li>
+<li>app/Http/Controllers 控制器</li>
+<li>config 配置文件</li>
+<li>database  数据库</li>
+<li>database/factory 数据库工厂，和seeds一道生成测试数据</li>
+<li>database/migrations  数据库迁移</li>
+<li>public/css css资源</li>
+<li>public/js js资源</li>
+<li>resources/lang/en  语言包</li>
+<li>tests  单元测试</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;laravel目录&lt;/p&gt;
+&lt;p&gt;2017-05-17 新建&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="laravel" scheme="http://jimxu.me/tags/laravel/"/>
+    
+  </entry>
+  
+  <entry>
     <title>从零搭建mac开发环境</title>
     <link href="http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/"/>
     <id>http://jimxu.me/2017/05/10/从零搭建mac环境/</id>
     <published>2017-05-10T13:48:02.000Z</published>
-    <updated>2017-05-12T13:34:35.000Z</updated>
+    <updated>2017-05-17T09:55:44.000Z</updated>
     
     <content type="html"><![CDATA[<p>从头安装开发环境</p>
 <a id="more"></a>
@@ -116,6 +161,8 @@
 <p><a href="https://www.zhihu.com/question/21193762" target="_blank" rel="external">迁移hexo</a></p>
 <ul>
 <li>设置开启启动app</li>
+<li>安装tree<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install tree</div></pre></td></tr></table></figure>
+</li>
 </ul>
 ]]></content>
     
@@ -1157,65 +1204,9 @@
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
     
-      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
-    
       <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
     
-  </entry>
-  
-  <entry>
-    <title>psr2规范</title>
-    <link href="http://jimxu.me/2017/04/01/psr2%E8%A7%84%E8%8C%83/"/>
-    <id>http://jimxu.me/2017/04/01/psr2规范/</id>
-    <published>2017-04-01T08:19:26.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103566288287.png" alt="20170401149103566288287.png"></p>
-<p>给phpStorm安装phpcs之后，碰到的psr问题都记录下来</p>
-<a id="more"></a>
-<ul>
-<li>A file SHOULD declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it SHOULD execute logic with side effects, but SHOULD NOT do both.</li>
-</ul>
-<p>PHP代码中应该只定义类、函数、常量等声明，或其他会产生 从属效应 的操作（如：生成文件输出以及修改.ini配置文件等），二者只能选其一；</p>
-<ul>
-<li><p>The closing brace for the class must go on the next line after the body</p>
-<p>类的开始花括号({)必须写在函数声明后自成一行，结束花括号(})也必须写在函数主体后自成一行</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line"></div><div class="line">class Text</div><div class="line">&#123;</div><div class="line">    public function test()</div><div class="line">    &#123;</div><div class="line">        test;</div><div class="line">    &#125;</div><div class="line">&#125;//正确</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line"></div><div class="line">class Text</div><div class="line">&#123;</div><div class="line">    public function test()</div><div class="line">    &#123;</div><div class="line">        test;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">&#125;//错误,类的结束花括号应该紧邻body</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103534322168.png" alt="20170401149103534322168.png"></p>
-<ul>
-<li>Each class must be in a namespace of at least one level(a top-level vendor name)</li>
-</ul>
-<p>根据规范，每个类都独立为一个文件，且命名空间至少有一个层次：顶级的组织名称（vendor name）</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">//正确写法</div><div class="line">&lt;?php</div><div class="line">// PHP 5.3及以后版本的写法</div><div class="line">namespace Vendor\Model;</div><div class="line"></div><div class="line">class Foo</div><div class="line">&#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//错误写法</div><div class="line">&lt;?php</div><div class="line"></div><div class="line">class Foo</div><div class="line">&#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<ul>
-<li>Class name “A_B_C_D” is not in camel caps format</li>
-</ul>
-<p>类的命名要遵循大写开头的驼峰命名规范</p>
-<ul>
-<li>参数以分布在多行，随后的行应该缩进一次。如果这么做，第一项应该 在下一行，而且每一个参数独占一行；<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170405149139889813936.png" alt="20170405149139889813936.png"></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">//错误</div><div class="line">$className-&gt;funcName($param1, $param2, $param3mayhaveaveryverylongnamelongerthen120words);</div></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//正确</div><div class="line">$className-&gt; funcName(</div><div class="line">                        $param1,</div><div class="line">                        $param2,</div><div class="line">                        $param3mayhaveaveryverylongnamelongerthen120words</div><div class="line">                    );</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170401149103566288287.png&quot; alt=&quot;20170401149103566288287.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;给phpStorm安装phpcs之后，碰到的psr问题都记录下来&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="psr" scheme="http://jimxu.me/tags/psr/"/>
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
     
   </entry>
   
