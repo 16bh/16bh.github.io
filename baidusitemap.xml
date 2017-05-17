@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>http://jimxu.me/2016/08/16/mac%20software%20list/</loc>
+    <lastmod>2017-05-17T03:20:59.000Z</lastmod>
+    <data>
+        <display>
+        <title>SoftWare List - Mac</title>
+        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
+        
+        <tag>software</tag>
+         
+        <tag>mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://jimxu.me/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2017-05-12T13:34:35.000Z</lastmod>
     <data>
@@ -67,28 +89,6 @@
           
              
               <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/08/16/mac%20software%20list/</loc>
-    <lastmod>2017-05-12T09:37:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>SoftWare List - Mac</title>
-        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
-        
-        <tag>software</tag>
-         
-        <tag>mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://jimxu.me/categories/Software/"/>
           
         </display>
     </data>
