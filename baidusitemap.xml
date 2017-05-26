@@ -4,6 +4,49 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/</loc>
+    <lastmod>2017-05-26T10:45:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>个人书单</title>
+        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
+        
+        <tag>reading</tag>
+         
+         
+           
+             
+              <breadCrumb title="Reading" url="http://jimxu.me/categories/Reading/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/20/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</loc>
+    <lastmod>2017-05-26T10:44:16.000Z</lastmod>
+    <data>
+        <display>
+        <title>后端开发技能树</title>
+        <pubTime>2017-04-20T15:54:54.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/05/26/php%E4%B8%AA%E4%BA%BA%E9%9D%A2%E8%AF%95%E9%A2%98/</loc>
     <lastmod>2017-05-26T09:41:02.000Z</lastmod>
     <data>
@@ -182,32 +225,6 @@
     </data>
     </url>
 
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
-        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>error</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
     
   <url>
     <loc>http://jimxu.me/2016/07/22/PHPer%E5%AD%A6%E4%B9%A0JS%E6%89%8B%E5%86%8C/</loc>
@@ -1699,19 +1716,22 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/</loc>
+    <loc>http://jimxu.me/2017/04/07/MarkDown%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>书单</title>
-        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
+        <title>MarkDown插入图片技巧</title>
+        <pubTime>2017-04-07T03:39:01.000Z</pubTime>
         
-        <tag>reading</tag>
+        <tag>markdown</tag>
          
          
            
              
-              <breadCrumb title="Reading" url="http://jimxu.me/categories/Reading/"/>
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
           
         </display>
     </data>
@@ -1736,12 +1756,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/07/MarkDown%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%8A%80%E5%B7%A7/</loc>
+    <loc>http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>MarkDown插入图片技巧</title>
-        <pubTime>2017-04-07T03:39:01.000Z</pubTime>
+        <title>MarkDown基础介绍</title>
+        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
         
         <tag>markdown</tag>
          
@@ -1779,14 +1799,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/20/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/</loc>
+    <loc>http://jimxu.me/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>后端开发技能树</title>
-        <pubTime>2017-04-20T15:54:54.000Z</pubTime>
+        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
+        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
         
         <tag>php</tag>
+         
+        <tag>error</tag>
          
          
            
@@ -1968,28 +1990,6 @@
     </url>
 
     
-  <url>
-    <loc>http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>MarkDown基础介绍</title>
-        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-         
-           
-             
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
-          
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://jimxu.me/2016/06/30/%E5%AE%89%E8%A3%85redis%E5%90%8E%E6%B8%85%E9%99%A4magento%E7%BC%93%E5%AD%98%E5%A4%B1%E6%95%88%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>

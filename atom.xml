@@ -309,23 +309,26 @@
     <link href="http://jimxu.me/2017/04/20/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/"/>
     <id>http://jimxu.me/2017/04/20/后端开发必备技能/</id>
     <published>2017-04-20T15:54:54.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
+    <updated>2017-05-26T10:44:16.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
+    <content type="html"><![CDATA[<p>后端开发需要掌握的一些知识</p>
+<a id="more"></a>
 <ul>
+<li>计算机基础</li>
 <li>PHP<ul>
 <li>基础语法</li>
 <li>各版本新特性</li>
-<li>PHP7</li>
-<li>php-fpm</li>
+<li>PHP7升级</li>
+<li>php-fpm与FastCGI</li>
 <li>常用框架<ul>
-<li>Yii</li>
+<li>Yii1/Yii2</li>
 <li>CI</li>
 <li>thinkphp</li>
 <li>Laravel</li>
 <li>magento</li>
 </ul>
 </li>
+<li>扩展</li>
 </ul>
 </li>
 <li>GO<ul>
@@ -333,8 +336,7 @@
 <li>goroutine和channel</li>
 </ul>
 </li>
-<li>nginx</li>
-<li>apache</li>
+<li>nginx/apache</li>
 <li>curl(get/post)</li>
 <li>json</li>
 <li>前端知识<ul>
@@ -346,10 +348,14 @@
 </li>
 <li>debug</li>
 <li>单元测试</li>
+<li>memecached</li>
 <li>redis<ul>
-<li>与memecached比较</li>
+<li>数据类型 <ul>
+<li>与memecached比较，与memecached共同使用</li>
 <li>缓存穿透</li>
 <li>原子性</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>操作系统<ul>
@@ -358,12 +364,19 @@
 <li>linux</li>
 </ul>
 </li>
+<li>数据库<ul>
 <li>SQL<ul>
 <li>常用命令</li>
 <li>索引 index</li>
 <li>事务 transaction</li>
 <li>优化</li>
 <li>存储过程</li>
+<li>引擎: 种类，使用场景    <ul>
+<li>MongoDB</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li>面向对象<ul>
@@ -396,6 +409,8 @@
 </li>
 <li>大数据时代<ul>
 <li>用户画像 </li>
+<li>机器学习</li>
+<li>推荐</li>
 </ul>
 </li>
 </ul>
@@ -403,17 +418,7 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;ul&gt;
-&lt;li&gt;PHP&lt;ul&gt;
-&lt;li&gt;基础语法&lt;/li&gt;
-&lt;li&gt;各版本新特性&lt;/li&gt;
-&lt;li&gt;PHP7&lt;/li&gt;
-&lt;li&gt;php-fpm&lt;/li&gt;
-&lt;li&gt;常用框架&lt;ul&gt;
-&lt;li&gt;Yii&lt;/li&gt;
-&lt;li&gt;CI&lt;/li&gt;
-&lt;li&gt;th
+      &lt;p&gt;后端开发需要掌握的一些知识&lt;/p&gt;
     
     </summary>
     
@@ -427,19 +432,31 @@
   </entry>
   
   <entry>
-    <title>书单</title>
+    <title>个人书单</title>
     <link href="http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/"/>
     <id>http://jimxu.me/2017/04/15/书单/</id>
     <published>2017-04-15T00:34:23.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
+    <updated>2017-05-26T10:45:53.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<h1 id="PHP与Mysql开发"><a href="#PHP与Mysql开发" class="headerlink" title="PHP与Mysql开发"></a>PHP与Mysql开发</h1><h1 id="PHP对象、设计与实践"><a href="#PHP对象、设计与实践" class="headerlink" title="PHP对象、设计与实践"></a>PHP对象、设计与实践</h1><h1 id="程序员修炼之道：从小工到专家"><a href="#程序员修炼之道：从小工到专家" class="headerlink" title="程序员修炼之道：从小工到专家"></a>程序员修炼之道：从小工到专家</h1><h1 id="黑客与画家"><a href="#黑客与画家" class="headerlink" title="黑客与画家"></a>黑客与画家</h1><h1 id="人月神话"><a href="#人月神话" class="headerlink" title="人月神话"></a>人月神话</h1><h1 id="重构"><a href="#重构" class="headerlink" title="重构"></a>重构</h1><h1 id="代码整洁之道"><a href="#代码整洁之道" class="headerlink" title="代码整洁之道"></a>代码整洁之道</h1>]]></content>
+    <content type="html"><![CDATA[<p>个人阅读</p>
+<a id="more"></a>
+<ul>
+<li>PHP与Mysql开发（PHP圣经）</li>
+<li>PHP对象、设计与实践</li>
+<li>程序员修炼之道：从小工到专家</li>
+<li>黑客与画家</li>
+<li>人月神话</li>
+<li>重构</li>
+<li>代码整洁之道</li>
+<li>浪潮之巅</li>
+<li>大型网站技术架构</li>
+<li>从0到1</li>
+</ul>
+]]></content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;PHP与Mysql开发&quot;&gt;&lt;a href=&quot;#PHP与Mysql开发&quot; class=&quot;headerlink&quot; title=&quot;PHP与Mysql开发&quot;&gt;&lt;/a&gt;PHP与Mysql开发&lt;/h1&gt;&lt;h1 id=&quot;PHP对象、设计与实践
+      &lt;p&gt;个人阅读&lt;/p&gt;
     
     </summary>
     

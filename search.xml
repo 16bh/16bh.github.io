@@ -51,7 +51,7 @@
   <entry>
     <title><![CDATA[后端开发技能树]]></title>
     <url>%2F2017%2F04%2F20%2F%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD%2F</url>
-    <content type="text"><![CDATA[PHP 基础语法 各版本新特性 PHP7 php-fpm 常用框架 Yii CI thinkphp Laravel magento GO 和其他语言比较 goroutine和channel nginx apache curl(get/post) json 前端知识 html5 css3 node.js js debug 单元测试 redis 与memecached比较 缓存穿透 原子性 操作系统 windows macos linux SQL 常用命令 索引 index 事务 transaction 优化 存储过程 面向对象 继承 组合(接口) 设计模式 23种设计模式 异步 ajax 队列 queue 微服务化 服务间通信 日志 工具 git soureTree phpStorm phpunit phpcs phpmd 大数据时代 用户画像]]></content>
+    <content type="text"><![CDATA[后端开发需要掌握的一些知识 计算机基础 PHP 基础语法 各版本新特性 PHP7升级 php-fpm与FastCGI 常用框架 Yii1/Yii2 CI thinkphp Laravel magento 扩展 GO 和其他语言比较 goroutine和channel nginx/apache curl(get/post) json 前端知识 html5 css3 node.js js debug 单元测试 memecached redis 数据类型 与memecached比较，与memecached共同使用 缓存穿透 原子性 操作系统 windows macos linux 数据库 SQL 常用命令 索引 index 事务 transaction 优化 存储过程 引擎: 种类，使用场景 MongoDB 面向对象 继承 组合(接口) 设计模式 23种设计模式 异步 ajax 队列 queue 微服务化 服务间通信 日志 工具 git soureTree phpStorm phpunit phpcs phpmd 大数据时代 用户画像 机器学习 推荐]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>
@@ -61,9 +61,9 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[书单]]></title>
+    <title><![CDATA[个人书单]]></title>
     <url>%2F2017%2F04%2F15%2F%E4%B9%A6%E5%8D%95%2F</url>
-    <content type="text"><![CDATA[PHP与Mysql开发PHP对象、设计与实践程序员修炼之道：从小工到专家黑客与画家人月神话重构代码整洁之道]]></content>
+    <content type="text"><![CDATA[个人阅读 PHP与Mysql开发（PHP圣经） PHP对象、设计与实践 程序员修炼之道：从小工到专家 黑客与画家 人月神话 重构 代码整洁之道 浪潮之巅 大型网站技术架构 从0到1]]></content>
       <categories>
         <category>Reading</category>
       </categories>
