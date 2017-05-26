@@ -2,14 +2,14 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://jimxu.me/tags/js/</loc>
+        <loc>http://jimxu.me/tags/reading/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/reading/</loc>
+        <loc>http://jimxu.me/tags/js/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -23,14 +23,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/redis/</loc>
+        <loc>http://jimxu.me/tags/vim/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/vim/</loc>
+        <loc>http://jimxu.me/tags/redis/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -100,13 +100,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/oh-my-zsh/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/phpmd/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -114,7 +107,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mangeo/</loc>
+        <loc>http://jimxu.me/tags/oh-my-zsh/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -122,6 +115,13 @@
 
     <url>
         <loc>http://jimxu.me/tags/alfred/</loc>
+        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/mangeo/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -142,14 +142,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/nginx/</loc>
+        <loc>http://jimxu.me/tags/tools/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/tools/</loc>
+        <loc>http://jimxu.me/tags/nginx/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -205,15 +205,15 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/php/</loc>
+        <loc>http://jimxu.me/tags/laravel/</loc>
         <lastmod>2017-05-17T10:16:51.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/laravel/</loc>
-        <lastmod>2017-05-17T10:16:51.000Z</lastmod>
+        <loc>http://jimxu.me/tags/php/</loc>
+        <lastmod>2017-05-26T09:41:02.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

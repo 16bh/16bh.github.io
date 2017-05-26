@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[php个人面试题]]></title>
+    <url>%2F2017%2F05%2F26%2Fphp%E4%B8%AA%E4%BA%BA%E9%9D%A2%E8%AF%95%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[已面试5家公司，记录一些有代表性的面试题 xx生物 cookie对称加密 (跨域)单点登录 扫一扫登录的原理 如何判断添加索引是否生效explain sql sql如何优化 xx头条 php7 什么原因导致服务器负载过高 各个框架的特点，为什么要用Yii和Laravel 如何解决高并发 分红包100元，10人分，每人6-12 迭代 递归 钱xx* get post delete put option 跨域 * linux * http 301 302 重定向 * laravel为什么优雅 * yii的ORM * php7 * Mysql引擎 * mysql基于唯一索引加锁 * php -m -i * 內聚耦合 * explain sql * 服务器负载过高 * fpm和fastCGi * Restful * 联合索引a.b.c生效的场景 * 通过headers里的字段判断返回的数据类型 xx降价 如何导出数据库中几十万条数据 前端拖拽功能 算法 xx福利 通过ip防刷的不足 同一家公司ip一致的原理 Headers里有哪些内容 策略模式 算法 session原理不用cookie怎么设计session redis数据类型 Php和nginx交互原理 输入网址到页面展示的详细过程 Laravel的依赖注入]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Laravel目录结构]]></title>
     <url>%2F2017%2F05%2F17%2FLaravel%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%2F</url>
     <content type="text"><![CDATA[laravel目录 2017-05-17 新建 routes 路由 app 模型 resources/views blade视图 app/Http/Controllers 控制器 config 配置文件 database 数据库 database/factory 数据库工厂，和seeds一道生成测试数据 database/migrations 数据库迁移 public/css css资源 public/js js资源 resources/lang/en 语言包 tests 单元测试]]></content>
@@ -243,8 +255,8 @@
       </categories>
       <tags>
         <tag>php</tag>
-        <tag>magento</tag>
         <tag>phpstorm</tag>
+        <tag>magento</tag>
       </tags>
   </entry>
   <entry>

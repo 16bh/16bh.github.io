@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-05-17T10:16:51.000Z</updated>
+  <updated>2017-05-26T09:41:02.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,95 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>php个人面试题</title>
+    <link href="http://jimxu.me/2017/05/26/php%E4%B8%AA%E4%BA%BA%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    <id>http://jimxu.me/2017/05/26/php个人面试题/</id>
+    <published>2017-05-26T09:39:25.000Z</published>
+    <updated>2017-05-26T09:41:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>已面试5家公司，记录一些有代表性的面试题</p>
+<a id="more"></a>
+<ul>
+<li><p><strong>xx生物</strong></p>
+<ul>
+<li>cookie对称加密</li>
+<li>(跨域)单点登录</li>
+<li>扫一扫登录的原理</li>
+<li>如何判断添加索引是否生效<br>explain sql</li>
+<li>sql如何优化</li>
+</ul>
+</li>
+<li><p><strong>xx头条</strong></p>
+<ul>
+<li>php7</li>
+<li>什么原因导致服务器负载过高</li>
+<li>各个框架的特点，为什么要用Yii和Laravel</li>
+<li>如何解决高并发</li>
+<li>分红包100元，10人分，每人6-12<br>  迭代 递归</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>钱xx</strong><pre><code>* get post delete put option 跨域
+* linux
+* http 301 302 重定向
+* laravel为什么优雅
+* yii的ORM
+* php7
+* Mysql引擎
+* mysql基于唯一索引加锁
+* php -m -i
+* 內聚耦合
+* explain sql
+* 服务器负载过高
+* fpm和fastCGi
+* Restful
+* 联合索引a.b.c生效的场景
+* 通过headers里的字段判断返回的数据类型
+</code></pre></li>
+</ul>
+<ul>
+<li><p><strong>xx降价</strong></p>
+<ul>
+<li>如何导出数据库中几十万条数据</li>
+<li>前端拖拽功能</li>
+<li>算法</li>
+</ul>
+</li>
+<li><p><strong>xx福利</strong></p>
+<ul>
+<li>通过ip防刷的不足</li>
+<li>同一家公司ip一致的原理</li>
+<li>Headers里有哪些内容</li>
+<li>策略模式  算法</li>
+<li>session原理<br>不用cookie怎么设计session</li>
+</ul>
+<ul>
+<li>redis数据类型</li>
+<li>Php和nginx交互原理</li>
+<li>输入网址到页面展示的详细过程</li>
+<li>Laravel的依赖注入</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;已面试5家公司，记录一些有代表性的面试题&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
   
   <entry>
     <title>Laravel目录结构</title>
@@ -1140,73 +1229,6 @@
       <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
     
       <category term="phpmd" scheme="http://jimxu.me/tags/phpmd/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>用phpStorm进行magento开发的几个Tips</title>
-    <link href="http://jimxu.me/2017/04/01/%E7%94%A8phpStorm%E8%BF%9B%E8%A1%8Cmagento%E5%BC%80%E5%8F%91%E7%9A%84%E5%87%A0%E4%B8%AATips/"/>
-    <id>http://jimxu.me/2017/04/01/用phpStorm进行magento开发的几个Tips/</id>
-    <published>2017-04-01T08:41:58.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103658911016.png" alt="20170401149103658911016.png"></p>
-<ul>
-<li>安装phpcs</li>
-<li>安装phpmd</li>
-<li>安装magicento插件</li>
-<li>只索引有用的文件夹</li>
-<li>常用magento代码片段</li>
-</ul>
-<a id="more"></a>
-<blockquote>
-<p>参考：<br><a href="https://mirasvit.com/blog/guide-for-setting-up-phpstorm-for-magento-2-developments.html" target="_blank" rel="external">https://mirasvit.com/blog/guide-for-setting-up-phpstorm-for-magento-2-developments.html</a></p>
-</blockquote>
-<h1 id="安装phpcs"><a href="#安装phpcs" class="headerlink" title="安装phpcs"></a>安装phpcs</h1><p>phpcs可以统一编码的规范，常用的是psr2</p>
-<p><a href="http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpcs/">怎么在phpStorm中配置使用phpcs？</a></p>
-<h1 id="安装phpmd"><a href="#安装phpmd" class="headerlink" title="安装phpmd"></a>安装phpmd</h1><p>php代码纠错</p>
-<p><a href="http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/">怎么在phpStorm中配置使用phpmd？</a></p>
-<h1 id="安装magicento插件"><a href="#安装magicento插件" class="headerlink" title="安装magicento插件"></a>安装<a href="http://magicento.com/" target="_blank" rel="external">magicento</a>插件</h1><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103633058337.png" alt="20170401149103633058337.png"></p>
-<h1 id="只对用的到的文件夹进行索引"><a href="#只对用的到的文件夹进行索引" class="headerlink" title="只对用的到的文件夹进行索引"></a>只对用的到的文件夹进行索引</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">/bin/</div><div class="line">/dev/</div><div class="line">/pub/</div><div class="line">/setup/</div><div class="line">/var/cache/</div><div class="line">/var/log/</div><div class="line">/var/page_cache</div><div class="line">/var/view_processed</div></pre></td></tr></table></figure>
-<p>建议将以上的文件夹标记为<code>Excluded</code>，这样就不会浪费phpStorm的性能对它们进行索引了</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103630080427.png" alt="20170401149103630080427.png"></p>
-<h1 id="设置常用代码片段"><a href="#设置常用代码片段" class="headerlink" title="设置常用代码片段"></a>设置常用代码片段</h1><p>用过magento的人起码手动输入过上百次以下的代码了<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Mage::log($test,<span class="keyword">null</span>,<span class="string">'test.log'</span>);</div><div class="line">$order = Mage::getModel(<span class="string">'sales/order'</span>)-&gt;loadByIncrementId($orderNumber);</div><div class="line">$customer = Mage::getModel(<span class="string">'customer/customer'</span>)-&gt;load($customer_id);</div></pre></td></tr></table></figure></p>
-<p>其实这些常用的代码可以设置成代码片段<br>路径：<code>Editor/Live Templates</code></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153181620126.png" alt="20170407149153181620126.png"><br>如图，点击右上角的+号可以新增代码片段<br><code>Abbreviation</code>表示设置的片段的关键字<br><code>Description</code>是关键字可以不填<br><code>Template text</code>是片段的内容</p>
-<p>我们新建一个片段叫<code>order</code>，内容为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$order = Mage::getModel(&apos;sales/order&apos;)-&gt;loadByIncrementId($END$);//$END$是光标最后会停留的位置，可以输入用户自定义的订单编号</div></pre></td></tr></table></figure>
-<p>有两种触发片段的方法</p>
-<ul>
-<li>按快捷键展开<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153260586416.png" alt="20170407149153260586416.png"></li>
-<li>直接输入片段的关键字，<code>Enter</code>确认后展开<br><img src="http://o9xbyqajf.bkt.clouddn.com/QQ20170407-104052-HD.gif" alt="http://o9xbyqajf.bkt.clouddn.com/QQ20170407-104052-HD.gif"></li>
-</ul>
-<p>可以将多个位置设置成同一变量，如下所示<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149155255061216.png" alt="20170407149155255061216.png"><br>效果如图：</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149157042959651.gif" alt="20170407149157042959651.gif"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170401149103658911016.png&quot; alt=&quot;20170401149103658911016.png&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;安装phpcs&lt;/li&gt;
-&lt;li&gt;安装phpmd&lt;/li&gt;
-&lt;li&gt;安装magicento插件&lt;/li&gt;
-&lt;li&gt;只索引有用的文件夹&lt;/li&gt;
-&lt;li&gt;常用magento代码片段&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
-    
-      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
     
   </entry>
   
