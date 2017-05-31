@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-05-31T06:58:47.000Z</updated>
+  <updated>2017-05-31T07:00:31.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jimxu.me/2017/05/31/Movie-List/"/>
     <id>http://jimxu.me/2017/05/31/Movie-List/</id>
     <published>2017-05-31T06:52:42.000Z</published>
-    <updated>2017-05-31T06:58:47.000Z</updated>
+    <updated>2017-05-31T07:00:31.000Z</updated>
     
     <content type="html"><![CDATA[<p>Favourite Movie List</p>
 <a id="more"></a>
@@ -62,7 +62,7 @@
     
     </summary>
     
-      <category term="Reading/" scheme="http://jimxu.me/categories/Reading/"/>
+      <category term="Reading" scheme="http://jimxu.me/categories/Reading/"/>
     
     
       <category term="movie" scheme="http://jimxu.me/tags/movie/"/>
