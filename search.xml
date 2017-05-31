@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Movie List]]></title>
+    <url>%2F2017%2F05%2F31%2FMovie-List%2F</url>
+    <content type="text"><![CDATA[Favourite Movie List movie 英雄 肖申克的救赎 阿甘正传 卢旺达饭店 本杰明巴顿奇事 美丽心灵 模仿游戏 千与千寻 龙猫 天空之城 大鱼海棠 神偷奶爸1 大话西游1-2 西游伏魔篇|西游降妖篇 釜山行 隧道 鬼子来了 哈利波特1-7 加勒比海盗1-5 TV Friends Big Bang How i meet your mother 神探夏洛克 卷福版 小宝与康熙 张卫健版 鹿鼎记 陈小春版 白鹿原 张嘉译版]]></content>
+      <categories>
+        <category>Reading/</category>
+      </categories>
+      <tags>
+        <tag>movie</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[php个人面试题]]></title>
     <url>%2F2017%2F05%2F26%2Fphp%E4%B8%AA%E4%BA%BA%E9%9D%A2%E8%AF%95%E9%A2%98%2F</url>
     <content type="text"><![CDATA[已面试5家公司，记录一些有代表性的面试题 xx生物 cookie对称加密 (跨域)单点登录 扫一扫登录的原理 如何判断添加索引是否生效explain sql sql如何优化 xx头条 php7 什么原因导致服务器负载过高 各个框架的特点，为什么要用Yii和Laravel 如何解决高并发 分红包100元，10人分，每人6-12 迭代 递归 钱xx* get post delete put option 跨域 * linux * http 301 302 重定向 * laravel为什么优雅 * yii的ORM * php7 * Mysql引擎 * mysql基于唯一索引加锁 * php -m -i * 內聚耦合 * explain sql * 服务器负载过高 * fpm和fastCGi * Restful * 联合索引a.b.c生效的场景 * 通过headers里的字段判断返回的数据类型 xx降价 如何导出数据库中几十万条数据 前端拖拽功能 算法 xx福利 通过ip防刷的不足 同一家公司ip一致的原理 Headers里有哪些内容 策略模式 算法 session原理不用cookie怎么设计session redis数据类型 Php和nginx交互原理 输入网址到页面展示的详细过程 Laravel的依赖注入]]></content>
@@ -63,7 +74,7 @@
   <entry>
     <title><![CDATA[个人书单]]></title>
     <url>%2F2017%2F04%2F15%2F%E4%B9%A6%E5%8D%95%2F</url>
-    <content type="text"><![CDATA[大部分都是程序员必读的书建议在京东活动的时候采购，优惠力度很大 参考：http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html 已读 PHP与Mysql开发（PHP圣经）80% 黑客与画家 100% 人月神话 100% 大型网站技术架构 100% 在读 PHP对象、设计与实践 60% 程序员修炼之道：从小工到专家 50% Head First 设计模式 30% 高性能MySQL 尽在双11 阿里巴巴技术演进与超越 架构即未来：现代企业可扩展的Web架构 想读 设计模式 重构 代码整洁之道 浪潮之巅 数学之美 硅谷之谜 从0到1 人类简史 未来简史 设计模式 算法导论 编程之美 深入理解计算机系统 啊哈，算法 Redis实战 亿级流量网站架构核心技术 软件随想录 阮一峰译 编程珠玑 NoSql精粹]]></content>
+    <content type="text"><![CDATA[大部分都是程序员必读的书建议在京东活动的时候采购，优惠力度很大 参考：http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html 已读 PHP与Mysql开发（PHP圣经）80% 黑客与画家 100% 人月神话 100% 大型网站技术架构 100% 在读 PHP对象、设计与实践 60% 程序员修炼之道：从小工到专家 50% Head First 设计模式 30% 高性能MySQL 尽在双11 阿里巴巴技术演进与超越 架构即未来：现代企业可扩展的Web架构 想读 设计模式 重构 改善既有代码的设计 代码整洁之道 浪潮之巅 数学之美 硅谷之谜 从0到1 开启商业与未来的秘密 人类简史 未来简史 设计模式 算法导论 编程之美 深入理解计算机系统 啊哈，算法 Redis实战 亿级流量网站架构核心技术 软件随想录 阮一峰译 编程珠玑 NoSql精粹]]></content>
       <categories>
         <category>Reading</category>
       </categories>
@@ -255,8 +266,8 @@
       </categories>
       <tags>
         <tag>php</tag>
-        <tag>phpstorm</tag>
         <tag>magento</tag>
+        <tag>phpstorm</tag>
       </tags>
   </entry>
   <entry>

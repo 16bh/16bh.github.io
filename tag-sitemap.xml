@@ -107,14 +107,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/alfred/</loc>
+        <loc>http://jimxu.me/tags/mangeo/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mangeo/</loc>
+        <loc>http://jimxu.me/tags/alfred/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -213,7 +213,14 @@
 
     <url>
         <loc>http://jimxu.me/tags/reading/</loc>
-        <lastmod>2017-05-31T06:51:14.000Z</lastmod>
+        <lastmod>2017-05-31T06:52:22.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/movie/</loc>
+        <lastmod>2017-05-31T06:58:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

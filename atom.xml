@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-05-26T09:41:02.000Z</updated>
+  <updated>2017-05-31T06:58:47.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Movie List</title>
+    <link href="http://jimxu.me/2017/05/31/Movie-List/"/>
+    <id>http://jimxu.me/2017/05/31/Movie-List/</id>
+    <published>2017-05-31T06:52:42.000Z</published>
+    <updated>2017-05-31T06:58:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Favourite Movie List</p>
+<a id="more"></a>
+<h2 id="movie"><a href="#movie" class="headerlink" title="movie"></a>movie</h2><ul>
+<li>英雄</li>
+<li>肖申克的救赎</li>
+<li>阿甘正传</li>
+<li>卢旺达饭店</li>
+<li>本杰明巴顿奇事</li>
+<li>美丽心灵</li>
+<li>模仿游戏</li>
+<li>千与千寻</li>
+<li>龙猫</li>
+<li>天空之城</li>
+<li>大鱼海棠</li>
+<li>神偷奶爸1</li>
+<li>大话西游1-2</li>
+<li>西游伏魔篇|西游降妖篇</li>
+<li>釜山行</li>
+<li>隧道</li>
+<li>鬼子来了</li>
+<li>哈利波特1-7</li>
+<li>加勒比海盗1-5</li>
+</ul>
+<h2 id="TV"><a href="#TV" class="headerlink" title="TV"></a>TV</h2><ul>
+<li>Friends</li>
+<li>Big Bang</li>
+<li>How i meet your mother</li>
+<li>神探夏洛克 卷福版</li>
+<li>小宝与康熙 张卫健版</li>
+<li>鹿鼎记 陈小春版</li>
+<li>白鹿原 张嘉译版</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Favourite Movie List&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Reading/" scheme="http://jimxu.me/categories/Reading/"/>
+    
+    
+      <category term="movie" scheme="http://jimxu.me/tags/movie/"/>
+    
+  </entry>
   
   <entry>
     <title>php个人面试题</title>
@@ -436,7 +490,7 @@
     <link href="http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/"/>
     <id>http://jimxu.me/2017/04/15/书单/</id>
     <published>2017-04-15T00:34:23.000Z</published>
-    <updated>2017-05-31T06:51:14.000Z</updated>
+    <updated>2017-05-31T06:52:22.000Z</updated>
     
     <content type="html"><![CDATA[<p>大部分都是程序员必读的书<br>建议在京东活动的时候采购，优惠力度很大</p>
 <a id="more"></a>
@@ -459,12 +513,12 @@
 </ul>
 <h2 id="想读"><a href="#想读" class="headerlink" title="想读"></a>想读</h2><ul>
 <li>设计模式</li>
-<li>重构</li>
+<li>重构 改善既有代码的设计</li>
 <li>代码整洁之道</li>
 <li>浪潮之巅</li>
 <li>数学之美</li>
 <li>硅谷之谜</li>
-<li>从0到1</li>
+<li>从0到1 开启商业与未来的秘密</li>
 <li>人类简史</li>
 <li>未来简史</li>
 <li>设计模式</li>
@@ -1235,43 +1289,6 @@
     
     
       <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mac下phpStorm配置使用phpmd</title>
-    <link href="http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/"/>
-    <id>http://jimxu.me/2017/04/01/mac下phpStorm配置使用phpmd/</id>
-    <published>2017-04-01T09:02:33.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017040114910397507946.png" alt="2017040114910397507946.png"><br>如果说phpcs规范了php代码的规范，那么phpmd就是aa检测php代码错误的利器</p>
-<a id="more"></a>
-<h2 id="什么是phpmd"><a href="#什么是phpmd" class="headerlink" title="什么是phpmd"></a>什么是phpmd</h2><blockquote>
-<p>phpmd,short of PHP Mess Detector,is a tool that checks if you aren’t making a mess of your code. Think of methods of hundreds of lines, classes that extend class after class after class, lack of documentation, nested loops, etc. PHP Mess Detector points out these culprits and aids into writing more manageable code.</p>
-</blockquote>
-<h2 id="安装phpmd"><a href="#安装phpmd" class="headerlink" title="安装phpmd"></a>安装phpmd</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install phpmd</div></pre></td></tr></table></figure>
-<p>安装之后查看phpmd的路径<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103931820920.png" alt="20170401149103931820920.png"><br>路径就是<code>/usr/local/bin/phpmd</code></p>
-<h2 id="配置phpmd"><a href="#配置phpmd" class="headerlink" title="配置phpmd"></a>配置phpmd</h2><p><code>Preferences/Languages &amp; Frameworks/PHP/Mess Detector</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103941390595.png" alt="20170401149103941390595.png"><br>点开<code>Local</code>后的<code>...</code>,输入phpmd的路径<code>/usr/local/bin/phpmd</code>,点击<code>Validate</code>进行验证<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103954380798.png" alt="20170401149103954380798.png"></p>
-<p><code>Preferences/Editor/Inspections/PHP/PHP Mess Detector validation</code></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103936778520.png" alt="20170401149103936778520.png"><br>勾选中<code>PHP Mess Detector validation</code>,并选择右侧建议的<code>Options</code>规则，规则的说明参考：<a href="https://phpmd.org/rules/index.html" target="_blank" rel="external">https://phpmd.org/rules/index.html</a>：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103968164148.png" alt="20170401149103968164148.png"></p>
-<h2 id="使用phpmd"><a href="#使用phpmd" class="headerlink" title="使用phpmd"></a>使用phpmd</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170401149103926528991.png" alt="20170401149103926528991.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/2017040114910397507946.png&quot; alt=&quot;2017040114910397507946.png&quot;&gt;&lt;br&gt;如果说phpcs规范了php代码的规范，那么phpmd就是aa检测php代码错误的利器&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
-    
-    
-      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
-    
-      <category term="phpmd" scheme="http://jimxu.me/tags/phpmd/"/>
     
   </entry>
   
