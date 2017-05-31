@@ -436,27 +436,50 @@
     <link href="http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/"/>
     <id>http://jimxu.me/2017/04/15/书单/</id>
     <published>2017-04-15T00:34:23.000Z</published>
-    <updated>2017-05-26T10:45:53.000Z</updated>
+    <updated>2017-05-31T06:47:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>个人阅读</p>
+    <content type="html"><![CDATA[<p>大部分都是程序员必读的书<br>建议在京东活动的时候采购，优惠力度很大</p>
 <a id="more"></a>
+<blockquote>
+<p>参考：<br><a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html</a></p>
+</blockquote>
 <ul>
-<li>PHP与Mysql开发（PHP圣经）</li>
-<li>PHP对象、设计与实践</li>
-<li>程序员修炼之道：从小工到专家</li>
-<li>黑客与画家</li>
-<li>人月神话</li>
+<li>PHP与Mysql开发（PHP圣经）80%</li>
+<li>PHP对象、设计与实践  60%</li>
+<li>程序员修炼之道：从小工到专家   50%</li>
+<li>黑客与画家   100%</li>
+<li>人月神话   100%</li>
+<li>大型网站技术架构 100%</li>
+<li>Head First 设计模式  30%</li>
+<li>设计模式</li>
 <li>重构</li>
 <li>代码整洁之道</li>
 <li>浪潮之巅</li>
-<li>大型网站技术架构</li>
+<li>数学之美</li>
+<li>硅谷之谜</li>
 <li>从0到1</li>
+<li>人类简史</li>
+<li>未来简史</li>
+<li>设计模式</li>
+<li>算法导论</li>
+<li>编程之美</li>
+<li>深入理解计算机系统</li>
+<li>啊哈，算法</li>
+<li>Redis实战</li>
+<li>亿级流量网站架构核心技术</li>
+<li>代码整洁知道</li>
+<li>尽在双11 阿里巴巴技术演进与超越</li>
+<li>架构即未来：现代企业可扩展的Web架构</li>
+<li>软件随想录 阮一峰译</li>
+<li>编程珠玑</li>
+<li>高性能MySQL</li>
+<li>NoSql精粹</li>
 </ul>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;个人阅读&lt;/p&gt;
+      &lt;p&gt;大部分都是程序员必读的书&lt;br&gt;建议在京东活动的时候采购，优惠力度很大&lt;/p&gt;
     
     </summary>
     
