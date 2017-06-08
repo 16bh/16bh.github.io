@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[回收饮料瓶问题]]></title>
     <url>%2F2017%2F06%2F08%2F%E9%A5%AE%E6%96%99%E7%93%B6%E5%9B%9E%E6%94%B6%E9%97%AE%E9%A2%98%2F</url>
-    <content type="text"><![CDATA[x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？ 如x=10,y=2时， 第一次喝10瓶，得到10个空瓶，换5瓶 第二次喝5瓶，得到5个空瓶，换2瓶，剩1个空瓶 第三次喝2瓶，得到2个空瓶，共3个空瓶，换1瓶，剩1个空瓶 第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶 第五次喝1瓶，得到1个空瓶，没的换 12345678910111213141516&lt;?phpfunction getTotalNum($num,$step)&#123; $total = $num; $left = 0; while ($num &gt;= $step) &#123; $left = $num % $step; $num = floor($num/$step); $total += $num; $num += $left; &#125; return $total;&#125;echo getTotalNum(20,3);//19]]></content>
+    <content type="text"><![CDATA[x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？ 如x=10,y=2时， 第一次喝10瓶，得到10个空瓶，换5瓶 第二次喝5瓶，得到5个空瓶，换2瓶，剩1个空瓶 第三次喝2瓶，得到2个空瓶，共3个空瓶，换1瓶，剩1个空瓶 第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶 第五次喝1瓶，得到1个空瓶，没的换 1234567891011121314151617&lt;?phpfunction getTotalNum($num,$step)&#123; $total = $num; $left = 0; while ($num &gt;= $step) &#123; $left = $num % $step; //记录没有兑换的空瓶 $num = floor($num/$step); $total += $num; $num += $left; //将没有兑换的空瓶放到喝剩下的空瓶一起 &#125; return $total;&#125;echo getTotalNum(10,2);//19echo getTotalNum(20,3);//29]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-08T06:48:22.000Z</updated>
+  <updated>2017-06-08T06:53:39.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://jimxu.me/2017/06/08/%E9%A5%AE%E6%96%99%E7%93%B6%E5%9B%9E%E6%94%B6%E9%97%AE%E9%A2%98/"/>
     <id>http://jimxu.me/2017/06/08/饮料瓶回收问题/</id>
     <published>2017-06-08T06:43:54.000Z</published>
-    <updated>2017-06-08T06:48:22.000Z</updated>
+    <updated>2017-06-08T06:53:39.000Z</updated>
     
     <content type="html"><![CDATA[<p>x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？</p>
 <a id="more"></a>
@@ -32,7 +32,7 @@
 <li>第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶</li>
 <li>第五次喝1瓶，得到1个空瓶，没的换</li>
 </ul>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">getTotalNum</span><span class="params">($num,$step)</span></span></div><div class="line">&#123;</div><div class="line">    $total = $num;</div><div class="line">    $left = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> ($num &gt;= $step) &#123;</div><div class="line">        $left = $num % $step;</div><div class="line">        $num = floor($num/$step);</div><div class="line">        $total += $num;</div><div class="line">        $num += $left;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> $total;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">20</span>,<span class="number">3</span>);<span class="comment">//19</span></div></pre></td></tr></table></figure>]]></content>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">getTotalNum</span><span class="params">($num,$step)</span></span></div><div class="line">&#123;</div><div class="line">    $total = $num;</div><div class="line">    $left = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> ($num &gt;= $step) &#123;</div><div class="line">        $left = $num % $step;  <span class="comment">//记录没有兑换的空瓶</span></div><div class="line">        $num = floor($num/$step);</div><div class="line">        $total += $num;</div><div class="line">        $num += $left;  <span class="comment">//将没有兑换的空瓶放到喝剩下的空瓶一起</span></div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> $total;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">10</span>,<span class="number">2</span>);<span class="comment">//19</span></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">20</span>,<span class="number">3</span>);<span class="comment">//29</span></div></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
