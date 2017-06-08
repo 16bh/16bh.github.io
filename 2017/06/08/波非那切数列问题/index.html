@@ -87,18 +87,18 @@
 
 
 
-<meta name="description" content="斐波那契数列： 11,1,2,3,5,8,13,21... ... 可以用来解决诸如下面的问题：  有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？ 第一个月初有一对刚诞生的兔子第二个月之后（第三个月初）它们可以生育每月每对可生育的兔子会诞生下一对新兔子兔子永不死去">
+<meta name="description" content="斐波那契数列： 11,1,2,3,5,8,13,21... ...">
 <meta name="keywords" content="php">
 <meta property="og:type" content="article">
 <meta property="og:title" content="斐波那契数列问题">
 <meta property="og:url" content="http://jimxu.me/2017/06/08/波非那切数列问题/index.html">
 <meta property="og:site_name" content="Jimxu技术日记">
-<meta property="og:description" content="斐波那契数列： 11,1,2,3,5,8,13,21... ... 可以用来解决诸如下面的问题：  有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？ 第一个月初有一对刚诞生的兔子第二个月之后（第三个月初）它们可以生育每月每对可生育的兔子会诞生下一对新兔子兔子永不死去">
+<meta property="og:description" content="斐波那契数列： 11,1,2,3,5,8,13,21... ...">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png">
-<meta property="og:updated_time" content="2017-06-08T07:33:18.000Z">
+<meta property="og:updated_time" content="2017-06-08T07:35:41.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="斐波那契数列问题">
-<meta name="twitter:description" content="斐波那契数列： 11,1,2,3,5,8,13,21... ... 可以用来解决诸如下面的问题：  有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？ 第一个月初有一对刚诞生的兔子第二个月之后（第三个月初）它们可以生育每月每对可生育的兔子会诞生下一对新兔子兔子永不死去">
+<meta name="twitter:description" content="斐波那契数列： 11,1,2,3,5,8,13,21... ...">
 <meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png">
 
 
@@ -429,12 +429,12 @@
         <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png" alt="20170608149690673867363.png"></p>
 <p>斐波那契数列：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">1,1,2,3,5,8,13,21... ...</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>可以用来解决诸如下面的问题：</p>
 <blockquote>
 <p>有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？</p>
 <p>第一个月初有一对刚诞生的兔子<br>第二个月之后（第三个月初）它们可以生育<br>每月每对可生育的兔子会诞生下一对新兔子<br>兔子永不死去</p>
 </blockquote>
-<a id="more"></a>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Fibo</span><span class="params">($n)</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">return</span> n&lt;<span class="number">2</span> ? <span class="number">1</span> : Fibo(n<span class="number">-1</span>)+Fibo(n<span class="number">-2</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
       
     </div>
