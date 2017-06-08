@@ -123,6 +123,7 @@ homebrew install todolist
 - `Noizio`   生成白噪音
 - `Boom2`   音效增强，效果一般
 - `Gemini 2`  清除重复文件
+- `Backgrouds`+[火萤](http://huoying666.com/)   动态桌面
 - `爱壁纸HD`		更换壁纸
 - `Caffeine`   超实用，暂时关闭电脑自动休眠，当你看电影或放映ppt的时候，不会屏幕突然黑掉，再次点击可以关闭此功能。打开的时候图标上的咖啡杯是满的，关闭后是空的，细节满分
 - `Keyboard Cleaner`  键盘清洁工具，打开此软件时按键不会生效，脸滚键盘也没关系，Command+Q退出

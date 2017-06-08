@@ -117,4 +117,8 @@ chsh -s /bin/zsh
 [迁移hexo](https://www.zhihu.com/question/21193762)
 
 - 设置开启启动app
+- 安装tree
+```
+brew install tree
+```
 
