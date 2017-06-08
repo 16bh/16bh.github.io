@@ -94,7 +94,7 @@
 <meta property="og:url" content="http://jimxu.me/2017/06/08/饮料瓶回收问题/index.html">
 <meta property="og:site_name" content="Jimxu技术日记">
 <meta property="og:description" content="x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&amp;lt;x）,求总共可以喝多少瓶饮料？">
-<meta property="og:updated_time" content="2017-06-08T06:53:39.000Z">
+<meta property="og:updated_time" content="2017-06-08T07:19:05.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="回收饮料瓶问题">
 <meta name="twitter:description" content="x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&amp;lt;x）,求总共可以喝多少瓶饮料？">
@@ -430,8 +430,8 @@
 <ul>
 <li>第一次喝10瓶，得到10个空瓶，换5瓶</li>
 <li>第二次喝5瓶，得到5个空瓶，换2瓶，剩1个空瓶</li>
-<li>第三次喝2瓶，得到2个空瓶，共3个空瓶，换1瓶，剩1个空瓶</li>
-<li>第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶</li>
+<li>第三次喝2瓶，得到2个空瓶，加上之前剩的共3个空瓶，换1瓶，剩1个空瓶</li>
+<li>第四次喝1瓶，得到1个空瓶，加上之前剩的共2个空瓶，换1瓶</li>
 <li>第五次喝1瓶，得到1个空瓶，没的换</li>
 </ul>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">getTotalNum</span><span class="params">($num,$step)</span></span></div><div class="line">&#123;</div><div class="line">    $total = $num;</div><div class="line">    $left = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> ($num &gt;= $step) &#123;</div><div class="line">        $left = $num % $step;  <span class="comment">//记录没有兑换的空瓶</span></div><div class="line">        $num = floor($num/$step);</div><div class="line">        $total += $num;</div><div class="line">        $num += $left;  <span class="comment">//将没有兑换的空瓶放到喝剩下的空瓶一起</span></div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> $total;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">10</span>,<span class="number">2</span>);<span class="comment">//19</span></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">20</span>,<span class="number">3</span>);<span class="comment">//29</span></div></pre></td></tr></table></figure>
@@ -486,8 +486,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/06/08/微信领红包/" rel="prev" title="微信领红包算法">
-                微信领红包算法 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/06/08/微信领红包/" rel="prev" title="微信领红包问题">
+                微信领红包问题 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -553,7 +553,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">114</span>
+                <span class="site-state-item-count">115</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>

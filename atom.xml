@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-08T07:15:33.000Z</updated>
+  <updated>2017-06-08T07:33:18.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -16,11 +16,51 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>微信领红包算法</title>
+    <title>斐波那契数列问题</title>
+    <link href="http://jimxu.me/2017/06/08/%E6%B3%A2%E9%9D%9E%E9%82%A3%E5%88%87%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/"/>
+    <id>http://jimxu.me/2017/06/08/波非那切数列问题/</id>
+    <published>2017-06-08T07:20:02.000Z</published>
+    <updated>2017-06-08T07:33:18.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png" alt="20170608149690673867363.png"></p>
+<p>斐波那契数列：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">1,1,2,3,5,8,13,21... ...</div></pre></td></tr></table></figure>
+<p>可以用来解决诸如下面的问题：</p>
+<blockquote>
+<p>有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？</p>
+<p>第一个月初有一对刚诞生的兔子<br>第二个月之后（第三个月初）它们可以生育<br>每月每对可生育的兔子会诞生下一对新兔子<br>兔子永不死去</p>
+</blockquote>
+<a id="more"></a>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Fibo</span><span class="params">($n)</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">return</span> n&lt;<span class="number">2</span> ? <span class="number">1</span> : Fibo(n<span class="number">-1</span>)+Fibo(n<span class="number">-2</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png&quot; alt=&quot;20170608149690673867363.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;斐波那契数列：&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1,1,2,3,5,8,13,21... ...&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;可以用来解决诸如下面的问题：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？&lt;/p&gt;
+&lt;p&gt;第一个月初有一对刚诞生的兔子&lt;br&gt;第二个月之后（第三个月初）它们可以生育&lt;br&gt;每月每对可生育的兔子会诞生下一对新兔子&lt;br&gt;兔子永不死去&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信领红包问题</title>
     <link href="http://jimxu.me/2017/06/08/%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85/"/>
     <id>http://jimxu.me/2017/06/08/微信领红包/</id>
     <published>2017-06-08T06:54:33.000Z</published>
-    <updated>2017-06-08T07:15:33.000Z</updated>
+    <updated>2017-06-08T07:16:50.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>参考：<a href="https://www.zhihu.com/question/22625187" target="_blank" rel="external">https://www.zhihu.com/question/22625187</a></p>
@@ -52,7 +92,7 @@
     <link href="http://jimxu.me/2017/06/08/%E9%A5%AE%E6%96%99%E7%93%B6%E5%9B%9E%E6%94%B6%E9%97%AE%E9%A2%98/"/>
     <id>http://jimxu.me/2017/06/08/饮料瓶回收问题/</id>
     <published>2017-06-08T06:43:54.000Z</published>
-    <updated>2017-06-08T06:53:39.000Z</updated>
+    <updated>2017-06-08T07:19:05.000Z</updated>
     
     <content type="html"><![CDATA[<p>x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？</p>
 <a id="more"></a>
@@ -60,8 +100,8 @@
 <ul>
 <li>第一次喝10瓶，得到10个空瓶，换5瓶</li>
 <li>第二次喝5瓶，得到5个空瓶，换2瓶，剩1个空瓶</li>
-<li>第三次喝2瓶，得到2个空瓶，共3个空瓶，换1瓶，剩1个空瓶</li>
-<li>第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶</li>
+<li>第三次喝2瓶，得到2个空瓶，加上之前剩的共3个空瓶，换1瓶，剩1个空瓶</li>
+<li>第四次喝1瓶，得到1个空瓶，加上之前剩的共2个空瓶，换1瓶</li>
 <li>第五次喝1瓶，得到1个空瓶，没的换</li>
 </ul>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">getTotalNum</span><span class="params">($num,$step)</span></span></div><div class="line">&#123;</div><div class="line">    $total = $num;</div><div class="line">    $left = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> ($num &gt;= $step) &#123;</div><div class="line">        $left = $num % $step;  <span class="comment">//记录没有兑换的空瓶</span></div><div class="line">        $num = floor($num/$step);</div><div class="line">        $total += $num;</div><div class="line">        $num += $left;  <span class="comment">//将没有兑换的空瓶放到喝剩下的空瓶一起</span></div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> $total;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">10</span>,<span class="number">2</span>);<span class="comment">//19</span></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">20</span>,<span class="number">3</span>);<span class="comment">//29</span></div></pre></td></tr></table></figure>]]></content>
@@ -86,7 +126,7 @@
     <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/"/>
     <id>http://jimxu.me/2017/06/08/Yaf学习笔记-一-安装使用/</id>
     <published>2017-06-08T03:16:47.000Z</published>
-    <updated>2017-06-08T03:22:48.000Z</updated>
+    <updated>2017-06-08T07:16:53.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <ul>
@@ -1191,79 +1231,6 @@
 &lt;li&gt;通过U图床或iPic工具实现&lt;/li&gt;
 &lt;li&gt;AutoHotkey&lt;/li&gt;
 &lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="markDown" scheme="http://jimxu.me/categories/Editor/markDown/"/>
-    
-    
-      <category term="markdown" scheme="http://jimxu.me/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MarkDown基础介绍</title>
-    <link href="http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/"/>
-    <id>http://jimxu.me/2017/04/07/MarkDown基础介绍/</id>
-    <published>2017-04-07T03:38:38.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170408149162816052701.png" alt="20170408149162816052701.png"></p>
-<a id="more"></a>
-<h2 id="编辑器"><a href="#编辑器" class="headerlink" title="编辑器"></a>编辑器</h2><ul>
-<li>Mou</li>
-<li>MacDown</li>
-<li>Haroopad</li>
-<li>Sublime\Atom\VSC</li>
-</ul>
-<h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># 一级标题</div><div class="line">## 二级标题</div><div class="line">### 三级标题</div></pre></td></tr></table></figure>
-</blockquote>
-<p>效果：</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h2 id="字体效果"><a href="#字体效果" class="headerlink" title="字体效果"></a>字体效果</h2><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">**粗体**</div><div class="line">*斜体*</div><div class="line">++下划线++</div><div class="line">==高亮==</div><div class="line">word^上标^</div><div class="line">word~下标~</div></pre></td></tr></table></figure>
-</blockquote>
-<p><em>斜体</em><br>++下划线++<br>==高亮==<br>word^上标^<br>word~下标~</p>
-<h2 id="插入图片和网址"><a href="#插入图片和网址" class="headerlink" title="插入图片和网址"></a>插入图片和网址</h2><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[一个普通的网址](http://www.baidu.com)</div><div class="line">![一张平凡的图片](![20170408149163204466917.png](http://o9xbyqajf.bkt.clouddn.com/20170408149163204466917.png)</div></pre></td></tr></table></figure>
-</blockquote>
-<p>效果：<br><a href="http://www.baidu.com" target="_blank" rel="external">一个普通的网址</a><br><img src="http://o9xbyqajf.bkt.clouddn.com/20170408149163204466917.png" alt="一张平凡的图片]"></p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">1. 第一件事</div><div class="line">2. 第二件事</div><div class="line">3. 第三件事</div><div class="line">&gt;</div></pre></td></tr></table></figure>
-<p>效果：</p>
-<ol>
-<li>第一件事</li>
-<li>第二件事</li>
-<li>第三件事</li>
-</ol>
-</blockquote>
-<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- 无序列表</div><div class="line">- 无序列表</div><div class="line">- 无序列表</div></pre></td></tr></table></figure>
-<p>效果：</p>
-<ul>
-<li>无序列表</li>
-<li>无序列表</li>
-<li>无序列表</li>
-</ul>
-<h3 id="任务列表"><a href="#任务列表" class="headerlink" title="任务列表"></a>任务列表</h3><blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">- [x] 今天干了啥</div><div class="line">- [x] 今天干了啥</div><div class="line">- [ ] 今天有啥没干</div></pre></td></tr></table></figure>
-</blockquote>
-<p>效果：</p>
-<ul>
-<li>[x] 今天干了啥</li>
-<li>[x] 今天干了啥</li>
-<li>[ ] 今天有啥没干</li>
-</ul>
-<h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>不一定支持</p>
-<blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">[TOC]</div></pre></td></tr></table></figure>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170408149162816052701.png&quot; alt=&quot;20170408149162816052701.png&quot;&gt;&lt;/p&gt;
     
     </summary>
     

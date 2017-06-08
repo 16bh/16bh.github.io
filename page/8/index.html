@@ -301,6 +301,187 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/06/23/mac环境下通过homebrew安装的php报错解决：PHP-Startup-Unable-to-load-dynamic-library/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jimxu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jimxu技术日记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/06/23/mac环境下通过homebrew安装的php报错解决：PHP-Startup-Unable-to-load-dynamic-library/" itemprop="url">
+                  mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-23T18:22:39+08:00">
+                2016-06-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/php/" itemprop="url" rel="index">
+                    <span itemprop="name">php</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><blockquote>
+<p><em>注：可以直接查看最下面的解决方案</em></p>
+</blockquote>
+<p>事情的起因是这样的：<br>通过下面的命令安装imagic扩展（不要问我为什么装这玩意儿，抽风了可能）</p>
+<pre><code>brew install php55-imagick
+</code></pre><p>运行 <code>php --version</code>发现报错信息<br><img src="http://upload-images.jianshu.io/upload_images/1903856-bcc2f0e512f67e69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安装imagick报错"></p>
+<blockquote>
+<p>注：此处解决方案参考了这里<br><a href="https://github.com/Homebrew/homebrew-php/issues/1556" target="_blank" rel="external">https://github.com/Homebrew/homebrew-php/issues/1556</a></p>
+</blockquote>
+<p>报错原因是因为安装的<strong><em>imagick扩展与php版本不匹配</em></strong>，通过下面的命令重新安装<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew reinstall php55-imagick --build-from-source</div></pre></td></tr></table></figure></p>
+<p>运行 <code>php --version</code>发现新的报错信息<br><img src="http://upload-images.jianshu.io/upload_images/1903856-679b772444333817.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="imagick报错信息"></p>
+<p>这个原因一直没找到</p>
+<p>然后我一想：我管它什么原因，这玩意儿我压根就不需要吧，卸载了就是了<br>执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew uninstall php55-imagick</div></pre></td></tr></table></figure></p>
+<p>果然，又报错了：<br><img src="http://upload-images.jianshu.io/upload_images/1903856-8c04f007494aa4ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>在<code>stackoverflow</code>上搜索了半天，几乎所有提供的解决方案都是重装<code>imagick</code><br>but，前面装过了还是会报错啊</p>
+<p>先是在<code>php.ini</code>文件中看看在哪里启用了imagick这个扩展，并没有发现</p>
+<blockquote>
+<p>附：<code>php.ini</code>的路径是：<br><code>/usr/local/etc/php/5.5</code>(如果你跟我一样是通过homebrew安装的php的话)</p>
+</blockquote>
+<h1 id="最终解决方案"><a href="#最终解决方案" class="headerlink" title="最终解决方案"></a>最终解决方案</h1><blockquote>
+<p>注：最后的解决方法参考这里<br> <a href="http://stackoverflow.com/questions/5282264/php-warning-php-startup-unable-to-load-dynamic-library" target="_blank" rel="external">http://stackoverflow.com/questions/5282264/php-warning-php-startup-unable-to-load-dynamic-library</a></p>
+</blockquote>
+<p>先执行下面的命令，获取所有跟php配置相关的文件的路径，终于找到了通过homebrew安装的扩展的位置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -i | grep ini</div></pre></td></tr></table></figure></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-4900a7be69b49b82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>接下来就简单了,打开ext-imagick.ini文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /usr/local/etc/php/5.5/conf.d/</div><div class="line">vim ext-imagick.ini</div></pre></td></tr></table></figure>
+<p>注销掉<code>extentions=&quot;&quot;</code>这行就可以了<br><img src="http://upload-images.jianshu.io/upload_images/1903856-25448babbaf24854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>这下，世界终于安静了，每次启动php的时候静悄悄的，再也没有烦人的warning提示了</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/06/23/在php中使用json/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1829,7 +2010,7 @@ brew uninstall mysql
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">114</span>
+                <span class="site-state-item-count">115</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>
