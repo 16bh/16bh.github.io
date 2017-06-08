@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[微信领红包算法]]></title>
     <url>%2F2017%2F06%2F08%2F%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85%2F</url>
-    <content type="text"><![CDATA[参考：https://www.zhihu.com/question/22625187 微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人）之间随机 12345678910111213141516171819202122232425262728&lt;?php//随机小数function randomFloat($min = 0, $max = 1) &#123; return $min + mt_rand() / mt_getrandmax() * ($max - $min);&#125;function raffle()&#123; $total = 100; $num = 10; $leftTotal = 100; $leftNum = 10; for($i=0;$i&lt;10;$i++) &#123; if (1 == $leftNum) &#123; $money = $leftTotal; &#125; $money = randomFloat(0.01,$leftTotal/$leftNum*2); echo $money."\n"; $leftTotal -= $money; $leftNum --; &#125; &#125;raffle();]]></content>
+    <content type="text"><![CDATA[参考：https://www.zhihu.com/question/22625187 微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机 1234567891011121314151617181920212223242526272829&lt;?php//随机小数function randomFloat($min = 0, $max = 1) &#123; return $min + mt_rand() / mt_getrandmax() * ($max - $min);&#125;function raffle()&#123; $total = 100; $num = 10; $leftTotal = 100; $leftNum = 10; $minLimit = 0.01; for($i=0;$i&lt;$num;$i++) &#123; if (1 == $leftNum) &#123; $money = $leftTotal; &#125; $money = randomFloat($minLimit,$leftTotal/$leftNum*2); echo $money."\n"; $leftTotal -= $money; $leftNum --; &#125; &#125;raffle();]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>
