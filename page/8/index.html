@@ -301,6 +301,184 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/06/23/在php中使用json/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jimxu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jimxu技术日记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/06/23/在php中使用json/" itemprop="url">
+                  在php中使用json
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-23T18:14:55+08:00">
+                2016-06-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/php/" itemprop="url" rel="index">
+                    <span itemprop="name">php</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="关于json"><a href="#关于json" class="headerlink" title="关于json"></a>关于json</h1><ol>
+<li><p>为什么要使用json<br>json字符串容易存储，尤其是要将一个数组存入数据库或缓存或记录日志的时候</p>
+</li>
+<li><p>json_encode</p>
+</li>
+</ol>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$str = json_encode($arr);</div></pre></td></tr></table></figure>
+<ol>
+<li>json_decode<br>在<code>Dash</code>中的函数格式如下</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mixed json_decode ( string $json [, bool $assoc = false [, int $depth = 512 [, int $options = 0 ]]] )</div></pre></td></tr></table></figure>
+<p>注意第二个参数，当<code>json_decode()</code>的第二个参数不填的时候，json解析的到的结果是个object对象，只有当第二个参数是true的时候，json解析的结果才是list数组<br>即</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$object = json_decode($str);</div><div class="line">$array = json_decode($str,<span class="keyword">true</span>);</div></pre></td></tr></table></figure>
+<p><strong><em>如果是做API接口开发，经常和客户端联调的筒子们肯定就知道，object类型和list类型对于安卓来说相差甚远，直接关系到接口是否能够解析</em></strong></p>
+<h1 id="关于json工具"><a href="#关于json工具" class="headerlink" title="关于json工具"></a>关于json工具</h1><ol>
+<li><p>在线json解析<br>（1）Json Parser Online:<a href="http://json.parser.online.fr/" target="_blank" rel="external">http://json.parser.online.fr/</a><br>优势：界面简洁美观,json解析框够大，适用于解析很长的json字符串</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-69fa98c63024668d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>（2） Be Json</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-d3e9c44b183927ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>优势：<strong><em>json解析出错时会给出错误提示</em></strong></p>
+</li>
+<li><p>Chrome的json解析扩展 - <code>JSONVIEW</code><br>安装完成后调用接口直接在页面上显示json解析后的内容</p>
+</li>
+</ol>
+<p>下载链接：<br><a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc</a></p>
+<p>效果图：<br><img src="http://upload-images.jianshu.io/upload_images/1903856-308e543c7c44f27d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/06/22/magento日志/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1651,7 +1829,7 @@ brew uninstall mysql
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">113</span>
+                <span class="site-state-item-count">114</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>

@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[微信领红包算法]]></title>
+    <url>%2F2017%2F06%2F08%2F%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85%2F</url>
+    <content type="text"><![CDATA[参考：https://www.zhihu.com/question/22625187 微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人）之间随机 12345678910111213141516171819202122232425262728&lt;?php//随机小数function randomFloat($min = 0, $max = 1) &#123; return $min + mt_rand() / mt_getrandmax() * ($max - $min);&#125;function raffle()&#123; $total = 100; $num = 10; $leftTotal = 100; $leftNum = 10; for($i=0;$i&lt;10;$i++) &#123; if (1 == $leftNum) &#123; $money = $leftTotal; &#125; $money = randomFloat(0.01,$leftTotal/$leftNum*2); echo $money."\n"; $leftTotal -= $money; $leftNum --; &#125; &#125;raffle();]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[回收饮料瓶问题]]></title>
     <url>%2F2017%2F06%2F08%2F%E9%A5%AE%E6%96%99%E7%93%B6%E5%9B%9E%E6%94%B6%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？ 如x=10,y=2时， 第一次喝10瓶，得到10个空瓶，换5瓶 第二次喝5瓶，得到5个空瓶，换2瓶，剩1个空瓶 第三次喝2瓶，得到2个空瓶，共3个空瓶，换1瓶，剩1个空瓶 第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶 第五次喝1瓶，得到1个空瓶，没的换 1234567891011121314151617&lt;?phpfunction getTotalNum($num,$step)&#123; $total = $num; $left = 0; while ($num &gt;= $step) &#123; $left = $num % $step; //记录没有兑换的空瓶 $num = floor($num/$step); $total += $num; $num += $left; //将没有兑换的空瓶放到喝剩下的空瓶一起 &#125; return $total;&#125;echo getTotalNum(10,2);//19echo getTotalNum(20,3);//29]]></content>

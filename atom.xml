@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-08T06:53:39.000Z</updated>
+  <updated>2017-06-08T07:12:15.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>微信领红包算法</title>
+    <link href="http://jimxu.me/2017/06/08/%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85/"/>
+    <id>http://jimxu.me/2017/06/08/微信领红包/</id>
+    <published>2017-06-08T06:54:33.000Z</published>
+    <updated>2017-06-08T07:12:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>参考：<a href="https://www.zhihu.com/question/22625187" target="_blank" rel="external">https://www.zhihu.com/question/22625187</a></p>
+</blockquote>
+<p>微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人）之间随机</p>
+<a id="more"></a>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="comment">//随机小数</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">randomFloat</span><span class="params">($min = <span class="number">0</span>, $max = <span class="number">1</span>)</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> $min + mt_rand() / mt_getrandmax() * ($max - $min);</div><div class="line">&#125;</div><div class="line"></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">raffle</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    $total = <span class="number">100</span>;</div><div class="line">    $num = <span class="number">10</span>;</div><div class="line">    $leftTotal = <span class="number">100</span>;</div><div class="line">    $leftNum = <span class="number">10</span>;</div><div class="line"></div><div class="line">    <span class="keyword">for</span>($i=<span class="number">0</span>;$i&lt;<span class="number">10</span>;$i++)</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span> (<span class="number">1</span> == $leftNum) &#123;</div><div class="line">            $money = $leftTotal;</div><div class="line">        &#125;</div><div class="line">        $money = randomFloat(<span class="number">0.01</span>,$leftTotal/$leftNum*<span class="number">2</span>);</div><div class="line">        <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">        $leftTotal -= $money;</div><div class="line">        $leftNum --;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">&#125;</div><div class="line"></div><div class="line">raffle();</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;参考：&lt;a href=&quot;https://www.zhihu.com/question/22625187&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/22625187&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人）之间随机&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
   
   <entry>
     <title>回收饮料瓶问题</title>
@@ -1241,55 +1273,6 @@
     
     
       <category term="markdown" scheme="http://jimxu.me/tags/markdown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Magento升级脚本常见问题</title>
-    <link href="http://jimxu.me/2017/04/07/Magento%E5%8D%87%E7%BA%A7%E8%84%9A%E6%9C%AC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    <id>http://jimxu.me/2017/04/07/Magento升级脚本常见问题/</id>
-    <published>2017-04-07T03:02:02.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153451049148.png" alt="20170407149153451049148.png"></p>
-<p>magento通过自带的升级脚本操作数据库，常见问题的解决方法如下</p>
-<a id="more"></a>
-<h2 id="对表的修改（增删改等）没有生效？"><a href="#对表的修改（增删改等）没有生效？" class="headerlink" title="对表的修改（增删改等）没有生效？"></a>对表的修改（增删改等）没有生效？</h2><ul>
-<li>sql目录下是否有升级脚</li>
-<li>升级脚本是否正确（看Exception日志）</li>
-<li><code>config.xml</code>中有没有升级版本号</li>
-<li>有没有清magento的configration缓存</li>
-<li>如果安装了redis，有没有清redis缓存</li>
-</ul>
-<h2 id="升级脚本升级成功了怎么修改？"><a href="#升级脚本升级成功了怎么修改？" class="headerlink" title="升级脚本升级成功了怎么修改？"></a>升级脚本升级成功了怎么修改？</h2><p>可能是想在升级脚本中对表插入一个叫<code>customer_name</code>的字段,不小心输入错误成了<code>customer_wrong_name</code>，然后提交了代码，脚本成功升级了,错误的字段也加上了，怎么修改呢？</p>
-<p>两种解决方法：</p>
-<ol>
-<li>再写一个升级脚本，修改表字段名称</li>
-<li><p>直接修改升级脚本，<code>在core_resource</code>表中将模块的版本号修改为升级前的版本号，清除congfigration缓存后重新升级</p>
-<p>第一种方法适用于已经发布到线上的脚本<br>第二种方法适用于本地开发，保证自己的代码都是正确的，没有修修补补的内容</p>
-</li>
-</ol>
-<h2 id="表中新增字段成功了，但是对应的字段无法插入正确的值？"><a href="#表中新增字段成功了，但是对应的字段无法插入正确的值？" class="headerlink" title="表中新增字段成功了，但是对应的字段无法插入正确的值？"></a>表中新增字段成功了，但是对应的字段无法插入正确的值？</h2><p>如果你是通过<code>$object-&gt;setData(&#39;a&#39;,123)-&gt;save();</code>这样的对象方法进行的数据库操作没有成功，试试下面的方法：</p>
-<p><code>System/Cache Management/Flush Cache Storage</code></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153414619038.png" alt="20170407149153414619038.png"></p>
-<p>原理：Magento采用的是ORM模型，表的数据结构保存在DDL缓存里，对表的结构进行修改后要更新DDL缓存才能正确地进行值的插入</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170407149153451049148.png&quot; alt=&quot;20170407149153451049148.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;magento通过自带的升级脚本操作数据库，常见问题的解决方法如下&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Magento" scheme="http://jimxu.me/categories/Magento/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
-    
-      <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
     
   </entry>
   
