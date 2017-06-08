@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[回收饮料瓶问题]]></title>
+    <url>%2F2017%2F06%2F08%2F%E9%A5%AE%E6%96%99%E7%93%B6%E5%9B%9E%E6%94%B6%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？ 如x=10,y=2时， 第一次喝10瓶，得到10个空瓶，换5瓶 第二次喝5瓶，得到5个空瓶，换2瓶，剩1个空瓶 第三次喝2瓶，得到2个空瓶，共3个空瓶，换1瓶，剩1个空瓶 第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶 第五次喝1瓶，得到1个空瓶，没的换 12345678910111213141516&lt;?phpfunction getTotalNum($num,$step)&#123; $total = $num; $left = 0; while ($num &gt;= $step) &#123; $left = $num % $step; $num = floor($num/$step); $total += $num; $num += $left; &#125; return $total;&#125;echo getTotalNum(20,3);//19]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Yaf学习笔记(一)Mac环境下的安装使用]]></title>
+    <url>%2F2017%2F06%2F08%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%2F</url>
+    <content type="text"><![CDATA[安装 1brew install php70-yaf --build-from-source 使用]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+        <tag>yaf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Movie List]]></title>
     <url>%2F2017%2F05%2F31%2FMovie-List%2F</url>
     <content type="text"><![CDATA[Favourite Movie List movie 英雄 肖申克的救赎 阿甘正传 卢旺达饭店 本杰明巴顿奇事 美丽心灵 模仿游戏 千与千寻 龙猫 天空之城 大鱼海棠 神偷奶爸1 大话西游1-2 西游伏魔篇|西游降妖篇 釜山行 隧道 鬼子来了 哈利波特1-7 加勒比海盗1-5 TV Friends Big Bang How i meet your mother 神探夏洛克 卷福版 小宝与康熙 张卫健版 鹿鼎记 陈小春版 白鹿原 张嘉译版]]></content>
@@ -74,7 +99,7 @@
   <entry>
     <title><![CDATA[个人书单]]></title>
     <url>%2F2017%2F04%2F15%2F%E4%B9%A6%E5%8D%95%2F</url>
-    <content type="text"><![CDATA[大部分都是程序员必读的书建议在京东活动的时候采购，优惠力度很大 参考：http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html 已读 PHP与Mysql开发（PHP圣经）80% 黑客与画家 100% 人月神话 100% 大型网站技术架构 100% 在读 PHP对象、设计与实践 60% 程序员修炼之道：从小工到专家 50% Head First 设计模式 30% 高性能MySQL 尽在双11 阿里巴巴技术演进与超越 架构即未来：现代企业可扩展的Web架构 想读 设计模式 重构 改善既有代码的设计 代码整洁之道 浪潮之巅 数学之美 硅谷之谜 从0到1 开启商业与未来的秘密 人类简史 未来简史 设计模式 算法导论 编程之美 深入理解计算机系统 啊哈，算法 Redis实战 亿级流量网站架构核心技术 软件随想录 阮一峰译 编程珠玑 NoSql精粹]]></content>
+    <content type="text"><![CDATA[大部分都是程序员必读的书建议在京东活动的时候采购，优惠力度很大 参考：http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html 已读 PHP与Mysql开发（PHP圣经）80% 黑客与画家 100% 人月神话 100% 大型网站技术架构 100% 在读 PHP对象、设计与实践 60% 程序员修炼之道：从小工到专家 50% Head First 设计模式 30% 高性能MySQL 选读部分章节 第1章 MySQL架构与历史 第4章 Schema与数据类型优化 第5章 创建高性能的索引 第6章 查询性能优化 尽在双11 阿里巴巴技术演进与超越 架构即未来：现代企业可扩展的Web架构 想读 设计模式 重构 改善既有代码的设计 代码整洁之道 浪潮之巅 数学之美 硅谷之谜 从0到1 开启商业与未来的秘密 人类简史 未来简史 设计模式 算法导论 编程之美 深入理解计算机系统 啊哈，算法 Redis实战 亿级流量网站架构核心技术 软件随想录 阮一峰译 编程珠玑 NoSql精粹]]></content>
       <categories>
         <category>Reading</category>
       </categories>

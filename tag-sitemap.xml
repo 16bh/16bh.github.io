@@ -16,14 +16,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/vim/</loc>
+        <loc>http://jimxu.me/tags/redis/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/redis/</loc>
+        <loc>http://jimxu.me/tags/vim/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -121,14 +121,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/psr/</loc>
+        <loc>http://jimxu.me/tags/python/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/python/</loc>
+        <loc>http://jimxu.me/tags/psr/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -205,22 +205,29 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/php/</loc>
-        <lastmod>2017-05-26T10:44:16.000Z</lastmod>
+        <loc>http://jimxu.me/tags/movie/</loc>
+        <lastmod>2017-05-31T07:00:31.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://jimxu.me/tags/reading/</loc>
-        <lastmod>2017-05-31T06:52:22.000Z</lastmod>
+        <lastmod>2017-06-02T05:41:32.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/movie/</loc>
-        <lastmod>2017-05-31T07:00:31.000Z</lastmod>
+        <loc>http://jimxu.me/tags/yaf/</loc>
+        <lastmod>2017-06-08T03:22:48.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/php/</loc>
+        <lastmod>2017-06-08T06:48:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

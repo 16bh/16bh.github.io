@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-05-31T07:00:31.000Z</updated>
+  <updated>2017-06-08T06:48:22.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,78 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>回收饮料瓶问题</title>
+    <link href="http://jimxu.me/2017/06/08/%E9%A5%AE%E6%96%99%E7%93%B6%E5%9B%9E%E6%94%B6%E9%97%AE%E9%A2%98/"/>
+    <id>http://jimxu.me/2017/06/08/饮料瓶回收问题/</id>
+    <published>2017-06-08T06:43:54.000Z</published>
+    <updated>2017-06-08T06:48:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？</p>
+<a id="more"></a>
+<p>如x=10,y=2时，</p>
+<ul>
+<li>第一次喝10瓶，得到10个空瓶，换5瓶</li>
+<li>第二次喝5瓶，得到5个空瓶，换2瓶，剩1个空瓶</li>
+<li>第三次喝2瓶，得到2个空瓶，共3个空瓶，换1瓶，剩1个空瓶</li>
+<li>第四次喝1瓶，得到1个空瓶，供2个空瓶，换1瓶</li>
+<li>第五次喝1瓶，得到1个空瓶，没的换</li>
+</ul>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">getTotalNum</span><span class="params">($num,$step)</span></span></div><div class="line">&#123;</div><div class="line">    $total = $num;</div><div class="line">    $left = <span class="number">0</span>;</div><div class="line">    <span class="keyword">while</span> ($num &gt;= $step) &#123;</div><div class="line">        $left = $num % $step;</div><div class="line">        $num = floor($num/$step);</div><div class="line">        $total += $num;</div><div class="line">        $num += $left;</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> $total;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="keyword">echo</span> getTotalNum(<span class="number">20</span>,<span class="number">3</span>);<span class="comment">//19</span></div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&amp;lt;x）,求总共可以喝多少瓶饮料？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Yaf学习笔记(一)Mac环境下的安装使用</title>
+    <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/"/>
+    <id>http://jimxu.me/2017/06/08/Yaf学习笔记-一-安装使用/</id>
+    <published>2017-06-08T03:16:47.000Z</published>
+    <updated>2017-06-08T03:22:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<ul>
+<li>安装</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
+<ul>
+<li>使用</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;安装&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
+    
+  </entry>
   
   <entry>
     <title>Movie List</title>
@@ -490,7 +562,7 @@
     <link href="http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/"/>
     <id>http://jimxu.me/2017/04/15/书单/</id>
     <published>2017-04-15T00:34:23.000Z</published>
-    <updated>2017-05-31T06:52:22.000Z</updated>
+    <updated>2017-06-02T05:41:32.000Z</updated>
     
     <content type="html"><![CDATA[<p>大部分都是程序员必读的书<br>建议在京东活动的时候采购，优惠力度很大</p>
 <a id="more"></a>
@@ -507,7 +579,13 @@
 <li>PHP对象、设计与实践  60%</li>
 <li>程序员修炼之道：从小工到专家   50%</li>
 <li>Head First 设计模式  30%</li>
-<li>高性能MySQL</li>
+<li>高性能MySQL 选读部分章节<ul>
+<li>第1章 MySQL架构与历史</li>
+<li>第4章 Schema与数据类型优化</li>
+<li>第5章 创建高性能的索引</li>
+<li>第6章 查询性能优化</li>
+</ul>
+</li>
 <li>尽在双11 阿里巴巴技术演进与超越</li>
 <li>架构即未来：现代企业可扩展的Web架构</li>
 </ul>
@@ -1212,83 +1290,6 @@
       <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
     
       <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>phpStorm格式化代码设置等号对齐</title>
-    <link href="http://jimxu.me/2017/04/06/phpStorm%E8%AE%BE%E7%BD%AE%E7%AD%89%E5%8F%B7%E5%AF%B9%E9%BD%90/"/>
-    <id>http://jimxu.me/2017/04/06/phpStorm设置等号对齐/</id>
-    <published>2017-04-06T13:41:56.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148651479249.png" alt="20170406149148651479249.png"></p>
-<ul>
-<li>格式化代码</li>
-<li>变量按等号=对齐</li>
-<li>数组键值对按=&gt;对齐</li>
-</ul>
-<a id="more"></a>
-<h2 id="格式化代码"><a href="#格式化代码" class="headerlink" title="格式化代码"></a>格式化代码</h2><p>选择<code>Reformat Code</code>后,phpStorm会按照设置好的code style，自动格式化代码</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017040614914862099563.png" alt="2017040614914862099563.png"></p>
-<h2 id="设置code-style，实现等号对齐"><a href="#设置code-style，实现等号对齐" class="headerlink" title="设置code style，实现等号对齐"></a>设置code style，实现等号对齐</h2><p>路径：<code>Editor/Code Style/PHP/Wrapping and Braces</code><br>勾选前</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148630999516.png" alt="20170406149148630999516.png"></p>
-<p>勾选后</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148632661565.png" alt="20170406149148632661565.png"></p>
-<h2 id="设置code-style-实现数组内键值对对齐"><a href="#设置code-style-实现数组内键值对对齐" class="headerlink" title="设置code style,实现数组内键值对对齐"></a>设置code style,实现数组内键值对对齐</h2><p>路径：<code>Editor/Code Style/PHP/Other</code></p>
-<p>勾选前<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148640886799.png" alt="20170406149148640886799.png"></p>
-<p>勾选后<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149148644388972.png" alt="20170406149148644388972.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170406149148651479249.png&quot; alt=&quot;20170406149148651479249.png&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;格式化代码&lt;/li&gt;
-&lt;li&gt;变量按等号=对齐&lt;/li&gt;
-&lt;li&gt;数组键值对按=&amp;gt;对齐&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Magento根据订单获取地址信息</title>
-    <link href="http://jimxu.me/2017/04/06/Magento%E6%A0%B9%E6%8D%AE%E8%AE%A2%E5%8D%95%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF/"/>
-    <id>http://jimxu.me/2017/04/06/Magento根据订单获取地址信息/</id>
-    <published>2017-04-06T06:35:24.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170406149146130740929.png" alt="20170406149146130740929.png"></p>
-<p>根据orderid获取address信息</p>
-<a id="more"></a>
-<p>代码实现：</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">$orderModel = Mage::getModel(<span class="string">'sales/order'</span>)-&gt;loadByIncrementId($orderId);</div><div class="line">$address = $orderModel-&gt;getShippingAddress();</div><div class="line">$street = $address-&gt;getStreet();</div><div class="line">$address_data = <span class="keyword">array</span>(</div><div class="line">    <span class="string">'name'</span> =&gt; $address-&gt;getData(<span class="string">'lastname'</span>).$address-&gt;getData(<span class="string">'firstname'</span>),<span class="comment">//姓名</span></div><div class="line">    <span class="string">'phone'</span> =&gt; $address-&gt;getData(<span class="string">'telephone'</span>),<span class="comment">//手机号</span></div><div class="line">    <span class="string">'province'</span> =&gt; $address-&gt;getData(<span class="string">'region'</span>),<span class="comment">//省</span></div><div class="line">    <span class="string">'city'</span> =&gt; $address-&gt;getData(<span class="string">'city'</span>),<span class="comment">//市</span></div><div class="line">    <span class="string">'district'</span> =&gt; $street[<span class="number">0</span>],<span class="comment">//区</span></div><div class="line">    <span class="string">'street'</span> =&gt; $street[<span class="number">1</span>],<span class="comment">//街道</span></div><div class="line">);</div></pre></td></tr></table></figure>
-<p>原理：</p>
-<figure class="highlight php"><figcaption><span>app/code/core/Mage/Sales/Model/Order.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getShippingAddress</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line"><span class="keyword">foreach</span> (<span class="keyword">$this</span>-&gt;getAddressesCollection() <span class="keyword">as</span> $address) &#123;</div><div class="line">    <span class="keyword">if</span> ($address-&gt;getAddressType()==<span class="string">'shipping'</span> &amp;&amp; !$address-&gt;isDeleted()) &#123;</div><div class="line">        <span class="keyword">return</span> $address;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="keyword">return</span> <span class="keyword">false</span>;</div><div class="line">&#125;</div><div class="line"></div><div class="line"> <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getAddressesCollection</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    <span class="keyword">if</span> (is_null(<span class="keyword">$this</span>-&gt;_addresses)) &#123;</div><div class="line">        <span class="keyword">$this</span>-&gt;_addresses = Mage::getResourceModel(<span class="string">'sales/order_address_collection'</span>)</div><div class="line">            -&gt;setOrderFilter(<span class="keyword">$this</span>);</div><div class="line"></div><div class="line">        <span class="keyword">if</span> (<span class="keyword">$this</span>-&gt;getId()) &#123;</div><div class="line">            <span class="keyword">foreach</span> (<span class="keyword">$this</span>-&gt;_addresses <span class="keyword">as</span> $address) &#123;</div><div class="line">                $address-&gt;setOrder(<span class="keyword">$this</span>);</div><div class="line">            &#125;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line"></div><div class="line">    <span class="keyword">return</span> <span class="keyword">$this</span>-&gt;_addresses;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<figure class="highlight php"><figcaption><span>app/code/core/Mage/Customer/Model/Address/Abstract.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line"><span class="comment">/**</span></div><div class="line"> * get address street</div><div class="line"> *</div><div class="line"> * <span class="doctag">@param</span>   int $line address line index</div><div class="line"> * <span class="doctag">@return</span>  string</div><div class="line"> */</div><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">getStreet</span><span class="params">($line=<span class="number">0</span>)</span></span></div><div class="line">&#123;</div><div class="line">    $street = <span class="keyword">parent</span>::getData(<span class="string">'street'</span>);</div><div class="line">    <span class="keyword">if</span> (<span class="number">-1</span> === $line) &#123;</div><div class="line">        <span class="keyword">return</span> $street;</div><div class="line">    &#125; <span class="keyword">else</span> &#123;</div><div class="line">        $arr = is_array($street) ? $street : explode(<span class="string">"\n"</span>, $street);</div><div class="line">        <span class="keyword">if</span> (<span class="number">0</span> === $line || $line === <span class="keyword">null</span>) &#123;</div><div class="line">            <span class="keyword">return</span> $arr;</div><div class="line">        &#125; <span class="keyword">elseif</span> (<span class="keyword">isset</span>($arr[$line<span class="number">-1</span>])) &#123;</div><div class="line">            <span class="keyword">return</span> $arr[$line<span class="number">-1</span>];</div><div class="line">        &#125; <span class="keyword">else</span> &#123;</div><div class="line">            <span class="keyword">return</span> <span class="string">''</span>;</div><div class="line">        &#125;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170406149146130740929.png&quot; alt=&quot;20170406149146130740929.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;根据orderid获取address信息&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Magento" scheme="http://jimxu.me/categories/Magento/"/>
-    
-    
-      <category term="magento" scheme="http://jimxu.me/tags/magento/"/>
     
   </entry>
   
