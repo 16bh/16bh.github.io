@@ -87,17 +87,17 @@
 
 
 
-<meta name="description" content="安装  1brew install php70-yaf --build-from-source  使用">
+<meta name="description" content="安装yaf扩展1brew install php70-yaf --build-from-source 建立应用目录结构123456下载https://github.com/laruence/yaf后解压cd toolscd cgphp yaf_cg testcd outputcp -R test ~/test 设置虚拟主机修改server_name域名，root项目根目录 12345678910">
 <meta name="keywords" content="php,yaf">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Yaf学习笔记(一)Mac环境下的安装使用">
 <meta property="og:url" content="http://jimxu.me/2017/06/08/Yaf学习笔记-一-安装使用/index.html">
 <meta property="og:site_name" content="Jimxu技术日记">
-<meta property="og:description" content="安装  1brew install php70-yaf --build-from-source  使用">
-<meta property="og:updated_time" content="2017-06-08T07:16:53.000Z">
+<meta property="og:description" content="安装yaf扩展1brew install php70-yaf --build-from-source 建立应用目录结构123456下载https://github.com/laruence/yaf后解压cd toolscd cgphp yaf_cg testcd outputcp -R test ~/test 设置虚拟主机修改server_name域名，root项目根目录 12345678910">
+<meta property="og:updated_time" content="2017-06-09T11:04:20.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Yaf学习笔记(一)Mac环境下的安装使用">
-<meta name="twitter:description" content="安装  1brew install php70-yaf --build-from-source  使用">
+<meta name="twitter:description" content="安装yaf扩展1brew install php70-yaf --build-from-source 建立应用目录结构123456下载https://github.com/laruence/yaf后解压cd toolscd cgphp yaf_cg testcd outputcp -R test ~/test 设置虚拟主机修改server_name域名，root项目根目录 12345678910">
 
 
 
@@ -425,13 +425,14 @@
 
       
         <a id="more"></a>
-<ul>
-<li>安装</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
-<ul>
-<li>使用</li>
-</ul>
+<h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
+<h2 id="建立应用目录结构"><a href="#建立应用目录结构" class="headerlink" title="建立应用目录结构"></a>建立应用目录结构</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">下载https://github.com/laruence/yaf后解压</div><div class="line">cd tools</div><div class="line">cd cg</div><div class="line">php yaf_cg test</div><div class="line">cd output</div><div class="line">cp -R test ~/test</div></pre></td></tr></table></figure>
+<h2 id="设置虚拟主机"><a href="#设置虚拟主机" class="headerlink" title="设置虚拟主机"></a>设置虚拟主机</h2><p>修改server_name域名，root项目根目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">        listen       80;</div><div class="line">        server_name  www.testyaf.com;</div><div class="line">         </div><div class="line">        location / &#123;</div><div class="line">            root   ~/test;</div><div class="line">            index  index.html index.htm index.php;</div><div class="line">            try_files $uri $uri/  /index.php;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        error_page  404              /404.html;</div><div class="line"> </div><div class="line">        error_page   500 502 503 504  /50x.html;</div><div class="line">        location = /50x.html &#123;</div><div class="line">            root   ~/test;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        location ~ \.php &#123;</div><div class="line">            root ~/test;</div><div class="line">            fastcgi_pass   127.0.0.1:9000;</div><div class="line">            fastcgi_index  index.php;</div><div class="line">            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;</div><div class="line">            include        fastcgi_params;</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>修改hosts文件，加入下面的内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">127.0.0.1  www.testyaf.com</div></pre></td></tr></table></figure>
+<p>这样就可以通过访问域名<code>www.testyaf.com</code>访问到demo项目了</p>
+<h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>访问www.testyaf.com,能看到Hello World，说明安装配置成功</p>
 
       
     </div>
@@ -537,8 +538,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
@@ -553,7 +563,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">115</span>
+                <span class="site-state-item-count">116</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>
@@ -607,6 +617,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装yaf扩展"><span class="nav-number">1.</span> <span class="nav-text">安装yaf扩展</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建立应用目录结构"><span class="nav-number">2.</span> <span class="nav-text">建立应用目录结构</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#设置虚拟主机"><span class="nav-number">3.</span> <span class="nav-text">设置虚拟主机</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#测试"><span class="nav-number">4.</span> <span class="nav-text">测试</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       

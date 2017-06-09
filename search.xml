@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Yaf学习笔记(二)熟悉Yaf框架的目录]]></title>
+    <url>%2F2017%2F06%2F09%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%2F</url>
+    <content type="text"><![CDATA[框架文件目录 其中 conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/controllers 控制器C 获取配置信息1Yaf_Application::app()-&gt;getConfig()]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+        <tag>yaf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[斐波那契数列问题]]></title>
     <url>%2F2017%2F06%2F08%2F%E6%B3%A2%E9%9D%9E%E9%82%A3%E5%88%87%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98%2F</url>
     <content type="text"><![CDATA[斐波那契数列： 11,1,2,3,5,8,13,21... ... 可以用来解决诸如下面的问题： 有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？ 第一个月初有一对刚诞生的兔子第二个月之后（第三个月初）它们可以生育每月每对可生育的兔子会诞生下一对新兔子兔子永不死去 123456&lt;?phpfunction Fibo($n)&#123; return n&lt;2 ? 1 : Fibo(n-1)+Fibo(n-2);&#125;]]></content>
@@ -39,7 +52,7 @@
   <entry>
     <title><![CDATA[Yaf学习笔记(一)Mac环境下的安装使用]]></title>
     <url>%2F2017%2F06%2F08%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8%2F</url>
-    <content type="text"><![CDATA[安装 1brew install php70-yaf --build-from-source 使用]]></content>
+    <content type="text"><![CDATA[安装yaf扩展1brew install php70-yaf --build-from-source 建立应用目录结构123456下载https://github.com/laruence/yaf后解压cd toolscd cgphp yaf_cg testcd outputcp -R test ~/test 设置虚拟主机修改server_name域名，root项目根目录 12345678910111213141516171819202122232425server &#123; listen 80; server_name www.testyaf.com; location / &#123; root ~/test; index index.html index.htm index.php; try_files $uri $uri/ /index.php; &#125; error_page 404 /404.html; error_page 500 502 503 504 /50x.html; location = /50x.html &#123; root ~/test; &#125; location ~ \.php &#123; root ~/test; fastcgi_pass 127.0.0.1:9000; fastcgi_index index.php; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; include fastcgi_params; &#125;&#125; 修改hosts文件，加入下面的内容 1127.0.0.1 www.testyaf.com 这样就可以通过访问域名www.testyaf.com访问到demo项目了 测试访问www.testyaf.com,能看到Hello World，说明安装配置成功]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>

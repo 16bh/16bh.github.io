@@ -301,6 +301,166 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/07/05/在搭建hexo时遇到的问题/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jimxu">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jimxu技术日记">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2016/07/05/在搭建hexo时遇到的问题/" itemprop="url">
+                  在搭建hexo时碰到的问题
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-05T17:14:59+08:00">
+                2016-07-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Hexo/" itemprop="url" rel="index">
+                    <span itemprop="name">Hexo</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
+<p>通过github和hexo搭建博客</p>
+</blockquote>
+<h1 id="解决在同一台电脑上使用github与gitlab的问题"><a href="#解决在同一台电脑上使用github与gitlab的问题" class="headerlink" title="解决在同一台电脑上使用github与gitlab的问题"></a>解决在同一台电脑上使用github与gitlab的问题</h1><p>参考这篇博文:<a href="https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md" target="_blank" rel="external">https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md</a></p>
+<p>方法是一个仓库使用git的全局配置，一个仓库使用git的本地配置</p>
+<p>生成公钥的时候指定生成的文件名就可以分别生成github和gitlab的公钥了</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -f ~/.ssh/id_rsa.github -C "sample@126.com"</div></pre></td></tr></table></figure>
+<h1 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h1><p>最快捷的方式还是用brew来安装</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install node.js</div></pre></td></tr></table></figure>
+<h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -a hexo</div></pre></td></tr></table></figure>
+<h1 id="常用hexo命令"><a href="#常用hexo命令" class="headerlink" title="常用hexo命令"></a>常用hexo命令</h1><p>输入<code>hexo</code>可获取所有常用命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">clean     Removed generated files and cache.</div><div class="line">config    Get or set configurations.</div><div class="line">d(eploy)    Deploy your website.</div><div class="line">g(enerate)  Generate static files.</div><div class="line">help      Get help on a command.</div><div class="line">init      Create a new Hexo folder.</div><div class="line">list      List the information of the site</div><div class="line">migrate   Migrate your site from other system to Hexo.</div><div class="line">new       Create a new post.</div><div class="line">publish   Moves a draft post from _drafts to _posts folder.</div><div class="line">render    Render files with renderer plugins.</div><div class="line">server    Start the server.</div><div class="line">version   Display version information.</div></pre></td></tr></table></figure>
+<h1 id="生成博客后快速用Mou打开博客的方法"><a href="#生成博客后快速用Mou打开博客的方法" class="headerlink" title="生成博客后快速用Mou打开博客的方法"></a>生成博客后快速用<code>Mou</code>打开博客的方法</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">open test.md</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注：open命令会用默认的方式打开指定的文件，相当于双击打开该文件。配置文件默认打开方式的方法：选中.md文件,<code>command+I</code>显示简介，选择<code>打开方式</code>为<code>Mou</code>，点击<code>全部更改</code>，如下图所示</p>
+</blockquote>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-9c3a5ec1253f70b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<h1 id="安装完成后写一篇博客的过程"><a href="#安装完成后写一篇博客的过程" class="headerlink" title="安装完成后写一篇博客的过程"></a>安装完成后写一篇博客的过程</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo new 'test.md'    //新建博客</div><div class="line">open source/_posts/test.md    //用mou打开，编辑</div><div class="line">hexo g    //更新本地库</div><div class="line">hexo d    //提交本地修改</div></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/07/05/hexo如何安装主题/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -2523,166 +2683,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/06/24/在oh-my-zsh的基础上添加终端的欢迎界面/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jimxu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.png">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jimxu技术日记">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/06/24/在oh-my-zsh的基础上添加终端的欢迎界面/" itemprop="url">
-                  在oh my zsh的基础上添加终端的欢迎界面
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-24T18:16:03+08:00">
-                2016-06-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Software/" itemprop="url" rel="index">
-                    <span itemprop="name">Software</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>先上效果图，就是这只萌萌哒的小牛以及牛说的每日格言啦，怎么做出这种效果呢，往下看。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-5d5cbca95ddbb2f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>假设你已经完成了下面的准备工作</p>
-<blockquote>
-<p>*安装了items2+zsh+oh my zsh(安装过程在这里不赘述了，网上一堆教程,推荐迟建强老师的教程：<a href="http://macshuo.com/?p=676" target="_blank" rel="external">终极 Shell</a>)</p>
-<p>*安装了homebrew</p>
-</blockquote>
-<h1 id="开始安装zsh的欢迎界面"><a href="#开始安装zsh的欢迎界面" class="headerlink" title="开始安装zsh的欢迎界面"></a>开始安装zsh的欢迎界面</h1><p>第一步，先用<code>homebrew</code>安装两个依赖的包</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew install fortune</div><div class="line">brew install cowsay</div></pre></td></tr></table></figure>
-<p>第二步，安装<code>oh my zsh</code>的<code>chucknorris</code>插件<br>打开终端配置文件</p>
-<pre><code>vim ~/.zshrc
-</code></pre><p>修改<code>plugins = ( )</code>这一行<br>括号里表示你安装过的插件，以空格区分，只要加上<code>chucknorris</code>就可以了，下面是我安装的所有的<code>oh my zsh</code>的插件，以供参考</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(brew git z extract history catimg wd last-working-dir chucknorris )</div></pre></td></tr></table></figure>
-<p>再在.zshrc文件的最后一行添一句命令：</p>
-<p><code>chuck_cow</code><br>即可</p>
-<p>保存并退出，重新加载配置文件</p>
-<p><code>source ~/.zshrc</code></p>
-<p>重启终端，牛牛就出来啦，enjoy it!</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -2732,7 +2732,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">115</span>
+                <span class="site-state-item-count">116</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>
