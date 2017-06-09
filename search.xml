@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Yaf学习笔记2:Yaf的MVC模型]]></title>
     <url>%2F2017%2F06%2F09%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%2F</url>
-    <content type="text"><![CDATA[Yaf是怎么通过MVC模型在页面展示Hello World! I am Stranger的呢 框架文件目录 其中 conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/controllers 控制器C 获取配置信息1Yaf_Application::app()-&gt;getConfig() MVC模型]]></content>
+    <content type="text"><![CDATA[当我们访问demo项目的时候，在页面上展示了Hello World! I am Stranger，其实是通过MVC模式实现的 框架文件目录 其中 conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/controllers 控制器C 获取配置信息1Yaf_Application::app()-&gt;getConfig() MVC模型]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>
@@ -52,7 +52,7 @@
   <entry>
     <title><![CDATA[Yaf学习笔记1:Mac环境下的安装配置]]></title>
     <url>%2F2017%2F06%2F08%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01%2F</url>
-    <content type="text"><![CDATA[安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就下载php56-yaf 建立应用目录结构123456下载https://github.com/laruence/yaf后解压cd toolscd cgphp yaf_cg testcd outputcp -R test ~/test 设置虚拟主机修改server_name域名，root项目根目录 12345678910111213141516171819202122232425server &#123; listen 80; server_name yaf.com; location / &#123; root ~/test; index index.html index.htm index.php; try_files $uri $uri/ /index.php; &#125; error_page 404 /404.html; error_page 500 502 503 504 /50x.html; location = /50x.html &#123; root ~/test; &#125; location ~ \.php &#123; root ~/test; fastcgi_pass 127.0.0.1:9000; fastcgi_index index.php; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; include fastcgi_params; &#125;&#125; 修改hosts文件，加入下面的内容 1127.0.0.1 yaf.com 这样就可以通过访问域名yaf.com访问到demo项目了 测试访问yaf.com,能看到Hello World! I am Stranger，说明安装配置成功]]></content>
+    <content type="text"><![CDATA[yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 建立demo项目用yaf的代码生成器cg快速生成一个demo project 123456下载https://github.com/laruence/yaf后解压cd toolscd cgphp yaf_cg testcd outputcp -R test ~/test 设置虚拟主机 修改server_name域名，root项目根目录 12345678910111213141516171819202122232425server &#123; listen 80; server_name yaf.com; location / &#123; root ~/test; index index.html index.htm index.php; try_files $uri $uri/ /index.php; &#125; error_page 404 /404.html; error_page 500 502 503 504 /50x.html; location = /50x.html &#123; root ~/test; &#125; location ~ \.php &#123; root ~/test; fastcgi_pass 127.0.0.1:9000; fastcgi_index index.php; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; include fastcgi_params; &#125;&#125; 修改hosts文件，加入下面的内容 1127.0.0.1 yaf.com 这样就可以通过访问域名yaf.com访问到demo项目了 测试访问yaf.com,能看到Hello World! I am Stranger，说明安装配置成功]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>
