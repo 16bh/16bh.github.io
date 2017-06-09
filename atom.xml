@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-09T11:04:22.000Z</updated>
+  <updated>2017-06-09T11:10:57.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -16,13 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Yaf学习笔记(二)熟悉Yaf框架的目录</title>
+    <title>Yaf学习笔记2:Yaf的MVC模型</title>
     <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/"/>
     <id>http://jimxu.me/2017/06/09/Yaf学习笔记2/</id>
     <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-09T11:04:22.000Z</updated>
+    <updated>2017-06-09T11:10:57.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
+    <content type="html"><![CDATA[<p>Yaf是怎么通过MVC模型在页面展示Hello World! I am Stranger的呢</p>
+<a id="more"></a>
 <h2 id="框架文件目录"><a href="#框架文件目录" class="headerlink" title="框架文件目录"></a>框架文件目录</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png" alt="20170609149700575912100.png"></p>
 <p>其中 </p>
 <ul>
@@ -32,12 +33,11 @@
 <li>application/controllers 控制器C</li>
 </ul>
 <h2 id="获取配置信息"><a href="#获取配置信息" class="headerlink" title="获取配置信息"></a>获取配置信息</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Yaf_Application::app()-&gt;getConfig()</div></pre></td></tr></table></figure>
-]]></content>
+<h2 id="MVC模型"><a href="#MVC模型" class="headerlink" title="MVC模型"></a>MVC模型</h2>]]></content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;框架文件目录&quot;&gt;&lt;a href=&quot;#框架文件目录&quot; class=&quot;headerlink&quot; title=&quot;框架文件目录&quot;&gt;&lt;/a&gt;框架文件目录&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.cloud
+      &lt;p&gt;Yaf是怎么通过MVC模型在页面展示Hello World! I am Stranger的呢&lt;/p&gt;
     
     </summary>
     
@@ -154,14 +154,15 @@
   </entry>
   
   <entry>
-    <title>Yaf学习笔记(一)Mac环境下的安装使用</title>
-    <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E4%B8%80-%E5%AE%89%E8%A3%85%E4%BD%BF%E7%94%A8/"/>
-    <id>http://jimxu.me/2017/06/08/Yaf学习笔记-一-安装使用/</id>
+    <title>Yaf学习笔记1:Mac环境下的安装配置</title>
+    <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
+    <id>http://jimxu.me/2017/06/08/Yaf学习笔记1/</id>
     <published>2017-06-08T03:16:47.000Z</published>
-    <updated>2017-06-09T11:06:38.000Z</updated>
+    <updated>2017-06-09T11:09:28.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
+<p>根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就下载php56-yaf</p>
 <h2 id="建立应用目录结构"><a href="#建立应用目录结构" class="headerlink" title="建立应用目录结构"></a>建立应用目录结构</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">下载https://github.com/laruence/yaf后解压</div><div class="line">cd tools</div><div class="line">cd cg</div><div class="line">php yaf_cg test</div><div class="line">cd output</div><div class="line">cp -R test ~/test</div></pre></td></tr></table></figure>
 <h2 id="设置虚拟主机"><a href="#设置虚拟主机" class="headerlink" title="设置虚拟主机"></a>设置虚拟主机</h2><p>修改server_name域名，root项目根目录</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">        listen       80;</div><div class="line">        server_name  yaf.com;</div><div class="line">         </div><div class="line">        location / &#123;</div><div class="line">            root   ~/test;</div><div class="line">            index  index.html index.htm index.php;</div><div class="line">            try_files $uri $uri/  /index.php;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        error_page  404              /404.html;</div><div class="line"> </div><div class="line">        error_page   500 502 503 504  /50x.html;</div><div class="line">        location = /50x.html &#123;</div><div class="line">            root   ~/test;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        location ~ \.php &#123;</div><div class="line">            root ~/test;</div><div class="line">            fastcgi_pass   127.0.0.1:9000;</div><div class="line">            fastcgi_index  index.php;</div><div class="line">            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;</div><div class="line">            include        fastcgi_params;</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
