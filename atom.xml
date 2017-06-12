@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-12T11:14:52.000Z</updated>
+  <updated>2017-06-12T11:23:30.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -20,15 +20,17 @@
     <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/"/>
     <id>http://jimxu.me/2017/06/09/Yaf学习笔记4/</id>
     <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-12T11:14:52.000Z</updated>
+    <updated>2017-06-12T11:23:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
-<a id="more"></a>
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
 <h2 id="MVC模型"><a href="#MVC模型" class="headerlink" title="MVC模型"></a>MVC模型</h2>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;当我们访问demo项目的时候，在页面上展示了&lt;code&gt;Hello World! I am Stranger&lt;/code&gt;，其实是通过MVC模式实现的&lt;/p&gt;
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;当我们访问demo项目的时候，在页面上展示了&lt;code&gt;Hello World! I am Stranger&lt;/code&gt;，其实是通过MVC模式实现的&lt;/p&gt;
+&lt;h2 id=&quot;MVC模型&quot;&gt;&lt;a href=&quot;#MVC模型&quot; class=&quot;
     
     </summary>
     
@@ -48,7 +50,7 @@
     <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03/"/>
     <id>http://jimxu.me/2017/06/09/Yaf学习笔记3/</id>
     <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-12T11:14:47.000Z</updated>
+    <updated>2017-06-12T11:23:24.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h2 id="修改yaf设置"><a href="#修改yaf设置" class="headerlink" title="修改yaf设置"></a>修改yaf设置</h2><p>在路径<code>/usr/local/etc/php/7.0/conf.d</code>下存放了各个扩展的配置文件<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png" alt="20170612149726524849464.png"></p>
@@ -85,7 +87,7 @@
     <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/"/>
     <id>http://jimxu.me/2017/06/09/Yaf学习笔记2/</id>
     <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-12T11:17:38.000Z</updated>
+    <updated>2017-06-12T11:23:18.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h2 id="框架文件目录"><a href="#框架文件目录" class="headerlink" title="框架文件目录"></a>框架文件目录</h2><p>以刚刚通过gc生成的demo项目为例，我们在终端执行<code>tree</code>命令,可以看到项目的目录结果如下所示：</p>
@@ -222,13 +224,16 @@
   </entry>
   
   <entry>
-    <title>Yaf学习笔记1:Mac环境下的安装配置</title>
+    <title>Yaf学习笔记1:Mac环境下的安装、代码生成、运行</title>
     <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
     <id>http://jimxu.me/2017/06/08/Yaf学习笔记1/</id>
     <published>2017-06-08T03:16:47.000Z</published>
-    <updated>2017-06-12T11:10:57.000Z</updated>
+    <updated>2017-06-12T11:23:10.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
+<blockquote>
+<p>本系列基于macos系统，PHP版本7.0.19</p>
+</blockquote>
 <h2 id="yaf介绍"><a href="#yaf介绍" class="headerlink" title="yaf介绍"></a>yaf介绍</h2><p>Yaf = yet another framework</p>
 <p>鸟哥用C语言编写的一个PHP扩展，致力于解决<code>框架影响性能</code>这一经典问题</p>
 <h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
@@ -252,8 +257,10 @@
     <summary type="html">
     
       &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;yaf介绍&quot;&gt;&lt;a href=&quot;#yaf介绍&quot; class=&quot;headerlink&quot; title=&quot;yaf介绍&quot;&gt;&lt;/a&gt;yaf介绍&lt;/h2&gt;&lt;p&gt;Yaf = yet another framework&lt;/p&gt;
-&lt;p&gt;鸟哥用C语
+&lt;blockquote&gt;
+&lt;p&gt;本系列基于macos系统，PHP版本7.0.19&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;yaf介绍&quot;&gt;&lt;a href=&quot;#yaf介绍&quot; class=&quot;headerlink&quot; title=&quot;yaf介绍
     
     </summary>
     
