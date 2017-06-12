@@ -16,7 +16,7 @@
   <entry>
     <title><![CDATA[Yaf学习笔记3:Yaf配置]]></title>
     <url>%2F2017%2F06%2F09%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03%2F</url>
-    <content type="text"><![CDATA[修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 打开ex-yaf.ini文件，内容如下所示 12[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot; 我们直接在后面添加配置内容，如 123[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;yaf.use_namespace = 1 //启用名字空间 修改后重启php-fpm 打印phpinfo(),yaf.use_namespace的值已经变成ON了，说明修改成功 yaf的配置项一览 yaf项目配置文件获取配置文件中的值1Yaf_Application::app()-&gt;getConfig()]]></content>
+    <content type="text"><![CDATA[yaf的配置有两种， 一是Yaf自身的配置 二是生成的项目自己的配置，如项目所用的数据库、缓存配置等 修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 ex-yaf.ini文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示 12[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot; //扩展位置 我们直接在后面添加配置内容，如 123[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;yaf.use_namespace = 1 //启用名字空间 修改后重启php-fpm 打印phpinfo(),yaf.use_namespace的值已经变成ON了，说明修改成功 yaf的配置项一览 yaf项目配置文件项目的配置文件为./conf/application.ini默认配置如下： 12345[common]application.directory = APPLICATION_PATH &quot;/application&quot;application.dispatcher.catchException = TRUE[product : common] 获取配置文件中的值如要获取上述配置文件中application.directory的值，可以通过下面的方式获取 12$config = Yaf_Application::app()-&gt;getConfig()echo $config-&gt;application-&gt;directory;]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>

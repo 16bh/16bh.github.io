@@ -50,24 +50,37 @@
     <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03/"/>
     <id>http://jimxu.me/2017/06/09/Yaf学习笔记3/</id>
     <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-12T11:23:24.000Z</updated>
+    <updated>2017-06-12T11:29:47.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
+<p>yaf的配置有两种，</p>
+<ul>
+<li>一是Yaf自身的配置</li>
+<li>二是生成的项目自己的配置，如项目所用的数据库、缓存配置等</li>
+</ul>
 <h2 id="修改yaf设置"><a href="#修改yaf设置" class="headerlink" title="修改yaf设置"></a>修改yaf设置</h2><p>在路径<code>/usr/local/etc/php/7.0/conf.d</code>下存放了各个扩展的配置文件<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png" alt="20170612149726524849464.png"></p>
-<p>打开ex-yaf.ini文件，内容如下所示</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;</div></pre></td></tr></table></figure>
+<p><code>ex-yaf.ini</code>文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;  //扩展位置</div></pre></td></tr></table></figure>
 <p>我们直接在后面添加配置内容，如</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;</div><div class="line">yaf.use_namespace = 1	//启用名字空间</div></pre></td></tr></table></figure>
 <p>修改后重启php-fpm</p>
 <p>打印phpinfo(),<code>yaf.use_namespace</code>的值已经变成ON了，说明修改成功<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png" alt="20170612149726543885457.png"></p>
 <h2 id="yaf的配置项一览"><a href="#yaf的配置项一览" class="headerlink" title="yaf的配置项一览"></a>yaf的配置项一览</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png" alt="20170612149726554799450.png"></p>
-<h2 id="yaf项目配置文件"><a href="#yaf项目配置文件" class="headerlink" title="yaf项目配置文件"></a>yaf项目配置文件</h2><h2 id="获取配置文件中的值"><a href="#获取配置文件中的值" class="headerlink" title="获取配置文件中的值"></a>获取配置文件中的值</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Yaf_Application::app()-&gt;getConfig()</div></pre></td></tr></table></figure>
+<h2 id="yaf项目配置文件"><a href="#yaf项目配置文件" class="headerlink" title="yaf项目配置文件"></a>yaf项目配置文件</h2><p>项目的配置文件为<code>./conf/application.ini</code><br>默认配置如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[common]</div><div class="line">application.directory = APPLICATION_PATH  &quot;/application&quot;</div><div class="line">application.dispatcher.catchException = TRUE</div><div class="line"></div><div class="line">[product : common]</div></pre></td></tr></table></figure>
+<h2 id="获取配置文件中的值"><a href="#获取配置文件中的值" class="headerlink" title="获取配置文件中的值"></a>获取配置文件中的值</h2><p>如要获取上述配置文件中<code>application.directory</code>的值，可以通过下面的方式获取</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$config = Yaf_Application::app()-&gt;getConfig()</div><div class="line">echo $config-&gt;application-&gt;directory;</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
       &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;修改yaf设置&quot;&gt;&lt;a href=&quot;#修改yaf设置&quot; class=&quot;headerlink&quot; title=&quot;修改yaf设置&quot;&gt;&lt;/a&gt;修改yaf设置&lt;/h2&gt;&lt;p&gt;在路径&lt;code&gt;/usr/local/etc/php/7.0/
+&lt;p&gt;yaf的配置有两种，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一是Yaf自身的配置&lt;/li&gt;
+&lt;li&gt;二是生成的项目自己的配置，如项目所用的数据库、缓存配置等&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;修改yaf设置&quot;&gt;&lt;a href=&quot;#修改yaf设置&quot;
     
     </summary>
     
