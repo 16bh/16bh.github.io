@@ -87,19 +87,20 @@
 
 
 
-<meta name="description" content="yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 建立demo项目用yaf的代码生成器cg快速生成一个dem">
+<meta name="description" content="yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 在终端运行php -m,能看到yaf，说明扩展安装成功（或">
 <meta name="keywords" content="php,yaf">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Yaf学习笔记1:Mac环境下的安装配置">
 <meta property="og:url" content="http://jimxu.me/2017/06/08/Yaf学习笔记1/index.html">
 <meta property="og:site_name" content="Jimxu技术日记">
-<meta property="og:description" content="yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 建立demo项目用yaf的代码生成器cg快速生成一个dem">
+<meta property="og:description" content="yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 在终端运行php -m,能看到yaf，说明扩展安装成功（或">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726521862950.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170609149700636438511.png">
-<meta property="og:updated_time" content="2017-06-09T11:18:32.000Z">
+<meta property="og:updated_time" content="2017-06-12T11:10:57.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Yaf学习笔记1:Mac环境下的安装配置">
-<meta name="twitter:description" content="yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 建立demo项目用yaf的代码生成器cg快速生成一个dem">
-<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/20170609149700636438511.png">
+<meta name="twitter:description" content="yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 在终端运行php -m,能看到yaf，说明扩展安装成功（或">
+<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726521862950.png">
 
 
 
@@ -431,6 +432,7 @@
 <p>鸟哥用C语言编写的一个PHP扩展，致力于解决<code>框架影响性能</code>这一经典问题</p>
 <h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
 <p>根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf</p>
+<p>在终端运行<code>php -m</code>,能看到yaf，说明扩展安装成功（或打印phpinfo()）<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726521862950.png" alt="20170612149726521862950.png"></p>
 <h2 id="建立demo项目"><a href="#建立demo项目" class="headerlink" title="建立demo项目"></a>建立demo项目</h2><p>用yaf的代码生成器cg快速生成一个demo project</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">下载https://github.com/laruence/yaf后解压</div><div class="line">cd tools</div><div class="line">cd cg</div><div class="line">php yaf_cg test</div><div class="line">cd output</div><div class="line">cp -R test ~/test</div></pre></td></tr></table></figure>
 <h2 id="设置虚拟主机"><a href="#设置虚拟主机" class="headerlink" title="设置虚拟主机"></a>设置虚拟主机</h2><ul>
@@ -574,7 +576,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">116</span>
+                <span class="site-state-item-count">118</span>
                 <span class="site-state-item-name">文章</span>
               </a>
             </div>

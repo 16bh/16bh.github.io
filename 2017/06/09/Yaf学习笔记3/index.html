@@ -69,7 +69,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="hexo," />
+  <meta name="keywords" content="php,yaf," />
 
 
 
@@ -87,17 +87,21 @@
 
 
 
-<meta name="description" content="IT博客怎么能没有代码高亮的功能呢hexo支持代码块的高亮，使用方式是在第一个```后面接空格+语言名称,还可以在语言名称后面加上代码块的标题  C语言 ``` cint main(){return main();}```  123int main()&amp;#123;  return main();&amp;#125;">
-<meta name="keywords" content="hexo">
+<meta name="description" content="修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 打开ex-yaf.ini文件，内容如下所示 12[yaf]extension=&amp;quot;/usr/local/opt/php70-yaf/yaf.so&amp;quot; 我们直接在后面添加配置内容，如 123[yaf]extension=&amp;quot;/usr/local/opt/php70-ya">
+<meta name="keywords" content="php,yaf">
 <meta property="og:type" content="article">
-<meta property="og:title" content="landscape-plus主题代码高亮测试">
-<meta property="og:url" content="http://jimxu.me/2016/07/07/landscapse-plus主题代码高亮测试/index.html">
+<meta property="og:title" content="Yaf学习笔记3:Yaf配置">
+<meta property="og:url" content="http://jimxu.me/2017/06/09/Yaf学习笔记3/index.html">
 <meta property="og:site_name" content="Jimxu技术日记">
-<meta property="og:description" content="IT博客怎么能没有代码高亮的功能呢hexo支持代码块的高亮，使用方式是在第一个```后面接空格+语言名称,还可以在语言名称后面加上代码块的标题  C语言 ``` cint main(){return main();}```  123int main()&amp;#123;  return main();&amp;#125;">
-<meta property="og:updated_time" content="2017-05-11T09:50:47.000Z">
+<meta property="og:description" content="修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 打开ex-yaf.ini文件，内容如下所示 12[yaf]extension=&amp;quot;/usr/local/opt/php70-yaf/yaf.so&amp;quot; 我们直接在后面添加配置内容，如 123[yaf]extension=&amp;quot;/usr/local/opt/php70-ya">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png">
+<meta property="og:updated_time" content="2017-06-12T11:14:47.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="landscape-plus主题代码高亮测试">
-<meta name="twitter:description" content="IT博客怎么能没有代码高亮的功能呢hexo支持代码块的高亮，使用方式是在第一个```后面接空格+语言名称,还可以在语言名称后面加上代码块的标题  C语言 ``` cint main(){return main();}```  123int main()&amp;#123;  return main();&amp;#125;">
+<meta name="twitter:title" content="Yaf学习笔记3:Yaf配置">
+<meta name="twitter:description" content="修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 打开ex-yaf.ini文件，内容如下所示 12[yaf]extension=&amp;quot;/usr/local/opt/php70-yaf/yaf.so&amp;quot; 我们直接在后面添加配置内容，如 123[yaf]extension=&amp;quot;/usr/local/opt/php70-ya">
+<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png">
 
 
 
@@ -125,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="http://jimxu.me/2016/07/07/landscapse-plus主题代码高亮测试/"/>
+  <link rel="canonical" href="http://jimxu.me/2017/06/09/Yaf学习笔记3/"/>
 
 
 
 
 
-  <title> landscape-plus主题代码高亮测试 | Jimxu技术日记 </title>
+  <title> Yaf学习笔记3:Yaf配置 | Jimxu技术日记 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -304,7 +308,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2016/07/07/landscapse-plus主题代码高亮测试/">
+    <link itemprop="mainEntityOfPage" href="http://jimxu.me/2017/06/09/Yaf学习笔记3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jimxu">
@@ -325,7 +329,7 @@
             
             
               
-                landscape-plus主题代码高亮测试
+                Yaf学习笔记3:Yaf配置
               
             
           </h1>
@@ -340,8 +344,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-07T10:50:25+08:00">
-                2016-07-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-09T18:59:00+08:00">
+                2017-06-09
               </time>
             
 
@@ -363,8 +367,19 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Hexo/" itemprop="url" rel="index">
-                    <span itemprop="name">Hexo</span>
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/php/" itemprop="url" rel="index">
+                    <span itemprop="name">php</span>
                   </a>
                 </span>
 
@@ -381,7 +396,7 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a class="cloud-tie-join-count" href="/2016/07/07/landscapse-plus主题代码高亮测试/#comments" itemprop="discussionUrl">
+                <a class="cloud-tie-join-count" href="/2017/06/09/Yaf学习笔记3/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count join-count" itemprop="commentCount"></span>
                 </a>
               </span>
@@ -413,46 +428,16 @@
       
 
       
-        <blockquote>
-<p>IT博客怎么能没有代码高亮的功能呢<br>hexo支持代码块的高亮，使用方式是在第一个```后面接空格+语言名称,还可以在语言名称后面加上代码块的标题</p>
-</blockquote>
-<h2 id="C语言"><a href="#C语言" class="headerlink" title="C语言"></a>C语言</h2><blockquote>
-<p>``` c<br>int main(){<br>return main();<br>}<br>```</p>
-</blockquote>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</div><div class="line">  <span class="keyword">return</span> main();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<hr>
-<h2 id="php"><a href="#php" class="headerlink" title="php"></a>php</h2><blockquote>
-<p>``` php 1.php<br>array_values();<br>for($a=0;$a&lt;10;$a++){<br>   break;<br>}<br>```</p>
-</blockquote>
-<figure class="highlight php"><figcaption><span>1.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">array_values();</div><div class="line"><span class="keyword">for</span>($a=<span class="number">0</span>;$a&lt;<span class="number">10</span>;$a++)&#123;</div><div class="line">    <span class="keyword">break</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<hr>
-<blockquote>
-<p>```<br>array_values();<br>for($a=0;$a&lt;10;$a++){<br>   break;<br>}<br>```</p>
-</blockquote>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">array_values();</div><div class="line">for($a=0;$a&lt;10;$a++)&#123;</div><div class="line">    break;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>注意：去掉语言名称就不会高亮了</p>
-<hr>
-<h2 id="html"><a href="#html" class="headerlink" title="html"></a>html</h2><blockquote>
-<p>``` html<br><span>test</span><br>```</p>
-</blockquote>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span>test<span class="tag">&lt;/<span class="name">span</span>&gt;</span></div></pre></td></tr></table></figure>
-<hr>
-<h2 id="css"><a href="#css" class="headerlink" title="css"></a>css</h2><blockquote>
-<p>``` css<br>.id:{<br>   border:1px solid red;<br>}<br>```</p>
-</blockquote>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="selector-class">.id</span>:&#123;</div><div class="line">    <span class="attribute">border</span>:<span class="number">1px</span> solid red;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<hr>
-<h2 id="yml"><a href="#yml" class="headerlink" title="yml"></a>yml</h2><blockquote>
-<p>``` yml<br># Archives<br># 2: Enable pagination<br># 1: Disable pagination<br># 0: Fully Disable<br>archive: 1<br>category: 1<br>tag: 1<br>```</p>
-</blockquote>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Archives</span></div><div class="line"><span class="comment"># 2: Enable pagination</span></div><div class="line"><span class="comment"># 1: Disable pagination</span></div><div class="line"><span class="comment"># 0: Fully Disable</span></div><div class="line"><span class="attr">archive:</span> <span class="number">1</span></div><div class="line"><span class="attr">category:</span> <span class="number">1</span></div><div class="line"><span class="attr">tag:</span> <span class="number">1</span></div></pre></td></tr></table></figure>
-<hr>
-<h2 id="xml"><a href="#xml" class="headerlink" title="xml"></a>xml</h2><blockquote>
-<p>``` xml</p>
-<p><firstelement><br>       Some Text<br>   </firstelement><br>````</p>
-</blockquote>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">FirstElement</span>&gt;</span></div><div class="line">        Some Text</div><div class="line"><span class="tag">&lt;/<span class="name">FirstElement</span>&gt;</span></div></pre></td></tr></table></figure>
+        <a id="more"></a>
+<h2 id="修改yaf设置"><a href="#修改yaf设置" class="headerlink" title="修改yaf设置"></a>修改yaf设置</h2><p>在路径<code>/usr/local/etc/php/7.0/conf.d</code>下存放了各个扩展的配置文件<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png" alt="20170612149726524849464.png"></p>
+<p>打开ex-yaf.ini文件，内容如下所示</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;</div></pre></td></tr></table></figure>
+<p>我们直接在后面添加配置内容，如</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;</div><div class="line">yaf.use_namespace = 1	//启用名字空间</div></pre></td></tr></table></figure>
+<p>修改后重启php-fpm</p>
+<p>打印phpinfo(),<code>yaf.use_namespace</code>的值已经变成ON了，说明修改成功<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png" alt="20170612149726543885457.png"></p>
+<h2 id="yaf的配置项一览"><a href="#yaf的配置项一览" class="headerlink" title="yaf的配置项一览"></a>yaf的配置项一览</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png" alt="20170612149726554799450.png"></p>
+<h2 id="yaf项目配置文件"><a href="#yaf项目配置文件" class="headerlink" title="yaf项目配置文件"></a>yaf项目配置文件</h2><h2 id="获取配置文件中的值"><a href="#获取配置文件中的值" class="headerlink" title="获取配置文件中的值"></a>获取配置文件中的值</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">Yaf_Application::app()-&gt;getConfig()</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -482,7 +467,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/hexo/" rel="tag"># hexo</a>
+            <a href="/tags/php/" rel="tag"># php</a>
+          
+            <a href="/tags/yaf/" rel="tag"># yaf</a>
           
         </div>
       
@@ -495,8 +482,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/07/06/sublime插件-css颜色高亮与取色器/" rel="next" title="sublime插件 - css颜色高亮与取色器">
-                <i class="fa fa-chevron-left"></i> sublime插件 - css颜色高亮与取色器
+              <a href="/2017/06/09/Yaf学习笔记2/" rel="next" title="Yaf学习笔记2:Yaf项目结构">
+                <i class="fa fa-chevron-left"></i> Yaf学习笔记2:Yaf项目结构
               </a>
             
           </div>
@@ -505,8 +492,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/07/07/hexo如何让首页的文章只显示一部分并出现查看更多选项/" rel="prev" title="hexo如何让首页的文章只显示一部分并出现查看更多选项">
-                hexo如何让首页的文章只显示一部分并出现查看更多选项 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/06/09/Yaf学习笔记4/" rel="prev" title="Yaf学习笔记4:Yaf的MVC模型">
+                Yaf学习笔记4:Yaf的MVC模型 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -645,7 +632,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#C语言"><span class="nav-number">1.</span> <span class="nav-text">C语言</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#php"><span class="nav-number">2.</span> <span class="nav-text">php</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#html"><span class="nav-number">3.</span> <span class="nav-text">html</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#css"><span class="nav-number">4.</span> <span class="nav-text">css</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yml"><span class="nav-number">5.</span> <span class="nav-text">yml</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#xml"><span class="nav-number">6.</span> <span class="nav-text">xml</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#修改yaf设置"><span class="nav-number">1.</span> <span class="nav-text">修改yaf设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yaf的配置项一览"><span class="nav-number">2.</span> <span class="nav-text">yaf的配置项一览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yaf项目配置文件"><span class="nav-number">3.</span> <span class="nav-text">yaf项目配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取配置文件中的值"><span class="nav-number">4.</span> <span class="nav-text">获取配置文件中的值</span></a></li></ol></div>
             
 
           </div>
