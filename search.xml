@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title><![CDATA[Yaf学习笔记4:Yaf的MVC模型]]></title>
-    <url>%2F2017%2F06%2F09%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04%2F</url>
+    <url>%2F2017%2F06%2F12%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04%2F</url>
     <content type="text"><![CDATA[当我们访问demo项目的时候，在页面上展示了Hello World! I am Stranger，其实是通过MVC模式实现的 MVC模型]]></content>
       <categories>
         <category>IT</category>
@@ -28,7 +28,7 @@
   </entry>
   <entry>
     <title><![CDATA[Yaf学习笔记2:Yaf项目结构]]></title>
-    <url>%2F2017%2F06%2F09%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%2F</url>
+    <url>%2F2017%2F06%2F08%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%2F</url>
     <content type="text"><![CDATA[框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示： 注：tree命令不是自带的，有需要可以通过brew install tree安装 其中 conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/controllers 控制器C]]></content>
       <categories>
         <category>IT</category>

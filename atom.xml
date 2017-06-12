@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-12T11:23:30.000Z</updated>
+  <updated>2017-06-12T11:32:51.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>Yaf学习笔记4:Yaf的MVC模型</title>
-    <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/"/>
-    <id>http://jimxu.me/2017/06/09/Yaf学习笔记4/</id>
-    <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-12T11:23:30.000Z</updated>
+    <link href="http://jimxu.me/2017/06/12/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/"/>
+    <id>http://jimxu.me/2017/06/12/Yaf学习笔记4/</id>
+    <published>2017-06-12T10:59:00.000Z</published>
+    <updated>2017-06-12T11:32:51.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
@@ -97,10 +97,10 @@
   
   <entry>
     <title>Yaf学习笔记2:Yaf项目结构</title>
-    <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/"/>
-    <id>http://jimxu.me/2017/06/09/Yaf学习笔记2/</id>
-    <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-12T11:23:18.000Z</updated>
+    <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/"/>
+    <id>http://jimxu.me/2017/06/08/Yaf学习笔记2/</id>
+    <published>2017-06-08T10:59:00.000Z</published>
+    <updated>2017-06-12T11:37:52.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h2 id="框架文件目录"><a href="#框架文件目录" class="headerlink" title="框架文件目录"></a>框架文件目录</h2><p>以刚刚通过gc生成的demo项目为例，我们在终端执行<code>tree</code>命令,可以看到项目的目录结果如下所示：</p>
