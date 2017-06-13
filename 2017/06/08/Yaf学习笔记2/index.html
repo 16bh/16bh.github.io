@@ -87,18 +87,18 @@
 
 
 
-<meta name="description" content="框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示：  注：tree命令不是自带的，有需要可以通过brew install tree安装   其中   conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/">
+<meta name="description" content="框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示：  注：tree命令不是自带的，有需要可以通过brew install tree安装   ./index.php    是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置 ./conf    是配置项./conf/app">
 <meta name="keywords" content="php,yaf">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Yaf学习笔记2:项目结构">
 <meta property="og:url" content="http://jimxu.me/2017/06/08/Yaf学习笔记2/index.html">
 <meta property="og:site_name" content="Jimxu技术日记">
-<meta property="og:description" content="框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示：  注：tree命令不是自带的，有需要可以通过brew install tree安装   其中   conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/">
+<meta property="og:description" content="框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示：  注：tree命令不是自带的，有需要可以通过brew install tree安装   ./index.php    是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置 ./conf    是配置项./conf/app">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png">
-<meta property="og:updated_time" content="2017-06-13T02:12:28.000Z">
+<meta property="og:updated_time" content="2017-06-13T02:29:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Yaf学习笔记2:项目结构">
-<meta name="twitter:description" content="框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示：  注：tree命令不是自带的，有需要可以通过brew install tree安装   其中   conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/">
+<meta name="twitter:description" content="框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示：  注：tree命令不是自带的，有需要可以通过brew install tree安装   ./index.php    是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置 ./conf    是配置项./conf/app">
 <meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png">
 
 
@@ -452,13 +452,9 @@
 <p>注：tree命令不是自带的，有需要可以通过<code>brew install tree</code>安装</p>
 </blockquote>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png" alt="20170609149700575912100.png"></p>
-<p>其中 </p>
-<ul>
-<li>conf/application.ini 存放配置文件信息<br>(MVC模式)</li>
-<li>application/models 模型M</li>
-<li>application/views 视图V</li>
-<li>application/controllers 控制器C</li>
-</ul>
+<p>./index.php    是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置</p>
+<p>./conf    是配置项<br>./conf/application.ini    项目的配置文件</p>
+<p>./application<br>./application/Bootstrap.php    启动文件，主要用于初始化操作，如初始化设置、注册插件、加载全局基础类库等<br>./application/controllers    控制器<br>./application/library    类库<br>./application/models    模型<br>./application/plugins    插件<br>./application/views       视图</p>
 
       
     </div>

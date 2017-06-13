@@ -29,7 +29,7 @@
   <entry>
     <title><![CDATA[Yaf学习笔记3:配置]]></title>
     <url>%2F2017%2F06%2F09%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03%2F</url>
-    <content type="text"><![CDATA[yaf的配置有两种， 一是Yaf自身的配置 二是生成的项目自己的配置，如项目所用的数据库、缓存配置等 修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 ex-yaf.ini文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示 12[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot; //扩展位置 我们直接在后面添加配置内容，如 123[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;yaf.use_namespace = 1 //启用名字空间 修改后重启php-fpm 打印phpinfo(),yaf.use_namespace的值已经变成ON了，说明修改成功 yaf的配置项一览 yaf项目配置文件项目的配置文件为./conf/application.ini默认配置如下： 12345[common]application.directory = APPLICATION_PATH &quot;/application&quot;application.dispatcher.catchException = TRUE[product : common] 获取配置文件中的值如要获取上述配置文件中application.directory的值，可以通过下面的方式获取 12$config = Yaf_Application::app()-&gt;getConfig()echo $config-&gt;application-&gt;directory;]]></content>
+    <content type="text"><![CDATA[yaf的配置有两种， 一是Yaf自身的配置 二是生成的项目自己的配置，如项目所用的数据库、缓存配置等 修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 ex-yaf.ini文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示 12[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot; //扩展位置 我们直接在后面添加配置内容，修改后如下 1234[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot; //扩展位置 yaf.use_namespace = 1 //启用名字空间yaf.environ = &quot;dev&quot; //设置环境为本地开发环境 修改后重启php-fpm 打印phpinfo(),yaf.use_namespace的值已经变成ON了，说明修改成功 yaf的配置项一览 项目配置项目的配置文件为./conf/application.ini默认配置如下： 12345678910111213141516[common]application.directory = APPLICATION_PATH &quot;/application&quot;application.dispatcher.catchException = TRUE[dev : common]database.type = mysqldatabase.read_host = 127.0.0.1database.read_port = 3306database.read_user = rootdatabase.read_pwd = rootdatabase.name = yafdatabase.db_prefix = tbl_[test : common] [product : common] 注意，配置是分组的，common为通用配置，dev表示本地环境，test表示测试环境，product表示生产环境，后面的：common表示继承了common分组。我们之前已经修改了yaf.environ的值为dev，表示使用[dev : common]分组下的设置 我们在dev分组下对mysql数据库进行了配置 获取配置文件中的值如要获取上述配置文件中application.directory的值，可以通过下面的方式获取 12$config = Yaf_Application::app()-&gt;getConfig()echo $config-&gt;application-&gt;directory;]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>
@@ -42,7 +42,7 @@
   <entry>
     <title><![CDATA[Yaf学习笔记2:项目结构]]></title>
     <url>%2F2017%2F06%2F08%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%2F</url>
-    <content type="text"><![CDATA[框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示： 注：tree命令不是自带的，有需要可以通过brew install tree安装 其中 conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/controllers 控制器C]]></content>
+    <content type="text"><![CDATA[框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示： 注：tree命令不是自带的，有需要可以通过brew install tree安装 ./index.php 是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置 ./conf 是配置项./conf/application.ini 项目的配置文件 ./application./application/Bootstrap.php 启动文件，主要用于初始化操作，如初始化设置、注册插件、加载全局基础类库等./application/controllers 控制器./application/library 类库./application/models 模型./application/plugins 插件./application/views 视图]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>

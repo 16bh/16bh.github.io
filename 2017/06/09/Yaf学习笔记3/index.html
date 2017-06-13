@@ -97,7 +97,7 @@
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png">
-<meta property="og:updated_time" content="2017-06-13T02:12:34.000Z">
+<meta property="og:updated_time" content="2017-06-13T02:24:30.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Yaf学习笔记3:配置">
 <meta name="twitter:description" content="yaf的配置有两种，  一是Yaf自身的配置 二是生成的项目自己的配置，如项目所用的数据库、缓存配置等  修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 ex-yaf.ini文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示 12[yaf]extension=&amp;quot;/usr/local/opt/php70-yaf/y">
@@ -457,13 +457,15 @@
 <h2 id="修改yaf设置"><a href="#修改yaf设置" class="headerlink" title="修改yaf设置"></a>修改yaf设置</h2><p>在路径<code>/usr/local/etc/php/7.0/conf.d</code>下存放了各个扩展的配置文件<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png" alt="20170612149726524849464.png"></p>
 <p><code>ex-yaf.ini</code>文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;  //扩展位置</div></pre></td></tr></table></figure>
-<p>我们直接在后面添加配置内容，如</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;</div><div class="line">yaf.use_namespace = 1	//启用名字空间</div></pre></td></tr></table></figure>
+<p>我们直接在后面添加配置内容，修改后如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;	//扩展位置 </div><div class="line">yaf.use_namespace = 1	//启用名字空间</div><div class="line">yaf.environ = &quot;dev&quot;	   //设置环境为本地开发环境</div></pre></td></tr></table></figure>
 <p>修改后重启php-fpm</p>
 <p>打印phpinfo(),<code>yaf.use_namespace</code>的值已经变成ON了，说明修改成功<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png" alt="20170612149726543885457.png"></p>
 <h2 id="yaf的配置项一览"><a href="#yaf的配置项一览" class="headerlink" title="yaf的配置项一览"></a>yaf的配置项一览</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png" alt="20170612149726554799450.png"></p>
-<h2 id="yaf项目配置文件"><a href="#yaf项目配置文件" class="headerlink" title="yaf项目配置文件"></a>yaf项目配置文件</h2><p>项目的配置文件为<code>./conf/application.ini</code><br>默认配置如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">[common]</div><div class="line">application.directory = APPLICATION_PATH  &quot;/application&quot;</div><div class="line">application.dispatcher.catchException = TRUE</div><div class="line"></div><div class="line">[product : common]</div></pre></td></tr></table></figure>
+<h2 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h2><p>项目的配置文件为<code>./conf/application.ini</code><br>默认配置如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">[common]</div><div class="line">application.directory = APPLICATION_PATH  &quot;/application&quot;</div><div class="line">application.dispatcher.catchException = TRUE</div><div class="line"></div><div class="line">[dev : common]</div><div class="line">database.type = mysql</div><div class="line">database.read_host = 127.0.0.1</div><div class="line">database.read_port =  3306</div><div class="line">database.read_user = root</div><div class="line">database.read_pwd = root</div><div class="line">database.name = yaf</div><div class="line">database.db_prefix = tbl_</div><div class="line"></div><div class="line">[test : common] </div><div class="line"></div><div class="line">[product : common]</div></pre></td></tr></table></figure>
+<p>注意，配置是分组的，common为通用配置，dev表示本地环境，test表示测试环境，product表示生产环境，后面的<code>：common</code>表示继承了common分组。我们之前已经修改了<code>yaf.environ</code>的值为dev，表示使用<code>[dev : common]</code>分组下的设置</p>
+<p>我们在dev分组下对mysql数据库进行了配置</p>
 <h2 id="获取配置文件中的值"><a href="#获取配置文件中的值" class="headerlink" title="获取配置文件中的值"></a>获取配置文件中的值</h2><p>如要获取上述配置文件中<code>application.directory</code>的值，可以通过下面的方式获取</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$config = Yaf_Application::app()-&gt;getConfig()</div><div class="line">echo $config-&gt;application-&gt;directory;</div></pre></td></tr></table></figure>
 
@@ -660,7 +662,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#修改yaf设置"><span class="nav-number">1.</span> <span class="nav-text">修改yaf设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yaf的配置项一览"><span class="nav-number">2.</span> <span class="nav-text">yaf的配置项一览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yaf项目配置文件"><span class="nav-number">3.</span> <span class="nav-text">yaf项目配置文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取配置文件中的值"><span class="nav-number">4.</span> <span class="nav-text">获取配置文件中的值</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#修改yaf设置"><span class="nav-number">1.</span> <span class="nav-text">修改yaf设置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#yaf的配置项一览"><span class="nav-number">2.</span> <span class="nav-text">yaf的配置项一览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#项目配置"><span class="nav-number">3.</span> <span class="nav-text">项目配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取配置文件中的值"><span class="nav-number">4.</span> <span class="nav-text">获取配置文件中的值</span></a></li></ol></div>
             
 
           </div>
