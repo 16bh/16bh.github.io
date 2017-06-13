@@ -5,11 +5,36 @@
     
   <url>
     <loc>http://jimxu.me/2017/06/12/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/</loc>
-    <lastmod>2017-06-13T02:50:32.000Z</lastmod>
+    <lastmod>2017-06-13T02:53:33.000Z</lastmod>
     <data>
         <display>
         <title>Yaf学习笔记4:MVC模式</title>
         <pubTime>2017-06-12T10:59:00.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05/</loc>
+    <lastmod>2017-06-13T02:51:34.000Z</lastmod>
+    <data>
+        <display>
+        <title>Yaf学习笔记5:Module模块</title>
+        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -60,31 +85,6 @@
         <display>
         <title>Yaf学习笔记3:配置</title>
         <pubTime>2017-06-09T10:59:00.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05/</loc>
-    <lastmod>2017-06-13T02:13:35.000Z</lastmod>
-    <data>
-        <display>
-        <title>Yaf学习笔记5:路由</title>
-        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
         
         <tag>php</tag>
          
