@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Yaf学习笔记4:Yaf的MVC模型]]></title>
+    <title><![CDATA[Yaf学习笔记5:路由]]></title>
+    <url>%2F2017%2F06%2F13%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+        <tag>yaf</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Yaf学习笔记4:MVC模式]]></title>
     <url>%2F2017%2F06%2F12%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04%2F</url>
     <content type="text"><![CDATA[当我们访问demo项目的时候，在页面上展示了Hello World! I am Stranger，其实是通过MVC模式实现的 MVC模型]]></content>
       <categories>
@@ -14,7 +27,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Yaf学习笔记3:Yaf配置]]></title>
+    <title><![CDATA[Yaf学习笔记3:配置]]></title>
     <url>%2F2017%2F06%2F09%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03%2F</url>
     <content type="text"><![CDATA[yaf的配置有两种， 一是Yaf自身的配置 二是生成的项目自己的配置，如项目所用的数据库、缓存配置等 修改yaf设置在路径/usr/local/etc/php/7.0/conf.d下存放了各个扩展的配置文件 ex-yaf.ini文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示 12[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot; //扩展位置 我们直接在后面添加配置内容，如 123[yaf]extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;yaf.use_namespace = 1 //启用名字空间 修改后重启php-fpm 打印phpinfo(),yaf.use_namespace的值已经变成ON了，说明修改成功 yaf的配置项一览 yaf项目配置文件项目的配置文件为./conf/application.ini默认配置如下： 12345[common]application.directory = APPLICATION_PATH &quot;/application&quot;application.dispatcher.catchException = TRUE[product : common] 获取配置文件中的值如要获取上述配置文件中application.directory的值，可以通过下面的方式获取 12$config = Yaf_Application::app()-&gt;getConfig()echo $config-&gt;application-&gt;directory;]]></content>
       <categories>
@@ -27,7 +40,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Yaf学习笔记2:Yaf项目结构]]></title>
+    <title><![CDATA[Yaf学习笔记2:项目结构]]></title>
     <url>%2F2017%2F06%2F08%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02%2F</url>
     <content type="text"><![CDATA[框架文件目录以刚刚通过gc生成的demo项目为例，我们在终端执行tree命令,可以看到项目的目录结果如下所示： 注：tree命令不是自带的，有需要可以通过brew install tree安装 其中 conf/application.ini 存放配置文件信息(MVC模式) application/models 模型M application/views 视图V application/controllers 控制器C]]></content>
       <categories>
@@ -354,8 +367,8 @@
       </categories>
       <tags>
         <tag>php</tag>
-        <tag>phpstorm</tag>
         <tag>magento</tag>
+        <tag>phpstorm</tag>
       </tags>
   </entry>
   <entry>
@@ -380,8 +393,8 @@
         <category>xml</category>
       </categories>
       <tags>
-        <tag>error</tag>
         <tag>xml</tag>
+        <tag>error</tag>
       </tags>
   </entry>
   <entry>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-12T11:32:51.000Z</updated>
+  <updated>2017-06-13T02:13:35.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -16,11 +16,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Yaf学习笔记4:Yaf的MVC模型</title>
+    <title>Yaf学习笔记5:路由</title>
+    <link href="http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05/"/>
+    <id>http://jimxu.me/2017/06/13/Yaf学习笔记5/</id>
+    <published>2017-06-13T02:12:59.000Z</published>
+    <updated>2017-06-13T02:13:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Yaf学习笔记4:MVC模式</title>
     <link href="http://jimxu.me/2017/06/12/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/"/>
     <id>http://jimxu.me/2017/06/12/Yaf学习笔记4/</id>
     <published>2017-06-12T10:59:00.000Z</published>
-    <updated>2017-06-12T11:32:51.000Z</updated>
+    <updated>2017-06-13T02:12:47.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
@@ -46,11 +74,11 @@
   </entry>
   
   <entry>
-    <title>Yaf学习笔记3:Yaf配置</title>
+    <title>Yaf学习笔记3:配置</title>
     <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03/"/>
     <id>http://jimxu.me/2017/06/09/Yaf学习笔记3/</id>
     <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-12T11:29:47.000Z</updated>
+    <updated>2017-06-13T02:12:34.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>yaf的配置有两种，</p>
@@ -96,11 +124,11 @@
   </entry>
   
   <entry>
-    <title>Yaf学习笔记2:Yaf项目结构</title>
+    <title>Yaf学习笔记2:项目结构</title>
     <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/"/>
     <id>http://jimxu.me/2017/06/08/Yaf学习笔记2/</id>
     <published>2017-06-08T10:59:00.000Z</published>
-    <updated>2017-06-12T11:37:52.000Z</updated>
+    <updated>2017-06-13T02:12:28.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h2 id="框架文件目录"><a href="#框架文件目录" class="headerlink" title="框架文件目录"></a>框架文件目录</h2><p>以刚刚通过gc生成的demo项目为例，我们在终端执行<code>tree</code>命令,可以看到项目的目录结果如下所示：</p>
@@ -241,7 +269,7 @@
     <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
     <id>http://jimxu.me/2017/06/08/Yaf学习笔记1/</id>
     <published>2017-06-08T03:16:47.000Z</published>
-    <updated>2017-06-12T11:23:10.000Z</updated>
+    <updated>2017-06-12T11:38:02.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <blockquote>
@@ -1107,51 +1135,6 @@
       <category term="error" scheme="http://jimxu.me/tags/error/"/>
     
       <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mac安装go并运行第一个程序</title>
-    <link href="http://jimxu.me/2017/04/11/mac%E5%AE%89%E8%A3%85go%E5%B9%B6%E8%BF%90%E8%A1%8C%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F/"/>
-    <id>http://jimxu.me/2017/04/11/mac安装go并运行第一个程序/</id>
-    <published>2017-04-11T03:53:15.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149188484167726.png" alt="20170411149188484167726.png"></p>
-<ul>
-<li>homebrew安装go</li>
-<li>配置环境变量</li>
-<li>在终端运行go程序</li>
-</ul>
-<a id="more"></a>
-<h1 id="通过homebrew安装go"><a href="#通过homebrew安装go" class="headerlink" title="通过homebrew安装go"></a>通过homebrew安装go</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew update</div><div class="line">brew install go</div></pre></td></tr></table></figure>
-<h1 id="添加环境变量"><a href="#添加环境变量" class="headerlink" title="添加环境变量"></a>添加环境变量</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">#编辑~/.zshrc</div><div class="line">export GOROOT=/usr/local/opt/go/libexec</div><div class="line">export GOPATH=$HOME/.go</div><div class="line">export PATH=$PATH:$GOROOT/bin:$GOPATH/bin</div></pre></td></tr></table></figure>
-<p>保存后执行<code>source ~/.zshrc</code></p>
-<h1 id="在终端环境运行go程序"><a href="#在终端环境运行go程序" class="headerlink" title="在终端环境运行go程序"></a>在终端环境运行go程序</h1><p>新建文件<code>hello.go</code>，编辑如下并保存<br><figure class="highlight go"><figcaption><span>~/code/go/src/hello.go</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// hello.go</span></div><div class="line"><span class="keyword">package</span> main</div><div class="line"><span class="keyword">import</span> <span class="string">"fmt"</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">  fmt.Printf(<span class="string">"Hello, world!"</span>)</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<p>在终端执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd ~/code/go/src/hello.go</div><div class="line">go run hello.go</div></pre></td></tr></table></figure></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149188473495637.png" alt="20170411149188473495637.png"></p>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><blockquote>
-<p><a href="https://golang.org/doc/install?download=go1.8.1.darwin-amd64.pkg" target="_blank" rel="external">https://golang.org/doc/install?download=go1.8.1.darwin-amd64.pkg</a></p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170411149188484167726.png&quot; alt=&quot;20170411149188484167726.png&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;homebrew安装go&lt;/li&gt;
-&lt;li&gt;配置环境变量&lt;/li&gt;
-&lt;li&gt;在终端运行go程序&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="go" scheme="http://jimxu.me/categories/IT/go/"/>
-    
-    
-      <category term="go" scheme="http://jimxu.me/tags/go/"/>
     
   </entry>
   

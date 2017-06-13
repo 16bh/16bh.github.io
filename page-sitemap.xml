@@ -7,14 +7,14 @@
     </url>
     
     <url>
-        <loc>http://jimxu.me/about/</loc>
+        <loc>http://jimxu.me/categories/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
     
     <url>
-        <loc>http://jimxu.me/tags/</loc>
+        <loc>http://jimxu.me/about/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
@@ -28,7 +28,7 @@
     </url>
     
     <url>
-        <loc>http://jimxu.me/categories/</loc>
+        <loc>http://jimxu.me/tags/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
