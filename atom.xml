@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-13T02:51:34.000Z</updated>
+  <updated>2017-06-13T03:22:32.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -16,19 +16,33 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Yaf学习笔记5:Module模块</title>
+    <title>Yaf学习笔记5:模块</title>
     <link href="http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05/"/>
     <id>http://jimxu.me/2017/06/13/Yaf学习笔记5/</id>
     <published>2017-06-13T02:12:59.000Z</published>
-    <updated>2017-06-13T02:51:34.000Z</updated>
+    <updated>2017-06-13T03:22:32.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="模块是什么？"><a href="#模块是什么？" class="headerlink" title="模块是什么？"></a>模块是什么？</h2><p>设计模式的一条准则是“高内聚，低耦合”。<br>模块是高内聚的一种实现手段</p>
+<h2 id="建立模块"><a href="#建立模块" class="headerlink" title="建立模块"></a>建立模块</h2><p>当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的</p>
+<figure class="highlight"><figcaption><span>application.ini</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">application.dispatcher.defaultModule = Index</div></pre></td></tr></table></figure>
+<p>我们要实现一个博客网站，文章可以作为一个模块<br>在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">    class ListController extends Yaf_Controller_Abstract</div><div class="line">    &#123;</div><div class="line">        public function viewAction()</div><div class="line">        &#123;</div><div class="line">              </div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<p>Post/views下面建立list文件夹，新建view.phtml文件</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">echo 2333;</div></pre></td></tr></table></figure>
+<p>Post模块的结构如下所示：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732391375464.png" alt="20170613149732391375464.png"></p>
+<h2 id="模块的配置"><a href="#模块的配置" class="headerlink" title="模块的配置"></a>模块的配置</h2><p>这时候我们访问</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/post/list/view</div></pre></td></tr></table></figure>
+<p>看到下面的报错信息：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732400095678.png" alt="20170613149732400095678.png"></p>
+<p>报错的原因是因为我们没有将新建的模块加到配置文件中<br>编辑conf/application.ini文件，将下面两句代码加入common分组下面</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">application.modules = &quot;Index,Post&quot;	//模块</div><div class="line">application.dispatcher.defaultModule = Index	//默认模块</div></pre></td></tr></table></figure>
+<p>再次访问，就可以了<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732414586476.png" alt="20170613149732414586476.png"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
+&lt;h2 id=&quot;模块是什么？&quot;&gt;&lt;a href=&quot;#模块是什么？&quot; class=&quot;headerlink&quot; title=&quot;模块是什么？&quot;&gt;&lt;/a&gt;模块是什么？&lt;/h2&gt;&lt;p&gt;设计模式的一条准则是“高内聚，低耦合”。&lt;br&gt;模块是高内聚的一种实现手
     
     </summary>
     
@@ -48,15 +62,18 @@
     <link href="http://jimxu.me/2017/06/12/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/"/>
     <id>http://jimxu.me/2017/06/12/Yaf学习笔记4/</id>
     <published>2017-06-12T10:59:00.000Z</published>
-    <updated>2017-06-13T02:57:57.000Z</updated>
+    <updated>2017-06-13T03:08:40.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
-<p>运行流程如下图所示：</p>
+<p>运行流程如下图所示（摘自鸟哥文档）：</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png" alt="Yaf运行流程(摘自鸟哥文档)"></p>
 <p>当我们访问<code>yaf.com</code>网站的时候，先走到入口文件<code>index.php</code>，然后经过<code>bootstrap</code>初始化，<code>router</code>路由，因为没有指定controller，会使用默认控制器IndexController的默认方法IndexAction，即下面的几种访问方式都是可以的：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">yaf.com</div><div class="line">yaf.com/index</div><div class="line">yaf.com/index/index</div><div class="line">yaf.com/index/index/index</div></pre></td></tr></table></figure>
 <p>最后一种访问方式里：第一个index是Module模块名，第二个index是Controller控制器名，第三个index是Action方法名</p>
+<blockquote>
+<p>模块的用法见下一节</p>
+</blockquote>
 <p>访问结果如下：</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732160779459.png" alt="20170613149732160779459.png"></p>
 <p>IndexController的indexAction的代码如下：</p>
@@ -88,8 +105,8 @@
     
       &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;当我们访问demo项目的时候，在页面上展示了&lt;code&gt;Hello World! I am Stranger&lt;/code&gt;，其实是通过MVC模式实现的&lt;/p&gt;
-&lt;p&gt;运行流程如下图所示：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://o
+&lt;p&gt;运行流程如下图所示（摘自鸟哥文档）：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;
     
     </summary>
     
@@ -294,11 +311,11 @@
   </entry>
   
   <entry>
-    <title>Yaf学习笔记1:Mac环境下的安装、代码生成、运行</title>
+    <title>Yaf学习笔记1:Mac环境下的安装运行</title>
     <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
     <id>http://jimxu.me/2017/06/08/Yaf学习笔记1/</id>
     <published>2017-06-08T03:16:47.000Z</published>
-    <updated>2017-06-12T11:38:02.000Z</updated>
+    <updated>2017-06-13T02:59:36.000Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <blockquote>

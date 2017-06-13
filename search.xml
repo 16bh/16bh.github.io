@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Yaf学习笔记5:Module模块]]></title>
+    <title><![CDATA[Yaf学习笔记5:模块]]></title>
     <url>%2F2017%2F06%2F13%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <content type="text"><![CDATA[模块是什么？设计模式的一条准则是“高内聚，低耦合”。模块是高内聚的一种实现手段 建立模块当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的 application.ini1application.dispatcher.defaultModule = Index 我们要实现一个博客网站，文章可以作为一个模块在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下： 12345678&lt;?php class ListController extends Yaf_Controller_Abstract &#123; public function viewAction() &#123; &#125; &#125; Post/views下面建立list文件夹，新建view.phtml文件 12&lt;?phpecho 2333; Post模块的结构如下所示： 模块的配置这时候我们访问 1yaf.com/post/list/view 看到下面的报错信息： 报错的原因是因为我们没有将新建的模块加到配置文件中编辑conf/application.ini文件，将下面两句代码加入common分组下面 12application.modules = &quot;Index,Post&quot; //模块application.dispatcher.defaultModule = Index //默认模块 再次访问，就可以了]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>
@@ -16,7 +16,7 @@
   <entry>
     <title><![CDATA[Yaf学习笔记4:MVC模式]]></title>
     <url>%2F2017%2F06%2F12%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04%2F</url>
-    <content type="text"><![CDATA[当我们访问demo项目的时候，在页面上展示了Hello World! I am Stranger，其实是通过MVC模式实现的 运行流程如下图所示： 当我们访问yaf.com网站的时候，先走到入口文件index.php，然后经过bootstrap初始化，router路由，因为没有指定controller，会使用默认控制器IndexController的默认方法IndexAction，即下面的几种访问方式都是可以的： 1234yaf.comyaf.com/indexyaf.com/index/indexyaf.com/index/index/index 最后一种访问方式里：第一个index是Module模块名，第二个index是Controller控制器名，第三个index是Action方法名 访问结果如下： IndexController的indexAction的代码如下： ~/test/application/controllers/Index.php1234567891011121314public function indexAction($name = "Stranger") &#123; //1. fetch query $get = $this-&gt;getRequest()-&gt;getQuery("get", "default value"); //2. fetch model $model = new SampleModel(); //3. assign $this-&gt;getView()-&gt;assign("content", $model-&gt;selectSample()); $this-&gt;getView()-&gt;assign("name", $name); //4. render by Yaf, 如果这里返回FALSE, Yaf将不会调用自动视图引擎Render模板 return TRUE;&#125; 注意： $name默认值是Stranger，我们可以通过下面的方式指定$name的值 1yaf.com/index/index/index/name/jimxu 申明SampleModel类的一个对象，通过selectSample方法获取$content的值 ~/test/application/models/Sample.php123public function selectSample() &#123; return 'Hello World!'; &#125; 将$name和$content传到view 12$this-&gt;getView()-&gt;assign(&quot;content&quot;, $model-&gt;selectSample());$this-&gt;getView()-&gt;assign(&quot;name&quot;, $name); 在view对应的phtml中可以使用$name和$content变量的值 ~/test/application/views/index/index.phtml1echo $content, " I am ", $name; 通过MVC设计模式，以控制器为中介，在模型文件中进行复杂的业务逻辑处理，在视图文件中渲染效果，实现了模型和视图的低耦合]]></content>
+    <content type="text"><![CDATA[当我们访问demo项目的时候，在页面上展示了Hello World! I am Stranger，其实是通过MVC模式实现的 运行流程如下图所示（摘自鸟哥文档）： 当我们访问yaf.com网站的时候，先走到入口文件index.php，然后经过bootstrap初始化，router路由，因为没有指定controller，会使用默认控制器IndexController的默认方法IndexAction，即下面的几种访问方式都是可以的： 1234yaf.comyaf.com/indexyaf.com/index/indexyaf.com/index/index/index 最后一种访问方式里：第一个index是Module模块名，第二个index是Controller控制器名，第三个index是Action方法名 模块的用法见下一节 访问结果如下： IndexController的indexAction的代码如下： ~/test/application/controllers/Index.php1234567891011121314public function indexAction($name = "Stranger") &#123; //1. fetch query $get = $this-&gt;getRequest()-&gt;getQuery("get", "default value"); //2. fetch model $model = new SampleModel(); //3. assign $this-&gt;getView()-&gt;assign("content", $model-&gt;selectSample()); $this-&gt;getView()-&gt;assign("name", $name); //4. render by Yaf, 如果这里返回FALSE, Yaf将不会调用自动视图引擎Render模板 return TRUE;&#125; 注意： $name默认值是Stranger，我们可以通过下面的方式指定$name的值 1yaf.com/index/index/index/name/jimxu 申明SampleModel类的一个对象，通过selectSample方法获取$content的值 ~/test/application/models/Sample.php123public function selectSample() &#123; return 'Hello World!'; &#125; 将$name和$content传到view 12$this-&gt;getView()-&gt;assign(&quot;content&quot;, $model-&gt;selectSample());$this-&gt;getView()-&gt;assign(&quot;name&quot;, $name); 在view对应的phtml中可以使用$name和$content变量的值 ~/test/application/views/index/index.phtml1echo $content, " I am ", $name; 通过MVC设计模式，以控制器为中介，在模型文件中进行复杂的业务逻辑处理，在视图文件中渲染效果，实现了模型和视图的低耦合]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>
@@ -89,7 +89,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[Yaf学习笔记1:Mac环境下的安装、代码生成、运行]]></title>
+    <title><![CDATA[Yaf学习笔记1:Mac环境下的安装运行]]></title>
     <url>%2F2017%2F06%2F08%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01%2F</url>
     <content type="text"><![CDATA[本系列基于macos系统，PHP版本7.0.19 yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题 安装yaf扩展1brew install php70-yaf --build-from-source 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf 在终端运行php -m,能看到yaf，说明扩展安装成功（或打印phpinfo()） 建立demo项目用yaf的代码生成器cg快速生成一个demo project 123456下载https://github.com/laruence/yaf后解压cd toolscd cgphp yaf_cg testcd outputcp -R test ~/test 设置虚拟主机 修改server_name域名，root项目根目录 12345678910111213141516171819202122232425server &#123; listen 80; server_name yaf.com; location / &#123; root ~/test; index index.html index.htm index.php; try_files $uri $uri/ /index.php; &#125; error_page 404 /404.html; error_page 500 502 503 504 /50x.html; location = /50x.html &#123; root ~/test; &#125; location ~ \.php &#123; root ~/test; fastcgi_pass 127.0.0.1:9000; fastcgi_index index.php; fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name; include fastcgi_params; &#125;&#125; 修改hosts文件，加入下面的内容 1127.0.0.1 yaf.com 这样就可以通过访问域名yaf.com访问到demo项目了 测试访问yaf.com,能看到Hello World! I am Stranger，说明安装配置成功]]></content>
       <categories>
