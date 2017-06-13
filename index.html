@@ -224,7 +224,7 @@
             
               <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
             
-            Magento经验分享
+            Magento开发
           </a>
         </li>
       
@@ -597,21 +597,26 @@
 <p>IndexController的indexAction的代码如下：</p>
 <figure class="highlight php"><figcaption><span>~/test/application/controllers/Index.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">indexAction</span><span class="params">($name = <span class="string">"Stranger"</span>)</span> </span>&#123;</div><div class="line">	<span class="comment">//1. fetch query</span></div><div class="line">	$get = <span class="keyword">$this</span>-&gt;getRequest()-&gt;getQuery(<span class="string">"get"</span>, <span class="string">"default value"</span>);</div><div class="line"></div><div class="line">	<span class="comment">//2. fetch model</span></div><div class="line">	$model = <span class="keyword">new</span> SampleModel();</div><div class="line"></div><div class="line">	<span class="comment">//3. assign</span></div><div class="line">	<span class="keyword">$this</span>-&gt;getView()-&gt;assign(<span class="string">"content"</span>, $model-&gt;selectSample());</div><div class="line">	<span class="keyword">$this</span>-&gt;getView()-&gt;assign(<span class="string">"name"</span>, $name);</div><div class="line"></div><div class="line">	<span class="comment">//4. render by Yaf, 如果这里返回FALSE, Yaf将不会调用自动视图引擎Render模板</span></div><div class="line">   <span class="keyword">return</span> <span class="keyword">TRUE</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <p>注意：</p>
-<ol>
-<li><p>$name默认值是Stranger，我们可以通过下面的方式指定$name的值</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/index/index/index/name/jimxu</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<pre><code>![2017061314973219814429.png](http://o9xbyqajf.bkt.clouddn.com/2017061314973219814429.png)
-</code></pre><ol>
-<li><p>申明SampleModel类的一个对象，通过selectSample方法获取$content的值</p>
-</li>
-<li><p>将<code>$name</code>和<code>$content</code>传到view</p>
- <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$this-&gt;getView()-&gt;assign(&quot;content&quot;, $model-&gt;selectSample());</div><div class="line">$this-&gt;getView()-&gt;assign(&quot;name&quot;, $name);</div></pre></td></tr></table></figure>
-</li>
-<li><p>在view对应的phtml中可以使用<code>$name</code>和<code>$content</code>变量的值</p>
- <figure class="highlight php"><figcaption><span>~/test/application/views/index/index.phtml</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">echo</span> $content, <span class="string">" I am "</span>, $name;</div></pre></td></tr></table></figure></li>
-</ol>
+<ul>
+<li>$name默认值是Stranger，我们可以通过下面的方式指定$name的值</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/index/index/index/name/jimxu</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017061314973219814429.png" alt="2017061314973219814429.png"></p>
+<ul>
+<li>申明SampleModel类的一个对象，通过selectSample方法获取$content的值</li>
+</ul>
+<figure class="highlight php"><figcaption><span>~/test/application/models/Sample.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">selectSample</span><span class="params">()</span> </span>&#123;</div><div class="line">       <span class="keyword">return</span> <span class="string">'Hello World!'</span>;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
+<ul>
+<li>将<code>$name</code>和<code>$content</code>传到view</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$this-&gt;getView()-&gt;assign(&quot;content&quot;, $model-&gt;selectSample());</div><div class="line">$this-&gt;getView()-&gt;assign(&quot;name&quot;, $name);</div></pre></td></tr></table></figure>
+<ul>
+<li>在view对应的phtml中可以使用<code>$name</code>和<code>$content</code>变量的值</li>
+</ul>
+<figure class="highlight php"><figcaption><span>~/test/application/views/index/index.phtml</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">echo</span> $content, <span class="string">" I am "</span>, $name;</div></pre></td></tr></table></figure>
+<ul>
+<li>通过MVC设计模式，以控制器为中介，在模型文件中进行复杂的业务逻辑处理，在视图文件中渲染效果，实现了模型和视图的低耦合</li>
+</ul>
 
           
         
