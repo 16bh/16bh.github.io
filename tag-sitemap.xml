@@ -72,14 +72,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/hexo/</loc>
+        <loc>http://jimxu.me/tags/git/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/git/</loc>
+        <loc>http://jimxu.me/tags/hexo/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -135,14 +135,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/nginx/</loc>
+        <loc>http://jimxu.me/tags/tools/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/tools/</loc>
+        <loc>http://jimxu.me/tags/nginx/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -219,15 +219,15 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/php/</loc>
-        <lastmod>2017-06-13T03:22:32.000Z</lastmod>
+        <loc>http://jimxu.me/tags/yaf/</loc>
+        <lastmod>2017-06-13T04:01:21.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/yaf/</loc>
-        <lastmod>2017-06-13T03:22:32.000Z</lastmod>
+        <loc>http://jimxu.me/tags/php/</loc>
+        <lastmod>2017-06-15T09:03:31.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

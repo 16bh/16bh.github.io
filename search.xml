@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Yaf学习笔记6：路由]]></title>
+    <url>%2F2017%2F06%2F13%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B06%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+        <tag>yaf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Yaf学习笔记5:模块]]></title>
     <url>%2F2017%2F06%2F13%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05%2F</url>
     <content type="text"><![CDATA[模块是什么？设计模式的一条准则是“高内聚，低耦合”。模块是高内聚的一种实现手段 建立模块当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的 application.ini1application.dispatcher.defaultModule = Index 我们要实现一个博客网站，文章可以作为一个模块在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下： 12345678&lt;?php class ListController extends Yaf_Controller_Abstract &#123; public function viewAction() &#123; &#125; &#125; Post/views下面建立list文件夹，新建view.phtml文件 12&lt;?phpecho 2333; Post模块的结构如下所示： 模块的配置这时候我们访问 1yaf.com/post/list/view 看到下面的报错信息： 报错的原因是因为我们没有将新建的模块加到配置文件中编辑conf/application.ini文件，将下面两句代码加入common分组下面 12application.modules = &quot;Index,Post&quot; //模块application.dispatcher.defaultModule = Index //默认模块 再次访问，就可以了]]></content>
@@ -67,7 +80,7 @@
   <entry>
     <title><![CDATA[微信领红包问题]]></title>
     <url>%2F2017%2F06%2F08%2F%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85%2F</url>
-    <content type="text"><![CDATA[参考：https://www.zhihu.com/question/22625187 微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机 1234567891011121314151617181920212223242526272829&lt;?php//随机小数function randomFloat($min = 0, $max = 1) &#123; return $min + mt_rand() / mt_getrandmax() * ($max - $min);&#125;function raffle()&#123; $total = 100; $num = 10; $leftTotal = 100; $leftNum = 10; $minLimit = 0.01; for($i=0;$i&lt;$num;$i++) &#123; if (1 == $leftNum) &#123; $money = $leftTotal; &#125; $money = randomFloat($minLimit,$leftTotal/$leftNum*2); echo $money."\n"; $leftTotal -= $money; $leftNum --; &#125; &#125;raffle();]]></content>
+    <content type="text"><![CDATA[参考：https://www.zhihu.com/question/22625187 微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机 12345678910111213141516171819202122232425262728293031&lt;?php//随机小数function randomFloat($min = 0, $max = 1) &#123; return $min + mt_rand() / mt_getrandmax() * ($max - $min);&#125;function raffle()&#123; $total = 100; $num = 10; $leftTotal = 100; $leftNum = 10; $minLimit = 0.01; for($i=0;$i&lt;$num;$i++) &#123; if (1 == $leftNum) &#123; $money = $leftTotal; echo $money."\n"; break; &#125; $money = randomFloat($minLimit,$leftTotal/$leftNum*2); echo $money."\n"; $leftTotal -= $money; $leftNum --; &#125; &#125;raffle();]]></content>
       <categories>
         <category>IT</category>
         <category>php</category>

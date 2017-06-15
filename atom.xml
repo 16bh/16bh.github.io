@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-13T03:22:32.000Z</updated>
+  <updated>2017-06-13T04:01:21.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Yaf学习笔记6：路由</title>
+    <link href="http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B06/"/>
+    <id>http://jimxu.me/2017/06/13/Yaf学习笔记6/</id>
+    <published>2017-06-13T04:00:53.000Z</published>
+    <updated>2017-06-13T04:01:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
+    
+  </entry>
   
   <entry>
     <title>Yaf学习笔记5:模块</title>
@@ -249,14 +277,14 @@
     <link href="http://jimxu.me/2017/06/08/%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85/"/>
     <id>http://jimxu.me/2017/06/08/微信领红包/</id>
     <published>2017-06-08T06:54:33.000Z</published>
-    <updated>2017-06-08T07:16:50.000Z</updated>
+    <updated>2017-06-15T09:03:31.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>参考：<a href="https://www.zhihu.com/question/22625187" target="_blank" rel="external">https://www.zhihu.com/question/22625187</a></p>
 </blockquote>
 <p>微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机</p>
 <a id="more"></a>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="comment">//随机小数</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">randomFloat</span><span class="params">($min = <span class="number">0</span>, $max = <span class="number">1</span>)</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> $min + mt_rand() / mt_getrandmax() * ($max - $min);</div><div class="line">&#125;</div><div class="line"></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">raffle</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    $total = <span class="number">100</span>;</div><div class="line">    $num = <span class="number">10</span>;</div><div class="line">    $leftTotal = <span class="number">100</span>;</div><div class="line">    $leftNum = <span class="number">10</span>;</div><div class="line">    $minLimit = <span class="number">0.01</span>;</div><div class="line"></div><div class="line">    <span class="keyword">for</span>($i=<span class="number">0</span>;$i&lt;$num;$i++)</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span> (<span class="number">1</span> == $leftNum) &#123;</div><div class="line">            $money = $leftTotal;</div><div class="line">        &#125;</div><div class="line">        $money = randomFloat($minLimit,$leftTotal/$leftNum*<span class="number">2</span>);</div><div class="line">        <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">        $leftTotal -= $money;</div><div class="line">        $leftNum --;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">&#125;</div><div class="line"></div><div class="line">raffle();</div></pre></td></tr></table></figure>]]></content>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="comment">//随机小数</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">randomFloat</span><span class="params">($min = <span class="number">0</span>, $max = <span class="number">1</span>)</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> $min + mt_rand() / mt_getrandmax() * ($max - $min);</div><div class="line">&#125;</div><div class="line"></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">raffle</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    $total = <span class="number">100</span>;</div><div class="line">    $num = <span class="number">10</span>;</div><div class="line">    $leftTotal = <span class="number">100</span>;</div><div class="line">    $leftNum = <span class="number">10</span>;</div><div class="line">    $minLimit = <span class="number">0.01</span>;</div><div class="line"></div><div class="line">    <span class="keyword">for</span>($i=<span class="number">0</span>;$i&lt;$num;$i++)</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span> (<span class="number">1</span> == $leftNum) &#123;</div><div class="line">            $money = $leftTotal;</div><div class="line">            <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">            <span class="keyword">break</span>;</div><div class="line">        &#125;</div><div class="line">        $money = randomFloat($minLimit,$leftTotal/$leftNum*<span class="number">2</span>);</div><div class="line">        <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">        $leftTotal -= $money;</div><div class="line">        $leftNum --;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">&#125;</div><div class="line"></div><div class="line">raffle();</div></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
@@ -1137,48 +1165,6 @@
     
     
       <category term="go" scheme="http://jimxu.me/tags/go/"/>
-    
-      <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>sublime报错There are no packages available for installation</title>
-    <link href="http://jimxu.me/2017/04/11/sublime%E6%8A%A5%E9%94%99There-are-no-packages-available-for-installation/"/>
-    <id>http://jimxu.me/2017/04/11/sublime报错There-are-no-packages-available-for-installation/</id>
-    <published>2017-04-11T06:20:42.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189251312084.png" alt="20170411149189251312084.png"><br><code>There are no packages available for installation</code>报错可能只是你自己网络有问题</p>
-<a id="more"></a>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189167643657.png" alt="20170411149189167643657.png"></p>
-<blockquote>
-<p>Package Control</p>
-</blockquote>
-<p>There are no packages available for installation</p>
-<p>Please see <a href="https://packagecontrol.io/docs/troubleshooting" target="_blank" rel="external">https://packagecontrol.io/docs/troubleshooting</a> for help<br>&gt;</p>
-<p>网上的解决方案：</p>
-<ul>
-<li>IPV6,修改hosts</li>
-<li>json</li>
-<li>重装</li>
-</ul>
-<p>后来发现只是网络问题，只要使用科学上网法就可以解决了<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170411149189200069709.png" alt="20170411149189200069709.png"></p>
-<p>如上图，开始使用的是自动代理模式，可能没有应用到sublime，设置成全局代理就ok了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170411149189251312084.png&quot; alt=&quot;20170411149189251312084.png&quot;&gt;&lt;br&gt;&lt;code&gt;There are no packages available for installation&lt;/code&gt;报错可能只是你自己网络有问题&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="sublime" scheme="http://jimxu.me/categories/Editor/sublime/"/>
-    
-    
-      <category term="error" scheme="http://jimxu.me/tags/error/"/>
     
       <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
     

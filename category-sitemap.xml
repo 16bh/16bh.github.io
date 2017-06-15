@@ -14,6 +14,20 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/categories/IT/lua/</loc>
+        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Editor/markDown/</loc>
+        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jimxu.me/categories/IT/XML/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -28,28 +42,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/IT/lua/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/categories/Editor/atom/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/categories/Hexo/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/categories/IT/git/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -63,7 +56,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/Editor/markDown/</loc>
+        <loc>http://jimxu.me/categories/IT/git/</loc>
+        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Hexo/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -148,14 +148,14 @@
 
     <url>
         <loc>http://jimxu.me/categories/IT/</loc>
-        <lastmod>2017-06-13T03:22:32.000Z</lastmod>
+        <lastmod>2017-06-15T09:03:31.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://jimxu.me/categories/IT/php/</loc>
-        <lastmod>2017-06-13T03:22:32.000Z</lastmod>
+        <lastmod>2017-06-15T09:03:31.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
