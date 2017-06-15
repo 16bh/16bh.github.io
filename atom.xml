@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-13T04:01:21.000Z</updated>
+  <updated>2017-06-15T09:04:01.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Yaf学习笔记7:模型与数据库</title>
+    <link href="http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B07/"/>
+    <id>http://jimxu.me/2017/06/13/Yaf学习笔记7/</id>
+    <published>2017-06-13T04:01:00.000Z</published>
+    <updated>2017-06-15T09:04:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
+    
+      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
+    
+  </entry>
   
   <entry>
     <title>Yaf学习笔记6：路由</title>
@@ -1137,36 +1165,6 @@
       <category term="vscode" scheme="http://jimxu.me/tags/vscode/"/>
     
       <category term="go" scheme="http://jimxu.me/tags/go/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>sublime搭建go-lang开发环境</title>
-    <link href="http://jimxu.me/2017/04/11/sublime%E6%90%AD%E5%BB%BAgo-lang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/"/>
-    <id>http://jimxu.me/2017/04/11/sublime搭建go-lang开发环境/</id>
-    <published>2017-04-11T06:39:36.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<h2 id="安装GoSublime插件"><a href="#安装GoSublime插件" class="headerlink" title="安装GoSublime插件"></a>安装GoSublime插件</h2><p><code>package control</code>安装</p>
-<h2 id="设置GoSublime插件"><a href="#设置GoSublime插件" class="headerlink" title="设置GoSublime插件"></a>设置GoSublime插件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">    &quot;env&quot;: &#123;</div><div class="line">        &quot;GOPATH&quot;: &quot;/Users/jim/Documents/code/go&quot;,</div><div class="line">        &quot;GOROOT&quot;: &quot;/usr/local/opt/go/libexec&quot;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="build-system"><a href="#build-system" class="headerlink" title="build system"></a>build system</h2>]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;安装GoSublime插件&quot;&gt;&lt;a href=&quot;#安装GoSublime插件&quot; class=&quot;headerlink&quot; title=&quot;安装GoSublime插件&quot;&gt;&lt;/a&gt;安装GoSublime插件&lt;/h2&gt;&lt;p&gt;&lt;code&gt;pa
-    
-    </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="sublime" scheme="http://jimxu.me/categories/Editor/sublime/"/>
-    
-    
-      <category term="go" scheme="http://jimxu.me/tags/go/"/>
-    
-      <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
     
   </entry>
   

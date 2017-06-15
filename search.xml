@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Yaf学习笔记7:模型与数据库]]></title>
+    <url>%2F2017%2F06%2F13%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B07%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <categories>
+        <category>IT</category>
+        <category>php</category>
+      </categories>
+      <tags>
+        <tag>php</tag>
+        <tag>yaf</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Yaf学习笔记6：路由]]></title>
     <url>%2F2017%2F06%2F13%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B06%2F</url>
     <content type="text"><![CDATA[]]></content>
@@ -406,8 +419,8 @@
         <category>xml</category>
       </categories>
       <tags>
-        <tag>xml</tag>
         <tag>error</tag>
+        <tag>xml</tag>
       </tags>
   </entry>
   <entry>

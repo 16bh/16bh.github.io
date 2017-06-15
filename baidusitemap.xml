@@ -4,6 +4,31 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B07/</loc>
+    <lastmod>2017-06-15T09:04:01.000Z</lastmod>
+    <data>
+        <display>
+        <title>Yaf学习笔记7:模型与数据库</title>
+        <pubTime>2017-06-13T04:01:00.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/06/08/%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85/</loc>
     <lastmod>2017-06-15T09:03:31.000Z</lastmod>
     <data>
@@ -486,22 +511,19 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/11/git%E8%AE%BE%E7%BD%AE%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E6%94%B9%E5%8F%98/</loc>
+    <loc>http://jimxu.me/2017/03/30/hexo-nexT%E4%B8%BB%E9%A2%98%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB%E9%A1%B5%E5%92%8C%E6%A0%87%E7%AD%BE%E9%A1%B5/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>git设置忽略对文件权限进行版本控制</title>
-        <pubTime>2016-07-11T06:08:58.000Z</pubTime>
+        <title>hexo nexT主题新增分类页和标签页</title>
+        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>hexo</tag>
          
          
            
              
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="git" url="http://jimxu.me/categories/IT/git/"/>
+              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
           
         </display>
     </data>
@@ -509,12 +531,37 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/05/hexo%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98/</loc>
+    <loc>http://jimxu.me/2016/08/03/atom%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>hexo如何安装主题</title>
-        <pubTime>2016-07-05T03:43:41.000Z</pubTime>
+        <title>使用atom进行php开发</title>
+        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>atom</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="atom" url="http://jimxu.me/categories/Editor/atom/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%A2%9E%E5%8A%A0%E9%93%BE%E6%8E%A5%E6%8C%82%E4%BB%B6/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo侧边栏增加链接小物件</title>
+        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -535,6 +582,26 @@
         <display>
         <title>hexo侧边栏安装最近评论小物件</title>
         <pubTime>2016-07-06T06:10:06.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/05/hexo%E5%A6%82%E4%BD%95%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo如何安装主题</title>
+        <pubTime>2016-07-05T03:43:41.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -589,6 +656,43 @@
 
     
   <url>
+    <loc>http://jimxu.me/2016/07/08/hexo%E7%9A%84landscape-plus%E4%B8%BB%E9%A2%98%E7%99%BE%E5%BA%A6%E5%88%86%E4%BA%AB%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E7%9A%84bug/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
+        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/19/hexo%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95%E5%92%8C%E6%A0%87%E7%AD%BE/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo文章的分类和标签</title>
+        <pubTime>2016-07-19T08:48:04.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2016/07/06/hexo%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95%E5%8A%9F%E8%83%BD/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -609,77 +713,17 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/08/hexo%E7%9A%84landscape-plus%E4%B8%BB%E9%A2%98%E7%99%BE%E5%BA%A6%E5%88%86%E4%BA%AB%E6%97%A0%E6%B3%95%E5%8A%A0%E8%BD%BD%E7%9A%84bug/</loc>
+    <loc>http://jimxu.me/2016/07/08/hexo%E7%BB%91%E5%AE%9ADNSPro%E4%BB%A3%E7%90%86%E7%9A%84%E7%8B%97%E7%88%B9%E5%9F%9F%E5%90%8D/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
-        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
+        <title>hexo绑定DNSPOD代理的狗爹域名</title>
+        <pubTime>2016-07-08T14:42:40.000Z</pubTime>
         
         <tag>hexo</tag>
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/27/hexo%E7%9A%84yelee%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo的yelee主题设置</title>
-        <pubTime>2016-07-27T04:13:56.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo%E4%BE%A7%E8%BE%B9%E6%A0%8F%E5%A2%9E%E5%8A%A0%E9%93%BE%E6%8E%A5%E6%8C%82%E4%BB%B6/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo侧边栏增加链接小物件</title>
-        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/30/hexo-nexT%E4%B8%BB%E9%A2%98%E6%96%B0%E5%A2%9E%E5%88%86%E7%B1%BB%E9%A1%B5%E5%92%8C%E6%A0%87%E7%AD%BE%E9%A1%B5/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo nexT主题新增分类页和标签页</title>
-        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
-          
         </display>
     </data>
     </url>
@@ -726,86 +770,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/19/hexo%E6%96%87%E7%AB%A0%E7%9B%AE%E5%BD%95%E5%92%8C%E6%A0%87%E7%AD%BE/</loc>
+    <loc>http://jimxu.me/2016/07/27/hexo%E7%9A%84yelee%E4%B8%BB%E9%A2%98%E8%AE%BE%E7%BD%AE/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>hexo文章的分类和标签</title>
-        <pubTime>2016-07-19T08:48:04.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo%E9%BB%98%E8%AE%A4%E6%96%87%E7%AB%A0%E7%9A%84%E6%A8%A1%E6%9D%BF%E4%BF%AE%E6%94%B9/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo默认文章的模板修改</title>
-        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/16/homebrew%E3%80%81homebrew-cask%E5%8F%8Acakebrew/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>homebrew、homebrew-cask及cakebrew</title>
-        <pubTime>2016-06-16T10:19:59.000Z</pubTime>
-        
-        <tag>homebrew</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/08/hexo%E7%BB%91%E5%AE%9ADNSPro%E4%BB%A3%E7%90%86%E7%9A%84%E7%8B%97%E7%88%B9%E5%9F%9F%E5%90%8D/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo绑定DNSPOD代理的狗爹域名</title>
-        <pubTime>2016-07-08T14:42:40.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/landscape-plus%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85%E4%B8%8D%E8%92%9C%E5%AD%90%E8%AE%BF%E9%97%AE%E9%87%8F%E7%BB%9F%E8%AE%A1%E6%8F%92%E4%BB%B6/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
-        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
+        <title>hexo的yelee主题设置</title>
+        <pubTime>2016-07-27T04:13:56.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -840,12 +810,29 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/07/landscapse-plus%E4%B8%BB%E9%A2%98%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E6%B5%8B%E8%AF%95/</loc>
+    <loc>http://jimxu.me/2016/06/16/homebrew%E3%80%81homebrew-cask%E5%8F%8Acakebrew/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>landscape-plus主题代码高亮测试</title>
-        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
+        <title>homebrew、homebrew-cask及cakebrew</title>
+        <pubTime>2016-06-16T10:19:59.000Z</pubTime>
+        
+        <tag>homebrew</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo%E9%BB%98%E8%AE%A4%E6%96%87%E7%AB%A0%E7%9A%84%E6%A8%A1%E6%9D%BF%E4%BF%AE%E6%94%B9/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo默认文章的模板修改</title>
+        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -853,29 +840,6 @@
            
              
               <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/20/XML%E6%8A%A5%E9%94%99-XML-declaration-allowed-only-at-the-start-of-the-document/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>XML报错:XML declaration allowed only at the start of the document</title>
-        <pubTime>2016-07-20T03:01:15.000Z</pubTime>
-        
-        <tag>xml</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="XML" url="http://jimxu.me/categories/IT/XML/"/>
           
         </display>
     </data>
@@ -896,6 +860,69 @@
            
              
               <breadCrumb title="Software" url="http://jimxu.me/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/landscape-plus%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85%E4%B8%8D%E8%92%9C%E5%AD%90%E8%AE%BF%E9%97%AE%E9%87%8F%E7%BB%9F%E8%AE%A1%E6%8F%92%E4%BB%B6/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
+        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/22/PHPer%E5%AD%A6%E4%B9%A0JS%E6%89%8B%E5%86%8C/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>PHPer学习JS 语法</title>
+        <pubTime>2016-07-22T02:32:45.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="js" url="http://jimxu.me/categories/IT/js/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/07/landscapse-plus%E4%B8%BB%E9%A2%98%E4%BB%A3%E7%A0%81%E9%AB%98%E4%BA%AE%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>landscape-plus主题代码高亮测试</title>
+        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
           
         </display>
     </data>
@@ -953,6 +980,29 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/01/03/Lua%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Lua学习笔记</title>
+        <pubTime>2017-01-03T14:23:05.000Z</pubTime>
+        
+        <tag>lua</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="lua" url="http://jimxu.me/categories/IT/lua/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -971,29 +1021,6 @@
           
              
               <breadCrumb title="phpStorm" url="http://jimxu.me/categories/Editor/phpStorm/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/01/03/Lua%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>Lua学习笔记</title>
-        <pubTime>2017-01-03T14:23:05.000Z</pubTime>
-        
-        <tag>lua</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="lua" url="http://jimxu.me/categories/IT/lua/"/>
           
         </display>
     </data>
@@ -1049,54 +1076,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/28/mac%E7%8E%AF%E5%A2%83sublime%E5%A2%9E%E5%8A%A0php%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>mac环境sublime配置php编译环境</title>
-        <pubTime>2016-06-28T06:35:34.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>sublime</tag>
-         
-         
-           
-             
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/23/mac%E7%8E%AF%E5%A2%83%E4%B8%8B%E9%80%9A%E8%BF%87homebrew%E5%AE%89%E8%A3%85%E7%9A%84php%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%EF%BC%9APHP-Startup-Unable-to-load-dynamic-library/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
-        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2016/06/24/mac%E4%B8%8B%E5%BF%AB%E9%80%9F%E8%BE%93%E5%85%A5%E9%95%BF%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%9A%84%E4%B8%A4%E7%A7%8D%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -1117,32 +1096,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/30/magento-Order%E5%AF%B9%E8%B1%A1%E7%9A%84save%E6%96%B9%E6%B3%95%E6%89%A7%E8%A1%8C%E5%93%AA%E4%BA%9B%E6%93%8D%E4%BD%9C/</loc>
+    <loc>http://jimxu.me/2017/03/29/magento-Order%E5%AF%B9%E8%B1%A1%E7%9A%84cancel%E6%96%B9%E6%B3%95%E4%BC%9A%E6%89%A7%E8%A1%8C%E5%93%AA%E4%BA%9B%E6%93%8D%E4%BD%9C/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>[magento]Order对象的save方法执行哪些操作？</title>
-        <pubTime>2017-03-30T06:31:19.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/10/27/magento%E4%B8%AD%E6%9F%A5%E7%9C%8B%E6%9F%90%E4%B8%80%E6%AE%B5%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E7%9A%84sql/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>magento中查看某一段代码生成的sql</title>
-        <pubTime>2016-10-27T08:25:49.000Z</pubTime>
+        <title>[magento]Order对象的cancel方法会执行哪些操作？</title>
+        <pubTime>2017-03-29T08:53:49.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1180,12 +1139,35 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/12/magento%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
+    <loc>http://jimxu.me/2016/06/23/mac%E7%8E%AF%E5%A2%83%E4%B8%8B%E9%80%9A%E8%BF%87homebrew%E5%AE%89%E8%A3%85%E7%9A%84php%E6%8A%A5%E9%94%99%E8%A7%A3%E5%86%B3%EF%BC%9APHP-Startup-Unable-to-load-dynamic-library/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>magento常用方法</title>
-        <pubTime>2016-07-12T07:41:35.000Z</pubTime>
+        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
+        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/10/27/magento%E4%B8%AD%E6%9F%A5%E7%9C%8B%E6%9F%90%E4%B8%80%E6%AE%B5%E4%BB%A3%E7%A0%81%E7%94%9F%E6%88%90%E7%9A%84sql/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>magento中查看某一段代码生成的sql</title>
+        <pubTime>2016-10-27T08:25:49.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1193,6 +1175,51 @@
            
              
               <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/03/30/magento-Order%E5%AF%B9%E8%B1%A1%E7%9A%84save%E6%96%B9%E6%B3%95%E6%89%A7%E8%A1%8C%E5%93%AA%E4%BA%9B%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>[magento]Order对象的save方法执行哪些操作？</title>
+        <pubTime>2017-03-30T06:31:19.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/28/mac%E7%8E%AF%E5%A2%83sublime%E5%A2%9E%E5%8A%A0php%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>mac环境sublime配置php编译环境</title>
+        <pubTime>2016-06-28T06:35:34.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
           
         </display>
     </data>
@@ -1220,32 +1247,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/29/magento-Order%E5%AF%B9%E8%B1%A1%E7%9A%84cancel%E6%96%B9%E6%B3%95%E4%BC%9A%E6%89%A7%E8%A1%8C%E5%93%AA%E4%BA%9B%E6%93%8D%E4%BD%9C/</loc>
+    <loc>http://jimxu.me/2016/07/12/magento%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>[magento]Order对象的cancel方法会执行哪些操作？</title>
-        <pubTime>2017-03-29T08:53:49.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/22/magento%E6%97%A5%E5%BF%97/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>magento日志</title>
-        <pubTime>2016-06-22T10:29:37.000Z</pubTime>
+        <title>magento常用方法</title>
+        <pubTime>2016-07-12T07:41:35.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1280,12 +1287,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/07/magento%E8%A6%86%E5%86%99core%E4%B8%AD%E7%9A%84controller/</loc>
+    <loc>http://jimxu.me/2016/06/22/magento%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>magento复写core中的controller</title>
-        <pubTime>2016-07-07T10:20:00.000Z</pubTime>
+        <title>magento日志</title>
+        <pubTime>2016-06-22T10:29:37.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1320,6 +1327,26 @@
 
     
   <url>
+    <loc>http://jimxu.me/2016/07/07/magento%E8%A6%86%E5%86%99core%E4%B8%AD%E7%9A%84controller/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>magento复写core中的controller</title>
+        <pubTime>2016-07-07T10:20:00.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2016/07/07/magento%E8%A6%86%E5%86%99core%E4%B8%AD%E7%9A%84model/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -1340,18 +1367,37 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/07/Magento%E5%8D%87%E7%BA%A7%E8%84%9A%E6%9C%AC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <loc>http://jimxu.me/2016/07/20/XML%E6%8A%A5%E9%94%99-XML-declaration-allowed-only-at-the-start-of-the-document/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>Magento升级脚本常见问题</title>
-        <pubTime>2017-04-07T03:02:02.000Z</pubTime>
+        <title>XML报错:XML declaration allowed only at the start of the document</title>
+        <pubTime>2016-07-20T03:01:15.000Z</pubTime>
         
-        <tag>php</tag>
+        <tag>xml</tag>
          
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="XML" url="http://jimxu.me/categories/IT/XML/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/20/magento%E8%AE%BE%E7%BD%AE%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE%E7%9A%84%E9%BB%98%E8%AE%A4%E5%80%BC/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>magento设置后台配置的默认值</title>
+        <pubTime>2016-07-20T06:19:02.000Z</pubTime>
+        
         <tag>magento</tag>
-         
-        <tag>mysql</tag>
          
          
            
@@ -1381,74 +1427,6 @@
            
              
               <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/20/magento%E8%AE%BE%E7%BD%AE%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE%E7%9A%84%E9%BB%98%E8%AE%A4%E5%80%BC/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>magento设置后台配置的默认值</title>
-        <pubTime>2016-07-20T06:19:02.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>[mysql error]The server quit without updating PID file </title>
-        <pubTime>2017-04-12T11:06:00.000Z</pubTime>
-        
-        <tag>mysql</tag>
-         
-        <tag>error</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="mysql" url="http://jimxu.me/categories/IT/mysql/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/12/phpStorm%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>phpStorm快捷键个人设置</title>
-        <pubTime>2017-04-12T07:12:11.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-         
-           
-             
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="phpStorm" url="http://jimxu.me/categories/Editor/phpStorm/"/>
           
         </display>
     </data>
@@ -1506,12 +1484,37 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/27/phpstorm%E5%AE%89%E8%A3%85Atom%E4%B8%BB%E9%A2%98/</loc>
+    <loc>http://jimxu.me/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>phpstorm安装Atom主题</title>
-        <pubTime>2017-04-27T10:47:52.000Z</pubTime>
+        <title>[mysql error]The server quit without updating PID file </title>
+        <pubTime>2017-04-12T11:06:00.000Z</pubTime>
+        
+        <tag>mysql</tag>
+         
+        <tag>error</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="mysql" url="http://jimxu.me/categories/IT/mysql/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/12/phpStorm%E5%BF%AB%E6%8D%B7%E9%94%AE%E8%AE%BE%E7%BD%AE/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>phpStorm快捷键个人设置</title>
+        <pubTime>2017-04-12T07:12:11.000Z</pubTime>
         
         <tag>phpstorm</tag>
          
@@ -1554,14 +1557,41 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/06/Magento%E6%A0%B9%E6%8D%AE%E8%AE%A2%E5%8D%95%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF/</loc>
+    <loc>http://jimxu.me/2017/04/27/phpstorm%E5%AE%89%E8%A3%85Atom%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>Magento根据订单获取地址信息</title>
-        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
+        <title>phpstorm安装Atom主题</title>
+        <pubTime>2017-04-27T10:47:52.000Z</pubTime>
         
+        <tag>phpstorm</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="phpStorm" url="http://jimxu.me/categories/Editor/phpStorm/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/07/Magento%E5%8D%87%E7%BA%A7%E8%84%9A%E6%9C%AC%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Magento升级脚本常见问题</title>
+        <pubTime>2017-04-07T03:02:02.000Z</pubTime>
+        
+        <tag>php</tag>
+         
         <tag>magento</tag>
+         
+        <tag>mysql</tag>
          
          
            
@@ -1580,6 +1610,29 @@
         <display>
         <title>php中使用xml</title>
         <pubTime>2016-08-24T02:04:07.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/20/php%E6%B5%AE%E7%82%B9%E6%95%B0%E5%8F%96%E6%95%B4/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>php浮点数取整</title>
+        <pubTime>2016-07-20T10:15:09.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -1620,14 +1673,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/20/php%E6%B5%AE%E7%82%B9%E6%95%B0%E5%8F%96%E6%95%B4/</loc>
+    <loc>http://jimxu.me/2017/04/01/psr2%E8%A7%84%E8%8C%83/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>php浮点数取整</title>
-        <pubTime>2016-07-20T10:15:09.000Z</pubTime>
+        <title>psr2规范</title>
+        <pubTime>2017-04-01T08:19:26.000Z</pubTime>
         
         <tag>php</tag>
+         
+        <tag>psr</tag>
          
          
            
@@ -1691,16 +1746,62 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/01/psr2%E8%A7%84%E8%8C%83/</loc>
+    <loc>http://jimxu.me/2016/07/06/sublime%E6%8F%92%E4%BB%B6-css%E9%A2%9C%E8%89%B2%E9%AB%98%E4%BA%AE%E4%B8%8E%E5%8F%96%E8%89%B2%E5%99%A8/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>psr2规范</title>
-        <pubTime>2017-04-01T08:19:26.000Z</pubTime>
+        <title>sublime插件 - css颜色高亮与取色器</title>
+        <pubTime>2016-07-06T13:12:17.000Z</pubTime>
+        
+        <tag>sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/11/sublime%E6%8F%92%E4%BB%B6-markdown%E7%BC%96%E8%BE%91%E5%92%8C%E9%A2%84%E8%A7%88/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>sublime插件 - markdown编辑和预览</title>
+        <pubTime>2016-07-11T10:49:38.000Z</pubTime>
         
         <tag>php</tag>
          
-        <tag>psr</tag>
+        <tag>markdown</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2015/12/21/windows%E4%B8%8B%E9%80%9A%E8%BF%87charles%E5%92%8C%E5%A4%9C%E7%A5%9E%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AF%B9%E5%AE%89%E5%8D%93app%E8%BF%9B%E8%A1%8C%E6%8A%93%E5%8C%85/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>windows下通过charles和夜神模拟器对安卓app进行抓包</title>
+        <pubTime>2015-12-21T14:28:27.000Z</pubTime>
+        
+        <tag>php</tag>
          
          
            
@@ -1716,13 +1817,40 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/sublime%E6%8F%92%E4%BB%B6-css%E9%A2%9C%E8%89%B2%E9%AB%98%E4%BA%AE%E4%B8%8E%E5%8F%96%E8%89%B2%E5%99%A8/</loc>
+    <loc>http://jimxu.me/2016/07/21/sublime%E6%90%AD%E5%BB%BAjs%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E5%8F%8A%E8%87%AA%E5%8A%A8%E6%A0%B9%E6%8D%AE%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80%E9%80%89%E6%8B%A9%E5%AF%B9%E5%BA%94%E7%9A%84%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>sublime插件 - css颜色高亮与取色器</title>
-        <pubTime>2016-07-06T13:12:17.000Z</pubTime>
+        <title>sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</title>
+        <pubTime>2016-07-21T10:50:05.000Z</pubTime>
         
+        <tag>js</tag>
+         
+        <tag>sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/11/sublime%E6%90%AD%E5%BB%BAgo-lang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>sublime搭建go-lang开发环境</title>
+        <pubTime>2017-04-11T06:39:36.000Z</pubTime>
+        
+        <tag>go</tag>
+         
         <tag>sublime</tag>
          
          
@@ -1761,31 +1889,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/11/sublime%E6%8F%92%E4%BB%B6-markdown%E7%BC%96%E8%BE%91%E5%92%8C%E9%A2%84%E8%A7%88/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>sublime插件 - markdown编辑和预览</title>
-        <pubTime>2016-07-11T10:49:38.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>markdown</tag>
-         
-         
-           
-             
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/04/01/xml-error-Unescaped-or-nonterminated-character-entity-reference/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -1793,9 +1896,9 @@
         <title>[xml error]Unescaped & or nonterminated character/entity reference</title>
         <pubTime>2017-04-01T07:48:36.000Z</pubTime>
         
-        <tag>xml</tag>
-         
         <tag>error</tag>
+         
+        <tag>xml</tag>
          
          
            
@@ -1811,39 +1914,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2015/12/21/windows%E4%B8%8B%E9%80%9A%E8%BF%87charles%E5%92%8C%E5%A4%9C%E7%A5%9E%E6%A8%A1%E6%8B%9F%E5%99%A8%E5%AF%B9%E5%AE%89%E5%8D%93app%E8%BF%9B%E8%A1%8C%E6%8A%93%E5%8C%85/</loc>
+    <loc>http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>windows下通过charles和夜神模拟器对安卓app进行抓包</title>
-        <pubTime>2015-12-21T14:28:27.000Z</pubTime>
+        <title>MarkDown基础介绍</title>
+        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
         
-        <tag>php</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/11/sublime%E6%90%AD%E5%BB%BAgo-lang%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>sublime搭建go-lang开发环境</title>
-        <pubTime>2017-04-11T06:39:36.000Z</pubTime>
-        
-        <tag>go</tag>
-         
-        <tag>sublime</tag>
+        <tag>markdown</tag>
          
          
            
@@ -1851,32 +1929,7 @@
               <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
           
              
-              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/21/sublime%E6%90%AD%E5%BB%BAjs%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83%E5%8F%8A%E8%87%AA%E5%8A%A8%E6%A0%B9%E6%8D%AE%E6%96%87%E4%BB%B6%E5%90%8E%E7%BC%80%E9%80%89%E6%8B%A9%E5%AF%B9%E5%BA%94%E7%9A%84%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</title>
-        <pubTime>2016-07-21T10:50:05.000Z</pubTime>
-        
-        <tag>js</tag>
-         
-        <tag>sublime</tag>
-         
-         
-           
-             
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="sublime" url="http://jimxu.me/categories/Editor/sublime/"/>
+              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
           
         </display>
     </data>
@@ -1901,31 +1954,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
-        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>error</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2016/06/30/%E5%88%9D%E8%AF%86magento%E6%A1%86%E6%9E%B6%E4%BB%A3%E7%A0%81%E7%BB%93%E6%9E%84/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -1934,6 +1962,91 @@
         <pubTime>2016-06-30T10:24:32.000Z</pubTime>
         
         <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/06/Magento%E6%A0%B9%E6%8D%AE%E8%AE%A2%E5%8D%95%E8%8E%B7%E5%8F%96%E5%9C%B0%E5%9D%80%E4%BF%A1%E6%81%AF/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Magento根据订单获取地址信息</title>
+        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/05/%E5%9C%A8Finder%E4%B8%AD%E6%9F%A5%E7%9C%8B%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>在Finder中查看隐藏文件</title>
+        <pubTime>2016-07-05T14:48:16.000Z</pubTime>
+        
+        <tag>mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://jimxu.me/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/07/MarkDown%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>MarkDown插入图片技巧</title>
+        <pubTime>2017-04-07T03:39:01.000Z</pubTime>
+        
+        <tag>markdown</tag>
+         
+         
+           
+             
+              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+          
+             
+              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/21/%E5%9C%A8magento%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8redis%E7%BC%93%E5%AD%98/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>在magento中配置使用redis缓存</title>
+        <pubTime>2016-06-21T10:30:09.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+        <tag>redis</tag>
          
          
            
@@ -1966,72 +2079,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/07/MarkDown%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>MarkDown插入图片技巧</title>
-        <pubTime>2017-04-07T03:39:01.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-         
-           
-             
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/22/PHPer%E5%AD%A6%E4%B9%A0JS%E6%89%8B%E5%86%8C/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>PHPer学习JS 语法</title>
-        <pubTime>2016-07-22T02:32:45.000Z</pubTime>
-        
-        <tag>js</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
-          
-             
-              <breadCrumb title="js" url="http://jimxu.me/categories/IT/js/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/05/%E5%9C%A8Finder%E4%B8%AD%E6%9F%A5%E7%9C%8B%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>在Finder中查看隐藏文件</title>
-        <pubTime>2016-07-05T14:48:16.000Z</pubTime>
-        
-        <tag>mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://jimxu.me/categories/Mac/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2016/06/24/%E5%9C%A8oh-my-zsh%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E6%B7%BB%E5%8A%A0%E7%BB%88%E7%AB%AF%E7%9A%84%E6%AC%A2%E8%BF%8E%E7%95%8C%E9%9D%A2/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -2045,28 +2092,6 @@
            
              
               <breadCrumb title="Software" url="http://jimxu.me/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/21/%E5%9C%A8magento%E4%B8%AD%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8redis%E7%BC%93%E5%AD%98/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>在magento中配置使用redis缓存</title>
-        <pubTime>2016-06-21T10:30:09.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-        <tag>redis</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
           
         </display>
     </data>
@@ -2097,26 +2122,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/24/%E5%A6%82%E4%BD%95%E6%B8%85%E9%99%A4magento%E7%BC%93%E5%AD%98/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>如何清除magento缓存</title>
-        <pubTime>2016-06-24T10:28:34.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2016/07/05/%E5%9C%A8%E6%90%AD%E5%BB%BAhexo%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -2130,6 +2135,26 @@
            
              
               <breadCrumb title="Hexo" url="http://jimxu.me/categories/Hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/24/%E5%A6%82%E4%BD%95%E6%B8%85%E9%99%A4magento%E7%BC%93%E5%AD%98/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何清除magento缓存</title>
+        <pubTime>2016-06-24T10:28:34.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
           
         </display>
     </data>
@@ -2159,24 +2184,19 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/08/03/atom%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</loc>
+    <loc>http://jimxu.me/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>使用atom进行php开发</title>
-        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
+        <title>magento报错:Customer website ID must be specified when using the website scope</title>
+        <pubTime>2016-07-21T02:58:20.000Z</pubTime>
         
-        <tag>php</tag>
-         
-        <tag>atom</tag>
+        <tag>magento</tag>
          
          
            
              
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
-          
-             
-              <breadCrumb title="atom" url="http://jimxu.me/categories/Editor/atom/"/>
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
           
         </display>
     </data>
@@ -2286,14 +2306,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/11/go%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
+    <loc>http://jimxu.me/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>go语言入门知识点</title>
-        <pubTime>2017-04-11T02:09:55.000Z</pubTime>
+        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
+        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
         
-        <tag>go</tag>
+        <tag>php</tag>
+         
+        <tag>error</tag>
          
          
            
@@ -2301,7 +2323,7 @@
               <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
           
              
-              <breadCrumb title="go" url="http://jimxu.me/categories/IT/go/"/>
+              <breadCrumb title="php" url="http://jimxu.me/categories/IT/php/"/>
           
         </display>
     </data>
@@ -2356,23 +2378,40 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/07/MarkDown%E5%9F%BA%E7%A1%80%E4%BB%8B%E7%BB%8D/</loc>
+    <loc>http://jimxu.me/2016/07/11/git%E8%AE%BE%E7%BD%AE%E5%BF%BD%E7%95%A5%E6%96%87%E4%BB%B6%E6%9D%83%E9%99%90%E6%94%B9%E5%8F%98/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>MarkDown基础介绍</title>
-        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
+        <title>git设置忽略对文件权限进行版本控制</title>
+        <pubTime>2016-07-11T06:08:58.000Z</pubTime>
         
-        <tag>markdown</tag>
+        <tag>git</tag>
          
          
            
              
-              <breadCrumb title="Editor" url="http://jimxu.me/categories/Editor/"/>
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
           
              
-              <breadCrumb title="markDown" url="http://jimxu.me/categories/Editor/markDown/"/>
+              <breadCrumb title="git" url="http://jimxu.me/categories/IT/git/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/%E8%A7%A3%E5%86%B3hexo%E7%9A%84landscape-plus%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE%E5%92%8C%E5%BD%92%E6%A1%A3%E6%97%A0%E6%B3%95%E5%88%86%E9%A1%B5%E7%9A%84bug/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
+        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
         </display>
     </data>
     </url>
@@ -2393,23 +2432,6 @@
              
               <breadCrumb title="Software" url="http://jimxu.me/categories/Software/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/%E8%A7%A3%E5%86%B3hexo%E7%9A%84landscape-plus%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE%E5%92%8C%E5%BD%92%E6%A1%A3%E6%97%A0%E6%B3%95%E5%88%86%E9%A1%B5%E7%9A%84bug/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
-        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
         </display>
     </data>
     </url>
@@ -2461,26 +2483,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/30/%E8%AE%BF%E9%97%AE%E6%A8%A1%E5%9D%97%E4%B8%AD%E7%9A%84controller/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>访问模块中的controller</title>
-        <pubTime>2016-06-30T10:27:55.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2016/08/29/%E8%AF%91-%E7%BB%99%E7%94%A8%E6%88%B7grid%E8%A1%A8%E5%A2%9E%E5%8A%A0%E6%96%B0%E7%9A%84column/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -2501,19 +2503,19 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/30/%E8%AF%91-Magento%E4%B8%AD%E7%9A%8412%E7%A7%8D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>http://jimxu.me/2016/06/30/%E8%AE%BF%E9%97%AE%E6%A8%A1%E5%9D%97%E4%B8%AD%E7%9A%84controller/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>[译]Magento中的12种设计模式</title>
-        <pubTime>2017-03-30T09:18:15.000Z</pubTime>
+        <title>访问模块中的controller</title>
+        <pubTime>2016-06-30T10:27:55.000Z</pubTime>
         
-        <tag>magento,php,architect</tag>
+        <tag>magento</tag>
          
          
            
              
-              <breadCrumb title="Architect" url="http://jimxu.me/categories/Architect/"/>
+              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
           
         </display>
     </data>
@@ -2532,26 +2534,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/16/%E9%87%8D%E6%96%B0%E6%8E%92%E5%BA%8F-Launchpad-%E5%9B%BE%E6%A0%87/</loc>
-    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>重新排序Launchpad图标</title>
-        <pubTime>2016-06-16T14:51:31.000Z</pubTime>
-        
-        <tag>mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Mac" url="http://jimxu.me/categories/Mac/"/>
-          
         </display>
     </data>
     </url>
@@ -2581,6 +2563,26 @@
 
     
   <url>
+    <loc>http://jimxu.me/2016/06/16/%E9%87%8D%E6%96%B0%E6%8E%92%E5%BA%8F-Launchpad-%E5%9B%BE%E6%A0%87/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>重新排序Launchpad图标</title>
+        <pubTime>2016-06-16T14:51:31.000Z</pubTime>
+        
+        <tag>mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Mac" url="http://jimxu.me/categories/Mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2016/07/12/%E9%9A%8F%E6%84%8F%E5%9C%A8%E7%BB%88%E7%AB%AF%E7%A9%BF%E8%B6%8A%E7%9A%84oh-my-zsh%E6%8F%92%E4%BB%B6%EF%BC%9Az%E4%B8%8Ewd/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
@@ -2598,19 +2600,42 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/</loc>
+    <loc>http://jimxu.me/2017/03/30/%E8%AF%91-Magento%E4%B8%AD%E7%9A%8412%E7%A7%8D%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2017-05-11T09:50:47.000Z</lastmod>
     <data>
         <display>
-        <title>magento报错:Customer website ID must be specified when using the website scope</title>
-        <pubTime>2016-07-21T02:58:20.000Z</pubTime>
+        <title>[译]Magento中的12种设计模式</title>
+        <pubTime>2017-03-30T09:18:15.000Z</pubTime>
         
-        <tag>magento</tag>
+        <tag>magento,php,architect</tag>
          
          
            
              
-              <breadCrumb title="Magento" url="http://jimxu.me/categories/Magento/"/>
+              <breadCrumb title="Architect" url="http://jimxu.me/categories/Architect/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/11/go%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86%E7%82%B9/</loc>
+    <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>go语言入门知识点</title>
+        <pubTime>2017-04-11T02:09:55.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://jimxu.me/categories/IT/"/>
+          
+             
+              <breadCrumb title="go" url="http://jimxu.me/categories/IT/go/"/>
           
         </display>
     </data>
