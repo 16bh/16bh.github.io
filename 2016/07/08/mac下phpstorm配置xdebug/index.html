@@ -101,9 +101,11 @@
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1467962870171.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1467962941842.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1467963645152.png">
-<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1467964084194.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170621149801911655649.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170621149801924516403.png">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170621149801925964706.png">
 <meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1467960299385.png">
-<meta property="og:updated_time" content="2017-05-11T09:50:47.000Z">
+<meta property="og:updated_time" content="2017-06-21T04:28:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="mac下phpstorm配置xdebug">
 <meta name="twitter:description" content="给php安装xdebug扩展安装扩展(前提是你的php也是用brew安装的) 1brew install php55-xdebug --build-from-source 进入下面的目录打开xdebug配置文件：12cd /usr/local/etc/php/5.5/conf.dvim ext-xdebug.ini 编辑如下： 1234567891011[xdebug]zend_extension">
@@ -475,7 +477,13 @@
 <li>在<code>chrome</code>上启用<code>xdebug-helper</code>扩展，输入网址或请求的接口地址</li>
 <li><p>在<code>phpstorm</code>上开启<code>xdeubg</code>监听<img src="http://o9xbyqajf.bkt.clouddn.com/images/1467963645152.png" alt=""></p>
 </li>
-<li><p>刷新<code>chrome</code>,在<code>phpstorm</code>中弹出xdebug窗口<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1467964084194.png" alt=""></p>
+<li><p>刷新<code>chrome</code>,在<code>phpstorm</code>中弹出xdebug窗口</p>
+</li>
+<li><p>单步调试<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170621149801911655649.png" alt="20170621149801911655649.png"></p>
+</li>
+<li><p>跳入，进入调用的方法体<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170621149801924516403.png" alt="20170621149801924516403.png"></p>
+</li>
+<li><p>跳出，离开方法体，返回原来执行的代码<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170621149801925964706.png" alt="20170621149801925964706.png"></p>
 </li>
 </ol>
 <h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><p>如果报下面的错误，说明端口号错误，确保设置的端口号与之前在<code>ext-xdebug.ini</code>中配置的是一致的。如果一致的还出现这种错误，那么换一个端口号试试</p>

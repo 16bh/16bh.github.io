@@ -70,13 +70,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/Editor/phpStorm/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/categories/IT/mysql/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -107,13 +100,6 @@
     <url>
         <loc>http://jimxu.me/categories/Editor/sublime/</loc>
         <lastmod>2017-05-12T09:43:43.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/categories/Editor/</loc>
-        <lastmod>2017-05-12T11:20:46.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -156,6 +142,20 @@
     <url>
         <loc>http://jimxu.me/categories/IT/php/</loc>
         <lastmod>2017-06-15T09:04:01.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Editor/</loc>
+        <lastmod>2017-06-21T04:28:33.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Editor/phpStorm/</loc>
+        <lastmod>2017-06-21T04:28:33.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
