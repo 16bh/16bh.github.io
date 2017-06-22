@@ -23,14 +23,14 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/lua/</loc>
+        <loc>http://jimxu.me/tags/mysql/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mysql/</loc>
+        <loc>http://jimxu.me/tags/lua/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -58,6 +58,13 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/tags/atom/</loc>
+        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jimxu.me/tags/git/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -66,13 +73,6 @@
 
     <url>
         <loc>http://jimxu.me/tags/hexo/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/tags/atom/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -156,13 +156,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/sublime/</loc>
-        <lastmod>2017-05-12T09:43:43.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/vscode/</loc>
         <lastmod>2017-05-12T11:20:46.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -227,7 +220,14 @@
 
     <url>
         <loc>http://jimxu.me/tags/phpstorm/</loc>
-        <lastmod>2017-06-21T04:28:33.000Z</lastmod>
+        <lastmod>2017-06-21T10:40:30.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/sublime/</loc>
+        <lastmod>2017-06-22T03:44:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

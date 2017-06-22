@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[设置使用sublime打开项目文件夹]]></title>
+    <url>%2F2017%2F06%2F22%2F%E8%AE%BE%E7%BD%AE%E4%BD%BF%E7%94%A8sublime%E6%89%93%E5%BC%80%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
+    <content type="text"><![CDATA[使用mac自带的automator工具 设置： 效果：]]></content>
+      <categories>
+        <category>editor</category>
+        <category>sublime</category>
+      </categories>
+      <tags>
+        <tag>sublime</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[phpstorm修改php文件头模板]]></title>
+    <url>%2F2017%2F06%2F21%2Fphpstorm%E4%BF%AE%E6%94%B9php%E6%96%87%E4%BB%B6%E5%A4%B4%2F</url>
+    <content type="text"><![CDATA[Editor/ File and Code Templates / includes / PHP File Header 可以在模板中使用一下变量： ${FILE_NAME}:current file name ${USER}:current user system login name ${DATE}:current system date ${TIME}:current system time ${YEAR}:current year ${MONTH}:current month ${DAY}:current day of the month ${HOUR}:current hour ${MINUTE}:current minute ${PRODUCT_NAME}:current IDE name ${PROJECT_NAME}:current project name 你也可以自定义变量 1#set( $MAIL = &quot;xxx@test.com&quot; ) 然后就可以在模板中使用${MAIL}变量了]]></content>
+      <categories>
+        <category>Editor</category>
+        <category>phpStorm</category>
+      </categories>
+      <tags>
+        <tag>phpstorm</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Yaf学习笔记7:模型与数据库]]></title>
     <url>%2F2017%2F06%2F13%2FYaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B07%2F</url>
     <content type="text"><![CDATA[]]></content>
