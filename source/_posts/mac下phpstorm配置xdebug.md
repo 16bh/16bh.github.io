@@ -75,8 +75,15 @@ sudo php55-fpm restart
 2. 在`phpstorm`上开启`xdeubg`监听![](http://o9xbyqajf.bkt.clouddn.com/images/1467963645152.png)
 
 3. 刷新`chrome`,在`phpstorm`中弹出xdebug窗口
-![](http://o9xbyqajf.bkt.clouddn.com/images/1467964084194.png)
 
+4. 单步调试
+![20170621149801911655649.png](http://o9xbyqajf.bkt.clouddn.com/20170621149801911655649.png)
+
+5. 跳入，进入调用的方法体
+![20170621149801924516403.png](http://o9xbyqajf.bkt.clouddn.com/20170621149801924516403.png)
+
+6. 跳出，离开方法体，返回原来执行的代码
+![20170621149801925964706.png](http://o9xbyqajf.bkt.clouddn.com/20170621149801925964706.png)
 
 
 # 报错

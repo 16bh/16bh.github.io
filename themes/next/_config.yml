@@ -41,6 +41,8 @@ menu:
   categories: /categories
   #about: /about
   archives: /archives
+  Magento: /tags/magento
+  Yaf: /tags/yaf
   tags: /tags
   message board: /messageboard
   #sitemap: /sitemap.xml
@@ -59,6 +61,8 @@ menu_icons:
   about: user
   categories: th
   schedule: calendar
+  magento: tags
+  yaf: tags
   tags: tags
   archives: archive
   sitemap: sitemap

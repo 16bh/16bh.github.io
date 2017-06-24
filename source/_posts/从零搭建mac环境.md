@@ -9,7 +9,7 @@ date: 2017-05-10 21:48:02
 
 
 
-从头安装开发环境
+从零安装开发环境
 
 
 <!--more-->
@@ -18,6 +18,7 @@ date: 2017-05-10 21:48:02
 - 设置快捷键
 - 设置触摸板（三指拖拽功能在`辅助功能`中设置）
 - 设置触发角
+![20170624149830172871625.png](http://o9xbyqajf.bkt.clouddn.com/20170624149830172871625.png)
 - 下载已购项目
 - 设置dock
 置于左侧
@@ -47,11 +48,10 @@ brew cask install shadowsocksx
 
 > 终端输入git命令即可安装git
 
-- 安装iterm2
+- 下载安装iterm2
 
-```
-https://www.iterm2.com/downloads.html
-```
+[https://www.iterm2.com/downloads.html](https://www.iterm2.com/downloads.html)
+
 
 - 安装oh my zsh
 
@@ -60,8 +60,7 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 
 	- 安装wd和zsh-wakatime插件
-	- 设置主题为powerline
-	- 安装powerline等宽字体
+	- 设置主题为powerline并安装powerline等宽字体
 
 ```
 git clone https://github.com/powerline/fonts.git
@@ -73,6 +72,8 @@ cd .. && rm -rf fonts
 设置等宽字体
 Profiles - Text - Font
 
+- iterm2也可以使用`robbyrussell`主题和`Arthur`配色方案
+
 - 使用zsh
 
 ```
@@ -80,23 +81,29 @@ chsh -s /bin/zsh
 ```
 
 - 安装nginx
-	- brew install nginx
+
+	```brew install nginx```
+	
 	- 配置servers文件
 	- 设置log路径
 
 - 安装php！
-	- brew install php70
+
+	```brew install php70```
+	
 	- 设置环境变量
 	- 设置log路径
 	- 安装扩展
 	
-- 安装phpstorm!
+- 安装phpstorm
 	- 下载安装
 	- 导入配置（安装前导出备份） 
 	- 安装必要的插件
 
 - 安装redis
-	- brew install redis
+
+	```brew install redis```
+	
 	- 设置log路径
 	- 关闭持久化
 
@@ -118,6 +125,7 @@ chsh -s /bin/zsh
 
 - 设置开启启动app
 - 安装tree
+
 ```
 brew install tree
 ```

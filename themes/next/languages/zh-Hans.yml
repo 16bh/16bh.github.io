@@ -10,7 +10,9 @@ menu:
   home: 首页
   archives: 归档
   categories: 分类
-  tags: 标签
+  Magento: Magento开发
+  Yaf: Yaf学习笔记
+  tags: 标签云
   about: 关于
   search: 搜索
   message board: 留言板
