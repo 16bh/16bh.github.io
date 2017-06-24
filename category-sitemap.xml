@@ -119,13 +119,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/Mac/</loc>
-        <lastmod>2017-05-17T09:55:44.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/categories/Reading/</loc>
         <lastmod>2017-06-02T05:41:32.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -170,6 +163,13 @@
     <url>
         <loc>http://jimxu.me/categories/editor/sublime/</loc>
         <lastmod>2017-06-22T03:44:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/categories/Mac/</loc>
+        <lastmod>2017-06-24T10:59:35.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

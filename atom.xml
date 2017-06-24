@@ -687,15 +687,15 @@
     <link href="http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/"/>
     <id>http://jimxu.me/2017/05/10/从零搭建mac环境/</id>
     <published>2017-05-10T13:48:02.000Z</published>
-    <updated>2017-05-17T09:55:44.000Z</updated>
+    <updated>2017-06-24T10:59:35.000Z</updated>
     
-    <content type="html"><![CDATA[<p>从头安装开发环境</p>
+    <content type="html"><![CDATA[<p>从零安装开发环境</p>
 <a id="more"></a>
 <ul>
 <li>登录apple账号</li>
 <li>设置快捷键</li>
 <li>设置触摸板（三指拖拽功能在<code>辅助功能</code>中设置）</li>
-<li>设置触发角</li>
+<li>设置触发角<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170624149830172871625.png" alt="20170624149830172871625.png"></li>
 <li>下载已购项目</li>
 <li>设置dock<br>置于左侧<br>将窗口最小化为应用程序图标</li>
 <li>安装homebrew</li>
@@ -719,39 +719,34 @@
 <p>终端输入git命令即可安装git</p>
 </blockquote>
 <ul>
-<li>安装iterm2</li>
+<li>下载安装iterm2</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">https://www.iterm2.com/downloads.html</div></pre></td></tr></table></figure>
+<p><a href="https://www.iterm2.com/downloads.html" target="_blank" rel="external">https://www.iterm2.com/downloads.html</a></p>
 <ul>
 <li>安装oh my zsh</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
 <pre><code>- 安装wd和zsh-wakatime插件
-- 设置主题为powerline
-- 安装powerline等宽字体
+- 设置主题为powerline并安装powerline等宽字体
 </code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/powerline/fonts.git</div><div class="line">cd fonts</div><div class="line">./install.sh</div><div class="line">cd .. &amp;&amp; rm -rf fonts</div></pre></td></tr></table></figure>
 <p>设置等宽字体<br>Profiles - Text - Font</p>
 <ul>
-<li>使用zsh</li>
+<li><p>iterm2也可以使用<code>robbyrussell</code>主题和<code>Arthur</code>配色方案</p>
+</li>
+<li><p>使用zsh</p>
+</li>
 </ul>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chsh -s /bin/zsh</div></pre></td></tr></table></figure>
 <ul>
 <li><p>安装nginx</p>
-<ul>
-<li>brew install nginx</li>
-<li>配置servers文件</li>
-<li>设置log路径</li>
-</ul>
+  <figure class="highlight plain"><figcaption><span>install nginx```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">	</div><div class="line">	- 配置servers文件</div><div class="line">	- 设置log路径</div><div class="line"></div><div class="line">- 安装php！</div><div class="line"></div><div class="line">	```brew install php70</div></pre></td></tr></table></figure>
 </li>
-<li><p>安装php！</p>
-<ul>
-<li>brew install php70</li>
-<li>设置环境变量</li>
-<li>设置log路径</li>
-<li>安装扩展</li>
 </ul>
-</li>
-<li><p>安装phpstorm!</p>
+<pre><code>- 设置环境变量
+- 设置log路径
+- 安装扩展
+</code></pre><ul>
+<li><p>安装phpstorm</p>
 <ul>
 <li>下载安装</li>
 <li>导入配置（安装前导出备份） </li>
@@ -759,38 +754,15 @@
 </ul>
 </li>
 <li><p>安装redis</p>
-<ul>
-<li>brew install redis</li>
-<li>设置log路径</li>
-<li>关闭持久化</li>
-</ul>
+  <figure class="highlight plain"><figcaption><span>install redis```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div></pre></td><td class="code"><pre><div class="line">	</div><div class="line">	- 设置log路径</div><div class="line">	- 关闭持久化</div><div class="line"></div><div class="line">&gt; 建议将php,redis,nginx等错误日志放在一个文件夹中</div><div class="line"></div><div class="line">- 安装mysql</div><div class="line"></div><div class="line">[下载安装：http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html](http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html)</div><div class="line"></div><div class="line">[配置：http://www.jianshu.com/p/fd3aae701db9</div><div class="line">](http://www.jianshu.com/p/fd3aae701db9</div><div class="line">)</div><div class="line"></div><div class="line">- 安装reeder，登录inoreader账号</div><div class="line">- 安装quiver、paste、yonik、bartender、moom、dash等常用软件</div><div class="line">- 安装hexo</div><div class="line"></div><div class="line">[迁移hexo](https://www.zhihu.com/question/21193762)</div><div class="line"></div><div class="line">- 设置开启启动app</div><div class="line">- 安装tree</div></pre></td></tr></table></figure>
 </li>
 </ul>
-<blockquote>
-<p>建议将php,redis,nginx等错误日志放在一个文件夹中</p>
-</blockquote>
-<ul>
-<li>安装mysql</li>
-</ul>
-<p><a href="http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html" target="_blank" rel="external">下载安装：http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html</a></p>
-<p><a href="http://www.jianshu.com/p/fd3aae701db9" target="_blank" rel="external">配置：http://www.jianshu.com/p/fd3aae701db9
-</a></p>
-<ul>
-<li>安装reeder，登录inoreader账号</li>
-<li>安装quiver、paste、yonik、bartender、moom、dash等常用软件</li>
-<li>安装hexo</li>
-</ul>
-<p><a href="https://www.zhihu.com/question/21193762" target="_blank" rel="external">迁移hexo</a></p>
-<ul>
-<li>设置开启启动app</li>
-<li>安装tree<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install tree</div></pre></td></tr></table></figure>
-</li>
-</ul>
+<p>brew install tree<br>```</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;从头安装开发环境&lt;/p&gt;
+      &lt;p&gt;从零安装开发环境&lt;/p&gt;
     
     </summary>
     

@@ -177,13 +177,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mac/</loc>
-        <lastmod>2017-05-17T09:55:44.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/laravel/</loc>
         <lastmod>2017-05-17T10:16:51.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -228,6 +221,13 @@
     <url>
         <loc>http://jimxu.me/tags/sublime/</loc>
         <lastmod>2017-06-22T03:44:20.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/mac/</loc>
+        <lastmod>2017-06-24T10:59:35.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
