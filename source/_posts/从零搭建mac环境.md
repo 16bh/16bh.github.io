@@ -42,11 +42,12 @@ brew cask install shadowsocksx
 
 - 开启shadowsocksx,登录chrome浏览器，同步书签和插件
 - 安装alfred并安装chrome书签的workflow
+- 安装xcode
 - 安装git
+> 安装了xcode后，在终端输入git命令即可安装git
 
 [怎样在一台电脑上同时使用公司 GitLab 和 Github 的服务](https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md)
 
-> 终端输入git命令即可安装git
 
 - 下载安装iterm2
 
@@ -102,8 +103,8 @@ chsh -s /bin/zsh
 
 - 安装redis
 
-	```brew install redis```
-	
+	- `brew install redis`
+	- 查看启动命令 `brew info redis`
 	- 设置log路径
 	- 关闭持久化
 
@@ -126,7 +127,4 @@ chsh -s /bin/zsh
 - 设置开启启动app
 - 安装tree
 
-```
-brew install tree
-```
-
+`brew install tree`
