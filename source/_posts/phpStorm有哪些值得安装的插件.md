@@ -42,6 +42,9 @@ better than none
 看插件介绍，本来phpStorm是不支持给`Scorll From Source`功能设置快捷键的，安装了这个插件就可以了
 ![](http://o9xbyqajf.bkt.clouddn.com/QQ20170331-154904-HD.gif)
 
+## Dash
+程序员必备
+
 ## WakaTime
 
 最好用的码农记录插件
