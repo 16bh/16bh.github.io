@@ -21,6 +21,7 @@ tags: [software,mac]
 - `LastPass`  从此只要记住一个密码
 - `Xee3` 	比系统自带图片浏览效果更佳,可以直接查看下一张图片
 - `The Unarchiver` 	免费解压
+- [`Appcleaner`](https://freemacsoft.net/appcleaner/)  免费软件卸载
 - `PDF Expert`    PDF阅读工具，收费
 - `Folx`   下载工具
 - `Evernote`   云笔记，配合浏览器的剪裁插件，一键保存网页内容到笔记本中，有移动版本
@@ -132,6 +133,7 @@ homebrew install todolist
 - `Reeder`  收费，RSS阅读，阅读体验极佳
 <img src="http://o9xbyqajf.bkt.clouddn.com/1490669228.png" />
 - `Leaf`  RSS阅读，限免
+- `scrollreveal`  修改mac触摸板滚动方向，享受触控板自然滚动的方便又不改变鼠标的使用习惯
 
 # 编辑器
 - `PHPStorm` 	功能最齐全的PHP开发IDE
