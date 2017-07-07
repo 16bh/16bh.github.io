@@ -94,6 +94,8 @@ Profiles - Text - Font
 chsh -s /bin/zsh
 ```
 
+## 编译安装vim
+
 ## 安装nginx
 
 	```brew install nginx```
@@ -108,6 +110,8 @@ chsh -s /bin/zsh
 	- 设置环境变量
 	- 设置pid和log路径
 	- 安装扩展
+
+	编译安装
 	
 ## 安装phpstorm
 	- 下载安装
