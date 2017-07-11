@@ -23,3 +23,8 @@ https://github.com/jesusOmar/one-dark-phpstorm
 3. 设置主题
 `Editor/Colors & Fonts/`
 
+
+
+
+webstorm也可以使用atom主题:
+https://github.com/yurtaev/idea-one-dark-theme

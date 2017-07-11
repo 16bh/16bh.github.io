@@ -72,3 +72,38 @@ open source/_posts/test.md    //用mou打开，编辑
 hexo g    //更新本地库
 hexo d    //提交本地修改
 ```
+
+--- 
+update: 2017年7月11日17:11
+
+# 切换主题
+
+以[yilia](https://github.com/litten/hexo-theme-yilia)主题为例
+
+- 将主题clone到本地
+
+```
+cd path-to-hexo
+cd themes
+git clone https://github.com/litten/hexo-theme-yilia
+```
+
+- 修改站点配置文件`_config.yml`,启用新的主题
+
+```
+theme: hexo-theme-yilia
+```
+
+- 清缓存和老的数据
+
+```
+cd path-to-hexo
+hexo clean
+```
+
+- 重新generate
+
+```
+hexo g -d
+```
+

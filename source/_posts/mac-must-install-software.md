@@ -35,9 +35,9 @@ tags:
 - Phpstorm
 - 上传图片到七牛并生成md链接：PicU
 - markdown编辑器：Macdown
-- 截图（使用外接显示器）：TeamPaper Snap
+- 截图（使用外接显示器时）：TeamPaper Snap
 - 截图：腾讯的snip
-- 文档：Dash
+- 技术文档：Dash
 - 让屏幕不会自动休眠：Caffeine
 - 片段管理：aText
 - git可视化工具：sourceTree
@@ -47,3 +47,5 @@ tags:
 - 密码管理：LastPass
 - 日程提示：PixelScheduler
 - 音乐播放：网易云音乐
+- 菜单栏管理: Bartender
+- 笔记： Evernote

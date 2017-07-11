@@ -14,6 +14,12 @@ mysql是通过homebrew安装的,重启电脑后启动mysql报错
 
 <!--more-->
 
+update: 2017年7月11日17:42
+
+终极解决方案：
+用brew安装mysql经常会碰到这些问题，直接用安装包安装后，从未复现
+
+
 debug前须知：
 mysql配置文件依次读取：
 ```
@@ -25,7 +31,7 @@ mysql配置文件依次读取：
 
 ![2017041214919952361252.png](http://o9xbyqajf.bkt.clouddn.com/2017041214919952361252.png)
 
-网上提供的错误解决方法：
+网上提供的解决方法：
 
 ## 查看报错信息，有两处报错
 err文件位于`/usr/local/var/mysql/data`

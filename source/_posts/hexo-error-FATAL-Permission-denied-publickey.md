@@ -6,9 +6,14 @@ tags: hexo
 toc: true
 ---
 
+
 （1）FATAL Permission denied (publickey)
 
+其实这是git的错误，与hexo木有关系
+
 原因：未配置git
+
+
 解决方式：
 
 先运行
