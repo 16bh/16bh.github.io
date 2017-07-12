@@ -1,5 +1,5 @@
 ---
-title: 使用mtr工具检测网络
+title: 使用mtr工具检测网络w
 toc: true
 comment: true
 date: 2017-07-12 17:21:07
@@ -36,11 +36,12 @@ mtr ip/host_name
  >mtr -i  #使用这个参数来设置ICMP返回之间的要求默认是1秒
  >mtr -4  #IPv4
  >mtr -6  #IPv6
- 
- 
+
+
 # 使用mtr检测域名
  jimxu.me这个域名通过DNSPod分别解析到了16bh.github.io(国外)和jimxu.coding.me(国内)
- 
+
  对比下托管在国内外的两个Pages服务的网络状态
- 
- 
+ ![20170712149986203271598.png](http://o9xbyqajf.bkt.clouddn.com/20170712149986203271598.png)
+
+可见国内网络时托管在coding.net的网站比托管在github的网站有了大幅的提速
