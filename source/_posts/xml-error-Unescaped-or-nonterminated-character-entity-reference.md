@@ -1,6 +1,6 @@
 ---
 title: '[xml error]Unescaped & or nonterminated character/entity reference'
-categories: [IT,xml]
+categories: 
 toc: false
 comment: true
 date: 2017-04-01 15:48:36

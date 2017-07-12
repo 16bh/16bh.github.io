@@ -1,8 +1,8 @@
 ---
 title: mac下安装redis
 date: 2016-06-20 18:12:38
-category: [IT,php]
-tags: [php,redis]
+category:
+tags: [redis]
 toc: true
 ---
 

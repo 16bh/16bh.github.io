@@ -1,8 +1,8 @@
 ---
 title: hexo侧边栏增加链接小物件
 date: 2016-07-06 10:27:09
-category: Hexo
-tags: hexo
+category:
+tags: website
 ---
 
 ***1. 新建widget***

@@ -2,8 +2,8 @@
 title: 'landscape-plus主题增加hexo文章目录功能'
 toc: false
 date: 2016-07-06 14:59:23
-category: Hexo
-tags: hexo
+category:
+tags: website
 ---
 
 第一步，编辑`themes\landscape-plus\layout\_partial\article.ejs`文件，在`<%- post.content %>`这一行之前加入如下代码:

@@ -2,7 +2,7 @@
 title: '[magento]Order对象的cancel方法会执行哪些操作？'
 toc: false
 date: 2017-03-29 16:53:49
-categories: Magento
+categories:
 tags: magento
 ---
 

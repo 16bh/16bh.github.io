@@ -2,7 +2,7 @@
 title: git设置忽略对文件权限进行版本控制
 toc: false
 date: 2016-07-11 14:08:58
-categories: [IT,git]
+categories:
 tags: git
 ---
 

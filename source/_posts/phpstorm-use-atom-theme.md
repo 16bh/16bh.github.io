@@ -1,7 +1,7 @@
 ---
 title: phpstorm安装Atom主题
-categories: [Editor,phpStorm]
-tags: [phpstorm]
+categories:
+tags: [phpstorm,atom]
 toc: false
 comment: true
 date: 2017-04-27 18:47:52

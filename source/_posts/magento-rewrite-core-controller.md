@@ -2,7 +2,7 @@
 title: magento复写core中的controller
 toc: false
 date: 2016-07-07 18:20:00
-category: Magento
+category:
 tags: magento
 ---
 

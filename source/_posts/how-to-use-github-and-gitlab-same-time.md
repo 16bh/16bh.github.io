@@ -1,6 +1,6 @@
 ---
 title: mac电脑上同时使用多个git平台
-toc: false
+toc: true
 comment: true
 date: 2017-07-07 16:05:48
 categories:

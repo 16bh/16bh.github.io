@@ -1,7 +1,7 @@
 ---
 title: 如何用macVim搭建php开发的IDE
 date: 2016-07-01 02:23:07
-category: Editor
+category: 
 tags: [php,vim]
 ---
 

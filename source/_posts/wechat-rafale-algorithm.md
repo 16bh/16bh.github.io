@@ -1,13 +1,15 @@
 ---
 title: 微信领红包问题
-categories: [IT,php]
-tags: [php]
+categories:
+tags: [php,algorithm]
 toc: false
 comment: true
 date: 2017-06-08 14:54:33
 ---
 
 > 参考：https://www.zhihu.com/question/22625187
+
+需求：每个人领到的红包大小相近，每次点击领取红包时计算
 
 微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机
 

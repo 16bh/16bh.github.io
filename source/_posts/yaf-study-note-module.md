@@ -1,6 +1,6 @@
 ---
 title: Yaf学习笔记5:模块
-categories: [IT,php]
+categories: 
 tags: [php,yaf]
 toc: false
 comment: true
@@ -12,7 +12,7 @@ date: 2017-06-13 10:12:59
 
 
 
-<!--more-->
+
 
 
 ## 模块是什么？
@@ -32,7 +32,7 @@ application.dispatcher.defaultModule = Index
 我们要实现一个博客网站，文章可以作为一个模块
 在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下：
 
-```
+``` php
 <?php
     class ListController extends Yaf_Controller_Abstract
     {
@@ -41,8 +41,9 @@ application.dispatcher.defaultModule = Index
               
         }
     }
-
 ```
+
+<!--more-->
 
 Post/views下面建立list文件夹，新建view.phtml文件
 

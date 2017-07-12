@@ -2,7 +2,7 @@
 title: magento新建模块的后台配置
 toc: true
 date: 2016-07-10 21:38:19
-categories: Magento
+categories:
 tags: magento
 ---
 > 在后台配置一些常量，比硬编码的方式更加灵活，不需要重新改写代码并上线才能生效，直接修改后台的配置就可以了

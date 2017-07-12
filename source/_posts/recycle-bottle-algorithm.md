@@ -1,7 +1,7 @@
 ---
 title: 回收饮料瓶问题
-categories: [IT,php]
-tags: [php]
+categories:
+tags: [php,algorithm]
 toc: false
 comment: true
 date: 2017-06-08 14:43:54

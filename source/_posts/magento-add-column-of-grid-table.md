@@ -2,7 +2,7 @@
 title: '[译]给用户grid表增加新的column'
 toc: true
 date: 2016-08-29 16:19:31
-categories: Magento
+categories:
 tags: magento
 ---
 

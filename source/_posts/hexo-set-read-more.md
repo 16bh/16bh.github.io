@@ -2,8 +2,8 @@
 title: hexo如何让首页的文章只显示一部分并出现查看更多选项
 toc: false
 date: 2016-07-07 11:37:06
-category: Hexo
-tags: hexo
+category:
+tags: website
 ---
 
 

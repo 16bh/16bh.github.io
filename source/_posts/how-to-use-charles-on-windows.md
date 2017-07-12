@@ -2,8 +2,8 @@
 title: windows下通过charles和夜神模拟器对安卓app进行抓包
 toc: false
 date: 2015-12-21 22:28:27
-category: [IT,php]
-tags: php
+category:
+tags: [php,tools]
 ---
 
 >通过charles对手机app进行抓包，应该算是客户端、服务端、测试应该掌握的基本技能了。如果你没有一台安卓手机，又想抓取安卓app的请求的话，可以考虑在电脑上安装安卓模拟器，然后通过charles或fiddler进行抓包

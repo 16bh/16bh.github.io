@@ -1,10 +1,10 @@
 ---
 title: phpStorm有哪些值得安装的插件
-categories: [Editor,phpStorm]
+categories:
 toc: false
 comment: true
 date: 2017-03-31 15:07:01
-tags: [php,phpstorm]
+tags: [phpstorm]
 ---
 
 

@@ -2,7 +2,7 @@
 title: Software List - IOS
 toc: false
 date: 2017-03-13 14:46:55
-categories: Software
+categories:
 tags: software
 ---
 

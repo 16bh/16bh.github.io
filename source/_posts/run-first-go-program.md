@@ -1,6 +1,6 @@
 ---
 title: mac安装go并运行第一个程序
-categories: [IT,go]
+categories:
 tags: [go]
 toc: false
 comment: true

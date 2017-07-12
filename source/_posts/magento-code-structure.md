@@ -1,7 +1,7 @@
 ---
 title: 初识magento框架代码结构
 date: 2016-06-30 18:24:32
-category: Magento
+category:
 tags: magento
 ---
 

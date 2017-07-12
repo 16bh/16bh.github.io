@@ -2,8 +2,8 @@
 title: php中使用xml
 toc: false
 date: 2016-08-24 10:04:07
-categories: [IT,php]
-tags: php
+categories: 
+tags: [php,xml]
 ---
 
 

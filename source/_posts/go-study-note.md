@@ -1,6 +1,6 @@
 ---
 title: go语言入门知识点
-categories: [IT,go]
+categories:
 tags: [go]
 toc: false
 comment: true

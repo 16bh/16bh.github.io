@@ -3,7 +3,7 @@ title: 设置使用sublime打开项目文件夹
 toc: false
 comment: true
 date: 2017-06-22 11:42:45
-categories: [editor,sublime]
+categories: 
 tags: [sublime]
 ---
 
@@ -11,10 +11,11 @@ tags: [sublime]
 
 
 
+Mac下想要快速查看一个project内容的时候，右击发现菜单里根本没有满足条件的选项。
+
+可以用自带的automator工具实现右击项目时可以选择用sublime打开
 
 <!--more-->
-使用mac自带的automator工具
-
 设置：
 ![20170622149810302430123.png](http://o9xbyqajf.bkt.clouddn.com/20170622149810302430123.png)
 

@@ -1,7 +1,7 @@
 ---
 title: homebrew、homebrew-cask及cakebrew
 date: 2016-06-16 18:19:59
-catory: Software
+catory:
 tags: homebrew
 toc: true
 ---

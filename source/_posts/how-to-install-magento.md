@@ -1,7 +1,7 @@
 ---
 title: 安装magento
 date: 2016-06-24 18:23:45
-category: Magento
+category:
 tags: magento
 toc: true
 ---

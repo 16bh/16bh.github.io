@@ -1,6 +1,6 @@
 ---
 title: Yaf学习笔记3:配置
-categories: [IT,php]
+categories: 
 tags: [php,yaf]
 toc: false
 comment: true
@@ -12,7 +12,7 @@ date: 2017-06-09 18:59:00
 
 
 
-<!--more-->
+
 
 yaf的配置有两种，
 
@@ -22,6 +22,8 @@ yaf的配置有两种，
 ## 修改yaf设置
 在路径`/usr/local/etc/php/7.0/conf.d`下存放了各个扩展的配置文件
 ![20170612149726524849464.png](http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png)
+
+<!--more-->
 
 `ex-yaf.ini`文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示
 

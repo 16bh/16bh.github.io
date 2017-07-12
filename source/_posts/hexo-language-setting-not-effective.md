@@ -1,10 +1,10 @@
 ---
 title: hexo语言设置未生效解决办法
-categories: Hexo
+categories:
 toc: false
 comment: true
 date: 2017-03-30 19:11:45
-tags: hexo
+tags: website
 ---
 
 

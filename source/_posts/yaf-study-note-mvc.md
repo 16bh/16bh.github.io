@@ -1,6 +1,6 @@
 ---
 title: Yaf学习笔记4:MVC模式
-categories: [IT,php]
+categories: 
 tags: [php,yaf]
 toc: false
 comment: true
@@ -10,7 +10,6 @@ date: 2017-06-12 18:59:00
 
 
 
-<!--more-->
 
 
 当我们访问demo项目的时候，在页面上展示了`Hello World! I am Stranger`，其实是通过MVC模式实现的
@@ -19,6 +18,8 @@ date: 2017-06-12 18:59:00
 运行流程如下图所示（摘自鸟哥文档）：
 
 ![Yaf运行流程(摘自鸟哥文档)](http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png)
+
+<!--more-->
 
 
 当我们访问`yaf.com`网站的时候，先走到入口文件`index.php`，然后经过`bootstrap`初始化，`router`路由，因为没有指定controller，会使用默认控制器IndexController的默认方法IndexAction，即下面的几种访问方式都是可以的：

@@ -1,7 +1,7 @@
 ---
 title: magento日志
 date: 2016-06-22 18:29:37
-category: Magento
+category:
 tags: magento
 toc: true
 ---

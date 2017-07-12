@@ -1,10 +1,10 @@
 ---
 title: '[译]Magento中的12种设计模式'
-toc: false
+toc: true
 comment: true
 date: 2017-03-30 17:18:15
-categories: Architect
-tags: magento,php,architect
+categories: 
+tags: [magento,php,architect]
 ---
 
 

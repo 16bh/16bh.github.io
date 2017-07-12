@@ -2,7 +2,7 @@
 title: python安装requests库
 toc: false
 date: 2016-07-07 20:37:15
-category: [IT,python]
+category: 
 tags: python
 ---
 

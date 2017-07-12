@@ -1,6 +1,6 @@
 ---
 title: Yaf学习笔记1:Mac环境下的安装运行
-categories: [IT,php]
+categories: 
 tags: [php,yaf]
 toc: false
 comment: true
@@ -12,7 +12,7 @@ date: 2017-06-08 11:16:47
 
 
 
-<!--more-->
+
 
 > 本系列基于macos系统，PHP版本7.0.19
 
@@ -21,6 +21,12 @@ date: 2017-06-08 11:16:47
 Yaf = yet another framework
 
 鸟哥用C语言编写的一个PHP扩展，致力于解决`框架影响性能`这一经典问题
+
+
+> Yaf框架 = 最不像框架的框架 = 对高性能有要求时选择
+
+
+<!--more-->
 
 ## 安装yaf扩展
 

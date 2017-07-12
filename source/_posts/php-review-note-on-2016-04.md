@@ -2,8 +2,8 @@
 title: php面试笔记
 toc: false
 date: 2016-04-22 15:00:35
-categories: [IT,php]
-tags: php
+categories:
+tags: [php,review]
 ---
 
 

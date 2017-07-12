@@ -2,7 +2,7 @@
 title: magento设置后台配置的默认值
 toc: false
 date: 2016-07-20 14:19:02
-categories: Magento
+categories:
 tags: magento
 ---
 

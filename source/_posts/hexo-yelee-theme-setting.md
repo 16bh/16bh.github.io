@@ -2,8 +2,8 @@
 title: hexo的yelee主题设置
 toc: true
 date: 2016-07-27 12:13:56
-categories: Hexo
-tags: hexo
+categories:
+tags: website
 ---
 
 

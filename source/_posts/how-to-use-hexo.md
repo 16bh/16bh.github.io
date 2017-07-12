@@ -1,8 +1,8 @@
 ---
 title: 在搭建hexo时碰到的问题
 date: 2016-07-05 17:14:59
-category: Hexo
-tags: hexo
+category: 
+tags: website
 toc: true
 ---
 >通过github和hexo搭建博客

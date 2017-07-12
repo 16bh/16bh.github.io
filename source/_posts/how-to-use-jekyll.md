@@ -1,5 +1,5 @@
 ---
-title: how to use jekyll
+title: 尝试jekyll
 toc: false
 comment: true
 date: 2017-07-11 17:16:50

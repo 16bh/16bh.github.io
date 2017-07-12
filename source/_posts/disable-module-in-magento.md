@@ -1,7 +1,7 @@
 ---
 title: 禁用magento模块
 date: 2016-06-30 18:27:32
-category: Magento
+category: 
 tags: magento
 ---
 

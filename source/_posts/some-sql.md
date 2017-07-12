@@ -2,7 +2,7 @@
 title: 常用sql操作
 toc: false
 date: 2016-10-28 12:08:42
-categories: [IT,mysql]
+categories:
 tags: mysql
 ---
 

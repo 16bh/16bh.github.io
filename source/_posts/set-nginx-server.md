@@ -2,7 +2,7 @@
 title: mac下nginx服务器设置虚拟主机
 toc: true
 date: 2016-07-07 12:48:38
-category: [IT,php]
+category: 
 tags: [php,nginx]
 ---
 

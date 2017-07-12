@@ -1,7 +1,7 @@
 ---
 title: 安装redis后清除magento缓存失效解决方案
 date: 2016-06-30 18:30:57
-category: Magento
+category:
 tags: [magento,redis]
 ---
 

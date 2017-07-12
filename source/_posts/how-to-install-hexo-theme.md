@@ -2,8 +2,8 @@
 title: hexo如何安装主题
 toc: true
 date: 2016-07-05 11:43:41
-category: Hexo
-tags: hexo
+category: 
+tags: website
 ---
 
 >以`landscape-plus`主题为例,该主题是在默认主题`landscape`结合国人的使用习惯改进的

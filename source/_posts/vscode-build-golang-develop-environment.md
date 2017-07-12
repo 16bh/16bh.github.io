@@ -1,6 +1,6 @@
 ---
 title: vscode搭建go-lang开发环境
-categories: [Editor,vscode]
+categories:
 tags: [vscode,go]
 toc: false
 comment: true

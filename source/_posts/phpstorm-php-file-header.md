@@ -3,13 +3,15 @@ title: phpstorm修改php文件头模板
 toc: false
 comment: true
 date: 2017-06-21 16:32:39
-categories: [Editor,phpStorm]
+categories: 
 tags: [phpstorm]
 ---
 
 
 
+phpstorm设置新建php文件时的头文件，一个帅气的头文件是不是让你码字的心情都更好了呢
 
+![20170712149985488177380.png](http://o9xbyqajf.bkt.clouddn.com/20170712149985488177380.png)
 
 
 <!--more-->

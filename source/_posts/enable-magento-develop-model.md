@@ -1,7 +1,7 @@
 ---
 title: 开启开发者模式
 date: 2016-06-30 18:26:22
-category: Magento
+category: 
 tags: magento
 ---
 

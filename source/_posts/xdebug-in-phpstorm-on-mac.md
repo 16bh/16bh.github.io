@@ -2,8 +2,8 @@
 title: mac下phpstorm配置xdebug
 toc: true
 date: 2016-07-08 14:28:10
-categories: [Editor,phpStorm]
-tags: [php,phpstorm]
+categories:
+tags: phpstorm
 ---
 
 # 给php安装xdebug扩展

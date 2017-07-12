@@ -1,6 +1,6 @@
 ---
 title: 用phpStorm进行magento开发的几个Tips
-categories: [Editor,phpStorm]
+categories:
 top: 6
 toc: false
 comment: true

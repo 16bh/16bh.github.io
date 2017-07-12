@@ -1,6 +1,6 @@
 ---
 title: '[mysql error]The server quit without updating PID file '
-categories: [IT,mysql]
+categories:
 tags: [mysql,error]
 toc: false
 comment: true

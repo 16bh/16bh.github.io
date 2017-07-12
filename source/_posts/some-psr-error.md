@@ -1,6 +1,6 @@
 ---
 title: psr2规范
-categories: [IT,php]
+categories: 
 toc: false
 comment: true
 date: 2017-04-01 16:19:26

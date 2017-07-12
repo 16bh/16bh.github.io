@@ -1,8 +1,8 @@
 ---
 title: 'mac下php开发环境搭建:nginx+mysql+php+php-fpm'
 date: 2016-06-30 18:21:57
-category: [IT,php]
-tags: php
+category: 
+tags: [php,environment]
 toc: true
 ---
 

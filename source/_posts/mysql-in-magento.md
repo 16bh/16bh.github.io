@@ -2,8 +2,8 @@
 title: Magento数据库非EAV模型使用
 toc: true
 date: 2016-07-14 14:43:35
-categories: Magento
-tags: magento
+categories:
+tags: [magento,mysql]
 ---
 
 > 《深入理解Magento第四章 - 模型和ERM模型》指出，模型的使用分为四步：

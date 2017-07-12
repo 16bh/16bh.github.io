@@ -2,8 +2,8 @@
 title: markdown图片链接生成的Alfred脚本微调整
 toc: false
 date: 2016-07-08 12:04:14
-categories: Hexo
-tags: [hexo,markdown,alfred]
+categories:
+tags: [markdown,alfred]
 ---
 
 > github上有个天才作者，开发了一个方便的[图片上传实用工具](https://github.com/tiann/markdown-img-upload)，可以方便、快速地在截图之后通过脚本把图片上传到七牛云然后得到一个图片链接

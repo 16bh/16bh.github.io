@@ -1,6 +1,6 @@
 ---
 title: 个人书单
-categories: Reading
+categories:
 tags: [reading]
 toc: false
 comment: true

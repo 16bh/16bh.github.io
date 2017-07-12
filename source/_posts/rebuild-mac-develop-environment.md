@@ -1,6 +1,6 @@
 ---
 title: 从零搭建mac开发环境
-categories: Mac
+categories: 
 tags: mac
 toc: false
 comment: true

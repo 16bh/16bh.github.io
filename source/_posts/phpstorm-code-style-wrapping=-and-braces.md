@@ -1,7 +1,7 @@
 ---
 title: phpStorm格式化代码设置等号对齐
-categories: [Editor,phpStorm]
-tags: [phpstorm,php]
+categories:
+tags: [phpstorm]
 toc: false
 comment: true
 date: 2017-04-06 21:41:56

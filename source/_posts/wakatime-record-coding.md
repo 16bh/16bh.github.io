@@ -2,7 +2,7 @@
 title: 记录你的编程习惯 - 编辑器通用插件：WakaTime
 toc: true
 date: 2016-07-11 19:16:05
-categories: Software
+categories:
 tags: tools
 ---
 

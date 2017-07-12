@@ -1,6 +1,6 @@
 ---
 title: Yaf学习笔记2:项目结构
-categories: [IT,php]
+categories:
 tags: [php,yaf]
 toc: false
 comment: true
@@ -12,7 +12,7 @@ date: 2017-06-08 18:59:00
 
 
 
-<!--more-->
+
 
 ## 框架文件目录
 以刚刚通过gc生成的demo项目为例，我们在终端执行`tree`命令,可以看到项目的目录结果如下所示：
@@ -22,6 +22,7 @@ date: 2017-06-08 18:59:00
 
 ![20170609149700575912100.png](http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png)
 
+<!--more-->
 
 ./index.php	是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置
 

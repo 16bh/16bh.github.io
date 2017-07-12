@@ -2,8 +2,8 @@
 title: hexo菜单栏背景图片设置
 toc: false
 date: 2016-07-08 23:15:35
-categories: Hexo
-tags: hexo
+categories:
+tags: website
 ---
 
 landscape-plus主题默认关闭了顶部的大图，如需开启，取消`header.styl`第33行的注释即可

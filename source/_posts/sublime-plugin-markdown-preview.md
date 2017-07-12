@@ -2,8 +2,8 @@
 title: sublime插件 - markdown编辑和预览
 toc: true
 date: 2016-07-11 18:49:38
-categories: [Editor,sublime]
-tags: [php,markdown]
+categories:
+tags: [sublime,markdown]
 ---
 
 

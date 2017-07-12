@@ -2,7 +2,7 @@
 title: sublime3144版本搭建php开发环境
 toc: true
 date: 2016-07-11 17:36:35
-categories: [Editor,sublime]
+categories: 
 tags: [php,sublime]
 ---
 

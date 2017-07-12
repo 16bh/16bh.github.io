@@ -3,8 +3,8 @@ title: SoftWare List - Mac
 toc: false
 top: 5
 date: 2016-08-16 14:12:44
-categories: Software
-tags: [software,mac]
+categories:
+tags: [software]
 ---
 
 <img src="http://o9xbyqajf.bkt.clouddn.com/1490601890.png"/>

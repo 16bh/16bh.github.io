@@ -2,8 +2,8 @@
 title: hexo绑定DNSPOD代理的狗爹域名
 toc: true
 date: 2016-07-08 22:42:40
-categorie: Hexo
-tags: hexo
+categorie:
+tags: website
 ---
 
 # 购买域名

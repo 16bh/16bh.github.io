@@ -1,6 +1,6 @@
 ---
 title: MarkDown基础介绍
-categories: [Editor,markDown]
+categories:
 tags: [markdown]
 toc: false
 comment: true

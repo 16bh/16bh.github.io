@@ -1,7 +1,7 @@
 ---
 title: Magento后台配置攻略
-categories: Magento
-tags: [php,magento]
+categories:
+tags: [magento]
 toc: false
 comment: true
 date: 2017-04-10 18:57:15

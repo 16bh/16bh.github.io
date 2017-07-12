@@ -1,7 +1,7 @@
 ---
 title: php个人面试题
-categories: [IT,php]
-tags: [php]
+categories:
+tags: [php,review]
 toc: false
 comment: true
 date: 2017-05-26 17:39:25

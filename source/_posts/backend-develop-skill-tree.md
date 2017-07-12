@@ -1,6 +1,6 @@
 ---
 title: 后端开发技能树
-categories: [IT,php]
+categories: 
 tags: php
 toc: false
 comment: true

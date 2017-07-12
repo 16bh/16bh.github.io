@@ -1,10 +1,10 @@
 ---
 title: mac下phpStorm配置使用phpcs
-categories: [Editor,phpStorm]
+categories:
 toc: false
 comment: true
 date: 2017-04-01 15:19:22
-tags: [php,phpstorm]
+tags: [phpcs,phpstorm]
 ---
 
 

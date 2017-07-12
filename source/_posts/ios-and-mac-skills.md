@@ -2,7 +2,7 @@
 title: ios\macOs技巧
 toc: false
 date: 2016-10-27 18:14:23
-categories: Mac
+categories:
 tags: mac
 ---
 

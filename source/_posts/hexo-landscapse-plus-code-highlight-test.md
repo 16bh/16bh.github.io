@@ -2,8 +2,8 @@
 title: landscape-plus主题代码高亮测试
 toc: true
 date: 2016-07-07 10:50:25
-category: Hexo
-tags: hexo
+category:
+tags: website
 ---
 
 >IT博客怎么能没有代码高亮的功能呢

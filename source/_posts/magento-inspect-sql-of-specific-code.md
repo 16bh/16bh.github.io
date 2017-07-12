@@ -2,7 +2,7 @@
 title: magento中查看某一段代码生成的sql
 toc: false
 date: 2016-10-27 16:25:49
-categories: Magento
+categories:
 tags: magento
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Laravel目录结构
-categories: [IT,php]
-tags: [php,laravel]
+categories:
+tags: [laravel]
 toc: false
 comment: true
 date: 2017-05-17 18:15:38

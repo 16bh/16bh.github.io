@@ -1,7 +1,7 @@
 ---
 title: Movie List
-categories: Reading
-tags: [movie]
+categories:
+tags: [list]
 toc: false
 comment: true
 date: 2017-05-31 14:52:42
