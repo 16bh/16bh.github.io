@@ -3,7 +3,7 @@
 
     <sitemap>
         <loc>http://jimxu.me/post-sitemap.xml</loc>
-        <lastmod>2017-06-26T03:23:20.000Z</lastmod>
+        <lastmod>2017-07-12T12:34:31.000Z</lastmod>
     </sitemap>
 
     <sitemap>
@@ -13,12 +13,12 @@
 
     <sitemap>
         <loc>http://jimxu.me/category-sitemap.xml</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        
     </sitemap>
 
     <sitemap>
         <loc>http://jimxu.me/tag-sitemap.xml</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     </sitemap>
 
 </sitemapindex>

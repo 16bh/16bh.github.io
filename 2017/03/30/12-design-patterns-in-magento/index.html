@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="小凡" />
+
+
+
+<meta name="description" content="原文地址:http://magenticians.com/12-design-patterns-magento">
+<meta name="keywords" content="php,architect,magento">
+<meta property="og:type" content="article">
+<meta property="og:title" content="[译]Magento中的12种设计模式">
+<meta property="og:url" content="http://jimxu.me/2017/03/30/12-design-patterns-in-magento/index.html">
+<meta property="og:site_name" content="就叫我小凡吧">
+<meta property="og:description" content="原文地址:http://magenticians.com/12-design-patterns-magento">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170331149095046779669.png">
+<meta property="og:updated_time" content="2017-07-12T12:15:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="[译]Magento中的12种设计模式">
+<meta name="twitter:description" content="原文地址:http://magenticians.com/12-design-patterns-magento">
+<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/20170331149095046779669.png">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="就叫我小凡吧" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>[译]Magento中的12种设计模式 | 就叫我小凡吧</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: undefined
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">小凡</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">这一切都是命运石之门的选择！</p>
+        
+
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:xujun_njupt@126.com" title="Email"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/alfred/">alfred</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/architect/">architect</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/environment/">environment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/error/">error</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/">go</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/json/">json</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/laravel/">laravel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/list/">list</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lua/">lua</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/magento/">magento</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mangeo/">mangeo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpcs/">phpcs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpmd/">phpmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psr/">psr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/reading/">reading</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/">redis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/review/">review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell/">shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tools/">tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vscode/">vscode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/website/">website</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xml/">xml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yaf/">yaf</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">小凡</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">小凡</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">这一切都是命运石之门的选择！</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:xujun_njupt@126.com" title="Email"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+</nav>
+      <div class="body-wrap"><article id="post-12-design-patterns-in-magento" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/03/30/12-design-patterns-in-magento/" class="article-date">
+      <time datetime="2017-03-30T09:18:15.000Z" itemprop="datePublished">2017-03-30</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      [译]Magento中的12种设计模式
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/architect/">architect</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170331149095046779669.png" alt="20170331149095046779669.png"></p>
+<blockquote>
+<p>原文地址:<br><a href="http://magenticians.com/12-design-patterns-magento" target="_blank" rel="external">http://magenticians.com/12-design-patterns-magento</a></p>
+</blockquote>
+<a id="more"></a>
+<p>Magento中的架构通常被认为是过度设计了。如果从架构的角度去看Magento的代码，很容易发现它至少使用了下面介绍的的十二种设计模式。</p>
+<blockquote>
+<p>Magento its architecture is sometimes deemed overly engineered. If we look at it from a helicopter view, commonly used design patterns are easily spotted. Here are 12 of them.</p>
+</blockquote>
+<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>给出一个需求，解决的方案有很多，设计模式便是其中的最佳方法，可以解决特定环境下的同类问题。设计模式的代码是可重复利用的，对于提高工作效率大有裨益，那从长远角度考虑，是不是应当在代码中尽可能多的使用设计模式呢？明显不是，一名优秀的软件开发者知道何时使用设计模式，并不会无的放矢。早期Magento框架中的比较出色的一点是，其中的绝大部分（甚至所有）使用的设计模式的方式都有其用意所在（画外音：说明Magento的开发者是一名优秀的软件开发者，不然本文也就没有意义了）。</p>
+<p>本文是根据@Ryan Street的系列博文整理而得的。</p>
+<blockquote>
+<p>Introduction</p>
+<p>A software design pattern is a reusable solution to an often occurring problem. This doesn’t mean that software is better if it has more design patterns. Instead, a good software engineer should be able to spot the problem and implement the pattern instead of introducing implementations without purpose. The earlier behavior is leadingly noticeable in Magento, where most if not all design pattern-implementations have a purpose.<br>This is a compilation of an article-series which originally appeared on Ryan Street’s blog (@ryanstreet).</p>
+</blockquote>
+<h2 id="模式1：MVC"><a href="#模式1：MVC" class="headerlink" title="模式1：MVC"></a>模式1：MVC</h2><p>简易程度：<br>使用场景：</p>
+<p>Model-View-Controller,即模型-视图-控制器,简称MVC，应该是最广为人知的一种设计模式（大多数使用者甚至都不会将它视为设计模式）。</p>
+<p>这是一种将业务逻辑、页面展示、逻辑分离开来的设计模式。Mageno中使用了大量的xml文件作为逻辑模板，使用pthml（混合了HTML和PHP）文件作为它的视图，剩下的模型依赖Varien的ORM。大多数的业务逻辑发生在模型中，而控制器将模型数据映射到视图，Magento的视图包含了太多的逻辑而显示很笨重，不得不通过一个专门的php类（Block类）进行渲染。</p>
+<blockquote>
+<p>Model View Controller Pattern</p>
+<p>Model View Controller, MVC for short, is a design pattern where business, presentation and coupling logic are separated. Magento heavily utilizes XML as templating-logic and HTML mixed with PHP files for its views. Models are backed by ORM. Most business logic happens in the models whereas the controllers map the model-data to the views.<br>Because Magento its views are “fat” – they often contain a lot of logic – its not rare that views have an additional PHP class (the Block system) which will help with rendering</p>
+</blockquote>
+<h2 id="模式2：-前端控制器模式"><a href="#模式2：-前端控制器模式" class="headerlink" title="模式2： 前端控制器模式"></a>模式2： 前端控制器模式</h2><p>简易程度：<br>使用场景：</p>
+<p>前端控制器模式确保有且只有一个入口。所有的请求都会先从前端控制器那里走一遭，被识别后路由分发到指定的controller，进行特定的处理。<br>在Magento唯一一个入口文件<code>index.php</code>就起到了前端控制器的作用，它通过<code>Mage::app()</code>方法实现应用环境的初始化并将请求路由到正确的controller中。</p>
+<blockquote>
+<p>Front Controller Pattern</p>
+<p>The front controller pattern makes sure that there is one and only one point of entry. All requests are investigated, routed to the designated controller and then processed accordingly to the specification. The front controller is responsible of initializing the environment and routing requests to designated controllers.<br>Magento has only one point of entry (index.php) which will initialize the application environment (Mage::app()) and route the request to the correct controller.</p>
+</blockquote>
+<h2 id="模式3：工厂模式"><a href="#模式3：工厂模式" class="headerlink" title="模式3：工厂模式"></a>模式3：工厂模式</h2><p>简易程度：<br>使用场景：<br>工厂模式的“工厂”二字已经充分表露了它的功能————如工厂的流水线一般统一进行类的实例化。</p>
+<p>它被广泛应用在Magento的代码库中，负责自动加载系统。在<code>config.xml</code>文件中定义一个<code>module</code>的别名后，工厂就悄咪咪的记录了别名对应的类及类所在的位置。</p>
+<p><code>Mage</code>核心类中有很多辅助实现工厂的方法，其中的<code>Mage::getModel()</code>方法可以接收一个类的别名返回类的实例，如<code>Mage::getModel(&#39;catalog/product&#39;)</code>返回产品类<code>Mage_Catalog_Model_Product</code>的实例。</p>
+<p>区别于传统的在代码中直接引入类所在文件并调用类，工厂模式以统一的方式对类进行初始化。</p>
+<blockquote>
+<p> Factory Pattern</p>
+<p>As implied by the name, the factory pattern is responsible of factorizing (instantiating) classes. It’s widely used through the Magento code base and leverages the autoloading system in Magento. By defining an alias in a module its config.xml you are letting the factory know where it can find classes.<br>There are various factory-helper methods in the Mage core class and one of them is getModel(). It accepts an alias for a class and will then return an instance of it. Instead of having include calls scattered through the code base, the factory pattern will instantiate classes in an uniform way.</p>
+</blockquote>
+<h2 id="模式4：单例模式"><a href="#模式4：单例模式" class="headerlink" title="模式4：单例模式"></a>模式4：单例模式</h2><p>简易程度：<br>使用场景：</p>
+<p>另一种获取类的实例的方法是<code>Mage::getSingleton()</code>，它跟<code>Mage::getModel()</code>方法一样接收一个类的别名，不同之处在于<code>getSingleton</code>在返回实例之前，会先去注册表里瞄一眼，看看这个类是否已经实例化过了，如果实例化过了，那这个实例就可以被共享了。</p>
+<p>例如，Magento中的session对象，（如customer session或checkout session）,被储存在注册表中，可以在代码不同地方重复使用，而不要每次都重新创建</p>
+<blockquote>
+<p>Singleton Pattern</p>
+<p>Another way to retrieve an instance of a class, is to call Mage::getSingleton(). It accepts a class alias and before returning an instance, it checks the internal registry whether this class has already been instantiated before – this results in a shared instance. An example of where this is mandatory, is the session storage which should be shared through the code base instead of creating it anew every time.</p>
+</blockquote>
+<h2 id="模式5：注册模式"><a href="#模式5：注册模式" class="headerlink" title="模式5：注册模式"></a>模式5：注册模式</h2><p>简易程度：<br>使用场景：<br>（进程级别的）</p>
+<p>所有的单例都存储在内部注册表中,这是全局的存储数据的地方,而且不仅限于内部使用。下面列举的注册相关的方法可以分别实现从注册表中存储，查询，删除数据。</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Mage::register($key,$value)     <span class="comment">//存储</span></div><div class="line">Mage::registry()    <span class="comment">//查询</span></div><div class="line">Mage::unregister()  <span class="comment">//删除</span></div></pre></td></tr></table></figure>
+<p>这种注册表的方法通常应用于数据不能传递时的场景下，进行数据的传输。并且数据格式是<code>key-value</code>的格式</p>
+<p>比如订单生成的时候<code>register</code>一个key，然后在<code>sales_order_save_after</code>事件的<code>observer</code>方法中通过<code>registry</code>读取之前<code>register</code>的key</p>
+<blockquote>
+<p>Registry Pattern</p>
+<p>All the singletons are stored in the internal registry: a global scoped Container for storing data. It is not only for internal use. The Mage::register($key, $value),::registry($key) and ::unregister($key) methods can be respectively used for storing, retrieving and removing data from the registry. The registry is often used for transferring data between scopes when they cannot be passed on, otherwise.</p>
+</blockquote>
+<h2 id="模式6：原型模式"><a href="#模式6：原型模式" class="headerlink" title="模式6：原型模式"></a>模式6：原型模式</h2><p>简易程度：<br>使用场景：</p>
+<p>原型模式是对工厂模式功能的补充,它定义类的实例可以根据其父类（原型）检索其它类的实例。</p>
+<p>举个栗子，<code>Mage_Catalog_Model_Product</code>类有一个<code>getTypeInstance</code>方法来获取特定的类<code>Mage_Catalog_Model_Product_Type</code>的对象，后者包含了不适用于其它产品的一系列的方法和属性。<br>而<code>Mage_Downloadable_Model_Product_Type</code>这个Downloadable产品的类又最终继承了<code>Mage_Catalog_Model_Product_Type</code>类。如果您正在下单并想要调用Downloadable类型产品的特定方法，则需要首先使用原始的产品类的getTypeInstance方法对其进行实例化。</p>
+<blockquote>
+<p>Prototype Pattern</p>
+<p>Where the factory pattern (#3 on our list) stops, is where the prototype pattern continues. It defines that instances of classes can retrieve a specific other class instance depending on its parent class (the prototype). A notable example is the Mage_Catalog_Model_Product class which has a getTypeInstance method to retrieve the specificMage_Catalog_Model_Product_Type with a specific subset of methods and properties not applicable to all products.<br>For example, the Mage_Downloadable_Model_Product_Type ultimately extends the Mage_Catalog_Model_Product_Type. If you are iterating over an order and want to call a specific method of a downloadable product, you will need to factorize it first with the getTypeInstance method of the original product.</p>
+</blockquote>
+<h2 id="模式7：对象池模式"><a href="#模式7：对象池模式" class="headerlink" title="模式7：对象池模式"></a>模式7：对象池模式</h2><p>简易程度：<br>使用场景：<br>对象池模式只是一个包含对象的集合，防止它们一次又一次被分配和销毁。</p>
+<p>在Magento中，对象池模式并不常见，只会在处理严重影响服务器性能的重任务时被使用，例如批量导入产品的时候。</p>
+<p>可以使用<code>Mage::objects（）</code>方法访问对象池（由<code>Varien_Object_Cache</code>类管理）</p>
+<blockquote>
+<p>Object Pool Pattern</p>
+<p>The object pool pattern is simply a box with objects so that they do not have to be allocated and destroyed over and over again. It’s not used a lot in Magento other than for heavy tasks where resources can get limited soon, like importing products. The object pool (managed by Varien_Object_Cache) can be accessed with Mage::objects().</p>
+</blockquote>
+<h2 id="模式8-迭代器模式"><a href="#模式8-迭代器模式" class="headerlink" title="模式8 迭代器模式"></a>模式8 迭代器模式</h2><p>简易程度：<br>使用场景：<br>迭代器模式定义了一个公共方法来遍历具有对象的结合。</p>
+<p>在Magento中，这是由<code>Varien_Data_Collection</code>类实现的，它依次使用各种baked-in的PHP类（如<code>ArrayIterator</code>）来为数组提供更多的OO接口。这样可以确保模型集合始终具有一个通用的API来遍历，而不依赖于实际的模型。</p>
+<blockquote>
+<p>Iterator Pattern</p>
+<p>The iterator pattern defines that there is a shared way to iterate over a container with objects. In Magento, this is handled by the Varien_Data_Collection which on its turn uses various baked-in PHP classes (like ArrayIterator) for having a more OO-interface to arrays. This ensures that model-collections will always have a common API to iterate over without being dependent of the actual models.</p>
+</blockquote>
+<h2 id="模式9：延迟加载模式"><a href="#模式9：延迟加载模式" class="headerlink" title="模式9：延迟加载模式"></a>模式9：延迟加载模式</h2><p>简易程度：<br>使用场景：</p>
+<p>延迟加载确保加载数据被延迟到实际需要的时间点,这导致更少的资源利用。 Magento的延迟加载行为之一就是collection集合。如果使用<code>Mage::getModel（&#39;catalog/product&#39;)-&gt;getCollection()</code>获取产品collection时，并没有操作数据库。只有当load之后，遍历collection中的product对象或者查询collection的数量时，才会对数据库进行读写操作。</p>
+<blockquote>
+<p>Lazy Loading Pattern</p>
+<p>Lazy loading ensures that loading data is delayed until the point when it is actually needed. This results in less resources being used. One of the lazy loading behaviors of Magento is that of collections. If you were to retrieve a collection of products with Mage::getModel(‘catalog/product’)-&gt;getCollection(), the database will only be touched when you actually access the collection by, for example, iterating over it or retrieving the count of models found.</p>
+</blockquote>
+<h2 id="模式10：服务定位器模式"><a href="#模式10：服务定位器模式" class="headerlink" title="模式10：服务定位器模式"></a>模式10：服务定位器模式</h2><p>简易程度：<br>使用场景：</p>
+<p>服务定位器模式抽取某个服务的检索。它遵守其抽象基础，可以在不破坏任何东西的情况下改变服务，而且可以看到适合其目的的服务。<br>例如，Ryan的数据库连接。</p>
+<p>另一个例子是Magento的缓存机制，通过<code>Mage::getCache()</code>存储缓存，<code>Mage::getCache()</code>是由Zend或其他供应商提供的缓存存储的代理服务定位器。</p>
+<p>再如，队列的实现</p>
+<blockquote>
+<p>Service Locator Pattern</p>
+<p>The service locator pattern abstracts away the retrieval of a certain service. This allows for changing the service without breaking anything (as it adheres to its abstract foundation) but also fetching the service as seen fit for its purpose.<br>Ryan exemplifies this with database connections. Another example is that of Magento its caching mechanism where Mage::getCache() is a service locator by-proxy for the cache storage supplied by Zend or other vendors.</p>
+</blockquote>
+<h2 id="模式11：模块模式"><a href="#模式11：模块模式" class="headerlink" title="模式11：模块模式"></a>模式11：模块模式</h2><p>简易程度：<br>使用场景：</p>
+<p>任何熟悉Magento开发的人都会很自然的接触模块模式。它基本上定义了不同的功能被分组成独立的模块，它们彼此独立，并且可以根据需要插入到Magento主系统中。在理想情况下，模块模式的实现将确保每个元素都可以被删除或交换。 PHP中模块模式的主角之一是Composer软件包管理器。<br>虽然Magento严重依赖于模块化架构，但它并不是模块化的。某些功能与核心密切相关，不能轻易改变。还大量使用超全局的<code>Mage</code>核心类，引入了各种不受监管的系统级依赖关系。</p>
+<blockquote>
+<p>Module Pattern</p>
+<p>Anyone familiar with Magento development has stumbled upon the module pattern. It basically defines that different domains are grouped into separate modules which function independent of each other and can be plugged-in to the main system as deemed appropriate. In an ideal situation, an implementation of the module pattern would make sure that each element can be removed or swapped. One of the protagonists of the module pattern in PHP is the Composer package manager.<br>Though Magento heavily relies on a modular architecture, its not modular to the bone. Certain functionality is heavily tied to the core and can not be easily changed. There is also the heavy usage of the super-global Mage core-class which introduces all sorts of system-wide dependencies not easily overseen.</p>
+</blockquote>
+<h2 id="模式12：观察者模式"><a href="#模式12：观察者模式" class="headerlink" title="模式12：观察者模式"></a>模式12：观察者模式</h2><p>简易程度：<br>使用场景：</p>
+<p>Magento的事件驱动架构是实现观察者模式的结果。通过定义观察者（或监听者），可以挂接额外的代码，随着观察到的事件触发，这些代码将被调用。 </p>
+<p>Magento使用<code>config.xml</code>存储并定义观察者。使用<code>Mage::dispatchEvent（$eventName，$data）</code>触发事件，eventName是事件名，data是参数。事件触发后会将查询数据存储，并触发相应的<code>$event</code>观察者。<br>除了使用模块之外，还可以使用事件来定制现有的逻辑，而不用接触现有的代码。</p>
+<p>举个栗子，下单完成后发送邮件通知用户，不需要将写邮件的代码跟下单的代码写在一起，只要下单完成后触发事件<code>sales_order_save_after</code>,在<code>config.xml</code>中定义<code>sales_order_save_after</code>事件的观察者，然后在观察者方法中写相应的发送邮件的代码</p>
+<blockquote>
+<p>Observer Pattern</p>
+<p>Magento its event-driven architecture is a result of an implementation of the observer pattern. By defining observers (or listeners), extra code can be hooked which will be called upon as the observed event fires. Magento uses its XML-data storage to define observers. If an event is fired with Mage::dispatchEvent($eventName, $data), the data storage will be consulted and the appropriate observers for $event will be fired.<br>In addition to using modules, events can be used to customize existing logic without touching the existing code.</p>
+</blockquote>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2017/03/30/12-design-patterns-in-magento/">[译]Magento中的12种设计模式</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">小凡</a></p>
+        <p><span>发布时间:</span>2017-03-30, 17:18:15</p>
+        <p><span>最后更新:</span>2017-07-12, 20:15:47</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2017/03/30/12-design-patterns-in-magento/" title="[译]Magento中的12种设计模式">http://jimxu.me/2017/03/30/12-design-patterns-in-magento/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://jimxu.me/2017/03/30/12-design-patterns-in-magento/　　作者: 小凡" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2017/03/30/hexo-language-setting-not-effective/">
+                    hexo语言设置未生效解决办法
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2017/03/30/what-does-magento's-order-model-save-function-do/">
+                    [magento]Order对象的save方法执行哪些操作？
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#介绍"><span class="toc-number">1.</span> <span class="toc-text">介绍</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式1：MVC"><span class="toc-number">2.</span> <span class="toc-text">模式1：MVC</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式2：-前端控制器模式"><span class="toc-number">3.</span> <span class="toc-text">模式2： 前端控制器模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式3：工厂模式"><span class="toc-number">4.</span> <span class="toc-text">模式3：工厂模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式4：单例模式"><span class="toc-number">5.</span> <span class="toc-text">模式4：单例模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式5：注册模式"><span class="toc-number">6.</span> <span class="toc-text">模式5：注册模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式6：原型模式"><span class="toc-number">7.</span> <span class="toc-text">模式6：原型模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式7：对象池模式"><span class="toc-number">8.</span> <span class="toc-text">模式7：对象池模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式8-迭代器模式"><span class="toc-number">9.</span> <span class="toc-text">模式8 迭代器模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式9：延迟加载模式"><span class="toc-number">10.</span> <span class="toc-text">模式9：延迟加载模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式10：服务定位器模式"><span class="toc-number">11.</span> <span class="toc-text">模式10：服务定位器模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式11：模块模式"><span class="toc-number">12.</span> <span class="toc-text">模式11：模块模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#模式12：观察者模式"><span class="toc-number">13.</span> <span class="toc-text">模式12：观察者模式</span></a></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"[译]Magento中的12种设计模式　| 就叫我小凡吧　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2017/03/30/hexo-language-setting-not-effective/" title="上一篇: hexo语言设置未生效解决办法">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2017/03/30/what-does-magento's-order-model-save-function-do/" title="下一篇: [magento]Order对象的save方法执行哪些操作？">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/get-started-to-crontab/">crontab入门</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/use-mtr-detect-network-status/">使用mtr工具检测网络w</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/using-Coding-host-website-code/">将Hexo网站托管到Coding.net</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/11/how-to-use-jekyll/">尝试jekyll</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/fix-invalid-private-key-after-reboot/">解决重启后私钥失效的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/how-to-use-github-and-gitlab-same-time/">mac电脑上同时使用多个git平台</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/ssh-connect-server-without-password/">ssh连接服务器更简单一点</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/28/mac-must-install-software/">php开发者mac必装软件 - 终极版本</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/22/use-sublime-open-project/">设置使用sublime打开项目文件夹</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/21/phpstorm-php-file-header/">phpstorm修改php文件头模板</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/13/yaf-study-note-module/">Yaf学习笔记5:模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/12/yaf-study-note-mvc/">Yaf学习笔记4:MVC模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/09/yaf-study-note-config/">Yaf学习笔记3:配置</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/yaf-study-note-structure/">Yaf学习笔记2:项目结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/fibonacci-algorithm/">斐波那契数列问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/wechat-rafale-algorithm/">微信领红包问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/recycle-bottle-algorithm/">回收饮料瓶问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/yaf-study-note-install/">Yaf学习笔记1:Mac环境下的安装运行</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/31/favourite-movie-list/">Movie List</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/26/php-review-note-on-2017-06/">php个人面试题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/17/laravel-study-note-structure/">Laravel目录结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/10/rebuild-mac-develop-environment/">从零搭建mac开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/27/phpstorm-use-atom-theme/">phpstorm安装Atom主题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/20/backend-develop-skill-tree/">后端开发技能树</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/15/book-list/">个人书单</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/">[mysql error]The server quit without updating PID file </a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/phpstorm-key-maps/">phpStorm快捷键个人设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/my-thinking-about-redis/">关于缓存的一些思考</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/vscode-build-golang-develop-environment/">vscode搭建go-lang开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/sublime-build-golang-develop-environment/">sublime搭建go-lang开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/sublime-error-There-are-no-packages-available-for-installation/">sublime报错There are no packages available for installation</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/run-first-go-program/">mac安装go并运行第一个程序</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/go-study-note/">go语言入门知识点</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/10/magento-system-config-summary/">Magento后台配置攻略</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/markdown-insert-image-skills/">MarkDown插入图片技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/how-to-use-markdown/">MarkDown基础介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/magento-set-up-sql-common-problems/">Magento升级脚本常见问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/06/phpstorm-code-style-wrapping=-and-braces/">phpStorm格式化代码设置等号对齐</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/06/magento-get-address-data-by-order/">Magento根据订单获取地址信息</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpmd-in-phpstorm-on-mac/">mac下phpStorm配置使用phpmd</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpstorm-develop-magento-skills/">用phpStorm进行magento开发的几个Tips</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/some-psr-error/">psr2规范</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/xml-error-Unescaped-or-nonterminated-character-entity-reference/">[xml error]Unescaped & or nonterminated character/entity reference</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpcs-in-phpstorm-on-mac/">mac下phpStorm配置使用phpcs</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/31/some-awesome-phpstorm-plugins/">phpStorm有哪些值得安装的插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/hexo-nexT-theme-add-categories-and-tags/">hexo nexT主题新增分类页和标签页</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/hexo-language-setting-not-effective/">hexo语言设置未生效解决办法</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/12-design-patterns-in-magento/">[译]Magento中的12种设计模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/what-does-magento's-order-model-save-function-do/">[magento]Order对象的save方法执行哪些操作？</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/29/what-does-magento's-order-model-cancel-function-do/">[magento]Order对象的cancel方法会执行哪些操作？</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/">[PHP ERROR]:Arrays are not allowed in class constants </a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/13/ios software list/">Software List - IOS</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/01/03/lua-study-note/">Lua学习笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/28/some-sql/">常用sql操作</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/27/ios-and-mac-skills/">ios\macOs技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/27/magento-inspect-sql-of-specific-code/">magento中查看某一段代码生成的sql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/29/magento-add-column-of-grid-table/">[译]给用户grid表增加新的column</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/16/mac software list/">SoftWare List - Mac</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/03/build-php-develop-environment-in-atom/">使用atom进行php开发</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/27/hexo-yelee-theme-setting/">hexo的yelee主题设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/22/js-study-note/">PHPer学习JS 语法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/21/sublime-build-js-develop-environment/">sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/">magento报错:Customer website ID must be specified when using the website scope</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/php-float-to-int/">php浮点数取整</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/magento-set-system-config-default-value/">magento设置后台配置的默认值</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/xml-error-XML-declaration-allowed-only-at-the-start-of-the-document/">XML报错:XML declaration allowed only at the start of the document</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/19/magento-crom/">magento计划任务</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/19/hexo-show-categories-and-tags/">hexo文章的分类和标签</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/14/mysql-in-magento/">Magento数据库非EAV模型使用</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/13/hexo-404-page/">设置hexo404页面</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/12/magneto-common-method/">magento常用方法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/12/oh-my-zsh-plugin-wd/">在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/wakatime-record-coding/">记录你的编程习惯 - 编辑器通用插件：WakaTime</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/sublime-plugin-markdown-preview/">sublime插件 - markdown编辑和预览</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/sublime3144-build-php-develop-environment/">sublime3144版本搭建php开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/magento-locale/">magento后台汉化</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/git-ignore-file-mode/">git设置忽略对文件权限进行版本控制</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/10/magento-new-module-add-system-config/">magento新建模块的后台配置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hexo-landscape-plus-set-head-image/">hexo菜单栏背景图片设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hexo-bind-godaddy-host-name/">hexo绑定DNSPOD代理的狗爹域名</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/fix-hexo-baidu-share/">hexo的landscape-plus主题百度分享无法加载的bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/xdebug-in-phpstorm-on-mac/">mac下phpstorm配置xdebug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/fix-Alfred-markdown-workflow/">markdown图片链接生成的Alfred脚本微调整</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/python-install-requests/">python安装requests库</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/mangeto-rewrite-core-model/">magento复写core中的model</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/magento-rewrite-core-controller/">magento复写core中的controller</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/magneto-enable-backend-login-captcha/">magento用户登录开启验证码功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/set-nginx-server/">mac下nginx服务器设置虚拟主机</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/hexo-set-read-more/">hexo如何让首页的文章只显示一部分并出现查看更多选项</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/hexo-landscapse-plus-code-highlight-test/">landscape-plus主题代码高亮测试</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/sublime-plugin-css-color-hignlighter/">sublime插件 - css颜色高亮与取色器</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/set-hexo-page-size/">分别设置hexo首页、标签页、归档页文章个数</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/">解决hexo的landscape-plus主题标签和归档无法分页的bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-plus-add-post-toc/">landscape-plus主题增加hexo文章目录功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-new-post-template/">hexo默认文章的模板修改</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-pluas-add-recent-comment/">hexo侧边栏安装最近评论小物件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-new-page/">hexo菜单栏创建留言板</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/">运行hexo报错解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-plus-busuanzi-plugin/">hexo的landscape-plus主题安装不蒜子访问量统计插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-theme-add-friends/">hexo侧边栏增加链接小物件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/show-hidden-file-in-finder/">在Finder中查看隐藏文件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/hexo-enable-duoshuo/">hexo支持多说评论</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/how-to-use-hexo/">在搭建hexo时碰到的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/how-to-install-hexo-theme/">hexo如何安装主题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/01/build-php-develop-environment-in-macvim/">如何用macVim搭建php开发的IDE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/flush-magento-cache-after-use-redis/">安装redis后清除magento缓存失效解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/how-to-visit-magento-controller/">访问模块中的controller</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/disable-module-in-magento/">禁用magento模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/how-to-add-module-in-magento/">新增magento模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/enable-magento-develop-model/">开启开发者模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/magento-code-structure/">初识magento框架代码结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/">mac下php开发环境搭建:nginx+mysql+php+php-fpm</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/28/sublime-php-build-system-on-mac/">mac环境sublime配置php编译环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/flush-magento-cache/">如何清除magento缓存</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/show-name-of-template-and-block-in-magento/">定位前台的template和block</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/how-to-install-magento/">安装magento</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/fast-type-long-shell-command/">mac下快速输入长命令行的两种方法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/oh-my-zsh-cow-welcome/">在oh my zsh的基础上添加终端的欢迎界面</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/">mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/23/how-to-use-json/">在php中使用json</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/22/magento-log/">magento日志</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/21/redis-in-magento/">在magento中配置使用redis缓存</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/20/install-redis-on-mac/">mac下安装redis</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/16/reset-launchpad-icon/">重新排序Launchpad图标</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/16/homebrew、homebrew-cask及cakebrew/">homebrew、homebrew-cask及cakebrew</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/22/php-review-note-on-2016-04/">php面试笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/18/use-fiddler-to-change-website-cotent/">通过Fiddler工具进行接口代理-改变线上网页的显示结果</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/how-to-use-charles-on-windows/">windows下通过charles和夜神模拟器对安卓app进行抓包</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2015-2017 小凡
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
+</body>
+</html>

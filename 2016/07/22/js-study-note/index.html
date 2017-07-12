@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<meta name="author" content="小凡" />
+
+
+
+<meta name="description" content="学习廖雪峰老师的javaScript教程笔记 重点关注js与PHP的异同点">
+<meta name="keywords" content="js">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PHPer学习JS 语法">
+<meta property="og:url" content="http://jimxu.me/2016/07/22/js-study-note/index.html">
+<meta property="og:site_name" content="就叫我小凡吧">
+<meta property="og:description" content="学习廖雪峰老师的javaScript教程笔记 重点关注js与PHP的异同点">
+<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1469516107543.png">
+<meta property="og:updated_time" content="2017-07-12T12:15:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PHPer学习JS 语法">
+<meta name="twitter:description" content="学习廖雪峰老师的javaScript教程笔记 重点关注js与PHP的异同点">
+<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/images/1469516107543.png">
+
+<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="就叫我小凡吧" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>PHPer学习JS 语法 | 就叫我小凡吧</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: undefined
+    }
+</script>
+
+
+    <script>
+        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
+    </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">小凡</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">这一切都是命运石之门的选择！</p>
+        
+
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:xujun_njupt@126.com" title="Email"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/alfred/">alfred</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/architect/">architect</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/environment/">environment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/error/">error</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/">go</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/json/">json</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/laravel/">laravel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/list/">list</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lua/">lua</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/magento/">magento</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mangeo/">mangeo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpcs/">phpcs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpmd/">phpmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psr/">psr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/reading/">reading</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/">redis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/review/">review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell/">shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tools/">tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vscode/">vscode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/website/">website</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xml/">xml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yaf/">yaf</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">小凡</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">小凡</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">这一切都是命运石之门的选择！</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:xujun_njupt@126.com" title="Email"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
+</nav>
+      <div class="body-wrap"><article id="post-js-study-note" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/22/js-study-note/" class="article-date">
+      <time datetime="2016-07-22T02:32:45.000Z" itemprop="datePublished">2016-07-22</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      PHPer学习JS 语法
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>学习廖雪峰老师的<code>javaScript</code>教程笔记</p>
+<p>重点关注<code>js</code>与<code>PHP</code>的异同点</p>
+<a id="more"></a>
+<h1 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h1><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><p>用<code>var</code>申明变量，后面跟变量名称，在方法体内不使用<code>var</code>申明的是全局变量，在方法体外申明的变量也是全局变量<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</div></pre></td></tr></table></figure></p>
+<p>在<code>php</code>中申明变量在变量名前面加上<code>$</code>符号<br><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$a = <span class="number">1</span>;</div></pre></td></tr></table></figure></p>
+<p><code>js</code>中可以先申明变量再赋值，<code>php</code>中没有创建变量的命令，变量会在首次给它赋值的时候被创建</p>
+<h2 id="strict模式"><a href="#strict模式" class="headerlink" title="strict模式"></a>strict模式</h2><p>开启<code>strict</code>模式后，若不使用<code>var</code>申明变量，浏览器会报错<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">'use strict'</span>;</div></pre></td></tr></table></figure></p>
+<h2 id="查看变量类型"><a href="#查看变量类型" class="headerlink" title="查看变量类型"></a>查看变量类型</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="number">1</span>;</div><div class="line"><span class="built_in">console</span>.log(<span class="keyword">typeof</span> a);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>number</p>
+</blockquote>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$a =<span class="number">1</span>;</div><div class="line"><span class="keyword">echo</span> getType($a);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>integer</p>
+</blockquote>
+<p>变量类型对比如下：</p>
+<table>
+<thead>
+<tr>
+<th>类型</th>
+<th>js</th>
+<th>php</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>整数</td>
+<td>number</td>
+<td>integer</td>
+</tr>
+<tr>
+<td>小数</td>
+<td>number</td>
+<td>double</td>
+</tr>
+<tr>
+<td>字符串</td>
+<td>string</td>
+<td>string</td>
+</tr>
+<tr>
+<td>布尔值</td>
+<td>boolean</td>
+<td>boolean</td>
+</tr>
+<tr>
+<td>数组</td>
+<td>object</td>
+<td>array</td>
+</tr>
+</tbody>
+</table>
+<h2 id="与"><a href="#与" class="headerlink" title="==与==="></a>==与===</h2><p><code>==</code>会自动转换数据类型再比较，所以比较的时候用<code>===</code><br>与<code>PHP</code>中功能类似</p>
+<h2 id="浮点数"><a href="#浮点数" class="headerlink" title="浮点数"></a>浮点数</h2><p>要比较两个浮点数是否相等，只能计算它们之间的差值的绝对值是否小于某个阈值</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">Math</span>.abs(<span class="number">1</span> / <span class="number">3</span> - (<span class="number">1</span> - <span class="number">2</span> / <span class="number">3</span>)) &lt; <span class="number">0.0000001</span>;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>php中同理</p>
+</blockquote>
+<h2 id="数组"><a href="#数组" class="headerlink" title="数组"></a>数组</h2><p>可以用<code>array()</code>和<code>[]</code>两种表示方法，跟php相同</p>
+<blockquote>
+<p>用<code>[]</code>表示数组是<code>php``5.4</code>版本之后才有的功能</p>
+</blockquote>
+<h2 id="对象"><a href="#对象" class="headerlink" title="对象"></a>对象</h2><p>用<code>{}</code>表示对象<br>在<code>php</code>中不区分对象和数组，对象被视为一维数组，也用<code>array()</code>及<code>[]</code>表示</p>
+<h2 id="输出"><a href="#输出" class="headerlink" title="输出"></a>输出</h2><ul>
+<li><p><code>js</code>中用<code>alert()</code>方法在浏览器中弹窗显示文本，<code>console.log()</code>方法打印输出</p>
+</li>
+<li><p><code>php</code>中用<code>echo()</code>或<code>print()</code>方法输出字符串，不同之处在于<code>print()</code>输出后会返回1，而<code>echo()</code>输出后返回void；用<code>print_r()</code>和<code>var_dump()</code>方法输出数组,二者的区别在于<code>var_dump()</code>会显示变量的类型，<code>prinr_r</code>无法区分<code>0</code>与<code>0.0</code>或<code>false</code>与<code>&#39;&#39;</code>,如下所示：</p>
+</li>
+</ul>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$values = <span class="keyword">array</span>(<span class="number">0</span>, <span class="number">0.0</span>, <span class="keyword">false</span>, <span class="string">''</span>);</div><div class="line">var_dump($values);</div><div class="line">print_r ($values);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>结果为：<br>array(4) {<br>  [0]=&gt;<br>  int(0)<br>  [1]=&gt;<br>  float(0)<br>  [2]=&gt;<br>  bool(false)<br>  [3]=&gt;<br>  string(0) “”<br>}</p>
+<p>Array<br>(<br>    [0] =&gt; 0<br>    [1] =&gt; 0<br>    [2] =&gt;<br>    [3] =&gt;<br>)</p>
+</blockquote>
+<h1 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h1><h2 id="单引号和双引号"><a href="#单引号和双引号" class="headerlink" title="单引号和双引号"></a>单引号和双引号</h2><p><code>js</code>和<code>php</code>都可以用<code>&#39;&#39;</code>和<code>&quot;&quot;</code>表示字符串，都可以在<code>&quot;&quot;</code>中直接使用<code>&#39;&#39;</code>,区别在于在<code>php</code>中，单引号字符串中的反斜杠只能转义单引号<code>&#39;</code>和反斜杠<code>\</code></p>
+<p>如下所示:<br><figure class="highlight js"><figcaption><span>1.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">console</span>.log(<span class="string">'I\'m \"aaa\"!'</span>);	<span class="comment">//输出I'm "aaa"!，跟php不同</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'bbbb'</span>);	<span class="comment">//输出bbbb，同php</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">"'cccc'"</span>);	<span class="comment">//输出'cccc'，同php</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">"\'dddd\""</span>);	<span class="comment">//输出'dddd"，同php</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>1.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="keyword">echo</span> <span class="string">'I\'m \"aaa\"!'</span>;	<span class="comment">//输出I'm \"aaa\"!,说明单引号中无法转义双引号字符</span></div><div class="line"><span class="keyword">echo</span> <span class="string">'bbbb'</span>;	<span class="comment">//输出bbbb</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"'cccc'"</span>;		<span class="comment">//输出'cccc'</span></div><div class="line"><span class="keyword">echo</span> <span class="string">"\'dddd\""</span>;	<span class="comment">//输出'dddd"</span></div></pre></td></tr></table></figure>
+<h2 id="字符串函数"><a href="#字符串函数" class="headerlink" title="字符串函数"></a>字符串函数</h2><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>php</th>
+<th>js</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>字符串长度</td>
+<td>length属性</td>
+<td>strlen()</td>
+</tr>
+<tr>
+<td>转大写字母</td>
+<td>toUpperCase()</td>
+<td>strtoupper()</td>
+</tr>
+<tr>
+<td>转小写字母</td>
+<td>toLowerCase()</td>
+<td>strtolower()</td>
+</tr>
+<tr>
+<td>在字符串内搜索</td>
+<td>indexOf()</td>
+<td>strpos()</td>
+</tr>
+<tr>
+<td>截取字符串</td>
+<td>substring()</td>
+<td>substr()</td>
+</tr>
+<tr>
+<td>字符串连接</td>
+<td>+符号</td>
+<td>.符号</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>substring(2,4)是从第2位截取到第4位（不包括第4位）<br>substr(2,4)是从第2为开始截取，总共截取4位</p>
+</blockquote>
+<p>示例：<br><figure class="highlight js"><figcaption><span>2.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a = <span class="string">"abCDefg"</span>;</div><div class="line"><span class="built_in">console</span>.log(a.length);		<span class="comment">//输出7</span></div><div class="line"><span class="built_in">console</span>.log(a.toUpperCase());	<span class="comment">//输出ABCDEF</span></div><div class="line"><span class="built_in">console</span>.log(a.toLowerCase());	<span class="comment">//输出abcdef</span></div><div class="line"><span class="built_in">console</span>.log(a.indexOf(<span class="string">'e'</span>)); 	<span class="comment">//输出4</span></div><div class="line"><span class="built_in">console</span>.log(a.substring(<span class="number">2</span>,<span class="number">4</span>));	<span class="comment">//输出CD,注意与php的不同之处</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'a'</span>+<span class="string">'b'</span>);	<span class="comment">//输出ab</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>2.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">$a = <span class="string">"abCDefg"</span>;</div><div class="line"><span class="keyword">echo</span> strlen($a);	<span class="comment">//输出7</span></div><div class="line"><span class="keyword">echo</span> strtoupper($a);	<span class="comment">//输出ABCDEF</span></div><div class="line"><span class="keyword">echo</span> strtolower($a);	<span class="comment">//输出abcdef</span></div><div class="line"><span class="keyword">echo</span> strpos($a,<span class="string">'e'</span>);	<span class="comment">//输出4</span></div><div class="line"><span class="keyword">echo</span> substr($a,<span class="number">2</span>,<span class="number">4</span>);	<span class="comment">//输出CDef</span></div><div class="line"><span class="keyword">echo</span> <span class="string">'a'</span>.<span class="string">'b'</span>;	<span class="comment">//输出ab</span></div></pre></td></tr></table></figure>
+<h1 id="数组-1"><a href="#数组-1" class="headerlink" title="数组"></a>数组</h1><h2 id="数组函数："><a href="#数组函数：" class="headerlink" title="数组函数："></a>数组函数：</h2><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>js</th>
+<th>php</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>数组长度</td>
+<td>length属性</td>
+<td>count()</td>
+</tr>
+<tr>
+<td>在数组中查找</td>
+<td>indexOf()</td>
+<td>array_search()</td>
+</tr>
+<tr>
+<td>数组截取</td>
+<td>slice()</td>
+<td>array_slice()</td>
+</tr>
+<tr>
+<td>数组尾部插入元素</td>
+<td>push()</td>
+<td>array_push(),一般不用</td>
+</tr>
+<tr>
+<td>数组尾部删除元素</td>
+<td>pop()</td>
+<td>array_pop()</td>
+</tr>
+<tr>
+<td>数组头部插入元素</td>
+<td>unshift()</td>
+<td>array_unshift()</td>
+</tr>
+<tr>
+<td>数组头部删除元素</td>
+<td>shift()</td>
+<td>array_shift()</td>
+</tr>
+<tr>
+<td>数组排序</td>
+<td>sort()</td>
+<td>sort()</td>
+</tr>
+<tr>
+<td>删除并替换数组中指定的元素</td>
+<td>splice()</td>
+<td>array_splice()</td>
+</tr>
+<tr>
+<td>数组合并</td>
+<td>concat()</td>
+<td>array_merge()</td>
+</tr>
+<tr>
+<td>将数组中的元素用字符连接成字符串</td>
+<td>join()</td>
+<td>implode()</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><code>js</code>中的<code>slice(2,4)</code>截取第2位到第4位（不包括第4位）的元素;<code>php</code>中的<code>array_slice(2,4)</code>截取第2位到第4位（包括第4位）的元素</p>
+</blockquote>
+<p>示例：<br><figure class="highlight js"><figcaption><span>3.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'e'</span>,<span class="string">'a'</span>,<span class="string">'d'</span>];</div><div class="line"><span class="built_in">console</span>.log(arr.length);	<span class="comment">//输出5</span></div><div class="line"><span class="built_in">console</span>.log(arr.indexOf(<span class="string">'e'</span>));	<span class="comment">//输出2</span></div><div class="line"><span class="keyword">var</span> arr2 = arr.slice(<span class="number">2</span>,<span class="number">4</span>);<span class="built_in">console</span>.log(arr2);	<span class="comment">//输出[ 'e', 'a' ]，注意与php的不同之处</span></div><div class="line">arr.push(<span class="string">'F'</span>);<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd', 'F' ]</span></div><div class="line">arr.pop();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">arr.unshift(<span class="string">'A'</span>);<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'A', 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">arr.shift();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">arr.sort();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'a', 'b', 'c', 'd', 'e' ]</span></div><div class="line">arr.reverse();<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'e', 'd', 'c', 'b', 'a' ]</span></div><div class="line">arr.splice(<span class="number">2</span>,<span class="number">3</span>,<span class="string">'f'</span>);<span class="built_in">console</span>.log(arr);	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line"><span class="built_in">console</span>.log(arr.concat([<span class="string">'g'</span>,<span class="string">'h'</span>]));	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line"><span class="built_in">console</span>.log(arr.join(<span class="string">'-'</span>));	<span class="comment">//输出e-d-f</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>3.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">$arr = [<span class="string">'b'</span>,<span class="string">'c'</span>,<span class="string">'e'</span>,<span class="string">'a'</span>,<span class="string">'d'</span>];</div><div class="line"><span class="keyword">echo</span> count($arr);	<span class="comment">//输出5</span></div><div class="line"><span class="keyword">echo</span> array_search(<span class="string">'e'</span>, $arr);	<span class="comment">//输出2</span></div><div class="line">$arr2 = array_slice($arr,<span class="number">2</span>,<span class="number">4</span>);print_r($arr2);	<span class="comment">//输出[ 'e', 'a','d']，注意与php的不同之处</span></div><div class="line">array_push($arr,<span class="string">'F'</span>);print_r($arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd', 'F' ]</span></div><div class="line">array_pop($arr);print_r($arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">array_unshift($arr,<span class="string">'A'</span>);print_r($arr);</div><div class="line">	<span class="comment">//输出[ 'A', 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">array_shift($arr);print_r($arr);	<span class="comment">//输出[ 'b', 'c', 'e', 'a', 'd' ]</span></div><div class="line">sort($arr);print_r($arr);	<span class="comment">//输出[ 'a', 'b', 'c', 'd', 'e' ]</span></div><div class="line">rsort($arr);print_r($arr);	<span class="comment">//输出[ 'e', 'd', 'c', 'b', 'a' ]</span></div><div class="line">array_splice($arr,<span class="number">2</span>,<span class="number">3</span>,<span class="string">'f'</span>);print_r($arr);	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line">$arr2 = array_merge($arr,[<span class="string">'g'</span>,<span class="string">'h'</span>]);print_r($arr2);	<span class="comment">//输出[ 'e', 'd', 'f' ]</span></div><div class="line">print_r(implode(<span class="string">'-'</span>,$arr));	<span class="comment">//输出e-d-f</span></div></pre></td></tr></table></figure>
+<h1 id="对象-1"><a href="#对象-1" class="headerlink" title="对象"></a>对象</h1><h2 id="在js和php中的区别"><a href="#在js和php中的区别" class="headerlink" title="在js和php中的区别"></a>在js和php中的区别</h2><ul>
+<li><p><code>js</code>中的属性，相当于<code>php</code>中数组的键</p>
+</li>
+<li><p><code>js</code>中的对象是<code>key-value</code>的形式，而数组不是,对象中的属性可以直接用<code>对象名.属性名</code>进行访问</p>
+</li>
+<li><p><code>js</code>中若属性名中包含特殊字符，需要用<code>&#39;&#39;</code>括起来,<code>php</code>中键若不为数字，也要用<code>&#39;&#39;</code>括起来</p>
+</li>
+</ul>
+<h2 id="对象方法"><a href="#对象方法" class="headerlink" title="对象方法"></a>对象方法</h2><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>js</th>
+<th>php</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>获取对象中属性</td>
+<td>.</td>
+<td>下标</td>
+</tr>
+<tr>
+<td>删除属性</td>
+<td>delete</td>
+<td>unset()</td>
+</tr>
+<tr>
+<td>判断属性是否存在</td>
+<td>in</td>
+<td>in_array()</td>
+</tr>
+<tr>
+<td>判断属性是否存在且是自身的属性</td>
+<td>hasOwnProperty()</td>
+<td>in_array</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><code>js</code>所有的对象都继承自<code>object</code>对象，所以也拥有<code>object</code>对象的属性，如<code>toString</code>,若要判断一个对象自身的属性是否存在时，用<code>hasOwnProperty()</code>方法</p>
+</blockquote>
+<p>示例：<br><figure class="highlight js"><figcaption><span>4.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> obj = &#123;</div><div class="line">    <span class="attr">a2</span>:<span class="number">1</span>,</div><div class="line">    <span class="string">'a-2'</span>:<span class="number">2</span>,</div><div class="line">    <span class="attr">test</span>:<span class="number">3</span>,</div><div class="line">&#125;;</div><div class="line"><span class="built_in">console</span>.log(obj.a2);	<span class="comment">//输出2</span></div><div class="line"><span class="keyword">delete</span> obj.test;<span class="built_in">console</span>.log(obj);	<span class="comment">//输出&#123; a2: 1, 'a-2': 2 &#125;</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'name'</span> <span class="keyword">in</span> obj);	<span class="comment">//输出false</span></div><div class="line"><span class="built_in">console</span>.log(<span class="string">'toString'</span> <span class="keyword">in</span> obj);	<span class="comment">//输出true</span></div><div class="line"><span class="built_in">console</span>.log(obj.hasOwnProperty(<span class="string">'toString'</span>));	<span class="comment">//输出false</span></div></pre></td></tr></table></figure></p>
+<figure class="highlight php"><figcaption><span>4.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">$obj = <span class="keyword">array</span>(</div><div class="line">        <span class="string">'a2'</span> =&gt; <span class="number">1</span>,</div><div class="line">        <span class="string">'a-2'</span> =&gt; <span class="number">2</span>,</div><div class="line">        <span class="string">'test'</span> =&gt; <span class="number">3</span>,</div><div class="line">    );</div><div class="line"><span class="keyword">echo</span> $obj[<span class="string">'a2'</span>];	<span class="comment">//输出2</span></div><div class="line"><span class="keyword">unset</span>($obj[<span class="string">'test'</span>]);var_dump($obj);	<span class="comment">//输出&#123; 'a2' =&gt; 1, 'a-2'=&gt; 2 &#125;</span></div><div class="line">var_dump(in_array(<span class="string">'name'</span>,$obj));	<span class="comment">//输出false</span></div><div class="line">var_dump(in_array(<span class="string">'toString'</span>,$obj));	<span class="comment">//输出false</span></div></pre></td></tr></table></figure>
+<h1 id="条件与循环"><a href="#条件与循环" class="headerlink" title="条件与循环"></a>条件与循环</h1><h2 id="条件语句"><a href="#条件语句" class="headerlink" title="条件语句"></a>条件语句</h2><p><code>if-else</code>条件语句的使用方法完全一致</p>
+<blockquote>
+<p><code>js</code>把<code>null</code>、<code>undefined</code>、<code>0</code>、<code>NaN</code>和空字符串<code>&#39;&#39;</code>视为false，其他值包括<code>[ ]</code>、<code>{}</code>一概视为true<br><code>php</code>把<code>null</code>、<code>0</code>、<code>&#39;&#39;</code>、<code>[ ]</code>视为false,<code>NaN</code>与<code>undefined</code>在<code>php</code>没有特定意义，会视为true</p>
+</blockquote>
+<h2 id="循环语句"><a href="#循环语句" class="headerlink" title="循环语句"></a>循环语句</h2><p><code>for</code>、<code>while</code>、<code>do...whild</code>、<code>break</code>用法二者完全一致</p>
+<p>更便捷的遍历数组的方法，<code>js</code>中有<code>for in</code>，<code>php</code>中有<code>foreach</code><br>示例：</p>
+<figure class="highlight js"><figcaption><span>5.js</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>];</div><div class="line"><span class="keyword">for</span>(<span class="keyword">var</span> i <span class="keyword">in</span> arr)&#123;</div><div class="line">    <span class="built_in">console</span>.log(i+<span class="string">'-'</span>+arr[i]);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>运行结果：<br>0-a<br>1-b<br>2-c</p>
+</blockquote>
+<figure class="highlight php"><figcaption><span>5.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span> </div><div class="line">$arr = [<span class="string">'a'</span>,<span class="string">'b'</span>,<span class="string">'c'</span>];</div><div class="line"><span class="keyword">foreach</span>($arr <span class="keyword">as</span> $key =&gt; $value)&#123;</div><div class="line">    <span class="keyword">echo</span> $key.<span class="string">'-'</span>.$value.<span class="string">"\n"</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>运行结果：<br>0-a<br>1-b<br>2-c</p>
+</blockquote>
+<h1 id="Map、Set、iterable-ES6"><a href="#Map、Set、iterable-ES6" class="headerlink" title="Map、Set、iterable(ES6)"></a>Map、Set、iterable(ES6)</h1><hr>
+<h2 id="从下面开始基本上已经找不到跟php类似的地方了"><a href="#从下面开始基本上已经找不到跟php类似的地方了" class="headerlink" title="从下面开始基本上已经找不到跟php类似的地方了"></a>从下面开始基本上已经找不到跟<code>php</code>类似的地方了</h2><h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><h2 id="函数的定义"><a href="#函数的定义" class="headerlink" title="函数的定义"></a>函数的定义</h2><p><code>js</code>中没有<code>return</code>语句会返回<code>undefined</code>,<code>php</code>则不会</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">abs</span>(<span class="params">x</span>)</span>&#123;</div><div class="line">	... ...</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>等价于</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> abs = <span class="function"><span class="keyword">function</span> (<span class="params">x</span>) </span>&#123;	<span class="comment">//定义匿名函数，没有函数名，通过变量名abs调用函数</span></div><div class="line">    ... ...</div><div class="line">    &#125;;	<span class="comment">//以分号收尾</span></div></pre></td></tr></table></figure>
+<p>第二种定义函数的方式只有<code>js</code>支持，<code>php</code>不支持</p>
+<h2 id="函数入参"><a href="#函数入参" class="headerlink" title="函数入参"></a>函数入参</h2><blockquote>
+<p>arguments指向当前函数的调用者传入的所有参数<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">add</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="keyword">var</span> sum=<span class="number">0</span>;</div><div class="line">    <span class="keyword">for</span>(<span class="keyword">var</span> i=<span class="number">0</span>;i&lt;<span class="built_in">arguments</span>.length;i++)&#123;</div><div class="line">        sum +=<span class="built_in">arguments</span>[i];</div><div class="line">    &#125;</div><div class="line">    <span class="keyword">return</span> sum;</div><div class="line">&#125;</div><div class="line"><span class="built_in">console</span>.log(add(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>));	<span class="comment">//输出6</span></div></pre></td></tr></table></figure></p>
+<p>rest(ES6)指向当前函数的调用者传入的除已定义参数外的其它参数<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params">a, b, ...rest</span>) </span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'a = '</span> + a);</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'b = '</span> + b);</div><div class="line">    <span class="built_in">console</span>.log(rest);</div><div class="line">&#125;</div><div class="line">foo(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>);</div><div class="line"><span class="comment">// 结果:</span></div><div class="line"><span class="comment">// a = 1</span></div><div class="line"><span class="comment">// b = 2</span></div><div class="line"><span class="comment">// Array [ 3, 4, 5 ]</span></div><div class="line">foo(<span class="number">1</span>);</div><div class="line"><span class="comment">// 结果:</span></div><div class="line"><span class="comment">// a = 1</span></div><div class="line"><span class="comment">// b = undefined</span></div><div class="line"><span class="comment">// Array []</span></div></pre></td></tr></table></figure></p>
+</blockquote>
+<h2 id="变量提升"><a href="#变量提升" class="headerlink" title="变量提升"></a>变量提升</h2><p>JavaScript的函数定义有个特点，它会先扫描整个函数体的语句，把所有申明的变量“提升”到函数顶部</p>
+<blockquote>
+<p>意思是说如果你先使用变量，再在后面申明不会报错，但是前面使用的变量值是<code>undefined</code>,所以要用的变量最好提前声明</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">foo</span>(<span class="params"></span>) </span>&#123;</div><div class="line">    <span class="keyword">var</span> x = <span class="string">'Hello, '</span> + y;</div><div class="line">    alert(x);</div><div class="line">    <span class="keyword">var</span> y = <span class="string">'Bob'</span>;</div><div class="line">&#125;</div><div class="line">foo();</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出：<br>Hello, undefined</p>
+</blockquote>
+<h2 id="全局作用域"><a href="#全局作用域" class="headerlink" title="全局作用域"></a>全局作用域</h2><p>默认的全局对象<code>window</code>，全局作用域的变量和方法都被绑定为<code>window</code>的一个属性</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="meta">'use strict'</span>;</div><div class="line"><span class="keyword">var</span> a = <span class="number">3</span>;</div><div class="line"><span class="built_in">console</span>.log(a);</div><div class="line"><span class="built_in">console</span>.log(<span class="built_in">window</span>.a);</div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">func</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    <span class="built_in">console</span>.log(<span class="string">'test'</span>);</div><div class="line">&#125;</div><div class="line">func();</div><div class="line"><span class="built_in">window</span>.func();</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出：<br>3<br>3<br>test<br>test</p>
+</blockquote>
+<h2 id="块级作用域let"><a href="#块级作用域let" class="headerlink" title="块级作用域let"></a>块级作用域let</h2><p>比<code>var</code>的作用范围小，可以只在<code>if</code>、<code>for</code>的代码块中生效</p>
+<p>变量的作用域：<br><code>全局变量 &gt; 成员变量 &gt; 块级变量</code></p>
+<p>s</p>
+<h2 id="ES6可以用const声明常量"><a href="#ES6可以用const声明常量" class="headerlink" title="ES6可以用const声明常量"></a>ES6可以用<code>const</code>声明常量</h2><p>用<code>var</code>来申明常量，属于一种约定,意思是告诉别人我申明的是一个常量，但修改它的值不会报错</p>
+<p>如果常量是用<code>const</code>申明的话，修改它的值会报错</p>
+<h2 id="this"><a href="#this" class="headerlink" title="this"></a>this</h2><p>函数内部<code>this</code>指向<br>如果以对象的方法形式调用，如<code>object.func()</code>,那么<code>func()</code>方法中的<code>this</code>就指向<code>object</code>对象；单独调用<code>func()</code>方法中的<code>this</code>指向全局的<code>window</code>对象(<code>strict</code>模式下指向<code>undefined</code>)</p>
+<h2 id="高阶函数"><a href="#高阶函数" class="headerlink" title="高阶函数"></a>高阶函数</h2><p><code>js</code>中函数也可以当做变量<br>以函数为入参的函数就是高阶函数</p>
+<h3 id="map"><a href="#map" class="headerlink" title="map"></a>map</h3><blockquote>
+<p>用指定的方法作用于数组中的每一个元素</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</div><div class="line"><span class="keyword">var</span> add = <span class="function"><span class="keyword">function</span>(<span class="params">x</span>)</span>&#123;</div><div class="line">    <span class="keyword">return</span> ++x;</div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> arr2 = arr.map(add);	<span class="comment">//相当于[1+1,2+1,3+1,4+1]</span></div><div class="line">alert(arr2);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>结果为：<br>2,3,4,5</p>
+</blockquote>
+<p>如果<code>map</code>参数中使用的方法支持多个入参，需要小心，可能踩坑。看下面的例子（<code>parseInt</code>是字符串转换为整数的方法）：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'1'</span>,<span class="string">'2'</span>,<span class="string">'3'</span>,<span class="string">'4'</span>];</div><div class="line"><span class="keyword">var</span> arr2 = arr.map(<span class="built_in">parseInt</span>);</div><div class="line">alert(arr2);</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>输出<br>[ 1, NaN, NaN, NaN ]</p>
+</blockquote>
+<p>为了帮助理解，我们看一下map方法向它向作为参数的函数传递的是怎样的参数<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="string">'1'</span>,<span class="string">'2'</span>,<span class="string">'3'</span>,<span class="string">'4'</span>];</div><div class="line"><span class="keyword">var</span> arr2 = arr.map(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">	alert(<span class="built_in">arguments</span>);</div><div class="line">&#125;);</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>输出：<br>{ ‘0’: ‘1’, ‘1’: 0, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }<br>{ ‘0’: ‘2’, ‘1’: 1, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }<br>{ ‘0’: ‘3’, ‘1’: 2, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }<br>{ ‘0’: ‘4’, ‘1’: 3, ‘2’: [ ‘1’, ‘2’, ‘3’, ‘4’ ] }</p>
+</blockquote>
+<p><code>map</code>传递了三个参数：<code>值</code>、<code>索引</code>、<code>数组</code></p>
+<p>而<code>parseInt</code>函数说明如下：<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1469516107543.png" alt=""></p>
+<p>之前的程序相当于依次执行下面的操作：<br><figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">parseInt</span>(<span class="number">1</span>,<span class="number">0</span>);</div><div class="line"><span class="built_in">parseInt</span>(<span class="number">2</span>,<span class="number">1</span>);</div><div class="line"><span class="built_in">parseInt</span>(<span class="number">3</span>,<span class="number">2</span>);</div><div class="line"><span class="built_in">parseInt</span>(<span class="number">4</span>,<span class="number">3</span>);</div></pre></td></tr></table></figure></p>
+<h3 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h3><blockquote>
+<p>指定的方法作用于数组的前两个元素，得到的结果与下一个元素重复此过程</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</div><div class="line"><span class="keyword">var</span> add = <span class="function"><span class="keyword">function</span>(<span class="params">x,y</span>)</span>&#123;</div><div class="line">	<span class="keyword">return</span> x+y;</div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> arr2 = arr.reduce(add);	<span class="comment">//相当于((1+2)+3)+4</span></div><div class="line">alert(arr2);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>结果为：<br>10</p>
+</blockquote>
+<h3 id="filter"><a href="#filter" class="headerlink" title="filter"></a>filter</h3><blockquote>
+<p>在<code>filter</code>的入参中指定筛选的规则,最后返回数组中满足条件的部分</p>
+</blockquote>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>];</div><div class="line"><span class="keyword">var</span> rule = <span class="function"><span class="keyword">function</span>(<span class="params">x</span>)</span>&#123;</div><div class="line">    <span class="keyword">return</span> x % <span class="number">2</span> == <span class="number">0</span>; </div><div class="line">&#125;;</div><div class="line"><span class="keyword">var</span> arr2 = arr.filter(rule);</div><div class="line">alert(arr2);</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出:<br>2,4</p>
+</blockquote>
+<h3 id="sort"><a href="#sort" class="headerlink" title="sort"></a>sort</h3><blockquote>
+<p>默认的<code>sort()</code>方法先将要比较的对象先转为字符串再比较，比较字符串的时候会根据<code>ASCII</code>值进行比较</p>
+</blockquote>
+<p>因此如果直接用<code>sort</code>方法比较整数数组数组时，可能会出现问题，如下</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alert([<span class="number">1</span>,<span class="number">2</span>,<span class="number">10</span>].sort());</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>1,10,2</p>
+</blockquote>
+<p>好在<code>sort</code>方法是个高阶函数，允许我们在使用的时候指定排序的规则：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">alert([<span class="number">1</span>,<span class="number">2</span>,<span class="number">10</span>].sort(<span class="function"><span class="keyword">function</span>(<span class="params">x,y</span>)</span>&#123;</div><div class="line">    <span class="keyword">if</span>(x&gt;y)&#123;<span class="keyword">return</span> <span class="number">1</span>;&#125;</div><div class="line">    <span class="keyword">if</span>(x=y)&#123;<span class="keyword">return</span> <span class="number">0</span>;&#125;</div><div class="line">    <span class="keyword">if</span>(x&lt;y)&#123;<span class="keyword">return</span> <span class="number">-1</span>;&#125;</div><div class="line">&#125;));</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果：<br>1,2,10</p>
+</blockquote>
+<h1 id="闭包"><a href="#闭包" class="headerlink" title="闭包"></a>闭包</h1><h1 id="箭头函数"><a href="#箭头函数" class="headerlink" title="箭头函数"></a>箭头函数</h1><h1 id="gennerator"><a href="#gennerator" class="headerlink" title="gennerator"></a>gennerator</h1>
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/07/22/js-study-note/">PHPer学习JS 语法</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">小凡</a></p>
+        <p><span>发布时间:</span>2016-07-22, 10:32:45</p>
+        <p><span>最后更新:</span>2017-07-12, 20:15:47</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/07/22/js-study-note/" title="PHPer学习JS 语法">http://jimxu.me/2016/07/22/js-study-note/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://jimxu.me/2016/07/22/js-study-note/　　作者: 小凡" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2016/07/27/hexo-yelee-theme-setting/">
+                    hexo的yelee主题设置
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/07/21/sublime-build-js-develop-environment/">
+                    sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#入门"><span class="toc-number">1.</span> <span class="toc-text">入门</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#变量"><span class="toc-number">1.1.</span> <span class="toc-text">变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#strict模式"><span class="toc-number">1.2.</span> <span class="toc-text">strict模式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#查看变量类型"><span class="toc-number">1.3.</span> <span class="toc-text">查看变量类型</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#与"><span class="toc-number">1.4.</span> <span class="toc-text">==与===</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#浮点数"><span class="toc-number">1.5.</span> <span class="toc-text">浮点数</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#数组"><span class="toc-number">1.6.</span> <span class="toc-text">数组</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#对象"><span class="toc-number">1.7.</span> <span class="toc-text">对象</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#输出"><span class="toc-number">1.8.</span> <span class="toc-text">输出</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#字符串"><span class="toc-number">2.</span> <span class="toc-text">字符串</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#单引号和双引号"><span class="toc-number">2.1.</span> <span class="toc-text">单引号和双引号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#字符串函数"><span class="toc-number">2.2.</span> <span class="toc-text">字符串函数</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#数组-1"><span class="toc-number">3.</span> <span class="toc-text">数组</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#数组函数："><span class="toc-number">3.1.</span> <span class="toc-text">数组函数：</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#对象-1"><span class="toc-number">4.</span> <span class="toc-text">对象</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#在js和php中的区别"><span class="toc-number">4.1.</span> <span class="toc-text">在js和php中的区别</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#对象方法"><span class="toc-number">4.2.</span> <span class="toc-text">对象方法</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#条件与循环"><span class="toc-number">5.</span> <span class="toc-text">条件与循环</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#条件语句"><span class="toc-number">5.1.</span> <span class="toc-text">条件语句</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#循环语句"><span class="toc-number">5.2.</span> <span class="toc-text">循环语句</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Map、Set、iterable-ES6"><span class="toc-number">6.</span> <span class="toc-text">Map、Set、iterable(ES6)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#从下面开始基本上已经找不到跟php类似的地方了"><span class="toc-number">6.1.</span> <span class="toc-text">从下面开始基本上已经找不到跟php类似的地方了</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#函数"><span class="toc-number">7.</span> <span class="toc-text">函数</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#函数的定义"><span class="toc-number">7.1.</span> <span class="toc-text">函数的定义</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#函数入参"><span class="toc-number">7.2.</span> <span class="toc-text">函数入参</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#变量提升"><span class="toc-number">7.3.</span> <span class="toc-text">变量提升</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#全局作用域"><span class="toc-number">7.4.</span> <span class="toc-text">全局作用域</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#块级作用域let"><span class="toc-number">7.5.</span> <span class="toc-text">块级作用域let</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ES6可以用const声明常量"><span class="toc-number">7.6.</span> <span class="toc-text">ES6可以用const声明常量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#this"><span class="toc-number">7.7.</span> <span class="toc-text">this</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#高阶函数"><span class="toc-number">7.8.</span> <span class="toc-text">高阶函数</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#map"><span class="toc-number">7.8.1.</span> <span class="toc-text">map</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#reduce"><span class="toc-number">7.8.2.</span> <span class="toc-text">reduce</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#filter"><span class="toc-number">7.8.3.</span> <span class="toc-text">filter</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#sort"><span class="toc-number">7.8.4.</span> <span class="toc-text">sort</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#闭包"><span class="toc-number">8.</span> <span class="toc-text">闭包</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#箭头函数"><span class="toc-number">9.</span> <span class="toc-text">箭头函数</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#gennerator"><span class="toc-number">10.</span> <span class="toc-text">gennerator</span></a></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"PHPer学习JS 语法　| 就叫我小凡吧　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/07/27/hexo-yelee-theme-setting/" title="上一篇: hexo的yelee主题设置">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/07/21/sublime-build-js-develop-environment/" title="下一篇: sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/get-started-to-crontab/">crontab入门</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/use-mtr-detect-network-status/">使用mtr工具检测网络w</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/using-Coding-host-website-code/">将Hexo网站托管到Coding.net</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/11/how-to-use-jekyll/">尝试jekyll</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/fix-invalid-private-key-after-reboot/">解决重启后私钥失效的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/how-to-use-github-and-gitlab-same-time/">mac电脑上同时使用多个git平台</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/ssh-connect-server-without-password/">ssh连接服务器更简单一点</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/28/mac-must-install-software/">php开发者mac必装软件 - 终极版本</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/22/use-sublime-open-project/">设置使用sublime打开项目文件夹</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/21/phpstorm-php-file-header/">phpstorm修改php文件头模板</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/13/yaf-study-note-module/">Yaf学习笔记5:模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/12/yaf-study-note-mvc/">Yaf学习笔记4:MVC模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/09/yaf-study-note-config/">Yaf学习笔记3:配置</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/yaf-study-note-structure/">Yaf学习笔记2:项目结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/fibonacci-algorithm/">斐波那契数列问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/wechat-rafale-algorithm/">微信领红包问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/recycle-bottle-algorithm/">回收饮料瓶问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/yaf-study-note-install/">Yaf学习笔记1:Mac环境下的安装运行</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/31/favourite-movie-list/">Movie List</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/26/php-review-note-on-2017-06/">php个人面试题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/17/laravel-study-note-structure/">Laravel目录结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/10/rebuild-mac-develop-environment/">从零搭建mac开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/27/phpstorm-use-atom-theme/">phpstorm安装Atom主题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/20/backend-develop-skill-tree/">后端开发技能树</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/15/book-list/">个人书单</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/">[mysql error]The server quit without updating PID file </a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/phpstorm-key-maps/">phpStorm快捷键个人设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/my-thinking-about-redis/">关于缓存的一些思考</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/vscode-build-golang-develop-environment/">vscode搭建go-lang开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/sublime-build-golang-develop-environment/">sublime搭建go-lang开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/sublime-error-There-are-no-packages-available-for-installation/">sublime报错There are no packages available for installation</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/run-first-go-program/">mac安装go并运行第一个程序</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/go-study-note/">go语言入门知识点</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/10/magento-system-config-summary/">Magento后台配置攻略</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/markdown-insert-image-skills/">MarkDown插入图片技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/how-to-use-markdown/">MarkDown基础介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/magento-set-up-sql-common-problems/">Magento升级脚本常见问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/06/phpstorm-code-style-wrapping=-and-braces/">phpStorm格式化代码设置等号对齐</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/06/magento-get-address-data-by-order/">Magento根据订单获取地址信息</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpmd-in-phpstorm-on-mac/">mac下phpStorm配置使用phpmd</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpstorm-develop-magento-skills/">用phpStorm进行magento开发的几个Tips</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/some-psr-error/">psr2规范</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/xml-error-Unescaped-or-nonterminated-character-entity-reference/">[xml error]Unescaped & or nonterminated character/entity reference</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpcs-in-phpstorm-on-mac/">mac下phpStorm配置使用phpcs</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/31/some-awesome-phpstorm-plugins/">phpStorm有哪些值得安装的插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/hexo-nexT-theme-add-categories-and-tags/">hexo nexT主题新增分类页和标签页</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/hexo-language-setting-not-effective/">hexo语言设置未生效解决办法</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/12-design-patterns-in-magento/">[译]Magento中的12种设计模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/what-does-magento's-order-model-save-function-do/">[magento]Order对象的save方法执行哪些操作？</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/29/what-does-magento's-order-model-cancel-function-do/">[magento]Order对象的cancel方法会执行哪些操作？</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/">[PHP ERROR]:Arrays are not allowed in class constants </a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/13/ios software list/">Software List - IOS</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/01/03/lua-study-note/">Lua学习笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/28/some-sql/">常用sql操作</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/27/ios-and-mac-skills/">ios\macOs技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/27/magento-inspect-sql-of-specific-code/">magento中查看某一段代码生成的sql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/29/magento-add-column-of-grid-table/">[译]给用户grid表增加新的column</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/16/mac software list/">SoftWare List - Mac</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/03/build-php-develop-environment-in-atom/">使用atom进行php开发</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/27/hexo-yelee-theme-setting/">hexo的yelee主题设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/22/js-study-note/">PHPer学习JS 语法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/21/sublime-build-js-develop-environment/">sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/">magento报错:Customer website ID must be specified when using the website scope</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/php-float-to-int/">php浮点数取整</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/magento-set-system-config-default-value/">magento设置后台配置的默认值</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/xml-error-XML-declaration-allowed-only-at-the-start-of-the-document/">XML报错:XML declaration allowed only at the start of the document</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/19/magento-crom/">magento计划任务</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/19/hexo-show-categories-and-tags/">hexo文章的分类和标签</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/14/mysql-in-magento/">Magento数据库非EAV模型使用</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/13/hexo-404-page/">设置hexo404页面</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/12/magneto-common-method/">magento常用方法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/12/oh-my-zsh-plugin-wd/">在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/wakatime-record-coding/">记录你的编程习惯 - 编辑器通用插件：WakaTime</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/sublime-plugin-markdown-preview/">sublime插件 - markdown编辑和预览</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/sublime3144-build-php-develop-environment/">sublime3144版本搭建php开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/magento-locale/">magento后台汉化</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/git-ignore-file-mode/">git设置忽略对文件权限进行版本控制</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/10/magento-new-module-add-system-config/">magento新建模块的后台配置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hexo-landscape-plus-set-head-image/">hexo菜单栏背景图片设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hexo-bind-godaddy-host-name/">hexo绑定DNSPOD代理的狗爹域名</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/fix-hexo-baidu-share/">hexo的landscape-plus主题百度分享无法加载的bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/xdebug-in-phpstorm-on-mac/">mac下phpstorm配置xdebug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/fix-Alfred-markdown-workflow/">markdown图片链接生成的Alfred脚本微调整</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/python-install-requests/">python安装requests库</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/mangeto-rewrite-core-model/">magento复写core中的model</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/magento-rewrite-core-controller/">magento复写core中的controller</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/magneto-enable-backend-login-captcha/">magento用户登录开启验证码功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/set-nginx-server/">mac下nginx服务器设置虚拟主机</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/hexo-set-read-more/">hexo如何让首页的文章只显示一部分并出现查看更多选项</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/hexo-landscapse-plus-code-highlight-test/">landscape-plus主题代码高亮测试</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/sublime-plugin-css-color-hignlighter/">sublime插件 - css颜色高亮与取色器</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/set-hexo-page-size/">分别设置hexo首页、标签页、归档页文章个数</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/">解决hexo的landscape-plus主题标签和归档无法分页的bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-plus-add-post-toc/">landscape-plus主题增加hexo文章目录功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-new-post-template/">hexo默认文章的模板修改</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-pluas-add-recent-comment/">hexo侧边栏安装最近评论小物件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-new-page/">hexo菜单栏创建留言板</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/">运行hexo报错解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-plus-busuanzi-plugin/">hexo的landscape-plus主题安装不蒜子访问量统计插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-theme-add-friends/">hexo侧边栏增加链接小物件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/show-hidden-file-in-finder/">在Finder中查看隐藏文件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/hexo-enable-duoshuo/">hexo支持多说评论</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/how-to-use-hexo/">在搭建hexo时碰到的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/how-to-install-hexo-theme/">hexo如何安装主题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/01/build-php-develop-environment-in-macvim/">如何用macVim搭建php开发的IDE</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/flush-magento-cache-after-use-redis/">安装redis后清除magento缓存失效解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/how-to-visit-magento-controller/">访问模块中的controller</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/disable-module-in-magento/">禁用magento模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/how-to-add-module-in-magento/">新增magento模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/enable-magento-develop-model/">开启开发者模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/magento-code-structure/">初识magento框架代码结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/">mac下php开发环境搭建:nginx+mysql+php+php-fpm</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/28/sublime-php-build-system-on-mac/">mac环境sublime配置php编译环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/flush-magento-cache/">如何清除magento缓存</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/show-name-of-template-and-block-in-magento/">定位前台的template和block</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/how-to-install-magento/">安装magento</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/fast-type-long-shell-command/">mac下快速输入长命令行的两种方法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/oh-my-zsh-cow-welcome/">在oh my zsh的基础上添加终端的欢迎界面</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/">mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/23/how-to-use-json/">在php中使用json</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/22/magento-log/">magento日志</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/21/redis-in-magento/">在magento中配置使用redis缓存</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/20/install-redis-on-mac/">mac下安装redis</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/16/reset-launchpad-icon/">重新排序Launchpad图标</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/16/homebrew、homebrew-cask及cakebrew/">homebrew、homebrew-cask及cakebrew</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/22/php-review-note-on-2016-04/">php面试笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/18/use-fiddler-to-change-website-cotent/">通过Fiddler工具进行接口代理-改变线上网页的显示结果</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/how-to-use-charles-on-windows/">windows下通过charles和夜神模拟器对安卓app进行抓包</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2015-2017 小凡
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+             archives: ".archive-article-title", 
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
+</body>
+</html>

@@ -1,44 +1,392 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Jimxu技术日记</title>
-  <subtitle>个人标签：宅男、PHP开发、软件、手游、小说</subtitle>
+  <title>就叫我小凡吧</title>
+  <subtitle>这一切都是命运石之门的选择！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-06-22T03:44:20.000Z</updated>
+  <updated>2017-07-12T12:15:47.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
-    <name>Jimxu</name>
+    <name>小凡</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>设置使用sublime打开项目文件夹</title>
-    <link href="http://jimxu.me/2017/06/22/%E8%AE%BE%E7%BD%AE%E4%BD%BF%E7%94%A8sublime%E6%89%93%E5%BC%80%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E5%A4%B9/"/>
-    <id>http://jimxu.me/2017/06/22/设置使用sublime打开项目文件夹/</id>
-    <published>2017-06-22T03:42:45.000Z</published>
-    <updated>2017-06-22T03:44:20.000Z</updated>
+    <title>crontab入门</title>
+    <link href="http://jimxu.me/2017/07/12/get-started-to-crontab/"/>
+    <id>http://jimxu.me/2017/07/12/get-started-to-crontab/</id>
+    <published>2017-07-12T09:43:43.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>使用mac自带的automator工具</p>
+    <content type="html"><![CDATA[<p>crontab用来定时执行脚本</p>
+<p>为什么要定时执行脚本：</p>
+<ul>
+<li>异步处理，如下单赠品，计算用户会员等</li>
+<li>自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等</li>
+</ul>
+<a id="more"></a>
+<h2 id="crontab文件格式"><a href="#crontab文件格式" class="headerlink" title="crontab文件格式"></a>crontab文件格式</h2><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">分钟 小时 日 月 星期 [<span class="keyword">command</span>]</div></pre></td></tr></table></figure>
+<p>一条crontab执行的shell脚本分为6部分</p>
+<ol>
+<li>分钟,默认*</li>
+<li>小时,默认*</li>
+<li>日,默认*</li>
+<li>月,默认*</li>
+<li>星期,默认*</li>
+<li>命令</li>
+</ol>
+<p>前面五个部分用于指定脚本的执行时间和频率，默认<code>* * * * *</code>代表每分钟执行一次</p>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//输入精确时间</span></div><div class="line"><span class="number">3</span> * * * * do_sth	   <span class="comment">//每3分钟执行一次</span></div><div class="line"><span class="comment">//输入范围</span></div><div class="line">* <span class="number">5</span><span class="number">-23</span> * * * do_sth   <span class="comment">//从凌晨5点到晚上11点每分钟执行一次（普通人作息时间）</span></div><div class="line"><span class="comment">//输入可选项</span></div><div class="line">* * * * <span class="number">6</span>,<span class="number">7</span>          <span class="comment">//在周六和周日每分钟执行一次</span></div></pre></td></tr></table></figure>
+<h2 id="启用cron"><a href="#启用cron" class="headerlink" title="启用cron"></a>启用cron</h2><p>新建一个cron文件 <code>$HOME/jimcron</code><br>编辑如下：</p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#<span class="built_in">log</span> <span class="built_in">time</span> every <span class="built_in">min</span></div><div class="line">* * * * * /bin/echo <span class="built_in">date</span> &gt; ~/cron.<span class="built_in">log</span></div></pre></td></tr></table></figure>
+<p>然后执行下面的命令启用cron</p>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">crontab</span> <span class="variable">$HOME</span>/jimcron</div></pre></td></tr></table></figure>
+<h2 id="查看所有cron"><a href="#查看所有cron" class="headerlink" title="查看所有cron"></a>查看所有cron</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab <span class="_">-l</span></div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170712149985458536665.png" alt="20170712149985458536665.png"></p>
+<h2 id="cron备份与恢复"><a href="#cron备份与恢复" class="headerlink" title="cron备份与恢复"></a>cron备份与恢复</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">crontab -l &gt; $HOME/jimcron  <span class="comment">//备份cron</span></div><div class="line">crontab $HOME/jimcron	<span class="comment">//恢复cron</span></div></pre></td></tr></table></figure>
+<h2 id="编辑当前用户的cron"><a href="#编辑当前用户的cron" class="headerlink" title="编辑当前用户的cron"></a>编辑当前用户的cron</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab <span class="_">-e</span></div></pre></td></tr></table></figure>
+<h2 id="删除cron文件"><a href="#删除cron文件" class="headerlink" title="删除cron文件"></a>删除cron文件</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">crontab -r</span></div></pre></td></tr></table></figure>
+<h2 id="ubuntu下cron命令"><a href="#ubuntu下cron命令" class="headerlink" title="ubuntu下cron命令"></a>ubuntu下cron命令</h2><figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo <span class="meta-keyword">/etc/</span>init.d/cron start	<span class="comment">//启动</span></div><div class="line">sudo <span class="meta-keyword">/etc/</span>init.d/cron stop 	<span class="comment">//关闭</span></div><div class="line">sudo <span class="meta-keyword">/etc/</span>init.d/cron restart		<span class="comment">//重启</span></div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;crontab用来定时执行脚本&lt;/p&gt;
+&lt;p&gt;为什么要定时执行脚本：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;异步处理，如下单赠品，计算用户会员等&lt;/li&gt;
+&lt;li&gt;自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="shell" scheme="http://jimxu.me/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用mtr工具检测网络w</title>
+    <link href="http://jimxu.me/2017/07/12/use-mtr-detect-network-status/"/>
+    <id>http://jimxu.me/2017/07/12/use-mtr-detect-network-status/</id>
+    <published>2017-07-12T09:21:07.000Z</published>
+    <updated>2017-07-12T12:28:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>mtr集成了traceroute、ping、nslookup功能</p>
+<a id="more"></a>
+<h1 id="安装mtr"><a href="#安装mtr" class="headerlink" title="安装mtr"></a>安装mtr</h1><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">brew </span><span class="keyword">install </span>mtr</div></pre></td></tr></table></figure>
+<h1 id="使用mtr"><a href="#使用mtr" class="headerlink" title="使用mtr"></a>使用mtr</h1><figure class="highlight armasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">mtr</span> <span class="built_in">ip</span>/host_name</div></pre></td></tr></table></figure>
+<blockquote>
+<p>mtr -h  #提供帮助命令<br>mtr -v  #显示mtr的版本信息<br>mtr -r  #已报告模式显示<br>mtr -s  #用来指定ping数据包的大小<br>mtr –no-dns  #不对IP地址做域名解析<br>mtr -a  #来设置发送数据包的IP地址 这个对一个主机由多个IP地址是有用的<br>mtr -i  #使用这个参数来设置ICMP返回之间的要求默认是1秒<br>mtr -4  #IPv4<br>mtr -6  #IPv6</p>
+</blockquote>
+<h1 id="使用mtr检测域名"><a href="#使用mtr检测域名" class="headerlink" title="使用mtr检测域名"></a>使用mtr检测域名</h1><p> jimxu.me这个域名通过DNSPod分别解析到了16bh.github.io(国外)和jimxu.coding.me(国内)</p>
+<p> 对比下托管在国内外的两个Pages服务的网络状态<br> <img src="http://o9xbyqajf.bkt.clouddn.com/20170712149986203271598.png" alt="20170712149986203271598.png"></p>
+<p>可见国内网络时托管在coding.net的网站比托管在github的网站有了大幅的提速</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mtr集成了traceroute、ping、nslookup功能&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tools" scheme="http://jimxu.me/tags/tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将Hexo网站托管到Coding.net</title>
+    <link href="http://jimxu.me/2017/07/12/using-Coding-host-website-code/"/>
+    <id>http://jimxu.me/2017/07/12/using-Coding-host-website-code/</id>
+    <published>2017-07-12T08:37:04.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用Coding提供的pages服务，将网站的代码备份一份在Coding.net<br>修改域名解析，访问网站时国内用户访问github pages，国内用户访问coding pages</p>
+<a id="more"></a>
+<h1 id="新建Coding的pages仓库"><a href="#新建Coding的pages仓库" class="headerlink" title="新建Coding的pages仓库"></a>新建Coding的pages仓库</h1><p>只需要注册<a href="https://coding.net/register?key=d59a5269-0dd0-4a51-b48a-0bba7c611a1b" target="_blank" rel="external">coding.net</a>,然后建立一个名为<code>用户名+coding.me</code>的仓库即可，需要注意的是 coding.net的pages仓库只能有一个master分支</p>
+<p><a href="https://coding.net/help/doc/pages/getting-started.html" target="_blank" rel="external">开始使用 Coding Pages官方帮助文档</a></p>
+<blockquote>
+<p>Coding Pages 分为「用户 Pages」与「项目 Pages」两种类型。查看详细介绍</p>
+<p>如果您希望创建「用户 Pages」（直接访问 {user_name}.coding.me 即可抵达您网站），只需要新建一个名为 {user_name}.coding.me 的项目即可。{user_name} 指代您本人的个性后缀，使用其他人的个性后缀不会被归为「用户 Pages」类型。</p>
+<p>除 {user_name}.coding.me 项目外，每一个项目都可以创建「项目 Pages」，无需额外操作。</p>
+<p>Coding Pages 设置选项在每个项目的「代码 -&gt; Pages 服务」中。</p>
+</blockquote>
+<h1 id="设置hexo-deploy的时候提交到coding-net"><a href="#设置hexo-deploy的时候提交到coding-net" class="headerlink" title="设置hexo deploy的时候提交到coding.net"></a>设置hexo deploy的时候提交到coding.net</h1><p>修改站点配置文件<code>_config.yml</code></p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">repository:</div><div class="line">    coding: git@git<span class="selector-class">.coding</span><span class="selector-class">.net</span>:&#123;user_name&#125;/&#123;user_name&#125;<span class="selector-class">.coding</span><span class="selector-class">.me</span><span class="selector-class">.git</span>,master</div><div class="line">    github: git@github<span class="selector-class">.com</span>:<span class="number">16</span>bh/&#123;user_name&#125;<span class="selector-class">.github</span><span class="selector-class">.io</span><span class="selector-class">.git</span>,master</div></pre></td></tr></table></figure>
+<h1 id="设置DNSPod域名解析"><a href="#设置DNSPod域名解析" class="headerlink" title="设置DNSPod域名解析"></a>设置DNSPod域名解析</h1><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170712149985102430955.png" alt="20170712149985102430955.png"></p>
+<p>最后，为了看是否生效，可以<a href="http://jimxu.me/2017/07/12/use-mtr-detect-network-status/">使用mtr检测域名的网络状态</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用Coding提供的pages服务，将网站的代码备份一份在Coding.net&lt;br&gt;修改域名解析，访问网站时国内用户访问github pages，国内用户访问coding pages&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="website" scheme="http://jimxu.me/tags/website/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>尝试jekyll</title>
+    <link href="http://jimxu.me/2017/07/11/how-to-use-jekyll/"/>
+    <id>http://jimxu.me/2017/07/11/how-to-use-jekyll/</id>
+    <published>2017-07-11T09:16:50.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>jekyll是和hexo一样的静态博客框架</p>
+<figure class="highlight axapta"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">brew install ruby    <span class="comment">//安装ruby环境</span></div><div class="line">gem install jekyll   <span class="comment">//安装jekyll</span></div><div class="line">jekyll <span class="keyword">new</span> blog      <span class="comment">//新建一个本地站点</span></div><div class="line">cd blog  </div><div class="line">jekyll <span class="keyword">server</span>  启动本地服务器</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>启动本地服务器后，终端显示如下：</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Configuration file: /Users/jim/jimxu-blog/_config.yml</div><div class="line">       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please <span class="keyword">update</span> your config <span class="keyword">file</span> accordingly.</div><div class="line">            <span class="keyword">Source</span>: /<span class="keyword">Users</span>/jim/jimxu-blog</div><div class="line">       Destination: /<span class="keyword">Users</span>/jim/jimxu-blog/_site</div><div class="line"> Incremental <span class="keyword">build</span>: disabled. <span class="keyword">Enable</span> <span class="keyword">with</span> <span class="comment">--incremental</span></div><div class="line">      Generating...</div><div class="line">                    done <span class="keyword">in</span> <span class="number">0.39</span> seconds.</div><div class="line"> <span class="keyword">Auto</span>-regeneration: enabled <span class="keyword">for</span> <span class="string">'/Users/jim/jimxu-blog'</span></div><div class="line">    <span class="keyword">Server</span> address: <span class="keyword">http</span>://<span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span>:<span class="number">4000</span>/</div><div class="line">  <span class="keyword">Server</span> running... press ctrl-c <span class="keyword">to</span> stop.</div></pre></td></tr></table></figure>
+<p>此时访问<code>http://127.0.0.1:4000/</code>预览生成的网站<br>按<code>ctrl+c</code>关闭本地服务器</p>
+<p>初始效果：</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170711149976507027132.png" alt="20170711149976507027132.png"></p>
+<p>安装时如果报<code>jekyll 3.5.0 | Error:  bundler</code>的错误:</p>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gem <span class="keyword">install </span><span class="keyword">jekyll </span><span class="keyword">bundler</span></div></pre></td></tr></table></figure>
+<p>启动server时报<code>Operation not supported on socket @ rb_sysopen - /Users/jim/Library/Application Support/Google/Chrome/App Shim Socket</code>错误：</p>
+<blockquote>
+<p>需要先进入生成的项目目录再执行jekyll server命令</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;jekyll是和hexo一样的静态博客框架&lt;/p&gt;
+&lt;figure class=&quot;highlight axapta&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;brew install ruby    &lt;span class=&quot;comment&quot;&gt;//安装ruby环境&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;gem install jekyll   &lt;span class=&quot;comment&quot;&gt;//安装jekyll&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;jekyll &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; blog      &lt;span class=&quot;comment&quot;&gt;//新建一个本地站点&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;cd blog  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;jekyll &lt;span class=&quot;keyword&quot;&gt;server&lt;/span&gt;  启动本地服务器&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="jekyll" scheme="http://jimxu.me/tags/jekyll/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决重启后私钥失效的问题</title>
+    <link href="http://jimxu.me/2017/07/07/fix-invalid-private-key-after-reboot/"/>
+    <id>http://jimxu.me/2017/07/07/fix-invalid-private-key-after-reboot/</id>
+    <published>2017-07-07T08:26:09.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>通过ssh-add的方式添加私钥后，重启后会导致私钥无效，需要重新添加</p>
+<p>原因是ssh-add的方法是将private key加入到ssh-agent中，而ssh-agent是用来临时存储私钥的session服务</p>
+<p>整理了一下解决方法</p>
+<a id="more"></a>
+<h2 id="设置脚本自动添加私钥"><a href="#设置脚本自动添加私钥" class="headerlink" title="设置脚本自动添加私钥"></a>设置脚本自动添加私钥</h2><p>现在解决之前遇到的重启后私钥失效的问题</p>
+<p>使用mac自带的<code>Automator</code>工具</p>
+<p>新建一个应用程序<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170707149941570858169.png" alt="20170707149941570858169.png"></p>
+<p>选择<code>运行shell脚本</code></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170707149941566797740.png" alt="20170707149941566797740.png"></p>
+<p>在脚本中添加如下命令</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.gitlab</span></div><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.github</span></div></pre></td></tr></table></figure>
+<p>保存，命名为<code>ssh-add private keys</code>，会生成一个app，设置开机启动该app即可</p>
+<h2 id="永久添加私钥"><a href="#永久添加私钥" class="headerlink" title="永久添加私钥"></a>永久添加私钥</h2><blockquote>
+<p>原文见 <a href="http://www.icodeyou.com/2016/01/17/ssh-add-mac/" target="_blank" rel="external">Mac 上 ssh-add 永久将私钥添加到 Keychain</a></p>
+</blockquote>
+<p>如果不想使用下面的脚本,可以用下面的命令添加私钥</p>
+<p>ssh-agent 是一个用于存储私钥的临时性的 session 服务<br>将私钥存储在Keychain中就可以永久使用了</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -<span class="keyword">add</span><span class="bash"> -K id_rsa.github</span></div></pre></td></tr></table></figure>
+<blockquote>
+<p>github关于ssh的说明：<a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="external">https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;通过ssh-add的方式添加私钥后，重启后会导致私钥无效，需要重新添加&lt;/p&gt;
+&lt;p&gt;原因是ssh-add的方法是将private key加入到ssh-agent中，而ssh-agent是用来临时存储私钥的session服务&lt;/p&gt;
+&lt;p&gt;整理了一下解决方法&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="git" scheme="http://jimxu.me/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac电脑上同时使用多个git平台</title>
+    <link href="http://jimxu.me/2017/07/07/how-to-use-github-and-gitlab-same-time/"/>
+    <id>http://jimxu.me/2017/07/07/how-to-use-github-and-gitlab-same-time/</id>
+    <published>2017-07-07T08:05:48.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>用ssh的方式使用git平台的时候，需要先预先生成秘钥，在git平台设置了公钥，才可以使用</p>
+<p>我们可以同时使用了多个git平台，如github和gitlab</p>
+<p>只需要为他们生成不同的秘钥就可以了</p>
+<a id="more"></a>
+<h2 id="生成秘钥，指定秘钥的名称"><a href="#生成秘钥，指定秘钥的名称" class="headerlink" title="生成秘钥，指定秘钥的名称"></a>生成秘钥，指定秘钥的名称</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//生成gitlab的秘钥</span></div><div class="line">ssh-keygen -t rsa -f ~/.ssh/id_rsa<span class="selector-class">.gitlab</span> -C <span class="string">"test_aaa@126.com"</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">//生成github的秘钥</span></div><div class="line">ssh-keygen -t rsa -f ~/.ssh/id_rsa<span class="selector-class">.github</span> -C <span class="string">"test_bbb@126.com"</span></div></pre></td></tr></table></figure>
+<p>执行完上述的操作的时候，在<code>~/.ssh</code>目录就可以看到如下的4个文件</p>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">id_rsa<span class="selector-class">.gitlab</span>        gitlab的私钥</div><div class="line">id_rsa<span class="selector-class">.gitlab</span><span class="selector-class">.pub</span>    gitlab的公钥</div><div class="line">id_rsa<span class="selector-class">.github</span>        github的私钥</div><div class="line">id_rsa<span class="selector-class">.github</span><span class="selector-class">.pub</span>    github的公钥</div></pre></td></tr></table></figure>
+<h2 id="将私钥添加到-ssh-agent-中"><a href="#将私钥添加到-ssh-agent-中" class="headerlink" title="将私钥添加到 ssh-agent 中"></a>将私钥添加到 ssh-agent 中</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.gitlab</span></div><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.github</span></div></pre></td></tr></table></figure>
+<p>这种添加是临时性的，重启之后需要再次添加，解决方法见<a href="http://jimxu.me/2017/07/07/%E8%A7%A3%E5%86%B3%E9%87%8D%E5%90%AF%E5%90%8E%E7%A7%81%E9%92%A5%E5%A4%B1%E6%95%88%E7%9A%84%E9%97%AE%E9%A2%98/">解决重启后私钥失效的问题</a></p>
+<h2 id="将公钥添加到git平台中"><a href="#将公钥添加到git平台中" class="headerlink" title="将公钥添加到git平台中"></a>将公钥添加到git平台中</h2><p>以github为例，在<code>Personal settings/SSH and GPG keys</code>中就可以添加<code>ssh key</code>了，如下图所示</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170707149941538098409.png" alt="20170707149941538098409.png"></p>
+<h2 id="测试ssh"><a href="#测试ssh" class="headerlink" title="测试ssh"></a>测试ssh</h2><p>执行下面的命令测试ssh</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">-T</span> <span class="selector-tag">git</span>@<span class="keyword">github</span>.<span class="keyword">com</span></div></pre></td></tr></table></figure>
+<p>若出现类似下面的提示，说明ssh可用</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/201707071499415537639.png" alt="201707071499415537639.png"></p>
+<p>然后就可以使用ssh的方式使用git平台了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用ssh的方式使用git平台的时候，需要先预先生成秘钥，在git平台设置了公钥，才可以使用&lt;/p&gt;
+&lt;p&gt;我们可以同时使用了多个git平台，如github和gitlab&lt;/p&gt;
+&lt;p&gt;只需要为他们生成不同的秘钥就可以了&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="git" scheme="http://jimxu.me/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ssh连接服务器更简单一点</title>
+    <link href="http://jimxu.me/2017/07/07/ssh-connect-server-without-password/"/>
+    <id>http://jimxu.me/2017/07/07/ssh-connect-server-without-password/</id>
+    <published>2017-07-07T07:50:02.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>用ssh连接服务器，通常是下面这样的</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">user</span>@<span class="keyword">127</span>.<span class="keyword">0</span>.<span class="keyword">0</span>.<span class="keyword">1</span></div></pre></td></tr></table></figure>
+<p>然后按提示输入密码就连上了</p>
+<p>其实，可以更简单一点，我们不需要输入用户名，不需要输入服务器ip地址，甚至不需要输入密码！</p>
+<a id="more"></a>
+<h2 id="简化1：不需要输入用户名和host"><a href="#简化1：不需要输入用户名和host" class="headerlink" title="简化1：不需要输入用户名和host"></a>简化1：不需要输入用户名和host</h2><p>那么多的服务器，每个服务器登录的用户名和host还不一样 谁记的住呀</p>
+<p>直接修改你本地的<code>.ssh/config</code>文件（没有就新建一个）</p>
+<p>编辑如下：</p>
+<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Host test</div><div class="line">     HostName <span class="number">172.0</span>.<span class="number">0.1</span></div><div class="line">     <span class="keyword">User</span> <span class="title">user</span></div></pre></td></tr></table></figure>
+<p>然后就可以用</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh <span class="built_in">test</span></div></pre></td></tr></table></figure>
+<p>来连接服务器了，但是还是要输入密码的</p>
+<h2 id="简化2：-不需要输入密码"><a href="#简化2：-不需要输入密码" class="headerlink" title="简化2： 不需要输入密码"></a>简化2： 不需要输入密码</h2><p>先生成秘钥</p>
+<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">ssh-keygen -t rsa</span></div></pre></td></tr></table></figure>
+<p>过程中会提示你输入密语，密语可以为空，按确认就好（安全性降低了，但可以避免以后一直询问你密语）</p>
+<p>这样在你的<code>.ssh</code>目录下就应该生成了下面两个文件</p>
+<figure class="highlight gcode"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">id_rsa  私有秘钥<span class="comment">(私钥)</span></div><div class="line">id_rsa.pub  公有秘钥<span class="comment">(公钥)</span></div></pre></td></tr></table></figure>
+<p>用<code>scp</code>命令将生成的公钥copy到服务器，为了防止文件名重复改个名字</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">scp ~<span class="regexp">/.ssh/id</span>_rsa.pub user<span class="variable">@172</span>.<span class="number">0</span>.<span class="number">0</span>.<span class="number">1</span><span class="symbol">:~/</span>.ssh/unique_id_rsa.pub</div></pre></td></tr></table></figure>
+<p>按提示输入密码（以后就不用输了）</p>
+<p>最后，登录服务器,进入<code>~/.ssh</code>目录</p>
+<p>应该能看到下面两个文件</p>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">authorized_keys 存储了很多公钥的文件</div><div class="line">unique_id_rsa.pub 我们刚才<span class="keyword">copy</span><span class="bash">过来的</span></div></pre></td></tr></table></figure>
+<p>执行下面的操作</p>
+<figure class="highlight rust"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//将我们的公钥加入到文件的末尾</span></div><div class="line">cat unique_id_rsa.<span class="keyword">pub</span> &gt;&gt; authorized_keys</div><div class="line"><span class="comment">//然后删除无用的公钥</span></div><div class="line">rm unique_id_rsa.<span class="keyword">pub</span></div></pre></td></tr></table></figure>
+<p>退出服务器</p>
+<p>执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh <span class="built_in">test</span></div></pre></td></tr></table></figure></p>
+<p>就可以直连服务器啦</p>
+<p>注意一点:</p>
+<ul>
+<li>生成的一定要是默认的秘钥名（id_rsa），如果生成秘钥的时候你指定了其他的名字如 id_rsa.different,那么连接服务器的时候就要用下面的命令</li>
+</ul>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -<span class="selector-tag">i</span> id_rsa<span class="selector-class">.different</span> test</div></pre></td></tr></table></figure>
+<p>enjoy it</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用ssh连接服务器，通常是下面这样的&lt;/p&gt;
+&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;user&lt;/span&gt;@&lt;span class=&quot;keyword&quot;&gt;127&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;0&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;0&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;然后按提示输入密码就连上了&lt;/p&gt;
+&lt;p&gt;其实，可以更简单一点，我们不需要输入用户名，不需要输入服务器ip地址，甚至不需要输入密码！&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="git" scheme="http://jimxu.me/tags/git/"/>
+    
+      <category term="ssh" scheme="http://jimxu.me/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>php开发者mac必装软件 - 终极版本</title>
+    <link href="http://jimxu.me/2017/06/28/mac-must-install-software/"/>
+    <id>http://jimxu.me/2017/06/28/mac-must-install-software/</id>
+    <published>2017-06-28T03:22:46.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170628149862035151555.png" alt="20170628149862035151555.png"></p>
+<a id="more"></a>
+<ul>
+<li>Xcode</li>
+<li>笔记：Bear [免费，订阅]</li>
+<li>浏览器（调试工具）：chrome [免费]</li>
+<li>调试POST接口：Postman [免费]</li>
+<li>终端：iterm2+oh my zsh [免费]</li>
+<li>阅读：Pocket，配合浏览器插件 [免费]</li>
+<li>阅读：Reeder，配合Pocker扩展</li>
+<li>MySQL可视化工具：SequelPro</li>
+<li>Redis可视化工具：Medis</li>
+<li>免费解压：The unarchiver</li>
+<li>免费卸载工具：App cleaner</li>
+<li>调节屏幕亮度：Flux</li>
+<li>清单：WunderList奇妙清单</li>
+<li>TodoList</li>
+<li>文件暂存：Yonik</li>
+<li>粘贴板工具：Paste</li>
+<li>复制粘贴助手：PopClip</li>
+<li>hosts可视化管理：iHosts</li>
+<li>Phpstorm</li>
+<li>上传图片到七牛并生成md链接：PicU</li>
+<li>markdown编辑器：Macdown</li>
+<li>截图（使用外接显示器时）：TeamPaper Snap</li>
+<li>截图：腾讯的snip</li>
+<li>技术文档：Dash</li>
+<li>让屏幕不会自动休眠：Caffeine</li>
+<li>片段管理：aText</li>
+<li>git可视化工具：sourceTree</li>
+<li>软件自动隐藏或退出：Quitter</li>
+<li>第三方日历：TinyCal小历</li>
+<li>编辑器：Sublime</li>
+<li>密码管理：LastPass</li>
+<li>日程提示：PixelScheduler</li>
+<li>音乐播放：网易云音乐</li>
+<li>菜单栏管理: Bartender</li>
+<li>笔记： Evernote</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170628149862035151555.png&quot; alt=&quot;20170628149862035151555.png&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="software" scheme="http://jimxu.me/tags/software/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>设置使用sublime打开项目文件夹</title>
+    <link href="http://jimxu.me/2017/06/22/use-sublime-open-project/"/>
+    <id>http://jimxu.me/2017/06/22/use-sublime-open-project/</id>
+    <published>2017-06-22T03:42:45.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Mac下想要快速查看一个project内容的时候，右击发现菜单里根本没有满足条件的选项。</p>
+<p>可以用自带的automator工具实现右击项目时可以选择用sublime打开</p>
+<a id="more"></a>
 <p>设置：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170622149810302430123.png" alt="20170622149810302430123.png"></p>
 <p>效果：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170622149810299868570.png" alt="20170622149810299868570.png"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;使用mac自带的automator工具&lt;/p&gt;
-&lt;p&gt;设置：&lt;br&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170622149810302430123.png&quot; alt=&quot;20170622
+      &lt;p&gt;Mac下想要快速查看一个project内容的时候，右击发现菜单里根本没有满足条件的选项。&lt;/p&gt;
+&lt;p&gt;可以用自带的automator工具实现右击项目时可以选择用sublime打开&lt;/p&gt;
     
     </summary>
-    
-      <category term="editor" scheme="http://jimxu.me/categories/editor/"/>
-    
-      <category term="sublime" scheme="http://jimxu.me/categories/editor/sublime/"/>
     
     
       <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
@@ -47,12 +395,14 @@
   
   <entry>
     <title>phpstorm修改php文件头模板</title>
-    <link href="http://jimxu.me/2017/06/21/phpstorm%E4%BF%AE%E6%94%B9php%E6%96%87%E4%BB%B6%E5%A4%B4/"/>
-    <id>http://jimxu.me/2017/06/21/phpstorm修改php文件头/</id>
+    <link href="http://jimxu.me/2017/06/21/phpstorm-php-file-header/"/>
+    <id>http://jimxu.me/2017/06/21/phpstorm-php-file-header/</id>
     <published>2017-06-21T08:32:39.000Z</published>
-    <updated>2017-06-21T10:40:30.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
+    <content type="html"><![CDATA[<p>phpstorm设置新建php文件时的头文件，一个帅气的头文件是不是让你码字的心情都更好了呢</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170712149985488177380.png" alt="20170712149985488177380.png"></p>
+<a id="more"></a>
 <p><code>Editor/ File and Code Templates / includes / PHP File Header</code></p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170621149803412611540.png" alt="20170621149803412611540.png"></p>
 <p>可以在模板中使用一下变量：</p>
@@ -70,21 +420,16 @@
 <li>${PROJECT_NAME}:current project name</li>
 </ul>
 <p>你也可以自定义变量</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">#set( $MAIL = &quot;xxx@test.com&quot; )</div></pre></td></tr></table></figure>
+<figure class="highlight leaf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">#</span><span class="title">set</span><span class="params">( $<span class="variable">MAIL</span> = <span class="string">"xxx@test.com"</span> )</span></span></div></pre></td></tr></table></figure>
 <p>然后就可以在模板中使用${MAIL}变量了</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;code&gt;Editor/ File and Code Templates / includes / PHP File Header&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn
+      &lt;p&gt;phpstorm设置新建php文件时的头文件，一个帅气的头文件是不是让你码字的心情都更好了呢&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170712149985488177380.png&quot; alt=&quot;20170712149985488177380.png&quot;&gt;&lt;/p&gt;
     
     </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
     
     
       <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
@@ -92,95 +437,38 @@
   </entry>
   
   <entry>
-    <title>Yaf学习笔记7:模型与数据库</title>
-    <link href="http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B07/"/>
-    <id>http://jimxu.me/2017/06/13/Yaf学习笔记7/</id>
-    <published>2017-06-13T04:01:00.000Z</published>
-    <updated>2017-06-15T09:04:01.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-    
-    </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yaf学习笔记6：路由</title>
-    <link href="http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B06/"/>
-    <id>http://jimxu.me/2017/06/13/Yaf学习笔记6/</id>
-    <published>2017-06-13T04:00:53.000Z</published>
-    <updated>2017-06-13T04:01:21.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-    
-    </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Yaf学习笔记5:模块</title>
-    <link href="http://jimxu.me/2017/06/13/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B05/"/>
-    <id>http://jimxu.me/2017/06/13/Yaf学习笔记5/</id>
+    <link href="http://jimxu.me/2017/06/13/yaf-study-note-module/"/>
+    <id>http://jimxu.me/2017/06/13/yaf-study-note-module/</id>
     <published>2017-06-13T02:12:59.000Z</published>
-    <updated>2017-06-13T03:22:32.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<h2 id="模块是什么？"><a href="#模块是什么？" class="headerlink" title="模块是什么？"></a>模块是什么？</h2><p>设计模式的一条准则是“高内聚，低耦合”。<br>模块是高内聚的一种实现手段</p>
+    <content type="html"><![CDATA[<h2 id="模块是什么？"><a href="#模块是什么？" class="headerlink" title="模块是什么？"></a>模块是什么？</h2><p>设计模式的一条准则是“高内聚，低耦合”。<br>模块是高内聚的一种实现手段</p>
 <h2 id="建立模块"><a href="#建立模块" class="headerlink" title="建立模块"></a>建立模块</h2><p>当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的</p>
 <figure class="highlight"><figcaption><span>application.ini</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">application.dispatcher.defaultModule = Index</div></pre></td></tr></table></figure>
 <p>我们要实现一个博客网站，文章可以作为一个模块<br>在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">    class ListController extends Yaf_Controller_Abstract</div><div class="line">    &#123;</div><div class="line">        public function viewAction()</div><div class="line">        &#123;</div><div class="line">              </div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">    <span class="class"><span class="keyword">class</span> <span class="title">ListController</span> <span class="keyword">extends</span> <span class="title">Yaf_Controller_Abstract</span></span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">viewAction</span><span class="params">()</span></span></div><div class="line">        &#123;</div><div class="line">              </div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+<a id="more"></a>
 <p>Post/views下面建立list文件夹，新建view.phtml文件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">&lt;?php</div><div class="line">echo 2333;</div></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="keyword">echo</span> <span class="number">2333</span>;</div></pre></td></tr></table></figure>
 <p>Post模块的结构如下所示：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732391375464.png" alt="20170613149732391375464.png"></p>
 <h2 id="模块的配置"><a href="#模块的配置" class="headerlink" title="模块的配置"></a>模块的配置</h2><p>这时候我们访问</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/post/list/view</div></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/<span class="keyword">post</span>/<span class="keyword">list</span>/<span class="keyword">view</span></div></pre></td></tr></table></figure>
 <p>看到下面的报错信息：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732400095678.png" alt="20170613149732400095678.png"></p>
 <p>报错的原因是因为我们没有将新建的模块加到配置文件中<br>编辑conf/application.ini文件，将下面两句代码加入common分组下面</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">application.modules = &quot;Index,Post&quot;	//模块</div><div class="line">application.dispatcher.defaultModule = Index	//默认模块</div></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">application<span class="selector-class">.modules</span> = <span class="string">"Index,Post"</span>	<span class="comment">//模块</span></div><div class="line">application<span class="selector-class">.dispatcher</span><span class="selector-class">.defaultModule</span> = Index	<span class="comment">//默认模块</span></div></pre></td></tr></table></figure>
 <p>再次访问，就可以了<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732414586476.png" alt="20170613149732414586476.png"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;模块是什么？&quot;&gt;&lt;a href=&quot;#模块是什么？&quot; class=&quot;headerlink&quot; title=&quot;模块是什么？&quot;&gt;&lt;/a&gt;模块是什么？&lt;/h2&gt;&lt;p&gt;设计模式的一条准则是“高内聚，低耦合”。&lt;br&gt;模块是高内聚的一种实现手
+      &lt;h2 id=&quot;模块是什么？&quot;&gt;&lt;a href=&quot;#模块是什么？&quot; class=&quot;headerlink&quot; title=&quot;模块是什么？&quot;&gt;&lt;/a&gt;模块是什么？&lt;/h2&gt;&lt;p&gt;设计模式的一条准则是“高内聚，低耦合”。&lt;br&gt;模块是高内聚的一种实现手段&lt;/p&gt;
+&lt;h2 id=&quot;建立模块&quot;&gt;&lt;a href=&quot;#建立模块&quot; class=&quot;headerlink&quot; title=&quot;建立模块&quot;&gt;&lt;/a&gt;建立模块&lt;/h2&gt;&lt;p&gt;当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;figcaption&gt;&lt;span&gt;application.ini&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;application.dispatcher.defaultModule = Index&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;p&gt;我们要实现一个博客网站，文章可以作为一个模块&lt;br&gt;在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下：&lt;/p&gt;
+&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;ListController&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Yaf_Controller_Abstract&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;viewAction&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;              &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
     
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
@@ -191,17 +479,17 @@
   
   <entry>
     <title>Yaf学习笔记4:MVC模式</title>
-    <link href="http://jimxu.me/2017/06/12/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B04/"/>
-    <id>http://jimxu.me/2017/06/12/Yaf学习笔记4/</id>
+    <link href="http://jimxu.me/2017/06/12/yaf-study-note-mvc/"/>
+    <id>http://jimxu.me/2017/06/12/yaf-study-note-mvc/</id>
     <published>2017-06-12T10:59:00.000Z</published>
-    <updated>2017-06-13T03:08:40.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
+    <content type="html"><![CDATA[<p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
 <p>运行流程如下图所示（摘自鸟哥文档）：</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png" alt="Yaf运行流程(摘自鸟哥文档)"></p>
+<a id="more"></a>
 <p>当我们访问<code>yaf.com</code>网站的时候，先走到入口文件<code>index.php</code>，然后经过<code>bootstrap</code>初始化，<code>router</code>路由，因为没有指定controller，会使用默认控制器IndexController的默认方法IndexAction，即下面的几种访问方式都是可以的：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">yaf.com</div><div class="line">yaf.com/index</div><div class="line">yaf.com/index/index</div><div class="line">yaf.com/index/index/index</div></pre></td></tr></table></figure>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">yaf.<span class="keyword">com</span></div><div class="line">yaf.<span class="keyword">com</span>/<span class="built_in">index</span></div><div class="line">yaf.<span class="keyword">com</span>/<span class="built_in">index</span>/<span class="built_in">index</span></div><div class="line">yaf.<span class="keyword">com</span>/<span class="built_in">index</span>/<span class="built_in">index</span>/<span class="built_in">index</span></div></pre></td></tr></table></figure>
 <p>最后一种访问方式里：第一个index是Module模块名，第二个index是Controller控制器名，第三个index是Action方法名</p>
 <blockquote>
 <p>模块的用法见下一节</p>
@@ -214,7 +502,7 @@
 <ul>
 <li>$name默认值是Stranger，我们可以通过下面的方式指定$name的值</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/index/index/index/name/jimxu</div></pre></td></tr></table></figure>
+<figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/<span class="keyword">index</span>/<span class="keyword">index</span>/<span class="keyword">index</span>/<span class="keyword">name</span>/jimxu</div></pre></td></tr></table></figure>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/2017061314973219814429.png" alt="2017061314973219814429.png"></p>
 <ul>
 <li>申明SampleModel类的一个对象，通过selectSample方法获取$content的值</li>
@@ -223,7 +511,7 @@
 <ul>
 <li>将<code>$name</code>和<code>$content</code>传到view</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$this-&gt;getView()-&gt;assign(&quot;content&quot;, $model-&gt;selectSample());</div><div class="line">$this-&gt;getView()-&gt;assign(&quot;name&quot;, $name);</div></pre></td></tr></table></figure>
+<figure class="highlight xl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$<span class="function"><span class="title">this</span>-&gt;</span><span class="function"><span class="title">getView</span>()-&gt;</span><span class="function"><span class="title">assign</span>("content", $model-&gt;</span>selectSample());</div><div class="line">$<span class="function"><span class="title">this</span>-&gt;</span><span class="function"><span class="title">getView</span>()-&gt;</span>assign(<span class="string">"name"</span>, $<span class="keyword">name</span>);</div></pre></td></tr></table></figure>
 <ul>
 <li>在view对应的phtml中可以使用<code>$name</code>和<code>$content</code>变量的值</li>
 </ul>
@@ -235,16 +523,11 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;当我们访问demo项目的时候，在页面上展示了&lt;code&gt;Hello World! I am Stranger&lt;/code&gt;，其实是通过MVC模式实现的&lt;/p&gt;
+      &lt;p&gt;当我们访问demo项目的时候，在页面上展示了&lt;code&gt;Hello World! I am Stranger&lt;/code&gt;，其实是通过MVC模式实现的&lt;/p&gt;
 &lt;p&gt;运行流程如下图所示（摘自鸟哥文档）：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;
+&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png&quot; alt=&quot;Yaf运行流程(摘自鸟哥文档)&quot;&gt;&lt;/p&gt;
     
     </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
     
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
@@ -255,48 +538,43 @@
   
   <entry>
     <title>Yaf学习笔记3:配置</title>
-    <link href="http://jimxu.me/2017/06/09/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B03/"/>
-    <id>http://jimxu.me/2017/06/09/Yaf学习笔记3/</id>
+    <link href="http://jimxu.me/2017/06/09/yaf-study-note-config/"/>
+    <id>http://jimxu.me/2017/06/09/yaf-study-note-config/</id>
     <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-06-13T02:24:30.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>yaf的配置有两种，</p>
+    <content type="html"><![CDATA[<p>yaf的配置有两种，</p>
 <ul>
 <li>一是Yaf自身的配置</li>
 <li>二是生成的项目自己的配置，如项目所用的数据库、缓存配置等</li>
 </ul>
 <h2 id="修改yaf设置"><a href="#修改yaf设置" class="headerlink" title="修改yaf设置"></a>修改yaf设置</h2><p>在路径<code>/usr/local/etc/php/7.0/conf.d</code>下存放了各个扩展的配置文件<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png" alt="20170612149726524849464.png"></p>
+<a id="more"></a>
 <p><code>ex-yaf.ini</code>文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;  //扩展位置</div></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="section">[yaf]</span></div><div class="line"><span class="attr">extension</span>=<span class="string">"/usr/local/opt/php70-yaf/yaf.so"</span>  //扩展位置</div></pre></td></tr></table></figure>
 <p>我们直接在后面添加配置内容，修改后如下</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=&quot;/usr/local/opt/php70-yaf/yaf.so&quot;	//扩展位置 </div><div class="line">yaf.use_namespace = 1	//启用名字空间</div><div class="line">yaf.environ = &quot;dev&quot;	   //设置环境为本地开发环境</div></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=<span class="string">"/usr/local/opt/php70-yaf/yaf.so"</span>	<span class="comment">//扩展位置 </span></div><div class="line">yaf<span class="selector-class">.use_namespace</span> = <span class="number">1</span>	<span class="comment">//启用名字空间</span></div><div class="line">yaf<span class="selector-class">.environ</span> = <span class="string">"dev"</span>	   <span class="comment">//设置环境为本地开发环境</span></div></pre></td></tr></table></figure>
 <p>修改后重启php-fpm</p>
 <p>打印phpinfo(),<code>yaf.use_namespace</code>的值已经变成ON了，说明修改成功<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png" alt="20170612149726543885457.png"></p>
 <h2 id="yaf的配置项一览"><a href="#yaf的配置项一览" class="headerlink" title="yaf的配置项一览"></a>yaf的配置项一览</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png" alt="20170612149726554799450.png"></p>
 <h2 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h2><p>项目的配置文件为<code>./conf/application.ini</code><br>默认配置如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">[common]</div><div class="line">application.directory = APPLICATION_PATH  &quot;/application&quot;</div><div class="line">application.dispatcher.catchException = TRUE</div><div class="line"></div><div class="line">[dev : common]</div><div class="line">database.type = mysql</div><div class="line">database.read_host = 127.0.0.1</div><div class="line">database.read_port =  3306</div><div class="line">database.read_user = root</div><div class="line">database.read_pwd = root</div><div class="line">database.name = yaf</div><div class="line">database.db_prefix = tbl_</div><div class="line"></div><div class="line">[test : common] </div><div class="line"></div><div class="line">[product : common]</div></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">[common]</div><div class="line">application<span class="selector-class">.directory</span> = APPLICATION_PATH  <span class="string">"/application"</span></div><div class="line">application<span class="selector-class">.dispatcher</span><span class="selector-class">.catchException</span> = TRUE</div><div class="line"></div><div class="line">[dev : common]</div><div class="line">database<span class="selector-class">.type</span> = mysql</div><div class="line">database<span class="selector-class">.read_host</span> = <span class="number">127.0</span>.<span class="number">0.1</span></div><div class="line">database<span class="selector-class">.read_port</span> =  <span class="number">3306</span></div><div class="line">database<span class="selector-class">.read_user</span> = root</div><div class="line">database<span class="selector-class">.read_pwd</span> = root</div><div class="line">database<span class="selector-class">.name</span> = yaf</div><div class="line">database<span class="selector-class">.db_prefix</span> = tbl_</div><div class="line"></div><div class="line">[test : common] </div><div class="line"></div><div class="line">[product : common]</div></pre></td></tr></table></figure>
 <p>注意，配置是分组的，common为通用配置，dev表示本地环境，test表示测试环境，product表示生产环境，后面的<code>：common</code>表示继承了common分组。我们之前已经修改了<code>yaf.environ</code>的值为dev，表示使用<code>[dev : common]</code>分组下的设置</p>
 <p>我们在dev分组下对mysql数据库进行了配置</p>
 <h2 id="获取配置文件中的值"><a href="#获取配置文件中的值" class="headerlink" title="获取配置文件中的值"></a>获取配置文件中的值</h2><p>如要获取上述配置文件中<code>application.directory</code>的值，可以通过下面的方式获取</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$config = Yaf_Application::app()-&gt;getConfig()</div><div class="line">echo $config-&gt;application-&gt;directory;</div></pre></td></tr></table></figure>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$config = Yaf_Application::app()-&gt;getConfig()</div><div class="line"><span class="keyword">echo</span> $config-&gt;application-&gt;directory;</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;yaf的配置有两种，&lt;/p&gt;
+      &lt;p&gt;yaf的配置有两种，&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;一是Yaf自身的配置&lt;/li&gt;
 &lt;li&gt;二是生成的项目自己的配置，如项目所用的数据库、缓存配置等&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;修改yaf设置&quot;&gt;&lt;a href=&quot;#修改yaf设置&quot;
+&lt;h2 id=&quot;修改yaf设置&quot;&gt;&lt;a href=&quot;#修改yaf设置&quot; class=&quot;headerlink&quot; title=&quot;修改yaf设置&quot;&gt;&lt;/a&gt;修改yaf设置&lt;/h2&gt;&lt;p&gt;在路径&lt;code&gt;/usr/local/etc/php/7.0/conf.d&lt;/code&gt;下存放了各个扩展的配置文件&lt;br&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png&quot; alt=&quot;20170612149726524849464.png&quot;&gt;&lt;/p&gt;
     
     </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
     
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
@@ -307,17 +585,17 @@
   
   <entry>
     <title>Yaf学习笔记2:项目结构</title>
-    <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B02/"/>
-    <id>http://jimxu.me/2017/06/08/Yaf学习笔记2/</id>
+    <link href="http://jimxu.me/2017/06/08/yaf-study-note-structure/"/>
+    <id>http://jimxu.me/2017/06/08/yaf-study-note-structure/</id>
     <published>2017-06-08T10:59:00.000Z</published>
-    <updated>2017-06-13T02:29:30.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<h2 id="框架文件目录"><a href="#框架文件目录" class="headerlink" title="框架文件目录"></a>框架文件目录</h2><p>以刚刚通过gc生成的demo项目为例，我们在终端执行<code>tree</code>命令,可以看到项目的目录结果如下所示：</p>
+    <content type="html"><![CDATA[<h2 id="框架文件目录"><a href="#框架文件目录" class="headerlink" title="框架文件目录"></a>框架文件目录</h2><p>以刚刚通过gc生成的demo项目为例，我们在终端执行<code>tree</code>命令,可以看到项目的目录结果如下所示：</p>
 <blockquote>
 <p>注：tree命令不是自带的，有需要可以通过<code>brew install tree</code>安装</p>
 </blockquote>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png" alt="20170609149700575912100.png"></p>
+<a id="more"></a>
 <p>./index.php    是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置</p>
 <p>./conf    是配置项<br>./conf/application.ini    项目的配置文件</p>
 <p>./application<br>./application/Bootstrap.php    启动文件，主要用于初始化操作，如初始化设置、注册插件、加载全局基础类库等<br>./application/controllers    控制器<br>./application/library    类库<br>./application/models    模型<br>./application/plugins    插件<br>./application/views       视图</p>
@@ -325,14 +603,13 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;框架文件目录&quot;&gt;&lt;a href=&quot;#框架文件目录&quot; class=&quot;headerlink&quot; title=&quot;框架文件目录&quot;&gt;&lt;/a&gt;框架文件目录&lt;/h2&gt;&lt;p&gt;以刚刚通过gc生成的demo项目为例，我们在终端执行&lt;code&gt;tree
+      &lt;h2 id=&quot;框架文件目录&quot;&gt;&lt;a href=&quot;#框架文件目录&quot; class=&quot;headerlink&quot; title=&quot;框架文件目录&quot;&gt;&lt;/a&gt;框架文件目录&lt;/h2&gt;&lt;p&gt;以刚刚通过gc生成的demo项目为例，我们在终端执行&lt;code&gt;tree&lt;/code&gt;命令,可以看到项目的目录结果如下所示：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;注：tree命令不是自带的，有需要可以通过&lt;code&gt;brew install tree&lt;/code&gt;安装&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png&quot; alt=&quot;20170609149700575912100.png&quot;&gt;&lt;/p&gt;
     
     </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
     
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
@@ -343,14 +620,14 @@
   
   <entry>
     <title>斐波那契数列问题</title>
-    <link href="http://jimxu.me/2017/06/08/%E6%B3%A2%E9%9D%9E%E9%82%A3%E5%88%87%E6%95%B0%E5%88%97%E9%97%AE%E9%A2%98/"/>
-    <id>http://jimxu.me/2017/06/08/波非那切数列问题/</id>
+    <link href="http://jimxu.me/2017/06/08/fibonacci-algorithm/"/>
+    <id>http://jimxu.me/2017/06/08/fibonacci-algorithm/</id>
     <published>2017-06-08T07:20:02.000Z</published>
-    <updated>2017-06-08T07:35:41.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
     <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png" alt="20170608149690673867363.png"></p>
 <p>斐波那契数列：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">1,1,2,3,5,8,13,21... ...</div></pre></td></tr></table></figure>
+<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">8</span>,<span class="number">13</span>,<span class="number">21.</span>.. ...</div></pre></td></tr></table></figure>
 <a id="more"></a>
 <p>可以用来解决诸如下面的问题：</p>
 <blockquote>
@@ -363,29 +640,28 @@
     
       &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png&quot; alt=&quot;20170608149690673867363.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;斐波那契数列：&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1,1,2,3,5,8,13,21... ...&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight lsl&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;13&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;21.&lt;/span&gt;.. ...&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
     
     </summary>
     
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="algorithm" scheme="http://jimxu.me/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>微信领红包问题</title>
-    <link href="http://jimxu.me/2017/06/08/%E5%BE%AE%E4%BF%A1%E9%A2%86%E7%BA%A2%E5%8C%85/"/>
-    <id>http://jimxu.me/2017/06/08/微信领红包/</id>
+    <link href="http://jimxu.me/2017/06/08/wechat-rafale-algorithm/"/>
+    <id>http://jimxu.me/2017/06/08/wechat-rafale-algorithm/</id>
     <published>2017-06-08T06:54:33.000Z</published>
-    <updated>2017-06-15T09:03:31.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>参考：<a href="https://www.zhihu.com/question/22625187" target="_blank" rel="external">https://www.zhihu.com/question/22625187</a></p>
 </blockquote>
+<p>需求：每个人领到的红包大小相近，每次点击领取红包时计算</p>
 <p>微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机</p>
 <a id="more"></a>
 <figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="comment">//随机小数</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">randomFloat</span><span class="params">($min = <span class="number">0</span>, $max = <span class="number">1</span>)</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> $min + mt_rand() / mt_getrandmax() * ($max - $min);</div><div class="line">&#125;</div><div class="line"></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">raffle</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    $total = <span class="number">100</span>;</div><div class="line">    $num = <span class="number">10</span>;</div><div class="line">    $leftTotal = <span class="number">100</span>;</div><div class="line">    $leftNum = <span class="number">10</span>;</div><div class="line">    $minLimit = <span class="number">0.01</span>;</div><div class="line"></div><div class="line">    <span class="keyword">for</span>($i=<span class="number">0</span>;$i&lt;$num;$i++)</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span> (<span class="number">1</span> == $leftNum) &#123;</div><div class="line">            $money = $leftTotal;</div><div class="line">            <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">            <span class="keyword">break</span>;</div><div class="line">        &#125;</div><div class="line">        $money = randomFloat($minLimit,$leftTotal/$leftNum*<span class="number">2</span>);</div><div class="line">        <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">        $leftTotal -= $money;</div><div class="line">        $leftNum --;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">&#125;</div><div class="line"></div><div class="line">raffle();</div></pre></td></tr></table></figure>]]></content>
@@ -395,25 +671,24 @@
       &lt;blockquote&gt;
 &lt;p&gt;参考：&lt;a href=&quot;https://www.zhihu.com/question/22625187&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/22625187&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;需求：每个人领到的红包大小相近，每次点击领取红包时计算&lt;/p&gt;
 &lt;p&gt;微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机&lt;/p&gt;
     
     </summary>
     
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="algorithm" scheme="http://jimxu.me/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>回收饮料瓶问题</title>
-    <link href="http://jimxu.me/2017/06/08/%E9%A5%AE%E6%96%99%E7%93%B6%E5%9B%9E%E6%94%B6%E9%97%AE%E9%A2%98/"/>
-    <id>http://jimxu.me/2017/06/08/饮料瓶回收问题/</id>
+    <link href="http://jimxu.me/2017/06/08/recycle-bottle-algorithm/"/>
+    <id>http://jimxu.me/2017/06/08/recycle-bottle-algorithm/</id>
     <published>2017-06-08T06:43:54.000Z</published>
-    <updated>2017-06-08T07:19:05.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
     <content type="html"><![CDATA[<p>x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y&lt;x）,求总共可以喝多少瓶饮料？</p>
 <a id="more"></a>
@@ -433,41 +708,42 @@
     
     </summary>
     
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="algorithm" scheme="http://jimxu.me/tags/algorithm/"/>
     
   </entry>
   
   <entry>
     <title>Yaf学习笔记1:Mac环境下的安装运行</title>
-    <link href="http://jimxu.me/2017/06/08/Yaf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/"/>
-    <id>http://jimxu.me/2017/06/08/Yaf学习笔记1/</id>
+    <link href="http://jimxu.me/2017/06/08/yaf-study-note-install/"/>
+    <id>http://jimxu.me/2017/06/08/yaf-study-note-install/</id>
     <published>2017-06-08T03:16:47.000Z</published>
-    <updated>2017-06-13T02:59:36.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<blockquote>
+    <content type="html"><![CDATA[<blockquote>
 <p>本系列基于macos系统，PHP版本7.0.19</p>
 </blockquote>
 <h2 id="yaf介绍"><a href="#yaf介绍" class="headerlink" title="yaf介绍"></a>yaf介绍</h2><p>Yaf = yet another framework</p>
 <p>鸟哥用C语言编写的一个PHP扩展，致力于解决<code>框架影响性能</code>这一经典问题</p>
-<h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
+<blockquote>
+<p>Yaf框架 = 最不像框架的框架 = 对高性能有要求时选择</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight gradle"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-<span class="keyword">from</span>-<span class="keyword">source</span></div></pre></td></tr></table></figure>
 <p>根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf</p>
 <p>在终端运行<code>php -m</code>,能看到yaf，说明扩展安装成功（或打印phpinfo()）<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726521862950.png" alt="20170612149726521862950.png"></p>
 <h2 id="建立demo项目"><a href="#建立demo项目" class="headerlink" title="建立demo项目"></a>建立demo项目</h2><p>用yaf的代码生成器cg快速生成一个demo project</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">下载https://github.com/laruence/yaf后解压</div><div class="line">cd tools</div><div class="line">cd cg</div><div class="line">php yaf_cg test</div><div class="line">cd output</div><div class="line">cp -R test ~/test</div></pre></td></tr></table></figure>
+<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">下载https:<span class="comment">//github.com/laruence/yaf后解压</span></div><div class="line"><span class="keyword">cd</span> tools</div><div class="line"><span class="keyword">cd</span> cg</div><div class="line">php yaf_cg <span class="keyword">test</span></div><div class="line"><span class="keyword">cd</span> output</div><div class="line">cp -R <span class="keyword">test</span> ~/<span class="keyword">test</span></div></pre></td></tr></table></figure>
 <h2 id="设置虚拟主机"><a href="#设置虚拟主机" class="headerlink" title="设置虚拟主机"></a>设置虚拟主机</h2><ul>
 <li>修改server_name域名，root项目根目录</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">server &#123;</div><div class="line">        listen       80;</div><div class="line">        server_name  yaf.com;</div><div class="line">         </div><div class="line">        location / &#123;</div><div class="line">            root   ~/test;</div><div class="line">            index  index.html index.htm index.php;</div><div class="line">            try_files $uri $uri/  /index.php;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        error_page  404              /404.html;</div><div class="line"> </div><div class="line">        error_page   500 502 503 504  /50x.html;</div><div class="line">        location = /50x.html &#123;</div><div class="line">            root   ~/test;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        location ~ \.php &#123;</div><div class="line">            root ~/test;</div><div class="line">            fastcgi_pass   127.0.0.1:9000;</div><div class="line">            fastcgi_index  index.php;</div><div class="line">            fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;</div><div class="line">            include        fastcgi_params;</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line"><span class="section">server</span> &#123;</div><div class="line">        <span class="attribute">listen</span>       <span class="number">80</span>;</div><div class="line">        <span class="attribute">server_name</span>  yaf.com;</div><div class="line">         </div><div class="line">        <span class="attribute">location</span> / &#123;</div><div class="line">            <span class="attribute">root</span>   ~/test;</div><div class="line">            <span class="attribute">index</span>  index.html index.htm index.php;</div><div class="line">            <span class="attribute">try_files</span> <span class="variable">$uri</span> <span class="variable">$uri</span>/  /index.php;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        <span class="attribute">error_page</span>  <span class="number">404</span>              /<span class="number">404</span>.html;</div><div class="line"> </div><div class="line">        <span class="attribute">error_page</span>   <span class="number">500</span> <span class="number">502</span> <span class="number">503</span> <span class="number">504</span>  /50x.html;</div><div class="line">        <span class="attribute">location</span> = /50x.html &#123;</div><div class="line">            <span class="attribute">root</span>   ~/test;</div><div class="line">        &#125;</div><div class="line"> </div><div class="line">        <span class="attribute">location</span> <span class="regexp">~ \.php</span> &#123;</div><div class="line">            <span class="attribute">root</span> ~/test;</div><div class="line">            <span class="attribute">fastcgi_pass</span>   <span class="number">127.0.0.1:9000</span>;</div><div class="line">            <span class="attribute">fastcgi_index</span>  index.php;</div><div class="line">            <span class="attribute">fastcgi_param</span>  SCRIPT_FILENAME  <span class="variable">$document_root</span><span class="variable">$fastcgi_script_name</span>;</div><div class="line">            <span class="attribute">include</span>        fastcgi_params;</div><div class="line">        &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <ul>
 <li>修改hosts文件，加入下面的内容</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">127.0.0.1  yaf.com</div></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">127<span class="selector-class">.0</span><span class="selector-class">.0</span><span class="selector-class">.1</span>  <span class="selector-tag">yaf</span><span class="selector-class">.com</span></div></pre></td></tr></table></figure>
 <p>这样就可以通过访问域名<code>yaf.com</code>访问到demo项目了</p>
 <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>访问<code>yaf.com</code>,能看到<code>Hello World! I am Stranger</code>，说明安装配置成功</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170609149700636438511.png" alt="20170609149700636438511.png"></p>
@@ -475,17 +751,16 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;blockquote&gt;
+      &lt;blockquote&gt;
 &lt;p&gt;本系列基于macos系统，PHP版本7.0.19&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;yaf介绍&quot;&gt;&lt;a href=&quot;#yaf介绍&quot; class=&quot;headerlink&quot; title=&quot;yaf介绍
+&lt;h2 id=&quot;yaf介绍&quot;&gt;&lt;a href=&quot;#yaf介绍&quot; class=&quot;headerlink&quot; title=&quot;yaf介绍&quot;&gt;&lt;/a&gt;yaf介绍&lt;/h2&gt;&lt;p&gt;Yaf = yet another framework&lt;/p&gt;
+&lt;p&gt;鸟哥用C语言编写的一个PHP扩展，致力于解决&lt;code&gt;框架影响性能&lt;/code&gt;这一经典问题&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Yaf框架 = 最不像框架的框架 = 对高性能有要求时选择&lt;/p&gt;
+&lt;/blockquote&gt;
     
     </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
     
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
@@ -496,15 +771,14 @@
   
   <entry>
     <title>Movie List</title>
-    <link href="http://jimxu.me/2017/05/31/Movie-List/"/>
-    <id>http://jimxu.me/2017/05/31/Movie-List/</id>
+    <link href="http://jimxu.me/2017/05/31/favourite-movie-list/"/>
+    <id>http://jimxu.me/2017/05/31/favourite-movie-list/</id>
     <published>2017-05-31T06:52:42.000Z</published>
-    <updated>2017-05-31T07:00:31.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
     <content type="html"><![CDATA[<p>Favourite Movie List</p>
 <a id="more"></a>
-<h2 id="movie"><a href="#movie" class="headerlink" title="movie"></a>movie</h2><ul>
-<li>英雄</li>
+<ul>
 <li>肖申克的救赎</li>
 <li>阿甘正传</li>
 <li>卢旺达饭店</li>
@@ -523,15 +797,8 @@
 <li>鬼子来了</li>
 <li>哈利波特1-7</li>
 <li>加勒比海盗1-5</li>
-</ul>
-<h2 id="TV"><a href="#TV" class="headerlink" title="TV"></a>TV</h2><ul>
-<li>Friends</li>
-<li>Big Bang</li>
-<li>How i meet your mother</li>
-<li>神探夏洛克 卷福版</li>
-<li>小宝与康熙 张卫健版</li>
-<li>鹿鼎记 陈小春版</li>
-<li>白鹿原 张嘉译版</li>
+<li>摔跤吧 爸爸</li>
+<li>悟空传</li>
 </ul>
 ]]></content>
     
@@ -541,19 +808,17 @@
     
     </summary>
     
-      <category term="Reading" scheme="http://jimxu.me/categories/Reading/"/>
     
-    
-      <category term="movie" scheme="http://jimxu.me/tags/movie/"/>
+      <category term="list" scheme="http://jimxu.me/tags/list/"/>
     
   </entry>
   
   <entry>
     <title>php个人面试题</title>
-    <link href="http://jimxu.me/2017/05/26/php%E4%B8%AA%E4%BA%BA%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
-    <id>http://jimxu.me/2017/05/26/php个人面试题/</id>
+    <link href="http://jimxu.me/2017/05/26/php-review-note-on-2017-06/"/>
+    <id>http://jimxu.me/2017/05/26/php-review-note-on-2017-06/</id>
     <published>2017-05-26T09:39:25.000Z</published>
-    <updated>2017-05-26T09:41:02.000Z</updated>
+    <updated>2017-07-12T12:15:47.000Z</updated>
     
     <content type="html"><![CDATA[<p>已面试5家公司，记录一些有代表性的面试题</p>
 <a id="more"></a>
@@ -628,460 +893,10 @@
     
     </summary>
     
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Laravel目录结构</title>
-    <link href="http://jimxu.me/2017/05/17/Laravel%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/"/>
-    <id>http://jimxu.me/2017/05/17/Laravel目录结构/</id>
-    <published>2017-05-17T10:15:38.000Z</published>
-    <updated>2017-05-17T10:16:51.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>laravel目录</p>
-<p>2017-05-17 新建</p>
-<a id="more"></a>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170517149501610994155.png" alt="20170517149501610994155.png"></p>
-<ul>
-<li>routes 路由</li>
-<li>app     模型</li>
-<li>resources/views  blade视图</li>
-<li>app/Http/Controllers 控制器</li>
-<li>config 配置文件</li>
-<li>database  数据库</li>
-<li>database/factory 数据库工厂，和seeds一道生成测试数据</li>
-<li>database/migrations  数据库迁移</li>
-<li>public/css css资源</li>
-<li>public/js js资源</li>
-<li>resources/lang/en  语言包</li>
-<li>tests  单元测试</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;laravel目录&lt;/p&gt;
-&lt;p&gt;2017-05-17 新建&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="laravel" scheme="http://jimxu.me/tags/laravel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>从零搭建mac开发环境</title>
-    <link href="http://jimxu.me/2017/05/10/%E4%BB%8E%E9%9B%B6%E6%90%AD%E5%BB%BAmac%E7%8E%AF%E5%A2%83/"/>
-    <id>http://jimxu.me/2017/05/10/从零搭建mac环境/</id>
-    <published>2017-05-10T13:48:02.000Z</published>
-    <updated>2017-06-26T03:23:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>从零安装开发环境</p>
-<a id="more"></a>
-<ul>
-<li>登录apple账号</li>
-<li>设置快捷键</li>
-<li>设置触摸板（三指拖拽功能在<code>辅助功能</code>中设置）</li>
-<li>设置触发角<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170624149830172871625.png" alt="20170624149830172871625.png"></li>
-<li>下载已购项目</li>
-<li>设置dock<br>置于左侧<br>将窗口最小化为应用程序图标</li>
-<li>安装homebrew</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</div></pre></td></tr></table></figure>
-<ul>
-<li>通过homebrew安装homebrew-cask</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew tap caskroom/cask</div></pre></td></tr></table></figure>
-<ul>
-<li>通过homebrew-cask安装shadowsocksx</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew cask install shadowsocksx</div></pre></td></tr></table></figure>
-<ul>
-<li>开启shadowsocksx,登录chrome浏览器，同步书签和插件</li>
-<li>安装alfred并安装chrome书签的workflow</li>
-<li>安装xcode</li>
-<li>安装git<blockquote>
-<p>安装了xcode后，在终端输入git命令即可安装git</p>
-</blockquote>
-</li>
-</ul>
-<p><a href="https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md" target="_blank" rel="external">怎样在一台电脑上同时使用公司 GitLab 和 Github 的服务</a></p>
-<ul>
-<li>下载安装iterm2</li>
-</ul>
-<p><a href="https://www.iterm2.com/downloads.html" target="_blank" rel="external">https://www.iterm2.com/downloads.html</a></p>
-<ul>
-<li>安装oh my zsh</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sh -c &quot;$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)&quot;</div></pre></td></tr></table></figure>
-<pre><code>- 安装wd和zsh-wakatime插件
-- 设置主题为powerline并安装powerline等宽字体
-</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/powerline/fonts.git</div><div class="line">cd fonts</div><div class="line">./install.sh</div><div class="line">cd .. &amp;&amp; rm -rf fonts</div></pre></td></tr></table></figure>
-<p>设置等宽字体<br>Profiles - Text - Font</p>
-<ul>
-<li><p>iterm2也可以使用<code>robbyrussell</code>主题和<code>Arthur</code>配色方案</p>
-</li>
-<li><p>使用zsh</p>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chsh -s /bin/zsh</div></pre></td></tr></table></figure>
-<ul>
-<li><p>安装nginx</p>
-  <figure class="highlight plain"><figcaption><span>install nginx```</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">	</div><div class="line">	- 配置servers文件</div><div class="line">	- 设置log路径</div><div class="line"></div><div class="line">- 安装php！</div><div class="line"></div><div class="line">	```brew install php70</div></pre></td></tr></table></figure>
-</li>
-</ul>
-<pre><code>- 设置环境变量
-- 设置log路径
-- 安装扩展
-</code></pre><ul>
-<li><p>安装phpstorm</p>
-<ul>
-<li>下载安装</li>
-<li>导入配置（安装前导出备份） </li>
-<li>安装必要的插件</li>
-</ul>
-</li>
-<li><p>安装redis</p>
-<ul>
-<li><code>brew install redis</code></li>
-<li>查看启动命令 <code>brew info redis</code></li>
-<li>设置log路径</li>
-<li>关闭持久化</li>
-</ul>
-</li>
-</ul>
-<blockquote>
-<p>建议将php,redis,nginx等错误日志放在一个文件夹中</p>
-</blockquote>
-<ul>
-<li>安装mysql</li>
-</ul>
-<p><a href="http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html" target="_blank" rel="external">下载安装：http://www.cnblogs.com/macro-cheng/archive/2011/10/25/mysql-001.html</a></p>
-<p>其中有一步会显示安装时的sql密码 要记下来</p>
-<p><a href="http://www.jianshu.com/p/fd3aae701db9" target="_blank" rel="external">配置：http://www.jianshu.com/p/fd3aae701db9
-</a></p>
-<p>修改密码</p>
-<ul>
-<li>安装reeder，登录inoreader账号</li>
-<li>安装quiver、paste、yonik、bartender、moom、dash等常用软件</li>
-<li>安装hexo</li>
-</ul>
-<p><a href="https://www.zhihu.com/question/21193762" target="_blank" rel="external">迁移hexo</a></p>
-<ul>
-<li>设置开启启动app</li>
-<li>安装tree</li>
-</ul>
-<p><code>brew install tree</code></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;从零安装开发环境&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Mac" scheme="http://jimxu.me/categories/Mac/"/>
-    
-    
-      <category term="mac" scheme="http://jimxu.me/tags/mac/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>phpstorm安装Atom主题</title>
-    <link href="http://jimxu.me/2017/04/27/phpstorm%E5%AE%89%E8%A3%85Atom%E4%B8%BB%E9%A2%98/"/>
-    <id>http://jimxu.me/2017/04/27/phpstorm安装Atom主题/</id>
-    <published>2017-04-27T10:47:52.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<ol>
-<li>下载atom主题icls文件<br><a href="https://github.com/jesusOmar/one-dark-phpstorm" target="_blank" rel="external">https://github.com/jesusOmar/one-dark-phpstorm</a></li>
-</ol>
-<ol>
-<li><p>拷贝到<code>/Users/jim/Library/Preferences/PhpStorm2016.2/colors</code>路径</p>
-</li>
-<li><p>设置主题<br><code>Editor/Colors &amp; Fonts/</code></p>
-</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;ol&gt;
-&lt;li&gt;下载atom主题icls文件&lt;br&gt;&lt;a href=&quot;https://github.com/jesusOmar/one-dark-phpstorm&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https:/
-    
-    </summary>
-    
-      <category term="Editor" scheme="http://jimxu.me/categories/Editor/"/>
-    
-      <category term="phpStorm" scheme="http://jimxu.me/categories/Editor/phpStorm/"/>
-    
-    
-      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>后端开发技能树</title>
-    <link href="http://jimxu.me/2017/04/20/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%BF%85%E5%A4%87%E6%8A%80%E8%83%BD/"/>
-    <id>http://jimxu.me/2017/04/20/后端开发必备技能/</id>
-    <published>2017-04-20T15:54:54.000Z</published>
-    <updated>2017-05-26T10:44:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>后端开发需要掌握的一些知识</p>
-<a id="more"></a>
-<ul>
-<li>计算机基础</li>
-<li>PHP<ul>
-<li>基础语法</li>
-<li>各版本新特性</li>
-<li>PHP7升级</li>
-<li>php-fpm与FastCGI</li>
-<li>常用框架<ul>
-<li>Yii1/Yii2</li>
-<li>CI</li>
-<li>thinkphp</li>
-<li>Laravel</li>
-<li>magento</li>
-</ul>
-</li>
-<li>扩展</li>
-</ul>
-</li>
-<li>GO<ul>
-<li>和其他语言比较</li>
-<li>goroutine和channel</li>
-</ul>
-</li>
-<li>nginx/apache</li>
-<li>curl(get/post)</li>
-<li>json</li>
-<li>前端知识<ul>
-<li>html5</li>
-<li>css3</li>
-<li>node.js</li>
-<li>js</li>
-</ul>
-</li>
-<li>debug</li>
-<li>单元测试</li>
-<li>memecached</li>
-<li>redis<ul>
-<li>数据类型 <ul>
-<li>与memecached比较，与memecached共同使用</li>
-<li>缓存穿透</li>
-<li>原子性</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>操作系统<ul>
-<li>windows</li>
-<li>macos</li>
-<li>linux</li>
-</ul>
-</li>
-<li>数据库<ul>
-<li>SQL<ul>
-<li>常用命令</li>
-<li>索引 index</li>
-<li>事务 transaction</li>
-<li>优化</li>
-<li>存储过程</li>
-<li>引擎: 种类，使用场景    <ul>
-<li>MongoDB</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>面向对象<ul>
-<li>继承</li>
-<li>组合(接口)</li>
-</ul>
-</li>
-<li>设计模式<ul>
-<li>23种设计模式</li>
-</ul>
-</li>
-<li>异步<ul>
-<li>ajax</li>
-<li>队列 queue</li>
-</ul>
-</li>
-<li>微服务化<ul>
-<li>服务间通信</li>
-<li>日志</li>
-</ul>
-</li>
-<li>工具<ul>
-<li>git</li>
-<li>soureTree</li>
-<li>phpStorm</li>
-<li>phpunit</li>
-<li>phpcs</li>
-<li>phpmd</li>
-</ul>
-</li>
-<li>大数据时代<ul>
-<li>用户画像 </li>
-<li>机器学习</li>
-<li>推荐</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;后端开发需要掌握的一些知识&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="php" scheme="http://jimxu.me/categories/IT/php/"/>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>个人书单</title>
-    <link href="http://jimxu.me/2017/04/15/%E4%B9%A6%E5%8D%95/"/>
-    <id>http://jimxu.me/2017/04/15/书单/</id>
-    <published>2017-04-15T00:34:23.000Z</published>
-    <updated>2017-06-02T05:41:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>大部分都是程序员必读的书<br>建议在京东活动的时候采购，优惠力度很大</p>
-<a id="more"></a>
-<blockquote>
-<p>参考：<br><a href="http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html" target="_blank" rel="external">http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html</a></p>
-</blockquote>
-<h2 id="已读"><a href="#已读" class="headerlink" title="已读"></a>已读</h2><ul>
-<li>PHP与Mysql开发（PHP圣经）80%</li>
-<li>黑客与画家   100%</li>
-<li>人月神话   100%</li>
-<li>大型网站技术架构 100%</li>
-</ul>
-<h2 id="在读"><a href="#在读" class="headerlink" title="在读"></a>在读</h2><ul>
-<li>PHP对象、设计与实践  60%</li>
-<li>程序员修炼之道：从小工到专家   50%</li>
-<li>Head First 设计模式  30%</li>
-<li>高性能MySQL 选读部分章节<ul>
-<li>第1章 MySQL架构与历史</li>
-<li>第4章 Schema与数据类型优化</li>
-<li>第5章 创建高性能的索引</li>
-<li>第6章 查询性能优化</li>
-</ul>
-</li>
-<li>尽在双11 阿里巴巴技术演进与超越</li>
-<li>架构即未来：现代企业可扩展的Web架构</li>
-</ul>
-<h2 id="想读"><a href="#想读" class="headerlink" title="想读"></a>想读</h2><ul>
-<li>设计模式</li>
-<li>重构 改善既有代码的设计</li>
-<li>代码整洁之道</li>
-<li>浪潮之巅</li>
-<li>数学之美</li>
-<li>硅谷之谜</li>
-<li>从0到1 开启商业与未来的秘密</li>
-<li>人类简史</li>
-<li>未来简史</li>
-<li>设计模式</li>
-<li>算法导论</li>
-<li>编程之美</li>
-<li>深入理解计算机系统</li>
-<li>啊哈，算法</li>
-<li>Redis实战</li>
-<li>亿级流量网站架构核心技术</li>
-<li>软件随想录 阮一峰译</li>
-<li>编程珠玑</li>
-<li>NoSql精粹</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;大部分都是程序员必读的书&lt;br&gt;建议在京东活动的时候采购，优惠力度很大&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Reading" scheme="http://jimxu.me/categories/Reading/"/>
-    
-    
-      <category term="reading" scheme="http://jimxu.me/tags/reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[mysql error]The server quit without updating PID file </title>
-    <link href="http://jimxu.me/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/"/>
-    <id>http://jimxu.me/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/</id>
-    <published>2017-04-12T11:06:00.000Z</published>
-    <updated>2017-05-11T09:50:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>mysql是通过homebrew安装的,重启电脑后启动mysql报错</p>
-<a id="more"></a>
-<p>debug前须知：<br>mysql配置文件依次读取：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">/etc/my.cnf</div><div class="line">/etc/mysql/my.cnf</div><div class="line">~/my.cnf</div></pre></td></tr></table></figure></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017041214919952361252.png" alt="2017041214919952361252.png"></p>
-<p>网上提供的错误解决方法：</p>
-<h2 id="查看报错信息，有两处报错"><a href="#查看报错信息，有两处报错" class="headerlink" title="查看报错信息，有两处报错"></a>查看报错信息，有两处报错</h2><p>err文件位于<code>/usr/local/var/mysql/data</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199540435226.png" alt="20170412149199540435226.png"></p>
-<pre><code>- Can&apos;t open the mysql.plugin table. Please run mysql_upgrade to create it.
-按照提示运行`mysql_upgrade`报错
-![20170412149199546335602.png](http://o9xbyqajf.bkt.clouddn.com/20170412149199546335602.png)
-&gt;mysql_upgrade: Got error: 2002: Can&apos;t connect to local MySQL server through socket &apos;/tmp/mysql.sock&apos; (2) while connecting to the MySQL server
-</code></pre><p>Upgrade process encountered error and will not continue.</p>
-<pre><code>- Fatal error: Can&apos;t open and lock privilege tables: Table &apos;mysql.user&apos; doesn&apos;t exist
-</code></pre><h2 id="检查是否有实例正在运行"><a href="#检查是否有实例正在运行" class="headerlink" title="检查是否有实例正在运行"></a>检查是否有实例正在运行</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ps -ef | grep mysql</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199567567857.png" alt="20170412149199567567857.png"><br>结果：没有</p>
-<h2 id="删除-err文件"><a href="#删除-err文件" class="headerlink" title="删除.err文件"></a>删除.err文件</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199529841695.png" alt="20170412149199529841695.png"><br>结果：无效</p>
-<h2 id="改变权限"><a href="#改变权限" class="headerlink" title="改变权限"></a>改变权限</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chown -R _mysql:mysql /usr/local/var/mysql</div></pre></td></tr></table></figure>
-<p>结果：无效</p>
-<h2 id="重新初始化"><a href="#重新初始化" class="headerlink" title="重新初始化"></a>重新初始化</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">unset TMPDIR</div><div class="line">mysql_install_db --verbose --user=`whoami` --basedir=&quot;$(brew --prefix mysql)&quot; --datadir=/usr/local/var/mysql/data --tmpdir=/tmp</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170412149199560432948.png" alt="20170412149199560432948.png"></p>
-<p>因为/usr/local/var/mysql/data目录不为空，所以没法初始化，那么先清空目录，再初始化</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">unset TMPDIR</div><div class="line">cd /usr/local/var/mysql/data</div><div class="line">sudo rm *</div><div class="line">mysql_install_db</div></pre></td></tr></table></figure>
-<p>再运行<code>sudo mysql.server start</code>命令启动，依然报错，查看目录文件权限，原来初始化的时候又改变权限了</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo chown -R _mysql:mysql /usr/local/var/mysql</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017041214919969007399.png" alt="2017041214919969007399.png"></p>
-<p>DONE！</p>
-<p> brew services start mysql与mysql.server start</p>
-<p>2017-04-12T12:00:55.701485Z 1 [Note] A temporary password is generated for root@localhost: ZCBp1r-K0RlE</p>
-<p>If you lose this password, please consult the section How to Reset the Root Password in the MySQL reference manual.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;mysql是通过homebrew安装的,重启电脑后启动mysql报错&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="IT" scheme="http://jimxu.me/categories/IT/"/>
-    
-      <category term="mysql" scheme="http://jimxu.me/categories/IT/mysql/"/>
-    
-    
-      <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
-    
-      <category term="error" scheme="http://jimxu.me/tags/error/"/>
+      <category term="review" scheme="http://jimxu.me/tags/review/"/>
     
   </entry>
   
