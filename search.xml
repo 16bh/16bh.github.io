@@ -9,7 +9,7 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[使用mtr工具检测网络w]]></title>
+    <title><![CDATA[使用mtr工具检测网络]]></title>
     <url>%2F2017%2F07%2F12%2Fuse-mtr-detect-network-status%2F</url>
     <content type="text"><![CDATA[mtr集成了traceroute、ping、nslookup功能 安装mtr1brew install mtr 使用mtr1mtr ip/host_name mtr -h #提供帮助命令mtr -v #显示mtr的版本信息mtr -r #已报告模式显示mtr -s #用来指定ping数据包的大小mtr –no-dns #不对IP地址做域名解析mtr -a #来设置发送数据包的IP地址 这个对一个主机由多个IP地址是有用的mtr -i #使用这个参数来设置ICMP返回之间的要求默认是1秒mtr -4 #IPv4mtr -6 #IPv6 使用mtr检测域名 jimxu.me这个域名通过DNSPod分别解析到了16bh.github.io(国外)和jimxu.coding.me(国内) 对比下托管在国内外的两个Pages服务的网络状态 可见国内网络时托管在coding.net的网站比托管在github的网站有了大幅的提速]]></content>
       <tags>
