@@ -35,6 +35,8 @@ tags: website
 将`jimxu.me`指向`github page`的ip地址,记录类型为`A`
 将`www.jimxu.me`指向`16bh.github.io`，记录类型为`CNAME`
 
+> 注意，当不需要使用github pages的时候 要将这三条都暂停
+
  
 # 设置hexo
 
