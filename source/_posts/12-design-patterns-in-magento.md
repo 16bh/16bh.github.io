@@ -4,7 +4,7 @@ toc: true
 comment: true
 date: 2017-03-30 17:18:15
 categories: 
-tags: [magento,php,architect]
+tags: [magento,design pattern,translate]
 ---
 
 
