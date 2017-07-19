@@ -42,7 +42,7 @@ repository:
 
 
 # 设置DNSPod域名解析
-![20170712149985102430955.png](http://o9xbyqajf.bkt.clouddn.com/20170712149985102430955.png)
+![20170719150044386842213.png](http://o9xbyqajf.bkt.clouddn.com/20170719150044386842213.png)
 
 
 最后，为了看是否生效，可以[使用mtr检测域名的网络状态](http://jimxu.me/2017/07/12/use-mtr-detect-network-status/)
