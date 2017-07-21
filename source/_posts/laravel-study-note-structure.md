@@ -10,13 +10,9 @@ date: 2017-05-17 18:15:38
 
 laravel目录
 
-2017-05-17 新建
-
-
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170517149501610994155.png" width="492" height="297"/>
 
 <!--more-->
-
-![20170517149501610994155.png](http://o9xbyqajf.bkt.clouddn.com/20170517149501610994155.png)
 
 * routes 路由
 * app	 模型

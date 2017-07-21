@@ -19,8 +19,7 @@ date: 2017-06-08 18:59:00
 
 > 注：tree命令不是自带的，有需要可以通过`brew install tree`安装
 
-
-![20170609149700575912100.png](http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png)
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png" width="492" height="297"/>
 
 <!--more-->
 
@@ -36,4 +35,3 @@ date: 2017-06-08 18:59:00
 ./application/models	模型
 ./application/plugins	插件
 ./application/views	   视图
-

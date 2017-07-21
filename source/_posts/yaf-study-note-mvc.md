@@ -1,6 +1,6 @@
 ---
 title: Yaf学习笔记4:MVC模式
-categories: 
+categories:
 tags: [php,yaf]
 toc: false
 comment: true
@@ -17,7 +17,9 @@ date: 2017-06-12 18:59:00
 
 运行流程如下图所示（摘自鸟哥文档）：
 
-![Yaf运行流程(摘自鸟哥文档)](http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png)
+
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png" width="492" height="297"/>
+Yaf运行流程(摘自鸟哥文档)
 
 <!--more-->
 
@@ -64,7 +66,7 @@ IndexController的indexAction的代码如下：
 ```
 yaf.com/index/index/index/name/jimxu
 ```
-	
+
 ![2017061314973219814429.png](http://o9xbyqajf.bkt.clouddn.com/2017061314973219814429.png)
 
 * 申明SampleModel类的一个对象，通过selectSample方法获取$content的值
@@ -83,7 +85,7 @@ $this->getView()->assign("name", $name);
 ```
 
 * 在view对应的phtml中可以使用`$name`和`$content`变量的值
-	
+
 ``` php ~/test/application/views/index/index.phtml
 echo $content, " I am ", $name;
 ```

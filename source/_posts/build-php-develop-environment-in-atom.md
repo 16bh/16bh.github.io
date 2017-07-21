@@ -19,6 +19,11 @@ tags: [atom,php]
 1. ~~目前`atom`运行`php`项目时方法跳转不方便，没有sublime好用~~
 2. 安装太多的插件后会卡，且无法在插件列表页加载出所有的插件
 
+---
+更新：2017年7月21日
+
+又重装了一次，整理了下文章
+
 <!--more-->
 
 # 安装插件
@@ -36,8 +41,18 @@ apm enable package_name    //激活包
 apm list    //查看所有已安装包
 ```
 
+# apm换用国内源
+编辑`~/.atom/.apmrc`文件如下：
 
-# 推荐插件
+```
+egistry=https://registry.npm.taobao.org/
+strict-ssl=false
+```
+
+# 推荐插件方案一
+
+这个方案的插件都是散装的
+
 ### 爆炸效果
  activate-power-mode    爆炸效果
 
@@ -82,6 +97,12 @@ apm list    //查看所有已安装包
 - color-picker    颜色拾取
 - file-icons    文件标识
 
+
+
+
+# 推荐插件方案二
+根据一个老外的博客介绍，可以基于PHP Integrator来安装插件
+原文见：[PHP IDE like features for Atom setup](https://medium.com/oneshoe/php-ide-like-features-for-atom-setup-faa0ec2264d6)
 
 
 

@@ -7,8 +7,7 @@ comment: true
 date: 2017-04-12 15:12:11
 ---
 
-
-![20170412149198604588533.png](http://o9xbyqajf.bkt.clouddn.com/20170412149198604588533.png)
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170412149198604588533.png" width="492" height="297"/>
 
 自定义phpstorm快捷键，类sublime风格
 
@@ -27,7 +26,7 @@ date: 2017-04-12 15:12:11
 
 >command+\
 
-- 在项目中定位当前文件`Scroll From Source`(需要先安装Scorll From Source插件) 
+- 在项目中定位当前文件`Scroll From Source`(需要先安装Scorll From Source插件)
 
 >command+shift+\
 
@@ -59,7 +58,7 @@ date: 2017-04-12 15:12:11
 
 > ctrl+alt+l
 
-# phpstorm其它常用快捷键 
+# phpstorm其它常用快捷键
 
 - 查找并替换 `Edit - Find - Replace`
 
@@ -88,4 +87,3 @@ date: 2017-04-12 15:12:11
 - 在Dash中查找
 
 > alt+d
-
