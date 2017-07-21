@@ -19,16 +19,16 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="就叫我小凡吧">
+<meta property="og:title" content="凡·间">
 <meta property="og:url" content="http://jimxu.me/page/8/index.html">
-<meta property="og:site_name" content="就叫我小凡吧">
+<meta property="og:site_name" content="凡·间">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="就叫我小凡吧">
+<meta name="twitter:title" content="凡·间">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
 
-    <link rel="alternate" href="/atom.xml" title="就叫我小凡吧" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="凡·间" type="application/atom+xml">
 
 
 
@@ -57,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>就叫我小凡吧</title>
+<title>凡·间</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -73,7 +73,7 @@
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: undefined
+        search: true
     }
 </script>
 
@@ -109,6 +109,13 @@
         <p class="header-subtitle">这一切都是命运石之门的选择！</p>
         
 
+        
+            <form id="search-form">
+            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
+            <i class="fa fa-times" onclick="resetSearch()"></i>
+            </form>
+            <div id="local-search-result"></div>
+            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
         
 
 
@@ -152,6 +159,8 @@
                         
                             <li><a href="/tags/">标签云</a></li>
                         
+                            <li><a href="/about/">关于我</a></li>
+                        
                         </ul>
                     </nav>
                     <nav class="header-nav">
@@ -166,7 +175,7 @@
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/alfred/">alfred</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/architect/">architect</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/environment/">environment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/error/">error</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/">go</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/json/">json</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/laravel/">laravel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/list/">list</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lua/">lua</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/magento/">magento</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mangeo/">mangeo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpcs/">phpcs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpmd/">phpmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psr/">psr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/reading/">reading</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/">redis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/review/">review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell/">shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tools/">tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vscode/">vscode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/website/">website</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xml/">xml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yaf/">yaf</a></li></ul>
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/alfred/">alfred</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/design-pattern/">design pattern</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/environment/">environment</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/error/">error</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/">go</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/json/">json</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/laravel/">laravel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/life/">life</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/list/">list</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lua/">lua</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/magento/">magento</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mangeo/">mangeo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpcs/">phpcs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpmd/">phpmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psr/">psr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/reading/">reading</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/">redis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/review/">review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell/">shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/swim/">swim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tools/">tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/translate/">translate</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vscode/">vscode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/website/">website</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xml/">xml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yaf/">yaf</a></li></ul>
                     </div>
                 </section>
                 
@@ -205,6 +214,8 @@
                 
                     <li><a href="/tags/">标签云</a></li>
                 
+                    <li><a href="/about/">关于我</a></li>
+                
                 <div class="clearfix"></div>
                 </ul>
             </nav>
@@ -220,6 +231,379 @@
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
       <div class="body-wrap">
+  
+    <article id="post-show-hidden-file-in-finder" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/05/show-hidden-file-in-finder/" class="article-date">
+      <time datetime="2016-07-05T14:48:16.000Z" itemprop="datePublished">2016-07-05</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/05/show-hidden-file-in-finder/">在Finder中查看隐藏文件</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>##方法1：<br>在终端中执行：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">defaults write com.apple.Finder AppleShowAllFiles YES</div></pre></td></tr></table></figure>
+<p>再按住<code>Option</code>键，单击<code>Finder</code>的图标不放，选择<code>重新开启</code>,即可看到隐藏文件</p>
+<p>要取消的话，执行：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">defaults write com.apple.Finder AppleShowAllFiles NO</div></pre></td></tr></table></figure>
+<p>再重启<code>Finder</code>即可</p>
+<h2 id="方法2"><a href="#方法2" class="headerlink" title="方法2"></a>方法2</h2><p>使用快捷键：<br><code>command+shif+.</code></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hexo-enable-duoshuo" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/05/hexo-enable-duoshuo/" class="article-date">
+      <time datetime="2016-07-05T12:12:33.000Z" itemprop="datePublished">2016-07-05</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/05/hexo-enable-duoshuo/">hexo支持多说评论</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>只需要三步即可让你的<code>hexo</code>主题支持评论</p>
+<ol>
+<li>去<a href="http://duoshuo.com" target="_blank" rel="external">多说</a>登录，设置<code>short name</code></li>
+<li>将上面的<code>short name</code>加入配置<code>themes/landscape/_config.yml</code>中</li>
+</ol>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">duoshuo_shortname:</span> <span class="string">你站点的short_name</span></div></pre></td></tr></table></figure>
+<ol>
+<li>修改<code>themes\landscape\layout\_partial\article.ejs</code><br>删除下面的<code>disqus</code>评论的代码：</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.disqus_shortname)&#123; %&gt;</div><div class="line">  <span class="xml"><span class="tag">&lt;<span class="name">section</span> <span class="attr">id</span>=<span class="string">"comments"</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"disqus_thread"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">noscript</span>&gt;</span>Please enable JavaScript to view the <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"//disqus.com/?ref_noscript"</span>&gt;</span>comments powered by Disqus.<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">noscript</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line">  &lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
+<p>加入多说评论的代码</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.duoshuo_shortname)&#123; %&gt;</div><div class="line">  <span class="xml"><span class="tag">&lt;<span class="name">section</span> <span class="attr">id</span>=<span class="string">"comments"</span>&gt;</span></span></div><div class="line">    <span class="comment">&lt;!-- 多说评论框 start --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"ds-thread"</span> <span class="attr">data-thread-key</span>=<span class="string">"&lt;%= post.layout %&gt;-&lt;%= post.slug %&gt;"</span> <span class="attr">data-title</span>=<span class="string">"&lt;%= post.title %&gt;"</span> <span class="attr">data-url</span>=<span class="string">"&lt;%= page.permalink %&gt;"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 多说评论框 end --&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></div><div class="line">    <span class="keyword">var</span> duoshuoQuery = &#123;<span class="attr">short_name</span>:<span class="string">'&lt;%= config.duoshuo_shortname %&gt;'</span>&#125;;</div><div class="line">      (<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">var</span> ds = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</div><div class="line">        ds.type = <span class="string">'text/javascript'</span>;ds.async = <span class="literal">true</span>;</div><div class="line">        ds.src = (<span class="built_in">document</span>.location.protocol == <span class="string">'https:'</span> ? <span class="string">'https:'</span> : <span class="string">'http:'</span>) + <span class="string">'//static.duoshuo.com/embed.js'</span>;</div><div class="line">        ds.charset = <span class="string">'UTF-8'</span>;</div><div class="line">        (<span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>] </div><div class="line">         || <span class="built_in">document</span>.getElementsByTagName(<span class="string">'body'</span>)[<span class="number">0</span>]).appendChild(ds);</div><div class="line">      &#125;)();</div><div class="line">      <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 多说公共JS代码 end --&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line">  &lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/website/">website</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-how-to-use-hexo" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/05/how-to-use-hexo/" class="article-date">
+      <time datetime="2016-07-05T09:14:59.000Z" itemprop="datePublished">2016-07-05</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/05/how-to-use-hexo/">在搭建hexo时碰到的问题</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <blockquote>
+<p>通过github和hexo搭建博客</p>
+</blockquote>
+<h1 id="解决在同一台电脑上使用github与gitlab的问题"><a href="#解决在同一台电脑上使用github与gitlab的问题" class="headerlink" title="解决在同一台电脑上使用github与gitlab的问题"></a>解决在同一台电脑上使用github与gitlab的问题</h1><p>参考这篇博文:<a href="https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md" target="_blank" rel="external">https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md</a></p>
+<p>方法是一个仓库使用git的全局配置，一个仓库使用git的本地配置</p>
+<p>生成公钥的时候指定生成的文件名就可以分别生成github和gitlab的公钥了</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -f ~/.ssh/id_rsa.github -C "sample@126.com"</div></pre></td></tr></table></figure>
+<h1 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h1><p>最快捷的方式还是用brew来安装</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install node.js</div></pre></td></tr></table></figure>
+<h1 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -a hexo</div></pre></td></tr></table></figure>
+<h1 id="常用hexo命令"><a href="#常用hexo命令" class="headerlink" title="常用hexo命令"></a>常用hexo命令</h1><p>输入<code>hexo</code>可获取所有常用命令</p>
+<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">clean     Removed generated <span class="built_in">files</span> <span class="keyword">and</span> cache.</div><div class="line">config    Get <span class="keyword">or</span> <span class="built_in">set</span> configurations.</div><div class="line">d(eploy)    Deploy your website.</div><div class="line">g(enerate)  Generate static <span class="built_in">files</span>.</div><div class="line">help      Get help <span class="keyword">on</span> <span class="title">a</span> <span class="title">command</span>.</div><div class="line">init      Create <span class="keyword">a</span> <span class="built_in">new</span> Hexo <span class="built_in">folder</span>.</div><div class="line">list      List <span class="keyword">the</span> information <span class="keyword">of</span> <span class="keyword">the</span> site</div><div class="line">migrate   Migrate your site <span class="built_in">from</span> other <span class="keyword">system</span> <span class="built_in">to</span> Hexo.</div><div class="line"><span class="built_in">new</span>       Create <span class="keyword">a</span> <span class="built_in">new</span> <span class="built_in">post</span>.</div><div class="line">publish   Moves <span class="keyword">a</span> draft <span class="built_in">post</span> <span class="built_in">from</span> <span class="title">_drafts</span> <span class="built_in">to</span> <span class="title">_posts</span> <span class="built_in">folder</span>.</div><div class="line">render    Render <span class="built_in">files</span> <span class="keyword">with</span> renderer plugins.</div><div class="line">server    Start <span class="keyword">the</span> server.</div><div class="line"><span class="built_in">version</span>   Display <span class="built_in">version</span> information.</div></pre></td></tr></table></figure>
+<h1 id="生成博客后快速用Mou打开博客的方法"><a href="#生成博客后快速用Mou打开博客的方法" class="headerlink" title="生成博客后快速用Mou打开博客的方法"></a>生成博客后快速用<code>Mou</code>打开博客的方法</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">open test.md</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注：open命令会用默认的方式打开指定的文件，相当于双击打开该文件。配置文件默认打开方式的方法：选中.md文件,<code>command+I</code>显示简介，选择<code>打开方式</code>为<code>Mou</code>，点击<code>全部更改</code>，如下图所示</p>
+</blockquote>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-9c3a5ec1253f70b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<h1 id="安装完成后写一篇博客的过程"><a href="#安装完成后写一篇博客的过程" class="headerlink" title="安装完成后写一篇博客的过程"></a>安装完成后写一篇博客的过程</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">hexo new 'test.md'    //新建博客</div><div class="line">open source/_posts/test.md    //用mou打开，编辑</div><div class="line">hexo g    //更新本地库</div><div class="line">hexo d    //提交本地修改</div></pre></td></tr></table></figure>
+<hr>
+<p>update: 2017年7月11日17:11</p>
+<h1 id="切换主题"><a href="#切换主题" class="headerlink" title="切换主题"></a>切换主题</h1><p>以<a href="https://github.com/litten/hexo-theme-yilia" target="_blank" rel="external">yilia</a>主题为例</p>
+<ul>
+<li>将主题clone到本地</li>
+</ul>
+<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> path-<span class="keyword">to</span>-hexo</div><div class="line"><span class="keyword">cd</span> themes</div><div class="line">git clone http<span class="variable">s:</span>//github.<span class="keyword">com</span>/litten/hexo-theme-yilia</div></pre></td></tr></table></figure>
+<ul>
+<li>修改站点配置文件<code>_config.yml</code>,启用新的主题</li>
+</ul>
+<figure class="highlight xl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">theme</span>: hexo-<span class="built_in">theme</span>-yilia</div></pre></td></tr></table></figure>
+<ul>
+<li>清缓存和老的数据</li>
+</ul>
+<figure class="highlight dos"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">cd</span> <span class="built_in">path</span>-to-hexo</div><div class="line">hexo clean</div></pre></td></tr></table></figure>
+<ul>
+<li>重新generate</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g <span class="_">-d</span></div></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/website/">website</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-how-to-install-hexo-theme" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/05/how-to-install-hexo-theme/" class="article-date">
+      <time datetime="2016-07-05T03:43:41.000Z" itemprop="datePublished">2016-07-05</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/05/how-to-install-hexo-theme/">hexo如何安装主题</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <blockquote>
+<p>以<code>landscape-plus</code>主题为例,该主题是在默认主题<code>landscape</code>结合国人的使用习惯改进的</p>
+</blockquote>
+<h1 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h1><p>终端执行命令<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd hexo;    //进入你的hexo博客的根目录</div><div class="line">git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus</div></pre></td></tr></table></figure></p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/website/">website</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/07/05/how-to-install-hexo-theme/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-build-php-develop-environment-in-macvim" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/01/build-php-develop-environment-in-macvim/" class="article-date">
+      <time datetime="2016-06-30T18:23:07.000Z" itemprop="datePublished">2016-07-01</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/01/build-php-develop-environment-in-macvim/">如何用macVim搭建php开发的IDE</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>php开发必备插件列表：</p>
+<p>（一）Vundle：管理vim插件的插件，必备</p>
+<p>（二）nerdtree：文件目录</p>
+<p>（三）nerdtree-git-plugin：在文件目录窗口显示git状态</p>
+<p>（四）vim-gitgutter：在编辑区显示文件中的改动，可以查看diff</p>
+<p>（五）tagbar：显示php文件中的方法，点击跳转到该方法</p>
+<p>（六）bufexplorer.zip：管理缓冲区，列出所有你打开的文件</p>
+<p>（七）vim-airline： 状态栏美化</p>
+<p>（八）YouCompleteMe： 代码自动补全</p>
+<p>（九）ctrlp.vim： 查找文件</p>
+<p>（十）ctags：方法跳转</p>
+<p>（十一）syntastic：语法错误分析</p>
+<p>（十二）nerdcommenter：代码注释</p>
+<p>（十三）<del>~ultisnips：代码片段</del>~　　用aText软件替代</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim/">vim</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
   
     <article id="post-flush-magento-cache-after-use-redis" class="article article-type-post" itemscope itemprop="blogPost">
   
@@ -986,418 +1370,6 @@
 
 
   
-    <article id="post-how-to-install-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/how-to-install-magento/" class="article-date">
-      <time datetime="2016-06-24T10:23:45.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/how-to-install-magento/">安装magento</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol>
-<li>搭建开发环境：nginx(apache)+php+php-fpm+mysql</li>
-<li><p>在mysql中新建magento要用的数据库</p>
-</li>
-<li><p>注册<a href="https://magento.com" target="_blank" rel="external">magento</a>官网账号，并下载magento<br><a href="https://magento.com" target="_blank" rel="external">https://magento.com</a></p>
-</li>
-</ol>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-e644e6e767e6963c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>选择社区版，在打开的页面点<code>Download Now</code></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-e42a9a96dbcf60ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>选择带sample data的版本（即测试数据，不然安装好了啥都没有，要自己从头弄起，安装好了）</p>
-<p>下载完成后解压到本地根目录，文件夹名称修改成你的项目名称，如’jimPractiseMagento’,即可以通过<code>localhost</code>访问到的目录</p>
-<h1 id="安装mageno"><a href="#安装mageno" class="headerlink" title="安装mageno"></a>安装mageno</h1><p>访问<code>localhost/jimPractiseMagento</code>会自动跳转到安装页面</p>
-<p>第一步，【用户协议】，勾选<code>agree</code>，选择<code>continue</code></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-3a662765a0160f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>第二步，【语言】， 选择<code>continue</code></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-0e2271da3622909a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>第三步，【检测问题】一般出问题的都在这一步</p>
-<p>常见的错误有两种：</p>
-<blockquote>
-<ol>
-<li>缺乏<code>php</code>扩展</li>
-<li>文件路径不可写，如下图所示</li>
-</ol>
-</blockquote>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-ee48dbbf328d65cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>缺乏php扩展的时候，根据提示安装对应的扩展即可</p>
-<p>如果像图示一样提示：<code>xxx/media</code>或<code>xxx/var</code>路径不可写的时候，执行下面的命令<strong><em>修改根目录的文件权限</em></strong></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod -R 777 文件根目录路径</div></pre></td></tr></table></figure>
-<blockquote>
-<p>注：修改权限以后，<code>git</code>可能会将改了权限的文件视为一种修改，并出现在<code>sourceTree</code>的未暂存文件中，这里就需要修改git的配置</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd 项目根目录</div><div class="line">vim .git/config</div></pre></td></tr></table></figure>
-<p>将.git/config文件中的<code>filemode = true</code>改为<code>filemode = false</code>即可</p>
-<p>解决页面提示的错误后刷新下页面，没有错误后点<code>continue</code></p>
-<p>第四步，【数据库】，填写数据库信息后，点<code>continue</code>，安装完成<br>（这里比较简单，故略去）</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-fast-type-long-shell-command" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/fast-type-long-shell-command/" class="article-date">
-      <time datetime="2016-06-24T10:18:52.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/fast-type-long-shell-command/">mac下快速输入长命令行的两种方法</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>本文介绍两种在mac下快捷输入长命令行的方法<br>以启动redis服务的命令<code>/usr/local/bin/redis-server /etc/redis.conf</code>为例</p>
-<h1 id="方法一：-alias"><a href="#方法一：-alias" class="headerlink" title="方法一： alias"></a>方法一： alias</h1><figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">cd</span> ~  <span class="string">//</span>进入用户目录</div><div class="line">vim <span class="string">.zshrc</span>  <span class="string">//</span>如果安装了zsh的话，打开这个配置，否则使用 vim <span class="string">.bash_profile</span></div><div class="line"><span class="string">//</span>编辑配置文件</div><div class="line"><span class="keyword">alias</span> redis.start=<span class="string">"/usr/local/bin/redis-server /etc/redis.conf"</span><span class="string">//</span>注意，等号左右不能有空格</div><div class="line"><span class="string">//</span>完成编辑</div><div class="line">source <span class="string">.zshrc</span>  <span class="string">//</span>保存配置，同理，未安装zsh的使用 source <span class="string">.bash_profile</span></div></pre></td></tr></table></figure>
-<p>这样，别名就设置好了<br>直接在终端使用<code>redis.start</code>就可以启动你的<code>redis</code>服务了<br><em>甚至，你还可以将多个alias结合起来使用（见文末）</em></p>
-<h1 id="方法二：atext"><a href="#方法二：atext" class="headerlink" title="方法二：atext"></a>方法二：atext</h1><blockquote>
-<p>注：也可以使用其他类似的软件，如<code>TextExpander</code></p>
-</blockquote>
-<p><strong><em>1.下载并安装<code>atext</code></em></strong><br>  略</p>
-<p><strong><em>2.atext设置 </em></strong><br>先在偏好设置里设置触发片段的热键，如ctrl+\<br>然后打开atext，新建一个片段组<code>New Group</code>，并如下图所示设置组的属性<br>  <img src="http://upload-images.jianshu.io/upload_images/1903856-7edee8bcb2d05b1d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="atext设置"><br>这样设置之后，我们输入片段+热键就能触发命令，展开片段对应的内容</p>
-<p><strong><em>3.编辑常用命令</em></strong><br>如图所示，在组下面新建常用的片段<br><img src="http://upload-images.jianshu.io/upload_images/1903856-8123069c7af65a47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="atext使用示意图"><br><strong><em>4.使用</em></strong><br>这时候，在终端输入设置好的片段名称，如<code>redis.start</code>，再按设置好的热键，如 ctrl+\ ,就会自动展开成<code>/usr/local/bin/redis-server /etc/redis.conf</code><br>，按<code>return</code>即可使用该命令了</p>
-<h1 id="两种方法的比较"><a href="#两种方法的比较" class="headerlink" title="两种方法的比较"></a>两种方法的比较</h1><p>第一种alias的方法比较快捷，不用再输入热键，可以可以将多个alias组合起来使用，如：<br><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">alias</span> fpm.<span class="built_in">start</span>=<span class="string">"sudo php55-fpm start"</span></div><div class="line"><span class="built_in">alias</span> fpm.<span class="built_in">stop</span>=<span class="string">"sudo php55-fpm stop"</span></div><div class="line"><span class="built_in">alias</span> fpm.restart=<span class="string">'fpm.stop &amp;&amp; fpm.start'</span></div></pre></td></tr></table></figure></p>
-<p>局限性：只能在自己的终端上使用，不能在别的地方用，只能给命令行设置别名</p>
-<p>第二种<code>atext</code>的使用范围很广，不但可以在自己的终端上使用，还可以在远程服务的终端上使用，还可以记录常用的代码片段，在coding的时候使用（<strong><em>话说最后才是<code>atext</code>最常用的功能吧：）- 来自本人的吐槽</em></strong>）</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/">tools</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-oh-my-zsh-cow-welcome" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/oh-my-zsh-cow-welcome/" class="article-date">
-      <time datetime="2016-06-24T10:16:03.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/oh-my-zsh-cow-welcome/">在oh my zsh的基础上添加终端的欢迎界面</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>先上效果图，就是这只萌萌哒的小牛以及牛说的每日格言啦，怎么做出这种效果呢，往下看。</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-5d5cbca95ddbb2f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>假设你已经完成了下面的准备工作</p>
-<blockquote>
-<p>*安装了items2+zsh+oh my zsh(安装过程在这里不赘述了，网上一堆教程,推荐迟建强老师的教程：<a href="http://macshuo.com/?p=676" target="_blank" rel="external">终极 Shell</a>)</p>
-<p>*安装了homebrew</p>
-</blockquote>
-<h1 id="开始安装zsh的欢迎界面"><a href="#开始安装zsh的欢迎界面" class="headerlink" title="开始安装zsh的欢迎界面"></a>开始安装zsh的欢迎界面</h1><p>第一步，先用<code>homebrew</code>安装两个依赖的包</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew install fortune</div><div class="line">brew install cowsay</div></pre></td></tr></table></figure>
-<p>第二步，安装<code>oh my zsh</code>的<code>chucknorris</code>插件<br>打开终端配置文件</p>
-<pre><code>vim ~/.zshrc
-</code></pre><p>修改<code>plugins = ( )</code>这一行<br>括号里表示你安装过的插件，以空格区分，只要加上<code>chucknorris</code>就可以了，下面是我安装的所有的<code>oh my zsh</code>的插件，以供参考</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(brew git z extract history catimg wd last-working-dir chucknorris )</div></pre></td></tr></table></figure>
-<p>再在.zshrc文件的最后一行添一句命令：</p>
-<p><code>chuck_cow</code><br>即可</p>
-<p>保存并退出，重新加载配置文件</p>
-<p><code>source ~/.zshrc</code></p>
-<p>重启终端，牛牛就出来啦，enjoy it!</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/">tools</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/" class="article-date">
-      <time datetime="2016-06-23T10:22:39.000Z" itemprop="datePublished">2016-06-23</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/">mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><blockquote>
-<p><em>注：可以直接查看最下面的解决方案</em></p>
-</blockquote>
-<p>事情的起因是这样的：<br>通过下面的命令安装imagic扩展（不要问我为什么装这玩意儿，抽风了可能）</p>
-<pre><code>brew install php55-imagick
-</code></pre><p>运行 <code>php --version</code>发现报错信息<br><img src="http://upload-images.jianshu.io/upload_images/1903856-bcc2f0e512f67e69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="安装imagick报错"></p>
-<blockquote>
-<p>注：此处解决方案参考了这里<br><a href="https://github.com/Homebrew/homebrew-php/issues/1556" target="_blank" rel="external">https://github.com/Homebrew/homebrew-php/issues/1556</a></p>
-</blockquote>
-<p>报错原因是因为安装的<strong><em>imagick扩展与php版本不匹配</em></strong>，通过下面的命令重新安装<br>  <figure class="highlight gradle"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew reinstall php55-imagick --build-<span class="keyword">from</span>-<span class="keyword">source</span></div></pre></td></tr></table></figure></p>
-<p>运行 <code>php --version</code>发现新的报错信息<br><img src="http://upload-images.jianshu.io/upload_images/1903856-679b772444333817.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="imagick报错信息"></p>
-<p>这个原因一直没找到</p>
-<p>然后我一想：我管它什么原因，这玩意儿我压根就不需要吧，卸载了就是了<br>执行<br><figure class="highlight armasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">brew </span>uninstall php55-imagick</div></pre></td></tr></table></figure></p>
-<p>果然，又报错了：<br><img src="http://upload-images.jianshu.io/upload_images/1903856-8c04f007494aa4ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>在<code>stackoverflow</code>上搜索了半天，几乎所有提供的解决方案都是重装<code>imagick</code><br>but，前面装过了还是会报错啊</p>
-<p>先是在<code>php.ini</code>文件中看看在哪里启用了imagick这个扩展，并没有发现</p>
-<blockquote>
-<p>附：<code>php.ini</code>的路径是：<br><code>/usr/local/etc/php/5.5</code>(如果你跟我一样是通过homebrew安装的php的话)</p>
-</blockquote>
-<h1 id="最终解决方案"><a href="#最终解决方案" class="headerlink" title="最终解决方案"></a>最终解决方案</h1><blockquote>
-<p>注：最后的解决方法参考这里<br> <a href="http://stackoverflow.com/questions/5282264/php-warning-php-startup-unable-to-load-dynamic-library" target="_blank" rel="external">http://stackoverflow.com/questions/5282264/php-warning-php-startup-unable-to-load-dynamic-library</a></p>
-</blockquote>
-<p>先执行下面的命令，获取所有跟php配置相关的文件的路径，终于找到了通过homebrew安装的扩展的位置<br><figure class="highlight 1c"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -i <span class="string">| grep ini</span></div></pre></td></tr></table></figure></p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-4900a7be69b49b82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>接下来就简单了,打开ext-imagick.ini文件</p>
-<figure class="highlight groovy"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd <span class="regexp">/usr/</span>local<span class="regexp">/etc/</span>php<span class="regexp">/5.5/</span>conf.d/</div><div class="line">vim ext-imagick.ini</div></pre></td></tr></table></figure>
-<p>注销掉<code>extentions=&quot;&quot;</code>这行就可以了<br><img src="http://upload-images.jianshu.io/upload_images/1903856-25448babbaf24854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>这下，世界终于安静了，每次启动php的时候静悄悄的，再也没有烦人的warning提示了</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-how-to-use-json" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/23/how-to-use-json/" class="article-date">
-      <time datetime="2016-06-23T10:14:55.000Z" itemprop="datePublished">2016-06-23</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/23/how-to-use-json/">在php中使用json</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h1 id="关于json"><a href="#关于json" class="headerlink" title="关于json"></a>关于json</h1><ol>
-<li><p>为什么要使用json<br>json字符串容易存储，尤其是要将一个数组存入数据库或缓存或记录日志的时候</p>
-</li>
-<li><p>json_encode</p>
-</li>
-</ol>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$str = json_encode($arr);</div></pre></td></tr></table></figure>
-<ol>
-<li>json_decode<br>在<code>Dash</code>中的函数格式如下</li>
-</ol>
-<figure class="highlight autoit"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mixed json_decode ( <span class="built_in">string</span> $json [, bool $assoc = <span class="literal">false</span> [, <span class="built_in">int</span> $depth = <span class="number">512</span> [, <span class="built_in">int</span> $options = <span class="number">0</span> ]]] )</div></pre></td></tr></table></figure>
-<p>注意第二个参数，当<code>json_decode()</code>的第二个参数不填的时候，json解析的到的结果是个object对象，只有当第二个参数是true的时候，json解析的结果才是list数组<br>即</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$object = json_decode($str);</div><div class="line">$array = json_decode($str,<span class="keyword">true</span>);</div></pre></td></tr></table></figure>
-<p><strong><em>如果是做API接口开发，经常和客户端联调的筒子们肯定就知道，object类型和list类型对于安卓来说相差甚远，直接关系到接口是否能够解析</em></strong></p>
-<h1 id="关于json工具"><a href="#关于json工具" class="headerlink" title="关于json工具"></a>关于json工具</h1><ol>
-<li><p>在线json解析<br>（1）Json Parser Online:<a href="http://json.parser.online.fr/" target="_blank" rel="external">http://json.parser.online.fr/</a><br>优势：界面简洁美观,json解析框够大，适用于解析很长的json字符串</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-69fa98c63024668d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>（2） Be Json</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-d3e9c44b183927ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>优势：<strong><em>json解析出错时会给出错误提示</em></strong></p>
-</li>
-<li><p>Chrome的json解析扩展 - <code>JSONVIEW</code><br>安装完成后调用接口直接在页面上显示json解析后的内容</p>
-</li>
-</ol>
-<p>下载链接：<br><a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc</a></p>
-<p>效果图：<br><img src="http://upload-images.jianshu.io/upload_images/1903856-308e543c7c44f27d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/json/">json</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/page/7/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><a class="extend next" rel="next" href="/page/9/">Next &raquo;</a>
@@ -1412,7 +1384,7 @@
                 2015-2017 小凡
             </div>
             <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
             </div>
         </div>
         
@@ -1440,6 +1412,10 @@
     
 <script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
 
+
+    
+
+     
 
 
 
