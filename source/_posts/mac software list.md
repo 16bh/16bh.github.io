@@ -111,13 +111,16 @@ homebrew install todolist
 - `PixelScheduler`  在屏幕右侧以线条的形式显示一天的日程，限免
 <img src="http://o9xbyqajf.bkt.clouddn.com/1489379054.png" width="166" height="163" />
 
+- Go2Shell  在Finder中打开终端并进入当前项目路径,支持默认终端，不支持iterm2,按住Command的键将app拖到finder菜单栏
+- TermHere  在Finder中打开终端并进入当前项目路径，支持iterm2
+
 
 
 # 工具
 - `Fluid` 	将常用的网页转化成简易app的工具，如石墨、tower、网页版微信、v2ex、豆瓣音乐等
 - `CheatSheet`   长按Command键显示当前可用的快捷键
-- `Snip`    腾讯出品的截图小工具，简单实用，可以加注释,唯一的缺点是电脑外接显示器后无法使用
-- `Jietu`  腾讯出品的另一款截图工具，支持录屏
+- `Snip`    腾讯出品的截图小工具，简单实用，可以加注释,唯一的缺点是电脑外接显示器后无法使用
+- `Jietu`  腾讯出品的另一款截图工具，支持录屏
 
 <center>![20170407149157049983663.png](http://o9xbyqajf.bkt.clouddn.com/20170407149157049983663.png)</center>
 - `SnapNDrag Pro`  功能强大的截图工具，会将所有的截图保存在自己生成的文件夹中并分类，不可注释，外接显示器后也能使用
@@ -134,6 +137,7 @@ homebrew install todolist
 <img src="http://o9xbyqajf.bkt.clouddn.com/1490669228.png" />
 - `Leaf`  RSS阅读，限免
 - `scrollreveal`  修改mac触摸板滚动方向，享受触控板自然滚动的方便又不改变鼠标的使用习惯
+- `Memo`  在桌面显示彩色便签
 
 # 编辑器
 - `PHPStorm` 	功能最齐全的PHP开发IDE
