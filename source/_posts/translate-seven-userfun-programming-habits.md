@@ -8,7 +8,6 @@ tags: translate
 ---
 
 <img src="http://o9xbyqajf.bkt.clouddn.com/20170721150061352433270.png" width="492" height="297"/>
-(图片来源：[pixabay](https://pixabay.com/zh/))
 
 作者：BinarForge
 

@@ -3,7 +3,7 @@ title: 在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd
 toc: true
 date: 2016-07-12 12:05:02
 categorie:
-tags: tools
+tags: [tools,oh my zsh]
 ---
 
 `zsh`的`z`插件可以随意跳转最近经常打开的文件夹

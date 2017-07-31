@@ -1,8 +1,8 @@
 ---
-title: 在搭建hexo时碰到的问题
+title: 第一次使用Hexo
 date: 2016-07-05 17:14:59
 category: 
-tags: website
+tags: hexo
 toc: true
 ---
 >通过github和hexo搭建博客

@@ -9,14 +9,21 @@ tags: php
 
 
 <img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097148897159.png" width="492" height="297"/>
-(图片来源：[pixabay](https://pixabay.com/zh/))
 
 <!--more-->
 
-## prometheus
-监控系统
+## 什么是prometheus
 
-时间序列数据
+- 监控系统
+- 报警机制
+- 时间序列数据
+- 支持Java,Go，PHP等
+
+## prometheus_client_php
+
+A prometheus client library written in PHP
+
+<div class="github-widget" data-repo="Jimdo/ prometheus_client_php"></div>
 
 ## 对接prometheus系统
 
@@ -161,6 +168,3 @@ $histogram = $registry->getOrRegisterHistogram('test', 'some_histogram', 'it obs
 $histogram->observe(3.5, ['blue']);
 ```
 
-## 引用
-
-[`prometheus_client_php`](https://github.com/Jimdo/prometheus_client_php) : A prometheus client library written in PHP

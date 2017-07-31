@@ -3,7 +3,7 @@ title: hexo文章的分类和标签
 toc: true
 date: 2016-07-19 16:48:04
 categories:
-tags: website
+tags: hexo
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: phpstorm live template
+title: phpstorm使用代码片段
 toc: true
 comment: true
 date: 2017-04-01 10:22:30
@@ -9,7 +9,7 @@ tags: phpstorm
 
 
 
-
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106594122661.png" width="492" height="297"/>
 
 
 <!--more-->

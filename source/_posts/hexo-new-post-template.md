@@ -2,7 +2,7 @@
 title: hexo默认文章的模板修改
 date: 2016-07-06 14:41:14
 category:
-tags: website
+tags: hexo
 ---
 
 > 新增了文章目录功能后，每次新建文章时都需要加上`toc: true`，修改默认的文章模板，下次新建时就不用手动输入了

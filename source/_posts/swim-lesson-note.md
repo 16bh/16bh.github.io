@@ -10,7 +10,7 @@ tags: [swim,life]
 
 
 ![20170721150060414881033.png](http://o9xbyqajf.bkt.clouddn.com/20170721150060414881033.png)
-(图片来源：[pixabay](https://pixabay.com/zh/))
+
 
 炎炎夏日，学个游泳再好不过了,这篇文章记录学游泳时候的经验，以后教人用
 

@@ -21,4 +21,6 @@ tags: study
 
 五十音图有10行5段，共计46个平假名，46个片假名
 
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170726150107109320497.png"/>
+
 ## 为什么既有平假名又有片假名

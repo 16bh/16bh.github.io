@@ -128,8 +128,8 @@ color_scheme:
 
 highlight_style:
   #on: true
-  inline_code: 2  # Value: 0 - 9 可选
-  code_block: 4  # Value: 0 - 4 
+  inline_code: 3  # Value: 0 - 9 可选
+  code_block: 3  # Value: 0 - 4 
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
@@ -137,12 +137,12 @@ highlight_style:
 
 blockquote_style:
   #on: true
-  blockquote: 3  # Value: 0 - 7 可选
+  blockquote: 2  # Value: 0 - 7 可选
   # 自定义文章「引用部分」的样式
 
 # Headings Style | 标题风格
 ## 0-Yelee, 1-Yilia, 2-GitHub
-heading_style: 2 # Value: 0 - 2
+heading_style: 0 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
 list_style: 3  # value: 0 - 12 可选
@@ -196,7 +196,7 @@ friends:
 open_in_new:
   global: 0 # 0-2
   title: false # article title in homepage 主页文章标题
-  post: false # link within post/page 正文中的链接
+  post: true # link within post/page 正文中的链接
   tags: false # 标签
   categories: false # 分类
   article_nav: false # 导航
@@ -273,7 +273,7 @@ visit_counter:
 
 # GitHub Repo Widget
 # https://github.com/hustcc/GitHub-Repo-Widget.js
-github_widget: false
+github_widget: true
 
 # Progress Bar | 页面加载进度条
 # Demo: http://github.hubspot.com/pace/docs/welcome/

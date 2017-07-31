@@ -2,7 +2,7 @@
 title: hexo支持多说评论
 date: 2016-07-05 20:12:33
 category:
-tags: website
+tags: hexo
 ---
 只需要三步即可让你的`hexo`主题支持评论
 

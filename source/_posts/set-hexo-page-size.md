@@ -3,7 +3,7 @@ title: 分别设置hexo首页、标签页、归档页文章个数
 toc: false
 cagegory: 
 date: 2016-07-06 19:12:59
-tags: website
+tags: hexo
 ---
 # 开启关闭分页功能
 修改配置文件`hexo/_config.yml`，找到如下内容：

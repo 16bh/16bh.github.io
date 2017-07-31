@@ -8,7 +8,7 @@ tags: [xdebug,phpstorm]
 ---
 
 <img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png" width="492" height="297"/>
-(图片来源：[pixabay](https://pixabay.com/zh/))
+
 
  安装了xdebug之后，使用var_dump打印输出时显示错误
  

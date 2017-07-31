@@ -2,7 +2,7 @@
 title: 运行hexo报错解决方案
 date: 2016-07-06 12:30:02
 catogory:
-tags: website
+tags: hexo
 toc: true
 ---
 

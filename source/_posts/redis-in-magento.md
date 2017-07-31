@@ -2,7 +2,7 @@
 title: 在magento中配置使用redis缓存
 date: 2016-06-21 18:30:09
 category:
-tags: [magento,redis,php]
+tags: [magento,redis]
 toc: true
 ---
 

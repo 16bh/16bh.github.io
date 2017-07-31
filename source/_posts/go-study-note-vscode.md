@@ -1,5 +1,5 @@
 ---
-title: vscode搭建go-lang开发环境
+title: GO学习笔记：用vscode搭建go开发环境
 categories:
 tags: [vscode,go]
 toc: false
@@ -8,7 +8,7 @@ date: 2017-04-11 16:26:03
 ---
 
 
-vscode搭建go开发环境
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170727150113818639668.png" width="492" height="297"/>
 
 
 
@@ -19,7 +19,7 @@ vscode搭建go开发环境
 # 修改配置
 `command+,`
 ```
-"go.gopath": "/users/jim/Documents/code/go",
+"go.gopath": "/Users/{user_name}/go",
 "go.goroot": "/usr/local/opt/go/libexec"
 ```
 
@@ -27,6 +27,9 @@ vscode搭建go开发环境
 ```
 brew install go-delve/delve/delve
 ```
+
+>否则使用vscode的调试功能的时候会报错：
+Failed to continue: "Cannot find Delve debugger. Install from https://github.com/derekparker/delve & ensure it is in your "GOPATH/bin" or "PATH"."
 
 # 安装依赖
 当vocode提示缺少以下依赖的时候，选择安装
@@ -58,7 +61,7 @@ go get -u -v golang.org/x/tools/cmd/guru
             "type": "go",
             "request": "launch",
             "mode": "debug",
-            "program": "/Users/jim/Documents/code/go/src/hello.go"
+            "program": "/Users/jim/go"
         }
     ],
     "compounds": []

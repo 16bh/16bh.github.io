@@ -3,7 +3,7 @@ title: 设置hexo404页面
 toc: false
 date: 2016-07-13 11:36:35
 categories: 
-tags: website
+tags: hexo
 ---
 
 不爽默认的404页面，那么就换一个吧

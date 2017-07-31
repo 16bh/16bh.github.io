@@ -3,7 +3,7 @@ title: 解决hexo的landscape-plus主题标签和归档无法分页的bug
 toc: false
 date: 2016-07-06 15:23:12
 cagetory: 
-tags: website
+tags: hexo
 ---
 
 >主题自带的bug导致的

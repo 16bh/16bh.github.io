@@ -2,7 +2,7 @@
 title: hexo菜单栏创建留言板
 date: 2016-07-06 13:34:33
 category:
-tags: website
+tags: hexo
 ---
 
 在命令行里面输入：
