@@ -1,5 +1,5 @@
 ---
-title: Yaf学习笔记2:项目结构
+title: yaf学习笔记 - 项目结构
 categories:
 tags: [php,yaf]
 toc: false

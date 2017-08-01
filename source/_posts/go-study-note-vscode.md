@@ -1,5 +1,5 @@
 ---
-title: GO学习笔记：用vscode搭建go开发环境
+title: go学习笔记：用vscode搭建go开发环境
 categories:
 tags: [vscode,go]
 toc: false

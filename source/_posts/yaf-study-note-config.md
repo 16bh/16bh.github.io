@@ -1,5 +1,5 @@
 ---
-title: Yaf学习笔记3:配置
+title: yaf学习笔记 - 配置
 categories: 
 tags: [php,yaf]
 toc: false

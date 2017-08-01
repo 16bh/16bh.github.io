@@ -1,5 +1,5 @@
 ---
-title: GO学习笔记：安装并运行hello world
+title: go学习笔记：安装并运行hello world
 categories:
 tags: [go]
 toc: false

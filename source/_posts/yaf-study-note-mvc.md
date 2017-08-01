@@ -1,5 +1,5 @@
 ---
-title: Yaf学习笔记4:MVC模式
+title: yaf学习笔记 - MVC模式
 categories:
 tags: [php,yaf]
 toc: false

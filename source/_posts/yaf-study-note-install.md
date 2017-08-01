@@ -1,5 +1,5 @@
 ---
-title: Yaf学习笔记1:Mac环境下的安装运行
+title: yaf学习笔记 - mac环境下的安装运行
 categories: 
 tags: [php,yaf]
 toc: false

@@ -1,5 +1,5 @@
 ---
-title: GO学习笔记：Beego
+title: go学习笔记：Beego
 toc: true
 comment: true
 date: 2017-07-27 15:33:17

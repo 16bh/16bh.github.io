@@ -1,5 +1,5 @@
 ---
-title: Yaf学习笔记5:模块
+title: yaf学习笔记 - 模块
 categories: 
 tags: [php,yaf]
 toc: false
