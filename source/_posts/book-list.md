@@ -21,7 +21,8 @@ date: 2017-04-15 08:34:23
 - [x] 浪潮之巅 上篇
 - [x] 大型网站技术架构
 - [ ] 黄金时代
-- [ ] 巨人的陨落 
+- [ ] 巨人的陨落
+- [ ] Go语言学习笔记
 
 
 ## 2016
@@ -38,26 +39,28 @@ date: 2017-04-15 08:34:23
 - [x] 余罪
 
 ## long long ago
-- [x] 哈利波特
-- [x] 魔戒三部曲
-- [x] 诛仙
-- [x] 盘龙
-- [x] 凡人修仙传
+
 - [x] 四大名著
 - [x] 茶花女
 - [x] 简爱
 - [x] 牛虻
-- [x] 一座城池
-- [x] 长安乱
 - [x] 神秘岛
 - [x] 地心游记
 - [x] 八十天环游地球
 - [x] 海底两万里
 - [x] 小王子
+---
+- [x] 哈利波特
+- [x] 魔戒三部曲
+- [x] 诛仙
+- [x] 盘龙
+- [x] 凡人修仙传
 - [x] 三体
 - [x] 重生于康熙末年
 - [x] 新宋
 - [x] 庆余年
+- [x] 一座城池
+- [x] 长安乱
 
 ## future
 
@@ -79,6 +82,9 @@ date: 2017-04-15 08:34:23
 - [ ] 软件随想录 阮一峰译
 - [ ] 编程珠玑
 - [ ] NoSql精粹
+- [ ] 编码：隐匿在计算机软硬件背后的语言
+- [ ] 大话数据结构
+- [ ] 图解HTTP
 
 ### 非技术
 - [ ] 数学之美
@@ -103,3 +109,4 @@ date: 2017-04-15 08:34:23
 
 - [一个合格的程序员应该读过哪些书](http://justjavac.com/other/2012/05/15/qualified-programmer-should-read-what-books.html)
 - [亚马逊发布2017年「年中图书排行榜」，你错过这些好书了吗？](https://mp.weixin.qq.com/s?__biz=MzAwOTEzMTkzNw==&mid=2663317800&idx=1&sn=94d9b33cd10b3b4583c575cc6b92784c&chksm=802fe3e6b7586af098f249fa918f69d38e094fab0a67507a72ad45016af7ab356138cb23bca1&scene=0&key=edbc4bce6a6454e85f600b7226992889819a89ac457f62a882e806d0e02863b0c1c0d4417e7ed0646b21f141b1f0946e7b268b1f3b210295b42df4d4822129424087796c6f176383a7a0de56c0b39685&ascene=0&uin=MTEwMTU2ODg0MQ%3D%3D&devicetype=iMac+Macmini7%2C1+OSX+OSX+10.12.5+build(16F73)&version=12020810&nettype=WIFI&fontScale=100&pass_ticket=rv0%2BqdK7p3KYwRpkx7OD6umvDwQE8y%2BHU37tvE92RVIUiI7QwLnMlQbXVbqM75ra)
+- [有什么适合碎片时间看的计算机基础书籍推荐？](https://www.zhihu.com/question/43605497)

@@ -9,7 +9,7 @@ tags: go
 
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170731150149640472260.png" width="492" height="297"/>
+<img src="http://o9xbyqajf.bkt.clouddn.com/20170802150164469935152.png" width="492" height="297"/>
 
 
 <!--more-->
@@ -231,7 +231,18 @@ fmt.Printf("%v", s)
 
 函数可以作为函数的入参
 
+闭包
+
+>Go 函数可以是一个闭包。闭包是一个函数值，它引用了函数体之外的变量。 这个函数可以对这个引用的变量进行访问和赋值；换句话说这个函数被“绑定”在这个变量上。
+
 # 并发
+goroutine
+channel
+
+```
+ch <- v    // 将 v 送入 channel ch
+v := <-ch  // 从 ch 接收，并且赋值给 v
+```
 
 # 错误处理
 
