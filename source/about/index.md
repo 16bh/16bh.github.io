@@ -11,6 +11,10 @@ About Me
 - 2012-2015    South East University
 - 2015-now     PHP developer
 
+Contact Me
+---
+[点击发送邮件](mailto:xujun_njupt@126.com)
+
 
 IT Skill
 ---
