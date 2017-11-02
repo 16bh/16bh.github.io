@@ -199,3 +199,48 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 将`~/Library/Application Support/Sublime Text 3/Packages/User`文件夹备份到可同步的云盘文件夹，如`坚果云`，即可自动备份`sublime`中已安装的插件和设置
 
+
+## # laravel作者的sublime配置文件
+
+作者：Summer
+链接：https://zhuanlan.zhihu.com/p/26656223
+来源：知乎
+著作权归作者所有，转载请联系作者获得授权。
+
+```
+{
+    "added_words":
+    [
+        "Laravel"
+    ],
+    "caret_style": "phase",
+    "color_scheme": "Packages/User/SublimeLinter/One Dark (SL).tmTheme",
+    "ensure_newline_at_eof_on_save": true,
+    "findreplace_small": true,
+    "font_face": "OperatorMono-Book",
+    "font_size": 15,
+    "highlight_line": false,
+    "hot_exit": false,
+    "ignored_packages":
+    [
+        "SublimeLinter-jshint",
+        "Vintage"
+    ],
+    "line_numbers": true,
+    "line_padding_bottom": 9,
+    "line_padding_top": 9,
+    "phpunit-sublime-terminal": "iTerm",
+    "remember_open_files": false,
+    "show_definitions": false,
+    "show_panel_on_build": false,
+    "tab_size": 4,
+    "tabs_small": false,
+    "theme": "Soda Dark.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": false
+}
+```
+
+
+## 自动启动项目

@@ -48,3 +48,5 @@ better than none
 ## WakaTime
 
 最好用的码农记录插件
+由于可能会记录代码，最好不要在公司使用
+

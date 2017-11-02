@@ -152,7 +152,7 @@ homebrew install todolist
 - `MWeb` 	  编辑markdown文件
 - `Typora`   不同于之前的双栏md编辑器，Typora在编辑的同时进行渲染
 ![20170328149067066017327.png](http://o9xbyqajf.bkt.clouddn.com/20170328149067066017327.png)
-- ~~~`Haroopad`  markdwon编辑器，在左侧提示常用操作，页面更美观，升级到最新版本的mac系统之后经常不会弹出界面,暂时雪藏~~~
+- ~~~`Haroopad`  markdown编辑器，在左侧提示常用操作，页面更美观，升级到最新版本的mac系统之后经常不会弹出界面,暂时雪藏~~~
 <img src="http://o9xbyqajf.bkt.clouddn.com/1489378450.png" />
 
 - `qlmarkdown`    以系统自带的预览方式查看md文件
