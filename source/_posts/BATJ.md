@@ -1,5 +1,5 @@
 ---
-title: BATJ
+title: 互联网思考
 toc: true
 comment: true
 date: 2017-10-18 14:36:42
