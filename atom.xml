@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-07-21T14:28:50.000Z</updated>
+  <updated>2017-11-02T09:27:01.000Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,808 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mtr-1000x-change-device</title>
+    <link href="http://jimxu.me/2017/11/02/mtr-1000x-change-device/"/>
+    <id>http://jimxu.me/2017/11/02/mtr-1000x-change-device/</id>
+    <published>2017-11-02T09:24:10.000Z</published>
+    <updated>2017-11-02T09:27:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>mtr 1000x已经跟一台设备的蓝牙匹配了，如何跟另一台设备匹配</p>
+<a id="more"></a>
+<p>按住开关键7秒，直至蓝光和红光交替闪烁，此时可以在另一台设备的蓝牙列表中找到<code>MDR-1000X</code>，点击配对即可</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171102150961479925904.png" alt="20171102150961479925904.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mtr 1000x已经跟一台设备的蓝牙匹配了，如何跟另一台设备匹配&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="life" scheme="http://jimxu.me/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>互联网思考</title>
+    <link href="http://jimxu.me/2017/10/18/BATJ/"/>
+    <id>http://jimxu.me/2017/10/18/BATJ/</id>
+    <published>2017-10-18T06:36:42.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近刚看了《腾讯传》、《淘宝技术这十年》、《创京东》、《阿里巴巴：天下没有难做的生意》、《浪潮之巅》，记一点读后感。</p>
+<a id="more"></a>
+<p>百度、阿里、腾讯、京东都属于目前站在浪潮之巅的大公司</p>
+<h1 id="对公司的概述"><a href="#对公司的概述" class="headerlink" title="对公司的概述"></a>对公司的概述</h1><h2 id="baidu"><a href="#baidu" class="headerlink" title="baidu"></a>baidu</h2><p>百度搜索<br>贴吧<br>百度云<br>收购了www.hao123.com</p>
+<h2 id="alibaba"><a href="#alibaba" class="headerlink" title="alibaba"></a>alibaba</h2><p>B2B 阿里巴巴<br>C2C 淘宝<br>支付宝<br>阿里云</p>
+<h2 id="tencent"><a href="#tencent" class="headerlink" title="tencent"></a>tencent</h2><p>短信业务起家</p>
+<p>代表作：<br>QQ<br>微信<br>游戏</p>
+<h2 id="jd"><a href="#jd" class="headerlink" title="jd"></a>jd</h2><p>之前的域名是www.360buy.com 京东商城 后更名为京东<br>以3C起家，后涉足家电、日百、图书等领域<br>耗费巨资建仓</p>
+<h1 id="从搜索、社交、电商、云、金融等方面对它们进行一些对比。"><a href="#从搜索、社交、电商、云、金融等方面对它们进行一些对比。" class="headerlink" title="从搜索、社交、电商、云、金融等方面对它们进行一些对比。"></a>从搜索、社交、电商、云、金融等方面对它们进行一些对比。</h1><h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h2><p><img src="http://tupian.search1990.com/201709041657.png"></p>
+<p>百度：目前的老大，一方面是入行早，另一方面也是政策好。<br>负面新闻最多的大公司</p>
+<p>阿里：收购雅虎中国</p>
+<h2 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h2><p>互联网时代 - 腾讯的QQ<br>移动互联网时代  - 腾讯的微信</p>
+<p>之前百度的贴吧抓住机会或可一战，现在嘛。。</p>
+<p>京东跟腾讯有合作，在合并了腾讯的电商部门之后达成协议，可以通过微信和QQ推广自己的商城，所以跟淘宝不一样京东里的商品是可以分享到扣扣微信的</p>
+<p>短信是腾讯公司赚的第一桶金，qq秀以及之后的各种钻是腾讯的第二通金</p>
+<p>QQ软件以及QQ秀等都是参考了国外的案例，如QQ的前身QICQ参考了ICQ，QQ秀参考了韩国的avatar模式</p>
+<p>在腾讯的微信以红包为契机开始介入支付之后，支付宝也赌气似的推出了社交功能，然而聊胜于无</p>
+<p>有了QQ为何还要微信呢？微信是移动互联网时代的产物，是腾讯既QQ之后第二支柱，不可动摇的根本，以微信为跳板介入了金融行业，从阿里的支付宝手里抢走了不小的一块蛋糕</p>
+<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>腾讯基于社交的巨大优势为游戏开辟道路</p>
+<p>网页游戏 - 偷菜<br>pc游戏 - 英雄联盟（一开始是代理，之后收购了拳头公司）<br>手游 - 王者荣耀<br>均为现象级的游戏</p>
+<h2 id="电商"><a href="#电商" class="headerlink" title="电商"></a>电商</h2><p>阿里 - 淘宝、天猫<br>腾讯 - 拍拍（已经被京东收购）<br>京东 - 京东商城</p>
+<p>按理说有了淘宝之后，用户购买商品十分的方面，应该不会出现竞品壮大的情形<br>京东和淘宝的定位不一致，面向对象是中高端用户，提供正品行货，211限时达以及良好的售后的服务</p>
+<p>正因为有对正品和高质量商品的追求，才会出现像京东、唯品会这样的平台</p>
+<h2 id="云"><a href="#云" class="headerlink" title="云"></a>云</h2><p>BAT都有云，阿里云用的人最多，百度的最少，京东压根还没开始弄这块</p>
+<h2 id="金融"><a href="#金融" class="headerlink" title="金融"></a>金融</h2><p>支付宝、蚂蚁金融<br>微信支付<br>京东金融</p>
+<p>京东一开始不重视，觉得线上支付就ok，进入金融领域较晚，但是蒸蒸日上，率先推出了京东白条</p>
+<p>百度。。</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
+<li>小公司如何面对寡头公司</li>
+</ol>
+<p>绝不做腾讯可以盯上的行业，一旦被腾讯盯上了，就会利用自身的资本和用户优势打垮你。 - 《腾讯传》</p>
+<ol>
+<li>联通免流卡</li>
+</ol>
+<p>以腾讯免流卡为例，当用户比例过高的时候，绑架用户使用app的习惯，本来使用的高德地图要换成腾讯地图，网易云播放器要换成QQ音乐，更不要说那些小公司出品的软件了</p>
+<h1 id="BATJ共同点"><a href="#BATJ共同点" class="headerlink" title="BATJ共同点"></a>BATJ共同点</h1><ul>
+<li>创始人是灵魂人物</li>
+<li>经历残酷的战斗</li>
+</ul>
+<p>它们的对手有：</p>
+<table>
+<thead>
+<tr>
+<th>公司</th>
+<th>竞争对手</th>
+<th>战况</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>阿里</td>
+<td>ebay易趣</td>
+<td>胜</td>
+</tr>
+<tr>
+<td>腾讯</td>
+<td>微软msn</td>
+<td>胜</td>
+</tr>
+<tr>
+<td>腾讯</td>
+<td>360</td>
+<td>惨胜</td>
+</tr>
+<tr>
+<td>百度</td>
+<td>谷歌</td>
+<td>胜，后者离开中国</td>
+</tr>
+<tr>
+<td>京东</td>
+<td>新蛋</td>
+<td>胜</td>
+</tr>
+<tr>
+<td>京东</td>
+<td>当当、亚马逊</td>
+<td>胜</td>
+</tr>
+<tr>
+<td>京东</td>
+<td>拍拍</td>
+<td>胜，后者被收购</td>
+</tr>
+<tr>
+<td>京东</td>
+<td>淘宝</td>
+<td>未知</td>
+</tr>
+</tbody>
+</table>
+<h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><p>阿里和京东的业务严重重合，难免要开战<br>京东在收购腾讯的拍拍网时与腾讯签订了战略合作计划<br>可以猜测将来京东和腾讯对阿里进行围攻，电商已经是被腾讯放弃的部门，在这个领域借助京东的力量怼阿里，赢了是意外的收获，输了也毫发无伤</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近刚看了《腾讯传》、《淘宝技术这十年》、《创京东》、《阿里巴巴：天下没有难做的生意》、《浪潮之巅》，记一点读后感。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="reading" scheme="http://jimxu.me/tags/reading/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>养猫手册</title>
+    <link href="http://jimxu.me/2017/10/18/how-to-keep-a-cat/"/>
+    <id>http://jimxu.me/2017/10/18/how-to-keep-a-cat/</id>
+    <published>2017-10-18T03:35:28.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>从楼下捡了一只小猫，记录下养猫心得</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171018150829785129635.png" width="492" height="297"></p>
+<a id="more"></a>
+<h2 id="检查与隔离"><a href="#检查与隔离" class="headerlink" title="检查与隔离"></a>检查与隔离</h2><p>刚捡回来的小猫需要在猫笼里进行隔离，暂时没有猫笼的用纸箱代替，纸箱里可以放旧衣服或报纸</p>
+<p>隔离时间约一个月，等小猫打完疫苗就可以放出来了</p>
+<h2 id="疫苗"><a href="#疫苗" class="headerlink" title="疫苗"></a>疫苗</h2><p>三联<br>3周后可以可以开始第一次注射疫苗，然后是5周第二次，7周第三次</p>
+<p>打完疫苗才能洗澡</p>
+<h2 id="猫砂"><a href="#猫砂" class="headerlink" title="猫砂"></a>猫砂</h2><p>要教会小猫用猫砂</p>
+<blockquote>
+<p>如果发现捡回来的小猫已经会使用了并且有点都不怕人，说明这个猫是别人养过的</p>
+</blockquote>
+<p>家里暂时没有猫砂的，可以用用撕碎的卫生纸、活性炭、大米等代替</p>
+<h2 id="猫砂盆"><a href="#猫砂盆" class="headerlink" title="猫砂盆"></a>猫砂盆</h2><p>分带盖的和不带盖的</p>
+<p>最好选带盖的，有一个小门供猫进出</p>
+<p>隔离的时候，最好等猫笼到了之后，选择对应的尺寸的猫砂盆，不然可能放不进去（不要问我为啥会知道）</p>
+<h2 id="猫粮"><a href="#猫粮" class="headerlink" title="猫粮"></a>猫粮</h2><p>注意不要喂人的食物给猫吃</p>
+<h2 id="常用物品"><a href="#常用物品" class="headerlink" title="常用物品"></a>常用物品</h2><ul>
+<li>猫粮</li>
+<li>猫零食</li>
+<li>猫笼</li>
+<li>猫砂</li>
+<li>猫砂盆</li>
+<li>逗猫棒</li>
+<li>猫爬架</li>
+<li>外出用猫笼子</li>
+</ul>
+<h2 id="绝育"><a href="#绝育" class="headerlink" title="绝育"></a>绝育</h2><p>绝育对猫和人都有好处</p>
+<h2 id="演技"><a href="#演技" class="headerlink" title="演技"></a>演技</h2><p>猫如果咬人或抓人，要表现的很疼跟夸张的样子，一两次它就知道不能咬你了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;从楼下捡了一只小猫，记录下养猫心得&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20171018150829785129635.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="life" scheme="http://jimxu.me/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>花</title>
+    <link href="http://jimxu.me/2017/10/18/some-flowers/"/>
+    <id>http://jimxu.me/2017/10/18/some-flowers/</id>
+    <published>2017-10-18T02:57:06.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>读书读到山丹丹，搜了下长什么样，以为是彼岸花，然而并不是。<br>又想起小时候听人说彼岸花又叫打碗碗花，不能摘，摘了回家就会把碗打碎，结果也并不是。<br>感觉世界观在崩塌。。。</p>
+<a id="more"></a>
+<h2 id="打碗碗花"><a href="#打碗碗花" class="headerlink" title="打碗碗花"></a>打碗碗花</h2><blockquote>
+<p>打碗碗花，多年生草本植物。根状茎细圆柱形，白色。茎蔓生、缠绕或匍匐状，有棱角，无毛，基部常有分枝。一年生草本，全体不被毛，植株通常矮小，高8-30（-40）厘米，常自基部分枝，具细长白色的根。- 百度百度</p>
+</blockquote>
+<p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=36c00bbcef24b899ca31716a0f6f76f0/54fbb2fb43166d2251b23428402309f79152d240.jpg" width="200" height="300"></p>
+<h2 id="山丹丹"><a href="#山丹丹" class="headerlink" title="山丹丹"></a>山丹丹</h2><blockquote>
+<p>山丹丹花，学名斑百合，别名红百合，生活中中经常被称为“山丹丹花”，百合科，多年生草本。地下具卵球形鳞茎，有少数白色肉质鳞片。茎直立，高30─60厘米，无毛。叶线状至线状披针形，边缘和背面脉上有乳突。无珠芽。花一至数朵，生于茎端和叶腋内，直立，夏初开花；花被片六枚，两轮，披针形或长椭圆形；朱红色或橘红色，内面有紫褐色斑点，开放后开展，但不向外反卷或稍反卷。蒴果椭圆形。 - 百度百科</p>
+<p>山丹丹过一年多开一朵花   - 《生活是很好玩的》 汪曾祺</p>
+</blockquote>
+<p><img src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike933%2C5%2C5%2C933%2C330/sign=cdec9ef713d5ad6ebef46cb8e0a252be/4034970a304e251f8a3d41cbaf86c9177f3e533e.jpg" width="300" height="200"></p>
+<h2 id="彼岸花"><a href="#彼岸花" class="headerlink" title="彼岸花"></a>彼岸花</h2><blockquote>
+<p>彼岸花分为红色、白色、黄色三种，红色彼岸花盛开于地狱、白色彼岸花绽放于天堂。<br>红色的彼岸花又称曼珠沙华（manjusaka），《法华经》中的四华（花）之一。原产于中国长江流域，分布在长江中下游及西南部分地区，相关记载最早见于唐代，被称作“无义草”、“龙爪花”。民间有许多关于“彼岸花”的传说。另有以《彼岸花》为名的歌曲和小说作品。<br>彼岸花，恶魔的温柔。日本民间传说中自愿投入地狱的花朵，被众魔遣回，但仍徘徊于黄泉路上，众魔不忍，遂同意让她开在此路上，给离开人界的魂们一个指引与安慰。地狱少女中的阎魔爱，就喜欢这种花。雪白色与血红色的彼岸花共同代表死亡。传言曼陀罗华盛开于天堂之路，曼珠沙华布满在地狱之途。同是代表死亡，一个却偏向于对死亡的另一种解释：新生，另一个偏向于对痛苦与悔恨的彷徨与徘徊：堕落。所以说地狱与天堂，仅有一线之隔。所谓天使与恶魔的区别，不过是颜色与背负的含义罢了。  - 百度百科</p>
+</blockquote>
+<p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=17997f685a82b2b7b392319650c4a08a/e4dde71190ef76c611321c479e16fdfaae5167fe.jpg" width="200" height="300"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;读书读到山丹丹，搜了下长什么样，以为是彼岸花，然而并不是。&lt;br&gt;又想起小时候听人说彼岸花又叫打碗碗花，不能摘，摘了回家就会把碗打碎，结果也并不是。&lt;br&gt;感觉世界观在崩塌。。。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="life" scheme="http://jimxu.me/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git Error: Permission denied (publickey)</title>
+    <link href="http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/"/>
+    <id>http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/</id>
+    <published>2017-10-16T08:36:24.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>执行<code>ssh-add id_rsa</code></p>
+<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;执行&lt;code&gt;ssh-add id_rsa&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="git" scheme="http://jimxu.me/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phpstorm生成函数调用关系</title>
+    <link href="http://jimxu.me/2017/10/16/phpstorm-generate-Call-Hierarchy/"/>
+    <id>http://jimxu.me/2017/10/16/phpstorm-generate-Call-Hierarchy/</id>
+    <published>2017-10-16T08:25:39.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>知乎上有人提问如何生成函数调用路程图</p>
+<p>原问题见：<br><a href="https://www.zhihu.com/question/34495043/answer/244410441" target="_blank" rel="external">https://www.zhihu.com/question/34495043/answer/244410441</a></p>
+<a id="more"></a>
+<p>phpstorm也有检查函数调用这个功能</p>
+<p>在偏好设置中搜索关键字 Call Hierarchy</p>
+<p>找到快捷键 ctrl+alt+h</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171016150814248321882.png"></p>
+<p>使用效果如下：</p>
+<p>选中一个函数array_slice，按快捷键，在右边生成了该函数所有的调用关系</p>
+<p>与查看用例find usage不同的是，Call Hierarchy功能会递归的寻找用例的用例，直到找到没有入口函数为止</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171016150814276075001.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;知乎上有人提问如何生成函数调用路程图&lt;/p&gt;
+&lt;p&gt;原问题见：&lt;br&gt;&lt;a href=&quot;https://www.zhihu.com/question/34495043/answer/244410441&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/34495043/answer/244410441&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>phpstorm忽略拼写错误</title>
+    <link href="http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/"/>
+    <id>http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/</id>
+    <published>2017-08-21T03:23:39.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170821150328588236449.png" width="492" height="297"></p>
+<p>phpstorm会检查拼写单词的拼写错误<br>但是有时候会给我们造成困扰，比如我们公司的名称不是一个正规的单词就会报错</p>
+<a id="more"></a>
+<p>打开偏好设置</p>
+<p>Editor &gt; Spelling</p>
+<p>将要忽略的单词添加到<code>Accepted Words</code>中</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170821150328588236449.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+&lt;p&gt;phpstorm会检查拼写单词的拼写错误&lt;br&gt;但是有时候会给我们造成困扰，比如我们公司的名称不是一个正规的单词就会报错&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hhkb初体验</title>
+    <link href="http://jimxu.me/2017/08/17/hhkb-first-trial/"/>
+    <id>http://jimxu.me/2017/08/17/hhkb-first-trial/</id>
+    <published>2017-08-17T04:21:10.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170817150294391984465.jpg" width="492" height="297"></p>
+<a id="more"></a>
+<h2 id="设置hhkb"><a href="#设置hhkb" class="headerlink" title="设置hhkb"></a>设置hhkb</h2><p>011001</p>
+<p>第一位和第二位01表示Macintosh模式<br>第三位1表示Delete键删除<br>第六位1表示开启自动唤醒功能（网上是这么说的，然而实际使用发现改成0反而才有唤醒效果，如果是1的话需要重新连接才行）</p>
+<h2 id="关于键位"><a href="#关于键位" class="headerlink" title="关于键位"></a>关于键位</h2><ul>
+<li>control键</li>
+</ul>
+<p><code>control</code>键位于A键左侧，替代了<code>caps lock</code>非常方便使用vim</p>
+<p>平时的键盘也是开启mac的键盘功能将<code>caps lock</code>替换成<code>control</code>的</p>
+<ul>
+<li>方向键</li>
+</ul>
+<p>没有方向键前期会有不少的困扰，多用一段时间也就习惯了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170817150294391984465.jpg&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="life" scheme="http://jimxu.me/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>postman模拟图片上传</title>
+    <link href="http://jimxu.me/2017/08/10/postman-test-image-upload/"/>
+    <id>http://jimxu.me/2017/08/10/postman-test-image-upload/</id>
+    <published>2017-08-10T07:30:32.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>Headers留空，Body添加一个key，key的属性选file</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170810150235019860302.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Headers留空，Body添加一个key，key的属性选file&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170810150235019860302.png&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+      <category term="postman" scheme="http://jimxu.me/tags/postman/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用composer</title>
+    <link href="http://jimxu.me/2017/08/04/using-composer/"/>
+    <id>http://jimxu.me/2017/08/04/using-composer/</id>
+    <published>2017-08-04T07:27:25.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170804150183174467257.png" width="492" height="297"></p>
+<a id="more"></a>
+<h1 id="安装composer"><a href="#安装composer" class="headerlink" title="安装composer"></a>安装composer</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install composer</div></pre></td></tr></table></figure>
+<h1 id="修改源"><a href="#修改源" class="headerlink" title="修改源"></a>修改源</h1><p>方法一： 修改 composer 的全局配置文件（推荐方式）<br>打开命令行窗口（windows用户）或控制台（Linux、Mac 用户）并执行如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config -g repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
+<p>方法二： 修改当前项目的 composer.json 配置文件：<br>打开命令行窗口（windows用户）或控制台（Linux、Mac 用户），进入你的项目的根目录（也就是 composer.json 文件所在目录），执行如下命令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
+<p>上述命令将会在当前项目中的 composer.json 文件的末尾自动添加镜像的配置信息（你也可以自己手工添加）：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&quot;repositories&quot;: &#123;</div><div class="line">    &quot;packagist&quot;: &#123;</div><div class="line">        &quot;type&quot;: &quot;composer&quot;,</div><div class="line">        &quot;url&quot;: &quot;https://packagist.phpcomposer.com&quot;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h1 id="composer使用"><a href="#composer使用" class="headerlink" title="composer使用"></a>composer使用</h1>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170804150183174467257.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go学习笔记 - 语法</title>
+    <link href="http://jimxu.me/2017/07/31/go-study-note-grammar/"/>
+    <id>http://jimxu.me/2017/07/31/go-study-note-grammar/</id>
+    <published>2017-07-31T10:16:25.000Z</published>
+    <updated>2017-11-02T03:43:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170802150164469935152.png" width="492" height="297"></p>
+<a id="more"></a>
+<h1 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h1><ul>
+<li>语法简易</li>
+<li>自动格式化代码，保证所有人代码风格一致</li>
+<li>并发处理</li>
+<li>垃圾回收</li>
+<li>函数多返回值，返回错误</li>
+</ul>
+<h1 id="代码规范"><a href="#代码规范" class="headerlink" title="代码规范"></a>代码规范</h1><ul>
+<li>要有main包和main函数</li>
+<li>变量必须要使用，引入的包必须要使用</li>
+<li>表达式可以省略括号，不能省略花括号，左花括号必须在行尾</li>
+</ul>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> (</div><div class="line">	<span class="string">"fmt"</span></div><div class="line">)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := <span class="number">3</span></div><div class="line">	<span class="keyword">if</span> a &gt; <span class="number">1</span> &#123;</div><div class="line">		fmt.Printf(<span class="string">"%T,%v"</span>, a, a)</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h1 id="包"><a href="#包" class="headerlink" title="包"></a>包</h1><p>引入多个包</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">package main</div><div class="line"></div><div class="line">import (</div><div class="line">	&quot;fmt&quot;</div><div class="line">	&quot;math&quot;</div><div class="line">)</div></pre></td></tr></table></figure>
+<p>不可以import未被使用的包</p>
+<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a <span class="keyword">int8</span> = <span class="number">4</span></div><div class="line"><span class="keyword">var</span> a = <span class="number">4</span></div><div class="line">a := <span class="number">8</span>    <span class="comment">//:=只能用在函数内</span></div></pre></td></tr></table></figure>
+<p>byte: unit8</p>
+<p>rune: int32</p>
+<h1 id="自增"><a href="#自增" class="headerlink" title="自增"></a>自增</h1><p>不能前置，不能用作表达式</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">a++;  //√</div><div class="line">++a;  //×</div><div class="line">if (a++) &#123;  //×</div></pre></td></tr></table></figure>
+<h1 id="数组及遍历"><a href="#数组及遍历" class="headerlink" title="数组及遍历"></a>数组及遍历</h1><figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := [<span class="number">3</span>]<span class="keyword">int</span>&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</div><div class="line">	<span class="keyword">for</span> i, s := <span class="keyword">range</span> a &#123;</div><div class="line">		<span class="built_in">println</span>(i, s)</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h1 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h1><p>指针不能运算</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := <span class="number">3</span></div><div class="line">	<span class="keyword">var</span> p *<span class="keyword">int</span> = &amp;a</div><div class="line">	<span class="built_in">print</span>(*p)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h1 id="switch"><a href="#switch" class="headerlink" title="switch"></a>switch</h1><p>对比下php和go的swithc语句</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">$a = <span class="number">1</span></div><div class="line"><span class="keyword">switch</span> ($a) &#123;</div><div class="line">    <span class="keyword">case</span> <span class="number">1</span>:</div><div class="line">    <span class="keyword">case</span> <span class="number">2</span>:</div><div class="line">        <span class="keyword">echo</span> <span class="number">1</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">    <span class="keyword">case</span> <span class="number">3</span>:</div><div class="line">        <span class="keyword">echo</span> <span class="number">3</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">    <span class="keyword">default</span>:</div><div class="line">        <span class="keyword">echo</span> <span class="string">'default'</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>输出为1</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := <span class="number">1</span></div><div class="line">	<span class="keyword">switch</span> a &#123;</div><div class="line">	<span class="keyword">case</span> <span class="number">1</span>:</div><div class="line">	<span class="keyword">case</span> <span class="number">2</span>:</div><div class="line">		<span class="built_in">println</span>(<span class="number">1</span>)</div><div class="line">		<span class="keyword">break</span></div><div class="line">	<span class="keyword">case</span> <span class="number">3</span>:</div><div class="line">		<span class="built_in">println</span>(<span class="number">3</span>)</div><div class="line">	<span class="keyword">default</span>:</div><div class="line">		<span class="keyword">break</span></div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>输出为空</p>
+<p>go会自动在语句为空的case后面补上break，相当于没有执行任何操作</p>
+<p>要实现php中的多个case执行相同的语句，应该使用下面的写法：</p>
+<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">case</span> <span class="number">1</span>,<span class="number">2</span>:</div><div class="line">	<span class="built_in">println</span>(<span class="number">1</span>)</div><div class="line">	<span class="keyword">break</span></div></pre></td></tr></table></figure>
+<h1 id="for"><a href="#for" class="headerlink" title="for"></a>for</h1><p>初始语句和结束语句可以省略</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">for sum &lt; 1000 &#123;</div><div class="line">	sum += sum</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><p>需指定入参和出参的类型，可以返回多个值</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//x后面的int可省略，根据王垠的博客说的最好保留</div><div class="line">func add(x int, y int) int &#123;</div><div class="line">	return x + y</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h1 id="defer"><a href="#defer" class="headerlink" title="defer"></a>defer</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">package main</div><div class="line"></div><div class="line">import &quot;fmt&quot;</div><div class="line"></div><div class="line">func main() &#123;</div><div class="line">	defer fmt.Println(&quot;world&quot;)</div><div class="line"></div><div class="line">	fmt.Println(&quot;hello&quot;)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<blockquote>
+<p>输出结果： </p>
+<p>hello</p>
+<p>world</p>
+</blockquote>
+<h1 id="struct"><a href="#struct" class="headerlink" title="struct"></a>struct</h1><p>用点号<code>.</code>访问结构体中的字段</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">type Vertex struct &#123;</div><div class="line">	X int</div><div class="line">	Y int</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h1 id="slice"><a href="#slice" class="headerlink" title="slice"></a>slice</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">s := []int&#123;2, 3, 5, 7, 11, 13&#125;</div><div class="line"></div><div class="line">//slice长度</div><div class="line">len(s)</div><div class="line"></div><div class="line">//slice转string,第二个参数是分隔符</div><div class="line">strings.Join(s,&apos;_&apos;)</div><div class="line"></div><div class="line">//打印slice</div><div class="line">fmt.Printf(&quot;%v&quot;, s)</div></pre></td></tr></table></figure>
+<h1 id="map"><a href="#map" class="headerlink" title="map"></a>map</h1><h1 id="函数-1"><a href="#函数-1" class="headerlink" title="函数"></a>函数</h1><p>函数可以作为函数的入参</p>
+<p>闭包</p>
+<blockquote>
+<p>Go 函数可以是一个闭包。闭包是一个函数值，它引用了函数体之外的变量。 这个函数可以对这个引用的变量进行访问和赋值；换句话说这个函数被“绑定”在这个变量上。</p>
+</blockquote>
+<h1 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h1><p>goroutine<br>channel</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ch &lt;- v    // 将 v 送入 channel ch</div><div class="line">v := &lt;-ch  // 从 ch 接收，并且赋值给 v</div></pre></td></tr></table></figure>
+<h1 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h1><h1 id="gc"><a href="#gc" class="headerlink" title="gc"></a>gc</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
+<li><a href="https://tour.go-zh.org/list" target="_blank" rel="external">官网tutorial</a></li>
+<li><a href="https://github.com/qyuhen/book" target="_blank" rel="external">《Go语言学习笔记》，雨痕著</a></li>
+<li><a href="http://www.yinwang.org/blog-cn/2014/04/18/golang" target="_blank" rel="external">王垠：对Go语言的综合评价</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170802150164469935152.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="go" scheme="http://jimxu.me/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo中添加github组件</title>
+    <link href="http://jimxu.me/2017/07/27/hexo-yelee-add-github-widget/"/>
+    <id>http://jimxu.me/2017/07/27/hexo-yelee-add-github-widget/</id>
+    <published>2017-07-27T08:29:00.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114537274249.png" width="492" height="297"></p>
+<p>Hexo的yelee支持添加github组件</p>
+<a id="more"></a>
+<h2 id="如何开启"><a href="#如何开启" class="headerlink" title="如何开启"></a>如何开启</h2><p>修改主题配置文件 <code>{path_to_hexo}/themes/yelee/_config.yml</code>, 开启此功能</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">github_widget: true</div></pre></td></tr></table></figure>
+<h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><p>在文章中想要添加github组件的地方添加如下代码:</p>
+<p>{user_name} github作者名<br>{project_name} github项目名称</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;github-widget&quot; data-repo=&quot;&#123;user_name&#125;/&#123;project_name&#125;&quot;&gt;&lt;/div&gt;</div></pre></td></tr></table></figure>
+<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;github-widget&quot; data-repo=&quot;hustcc/GitHub-Repo-Widget.js&quot;&gt;&lt;/div&gt;</div></pre></td></tr></table></figure>
+<p>会显示如下效果：</p>
+<div class="github-widget" data-repo="hustcc/GitHub-Repo-Widget.js"></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170727150114537274249.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Hexo的yelee支持添加github组件&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://jimxu.me/tags/hexo/"/>
+    
+      <category term="github" scheme="http://jimxu.me/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>go学习笔记：Beego</title>
+    <link href="http://jimxu.me/2017/07/27/go-study-note-beego-bee/"/>
+    <id>http://jimxu.me/2017/07/27/go-study-note-beego-bee/</id>
+    <published>2017-07-27T07:33:17.000Z</published>
+    <updated>2017-08-01T13:20:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114170158010.png"></p>
+<p>谢大的beego开源项目：</p>
+<div class="github-widget" data-repo="astaxie/beego"></div>
+
+<a id="more"></a>
+<h2 id="安装beego"><a href="#安装beego" class="headerlink" title="安装beego"></a>安装beego</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">go get -u github.com/astaxie/beego</div></pre></td></tr></table></figure>
+<h2 id="安装bee工具"><a href="#安装bee工具" class="headerlink" title="安装bee工具"></a>安装bee工具</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">go get github.com/beego/bee</div></pre></td></tr></table></figure>
+<h2 id="使用bee工具"><a href="#使用bee工具" class="headerlink" title="使用bee工具"></a>使用bee工具</h2><h3 id="工具命令一览"><a href="#工具命令一览" class="headerlink" title="工具命令一览"></a>工具命令一览</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">new         create an application base on beego framework</div><div class="line">run         run the app which can hot compile</div><div class="line">pack        compress an beego project</div><div class="line">api         create an api application base on beego framework</div><div class="line">bale        packs non-Go files to Go source files</div><div class="line">version     show the bee &amp; beego version</div><div class="line">generate    source code generator</div><div class="line">migrate     run database migrations</div></pre></td></tr></table></figure>
+<h3 id="生成一个项目"><a href="#生成一个项目" class="headerlink" title="生成一个项目"></a>生成一个项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd src</div><div class="line">bee new &#123;project_name&#125;</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017072715011416163291.png"></p>
+<p>然后在src目录下生成一个项目，结构入下：</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114096074080.png"></p>
+<h3 id="创建api"><a href="#创建api" class="headerlink" title="创建api"></a>创建api</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd src</div><div class="line">bee api &#123;project_name&#125;</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114112858689.png"></p>
+<p>结构如下：</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114117882110.png"></p>
+<p>对比之前的结构可以发现在controllers和models目录分别生成了object.go和user.go文件</p>
+<h3 id="运行项目"><a href="#运行项目" class="headerlink" title="运行项目"></a>运行项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd src</div><div class="line">bee run &#123;project_name&#125;</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114201058758.png"></p>
+<p>在浏览器中访问<code>http://localhost:8080</code>,结果如下图所示：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114189785456.png" width="492" height="297"></p>
+<p>官网文档是这么介绍的</p>
+<blockquote>
+<p>这样我们的应用已经在 8080 端口(beego 的默认端口)跑起来了.你是不是觉得很神奇，为什么没有 nginx 和 apache 居然可以自己干这个事情？是的，Go 其实已经做了网络层的东西，beego 只是封装了一下，所以可以做到不需要 nginx 和 apache</p>
+</blockquote>
+<p>我本人在使用的时候发现如果打开了nginx有时会报404的错误，所以最好先关闭nginx服务</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170727150114170158010.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;谢大的beego开源项目：&lt;/p&gt;
+&lt;div class=&quot;github-widget&quot; data-repo=&quot;astaxie/beego&quot;&gt;&lt;/div&gt;
+    
+    </summary>
+    
+    
+      <category term="go" scheme="http://jimxu.me/tags/go/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Permanently added the RSA host key for IP address to the list of known hosts</title>
+    <link href="http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/"/>
+    <id>http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</id>
+    <published>2017-07-26T10:27:02.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png" width="492" height="297"></p>
+<p>将Hexo项目托管到Coding.net后，使用<code>hexo g -d</code>提交代码后报下面的Warning</p>
+<blockquote>
+<p>Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.</p>
+</blockquote>
+<a id="more"></a>
+<p><code>123.59.85.105</code>为域名<code>coding.net</code>的ip地址</p>
+<p>猜测可能的原因是hexo命令deploy时不会检查<code>~/.ssh/known_hosts</code>文件</p>
+<p>编辑config文件 <code>~/.ssh/config</code>:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Host coding.net</div><div class="line">      HostName 123.59.85.105</div><div class="line">      IdentityFile &#123;path_to_private_key&#125;</div><div class="line">      User &#123;user_name&#125;</div></pre></td></tr></table></figure>
+<p>此时提交就没有warning了</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+&lt;p&gt;将Hexo项目托管到Coding.net后，使用&lt;code&gt;hexo g -d&lt;/code&gt;提交代码后报下面的Warning&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="error" scheme="http://jimxu.me/tags/error/"/>
+    
+      <category term="hexo" scheme="http://jimxu.me/tags/hexo/"/>
+    
+      <category term="git" scheme="http://jimxu.me/tags/git/"/>
+    
+      <category term="ssh" scheme="http://jimxu.me/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maximum function nesting level of 256 reached</title>
+    <link href="http://jimxu.me/2017/07/26/Maximum-function-nesting-level-of-256-reached/"/>
+    <id>http://jimxu.me/2017/07/26/Maximum-function-nesting-level-of-256-reached/</id>
+    <published>2017-07-26T09:50:04.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106445031039.png" width="492" height="297"></p>
+<p>Maximum function nesting level of ‘256’ reached, aborting!函数递归深度超过256</p>
+<a id="more"></a>
+<p>php本身并没有限制函数递归深度，其实是xdebug扩展报的错</p>
+<p>检查php的xdebug配置</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106262652534.png"></p>
+<p>修改xdebug配置<code>/usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">xdebug.max_nesting_level=512</div></pre></td></tr></table></figure>
+<p>重启 php-fpm,生效</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170726150106445031039.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Maximum function nesting level of ‘256’ reached, aborting!函数递归深度超过256&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+      <category term="xdebug" scheme="http://jimxu.me/tags/xdebug/"/>
+    
+      <category term="error" scheme="http://jimxu.me/tags/error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>yaf学习笔记 - request类和respose类</title>
+    <link href="http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/"/>
+    <id>http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/</id>
+    <published>2017-07-26T08:48:53.000Z</published>
+    <updated>2017-08-01T13:20:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106236928086.png" width="492" height="297"></p>
+<a id="more"></a>
+<h2 id="Yaf-Request-Abstract"><a href="#Yaf-Request-Abstract" class="headerlink" title="Yaf-Request-Abstract"></a>Yaf-Request-Abstract</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">/* Methods */</div><div class="line">public void getActionName ( void )</div><div class="line">public void getBaseUri ( void )</div><div class="line">public void getControllerName ( void )</div><div class="line">public void getEnv ( string $name [, string $default ] )</div><div class="line">public void getException ( void )</div><div class="line">public void getLanguage ( void )</div><div class="line">public void getMethod ( void )</div><div class="line">public void getModuleName ( void )</div><div class="line">public void getParam ( string $name [, string $default ] )</div><div class="line">public void getParams ( void )</div><div class="line">public void getRequestUri ( void )</div><div class="line">public void getServer ( string $name [, string $default ] )</div><div class="line">public void isCli ( void )</div><div class="line">public void isDispatched ( void )</div><div class="line">public void isGet ( void )</div><div class="line">public void isHead ( void )</div><div class="line">public void isOptions ( void )</div><div class="line">public void isPost ( void )</div><div class="line">public void isPut ( void )</div><div class="line">public void isRouted ( void )</div><div class="line">public void isXmlHttpRequest ( void )</div><div class="line">public void setActionName ( string $action )</div><div class="line">public bool setBaseUri ( string $uir )</div><div class="line">public void setControllerName ( string $controller )</div><div class="line">public void setDispatched ( void )</div><div class="line">public void setModuleName ( string $module )</div><div class="line">public void setParam ( string $name [, string $value ] )</div><div class="line">public void setRequestUri ( string $uir )</div><div class="line">public void setRouted ([ string $flag ] )</div></pre></td></tr></table></figure>
+<h2 id="Yaf-Response-Abstract"><a href="#Yaf-Response-Abstract" class="headerlink" title="Yaf-Response-Abstract"></a>Yaf-Response-Abstract</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">/* Methods */</div><div class="line">public bool appendBody ( string $content [, string $key ] )</div><div class="line">public bool clearBody ([ string $key ] )</div><div class="line">public void clearHeaders ( void )</div><div class="line">private void __clone ( void )</div><div class="line">public __construct ( void )</div><div class="line">public void __destruct ( void )</div><div class="line">public mixed getBody ([ string $key ] )</div><div class="line">public void getHeader ( void )</div><div class="line">public bool prependBody ( string $content [, string $key ] )</div><div class="line">public void response ( void )</div><div class="line">protected void setAllHeaders ( void )</div><div class="line">public bool setBody ( string $content [, string $key ] )</div><div class="line">public void setHeader ( void )</div><div class="line">public void setRedirect ( void )</div><div class="line">private void __toString ( void )</div></pre></td></tr></table></figure>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><ul>
+<li><p><a href="http://php.net/manual/en/class.yaf-response-abstract.php" target="_blank" rel="external">Yaf-Response-Abstract</a></p>
+</li>
+<li><p><a href="http://php.net/manual/en/class.yaf-request-abstract.php" target="_blank" rel="external">Yaf-Request-Abstract</a></p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170726150106236928086.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用php对接prometheus监控系统</title>
+    <link href="http://jimxu.me/2017/07/25/prometheus-on-php/"/>
+    <id>http://jimxu.me/2017/07/25/prometheus-on-php/</id>
+    <published>2017-07-25T07:55:13.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097148897159.png" width="492" height="297"></p>
+<a id="more"></a>
+<h2 id="什么是prometheus"><a href="#什么是prometheus" class="headerlink" title="什么是prometheus"></a>什么是prometheus</h2><ul>
+<li>监控系统</li>
+<li>报警机制</li>
+<li>时间序列数据</li>
+<li>支持Java,Go，PHP等</li>
+</ul>
+<h2 id="prometheus-client-php"><a href="#prometheus-client-php" class="headerlink" title="prometheus_client_php"></a>prometheus_client_php</h2><p>A prometheus client library written in PHP</p>
+<div class="github-widget" data-repo="Jimdo/ prometheus_client_php"></div>
+
+<h2 id="对接prometheus系统"><a href="#对接prometheus系统" class="headerlink" title="对接prometheus系统"></a>对接prometheus系统</h2><p>第一步 将监控数据写入适配器，如redis、apc<br>第二步 提供接口供prometheus系统调用</p>
+<h2 id="四种数据类型"><a href="#四种数据类型" class="headerlink" title="四种数据类型"></a>四种数据类型</h2><ul>
+<li>counter 计时器</li>
+</ul>
+<p>只能增加value值，适合记录持续增长的，如接接口调用次数、请求总数、页面访问次数等</p>
+<ul>
+<li>gauge 尺度盘</li>
+</ul>
+<p>可以任意修改value值,适合记录瞬时数据，如CPU使用率、内存使用情况、磁盘空间等</p>
+<ul>
+<li>histogram 直方图</li>
+</ul>
+<p>用来度量数据中值的分布情况，如程序执行时间：0-100ms、100-200ms、200-300ms、&gt;300ms 的分布情况</p>
+<ul>
+<li>summary</li>
+</ul>
+<h2 id="adapter-存储介质"><a href="#adapter-存储介质" class="headerlink" title="adapter 存储介质"></a>adapter 存储介质</h2><p>三种adapter</p>
+<ul>
+<li>apc</li>
+<li>redis</li>
+<li>in-memory</li>
+</ul>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> ($adapter === <span class="string">'redis'</span>) &#123;</div><div class="line">    Redis::setDefaultOptions(<span class="keyword">array</span>(<span class="string">'host'</span> =&gt; <span class="keyword">isset</span>($_SERVER[<span class="string">'REDIS_HOST'</span>]) ? $_SERVER[<span class="string">'REDIS_HOST'</span>] : <span class="string">'127.0.0.1'</span>));</div><div class="line">    $adapter = <span class="keyword">new</span> Prometheus\Storage\Redis();</div><div class="line">&#125; <span class="keyword">elseif</span> ($adapter === <span class="string">'apc'</span>) &#123;</div><div class="line">    $adapter = <span class="keyword">new</span> Prometheus\Storage\APC();</div><div class="line">&#125; <span class="keyword">elseif</span> ($adapter === <span class="string">'in-memory'</span>) &#123;</div><div class="line">    $adapter = <span class="keyword">new</span> Prometheus\Storage\InMemory();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="register-注册器"><a href="#register-注册器" class="headerlink" title="register 注册器"></a>register 注册器</h2><p>方法列表：</p>
+<ul>
+<li>registerCounter</li>
+<li>getCounter </li>
+<li>getOrRegisterCounter</li>
+<li>registerGauge</li>
+<li>getGauge</li>
+<li>getOrRegisterGauge</li>
+<li>registerHistogram</li>
+<li>getHistogram </li>
+<li>getOrRegisterHistogram</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$registry = new CollectorRegistry($adapter);</div><div class="line"></div><div class="line">//或者，获取默认的registry</div><div class="line">$registry = \Prometheus\CollectorRegistry::getDefault();</div></pre></td></tr></table></figure>
+<h2 id="供prometheus调用的接口"><a href="#供prometheus调用的接口" class="headerlink" title="供prometheus调用的接口"></a>供prometheus调用的接口</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$registry = new CollectorRegistry($adapter);</div><div class="line">$renderer = new RenderTextFormat();</div><div class="line">$result = $renderer-&gt;render($registry-&gt;getMetricFamilySamples());</div><div class="line"></div><div class="line">header(&apos;Content-type: &apos; . RenderTextFormat::MIME_TYPE);</div><div class="line">echo $result;</div></pre></td></tr></table></figure>
+<h2 id="清除测试数据"><a href="#清除测试数据" class="headerlink" title="清除测试数据"></a>清除测试数据</h2><p>测试的时候想要清除在apc中存储的prometheus数据，可以调用下面的方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$adapter = new Prometheus\Storage\APC();</div><div class="line">$adapter-&gt;flushAPC();</div></pre></td></tr></table></figure>
+<p>同理，清除redis和memory</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$adapter = new Prometheus\Storage\Redis();</div><div class="line">$adapter-&gt;flushRedis();</div><div class="line"></div><div class="line">$adapter = new Prometheus\Storage\InMemory();</div><div class="line">$adapter-&gt;flushMemory();</div></pre></td></tr></table></figure>
+<h2 id="counter用法"><a href="#counter用法" class="headerlink" title="counter用法"></a>counter用法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$counter = $registry-&gt;getOrRegisterCounter(&apos;aaa&apos;, &apos;bbb&apos;, &apos;ccc&apos;, [&apos;color&apos;]);</div><div class="line">$counter-&gt;incBy(1, [&apos;red&apos;]);</div></pre></td></tr></table></figure>
+<p> 结果为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># HELP aaa_bbb ccc</div><div class="line"># TYPE aaa_bbb counter</div><div class="line">aaa_bbb&#123;color=&quot;red&quot;&#125; 1</div></pre></td></tr></table></figure>
+<p>当然也可以同时设置两个label</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$counter = $registry-&gt;getOrRegisterCounter(&apos;aaa&apos;, &apos;bbb&apos;, &apos;ccc&apos;, [&apos;color&apos;, &apos;size&apos;]);</div><div class="line">$counter-&gt;incBy(1, [&apos;red&apos;, 10]);</div></pre></td></tr></table></figure>
+<p> 结果为：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># HELP aaa_bbb ccc</div><div class="line"># TYPE aaa_bbb counter</div><div class="line">aaa_bbb&#123;color=&quot;red&quot;,size=10&#125; 1</div></pre></td></tr></table></figure>
+<h2 id="gauge"><a href="#gauge" class="headerlink" title="gauge"></a>gauge</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$gauge = $registry-&gt;getOrRegisterGauge(&apos;test&apos;, &apos;some_gauge&apos;, &apos;it sets&apos;, [&apos;type&apos;]);</div><div class="line">$gauge-&gt;set(2.5, [&apos;blue&apos;]);</div></pre></td></tr></table></figure>
+<h2 id="histogram"><a href="#histogram" class="headerlink" title="histogram"></a>histogram</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$histogram = $registry-&gt;getOrRegisterHistogram(&apos;test&apos;, &apos;some_histogram&apos;, &apos;it observes&apos;, [&apos;type&apos;], [0.1, 1, 2, 3.5, 4, 5, 6, 7, 8, 9]);</div><div class="line">$histogram-&gt;observe(3.5, [&apos;blue&apos;]);</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170725150097148897159.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关闭mac自动大写单词首字母功能</title>
+    <link href="http://jimxu.me/2017/07/25/disable-auto-ucfirst-word-on-mac/"/>
+    <id>http://jimxu.me/2017/07/25/disable-auto-ucfirst-word-on-mac/</id>
+    <published>2017-07-25T07:12:28.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097228693096.png" width="492" height="297"></p>
+<a id="more"></a>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150096665552592.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170725150097228693096.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="mac" scheme="http://jimxu.me/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装xdebug后var_dump显示问题</title>
+    <link href="http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/"/>
+    <id>http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/</id>
+    <published>2017-07-24T09:08:19.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png" width="492" height="297"></p>
+<p> 安装了xdebug之后，使用var_dump打印输出时显示错误</p>
+<a id="more"></a>
+<p> 错误如下：</p>
+<p> <img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088734626603.jpg"></p>
+<p>在网上查询了一下，有人说先检查一下php的配置中<code>html_errors</code>这项是否是开启的，如果是Off的就把它设置为On</p>
+<p>php手册中关于html_errors的介绍：</p>
+<blockquote>
+<p>html_errors boolean<br>在错误信息中关闭HTML标签。这种新的HTML格式的错误信息是可以点击，它引导用户前往描述该错误或者导致该错误发生的函数的参考信息页面。 这些参考与 docref_root 和 docref_ext 的设置有关。</p>
+</blockquote>
+<p>检查的方法是在终端输入以下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -i | grep html_errors</div></pre></td></tr></table></figure>
+<p>好了，先检查一下</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088750041484.jpg"></p>
+<p>果然是关闭的，去<code>php.ini</code>里开启它吧</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088738770125.jpg"></p>
+<p>若还未生效<br>查看php设置的<code>xdebug.overload_var_dump</code>这一项，将其设置为0</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097075965208.png"></p>
+<p>改好了重启php-fpm服务</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
+<p><a href="http://www.cnblogs.com/huangye-dream/p/4182803.html" target="_blank" rel="external">http://www.cnblogs.com/huangye-dream/p/4182803.html</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+&lt;p&gt; 安装了xdebug之后，使用var_dump打印输出时显示错误&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+      <category term="xdebug" scheme="http://jimxu.me/tags/xdebug/"/>
+    
+  </entry>
   
   <entry>
     <title>美区apple账号的申请和使用</title>
@@ -43,849 +845,6 @@
     
     
       <category term="life" scheme="http://jimxu.me/tags/life/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>[译]改善编程的七个习惯</title>
-    <link href="http://jimxu.me/2017/07/19/translate-seven-userfun-programming-habits/"/>
-    <id>http://jimxu.me/2017/07/19/translate-seven-userfun-programming-habits/</id>
-    <published>2017-07-19T03:27:35.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170721150061352433270.png" width="492" height="297"><br>(图片来源：<a href="https://pixabay.com/zh/" target="_blank" rel="external">pixabay</a>)</p>
-<p>作者：BinarForge</p>
-<p>原文链接：<a href="https://dev.to/binarforge/seven-useful-programming-habits" target="_blank" rel="external">https://dev.to/binarforge/seven-useful-programming-habits</a></p>
-<a id="more"></a>
-<blockquote>
-<p>This short entry was also published on my personal website</p>
-</blockquote>
-<p>这篇短文发布在我的个人网站上</p>
-<blockquote>
-<p>I have been reading some good books on forming habits recently. After digesting these, my mind started drifting further and I started thinking what my current habits are. Some of them are applicable to life in general, some relate only to work. Without surprise, some of them happen to be strongly related to programming, which I think might be a good thing to share.</p>
-</blockquote>
-<p>我阅读了很多关于培养习惯的优质书籍。读完之后，我就开始想啊想，想什么呢？当然是我自己平时的习惯啦。其中一些生活方面的习惯，另一些是工作相关的。作为程序猿，跟工作相关的当然就是指编程方面的习惯咯，我觉得可以分享给大家共勉。</p>
-<blockquote>
-<p>Uncontrolled auto save. This one has been accompanying me for ages. Even though many modern IDEs do not even require saving a file, I am relentlessly squeezing “Ctrl + S” combination to its last…drop. If I recall correctly, I am doing it thoughtlessly every time I stop typing. Weird but it actually saved my day more times than it caused a smirk on my colleagues faces.</p>
-</blockquote>
-<h2 id="第一个习惯：没事保存一下"><a href="#第一个习惯：没事保存一下" class="headerlink" title="第一个习惯：没事保存一下"></a>第一个习惯：没事保存一下</h2><p>这是我很早就培养出来的习惯了，即使现在很多高级的IDE甚至都不需要保存文件了，我还是要自己按Ctrl+S组合键保存，除非这两个键被我按爆了。每次敲完最后一下停顿的时候，想都不想”啪”的一下保存了再说。看着是有点奇怪，甚至身边的同事看了还会偷笑，笑你妹啊，你根本不知道这一招救了我多少次(哼╭(╯^╰)╮)，等什么时候断电死机了你就该苦了;</p>
-<blockquote>
-<p>Some devs tend to say being in “the zone” is like being in Nirvana or finally reaching the Valhalla. The way I see it is more like Berserk mode. It is great for some time but then you should take a break to recover. So basically short zone bursts are great for performance but make sure you take regular stops. Being in a zone for too long can actually numb your senses and make your mind more vulnerable to get stuck in a loop. (no pun intended!)</p>
-</blockquote>
-<h2 id="第二个习惯：张弛有度"><a href="#第二个习惯：张弛有度" class="headerlink" title="第二个习惯：张弛有度"></a>第二个习惯：张弛有度</h2><p>有些开发人员喜欢一刻不停的码字，码的飘飘欲仙，放佛身处极乐世界或者到达了瓦尔哈拉殿堂（注：挪威神话中奥丁神接待战死者英灵的殿堂）。照我看来，这也太疯了。持续一小段时间专心码字当然是极好的，但是每隔一段时间一定要停下来让你的精气神恢复到最佳状态。短时间爆发一下，确实能出好活，但是一定要定期休息啊老铁。爆发时间长了，你的感官会麻木，你的脑子会僵死，你的人可能就走进了死胡同原地打转了。</p>
-<blockquote>
-<p>Make sure you kill all the sources of disturbance. When I work on something really important I will turn my phone off, avoid social medias or any medias in general with a slight exception for music. Apply everything in healthy limits though. If you have got kids and need to focus, locking them up in a basement might sound appealing but it is not really a good solution in longer term.</p>
-</blockquote>
-<h2 id="第三个习惯：排除干扰"><a href="#第三个习惯：排除干扰" class="headerlink" title="第三个习惯：排除干扰"></a>第三个习惯：排除干扰</h2><p>确保你身边没有任何可以干扰你的东西。当我开始进行非常重要的工作的时候，我会把我的手机弄到飞行模式，放上音乐，避免自己被社交媒体干扰。确保自己健康得到保障。如果你有孩子需要看着的话，把他们关到地下室去？开玩笑，这可不是个长久有效的好办法。</p>
-<blockquote>
-<p>Always try to start with an end in your mind. Some people say the power of visualisation is priceless. It helps me determining realistic list of goals for today and eventually leads to reducing or removing frustration and disappointment at the end of the day. So anytime you work on something, make sure you know exactly what is it that you want to create. It might sound obvious but it is really one of those steps being skipped way too often.</p>
-</blockquote>
-<h2 id="第四个习惯-知道你在干嘛"><a href="#第四个习惯-知道你在干嘛" class="headerlink" title="第四个习惯 知道你在干嘛"></a>第四个习惯 知道你在干嘛</h2><p>永远记得开始之前估计一下结果。正如一些人说：可视化的力量是无价的。它有助于我确定今天要做的目标，减少甚至避免日后的沮丧、失望。所以当你要干一件事的时候，确保你自己清楚你在干啥，最终会产出什么。听上去很理所当然的样子，但是很多人就是会忽视它。</p>
-<blockquote>
-<p>One good habit for me is regular training. Even though going to the gym is another great habit, in this case I am more worried about one’s actual programming skills. I enjoy solving occasional programming exercises in order to keep my saw sharp all the time. It might not pay your bills but will definitely pay back in future.</p>
-</blockquote>
-<h2 id="第五个习惯-训练编程技巧"><a href="#第五个习惯-训练编程技巧" class="headerlink" title="第五个习惯 训练编程技巧"></a>第五个习惯 训练编程技巧</h2><p>我有一个好习惯，没事就锻个练。我在这里指的是锻炼一个人的编程技巧，当然咯，去健身房锻炼身体也算是一个好习惯。偶尔我会给自己整个编程的题目，解题让我很爽，同时能让我的头脑保持活力。虽然提升自己的编程水平目前来看是捞不着钱，但日后肯定会给你丰厚的回报。</p>
-<blockquote>
-<p>One of my most recent ones is trying to start writing any code from forming some test cases. This one is sort of related to one of my earlier points as it helps me seeing my destination before starting. It obviously makes the end result safer but as a bonus it often helps designing and documenting the code. I am actually surprised so few developers can appreciate this point of view.</p>
-</blockquote>
-<h2 id="第六个习惯-测试用例"><a href="#第六个习惯-测试用例" class="headerlink" title="第六个习惯 测试用例"></a>第六个习惯 测试用例</h2><p>我最近长干的一件事，那就是在写代码之前先把测试用例整出来。就像第四个习惯说的那样，这么做可以帮我提前知道我想要我的代码实现怎样的功能。很明显，测试用例可以让代码更安全，同时也有助于记录代码设计过程和文档记录。你看好处这么多，别的程序员咋就是想不到这么干呢。</p>
-<blockquote>
-<p>Another fresh one for me which is to avoid “future programming”. Start small and grow later. In my earlier days while coding anything I wanted to make it perfect from the very first day, cover all the possible edge cases and almost prepare it for my descendants to use. With time I realised it often leads to overcomplicated codebase, high time consumption and in most cases my program is doing everything and nothing at the same time!</p>
-</blockquote>
-<h2 id="第七个习惯-避免“未来式编程”"><a href="#第七个习惯-避免“未来式编程”" class="headerlink" title="第七个习惯 避免“未来式编程”"></a>第七个习惯 避免“未来式编程”</h2><p>这是个我最近学会的一点。啥叫未来式编程，就是一开始就往大了设计。而正道应该是从一个小的项目开始，慢慢把它做大。以前我年轻的时候不懂事，写代码就想要写出来就很完美，考虑所有的边界条件，给以后所有的扩展留好位置。随着时间的推移，我慢慢发现我之前在代码库里写的都是啥啊，这么复杂的一大坨，耗时又那么长。大部分情况下，我的代码干了所有的事情，其实也啥都没干成。</p>
-<blockquote>
-<p>So here, take any of these for yourself if you feel like it. These I have found insanely useful on my programming path but forming them is not an overnight change. The best and only way to implement a habit in your life is to just start using it and it will settle down before you realise.<br>Ah, do not forget to let me know about other habits that worked for you!</p>
-</blockquote>
-<p>最后，觉得什么习惯好你们就挑什么哈。这些习惯我觉得对于编程都很好用，但没有什么习惯是一日而就的。最好的培养习惯的现在就开始尝试，不知不觉就掌握了。</p>
-<p>要是有什么习惯对你们有用，别忘了给我留言哦（<a href="https://dev.to/binarforge/seven-useful-programming-habits）。" target="_blank" rel="external">https://dev.to/binarforge/seven-useful-programming-habits）。</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170721150061352433270.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;br&gt;(图片来源：&lt;a href=&quot;https://pixabay.com/zh/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;pixabay&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;作者：BinarForge&lt;/p&gt;
-&lt;p&gt;原文链接：&lt;a href=&quot;https://dev.to/binarforge/seven-useful-programming-habits&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://dev.to/binarforge/seven-useful-programming-habits&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="translate" scheme="http://jimxu.me/tags/translate/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>学游泳笔记</title>
-    <link href="http://jimxu.me/2017/07/17/swim-lesson-note/"/>
-    <id>http://jimxu.me/2017/07/17/swim-lesson-note/</id>
-    <published>2017-07-17T02:09:40.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170721150060414881033.png" alt="20170721150060414881033.png"><br>(图片来源：<a href="https://pixabay.com/zh/" target="_blank" rel="external">pixabay</a>)</p>
-<p>炎炎夏日，学个游泳再好不过了,这篇文章记录学游泳时候的经验，以后教人用</p>
-<a id="more"></a>
-<h1 id="day0"><a href="#day0" class="headerlink" title="day0"></a>day0</h1><p>准备工作：<br>购买泳衣、泳镜、拖鞋、毛巾、洗发水（除Cl）</p>
-<h1 id="day-1"><a href="#day-1" class="headerlink" title="day 1"></a>day 1</h1><ul>
-<li>手抓游泳池壁，身体漂浮在水面</li>
-</ul>
-<p>身体放松，脚尖并拢</p>
-<ul>
-<li>手抓游泳池壁，身体漂浮在水面，练习蛙泳动作</li>
-</ul>
-<ul>
-<li>手抓游泳池壁，身体漂浮在水面，在池中直立</li>
-</ul>
-<h1 id="day-2"><a href="#day-2" class="headerlink" title="day 2"></a>day 2</h1><ul>
-<li><p>池中，身体漂浮在水面</p>
-</li>
-<li><p>池中，身体漂浮在水面，在池中直立</p>
-</li>
-<li><p>手抓游泳池壁，身体漂浮在水面，练习蛙泳动作加换气</p>
-</li>
-<li><p>在家里练习：上半身躺在床上，双腿练习蛙泳动作</p>
-</li>
-</ul>
-<h1 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h1><ul>
-<li>游完泳要滴眼药水</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170721150060414881033.png&quot; alt=&quot;20170721150060414881033.png&quot;&gt;&lt;br&gt;(图片来源：&lt;a href=&quot;https://pixabay.com/zh/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;pixabay&lt;/a&gt;)&lt;/p&gt;
-&lt;p&gt;炎炎夏日，学个游泳再好不过了,这篇文章记录学游泳时候的经验，以后教人用&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="life" scheme="http://jimxu.me/tags/life/"/>
-    
-      <category term="swim" scheme="http://jimxu.me/tags/swim/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql datetime默认值设置为0000-00-00 00:00:00时报错</title>
-    <link href="http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/"/>
-    <id>http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/</id>
-    <published>2017-07-13T10:46:44.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>出错原因：mysql5.7之后的版本默认设置不允许日期为空</p>
-<p>解决方法:</p>
-<ul>
-<li>修改mysql的sql mode</li>
-<li>默认值设置为非空值</li>
-</ul>
-<a id="more"></a>
-<h2 id="查看sql-mode"><a href="#查看sql-mode" class="headerlink" title="查看sql mode"></a>查看sql mode</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">SELECT</span> @@<span class="keyword">GLOBAL</span>.<span class="keyword">sql_mode</span>;</div><div class="line"><span class="selector-tag">SELECT</span> @@<span class="keyword">SESSION</span>.<span class="keyword">sql_mode</span>;</div></pre></td></tr></table></figure>
-<h2 id="sql-mode常用值"><a href="#sql-mode常用值" class="headerlink" title="sql_mode常用值"></a>sql_mode常用值</h2><ul>
-<li><p>ONLY_FULL_GROUP_BY：<br>对于GROUP BY聚合操作，如果在SELECT中的列，没有在GROUP BY中出现，那么这个SQL是不合法的，因为列不在GROUP BY从句中</p>
-</li>
-<li><p>NO_AUTO_VALUE_ON_ZERO：<br>该值影响自增长列的插入。默认设置下，插入0或NULL代表生成下一个自增长值。如果用户 希望插入的值为0，而该列又是自增长的，那么这个选项就有用了。</p>
-</li>
-<li><p>STRICT_TRANS_TABLES：<br>在该模式下，如果一个值不能插入到一个事务表中，则中断当前的操作，对非事务表不做限制</p>
-</li>
-<li><p>NO_ZERO_IN_DATE：<br>在严格模式下，不允许日期和月份为零</p>
-</li>
-<li><p>NO_ZERO_DATE：<br>设置该值，mysql数据库不允许插入零日期，插入零日期会抛出错误而不是警告。</p>
-</li>
-<li><p>ERROR_FOR_DIVISION_BY_ZERO：<br>在INSERT或UPDATE过程中，如果数据被零除，则产生错误而非警告。如 果未给出该模式，那么数据被零除时MySQL返回NULL</p>
-</li>
-<li><p>NO_AUTO_CREATE_USER：<br>禁止GRANT创建密码为空的用户</p>
-</li>
-<li><p>NO_ENGINE_SUBSTITUTION：<br>如果需要的存储引擎被禁用或未编译，那么抛出错误。不设置此值时，用默认的存储引擎替代，并抛出一个异常</p>
-</li>
-<li><p>PIPES_AS_CONCAT：<br>将”||”视为字符串的连接操作符而非或运算符，这和Oracle数据库是一样的，也和字符串的拼接函数Concat相类似</p>
-</li>
-<li><p>ANSI_QUOTES：启用ANSI_QUOTES后，不能用双引号来引用字符串，因为它被解释为识别符</p>
-</li>
-</ul>
-<h2 id="设置sql-mode"><a href="#设置sql-mode" class="headerlink" title="设置sql mode"></a>设置sql mode</h2><figure class="highlight gams"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">SET</span> GLOBAL <span class="comment">sql_mode =</span> <span class="comment">'modes...'</span>;</div><div class="line"><span class="keyword">SET</span> SESSION <span class="comment">sql_mode =</span> <span class="comment">'modes...'</span>;</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;出错原因：mysql5.7之后的版本默认设置不允许日期为空&lt;/p&gt;
-&lt;p&gt;解决方法:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;修改mysql的sql mode&lt;/li&gt;
-&lt;li&gt;默认值设置为非空值&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="error" scheme="http://jimxu.me/tags/error/"/>
-    
-      <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>crontab入门</title>
-    <link href="http://jimxu.me/2017/07/12/get-started-to-crontab/"/>
-    <id>http://jimxu.me/2017/07/12/get-started-to-crontab/</id>
-    <published>2017-07-12T09:43:43.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>crontab用来定时执行脚本</p>
-<p>为什么要定时执行脚本：</p>
-<ul>
-<li>异步处理，如下单赠品，计算用户会员等</li>
-<li>自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等</li>
-</ul>
-<a id="more"></a>
-<h2 id="crontab文件格式"><a href="#crontab文件格式" class="headerlink" title="crontab文件格式"></a>crontab文件格式</h2><figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">分钟 小时 日 月 星期 [<span class="keyword">command</span>]</div></pre></td></tr></table></figure>
-<p>一条crontab执行的shell脚本分为6部分</p>
-<ol>
-<li>分钟,默认*</li>
-<li>小时,默认*</li>
-<li>日,默认*</li>
-<li>月,默认*</li>
-<li>星期,默认*</li>
-<li>命令</li>
-</ol>
-<p>前面五个部分用于指定脚本的执行时间和频率，默认<code>* * * * *</code>代表每分钟执行一次</p>
-<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//输入精确时间</span></div><div class="line"><span class="number">3</span> * * * * do_sth	   <span class="comment">//每3分钟执行一次</span></div><div class="line"><span class="comment">//输入范围</span></div><div class="line">* <span class="number">5</span><span class="number">-23</span> * * * do_sth   <span class="comment">//从凌晨5点到晚上11点每分钟执行一次（普通人作息时间）</span></div><div class="line"><span class="comment">//输入可选项</span></div><div class="line">* * * * <span class="number">6</span>,<span class="number">7</span>          <span class="comment">//在周六和周日每分钟执行一次</span></div></pre></td></tr></table></figure>
-<h2 id="启用cron"><a href="#启用cron" class="headerlink" title="启用cron"></a>启用cron</h2><p>新建一个cron文件 <code>$HOME/jimcron</code><br>编辑如下：</p>
-<figure class="highlight lua"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#<span class="built_in">log</span> <span class="built_in">time</span> every <span class="built_in">min</span></div><div class="line">* * * * * /bin/echo <span class="built_in">date</span> &gt; ~/cron.<span class="built_in">log</span></div></pre></td></tr></table></figure>
-<p>然后执行下面的命令启用cron</p>
-<figure class="highlight nginx"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">crontab</span> <span class="variable">$HOME</span>/jimcron</div></pre></td></tr></table></figure>
-<h2 id="查看所有cron"><a href="#查看所有cron" class="headerlink" title="查看所有cron"></a>查看所有cron</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab <span class="_">-l</span></div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170712149985458536665.png" alt="20170712149985458536665.png"></p>
-<h2 id="cron备份与恢复"><a href="#cron备份与恢复" class="headerlink" title="cron备份与恢复"></a>cron备份与恢复</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">crontab -l &gt; $HOME/jimcron  <span class="comment">//备份cron</span></div><div class="line">crontab $HOME/jimcron	<span class="comment">//恢复cron</span></div></pre></td></tr></table></figure>
-<h2 id="编辑当前用户的cron"><a href="#编辑当前用户的cron" class="headerlink" title="编辑当前用户的cron"></a>编辑当前用户的cron</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab <span class="_">-e</span></div></pre></td></tr></table></figure>
-<h2 id="删除cron文件"><a href="#删除cron文件" class="headerlink" title="删除cron文件"></a>删除cron文件</h2><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">crontab -r</span></div></pre></td></tr></table></figure>
-<h2 id="ubuntu下cron命令"><a href="#ubuntu下cron命令" class="headerlink" title="ubuntu下cron命令"></a>ubuntu下cron命令</h2><figure class="highlight dts"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo <span class="meta-keyword">/etc/</span>init.d/cron start	<span class="comment">//启动</span></div><div class="line">sudo <span class="meta-keyword">/etc/</span>init.d/cron stop 	<span class="comment">//关闭</span></div><div class="line">sudo <span class="meta-keyword">/etc/</span>init.d/cron restart		<span class="comment">//重启</span></div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;crontab用来定时执行脚本&lt;/p&gt;
-&lt;p&gt;为什么要定时执行脚本：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;异步处理，如下单赠品，计算用户会员等&lt;/li&gt;
-&lt;li&gt;自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="shell" scheme="http://jimxu.me/tags/shell/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用mtr工具检测网络</title>
-    <link href="http://jimxu.me/2017/07/12/use-mtr-detect-network-status/"/>
-    <id>http://jimxu.me/2017/07/12/use-mtr-detect-network-status/</id>
-    <published>2017-07-12T09:21:07.000Z</published>
-    <updated>2017-07-12T16:07:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>mtr集成了traceroute、ping、nslookup功能</p>
-<a id="more"></a>
-<h1 id="安装mtr"><a href="#安装mtr" class="headerlink" title="安装mtr"></a>安装mtr</h1><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">brew </span><span class="keyword">install </span>mtr</div></pre></td></tr></table></figure>
-<h1 id="使用mtr"><a href="#使用mtr" class="headerlink" title="使用mtr"></a>使用mtr</h1><figure class="highlight armasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="symbol">mtr</span> <span class="built_in">ip</span>/host_name</div></pre></td></tr></table></figure>
-<blockquote>
-<p>mtr -h  #提供帮助命令<br>mtr -v  #显示mtr的版本信息<br>mtr -r  #已报告模式显示<br>mtr -s  #用来指定ping数据包的大小<br>mtr –no-dns  #不对IP地址做域名解析<br>mtr -a  #来设置发送数据包的IP地址 这个对一个主机由多个IP地址是有用的<br>mtr -i  #使用这个参数来设置ICMP返回之间的要求默认是1秒<br>mtr -4  #IPv4<br>mtr -6  #IPv6</p>
-</blockquote>
-<h1 id="使用mtr检测域名"><a href="#使用mtr检测域名" class="headerlink" title="使用mtr检测域名"></a>使用mtr检测域名</h1><p> jimxu.me这个域名通过DNSPod分别解析到了16bh.github.io(国外)和jimxu.coding.me(国内)</p>
-<p> 对比下托管在国内外的两个Pages服务的网络状态<br> <img src="http://o9xbyqajf.bkt.clouddn.com/20170712149986203271598.png" alt="20170712149986203271598.png"></p>
-<p>可见国内网络时托管在coding.net的网站比托管在github的网站有了大幅的提速</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;mtr集成了traceroute、ping、nslookup功能&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="tools" scheme="http://jimxu.me/tags/tools/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>将Hexo网站托管到Coding.net</title>
-    <link href="http://jimxu.me/2017/07/12/using-Coding-host-website-code/"/>
-    <id>http://jimxu.me/2017/07/12/using-Coding-host-website-code/</id>
-    <published>2017-07-12T08:37:04.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用Coding提供的pages服务，将网站的代码备份一份在Coding.net<br>修改域名解析，访问网站时国内用户访问github pages，国内用户访问coding pages</p>
-<a id="more"></a>
-<h1 id="新建Coding的pages仓库"><a href="#新建Coding的pages仓库" class="headerlink" title="新建Coding的pages仓库"></a>新建Coding的pages仓库</h1><p>只需要注册<a href="https://coding.net/register?key=d59a5269-0dd0-4a51-b48a-0bba7c611a1b" target="_blank" rel="external">coding.net</a>,然后建立一个名为<code>用户名+coding.me</code>的仓库即可，需要注意的是 coding.net的pages仓库只能有一个master分支</p>
-<p><a href="https://coding.net/help/doc/pages/getting-started.html" target="_blank" rel="external">开始使用 Coding Pages官方帮助文档</a></p>
-<blockquote>
-<p>Coding Pages 分为「用户 Pages」与「项目 Pages」两种类型。查看详细介绍</p>
-<p>如果您希望创建「用户 Pages」（直接访问 {user_name}.coding.me 即可抵达您网站），只需要新建一个名为 {user_name}.coding.me 的项目即可。{user_name} 指代您本人的个性后缀，使用其他人的个性后缀不会被归为「用户 Pages」类型。</p>
-<p>除 {user_name}.coding.me 项目外，每一个项目都可以创建「项目 Pages」，无需额外操作。</p>
-<p>Coding Pages 设置选项在每个项目的「代码 -&gt; Pages 服务」中。</p>
-</blockquote>
-<h1 id="设置hexo-deploy的时候提交到coding-net"><a href="#设置hexo-deploy的时候提交到coding-net" class="headerlink" title="设置hexo deploy的时候提交到coding.net"></a>设置hexo deploy的时候提交到coding.net</h1><p>修改站点配置文件<code>_config.yml</code></p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">repository:</div><div class="line">    coding: git@git<span class="selector-class">.coding</span><span class="selector-class">.net</span>:&#123;user_name&#125;/&#123;user_name&#125;<span class="selector-class">.coding</span><span class="selector-class">.me</span><span class="selector-class">.git</span>,master</div><div class="line">    github: git@github<span class="selector-class">.com</span>:<span class="number">16</span>bh/&#123;user_name&#125;<span class="selector-class">.github</span><span class="selector-class">.io</span><span class="selector-class">.git</span>,master</div></pre></td></tr></table></figure>
-<h1 id="设置DNSPod域名解析"><a href="#设置DNSPod域名解析" class="headerlink" title="设置DNSPod域名解析"></a>设置DNSPod域名解析</h1><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170719150044386842213.png" alt="20170719150044386842213.png"></p>
-<p>最后，为了看是否生效，可以<a href="http://jimxu.me/2017/07/12/use-mtr-detect-network-status/">使用mtr检测域名的网络状态</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;使用Coding提供的pages服务，将网站的代码备份一份在Coding.net&lt;br&gt;修改域名解析，访问网站时国内用户访问github pages，国内用户访问coding pages&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="website" scheme="http://jimxu.me/tags/website/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>尝试jekyll</title>
-    <link href="http://jimxu.me/2017/07/11/how-to-use-jekyll/"/>
-    <id>http://jimxu.me/2017/07/11/how-to-use-jekyll/</id>
-    <published>2017-07-11T09:16:50.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>jekyll是和hexo一样的静态博客框架</p>
-<figure class="highlight axapta"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">brew install ruby    <span class="comment">//安装ruby环境</span></div><div class="line">gem install jekyll   <span class="comment">//安装jekyll</span></div><div class="line">jekyll <span class="keyword">new</span> blog      <span class="comment">//新建一个本地站点</span></div><div class="line">cd blog  </div><div class="line">jekyll <span class="keyword">server</span>  启动本地服务器</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>启动本地服务器后，终端显示如下：</p>
-<figure class="highlight sql"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">Configuration file: /Users/jim/jimxu-blog/_config.yml</div><div class="line">       Deprecation: The 'gems' configuration option has been renamed to 'plugins'. Please <span class="keyword">update</span> your config <span class="keyword">file</span> accordingly.</div><div class="line">            <span class="keyword">Source</span>: /<span class="keyword">Users</span>/jim/jimxu-blog</div><div class="line">       Destination: /<span class="keyword">Users</span>/jim/jimxu-blog/_site</div><div class="line"> Incremental <span class="keyword">build</span>: disabled. <span class="keyword">Enable</span> <span class="keyword">with</span> <span class="comment">--incremental</span></div><div class="line">      Generating...</div><div class="line">                    done <span class="keyword">in</span> <span class="number">0.39</span> seconds.</div><div class="line"> <span class="keyword">Auto</span>-regeneration: enabled <span class="keyword">for</span> <span class="string">'/Users/jim/jimxu-blog'</span></div><div class="line">    <span class="keyword">Server</span> address: <span class="keyword">http</span>://<span class="number">127.0</span><span class="number">.0</span><span class="number">.1</span>:<span class="number">4000</span>/</div><div class="line">  <span class="keyword">Server</span> running... press ctrl-c <span class="keyword">to</span> stop.</div></pre></td></tr></table></figure>
-<p>此时访问<code>http://127.0.0.1:4000/</code>预览生成的网站<br>按<code>ctrl+c</code>关闭本地服务器</p>
-<p>初始效果：</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170711149976507027132.png" alt="20170711149976507027132.png"></p>
-<p>安装时如果报<code>jekyll 3.5.0 | Error:  bundler</code>的错误:</p>
-<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gem <span class="keyword">install </span><span class="keyword">jekyll </span><span class="keyword">bundler</span></div></pre></td></tr></table></figure>
-<p>启动server时报<code>Operation not supported on socket @ rb_sysopen - /Users/jim/Library/Application Support/Google/Chrome/App Shim Socket</code>错误：</p>
-<blockquote>
-<p>需要先进入生成的项目目录再执行jekyll server命令</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;jekyll是和hexo一样的静态博客框架&lt;/p&gt;
-&lt;figure class=&quot;highlight axapta&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;brew install ruby    &lt;span class=&quot;comment&quot;&gt;//安装ruby环境&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;gem install jekyll   &lt;span class=&quot;comment&quot;&gt;//安装jekyll&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;jekyll &lt;span class=&quot;keyword&quot;&gt;new&lt;/span&gt; blog      &lt;span class=&quot;comment&quot;&gt;//新建一个本地站点&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;cd blog  &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;jekyll &lt;span class=&quot;keyword&quot;&gt;server&lt;/span&gt;  启动本地服务器&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="jekyll" scheme="http://jimxu.me/tags/jekyll/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解决重启后私钥失效的问题</title>
-    <link href="http://jimxu.me/2017/07/07/fix-invalid-private-key-after-reboot/"/>
-    <id>http://jimxu.me/2017/07/07/fix-invalid-private-key-after-reboot/</id>
-    <published>2017-07-07T08:26:09.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>通过ssh-add的方式添加私钥后，重启后会导致私钥无效，需要重新添加</p>
-<p>原因是ssh-add的方法是将private key加入到ssh-agent中，而ssh-agent是用来临时存储私钥的session服务</p>
-<p>整理了一下解决方法</p>
-<a id="more"></a>
-<h2 id="设置脚本自动添加私钥"><a href="#设置脚本自动添加私钥" class="headerlink" title="设置脚本自动添加私钥"></a>设置脚本自动添加私钥</h2><p>现在解决之前遇到的重启后私钥失效的问题</p>
-<p>使用mac自带的<code>Automator</code>工具</p>
-<p>新建一个应用程序<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170707149941570858169.png" alt="20170707149941570858169.png"></p>
-<p>选择<code>运行shell脚本</code></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170707149941566797740.png" alt="20170707149941566797740.png"></p>
-<p>在脚本中添加如下命令</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.gitlab</span></div><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.github</span></div></pre></td></tr></table></figure>
-<p>保存，命名为<code>ssh-add private keys</code>，会生成一个app，设置开机启动该app即可</p>
-<h2 id="永久添加私钥"><a href="#永久添加私钥" class="headerlink" title="永久添加私钥"></a>永久添加私钥</h2><blockquote>
-<p>原文见 <a href="http://www.icodeyou.com/2016/01/17/ssh-add-mac/" target="_blank" rel="external">Mac 上 ssh-add 永久将私钥添加到 Keychain</a></p>
-</blockquote>
-<p>如果不想使用下面的脚本,可以用下面的命令添加私钥</p>
-<p>ssh-agent 是一个用于存储私钥的临时性的 session 服务<br>将私钥存储在Keychain中就可以永久使用了</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -<span class="keyword">add</span><span class="bash"> -K id_rsa.github</span></div></pre></td></tr></table></figure>
-<blockquote>
-<p>github关于ssh的说明：<a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="external">https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/</a></p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;通过ssh-add的方式添加私钥后，重启后会导致私钥无效，需要重新添加&lt;/p&gt;
-&lt;p&gt;原因是ssh-add的方法是将private key加入到ssh-agent中，而ssh-agent是用来临时存储私钥的session服务&lt;/p&gt;
-&lt;p&gt;整理了一下解决方法&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="git" scheme="http://jimxu.me/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mac电脑上同时使用多个git平台</title>
-    <link href="http://jimxu.me/2017/07/07/how-to-use-github-and-gitlab-same-time/"/>
-    <id>http://jimxu.me/2017/07/07/how-to-use-github-and-gitlab-same-time/</id>
-    <published>2017-07-07T08:05:48.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>用ssh的方式使用git平台的时候，需要先预先生成秘钥，在git平台设置了公钥，才可以使用</p>
-<p>我们可以同时使用了多个git平台，如github和gitlab</p>
-<p>只需要为他们生成不同的秘钥就可以了</p>
-<a id="more"></a>
-<h2 id="生成秘钥，指定秘钥的名称"><a href="#生成秘钥，指定秘钥的名称" class="headerlink" title="生成秘钥，指定秘钥的名称"></a>生成秘钥，指定秘钥的名称</h2><figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//生成gitlab的秘钥</span></div><div class="line">ssh-keygen -t rsa -f ~/.ssh/id_rsa<span class="selector-class">.gitlab</span> -C <span class="string">"test_aaa@126.com"</span></div><div class="line"></div><div class="line"></div><div class="line"><span class="comment">//生成github的秘钥</span></div><div class="line">ssh-keygen -t rsa -f ~/.ssh/id_rsa<span class="selector-class">.github</span> -C <span class="string">"test_bbb@126.com"</span></div></pre></td></tr></table></figure>
-<p>执行完上述的操作的时候，在<code>~/.ssh</code>目录就可以看到如下的4个文件</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">id_rsa<span class="selector-class">.gitlab</span>        gitlab的私钥</div><div class="line">id_rsa<span class="selector-class">.gitlab</span><span class="selector-class">.pub</span>    gitlab的公钥</div><div class="line">id_rsa<span class="selector-class">.github</span>        github的私钥</div><div class="line">id_rsa<span class="selector-class">.github</span><span class="selector-class">.pub</span>    github的公钥</div></pre></td></tr></table></figure>
-<h2 id="将私钥添加到-ssh-agent-中"><a href="#将私钥添加到-ssh-agent-中" class="headerlink" title="将私钥添加到 ssh-agent 中"></a>将私钥添加到 ssh-agent 中</h2><figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.gitlab</span></div><div class="line">ssh-<span class="keyword">add</span><span class="bash"> id_rsa.github</span></div></pre></td></tr></table></figure>
-<p>这种添加是临时性的，重启之后需要再次添加，解决方法见<a href="http://jimxu.me/2017/07/07/%E8%A7%A3%E5%86%B3%E9%87%8D%E5%90%AF%E5%90%8E%E7%A7%81%E9%92%A5%E5%A4%B1%E6%95%88%E7%9A%84%E9%97%AE%E9%A2%98/">解决重启后私钥失效的问题</a></p>
-<h2 id="将公钥添加到git平台中"><a href="#将公钥添加到git平台中" class="headerlink" title="将公钥添加到git平台中"></a>将公钥添加到git平台中</h2><p>以github为例，在<code>Personal settings/SSH and GPG keys</code>中就可以添加<code>ssh key</code>了，如下图所示</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170707149941538098409.png" alt="20170707149941538098409.png"></p>
-<h2 id="测试ssh"><a href="#测试ssh" class="headerlink" title="测试ssh"></a>测试ssh</h2><p>执行下面的命令测试ssh</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">-T</span> <span class="selector-tag">git</span>@<span class="keyword">github</span>.<span class="keyword">com</span></div></pre></td></tr></table></figure>
-<p>若出现类似下面的提示，说明ssh可用</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/201707071499415537639.png" alt="201707071499415537639.png"></p>
-<p>然后就可以使用ssh的方式使用git平台了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;用ssh的方式使用git平台的时候，需要先预先生成秘钥，在git平台设置了公钥，才可以使用&lt;/p&gt;
-&lt;p&gt;我们可以同时使用了多个git平台，如github和gitlab&lt;/p&gt;
-&lt;p&gt;只需要为他们生成不同的秘钥就可以了&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="git" scheme="http://jimxu.me/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ssh连接服务器更简单一点</title>
-    <link href="http://jimxu.me/2017/07/07/ssh-connect-server-without-password/"/>
-    <id>http://jimxu.me/2017/07/07/ssh-connect-server-without-password/</id>
-    <published>2017-07-07T07:50:02.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>用ssh连接服务器，通常是下面这样的</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="selector-tag">ssh</span> <span class="selector-tag">user</span>@<span class="keyword">127</span>.<span class="keyword">0</span>.<span class="keyword">0</span>.<span class="keyword">1</span></div></pre></td></tr></table></figure>
-<p>然后按提示输入密码就连上了</p>
-<p>其实，可以更简单一点，我们不需要输入用户名，不需要输入服务器ip地址，甚至不需要输入密码！</p>
-<a id="more"></a>
-<h2 id="简化1：不需要输入用户名和host"><a href="#简化1：不需要输入用户名和host" class="headerlink" title="简化1：不需要输入用户名和host"></a>简化1：不需要输入用户名和host</h2><p>那么多的服务器，每个服务器登录的用户名和host还不一样 谁记的住呀</p>
-<p>直接修改你本地的<code>.ssh/config</code>文件（没有就新建一个）</p>
-<p>编辑如下：</p>
-<figure class="highlight crmsh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">Host test</div><div class="line">     HostName <span class="number">172.0</span>.<span class="number">0.1</span></div><div class="line">     <span class="keyword">User</span> <span class="title">user</span></div></pre></td></tr></table></figure>
-<p>然后就可以用</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh <span class="built_in">test</span></div></pre></td></tr></table></figure>
-<p>来连接服务器了，但是还是要输入密码的</p>
-<h2 id="简化2：-不需要输入密码"><a href="#简化2：-不需要输入密码" class="headerlink" title="简化2： 不需要输入密码"></a>简化2： 不需要输入密码</h2><p>先生成秘钥</p>
-<figure class="highlight ebnf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">ssh-keygen -t rsa</span></div></pre></td></tr></table></figure>
-<p>过程中会提示你输入密语，密语可以为空，按确认就好（安全性降低了，但可以避免以后一直询问你密语）</p>
-<p>这样在你的<code>.ssh</code>目录下就应该生成了下面两个文件</p>
-<figure class="highlight gcode"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">id_rsa  私有秘钥<span class="comment">(私钥)</span></div><div class="line">id_rsa.pub  公有秘钥<span class="comment">(公钥)</span></div></pre></td></tr></table></figure>
-<p>用<code>scp</code>命令将生成的公钥copy到服务器，为了防止文件名重复改个名字</p>
-<figure class="highlight elixir"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">scp ~<span class="regexp">/.ssh/id</span>_rsa.pub user<span class="variable">@172</span>.<span class="number">0</span>.<span class="number">0</span>.<span class="number">1</span><span class="symbol">:~/</span>.ssh/unique_id_rsa.pub</div></pre></td></tr></table></figure>
-<p>按提示输入密码（以后就不用输了）</p>
-<p>最后，登录服务器,进入<code>~/.ssh</code>目录</p>
-<p>应该能看到下面两个文件</p>
-<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">authorized_keys 存储了很多公钥的文件</div><div class="line">unique_id_rsa.pub 我们刚才<span class="keyword">copy</span><span class="bash">过来的</span></div></pre></td></tr></table></figure>
-<p>执行下面的操作</p>
-<figure class="highlight rust"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//将我们的公钥加入到文件的末尾</span></div><div class="line">cat unique_id_rsa.<span class="keyword">pub</span> &gt;&gt; authorized_keys</div><div class="line"><span class="comment">//然后删除无用的公钥</span></div><div class="line">rm unique_id_rsa.<span class="keyword">pub</span></div></pre></td></tr></table></figure>
-<p>退出服务器</p>
-<p>执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh <span class="built_in">test</span></div></pre></td></tr></table></figure></p>
-<p>就可以直连服务器啦</p>
-<p>注意一点:</p>
-<ul>
-<li>生成的一定要是默认的秘钥名（id_rsa），如果生成秘钥的时候你指定了其他的名字如 id_rsa.different,那么连接服务器的时候就要用下面的命令</li>
-</ul>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh -<span class="selector-tag">i</span> id_rsa<span class="selector-class">.different</span> test</div></pre></td></tr></table></figure>
-<p>enjoy it</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;用ssh连接服务器，通常是下面这样的&lt;/p&gt;
-&lt;figure class=&quot;highlight css&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;selector-tag&quot;&gt;ssh&lt;/span&gt; &lt;span class=&quot;selector-tag&quot;&gt;user&lt;/span&gt;@&lt;span class=&quot;keyword&quot;&gt;127&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;0&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;0&lt;/span&gt;.&lt;span class=&quot;keyword&quot;&gt;1&lt;/span&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;然后按提示输入密码就连上了&lt;/p&gt;
-&lt;p&gt;其实，可以更简单一点，我们不需要输入用户名，不需要输入服务器ip地址，甚至不需要输入密码！&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="git" scheme="http://jimxu.me/tags/git/"/>
-    
-      <category term="ssh" scheme="http://jimxu.me/tags/ssh/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>php开发者mac必装软件 - 终极版本</title>
-    <link href="http://jimxu.me/2017/06/28/mac-must-install-software/"/>
-    <id>http://jimxu.me/2017/06/28/mac-must-install-software/</id>
-    <published>2017-06-28T03:22:46.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170628149862035151555.png" width="492" height="297"></p>
-<a id="more"></a>
-<ul>
-<li>Xcode</li>
-<li>笔记：Bear [免费，订阅]</li>
-<li>浏览器（调试工具）：chrome [免费]</li>
-<li>调试POST接口：Postman [免费]</li>
-<li>终端：iterm2+oh my zsh [免费]</li>
-<li>阅读：Pocket，配合浏览器插件 [免费]</li>
-<li>阅读：Reeder，配合Pocker扩展</li>
-<li>MySQL可视化工具：SequelPro</li>
-<li>Redis可视化工具：Medis</li>
-<li>免费解压：The unarchiver</li>
-<li>免费卸载工具：App cleaner</li>
-<li>调节屏幕亮度：Flux</li>
-<li>清单：WunderList奇妙清单</li>
-<li>TodoList</li>
-<li>文件暂存：Yonik</li>
-<li>粘贴板工具：Paste</li>
-<li>复制粘贴助手：PopClip</li>
-<li>hosts可视化管理：iHosts</li>
-<li>Phpstorm</li>
-<li>上传图片到七牛并生成md链接：PicU</li>
-<li>markdown编辑器：Macdown</li>
-<li>截图（使用外接显示器时）：TeamPaper Snap</li>
-<li>截图：腾讯的snip</li>
-<li>技术文档：Dash</li>
-<li>让屏幕不会自动休眠：Caffeine</li>
-<li>片段管理：aText</li>
-<li>git可视化工具：sourceTree</li>
-<li>软件自动隐藏或退出：Quitter</li>
-<li>第三方日历：TinyCal小历</li>
-<li>编辑器：Sublime</li>
-<li>密码管理：LastPass</li>
-<li>日程提示：PixelScheduler</li>
-<li>音乐播放：网易云音乐</li>
-<li>菜单栏管理: Bartender</li>
-<li>笔记： Evernote</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170628149862035151555.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="software" scheme="http://jimxu.me/tags/software/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>设置使用sublime打开项目文件夹</title>
-    <link href="http://jimxu.me/2017/06/22/use-sublime-open-project/"/>
-    <id>http://jimxu.me/2017/06/22/use-sublime-open-project/</id>
-    <published>2017-06-22T03:42:45.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Mac下想要快速查看一个project内容的时候，右击发现菜单里根本没有满足条件的选项。</p>
-<p>可以用自带的automator工具实现右击项目时可以选择用sublime打开</p>
-<a id="more"></a>
-<p>设置：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170622149810302430123.png" alt="20170622149810302430123.png"></p>
-<p>效果：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170622149810299868570.png" alt="20170622149810299868570.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Mac下想要快速查看一个project内容的时候，右击发现菜单里根本没有满足条件的选项。&lt;/p&gt;
-&lt;p&gt;可以用自带的automator工具实现右击项目时可以选择用sublime打开&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="sublime" scheme="http://jimxu.me/tags/sublime/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>phpstorm修改php文件头模板</title>
-    <link href="http://jimxu.me/2017/06/21/phpstorm-php-file-header/"/>
-    <id>http://jimxu.me/2017/06/21/phpstorm-php-file-header/</id>
-    <published>2017-06-21T08:32:39.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>phpstorm设置新建php文件时的头文件，一个帅气的头文件是不是让你码字的心情都更好了呢</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170712149985488177380.png" alt="20170712149985488177380.png"></p>
-<a id="more"></a>
-<p><code>Editor/ File and Code Templates / includes / PHP File Header</code></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170621149803412611540.png" alt="20170621149803412611540.png"></p>
-<p>可以在模板中使用一下变量：</p>
-<ul>
-<li>${FILE_NAME}:current file name</li>
-<li>${USER}:current user system login name</li>
-<li>${DATE}:current system date</li>
-<li>${TIME}:current system time</li>
-<li>${YEAR}:current year</li>
-<li>${MONTH}:current month</li>
-<li>${DAY}:current day of the month</li>
-<li>${HOUR}:current hour</li>
-<li>${MINUTE}:current minute</li>
-<li>${PRODUCT_NAME}:current IDE name</li>
-<li>${PROJECT_NAME}:current project name</li>
-</ul>
-<p>你也可以自定义变量</p>
-<figure class="highlight leaf"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">#</span><span class="title">set</span><span class="params">( $<span class="variable">MAIL</span> = <span class="string">"xxx@test.com"</span> )</span></span></div></pre></td></tr></table></figure>
-<p>然后就可以在模板中使用${MAIL}变量了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;phpstorm设置新建php文件时的头文件，一个帅气的头文件是不是让你码字的心情都更好了呢&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170712149985488177380.png&quot; alt=&quot;20170712149985488177380.png&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yaf学习笔记5:模块</title>
-    <link href="http://jimxu.me/2017/06/13/yaf-study-note-module/"/>
-    <id>http://jimxu.me/2017/06/13/yaf-study-note-module/</id>
-    <published>2017-06-13T02:12:59.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="模块是什么？"><a href="#模块是什么？" class="headerlink" title="模块是什么？"></a>模块是什么？</h2><p>设计模式的一条准则是“高内聚，低耦合”。<br>模块是高内聚的一种实现手段</p>
-<h2 id="建立模块"><a href="#建立模块" class="headerlink" title="建立模块"></a>建立模块</h2><p>当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的</p>
-<figure class="highlight"><figcaption><span>application.ini</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">application.dispatcher.defaultModule = Index</div></pre></td></tr></table></figure>
-<p>我们要实现一个博客网站，文章可以作为一个模块<br>在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下：</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">    <span class="class"><span class="keyword">class</span> <span class="title">ListController</span> <span class="keyword">extends</span> <span class="title">Yaf_Controller_Abstract</span></span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">viewAction</span><span class="params">()</span></span></div><div class="line">        &#123;</div><div class="line">              </div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>Post/views下面建立list文件夹，新建view.phtml文件</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="keyword">echo</span> <span class="number">2333</span>;</div></pre></td></tr></table></figure>
-<p>Post模块的结构如下所示：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732391375464.png" alt="20170613149732391375464.png"></p>
-<h2 id="模块的配置"><a href="#模块的配置" class="headerlink" title="模块的配置"></a>模块的配置</h2><p>这时候我们访问</p>
-<figure class="highlight stata"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/<span class="keyword">post</span>/<span class="keyword">list</span>/<span class="keyword">view</span></div></pre></td></tr></table></figure>
-<p>看到下面的报错信息：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732400095678.png" alt="20170613149732400095678.png"></p>
-<p>报错的原因是因为我们没有将新建的模块加到配置文件中<br>编辑conf/application.ini文件，将下面两句代码加入common分组下面</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">application<span class="selector-class">.modules</span> = <span class="string">"Index,Post"</span>	<span class="comment">//模块</span></div><div class="line">application<span class="selector-class">.dispatcher</span><span class="selector-class">.defaultModule</span> = Index	<span class="comment">//默认模块</span></div></pre></td></tr></table></figure>
-<p>再次访问，就可以了<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732414586476.png" alt="20170613149732414586476.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;模块是什么？&quot;&gt;&lt;a href=&quot;#模块是什么？&quot; class=&quot;headerlink&quot; title=&quot;模块是什么？&quot;&gt;&lt;/a&gt;模块是什么？&lt;/h2&gt;&lt;p&gt;设计模式的一条准则是“高内聚，低耦合”。&lt;br&gt;模块是高内聚的一种实现手段&lt;/p&gt;
-&lt;h2 id=&quot;建立模块&quot;&gt;&lt;a href=&quot;#建立模块&quot; class=&quot;headerlink&quot; title=&quot;建立模块&quot;&gt;&lt;/a&gt;建立模块&lt;/h2&gt;&lt;p&gt;当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;figcaption&gt;&lt;span&gt;application.ini&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;application.dispatcher.defaultModule = Index&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;我们要实现一个博客网站，文章可以作为一个模块&lt;br&gt;在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下：&lt;/p&gt;
-&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;6&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;7&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;8&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;ListController&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;extends&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;Yaf_Controller_Abstract&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;viewAction&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#123;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;              &lt;/div&gt;&lt;div class=&quot;line&quot;&gt;        &amp;#125;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;    &amp;#125;&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yaf学习笔记4:MVC模式</title>
-    <link href="http://jimxu.me/2017/06/12/yaf-study-note-mvc/"/>
-    <id>http://jimxu.me/2017/06/12/yaf-study-note-mvc/</id>
-    <published>2017-06-12T10:59:00.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>当我们访问demo项目的时候，在页面上展示了<code>Hello World! I am Stranger</code>，其实是通过MVC模式实现的</p>
-<p>运行流程如下图所示（摘自鸟哥文档）：</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png" width="492" height="297"><br>Yaf运行流程(摘自鸟哥文档)</p>
-<a id="more"></a>
-<p>当我们访问<code>yaf.com</code>网站的时候，先走到入口文件<code>index.php</code>，然后经过<code>bootstrap</code>初始化，<code>router</code>路由，因为没有指定controller，会使用默认控制器IndexController的默认方法IndexAction，即下面的几种访问方式都是可以的：</p>
-<figure class="highlight vim"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">yaf.<span class="keyword">com</span></div><div class="line">yaf.<span class="keyword">com</span>/<span class="built_in">index</span></div><div class="line">yaf.<span class="keyword">com</span>/<span class="built_in">index</span>/<span class="built_in">index</span></div><div class="line">yaf.<span class="keyword">com</span>/<span class="built_in">index</span>/<span class="built_in">index</span>/<span class="built_in">index</span></div></pre></td></tr></table></figure>
-<p>最后一种访问方式里：第一个index是Module模块名，第二个index是Controller控制器名，第三个index是Action方法名</p>
-<blockquote>
-<p>模块的用法见下一节</p>
-</blockquote>
-<p>访问结果如下：</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732160779459.png" alt="20170613149732160779459.png"></p>
-<p>IndexController的indexAction的代码如下：</p>
-<figure class="highlight php"><figcaption><span>~/test/application/controllers/Index.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">indexAction</span><span class="params">($name = <span class="string">"Stranger"</span>)</span> </span>&#123;</div><div class="line">	<span class="comment">//1. fetch query</span></div><div class="line">	$get = <span class="keyword">$this</span>-&gt;getRequest()-&gt;getQuery(<span class="string">"get"</span>, <span class="string">"default value"</span>);</div><div class="line"></div><div class="line">	<span class="comment">//2. fetch model</span></div><div class="line">	$model = <span class="keyword">new</span> SampleModel();</div><div class="line"></div><div class="line">	<span class="comment">//3. assign</span></div><div class="line">	<span class="keyword">$this</span>-&gt;getView()-&gt;assign(<span class="string">"content"</span>, $model-&gt;selectSample());</div><div class="line">	<span class="keyword">$this</span>-&gt;getView()-&gt;assign(<span class="string">"name"</span>, $name);</div><div class="line"></div><div class="line">	<span class="comment">//4. render by Yaf, 如果这里返回FALSE, Yaf将不会调用自动视图引擎Render模板</span></div><div class="line">   <span class="keyword">return</span> <span class="keyword">TRUE</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>注意：</p>
-<ul>
-<li>$name默认值是Stranger，我们可以通过下面的方式指定$name的值</li>
-</ul>
-<figure class="highlight delphi"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">yaf.com/<span class="keyword">index</span>/<span class="keyword">index</span>/<span class="keyword">index</span>/<span class="keyword">name</span>/jimxu</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017061314973219814429.png" alt="2017061314973219814429.png"></p>
-<ul>
-<li>申明SampleModel类的一个对象，通过selectSample方法获取$content的值</li>
-</ul>
-<figure class="highlight php"><figcaption><span>~/test/application/models/Sample.php</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">selectSample</span><span class="params">()</span> </span>&#123;</div><div class="line">       <span class="keyword">return</span> <span class="string">'Hello World!'</span>;</div><div class="line">   &#125;</div></pre></td></tr></table></figure>
-<ul>
-<li>将<code>$name</code>和<code>$content</code>传到view</li>
-</ul>
-<figure class="highlight xl"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$<span class="function"><span class="title">this</span>-&gt;</span><span class="function"><span class="title">getView</span>()-&gt;</span><span class="function"><span class="title">assign</span>("content", $model-&gt;</span>selectSample());</div><div class="line">$<span class="function"><span class="title">this</span>-&gt;</span><span class="function"><span class="title">getView</span>()-&gt;</span>assign(<span class="string">"name"</span>, $<span class="keyword">name</span>);</div></pre></td></tr></table></figure>
-<ul>
-<li>在view对应的phtml中可以使用<code>$name</code>和<code>$content</code>变量的值</li>
-</ul>
-<figure class="highlight php"><figcaption><span>~/test/application/views/index/index.phtml</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">echo</span> $content, <span class="string">" I am "</span>, $name;</div></pre></td></tr></table></figure>
-<ul>
-<li>通过MVC设计模式，以控制器为中介，在模型文件中进行复杂的业务逻辑处理，在视图文件中渲染效果，实现了模型和视图的低耦合</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;当我们访问demo项目的时候，在页面上展示了&lt;code&gt;Hello World! I am Stranger&lt;/code&gt;，其实是通过MVC模式实现的&lt;/p&gt;
-&lt;p&gt;运行流程如下图所示（摘自鸟哥文档）：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;br&gt;Yaf运行流程(摘自鸟哥文档)&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yaf学习笔记3:配置</title>
-    <link href="http://jimxu.me/2017/06/09/yaf-study-note-config/"/>
-    <id>http://jimxu.me/2017/06/09/yaf-study-note-config/</id>
-    <published>2017-06-09T10:59:00.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>yaf的配置有两种，</p>
-<ul>
-<li>一是Yaf自身的配置</li>
-<li>二是生成的项目自己的配置，如项目所用的数据库、缓存配置等</li>
-</ul>
-<h2 id="修改yaf设置"><a href="#修改yaf设置" class="headerlink" title="修改yaf设置"></a>修改yaf设置</h2><p>在路径<code>/usr/local/etc/php/7.0/conf.d</code>下存放了各个扩展的配置文件<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png" alt="20170612149726524849464.png"></p>
-<a id="more"></a>
-<p><code>ex-yaf.ini</code>文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示</p>
-<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="section">[yaf]</span></div><div class="line"><span class="attr">extension</span>=<span class="string">"/usr/local/opt/php70-yaf/yaf.so"</span>  //扩展位置</div></pre></td></tr></table></figure>
-<p>我们直接在后面添加配置内容，修改后如下</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">[yaf]</div><div class="line">extension=<span class="string">"/usr/local/opt/php70-yaf/yaf.so"</span>	<span class="comment">//扩展位置 </span></div><div class="line">yaf<span class="selector-class">.use_namespace</span> = <span class="number">1</span>	<span class="comment">//启用名字空间</span></div><div class="line">yaf<span class="selector-class">.environ</span> = <span class="string">"dev"</span>	   <span class="comment">//设置环境为本地开发环境</span></div></pre></td></tr></table></figure>
-<p>修改后重启php-fpm</p>
-<p>打印phpinfo(),<code>yaf.use_namespace</code>的值已经变成ON了，说明修改成功<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png" alt="20170612149726543885457.png"></p>
-<h2 id="yaf的配置项一览"><a href="#yaf的配置项一览" class="headerlink" title="yaf的配置项一览"></a>yaf的配置项一览</h2><p><img src="http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png" alt="20170612149726554799450.png"></p>
-<h2 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h2><p>项目的配置文件为<code>./conf/application.ini</code><br>默认配置如下：</p>
-<figure class="highlight stylus"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">[common]</div><div class="line">application<span class="selector-class">.directory</span> = APPLICATION_PATH  <span class="string">"/application"</span></div><div class="line">application<span class="selector-class">.dispatcher</span><span class="selector-class">.catchException</span> = TRUE</div><div class="line"></div><div class="line">[dev : common]</div><div class="line">database<span class="selector-class">.type</span> = mysql</div><div class="line">database<span class="selector-class">.read_host</span> = <span class="number">127.0</span>.<span class="number">0.1</span></div><div class="line">database<span class="selector-class">.read_port</span> =  <span class="number">3306</span></div><div class="line">database<span class="selector-class">.read_user</span> = root</div><div class="line">database<span class="selector-class">.read_pwd</span> = root</div><div class="line">database<span class="selector-class">.name</span> = yaf</div><div class="line">database<span class="selector-class">.db_prefix</span> = tbl_</div><div class="line"></div><div class="line">[test : common] </div><div class="line"></div><div class="line">[product : common]</div></pre></td></tr></table></figure>
-<p>注意，配置是分组的，common为通用配置，dev表示本地环境，test表示测试环境，product表示生产环境，后面的<code>：common</code>表示继承了common分组。我们之前已经修改了<code>yaf.environ</code>的值为dev，表示使用<code>[dev : common]</code>分组下的设置</p>
-<p>我们在dev分组下对mysql数据库进行了配置</p>
-<h2 id="获取配置文件中的值"><a href="#获取配置文件中的值" class="headerlink" title="获取配置文件中的值"></a>获取配置文件中的值</h2><p>如要获取上述配置文件中<code>application.directory</code>的值，可以通过下面的方式获取</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$config = Yaf_Application::app()-&gt;getConfig()</div><div class="line"><span class="keyword">echo</span> $config-&gt;application-&gt;directory;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;yaf的配置有两种，&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一是Yaf自身的配置&lt;/li&gt;
-&lt;li&gt;二是生成的项目自己的配置，如项目所用的数据库、缓存配置等&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;修改yaf设置&quot;&gt;&lt;a href=&quot;#修改yaf设置&quot; class=&quot;headerlink&quot; title=&quot;修改yaf设置&quot;&gt;&lt;/a&gt;修改yaf设置&lt;/h2&gt;&lt;p&gt;在路径&lt;code&gt;/usr/local/etc/php/7.0/conf.d&lt;/code&gt;下存放了各个扩展的配置文件&lt;br&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png&quot; alt=&quot;20170612149726524849464.png&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Yaf学习笔记2:项目结构</title>
-    <link href="http://jimxu.me/2017/06/08/yaf-study-note-structure/"/>
-    <id>http://jimxu.me/2017/06/08/yaf-study-note-structure/</id>
-    <published>2017-06-08T10:59:00.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="框架文件目录"><a href="#框架文件目录" class="headerlink" title="框架文件目录"></a>框架文件目录</h2><p>以刚刚通过gc生成的demo项目为例，我们在终端执行<code>tree</code>命令,可以看到项目的目录结果如下所示：</p>
-<blockquote>
-<p>注：tree命令不是自带的，有需要可以通过<code>brew install tree</code>安装</p>
-</blockquote>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png" width="492" height="297"></p>
-<a id="more"></a>
-<p>./index.php    是项目的入口文件，也可以新建一个public文件夹，将index.php放到public目录下，同时修改nginx配置</p>
-<p>./conf    是配置项<br>./conf/application.ini    项目的配置文件</p>
-<p>./application<br>./application/Bootstrap.php    启动文件，主要用于初始化操作，如初始化设置、注册插件、加载全局基础类库等<br>./application/controllers    控制器<br>./application/library    类库<br>./application/models    模型<br>./application/plugins    插件<br>./application/views       视图</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;框架文件目录&quot;&gt;&lt;a href=&quot;#框架文件目录&quot; class=&quot;headerlink&quot; title=&quot;框架文件目录&quot;&gt;&lt;/a&gt;框架文件目录&lt;/h2&gt;&lt;p&gt;以刚刚通过gc生成的demo项目为例，我们在终端执行&lt;code&gt;tree&lt;/code&gt;命令,可以看到项目的目录结果如下所示：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;注：tree命令不是自带的，有需要可以通过&lt;code&gt;brew install tree&lt;/code&gt;安装&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="yaf" scheme="http://jimxu.me/tags/yaf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>斐波那契数列问题</title>
-    <link href="http://jimxu.me/2017/06/08/fibonacci-algorithm/"/>
-    <id>http://jimxu.me/2017/06/08/fibonacci-algorithm/</id>
-    <published>2017-06-08T07:20:02.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png" width="492" height="297"></p>
-<p>斐波那契数列：</p>
-<figure class="highlight lsl"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="number">1</span>,<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">5</span>,<span class="number">8</span>,<span class="number">13</span>,<span class="number">21.</span>.. ...</div></pre></td></tr></table></figure>
-<a id="more"></a>
-<p>可以用来解决诸如下面的问题：</p>
-<blockquote>
-<p>有n个台阶，你每次只能跨一阶或两阶，上楼有几种方法？</p>
-<p>第一个月初有一对刚诞生的兔子<br>第二个月之后（第三个月初）它们可以生育<br>每月每对可生育的兔子会诞生下一对新兔子<br>兔子永不死去</p>
-</blockquote>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">Fibo</span><span class="params">($n)</span></span></div><div class="line">&#123;</div><div class="line">	<span class="keyword">return</span> n&lt;<span class="number">2</span> ? <span class="number">1</span> : Fibo(n<span class="number">-1</span>)+Fibo(n<span class="number">-2</span>);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-&lt;p&gt;斐波那契数列：&lt;/p&gt;
-&lt;figure class=&quot;highlight lsl&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;3&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;5&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;8&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;13&lt;/span&gt;,&lt;span class=&quot;number&quot;&gt;21.&lt;/span&gt;.. ...&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="algorithm" scheme="http://jimxu.me/tags/algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信领红包问题</title>
-    <link href="http://jimxu.me/2017/06/08/wechat-rafale-algorithm/"/>
-    <id>http://jimxu.me/2017/06/08/wechat-rafale-algorithm/</id>
-    <published>2017-06-08T06:54:33.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote>
-<p>参考：<a href="https://www.zhihu.com/question/22625187" target="_blank" rel="external">https://www.zhihu.com/question/22625187</a></p>
-</blockquote>
-<p>需求：每个人领到的红包大小相近，每次点击领取红包时计算</p>
-<p>微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机</p>
-<a id="more"></a>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line"><span class="comment">//随机小数</span></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">randomFloat</span><span class="params">($min = <span class="number">0</span>, $max = <span class="number">1</span>)</span> </span>&#123;</div><div class="line">    <span class="keyword">return</span> $min + mt_rand() / mt_getrandmax() * ($max - $min);</div><div class="line">&#125;</div><div class="line"></div><div class="line"></div><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">raffle</span><span class="params">()</span></span></div><div class="line">&#123;</div><div class="line">    $total = <span class="number">100</span>;</div><div class="line">    $num = <span class="number">10</span>;</div><div class="line">    $leftTotal = <span class="number">100</span>;</div><div class="line">    $leftNum = <span class="number">10</span>;</div><div class="line">    $minLimit = <span class="number">0.01</span>;</div><div class="line"></div><div class="line">    <span class="keyword">for</span>($i=<span class="number">0</span>;$i&lt;$num;$i++)</div><div class="line">    &#123;</div><div class="line">        <span class="keyword">if</span> (<span class="number">1</span> == $leftNum) &#123;</div><div class="line">            $money = $leftTotal;</div><div class="line">            <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">            <span class="keyword">break</span>;</div><div class="line">        &#125;</div><div class="line">        $money = randomFloat($minLimit,$leftTotal/$leftNum*<span class="number">2</span>);</div><div class="line">        <span class="keyword">echo</span> $money.<span class="string">"\n"</span>;</div><div class="line">        $leftTotal -= $money;</div><div class="line">        $leftNum --;</div><div class="line">    &#125;</div><div class="line">    </div><div class="line">&#125;</div><div class="line"></div><div class="line">raffle();</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;参考：&lt;a href=&quot;https://www.zhihu.com/question/22625187&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/22625187&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;需求：每个人领到的红包大小相近，每次点击领取红包时计算&lt;/p&gt;
-&lt;p&gt;微信红包原理是每次领取红包在（0.01，剩下的钱/剩下的人*2）之间随机&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-      <category term="algorithm" scheme="http://jimxu.me/tags/algorithm/"/>
     
   </entry>
   
