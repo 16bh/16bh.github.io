@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/2017/06/22/use-sublime-open-project/</loc>
+        <lastmod>2017-11-07T08:31:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2017/07/07/ssh-connect-server-without-password/</loc>
+        <lastmod>2017-11-07T08:30:10.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jimxu.me/2017/11/02/mtr-1000x-change-device/</loc>
         <lastmod>2017-11-02T09:27:48.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -120,14 +136,6 @@
 
     <url>
         <loc>http://jimxu.me/2016/07/11/sublime3144-build-php-develop-environment/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/06/22/use-sublime-open-project/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1120,14 +1128,6 @@
 
     <url>
         <loc>http://jimxu.me/2017/04/11/sublime-build-golang-develop-environment/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/07/07/ssh-connect-server-without-password/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

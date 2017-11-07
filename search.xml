@@ -261,7 +261,7 @@
   <entry>
     <title><![CDATA[设置使用sublime打开项目文件夹]]></title>
     <url>%2F2017%2F06%2F22%2Fuse-sublime-open-project%2F</url>
-    <content type="text"><![CDATA[Mac下想要快速查看一个project内容的时候，右击发现菜单里根本没有满足条件的选项。 可以用自带的automator工具实现右击项目时可以选择用sublime打开 finder中右键选择用sublime打开设置： 效果： 终端使用sublime命令打开项目1alias sublime=&quot;/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl]]></content>
+    <content type="text"><![CDATA[Mac下想要快速查看一个project内容的时候，右击发现菜单里根本没有满足条件的选项。 可以用自带的automator工具实现右击项目时可以选择用sublime打开 finder中右键选择用sublime打开设置： 效果： 终端使用sublime命令打开项目1alias sublime=&quot;/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl&quot;]]></content>
       <tags>
         <tag>sublime</tag>
       </tags>
