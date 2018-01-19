@@ -73,7 +73,18 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 ```
 
 - 安装wd和zsh-wakatime插件
-- 设置主题为powerline并安装powerline等宽字体
+- 下载powerline主题
+
+```
+git clone git://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme ~/.ohmyzsh-powerline
+cd ~/.ohmyzsh-powerline
+cp powerline.zsh-theme ~/.oh-my-zsh/themes/powerline.zsh-theme
+rm -rf ~/.ohmyzsh-powerline
+```
+
+- 设置主题
+
+- 安装powerline等宽字体
 
 ```
 git clone https://github.com/powerline/fonts.git
@@ -82,7 +93,7 @@ cd fonts
 cd .. && rm -rf fonts
 ```
 
-设置等宽字体
+- 设置等宽字体
 Profiles - Text - Font
 
 - iterm2也可以使用`robbyrussell`主题和`Arthur`配色方案

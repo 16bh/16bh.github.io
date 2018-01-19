@@ -81,7 +81,7 @@ deploy:
   #repository: https://github.com/16bh/16bh.github.io.git
   #branch: master
   repository:
-    coding: git@git.coding.net:jimxu/jimxu.coding.me.git,master
+      #coding: git@git.coding.net:jimxu/jimxu.coding.me.git,master
     github: git@github.com:16bh/16bh.github.io.git,master
 
 

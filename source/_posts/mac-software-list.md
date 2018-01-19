@@ -42,8 +42,8 @@ tags: [software]
 - `Navicat Premium`  prosql数据库管理工具
 - `Chrome`   开发最佳浏览器（之一）
 	必装插件
-    <img src="http://o9xbyqajf.
-    bkt.clouddn.com/1489378622.png" width="836" height="520" />
+	
+    <img src="http://o9xbyqajf.bkt.clouddn.com/1489378622.png" width="836" height="520" />
 	
 	
 - `Charles` 必备，抓包工具
@@ -138,6 +138,12 @@ homebrew install todolist
 - `Leaf`  RSS阅读，限免
 - `scrollreveal`  修改mac触摸板滚动方向，享受触控板自然滚动的方便又不改变鼠标的使用习惯
 - `Memo`  在桌面显示彩色便签
+
+# 音乐
+
+- `iTunes`+`Lyricsx`   苹果自带音乐播放器，可按专辑分类，加上开源的歌词工具
+ 
+![20171120151114825072757.png](http://o9xbyqajf.bkt.clouddn.com/20171120151114825072757.png)
 
 # 编辑器
 - `PHPStorm` 	功能最齐全的PHP开发IDE
