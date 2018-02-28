@@ -96,14 +96,13 @@ ssh test
 
 注意一点:
 
-- 生成的一定要是默认的秘钥名（id_rsa），如果生成秘钥的时候你指定了其他的名字如 id_rsa.different,那么连接服务器的时候就要用下面的命令
+- 生成的一定要是默认的秘钥名（id_rsa），如果生成秘钥的时候你指定了其他的名字如 `id_rsa.different`,那么连接服务器的时候就要用下面的命令
 
 ```
 ssh -i id_rsa.different test
 ```
 
 enjoy it
-
 
 
 

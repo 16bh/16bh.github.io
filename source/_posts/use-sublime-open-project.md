@@ -28,5 +28,5 @@ Mac下想要快速查看一个project内容的时候，右击发现菜单里根�
 # 终端使用sublime命令打开项目
 
 ```
-alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 ```
