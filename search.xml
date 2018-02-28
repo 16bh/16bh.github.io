@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[mac无法读取移动硬盘]]></title>
     <url>%2F2018%2F02%2F28%2Fmac-can-not-read-mobile-HDD%2F</url>
-    <content type="text"><![CDATA[提示 无法识别{硬盘名称}，无法找到原身 解决方案： 下载Paragon NTFS for Mac，该软件是收费的，但是有10天的试用期 打开Paragon NTFS for Mac 选中你的硬盘，点击认证 ￼ 重启mac后生效]]></content>
+    <content type="text"><![CDATA[提示 无法识别{你的硬盘名称}，无法找到原身 解决方案： 下载Paragon NTFS for Mac，该软件是收费的，但是有10天的试用期 打开Paragon NTFS for Mac 选中你的硬盘，点击认证 重启mac后生效]]></content>
       <categories>
         <category>mac</category>
       </categories>

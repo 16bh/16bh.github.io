@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2018-02-28T07:20:25.825Z</updated>
+  <updated>2018-02-28T07:25:15.482Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -20,11 +20,11 @@
     <link href="http://jimxu.me/2018/02/28/mac-can-not-read-mobile-HDD/"/>
     <id>http://jimxu.me/2018/02/28/mac-can-not-read-mobile-HDD/</id>
     <published>2018-02-28T07:19:56.000Z</published>
-    <updated>2018-02-28T07:20:25.825Z</updated>
+    <updated>2018-02-28T07:25:15.482Z</updated>
     
     <content type="html"><![CDATA[<p>提示 </p>
 <blockquote>
-<p>无法识别{硬盘名称}，无法找到原身</p>
+<p>无法识别{你的硬盘名称}，无法找到原身</p>
 </blockquote>
 <a id="more"></a>
 <p>解决方案：</p>
@@ -33,12 +33,10 @@
 </li>
 <li><p>打开<code>Paragon NTFS for Mac</code></p>
 </li>
-<li><p>选中你的硬盘，点击<code>认证</code></p>
+<li><p>选中你的硬盘，点击<code>认证</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/20180228151980268888706.png" alt="20180228151980268888706.png"></p>
 </li>
-</ol>
-<p>￼</p>
-<ol>
-<li>重启mac后生效</li>
+<li><p>重启mac后生效</p>
+</li>
 </ol>
 ]]></content>
     
@@ -46,7 +44,7 @@
     
       &lt;p&gt;提示 &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;无法识别{硬盘名称}，无法找到原身&lt;/p&gt;
+&lt;p&gt;无法识别{你的硬盘名称}，无法找到原身&lt;/p&gt;
 &lt;/blockquote&gt;
     
     </summary>
