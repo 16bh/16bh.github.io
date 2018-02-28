@@ -15,17 +15,17 @@
 
 
 
-<meta name="description" content="github上有个天才作者，开发了一个方便的图片上传实用工具，可以方便、快速地在截图之后通过脚本把图片上传到七牛云然后得到一个图片链接  作者加入的这样的设定：markdwon里面的图片链接不是标准的markdown格式，而是html的img标签；这是因为在retina屏幕下截图的话，如果不做任何处理，在非retina屏幕下面，这个图片会直接扩大两倍，非常粗糙难看；因此，需要保存图片显示大小的信">
-<meta name="keywords" content="markdown,alfred">
+<meta name="description" content="当你在办公室和家里有多台mac时，数据如何保持同步">
+<meta name="keywords" content="mac">
 <meta property="og:type" content="article">
-<meta property="og:title" content="markdown图片链接生成的Alfred脚本微调整">
-<meta property="og:url" content="http://jimxu.me/2016/07/08/fix-Alfred-markdown-workflow/index.html">
+<meta property="og:title" content="多台mac之间的数据同步问题">
+<meta property="og:url" content="http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/index.html">
 <meta property="og:site_name" content="凡·间">
-<meta property="og:description" content="github上有个天才作者，开发了一个方便的图片上传实用工具，可以方便、快速地在截图之后通过脚本把图片上传到七牛云然后得到一个图片链接  作者加入的这样的设定：markdwon里面的图片链接不是标准的markdown格式，而是html的img标签；这是因为在retina屏幕下截图的话，如果不做任何处理，在非retina屏幕下面，这个图片会直接扩大两倍，非常粗糙难看；因此，需要保存图片显示大小的信">
-<meta property="og:updated_time" content="2017-07-12T12:15:47.000Z">
+<meta property="og:description" content="当你在办公室和家里有多台mac时，数据如何保持同步">
+<meta property="og:updated_time" content="2018-02-28T07:41:46.801Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="markdown图片链接生成的Alfred脚本微调整">
-<meta name="twitter:description" content="github上有个天才作者，开发了一个方便的图片上传实用工具，可以方便、快速地在截图之后通过脚本把图片上传到七牛云然后得到一个图片链接  作者加入的这样的设定：markdwon里面的图片链接不是标准的markdown格式，而是html的img标签；这是因为在retina屏幕下截图的话，如果不做任何处理，在非retina屏幕下面，这个图片会直接扩大两倍，非常粗糙难看；因此，需要保存图片显示大小的信">
+<meta name="twitter:title" content="多台mac之间的数据同步问题">
+<meta name="twitter:description" content="当你在办公室和家里有多台mac时，数据如何保持同步">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -57,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>markdown图片链接生成的Alfred脚本微调整 | 凡·间</title>
+<title>多台mac之间的数据同步问题 | 凡·间</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -230,11 +230,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-fix-Alfred-markdown-workflow" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-how-to-sync-data-on-your-macs" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/07/08/fix-Alfred-markdown-workflow/" class="article-date">
-      <time datetime="2016-07-08T04:04:14.000Z" itemprop="datePublished">2016-07-08</time>
+      <a href="/2018/02/28/how-to-sync-data-on-your-macs/" class="article-date">
+      <time datetime="2018-02-28T07:28:11.000Z" itemprop="datePublished">2018-02-28</time>
 </a>
 
 
@@ -249,7 +249,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      markdown图片链接生成的Alfred脚本微调整
+      多台mac之间的数据同步问题
     </h1>
   
 
@@ -257,10 +257,14 @@
       
       <div class="article-info article-info-post">
         
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/mac/">mac</a>
+    </div>
+
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/alfred/">alfred</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -270,23 +274,29 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <blockquote>
-<p>github上有个天才作者，开发了一个方便的<a href="https://github.com/tiann/markdown-img-upload" target="_blank" rel="external">图片上传实用工具</a>，可以方便、快速地在截图之后通过脚本把图片上传到七牛云然后得到一个图片链接</p>
-</blockquote>
-<p>作者加入的这样的设定：markdwon里面的图片链接不是标准的markdown格式，而是html的img标签；这是因为在retina屏幕下截图的话，如果不做任何处理，在非retina屏幕下面，这个图片会直接扩大两倍，非常粗糙难看；因此，需要保存图片显示大小的信息，保证截图大小和显示大小一致；这里使用mac系统自带的sips工具拿到截图大小，然后直接把宽度放在img标签里面。这样在显示的时候，可以保证是和截图时大小一致。</p>
-<p>然而我在使用的时候发现截图带上了尺寸，生成的如下所示的链接之后</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/images/1467908925897.png&quot; width=&quot;120&quot;/&gt;</div></pre></td></tr></table></figure>
-<p>在网页上显示的效果不是很好，图片不点开的话经常看不清楚</p>
+        <p>当你在办公室和家里有<br>多台mac时，数据如何保持同步</p>
 <a id="more"></a>
-<p>看了一下作者写的<code>python</code>脚本，做了一些微小的调整：</p>
-<ol>
-<li>去掉了图片的尺寸</li>
-<li>将图片的链接改为标准的markdown格式</li>
+<h1 id="笔记同步"><a href="#笔记同步" class="headerlink" title="笔记同步"></a>笔记同步</h1><ol>
+<li>使用<code>Bear</code>订阅功能，通过<code>iCloud</code>同步所有的笔记，收费10元/月</li>
+<li>使用mac自带的<code>备忘录</code>记笔记，会自动通过<code>iCloud</code>同步，免费</li>
+<li>印象笔记，免费版只支持两台设备</li>
 </ol>
-<p>再次截图并粘贴之后得到的链接就是这样的了：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![](http://o9xbyqajf.bkt.clouddn.com/images/1467950738418.png)</div></pre></td></tr></table></figure>
-<p>修改之后的脚本代码如下：</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># coding: utf-8</span></div><div class="line"><span class="keyword">from</span> clipboard <span class="keyword">import</span> get_paste_img_file</div><div class="line"><span class="keyword">from</span> upload <span class="keyword">import</span> upload_qiniu</div><div class="line"><span class="keyword">import</span> util</div><div class="line"><span class="keyword">import</span> os</div><div class="line"><span class="keyword">import</span> subprocess</div><div class="line"><span class="keyword">import</span> sys</div><div class="line"><span class="keyword">import</span> time</div><div class="line"></div><div class="line"><span class="keyword">if</span> <span class="keyword">not</span> os.path.exists(util.CONFIG_FILE):</div><div class="line">    util.generate_config_file()</div><div class="line"></div><div class="line">config = util.read_config()</div><div class="line"><span class="keyword">if</span> <span class="keyword">not</span> config:</div><div class="line">    util.notice(<span class="string">'请先设置你的七牛图床信息'</span>)</div><div class="line">    util.open_with_editor(util.CONFIG_FILE)</div><div class="line">    sys.exit(<span class="number">0</span>)</div><div class="line"></div><div class="line">url = <span class="string">'%s/%s'</span> % (config[<span class="string">'url'</span>], config[<span class="string">'prefix'</span>])</div><div class="line"></div><div class="line">img_file, need_format, format = get_paste_img_file()</div><div class="line"><span class="keyword">if</span> img_file:</div><div class="line">    <span class="comment"># has image</span></div><div class="line"></div><div class="line">    <span class="comment"># use time to generate a unique upload_file name, we can not use the tmp file name</span></div><div class="line">    upload_name = <span class="string">"%s.%s"</span> % (int(time.time() * <span class="number">1000</span>), format) </div><div class="line">    <span class="keyword">if</span> need_format:</div><div class="line">        <span class="comment">#size_str = subprocess.check_output('sips -g pixelWidth %s | tail -n1 | cut -d" " -f4' % img_file.name, shell=True)</span></div><div class="line">        <span class="comment">#size = int(size_str.strip()) / 2</span></div><div class="line">         <span class="comment">#markdown_url = '&lt;img src="%s/%s"/&gt;' % (url, upload_name)</span></div><div class="line">         markdown_url = <span class="string">'![](%s/%s)'</span> % (url, upload_name)</div><div class="line">    <span class="keyword">else</span>:</div><div class="line">        markdown_url = <span class="string">'%s/%s'</span> % (url, upload_name)</div><div class="line"></div><div class="line">    <span class="comment"># make it to clipboard</span></div><div class="line">    os.system(<span class="string">"echo '%s' | pbcopy"</span> % markdown_url)</div><div class="line">    os.system(<span class="string">'osascript -e \'tell application "System Events" to keystroke "v" using command down\''</span>)</div><div class="line">    upload_file = util.try_compress_png(img_file, format!=<span class="string">'gif'</span>)</div><div class="line">    <span class="keyword">if</span> <span class="keyword">not</span> upload_qiniu(upload_file.name, upload_name): util.notice(<span class="string">"上传图片到图床失败，请检查网络后重试"</span>)</div><div class="line"><span class="keyword">else</span>:</div><div class="line">    util.notice(<span class="string">"剪切版里没有图片！"</span>)</div></pre></td></tr></table></figure>
+<h1 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h1><p>使用云盘</p>
+<ol>
+<li><code>坚果云</code>，免费版一周可以用1G流量</li>
+<li><code>Dropbox</code>（可能存在网络问题）</li>
+<li><code>百度云盘</code>，无法自动同步，免费版下载速度慢</li>
+<li><code>金山快盘</code>，已关闭</li>
+</ol>
+<h1 id="书签同步"><a href="#书签同步" class="headerlink" title="书签同步"></a>书签同步</h1><p>通过<code>safari</code>，或登录后的<code>chrome</code>收藏你的网页书签</p>
+<h1 id="postman同步"><a href="#postman同步" class="headerlink" title="postman同步"></a>postman同步</h1><p>postman是模拟api接口请求的工具<br>用相同的账号登录了postman之后，你请求的历史记录和收藏的api都可以自动同步</p>
+<h1 id="密码同步"><a href="#密码同步" class="headerlink" title="密码同步"></a>密码同步</h1><ol>
+<li>LastPass</li>
+<li>1Password</li>
+<li>钥匙串</li>
+</ol>
+<h1 id="代码同步"><a href="#代码同步" class="headerlink" title="代码同步"></a>代码同步</h1><p>git或svn</p>
+
       
     </div>
     
@@ -294,13 +304,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/07/08/fix-Alfred-markdown-workflow/">markdown图片链接生成的Alfred脚本微调整</a></p>
+        <p><span>本文标题:</span><a href="/2018/02/28/how-to-sync-data-on-your-macs/">多台mac之间的数据同步问题</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">小凡</a></p>
-        <p><span>发布时间:</span>2016-07-08, 12:04:14</p>
-        <p><span>最后更新:</span>2017-07-12, 20:15:47</p>
+        <p><span>发布时间:</span>2018-02-28, 15:28:11</p>
+        <p><span>最后更新:</span>2018-02-28, 15:41:46</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/07/08/fix-Alfred-markdown-workflow/" title="markdown图片链接生成的Alfred脚本微调整">http://jimxu.me/2016/07/08/fix-Alfred-markdown-workflow/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://jimxu.me/2016/07/08/fix-Alfred-markdown-workflow/　　作者: 小凡" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2018/02/28/how-to-sync-data-on-your-macs/" title="多台mac之间的数据同步问题">http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/　　作者: 小凡" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -312,16 +322,10 @@
 
     <nav id="article-nav">
         
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/07/08/xdebug-in-phpstorm-on-mac/">
-                    mac下phpstorm配置xdebug
-                </a>
-            </div>
-        
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2016/07/07/python-install-requests/">
-                    python安装requests库
+                <a href="/2018/02/28/mac-can-not-read-mobile-HDD/">
+                    mac无法读取移动硬盘
                 </a>
             </div>
         
@@ -329,6 +333,29 @@
 
   
 </article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#笔记同步"><span class="toc-number">1.</span> <span class="toc-text">笔记同步</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#文件同步"><span class="toc-number">2.</span> <span class="toc-text">文件同步</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#书签同步"><span class="toc-number">3.</span> <span class="toc-text">书签同步</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#postman同步"><span class="toc-number">4.</span> <span class="toc-text">postman同步</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#密码同步"><span class="toc-number">5.</span> <span class="toc-text">密码同步</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#代码同步"><span class="toc-number">6.</span> <span class="toc-text">代码同步</span></a></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
 
 
 
@@ -346,7 +373,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"markdown图片链接生成的Alfred脚本微调整　| 凡·间　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"多台mac之间的数据同步问题　| 凡·间　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -366,15 +393,13 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/07/08/xdebug-in-phpstorm-on-mac/" title="上一篇: mac下phpstorm配置xdebug">
-                <i class="fa fa-angle-left"></i>
-            </a>
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
         
 
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2016/07/07/python-install-requests/" title="下一篇: python安装requests库">
+            <a href="/2018/02/28/mac-can-not-read-mobile-HDD/" title="下一篇: mac无法读取移动硬盘">
                 <i class="fa fa-angle-right"></i>
             </a>
         

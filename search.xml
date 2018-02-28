@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[多台mac之间的数据同步问题]]></title>
+    <url>%2F2018%2F02%2F28%2Fhow-to-sync-data-on-your-macs%2F</url>
+    <content type="text"><![CDATA[当你在办公室和家里有多台mac时，数据如何保持同步 笔记同步 使用Bear订阅功能，通过iCloud同步所有的笔记，收费10元/月 使用mac自带的备忘录记笔记，会自动通过iCloud同步，免费 印象笔记，免费版只支持两台设备 文件同步使用云盘 坚果云，免费版一周可以用1G流量 Dropbox（可能存在网络问题） 百度云盘，无法自动同步，免费版下载速度慢 金山快盘，已关闭 书签同步通过safari，或登录后的chrome收藏你的网页书签 postman同步postman是模拟api接口请求的工具用相同的账号登录了postman之后，你请求的历史记录和收藏的api都可以自动同步 密码同步 LastPass 1Password 钥匙串 代码同步git或svn]]></content>
+      <categories>
+        <category>mac</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[mac无法读取移动硬盘]]></title>
     <url>%2F2018%2F02%2F28%2Fmac-can-not-read-mobile-HDD%2F</url>
     <content type="text"><![CDATA[提示 无法识别{你的硬盘名称}，无法找到原身 解决方案： 下载Paragon NTFS for Mac，该软件是收费的，但是有10天的试用期 打开Paragon NTFS for Mac 选中你的硬盘，点击认证 重启mac后生效]]></content>

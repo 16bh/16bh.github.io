@@ -232,6 +232,99 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-how-to-install-magento" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/24/how-to-install-magento/" class="article-date">
+      <time datetime="2016-06-24T10:23:45.000Z" itemprop="datePublished">2016-06-24</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/24/how-to-install-magento/">安装magento</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol>
+<li>搭建开发环境：nginx(apache)+php+php-fpm+mysql</li>
+<li><p>在mysql中新建magento要用的数据库</p>
+</li>
+<li><p>注册<a href="https://magento.com" target="_blank" rel="external">magento</a>官网账号，并下载magento<br><a href="https://magento.com" target="_blank" rel="external">https://magento.com</a></p>
+</li>
+</ol>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-e644e6e767e6963c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>选择社区版，在打开的页面点<code>Download Now</code></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-e42a9a96dbcf60ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""><br>选择带sample data的版本（即测试数据，不然安装好了啥都没有，要自己从头弄起，安装好了）</p>
+<p>下载完成后解压到本地根目录，文件夹名称修改成你的项目名称，如’jimPractiseMagento’,即可以通过<code>localhost</code>访问到的目录</p>
+<h1 id="安装mageno"><a href="#安装mageno" class="headerlink" title="安装mageno"></a>安装mageno</h1><p>访问<code>localhost/jimPractiseMagento</code>会自动跳转到安装页面</p>
+<p>第一步，【用户协议】，勾选<code>agree</code>，选择<code>continue</code></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-3a662765a0160f3e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>第二步，【语言】， 选择<code>continue</code></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-0e2271da3622909a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>第三步，【检测问题】一般出问题的都在这一步</p>
+<p>常见的错误有两种：</p>
+<blockquote>
+<ol>
+<li>缺乏<code>php</code>扩展</li>
+<li>文件路径不可写，如下图所示</li>
+</ol>
+</blockquote>
+<p><img src="http://upload-images.jianshu.io/upload_images/1903856-ee48dbbf328d65cb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
+<p>缺乏php扩展的时候，根据提示安装对应的扩展即可</p>
+<p>如果像图示一样提示：<code>xxx/media</code>或<code>xxx/var</code>路径不可写的时候，执行下面的命令<strong><em>修改根目录的文件权限</em></strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod -R 777 文件根目录路径</div></pre></td></tr></table></figure>
+<blockquote>
+<p>注：修改权限以后，<code>git</code>可能会将改了权限的文件视为一种修改，并出现在<code>sourceTree</code>的未暂存文件中，这里就需要修改git的配置</p>
+</blockquote>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd 项目根目录</div><div class="line">vim .git/config</div></pre></td></tr></table></figure>
+<p>将.git/config文件中的<code>filemode = true</code>改为<code>filemode = false</code>即可</p>
+<p>解决页面提示的错误后刷新下页面，没有错误后点<code>continue</code></p>
+<p>第四步，【数据库】，填写数据库信息后，点<code>continue</code>，安装完成<br>（这里比较简单，故略去）</p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-fast-type-long-shell-command" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">

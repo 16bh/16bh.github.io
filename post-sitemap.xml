@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/</loc>
+        <lastmod>2018-02-28T07:41:46.801Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jimxu.me/2018/02/28/mac-can-not-read-mobile-HDD/</loc>
         <lastmod>2018-02-28T07:25:15.482Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -23,7 +31,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
+        <loc>http://jimxu.me/2017/11/20/jupyter-support-php/</loc>
         <lastmod>2018-02-28T07:21:29.246Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -31,7 +39,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/11/20/jupyter-support-php/</loc>
+        <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
         <lastmod>2018-02-28T07:21:29.246Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -63,7 +71,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/</loc>
+        <loc>http://jimxu.me/2017/07/31/go-study-note-grammar/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -71,7 +79,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/07/31/go-study-note-grammar/</loc>
+        <loc>http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -88,6 +96,14 @@
 
     <url>
         <loc>http://jimxu.me/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
+        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -127,15 +143,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/04/11/go-study-note-vscode/</loc>
+        <loc>http://jimxu.me/2017/04/11/go-study-note-install-on-mac/</loc>
         <lastmod>2017-08-01T13:20:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -143,7 +151,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/04/11/go-study-note-install-on-mac/</loc>
+        <loc>http://jimxu.me/2017/04/11/go-study-note-vscode/</loc>
         <lastmod>2017-08-01T13:20:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -223,6 +231,14 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
+        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jimxu.me/2016/07/08/fix-hexo-baidu-share/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -231,7 +247,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
+        <loc>http://jimxu.me/2016/07/13/hexo-404-page/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -247,7 +263,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
+        <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -263,15 +279,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2016/07/13/hexo-404-page/</loc>
+        <loc>http://jimxu.me/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -311,7 +319,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
+        <loc>http://jimxu.me/2017/03/30/hexo-language-setting-not-effective/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -319,7 +327,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/03/30/hexo-language-setting-not-effective/</loc>
+        <loc>http://jimxu.me/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -343,14 +351,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jimxu.me/2016/07/07/hexo-set-read-more/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -360,6 +360,14 @@
 
     <url>
         <loc>http://jimxu.me/2016/07/19/hexo-show-categories-and-tags/</loc>
+        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -607,23 +615,15 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jimxu.me/2017/04/20/backend-develop-skill-tree/</loc>
+        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -639,15 +639,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/06/30/enable-magento-develop-model/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2016/06/30/disable-module-in-magento/</loc>
+        <loc>http://jimxu.me/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -663,7 +655,31 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/2016/06/30/disable-module-in-magento/</loc>
+        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2016/06/30/enable-magento-develop-model/</loc>
+        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jimxu.me/2016/07/08/fix-Alfred-markdown-workflow/</loc>
+        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2017/07/12/get-started-to-crontab/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -688,14 +704,6 @@
 
     <url>
         <loc>http://jimxu.me/2016/06/24/flush-magento-cache/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/07/12/get-started-to-crontab/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -855,6 +863,14 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/2016/06/22/magento-log/</loc>
+        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jimxu.me/2016/07/11/magento-locale/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -864,14 +880,6 @@
 
     <url>
         <loc>http://jimxu.me/2016/07/10/magento-new-module-add-system-config/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2016/06/22/magento-log/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -967,7 +975,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/04/01/phpcs-in-phpstorm-on-mac/</loc>
+        <loc>http://jimxu.me/2016/04/22/php-review-note-on-2016-04/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -975,7 +983,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/04/22/php-review-note-on-2016-04/</loc>
+        <loc>http://jimxu.me/2017/04/01/phpcs-in-phpstorm-on-mac/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1063,14 +1071,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/10/28/some-sql/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jimxu.me/2017/04/01/some-psr-error/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1079,7 +1079,15 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/04/11/sublime-build-golang-develop-environment/</loc>
+        <loc>http://jimxu.me/2016/10/28/some-sql/</loc>
+        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2016/07/21/sublime-build-js-develop-environment/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1095,7 +1103,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/07/21/sublime-build-js-develop-environment/</loc>
+        <loc>http://jimxu.me/2017/04/11/sublime-build-golang-develop-environment/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1135,7 +1143,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/06/08/wechat-rafale-algorithm/</loc>
+        <loc>http://jimxu.me/2016/07/11/wakatime-record-coding/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1143,7 +1151,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2016/07/11/wakatime-record-coding/</loc>
+        <loc>http://jimxu.me/2017/06/08/wechat-rafale-algorithm/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

@@ -232,6 +232,73 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-magento-rewrite-core-controller" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/07/magento-rewrite-core-controller/" class="article-date">
+      <time datetime="2016-07-07T10:20:00.000Z" itemprop="datePublished">2016-07-07</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/07/magento-rewrite-core-controller/">magento复写core中的controller</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <blockquote>
+<p>我们想要对<code>core</code>中的一些模块的<code>controller</code>里的一些方法进行修改，自然不能直接在<code>controller</code>中修改，要通过复写(<code>rewrite</code>)的方法在<code>local</code>中操作<br>复写的原理是同名的模块会按优先级覆盖，优先级为：<code>local</code> &gt; <code>community</code> &gt; <code>core</code></p>
+</blockquote>
+<p>以复写<code>Customer/AccountController.php</code>为例<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1468163108242.png" alt=""></p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/07/07/magento-rewrite-core-controller/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-magneto-enable-backend-login-captcha" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -867,7 +934,7 @@
 <p>前提：你的hexo已经配置了多说</p>
 </blockquote>
 <p>先<code>themes/landscape-plus/layout/_widget</code>目录下新建小物件<code>duoshuo_recent_comments.ejs</code>，编辑如下：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (theme.duoshuo_shortname)&#123; %&gt;</div><div class="line">&lt;div class="widget-wrap"&gt;</div><div class="line">  &lt;h3 class="widget-title"&gt;最近评论&lt;/h3&gt;</div><div class="line">&lt;div class="widget"&gt;</div><div class="line">&lt;ul class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"&gt;&lt;/ul&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">  &lt;/div&gt;</div><div class="line">&lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (theme.duoshuo_shortname)&#123; %&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget-wrap"</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">"widget-title"</span>&gt;</span>最近评论<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"ds-recent-comments"</span> <span class="attr">data-num-items</span>=<span class="string">"5"</span> <span class="attr">data-show-avatars</span>=<span class="string">"1"</span> <span class="attr">data-show-time</span>=<span class="string">"1"</span> <span class="attr">data-show-title</span>=<span class="string">"1"</span> <span class="attr">data-show-admin</span>=<span class="string">"1"</span> <span class="attr">data-excerpt-length</span>=<span class="string">"70"</span>&gt;</span><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">&lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
 <p>再修改主题的配置<code>themes/landscape-plus/_config.yml</code></p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Sidebar</span></div><div class="line"><span class="attr">sidebar:</span> <span class="string">right</span></div><div class="line"><span class="attr">widgets:</span></div><div class="line"><span class="bullet">-</span> <span class="string">recent_posts</span></div><div class="line"><span class="bullet">-</span> <span class="string">category</span></div><div class="line"><span class="bullet">-</span> <span class="string">tag</span></div><div class="line"><span class="bullet">-</span> <span class="string">tagcloud</span></div><div class="line"><span class="bullet">-</span> <span class="string">archive</span></div><div class="line"><span class="bullet">-</span> <span class="string">links</span></div><div class="line"><span class="bullet">-</span> <span class="string">duoshuo_recent_comments</span>    <span class="string">//与小物件的名称保持一致</span></div></pre></td></tr></table></figure>
 
@@ -1151,72 +1218,6 @@
       
     <div class="article-tag tagcloud">
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-show-hidden-file-in-finder" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/05/show-hidden-file-in-finder/" class="article-date">
-      <time datetime="2016-07-05T14:48:16.000Z" itemprop="datePublished">2016-07-05</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/05/show-hidden-file-in-finder/">在Finder中查看隐藏文件</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>##方法1：<br>在终端中执行：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">defaults write com.apple.Finder AppleShowAllFiles YES</div></pre></td></tr></table></figure>
-<p>再按住<code>Option</code>键，单击<code>Finder</code>的图标不放，选择<code>重新开启</code>,即可看到隐藏文件</p>
-<p>要取消的话，执行：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">defaults write com.apple.Finder AppleShowAllFiles NO</div></pre></td></tr></table></figure>
-<p>再重启<code>Finder</code>即可</p>
-<h2 id="方法2"><a href="#方法2" class="headerlink" title="方法2"></a>方法2</h2><p>使用快捷键：<br><code>command+shif+.</code></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li></ul>
     </div>
 
       
