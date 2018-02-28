@@ -30,13 +30,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/list/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/alfred/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -170,6 +163,13 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/tags/life/</loc>
+        <lastmod>2017-07-21T14:28:50.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jimxu.me/tags/magento/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -233,13 +233,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/swim/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/yaf/</loc>
         <lastmod>2017-08-01T13:20:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -261,28 +254,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/php/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/tags/software/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/phpstorm/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/tags/life/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -310,13 +282,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mtr1000x/</loc>
-        <lastmod>2017-11-02T09:27:48.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/git/</loc>
         <lastmod>2017-11-07T08:30:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -338,8 +303,29 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/tags/php/</loc>
+        <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/software/</loc>
+        <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/jupyter/</loc>
+        <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jimxu.me/tags/mac/</loc>
-        <lastmod>2018-02-28T07:20:25.825Z</lastmod>
+        <lastmod>2018-02-28T07:21:29.247Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

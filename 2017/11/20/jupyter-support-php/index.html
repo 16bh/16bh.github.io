@@ -15,19 +15,17 @@
 
 
 
-<meta name="description" content="将Hexo项目托管到Coding.net后，使用hexo g -d提交代码后报下面的Warning  Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.">
-<meta name="keywords" content="error,hexo,git,ssh">
+<meta name="description" content="As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.">
+<meta name="keywords" content="php,jupyter">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Permanently added the RSA host key for IP address to the list of known hosts">
-<meta property="og:url" content="http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/index.html">
+<meta property="og:title" content="jupyter support php">
+<meta property="og:url" content="http://jimxu.me/2017/11/20/jupyter-support-php/index.html">
 <meta property="og:site_name" content="凡·间">
-<meta property="og:description" content="将Hexo项目托管到Coding.net后，使用hexo g -d提交代码后报下面的Warning  Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.">
-<meta property="og:image" content="http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png">
-<meta property="og:updated_time" content="2017-07-31T13:14:22.000Z">
+<meta property="og:description" content="As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.">
+<meta property="og:updated_time" content="2018-02-28T07:21:29.246Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Permanently added the RSA host key for IP address to the list of known hosts">
-<meta name="twitter:description" content="将Hexo项目托管到Coding.net后，使用hexo g -d提交代码后报下面的Warning  Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.">
-<meta name="twitter:image" content="http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png">
+<meta name="twitter:title" content="jupyter support php">
+<meta name="twitter:description" content="As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -59,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Permanently added the RSA host key for IP address to the list of known hosts | 凡·间</title>
+<title>jupyter support php | 凡·间</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -232,11 +230,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-jupyter-support-php" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/" class="article-date">
-      <time datetime="2017-07-26T10:27:02.000Z" itemprop="datePublished">2017-07-26</time>
+      <a href="/2017/11/20/jupyter-support-php/" class="article-date">
+      <time datetime="2017-11-20T08:28:48.000Z" itemprop="datePublished">2017-11-20</time>
 </a>
 
 
@@ -251,7 +249,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Permanently added the RSA host key for IP address to the list of known hosts
+      jupyter support php
     </h1>
   
 
@@ -262,7 +260,7 @@
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/error/">error</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ssh/">ssh</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jupyter/">jupyter</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -272,17 +270,25 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png" width="492" height="297"></p>
-<p>将Hexo项目托管到Coding.net后，使用<code>hexo g -d</code>提交代码后报下面的Warning</p>
-<blockquote>
-<p>Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.</p>
-</blockquote>
+        <p>As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.</p>
 <a id="more"></a>
-<p><code>123.59.85.105</code>为域名<code>coding.net</code>的ip地址</p>
-<p>猜测可能的原因是hexo命令deploy时不会检查<code>~/.ssh/known_hosts</code>文件</p>
-<p>编辑config文件 <code>~/.ssh/config</code>:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Host coding.net</div><div class="line">      HostName 123.59.85.105</div><div class="line">      IdentityFile &#123;path_to_private_key&#125;</div><div class="line">      User &#123;user_name&#125;</div></pre></td></tr></table></figure>
-<p>此时提交就没有warning了</p>
+<h2 id="envirenement"><a href="#envirenement" class="headerlink" title="envirenement"></a>envirenement</h2><ul>
+<li>php7</li>
+<li>zeromq</li>
+<li>php-zmq</li>
+<li>jupyter</li>
+<li>composer</li>
+</ul>
+<blockquote>
+<p>just run <code>brew install zeromq</code> to install zeromq on mac</p>
+<p>php7.0 don’t support php-zmq,must upgrade to php7.1,then <code>brew install php71-zmq</code></p>
+</blockquote>
+<h2 id="install-jupyter-PHP"><a href="#install-jupyter-PHP" class="headerlink" title="install jupyter-PHP"></a>install jupyter-PHP</h2><p>download here <a href="https://litipk.github.io/Jupyter-PHP-Installer/" target="_blank" rel="external">https://litipk.github.io/Jupyter-PHP-Installer/</a></p>
+<h2 id="notice"><a href="#notice" class="headerlink" title="notice"></a>notice</h2><p>while installing, if you see error below:</p>
+<p>You are running PHP-CLI with xdebug enabled. This will have a major impact on the kernel’s performance.</p>
+<p>it means that you have’t install zeromq</p>
+<hr>
+<p>any question, contact me by email</p>
 
       
     </div>
@@ -291,13 +297,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/">Permanently added the RSA host key for IP address to the list of known hosts</a></p>
+        <p><span>本文标题:</span><a href="/2017/11/20/jupyter-support-php/">jupyter support php</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">小凡</a></p>
-        <p><span>发布时间:</span>2017-07-26, 18:27:02</p>
-        <p><span>最后更新:</span>2017-07-31, 21:14:22</p>
+        <p><span>发布时间:</span>2017-11-20, 16:28:48</p>
+        <p><span>最后更新:</span>2018-02-28, 15:21:29</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/" title="Permanently added the RSA host key for IP address to the list of known hosts">http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/　　作者: 小凡" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2017/11/20/jupyter-support-php/" title="jupyter support php">http://jimxu.me/2017/11/20/jupyter-support-php/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://jimxu.me/2017/11/20/jupyter-support-php/　　作者: 小凡" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -310,15 +316,15 @@
     <nav id="article-nav">
         
             <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2017/07/27/hexo-yelee-add-github-widget/">
-                    hexo中添加github组件
+                <a href="/2018/02/28/mac-can-not-read-mobile-HDD/">
+                    mac无法读取移动硬盘
                 </a>
             </div>
         
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2017/07/26/Maximum-function-nesting-level-of-256-reached/">
-                    Maximum function nesting level of 256 reached
+                <a href="/2017/10/16/git-Error-Permission-denied-publickey/">
+                    git Error: Permission denied (publickey)
                 </a>
             </div>
         
@@ -330,7 +336,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#envirenement"><span class="toc-number">1.</span> <span class="toc-text">envirenement</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#install-jupyter-PHP"><span class="toc-number">2.</span> <span class="toc-text">install jupyter-PHP</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#notice"><span class="toc-number">3.</span> <span class="toc-text">notice</span></a></li></ol>
         
     </div>
     <style>
@@ -366,7 +372,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"Permanently added the RSA host key for IP address to the list of known hosts　| 凡·间　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"jupyter support php　| 凡·间　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -386,7 +392,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2017/07/27/hexo-yelee-add-github-widget/" title="上一篇: hexo中添加github组件">
+            <a href="/2018/02/28/mac-can-not-read-mobile-HDD/" title="上一篇: mac无法读取移动硬盘">
                 <i class="fa fa-angle-left"></i>
             </a>
         
@@ -394,7 +400,7 @@
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2017/07/26/Maximum-function-nesting-level-of-256-reached/" title="下一篇: Maximum function nesting level of 256 reached">
+            <a href="/2017/10/16/git-Error-Permission-denied-publickey/" title="下一篇: git Error: Permission denied (publickey)">
                 <i class="fa fa-angle-right"></i>
             </a>
         

@@ -59,264 +59,43 @@
   </entry>
   
   <entry>
-    <title>关于敏捷</title>
-    <link href="http://jimxu.me/2017/11/08/about-scrum/"/>
-    <id>http://jimxu.me/2017/11/08/about-scrum/</id>
-    <published>2017-11-08T15:05:55.000Z</published>
-    <updated>2017-11-08T15:16:01.000Z</updated>
+    <title>jupyter support php</title>
+    <link href="http://jimxu.me/2017/11/20/jupyter-support-php/"/>
+    <id>http://jimxu.me/2017/11/20/jupyter-support-php/</id>
+    <published>2017-11-20T08:28:48.000Z</published>
+    <updated>2018-02-28T07:21:29.246Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>《人月神话》</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;《人月神话》&lt;/p&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>scrum</title>
-    <link href="http://jimxu.me/2017/11/08/scrum/"/>
-    <id>http://jimxu.me/2017/11/08/scrum/</id>
-    <published>2017-11-08T15:05:43.000Z</published>
-    <updated>2017-11-08T15:05:43.000Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>mtr-1000x-change-device</title>
-    <link href="http://jimxu.me/2017/11/02/mtr-1000x-change-device/"/>
-    <id>http://jimxu.me/2017/11/02/mtr-1000x-change-device/</id>
-    <published>2017-11-02T09:24:10.000Z</published>
-    <updated>2017-11-02T09:27:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>mtr 1000x已经跟一台设备的蓝牙匹配了，如何跟另一台设备匹配</p>
+    <content type="html"><![CDATA[<p>As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.</p>
 <a id="more"></a>
-<p>按住开关键7秒，直至蓝光和红光交替闪烁，此时可以在另一台设备的蓝牙列表中找到<code>MDR-1000X</code>，点击配对即可</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171102150961479925904.png" alt="20171102150961479925904.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;mtr 1000x已经跟一台设备的蓝牙匹配了，如何跟另一台设备匹配&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="mtr1000x" scheme="http://jimxu.me/tags/mtr1000x/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>互联网思考</title>
-    <link href="http://jimxu.me/2017/10/18/BATJ/"/>
-    <id>http://jimxu.me/2017/10/18/BATJ/</id>
-    <published>2017-10-18T06:36:42.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近刚看了《腾讯传》、《淘宝技术这十年》、《创京东》、《阿里巴巴：天下没有难做的生意》、《浪潮之巅》，记一点读后感。</p>
-<a id="more"></a>
-<p>百度、阿里、腾讯、京东都属于目前站在浪潮之巅的大公司</p>
-<h1 id="对公司的概述"><a href="#对公司的概述" class="headerlink" title="对公司的概述"></a>对公司的概述</h1><h2 id="baidu"><a href="#baidu" class="headerlink" title="baidu"></a>baidu</h2><p>百度搜索<br>贴吧<br>百度云<br>收购了www.hao123.com</p>
-<h2 id="alibaba"><a href="#alibaba" class="headerlink" title="alibaba"></a>alibaba</h2><p>B2B 阿里巴巴<br>C2C 淘宝<br>支付宝<br>阿里云</p>
-<h2 id="tencent"><a href="#tencent" class="headerlink" title="tencent"></a>tencent</h2><p>短信业务起家</p>
-<p>代表作：<br>QQ<br>微信<br>游戏</p>
-<h2 id="jd"><a href="#jd" class="headerlink" title="jd"></a>jd</h2><p>之前的域名是www.360buy.com 京东商城 后更名为京东<br>以3C起家，后涉足家电、日百、图书等领域<br>耗费巨资建仓</p>
-<h1 id="从搜索、社交、电商、云、金融等方面对它们进行一些对比。"><a href="#从搜索、社交、电商、云、金融等方面对它们进行一些对比。" class="headerlink" title="从搜索、社交、电商、云、金融等方面对它们进行一些对比。"></a>从搜索、社交、电商、云、金融等方面对它们进行一些对比。</h1><h2 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h2><p><img src="http://tupian.search1990.com/201709041657.png"></p>
-<p>百度：目前的老大，一方面是入行早，另一方面也是政策好。<br>负面新闻最多的大公司</p>
-<p>阿里：收购雅虎中国</p>
-<h2 id="社交"><a href="#社交" class="headerlink" title="社交"></a>社交</h2><p>互联网时代 - 腾讯的QQ<br>移动互联网时代  - 腾讯的微信</p>
-<p>之前百度的贴吧抓住机会或可一战，现在嘛。。</p>
-<p>京东跟腾讯有合作，在合并了腾讯的电商部门之后达成协议，可以通过微信和QQ推广自己的商城，所以跟淘宝不一样京东里的商品是可以分享到扣扣微信的</p>
-<p>短信是腾讯公司赚的第一桶金，qq秀以及之后的各种钻是腾讯的第二通金</p>
-<p>QQ软件以及QQ秀等都是参考了国外的案例，如QQ的前身QICQ参考了ICQ，QQ秀参考了韩国的avatar模式</p>
-<p>在腾讯的微信以红包为契机开始介入支付之后，支付宝也赌气似的推出了社交功能，然而聊胜于无</p>
-<p>有了QQ为何还要微信呢？微信是移动互联网时代的产物，是腾讯既QQ之后第二支柱，不可动摇的根本，以微信为跳板介入了金融行业，从阿里的支付宝手里抢走了不小的一块蛋糕</p>
-<h2 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h2><p>腾讯基于社交的巨大优势为游戏开辟道路</p>
-<p>网页游戏 - 偷菜<br>pc游戏 - 英雄联盟（一开始是代理，之后收购了拳头公司）<br>手游 - 王者荣耀<br>均为现象级的游戏</p>
-<h2 id="电商"><a href="#电商" class="headerlink" title="电商"></a>电商</h2><p>阿里 - 淘宝、天猫<br>腾讯 - 拍拍（已经被京东收购）<br>京东 - 京东商城</p>
-<p>按理说有了淘宝之后，用户购买商品十分的方面，应该不会出现竞品壮大的情形<br>京东和淘宝的定位不一致，面向对象是中高端用户，提供正品行货，211限时达以及良好的售后的服务</p>
-<p>正因为有对正品和高质量商品的追求，才会出现像京东、唯品会这样的平台</p>
-<h2 id="云"><a href="#云" class="headerlink" title="云"></a>云</h2><p>BAT都有云，阿里云用的人最多，百度的最少，京东压根还没开始弄这块</p>
-<h2 id="金融"><a href="#金融" class="headerlink" title="金融"></a>金融</h2><p>支付宝、蚂蚁金融<br>微信支付<br>京东金融</p>
-<p>京东一开始不重视，觉得线上支付就ok，进入金融领域较晚，但是蒸蒸日上，率先推出了京东白条</p>
-<p>百度。。</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><ol>
-<li>小公司如何面对寡头公司</li>
-</ol>
-<p>绝不做腾讯可以盯上的行业，一旦被腾讯盯上了，就会利用自身的资本和用户优势打垮你。 - 《腾讯传》</p>
-<ol>
-<li>联通免流卡</li>
-</ol>
-<p>以腾讯免流卡为例，当用户比例过高的时候，绑架用户使用app的习惯，本来使用的高德地图要换成腾讯地图，网易云播放器要换成QQ音乐，更不要说那些小公司出品的软件了</p>
-<h1 id="BATJ共同点"><a href="#BATJ共同点" class="headerlink" title="BATJ共同点"></a>BATJ共同点</h1><ul>
-<li>创始人是灵魂人物</li>
-<li>经历残酷的战斗</li>
+<h2 id="envirenement"><a href="#envirenement" class="headerlink" title="envirenement"></a>envirenement</h2><ul>
+<li>php7</li>
+<li>zeromq</li>
+<li>php-zmq</li>
+<li>jupyter</li>
+<li>composer</li>
 </ul>
-<p>它们的对手有：</p>
-<table>
-<thead>
-<tr>
-<th>公司</th>
-<th>竞争对手</th>
-<th>战况</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>阿里</td>
-<td>ebay易趣</td>
-<td>胜</td>
-</tr>
-<tr>
-<td>腾讯</td>
-<td>微软msn</td>
-<td>胜</td>
-</tr>
-<tr>
-<td>腾讯</td>
-<td>360</td>
-<td>惨胜</td>
-</tr>
-<tr>
-<td>百度</td>
-<td>谷歌</td>
-<td>胜，后者离开中国</td>
-</tr>
-<tr>
-<td>京东</td>
-<td>新蛋</td>
-<td>胜</td>
-</tr>
-<tr>
-<td>京东</td>
-<td>当当、亚马逊</td>
-<td>胜</td>
-</tr>
-<tr>
-<td>京东</td>
-<td>拍拍</td>
-<td>胜，后者被收购</td>
-</tr>
-<tr>
-<td>京东</td>
-<td>淘宝</td>
-<td>未知</td>
-</tr>
-</tbody>
-</table>
-<h2 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h2><p>阿里和京东的业务严重重合，难免要开战<br>京东在收购腾讯的拍拍网时与腾讯签订了战略合作计划<br>可以猜测将来京东和腾讯对阿里进行围攻，电商已经是被腾讯放弃的部门，在这个领域借助京东的力量怼阿里，赢了是意外的收获，输了也毫发无伤</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近刚看了《腾讯传》、《淘宝技术这十年》、《创京东》、《阿里巴巴：天下没有难做的生意》、《浪潮之巅》，记一点读后感。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="reading" scheme="http://jimxu.me/tags/reading/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>养猫手册</title>
-    <link href="http://jimxu.me/2017/10/18/how-to-keep-a-cat/"/>
-    <id>http://jimxu.me/2017/10/18/how-to-keep-a-cat/</id>
-    <published>2017-10-18T03:35:28.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>从楼下捡了一只小猫，记录下养猫心得</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171018150829785129635.png" width="492" height="297"></p>
-<a id="more"></a>
-<h2 id="检查与隔离"><a href="#检查与隔离" class="headerlink" title="检查与隔离"></a>检查与隔离</h2><p>刚捡回来的小猫需要在猫笼里进行隔离，暂时没有猫笼的用纸箱代替，纸箱里可以放旧衣服或报纸</p>
-<p>隔离时间约一个月，等小猫打完疫苗就可以放出来了</p>
-<h2 id="疫苗"><a href="#疫苗" class="headerlink" title="疫苗"></a>疫苗</h2><p>三联<br>3周后可以可以开始第一次注射疫苗，然后是5周第二次，7周第三次</p>
-<p>打完疫苗才能洗澡</p>
-<h2 id="猫砂"><a href="#猫砂" class="headerlink" title="猫砂"></a>猫砂</h2><p>要教会小猫用猫砂</p>
 <blockquote>
-<p>如果发现捡回来的小猫已经会使用了并且有点都不怕人，说明这个猫是别人养过的</p>
+<p>just run <code>brew install zeromq</code> to install zeromq on mac</p>
+<p>php7.0 don’t support php-zmq,must upgrade to php7.1,then <code>brew install php71-zmq</code></p>
 </blockquote>
-<p>家里暂时没有猫砂的，可以用用撕碎的卫生纸、活性炭、大米等代替</p>
-<h2 id="猫砂盆"><a href="#猫砂盆" class="headerlink" title="猫砂盆"></a>猫砂盆</h2><p>分带盖的和不带盖的</p>
-<p>最好选带盖的，有一个小门供猫进出</p>
-<p>隔离的时候，最好等猫笼到了之后，选择对应的尺寸的猫砂盆，不然可能放不进去（不要问我为啥会知道）</p>
-<h2 id="猫粮"><a href="#猫粮" class="headerlink" title="猫粮"></a>猫粮</h2><p>注意不要喂人的食物给猫吃</p>
-<h2 id="常用物品"><a href="#常用物品" class="headerlink" title="常用物品"></a>常用物品</h2><ul>
-<li>猫粮</li>
-<li>猫零食</li>
-<li>猫笼</li>
-<li>猫砂</li>
-<li>猫砂盆</li>
-<li>逗猫棒</li>
-<li>猫爬架</li>
-<li>外出用猫笼子</li>
-</ul>
-<h2 id="绝育"><a href="#绝育" class="headerlink" title="绝育"></a>绝育</h2><p>绝育对猫和人都有好处</p>
-<h2 id="演技"><a href="#演技" class="headerlink" title="演技"></a>演技</h2><p>猫如果咬人或抓人，要表现的很疼跟夸张的样子，一两次它就知道不能咬你了</p>
+<h2 id="install-jupyter-PHP"><a href="#install-jupyter-PHP" class="headerlink" title="install jupyter-PHP"></a>install jupyter-PHP</h2><p>download here <a href="https://litipk.github.io/Jupyter-PHP-Installer/" target="_blank" rel="external">https://litipk.github.io/Jupyter-PHP-Installer/</a></p>
+<h2 id="notice"><a href="#notice" class="headerlink" title="notice"></a>notice</h2><p>while installing, if you see error below:</p>
+<p>You are running PHP-CLI with xdebug enabled. This will have a major impact on the kernel’s performance.</p>
+<p>it means that you have’t install zeromq</p>
+<hr>
+<p>any question, contact me by email</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;从楼下捡了一只小猫，记录下养猫心得&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20171018150829785129635.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.&lt;/p&gt;
     
     </summary>
     
     
-      <category term="life" scheme="http://jimxu.me/tags/life/"/>
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
     
-  </entry>
-  
-  <entry>
-    <title>花</title>
-    <link href="http://jimxu.me/2017/10/18/some-flowers/"/>
-    <id>http://jimxu.me/2017/10/18/some-flowers/</id>
-    <published>2017-10-18T02:57:06.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>读书读到山丹丹，搜了下长什么样，以为是彼岸花，然而并不是。<br>又想起小时候听人说彼岸花又叫打碗碗花，不能摘，摘了回家就会把碗打碎，结果也并不是。<br>感觉世界观在崩塌。。。</p>
-<a id="more"></a>
-<h2 id="打碗碗花"><a href="#打碗碗花" class="headerlink" title="打碗碗花"></a>打碗碗花</h2><blockquote>
-<p>打碗碗花，多年生草本植物。根状茎细圆柱形，白色。茎蔓生、缠绕或匍匐状，有棱角，无毛，基部常有分枝。一年生草本，全体不被毛，植株通常矮小，高8-30（-40）厘米，常自基部分枝，具细长白色的根。- 百度百度</p>
-</blockquote>
-<p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike272%2C5%2C5%2C272%2C90/sign=36c00bbcef24b899ca31716a0f6f76f0/54fbb2fb43166d2251b23428402309f79152d240.jpg" width="200" height="300"></p>
-<h2 id="山丹丹"><a href="#山丹丹" class="headerlink" title="山丹丹"></a>山丹丹</h2><blockquote>
-<p>山丹丹花，学名斑百合，别名红百合，生活中中经常被称为“山丹丹花”，百合科，多年生草本。地下具卵球形鳞茎，有少数白色肉质鳞片。茎直立，高30─60厘米，无毛。叶线状至线状披针形，边缘和背面脉上有乳突。无珠芽。花一至数朵，生于茎端和叶腋内，直立，夏初开花；花被片六枚，两轮，披针形或长椭圆形；朱红色或橘红色，内面有紫褐色斑点，开放后开展，但不向外反卷或稍反卷。蒴果椭圆形。 - 百度百科</p>
-<p>山丹丹过一年多开一朵花   - 《生活是很好玩的》 汪曾祺</p>
-</blockquote>
-<p><img src="https://gss3.bdstatic.com/7Po3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike933%2C5%2C5%2C933%2C330/sign=cdec9ef713d5ad6ebef46cb8e0a252be/4034970a304e251f8a3d41cbaf86c9177f3e533e.jpg" width="300" height="200"></p>
-<h2 id="彼岸花"><a href="#彼岸花" class="headerlink" title="彼岸花"></a>彼岸花</h2><blockquote>
-<p>彼岸花分为红色、白色、黄色三种，红色彼岸花盛开于地狱、白色彼岸花绽放于天堂。<br>红色的彼岸花又称曼珠沙华（manjusaka），《法华经》中的四华（花）之一。原产于中国长江流域，分布在长江中下游及西南部分地区，相关记载最早见于唐代，被称作“无义草”、“龙爪花”。民间有许多关于“彼岸花”的传说。另有以《彼岸花》为名的歌曲和小说作品。<br>彼岸花，恶魔的温柔。日本民间传说中自愿投入地狱的花朵，被众魔遣回，但仍徘徊于黄泉路上，众魔不忍，遂同意让她开在此路上，给离开人界的魂们一个指引与安慰。地狱少女中的阎魔爱，就喜欢这种花。雪白色与血红色的彼岸花共同代表死亡。传言曼陀罗华盛开于天堂之路，曼珠沙华布满在地狱之途。同是代表死亡，一个却偏向于对死亡的另一种解释：新生，另一个偏向于对痛苦与悔恨的彷徨与徘徊：堕落。所以说地狱与天堂，仅有一线之隔。所谓天使与恶魔的区别，不过是颜色与背负的含义罢了。  - 百度百科</p>
-</blockquote>
-<p><img src="https://gss2.bdstatic.com/-fo3dSag_xI4khGkpoWK1HF6hhy/baike/c0%3Dbaike116%2C5%2C5%2C116%2C38/sign=17997f685a82b2b7b392319650c4a08a/e4dde71190ef76c611321c479e16fdfaae5167fe.jpg" width="200" height="300"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;读书读到山丹丹，搜了下长什么样，以为是彼岸花，然而并不是。&lt;br&gt;又想起小时候听人说彼岸花又叫打碗碗花，不能摘，摘了回家就会把碗打碎，结果也并不是。&lt;br&gt;感觉世界观在崩塌。。。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="life" scheme="http://jimxu.me/tags/life/"/>
+      <category term="jupyter" scheme="http://jimxu.me/tags/jupyter/"/>
     
   </entry>
   
@@ -398,39 +177,6 @@
     
     
       <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hhkb初体验</title>
-    <link href="http://jimxu.me/2017/08/17/hhkb-first-trial/"/>
-    <id>http://jimxu.me/2017/08/17/hhkb-first-trial/</id>
-    <published>2017-08-17T04:21:10.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170817150294391984465.jpg" width="492" height="297"></p>
-<a id="more"></a>
-<h2 id="设置hhkb"><a href="#设置hhkb" class="headerlink" title="设置hhkb"></a>设置hhkb</h2><p>011001</p>
-<p>第一位和第二位01表示Macintosh模式<br>第三位1表示Delete键删除<br>第六位1表示开启自动唤醒功能（网上是这么说的，然而实际使用发现改成0反而才有唤醒效果，如果是1的话需要重新连接才行）</p>
-<h2 id="关于键位"><a href="#关于键位" class="headerlink" title="关于键位"></a>关于键位</h2><ul>
-<li>control键</li>
-</ul>
-<p><code>control</code>键位于A键左侧，替代了<code>caps lock</code>非常方便使用vim</p>
-<p>平时的键盘也是开启mac的键盘功能将<code>caps lock</code>替换成<code>control</code>的</p>
-<ul>
-<li>方向键</li>
-</ul>
-<p>没有方向键前期会有不少的困扰，多用一段时间也就习惯了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170817150294391984465.jpg&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="life" scheme="http://jimxu.me/tags/life/"/>
     
   </entry>
   
@@ -598,53 +344,6 @@
       <category term="hexo" scheme="http://jimxu.me/tags/hexo/"/>
     
       <category term="github" scheme="http://jimxu.me/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>go学习笔记：Beego</title>
-    <link href="http://jimxu.me/2017/07/27/go-study-note-beego-bee/"/>
-    <id>http://jimxu.me/2017/07/27/go-study-note-beego-bee/</id>
-    <published>2017-07-27T07:33:17.000Z</published>
-    <updated>2017-08-01T13:20:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114170158010.png"></p>
-<p>谢大的beego开源项目：</p>
-<div class="github-widget" data-repo="astaxie/beego"></div>
-
-<a id="more"></a>
-<h2 id="安装beego"><a href="#安装beego" class="headerlink" title="安装beego"></a>安装beego</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">go get -u github.com/astaxie/beego</div></pre></td></tr></table></figure>
-<h2 id="安装bee工具"><a href="#安装bee工具" class="headerlink" title="安装bee工具"></a>安装bee工具</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">go get github.com/beego/bee</div></pre></td></tr></table></figure>
-<h2 id="使用bee工具"><a href="#使用bee工具" class="headerlink" title="使用bee工具"></a>使用bee工具</h2><h3 id="工具命令一览"><a href="#工具命令一览" class="headerlink" title="工具命令一览"></a>工具命令一览</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">new         create an application base on beego framework</div><div class="line">run         run the app which can hot compile</div><div class="line">pack        compress an beego project</div><div class="line">api         create an api application base on beego framework</div><div class="line">bale        packs non-Go files to Go source files</div><div class="line">version     show the bee &amp; beego version</div><div class="line">generate    source code generator</div><div class="line">migrate     run database migrations</div></pre></td></tr></table></figure>
-<h3 id="生成一个项目"><a href="#生成一个项目" class="headerlink" title="生成一个项目"></a>生成一个项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd src</div><div class="line">bee new &#123;project_name&#125;</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/2017072715011416163291.png"></p>
-<p>然后在src目录下生成一个项目，结构入下：</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114096074080.png"></p>
-<h3 id="创建api"><a href="#创建api" class="headerlink" title="创建api"></a>创建api</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd src</div><div class="line">bee api &#123;project_name&#125;</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114112858689.png"></p>
-<p>结构如下：</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114117882110.png"></p>
-<p>对比之前的结构可以发现在controllers和models目录分别生成了object.go和user.go文件</p>
-<h3 id="运行项目"><a href="#运行项目" class="headerlink" title="运行项目"></a>运行项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd src</div><div class="line">bee run &#123;project_name&#125;</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114201058758.png"></p>
-<p>在浏览器中访问<code>http://localhost:8080</code>,结果如下图所示：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114189785456.png" width="492" height="297"></p>
-<p>官网文档是这么介绍的</p>
-<blockquote>
-<p>这样我们的应用已经在 8080 端口(beego 的默认端口)跑起来了.你是不是觉得很神奇，为什么没有 nginx 和 apache 居然可以自己干这个事情？是的，Go 其实已经做了网络层的东西，beego 只是封装了一下，所以可以做到不需要 nginx 和 apache</p>
-</blockquote>
-<p>我本人在使用的时候发现如果打开了nginx有时会报404的错误，所以最好先关闭nginx服务</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170727150114170158010.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;谢大的beego开源项目：&lt;/p&gt;
-&lt;div class=&quot;github-widget&quot; data-repo=&quot;astaxie/beego&quot;&gt;&lt;/div&gt;
-    
-    </summary>
-    
-    
-      <category term="go" scheme="http://jimxu.me/tags/go/"/>
     
   </entry>
   
@@ -831,6 +530,313 @@
     
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关闭mac自动大写单词首字母功能</title>
+    <link href="http://jimxu.me/2017/07/25/disable-auto-ucfirst-word-on-mac/"/>
+    <id>http://jimxu.me/2017/07/25/disable-auto-ucfirst-word-on-mac/</id>
+    <published>2017-07-25T07:12:28.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097228693096.png" width="492" height="297"></p>
+<a id="more"></a>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150096665552592.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170725150097228693096.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="mac" scheme="http://jimxu.me/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装xdebug后var_dump显示问题</title>
+    <link href="http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/"/>
+    <id>http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/</id>
+    <published>2017-07-24T09:08:19.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png" width="492" height="297"></p>
+<p> 安装了xdebug之后，使用var_dump打印输出时显示错误</p>
+<a id="more"></a>
+<p> 错误如下：</p>
+<p> <img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088734626603.jpg"></p>
+<p>在网上查询了一下，有人说先检查一下php的配置中<code>html_errors</code>这项是否是开启的，如果是Off的就把它设置为On</p>
+<p>php手册中关于html_errors的介绍：</p>
+<blockquote>
+<p>html_errors boolean<br>在错误信息中关闭HTML标签。这种新的HTML格式的错误信息是可以点击，它引导用户前往描述该错误或者导致该错误发生的函数的参考信息页面。 这些参考与 docref_root 和 docref_ext 的设置有关。</p>
+</blockquote>
+<p>检查的方法是在终端输入以下命令</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -i | grep html_errors</div></pre></td></tr></table></figure>
+<p>好了，先检查一下</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088750041484.jpg"></p>
+<p>果然是关闭的，去<code>php.ini</code>里开启它吧</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088738770125.jpg"></p>
+<p>若还未生效<br>查看php设置的<code>xdebug.overload_var_dump</code>这一项，将其设置为0</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097075965208.png"></p>
+<p>改好了重启php-fpm服务</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
+<p><a href="http://www.cnblogs.com/huangye-dream/p/4182803.html" target="_blank" rel="external">http://www.cnblogs.com/huangye-dream/p/4182803.html</a></p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+&lt;p&gt; 安装了xdebug之后，使用var_dump打印输出时显示错误&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
+    
+      <category term="xdebug" scheme="http://jimxu.me/tags/xdebug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>美区apple账号的申请和使用</title>
+    <link href="http://jimxu.me/2017/07/21/apple-usa-account/"/>
+    <id>http://jimxu.me/2017/07/21/apple-usa-account/</id>
+    <published>2017-07-21T14:16:32.000Z</published>
+    <updated>2017-07-21T14:28:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170721150064666695739.png" width="492" height="297"></p>
+<a id="more"></a>
+<h2 id="申请美区账号"><a href="#申请美区账号" class="headerlink" title="申请美区账号"></a>申请美区账号</h2><ul>
+<li>先选择一款免费的软件点击下载（必须要有这一步，否则选择付款方式的时候不会出现none的选项)</li>
+<li>申请账号，地点选择美国，下一步</li>
+<li>输入邮箱账号，密码，下一步</li>
+<li>输入姓，名，安全问题，下一步</li>
+<li>付款方式处选“None”，填写详细地址，下一步</li>
+<li>验证邮箱，成功！</li>
+</ul>
+<h2 id="快速切换中区账号和美区账号"><a href="#快速切换中区账号和美区账号" class="headerlink" title="快速切换中区账号和美区账号"></a>快速切换中区账号和美区账号</h2><p>使用workflow实现<br><a href="https://workflow.is/workflows/9f3eb6c502b14181a5abd690b16338ec" target="_blank" rel="external">https://workflow.is/workflows/9f3eb6c502b14181a5abd690b16338ec</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170721150064666695739.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="life" scheme="http://jimxu.me/tags/life/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>[译]改善编程的七个习惯</title>
+    <link href="http://jimxu.me/2017/07/19/translate-seven-userfun-programming-habits/"/>
+    <id>http://jimxu.me/2017/07/19/translate-seven-userfun-programming-habits/</id>
+    <published>2017-07-19T03:27:35.000Z</published>
+    <updated>2017-07-31T13:14:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170721150061352433270.png" width="492" height="297"></p>
+<p>作者：BinarForge</p>
+<p>原文链接：<a href="https://dev.to/binarforge/seven-useful-programming-habits" target="_blank" rel="external">https://dev.to/binarforge/seven-useful-programming-habits</a></p>
+<a id="more"></a>
+<blockquote>
+<p>This short entry was also published on my personal website</p>
+</blockquote>
+<p>这篇短文发布在我的个人网站上</p>
+<blockquote>
+<p>I have been reading some good books on forming habits recently. After digesting these, my mind started drifting further and I started thinking what my current habits are. Some of them are applicable to life in general, some relate only to work. Without surprise, some of them happen to be strongly related to programming, which I think might be a good thing to share.</p>
+</blockquote>
+<p>我阅读了很多关于培养习惯的优质书籍。读完之后，我就开始想啊想，想什么呢？当然是我自己平时的习惯啦。其中一些生活方面的习惯，另一些是工作相关的。作为程序猿，跟工作相关的当然就是指编程方面的习惯咯，我觉得可以分享给大家共勉。</p>
+<blockquote>
+<p>Uncontrolled auto save. This one has been accompanying me for ages. Even though many modern IDEs do not even require saving a file, I am relentlessly squeezing “Ctrl + S” combination to its last…drop. If I recall correctly, I am doing it thoughtlessly every time I stop typing. Weird but it actually saved my day more times than it caused a smirk on my colleagues faces.</p>
+</blockquote>
+<h2 id="第一个习惯：没事保存一下"><a href="#第一个习惯：没事保存一下" class="headerlink" title="第一个习惯：没事保存一下"></a>第一个习惯：没事保存一下</h2><p>这是我很早就培养出来的习惯了，即使现在很多高级的IDE甚至都不需要保存文件了，我还是要自己按Ctrl+S组合键保存，除非这两个键被我按爆了。每次敲完最后一下停顿的时候，想都不想”啪”的一下保存了再说。看着是有点奇怪，甚至身边的同事看了还会偷笑，笑你妹啊，你根本不知道这一招救了我多少次(哼╭(╯^╰)╮)，等什么时候断电死机了你就该苦了;</p>
+<blockquote>
+<p>Some devs tend to say being in “the zone” is like being in Nirvana or finally reaching the Valhalla. The way I see it is more like Berserk mode. It is great for some time but then you should take a break to recover. So basically short zone bursts are great for performance but make sure you take regular stops. Being in a zone for too long can actually numb your senses and make your mind more vulnerable to get stuck in a loop. (no pun intended!)</p>
+</blockquote>
+<h2 id="第二个习惯：张弛有度"><a href="#第二个习惯：张弛有度" class="headerlink" title="第二个习惯：张弛有度"></a>第二个习惯：张弛有度</h2><p>有些开发人员喜欢一刻不停的码字，码的飘飘欲仙，放佛身处极乐世界或者到达了瓦尔哈拉殿堂（注：挪威神话中奥丁神接待战死者英灵的殿堂）。照我看来，这也太疯了。持续一小段时间专心码字当然是极好的，但是每隔一段时间一定要停下来让你的精气神恢复到最佳状态。短时间爆发一下，确实能出好活，但是一定要定期休息啊老铁。爆发时间长了，你的感官会麻木，你的脑子会僵死，你的人可能就走进了死胡同原地打转了。</p>
+<blockquote>
+<p>Make sure you kill all the sources of disturbance. When I work on something really important I will turn my phone off, avoid social medias or any medias in general with a slight exception for music. Apply everything in healthy limits though. If you have got kids and need to focus, locking them up in a basement might sound appealing but it is not really a good solution in longer term.</p>
+</blockquote>
+<h2 id="第三个习惯：排除干扰"><a href="#第三个习惯：排除干扰" class="headerlink" title="第三个习惯：排除干扰"></a>第三个习惯：排除干扰</h2><p>确保你身边没有任何可以干扰你的东西。当我开始进行非常重要的工作的时候，我会把我的手机弄到飞行模式，放上音乐，避免自己被社交媒体干扰。确保自己健康得到保障。如果你有孩子需要看着的话，把他们关到地下室去？开玩笑，这可不是个长久有效的好办法。</p>
+<blockquote>
+<p>Always try to start with an end in your mind. Some people say the power of visualisation is priceless. It helps me determining realistic list of goals for today and eventually leads to reducing or removing frustration and disappointment at the end of the day. So anytime you work on something, make sure you know exactly what is it that you want to create. It might sound obvious but it is really one of those steps being skipped way too often.</p>
+</blockquote>
+<h2 id="第四个习惯-知道你在干嘛"><a href="#第四个习惯-知道你在干嘛" class="headerlink" title="第四个习惯 知道你在干嘛"></a>第四个习惯 知道你在干嘛</h2><p>永远记得开始之前估计一下结果。正如一些人说：可视化的力量是无价的。它有助于我确定今天要做的目标，减少甚至避免日后的沮丧、失望。所以当你要干一件事的时候，确保你自己清楚你在干啥，最终会产出什么。听上去很理所当然的样子，但是很多人就是会忽视它。</p>
+<blockquote>
+<p>One good habit for me is regular training. Even though going to the gym is another great habit, in this case I am more worried about one’s actual programming skills. I enjoy solving occasional programming exercises in order to keep my saw sharp all the time. It might not pay your bills but will definitely pay back in future.</p>
+</blockquote>
+<h2 id="第五个习惯-训练编程技巧"><a href="#第五个习惯-训练编程技巧" class="headerlink" title="第五个习惯 训练编程技巧"></a>第五个习惯 训练编程技巧</h2><p>我有一个好习惯，没事就锻个练。我在这里指的是锻炼一个人的编程技巧，当然咯，去健身房锻炼身体也算是一个好习惯。偶尔我会给自己整个编程的题目，解题让我很爽，同时能让我的头脑保持活力。虽然提升自己的编程水平目前来看是捞不着钱，但日后肯定会给你丰厚的回报。</p>
+<blockquote>
+<p>One of my most recent ones is trying to start writing any code from forming some test cases. This one is sort of related to one of my earlier points as it helps me seeing my destination before starting. It obviously makes the end result safer but as a bonus it often helps designing and documenting the code. I am actually surprised so few developers can appreciate this point of view.</p>
+</blockquote>
+<h2 id="第六个习惯-测试用例"><a href="#第六个习惯-测试用例" class="headerlink" title="第六个习惯 测试用例"></a>第六个习惯 测试用例</h2><p>我最近长干的一件事，那就是在写代码之前先把测试用例整出来。就像第四个习惯说的那样，这么做可以帮我提前知道我想要我的代码实现怎样的功能。很明显，测试用例可以让代码更安全，同时也有助于记录代码设计过程和文档记录。你看好处这么多，别的程序员咋就是想不到这么干呢。</p>
+<blockquote>
+<p>Another fresh one for me which is to avoid “future programming”. Start small and grow later. In my earlier days while coding anything I wanted to make it perfect from the very first day, cover all the possible edge cases and almost prepare it for my descendants to use. With time I realised it often leads to overcomplicated codebase, high time consumption and in most cases my program is doing everything and nothing at the same time!</p>
+</blockquote>
+<h2 id="第七个习惯-避免“未来式编程”"><a href="#第七个习惯-避免“未来式编程”" class="headerlink" title="第七个习惯 避免“未来式编程”"></a>第七个习惯 避免“未来式编程”</h2><p>这是个我最近学会的一点。啥叫未来式编程，就是一开始就往大了设计。而正道应该是从一个小的项目开始，慢慢把它做大。以前我年轻的时候不懂事，写代码就想要写出来就很完美，考虑所有的边界条件，给以后所有的扩展留好位置。随着时间的推移，我慢慢发现我之前在代码库里写的都是啥啊，这么复杂的一大坨，耗时又那么长。大部分情况下，我的代码干了所有的事情，其实也啥都没干成。</p>
+<blockquote>
+<p>So here, take any of these for yourself if you feel like it. These I have found insanely useful on my programming path but forming them is not an overnight change. The best and only way to implement a habit in your life is to just start using it and it will settle down before you realise.<br>Ah, do not forget to let me know about other habits that worked for you!</p>
+</blockquote>
+<p>最后，觉得什么习惯好你们就挑什么哈。这些习惯我觉得对于编程都很好用，但没有什么习惯是一日而就的。最好的培养习惯的现在就开始尝试，不知不觉就掌握了。</p>
+<p>要是有什么习惯对你们有用，别忘了给我留言哦（<a href="https://dev.to/binarforge/seven-useful-programming-habits）。" target="_blank" rel="external">https://dev.to/binarforge/seven-useful-programming-habits）。</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170721150061352433270.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作者：BinarForge&lt;/p&gt;
+&lt;p&gt;原文链接：&lt;a href=&quot;https://dev.to/binarforge/seven-useful-programming-habits&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://dev.to/binarforge/seven-useful-programming-habits&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="translate" scheme="http://jimxu.me/tags/translate/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql datetime默认值设置为0000-00-00 00:00:00时报错</title>
+    <link href="http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/"/>
+    <id>http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/</id>
+    <published>2017-07-13T10:46:44.000Z</published>
+    <updated>2017-07-21T14:15:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>出错原因：mysql5.7之后的版本默认设置不允许日期为空</p>
+<p>解决方法:</p>
+<ul>
+<li>修改mysql的sql mode</li>
+<li>默认值设置为非空值</li>
+</ul>
+<a id="more"></a>
+<h2 id="查看sql-mode"><a href="#查看sql-mode" class="headerlink" title="查看sql mode"></a>查看sql mode</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">SELECT @@GLOBAL.sql_mode;</div><div class="line">SELECT @@SESSION.sql_mode;</div></pre></td></tr></table></figure>
+<h2 id="sql-mode常用值"><a href="#sql-mode常用值" class="headerlink" title="sql_mode常用值"></a>sql_mode常用值</h2><ul>
+<li><p>ONLY_FULL_GROUP_BY：<br>对于GROUP BY聚合操作，如果在SELECT中的列，没有在GROUP BY中出现，那么这个SQL是不合法的，因为列不在GROUP BY从句中</p>
+</li>
+<li><p>NO_AUTO_VALUE_ON_ZERO：<br>该值影响自增长列的插入。默认设置下，插入0或NULL代表生成下一个自增长值。如果用户 希望插入的值为0，而该列又是自增长的，那么这个选项就有用了。</p>
+</li>
+<li><p>STRICT_TRANS_TABLES：<br>在该模式下，如果一个值不能插入到一个事务表中，则中断当前的操作，对非事务表不做限制</p>
+</li>
+<li><p>NO_ZERO_IN_DATE：<br>在严格模式下，不允许日期和月份为零</p>
+</li>
+<li><p>NO_ZERO_DATE：<br>设置该值，mysql数据库不允许插入零日期，插入零日期会抛出错误而不是警告。</p>
+</li>
+<li><p>ERROR_FOR_DIVISION_BY_ZERO：<br>在INSERT或UPDATE过程中，如果数据被零除，则产生错误而非警告。如 果未给出该模式，那么数据被零除时MySQL返回NULL</p>
+</li>
+<li><p>NO_AUTO_CREATE_USER：<br>禁止GRANT创建密码为空的用户</p>
+</li>
+<li><p>NO_ENGINE_SUBSTITUTION：<br>如果需要的存储引擎被禁用或未编译，那么抛出错误。不设置此值时，用默认的存储引擎替代，并抛出一个异常</p>
+</li>
+<li><p>PIPES_AS_CONCAT：<br>将”||”视为字符串的连接操作符而非或运算符，这和Oracle数据库是一样的，也和字符串的拼接函数Concat相类似</p>
+</li>
+<li><p>ANSI_QUOTES：启用ANSI_QUOTES后，不能用双引号来引用字符串，因为它被解释为识别符</p>
+</li>
+</ul>
+<h2 id="设置sql-mode"><a href="#设置sql-mode" class="headerlink" title="设置sql mode"></a>设置sql mode</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">SET GLOBAL sql_mode = &apos;modes...&apos;;</div><div class="line">SET SESSION sql_mode = &apos;modes...&apos;;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;出错原因：mysql5.7之后的版本默认设置不允许日期为空&lt;/p&gt;
+&lt;p&gt;解决方法:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;修改mysql的sql mode&lt;/li&gt;
+&lt;li&gt;默认值设置为非空值&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
+    
+      <category term="error" scheme="http://jimxu.me/tags/error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>crontab入门</title>
+    <link href="http://jimxu.me/2017/07/12/get-started-to-crontab/"/>
+    <id>http://jimxu.me/2017/07/12/get-started-to-crontab/</id>
+    <published>2017-07-12T09:43:43.000Z</published>
+    <updated>2017-07-12T12:15:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>crontab用来定时执行脚本</p>
+<p>为什么要定时执行脚本：</p>
+<ul>
+<li>异步处理，如下单赠品，计算用户会员等</li>
+<li>自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等</li>
+</ul>
+<a id="more"></a>
+<h2 id="crontab文件格式"><a href="#crontab文件格式" class="headerlink" title="crontab文件格式"></a>crontab文件格式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">分钟 小时 日 月 星期 [command]</div></pre></td></tr></table></figure>
+<p>一条crontab执行的shell脚本分为6部分</p>
+<ol>
+<li>分钟,默认*</li>
+<li>小时,默认*</li>
+<li>日,默认*</li>
+<li>月,默认*</li>
+<li>星期,默认*</li>
+<li>命令</li>
+</ol>
+<p>前面五个部分用于指定脚本的执行时间和频率，默认<code>* * * * *</code>代表每分钟执行一次</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//输入精确时间</div><div class="line">3 * * * * do_sth	   //每3分钟执行一次</div><div class="line">//输入范围</div><div class="line">* 5-23 * * * do_sth   //从凌晨5点到晚上11点每分钟执行一次（普通人作息时间）</div><div class="line">//输入可选项</div><div class="line">* * * * 6,7          //在周六和周日每分钟执行一次</div></pre></td></tr></table></figure>
+<h2 id="启用cron"><a href="#启用cron" class="headerlink" title="启用cron"></a>启用cron</h2><p>新建一个cron文件 <code>$HOME/jimcron</code><br>编辑如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#log time every min</div><div class="line">* * * * * /bin/echo date &gt; ~/cron.log</div></pre></td></tr></table></figure>
+<p>然后执行下面的命令启用cron</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab $HOME/jimcron</div></pre></td></tr></table></figure>
+<h2 id="查看所有cron"><a href="#查看所有cron" class="headerlink" title="查看所有cron"></a>查看所有cron</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab -l</div></pre></td></tr></table></figure>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170712149985458536665.png" alt="20170712149985458536665.png"></p>
+<h2 id="cron备份与恢复"><a href="#cron备份与恢复" class="headerlink" title="cron备份与恢复"></a>cron备份与恢复</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">crontab -l &gt; $HOME/jimcron  //备份cron</div><div class="line">crontab $HOME/jimcron	//恢复cron</div></pre></td></tr></table></figure>
+<h2 id="编辑当前用户的cron"><a href="#编辑当前用户的cron" class="headerlink" title="编辑当前用户的cron"></a>编辑当前用户的cron</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab -e</div></pre></td></tr></table></figure>
+<h2 id="删除cron文件"><a href="#删除cron文件" class="headerlink" title="删除cron文件"></a>删除cron文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab -r</div></pre></td></tr></table></figure>
+<h2 id="ubuntu下cron命令"><a href="#ubuntu下cron命令" class="headerlink" title="ubuntu下cron命令"></a>ubuntu下cron命令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo /etc/init.d/cron start	//启动</div><div class="line">sudo /etc/init.d/cron stop 	//关闭</div><div class="line">sudo /etc/init.d/cron restart		//重启</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;crontab用来定时执行脚本&lt;/p&gt;
+&lt;p&gt;为什么要定时执行脚本：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;异步处理，如下单赠品，计算用户会员等&lt;/li&gt;
+&lt;li&gt;自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="shell" scheme="http://jimxu.me/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用mtr工具检测网络</title>
+    <link href="http://jimxu.me/2017/07/12/use-mtr-detect-network-status/"/>
+    <id>http://jimxu.me/2017/07/12/use-mtr-detect-network-status/</id>
+    <published>2017-07-12T09:21:07.000Z</published>
+    <updated>2017-07-12T16:07:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>mtr集成了traceroute、ping、nslookup功能</p>
+<a id="more"></a>
+<h1 id="安装mtr"><a href="#安装mtr" class="headerlink" title="安装mtr"></a>安装mtr</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install mtr</div></pre></td></tr></table></figure>
+<h1 id="使用mtr"><a href="#使用mtr" class="headerlink" title="使用mtr"></a>使用mtr</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mtr ip/host_name</div></pre></td></tr></table></figure>
+<blockquote>
+<p>mtr -h  #提供帮助命令<br>mtr -v  #显示mtr的版本信息<br>mtr -r  #已报告模式显示<br>mtr -s  #用来指定ping数据包的大小<br>mtr –no-dns  #不对IP地址做域名解析<br>mtr -a  #来设置发送数据包的IP地址 这个对一个主机由多个IP地址是有用的<br>mtr -i  #使用这个参数来设置ICMP返回之间的要求默认是1秒<br>mtr -4  #IPv4<br>mtr -6  #IPv6</p>
+</blockquote>
+<h1 id="使用mtr检测域名"><a href="#使用mtr检测域名" class="headerlink" title="使用mtr检测域名"></a>使用mtr检测域名</h1><p> jimxu.me这个域名通过DNSPod分别解析到了16bh.github.io(国外)和jimxu.coding.me(国内)</p>
+<p> 对比下托管在国内外的两个Pages服务的网络状态<br> <img src="http://o9xbyqajf.bkt.clouddn.com/20170712149986203271598.png" alt="20170712149986203271598.png"></p>
+<p>可见国内网络时托管在coding.net的网站比托管在github的网站有了大幅的提速</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;mtr集成了traceroute、ping、nslookup功能&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="tools" scheme="http://jimxu.me/tags/tools/"/>
     
   </entry>
   

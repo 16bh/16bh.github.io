@@ -7,24 +7,32 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/2017/05/10/rebuild-mac-develop-environment/</loc>
+        <lastmod>2018-02-28T07:21:29.247Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
+        <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/2017/11/20/jupyter-support-php/</loc>
+        <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://jimxu.me/2018/02/28/mac-can-not-read-mobile-HDD/</loc>
         <lastmod>2018-02-28T07:20:25.825Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/11/08/about-scrum/</loc>
-        <lastmod>2017-11-08T15:16:01.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/11/08/scrum/</loc>
-        <lastmod>2017-11-08T15:05:43.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -41,22 +49,6 @@
     <url>
         <loc>http://jimxu.me/2017/07/07/ssh-connect-server-without-password/</loc>
         <lastmod>2017-11-07T08:30:10.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/11/02/mtr-1000x-change-device/</loc>
-        <lastmod>2017-11-02T09:27:48.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/10/18/BATJ/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -87,31 +79,7 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/08/17/hhkb-first-trial/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/10/18/how-to-keep-a-cat/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jimxu.me/2017/04/07/how-to-use-markdown/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -143,14 +111,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/10/18/some-flowers/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jimxu.me/2016/07/11/sublime3144-build-php-develop-environment/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -169,14 +129,6 @@
     <url>
         <loc>http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/07/27/go-study-note-beego-bee/</loc>
-        <lastmod>2017-08-01T13:20:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -511,14 +463,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/2017/07/17/swim-lesson-note/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://jimxu.me/2017/07/19/translate-seven-userfun-programming-habits/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -696,14 +640,6 @@
 
     <url>
         <loc>http://jimxu.me/2016/06/30/enable-magento-develop-model/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/05/31/favourite-movie-list/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1080,14 +1016,6 @@
 
     <url>
         <loc>http://jimxu.me/2016/07/07/python-install-requests/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/2017/05/10/rebuild-mac-develop-environment/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
