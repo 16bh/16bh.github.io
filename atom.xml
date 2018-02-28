@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2018-02-28T07:41:46.801Z</updated>
+  <updated>2018-02-28T07:44:41.418Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -20,26 +20,29 @@
     <link href="http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/"/>
     <id>http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/</id>
     <published>2018-02-28T07:28:11.000Z</published>
-    <updated>2018-02-28T07:41:46.801Z</updated>
+    <updated>2018-02-28T07:44:41.418Z</updated>
     
-    <content type="html"><![CDATA[<p>当你在办公室和家里有<br>多台mac时，数据如何保持同步</p>
+    <content type="html"><![CDATA[<p>当你在办公室和家里有多台mac时，数据如何保持同步<br>可以做到无缝切换电脑的效果</p>
 <a id="more"></a>
 <h1 id="笔记同步"><a href="#笔记同步" class="headerlink" title="笔记同步"></a>笔记同步</h1><ol>
+<li>【推荐】使用mac自带的<code>备忘录</code>记笔记，会自动通过<code>iCloud</code>同步，免费</li>
 <li>使用<code>Bear</code>订阅功能，通过<code>iCloud</code>同步所有的笔记，收费10元/月</li>
-<li>使用mac自带的<code>备忘录</code>记笔记，会自动通过<code>iCloud</code>同步，免费</li>
 <li>印象笔记，免费版只支持两台设备</li>
 </ol>
 <h1 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h1><p>使用云盘</p>
 <ol>
-<li><code>坚果云</code>，免费版一周可以用1G流量</li>
+<li>【推荐】<code>坚果云</code>，免费版一周可以用1G流量</li>
 <li><code>Dropbox</code>（可能存在网络问题）</li>
 <li><code>百度云盘</code>，无法自动同步，免费版下载速度慢</li>
 <li><code>金山快盘</code>，已关闭</li>
 </ol>
-<h1 id="书签同步"><a href="#书签同步" class="headerlink" title="书签同步"></a>书签同步</h1><p>通过<code>safari</code>，或登录后的<code>chrome</code>收藏你的网页书签</p>
+<h1 id="书签同步"><a href="#书签同步" class="headerlink" title="书签同步"></a>书签同步</h1><ol>
+<li>【推荐】safari</li>
+<li>chrome（须登录，可能存在网络问题）</li>
+</ol>
 <h1 id="postman同步"><a href="#postman同步" class="headerlink" title="postman同步"></a>postman同步</h1><p>postman是模拟api接口请求的工具<br>用相同的账号登录了postman之后，你请求的历史记录和收藏的api都可以自动同步</p>
 <h1 id="密码同步"><a href="#密码同步" class="headerlink" title="密码同步"></a>密码同步</h1><ol>
-<li>LastPass</li>
+<li>【推荐】LastPass，支持软件版和主流的浏览器的插件版</li>
 <li>1Password</li>
 <li>钥匙串</li>
 </ol>
@@ -48,7 +51,7 @@
     
     <summary type="html">
     
-      &lt;p&gt;当你在办公室和家里有&lt;br&gt;多台mac时，数据如何保持同步&lt;/p&gt;
+      &lt;p&gt;当你在办公室和家里有多台mac时，数据如何保持同步&lt;br&gt;可以做到无缝切换电脑的效果&lt;/p&gt;
     
     </summary>
     
