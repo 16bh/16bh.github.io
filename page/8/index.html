@@ -232,6 +232,203 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-magento-new-module-add-system-config" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/10/magento-new-module-add-system-config/" class="article-date">
+      <time datetime="2016-07-10T13:38:19.000Z" itemprop="datePublished">2016-07-10</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/10/magento-new-module-add-system-config/">magento新建模块的后台配置</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <blockquote>
+<p>在后台配置一些常量，比硬编码的方式更加灵活，不需要重新改写代码并上线才能生效，直接修改后台的配置就可以了</p>
+</blockquote>
+<h1 id="后台配置文件"><a href="#后台配置文件" class="headerlink" title="后台配置文件"></a>后台配置文件</h1><p>在模块的<code>etc</code>文件夹下新建<code>system.xml</code>和<code>adminhtml.xml</code></p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/07/10/magento-new-module-add-system-config/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hexo-landscape-plus-set-head-image" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/08/hexo-landscape-plus-set-head-image/" class="article-date">
+      <time datetime="2016-07-08T15:15:35.000Z" itemprop="datePublished">2016-07-08</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/08/hexo-landscape-plus-set-head-image/">hexo菜单栏背景图片设置</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>landscape-plus主题默认关闭了顶部的大图，如需开启，取消<code>header.styl</code>第33行的注释即可</p>
+<figure class="highlight styl"><figcaption><span>themes/landscape-plus/source/css/_partial/header.styl</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">background</span>: url(banner-url) center <span class="number">#000</span></div></pre></td></tr></table></figure>
+<p>如需修改高度：<br><figure class="highlight styl"><figcaption><span>hexo\themes\landscape-plus\source\css\_variables.styl</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">banner-<span class="attribute">height</span> = <span class="number">280px</span>   //修改menu图片高度</div></pre></td></tr></table></figure></p>
+<p>随机切换背景图片效果设置：<br><figure class="highlight styl"><figcaption><span>hexo\themes\landscape-plus\source\css\_variables.styl</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">//banner-url = "images/banner.jpg"</span></div><div class="line">banner-url = <span class="string">"https://unsplash.it/1920/280/?random"</span></div></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hexo-bind-godaddy-host-name" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/08/hexo-bind-godaddy-host-name/" class="article-date">
+      <time datetime="2016-07-08T14:42:40.000Z" itemprop="datePublished">2016-07-08</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/08/hexo-bind-godaddy-host-name/">hexo绑定DNSPOD代理的狗爹域名</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h1 id="购买域名"><a href="#购买域名" class="headerlink" title="购买域名"></a>购买域名</h1><p>在<a href="https://au.godaddy.com/" target="_blank" rel="external">狗爹</a>上购买域名,已有域名的可忽略<br>然后修改成国内的DNS代理</p>
+<p><code>VISIT MY ACCOUNT</code></p>
+<p>管理域名：<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1467989090580.png" alt=""></p>
+<p>管理DNS：<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1467989132015.png" alt=""></p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/07/08/hexo-bind-godaddy-host-name/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-fix-hexo-baidu-share" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -1049,201 +1246,6 @@
 
 
   
-    <article id="post-fix-hexo-landscape-plus-theme-cannot-split-page" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/" class="article-date">
-      <time datetime="2016-07-06T07:23:12.000Z" itemprop="datePublished">2016-07-06</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/">解决hexo的landscape-plus主题标签和归档无法分页的bug</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <blockquote>
-<p>主题自带的bug导致的</p>
-</blockquote>
-<p>修改文件<code>hexo/themes/landscape-plus/layout/_partial/archive.ejs</code>，在倒数第二行加入如下内容：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;nav id=<span class="string">"page-nav"</span>&gt; &lt;%- paginator(&#123; prev_text: "&lt;&lt; Prev", next_text: "Next &gt;&gt;" &#125;) %&gt; &lt;/nav&gt;</div></pre></td></tr></table></figure>
-<p>其中，上一页和下一页的样式可自行修改</p>
-<p>修改后的效果见：<a href="https://16bh.github.io/archives/" target="_blank" rel="external">https://16bh.github.io/archives/</a></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hexo-landscape-plus-add-post-toc" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/06/hexo-landscape-plus-add-post-toc/" class="article-date">
-      <time datetime="2016-07-06T06:59:23.000Z" itemprop="datePublished">2016-07-06</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/06/hexo-landscape-plus-add-post-toc/">landscape-plus主题增加hexo文章目录功能</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>第一步，编辑<code>themes\landscape-plus\layout\_partial\article.ejs</code>文件，在<code>&lt;%- post.content %&gt;</code>这一行之前加入如下代码:</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;!-- Table <span class="keyword">of</span> Contents --&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (!<span class="attr">index</span> &amp;&amp; <span class="attr">post.toc</span>)&#123; %&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"toc"</span> <span class="attr">class</span>=<span class="string">"toc-article"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">strong</span> <span class="attr">class</span>=<span class="string">"toc-title"</span>&gt;</span>文章目录<span class="tag">&lt;/<span class="name">strong</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">%-</span> <span class="attr">toc</span>(<span class="attr">post.content</span>) %&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></div></pre></td></tr></table></figure>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/07/06/hexo-landscape-plus-add-post-toc/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hexo-new-post-template" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/06/hexo-new-post-template/" class="article-date">
-      <time datetime="2016-07-06T06:41:14.000Z" itemprop="datePublished">2016-07-06</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/06/hexo-new-post-template/">hexo默认文章的模板修改</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <blockquote>
-<p>新增了文章目录功能后，每次新建文章时都需要加上<code>toc: true</code>，修改默认的文章模板，下次新建时就不用手动输入了</p>
-</blockquote>
-<p>直接修改<code>/scaffolds/post.md</code>,加入<code>toc: true</code>即可</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: &#123;&#123; title &#125;&#125;</div><div class="line">date: &#123;&#123; date &#125;&#125;</div><div class="line">tags:</div><div class="line">toc: true</div><div class="line">---</div></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/page/7/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><a class="page-number" href="/page/7/">7</a><span class="page-number current">8</span><a class="page-number" href="/page/9/">9</a><a class="page-number" href="/page/10/">10</a><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/9/">Next &raquo;</a>
@@ -1255,7 +1257,7 @@
         <div id="footer-info">
             <div class="footer-left">
                 <i class="fa fa-copyright"></i>
-                2015-2017 小凡<a href="mailto:xujun_njupt@126.com">通过邮件联系我</a>
+                2015-2018 小凡<a href="mailto:xujun_njupt@126.com">通过邮件联系我</a>
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2017-11-02T09:27:48.000Z</updated>
+  <updated>2018-02-28T07:20:25.825Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,91 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mac无法读取移动硬盘</title>
+    <link href="http://jimxu.me/2018/02/28/mac-can-not-read-mobile-HDD/"/>
+    <id>http://jimxu.me/2018/02/28/mac-can-not-read-mobile-HDD/</id>
+    <published>2018-02-28T07:19:56.000Z</published>
+    <updated>2018-02-28T07:20:25.825Z</updated>
+    
+    <content type="html"><![CDATA[<p>提示 </p>
+<blockquote>
+<p>无法识别{硬盘名称}，无法找到原身</p>
+</blockquote>
+<a id="more"></a>
+<p>解决方案：</p>
+<ol>
+<li><p><a href="https://www.paragon-software.com/home/ntfs-mac/" target="_blank" rel="external">下载<code>Paragon NTFS for Mac</code></a>，该软件是收费的，但是有10天的试用期</p>
+</li>
+<li><p>打开<code>Paragon NTFS for Mac</code></p>
+</li>
+<li><p>选中你的硬盘，点击<code>认证</code></p>
+</li>
+</ol>
+<p>￼</p>
+<ol>
+<li>重启mac后生效</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;提示 &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;无法识别{硬盘名称}，无法找到原身&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="mac" scheme="http://jimxu.me/categories/mac/"/>
+    
+    
+      <category term="mac" scheme="http://jimxu.me/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关于敏捷</title>
+    <link href="http://jimxu.me/2017/11/08/about-scrum/"/>
+    <id>http://jimxu.me/2017/11/08/about-scrum/</id>
+    <published>2017-11-08T15:05:55.000Z</published>
+    <updated>2017-11-08T15:16:01.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<p>《人月神话》</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;《人月神话》&lt;/p&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>scrum</title>
+    <link href="http://jimxu.me/2017/11/08/scrum/"/>
+    <id>http://jimxu.me/2017/11/08/scrum/</id>
+    <published>2017-11-08T15:05:43.000Z</published>
+    <updated>2017-11-08T15:05:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>mtr-1000x-change-device</title>
@@ -746,105 +831,6 @@
     
     
       <category term="php" scheme="http://jimxu.me/tags/php/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>关闭mac自动大写单词首字母功能</title>
-    <link href="http://jimxu.me/2017/07/25/disable-auto-ucfirst-word-on-mac/"/>
-    <id>http://jimxu.me/2017/07/25/disable-auto-ucfirst-word-on-mac/</id>
-    <published>2017-07-25T07:12:28.000Z</published>
-    <updated>2017-07-31T13:14:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097228693096.png" width="492" height="297"></p>
-<a id="more"></a>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150096665552592.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170725150097228693096.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="mac" scheme="http://jimxu.me/tags/mac/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装xdebug后var_dump显示问题</title>
-    <link href="http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/"/>
-    <id>http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/</id>
-    <published>2017-07-24T09:08:19.000Z</published>
-    <updated>2017-07-31T13:14:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png" width="492" height="297"></p>
-<p> 安装了xdebug之后，使用var_dump打印输出时显示错误</p>
-<a id="more"></a>
-<p> 错误如下：</p>
-<p> <img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088734626603.jpg"></p>
-<p>在网上查询了一下，有人说先检查一下php的配置中<code>html_errors</code>这项是否是开启的，如果是Off的就把它设置为On</p>
-<p>php手册中关于html_errors的介绍：</p>
-<blockquote>
-<p>html_errors boolean<br>在错误信息中关闭HTML标签。这种新的HTML格式的错误信息是可以点击，它引导用户前往描述该错误或者导致该错误发生的函数的参考信息页面。 这些参考与 docref_root 和 docref_ext 的设置有关。</p>
-</blockquote>
-<p>检查的方法是在终端输入以下命令</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -i | grep html_errors</div></pre></td></tr></table></figure>
-<p>好了，先检查一下</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088750041484.jpg"></p>
-<p>果然是关闭的，去<code>php.ini</code>里开启它吧</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088738770125.jpg"></p>
-<p>若还未生效<br>查看php设置的<code>xdebug.overload_var_dump</code>这一项，将其设置为0</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097075965208.png"></p>
-<p>改好了重启php-fpm服务</p>
-<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><blockquote>
-<p><a href="http://www.cnblogs.com/huangye-dream/p/4182803.html" target="_blank" rel="external">http://www.cnblogs.com/huangye-dream/p/4182803.html</a></p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-&lt;p&gt; 安装了xdebug之后，使用var_dump打印输出时显示错误&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
-    
-      <category term="xdebug" scheme="http://jimxu.me/tags/xdebug/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>美区apple账号的申请和使用</title>
-    <link href="http://jimxu.me/2017/07/21/apple-usa-account/"/>
-    <id>http://jimxu.me/2017/07/21/apple-usa-account/</id>
-    <published>2017-07-21T14:16:32.000Z</published>
-    <updated>2017-07-21T14:28:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170721150064666695739.png" width="492" height="297"></p>
-<a id="more"></a>
-<h2 id="申请美区账号"><a href="#申请美区账号" class="headerlink" title="申请美区账号"></a>申请美区账号</h2><ul>
-<li>先选择一款免费的软件点击下载（必须要有这一步，否则选择付款方式的时候不会出现none的选项)</li>
-<li>申请账号，地点选择美国，下一步</li>
-<li>输入邮箱账号，密码，下一步</li>
-<li>输入姓，名，安全问题，下一步</li>
-<li>付款方式处选“None”，填写详细地址，下一步</li>
-<li>验证邮箱，成功！</li>
-</ul>
-<h2 id="快速切换中区账号和美区账号"><a href="#快速切换中区账号和美区账号" class="headerlink" title="快速切换中区账号和美区账号"></a>快速切换中区账号和美区账号</h2><p>使用workflow实现<br><a href="https://workflow.is/workflows/9f3eb6c502b14181a5abd690b16338ec" target="_blank" rel="external">https://workflow.is/workflows/9f3eb6c502b14181a5abd690b16338ec</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170721150064666695739.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="life" scheme="http://jimxu.me/tags/life/"/>
     
   </entry>
   

@@ -232,6 +232,201 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-fix-hexo-landscape-plus-theme-cannot-split-page" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/" class="article-date">
+      <time datetime="2016-07-06T07:23:12.000Z" itemprop="datePublished">2016-07-06</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/">解决hexo的landscape-plus主题标签和归档无法分页的bug</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <blockquote>
+<p>主题自带的bug导致的</p>
+</blockquote>
+<p>修改文件<code>hexo/themes/landscape-plus/layout/_partial/archive.ejs</code>，在倒数第二行加入如下内容：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;nav id=<span class="string">"page-nav"</span>&gt; &lt;%- paginator(&#123; prev_text: "&lt;&lt; Prev", next_text: "Next &gt;&gt;" &#125;) %&gt; &lt;/nav&gt;</div></pre></td></tr></table></figure>
+<p>其中，上一页和下一页的样式可自行修改</p>
+<p>修改后的效果见：<a href="https://16bh.github.io/archives/" target="_blank" rel="external">https://16bh.github.io/archives/</a></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hexo-landscape-plus-add-post-toc" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/06/hexo-landscape-plus-add-post-toc/" class="article-date">
+      <time datetime="2016-07-06T06:59:23.000Z" itemprop="datePublished">2016-07-06</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/06/hexo-landscape-plus-add-post-toc/">landscape-plus主题增加hexo文章目录功能</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>第一步，编辑<code>themes\landscape-plus\layout\_partial\article.ejs</code>文件，在<code>&lt;%- post.content %&gt;</code>这一行之前加入如下代码:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;!-- Table <span class="keyword">of</span> Contents --&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (!<span class="attr">index</span> &amp;&amp; <span class="attr">post.toc</span>)&#123; %&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"toc"</span> <span class="attr">class</span>=<span class="string">"toc-article"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">strong</span> <span class="attr">class</span>=<span class="string">"toc-title"</span>&gt;</span>文章目录<span class="tag">&lt;/<span class="name">strong</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">%-</span> <span class="attr">toc</span>(<span class="attr">post.content</span>) %&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></div></pre></td></tr></table></figure>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/07/06/hexo-landscape-plus-add-post-toc/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-hexo-new-post-template" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/06/hexo-new-post-template/" class="article-date">
+      <time datetime="2016-07-06T06:41:14.000Z" itemprop="datePublished">2016-07-06</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/06/hexo-new-post-template/">hexo默认文章的模板修改</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <blockquote>
+<p>新增了文章目录功能后，每次新建文章时都需要加上<code>toc: true</code>，修改默认的文章模板，下次新建时就不用手动输入了</p>
+</blockquote>
+<p>直接修改<code>/scaffolds/post.md</code>,加入<code>toc: true</code>即可</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">---</div><div class="line">title: &#123;&#123; title &#125;&#125;</div><div class="line">date: &#123;&#123; date &#125;&#125;</div><div class="line">tags:</div><div class="line">toc: true</div><div class="line">---</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-hexo-landscape-pluas-add-recent-comment" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -265,7 +460,7 @@
 <p>前提：你的hexo已经配置了多说</p>
 </blockquote>
 <p>先<code>themes/landscape-plus/layout/_widget</code>目录下新建小物件<code>duoshuo_recent_comments.ejs</code>，编辑如下：</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (theme.duoshuo_shortname)&#123; %&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget-wrap"</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">"widget-title"</span>&gt;</span>最近评论<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"ds-recent-comments"</span> <span class="attr">data-num-items</span>=<span class="string">"5"</span> <span class="attr">data-show-avatars</span>=<span class="string">"1"</span> <span class="attr">data-show-time</span>=<span class="string">"1"</span> <span class="attr">data-show-title</span>=<span class="string">"1"</span> <span class="attr">data-show-admin</span>=<span class="string">"1"</span> <span class="attr">data-excerpt-length</span>=<span class="string">"70"</span>&gt;</span><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">&lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (theme.duoshuo_shortname)&#123; %&gt;</div><div class="line">&lt;div class="widget-wrap"&gt;</div><div class="line">  &lt;h3 class="widget-title"&gt;最近评论&lt;/h3&gt;</div><div class="line">&lt;div class="widget"&gt;</div><div class="line">&lt;ul class="ds-recent-comments" data-num-items="5" data-show-avatars="1" data-show-time="1" data-show-title="1" data-show-admin="1" data-excerpt-length="70"&gt;&lt;/ul&gt;</div><div class="line">&lt;/div&gt;</div><div class="line">  &lt;/div&gt;</div><div class="line">&lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
 <p>再修改主题的配置<code>themes/landscape-plus/_config.yml</code></p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Sidebar</span></div><div class="line"><span class="attr">sidebar:</span> <span class="string">right</span></div><div class="line"><span class="attr">widgets:</span></div><div class="line"><span class="bullet">-</span> <span class="string">recent_posts</span></div><div class="line"><span class="bullet">-</span> <span class="string">category</span></div><div class="line"><span class="bullet">-</span> <span class="string">tag</span></div><div class="line"><span class="bullet">-</span> <span class="string">tagcloud</span></div><div class="line"><span class="bullet">-</span> <span class="string">archive</span></div><div class="line"><span class="bullet">-</span> <span class="string">links</span></div><div class="line"><span class="bullet">-</span> <span class="string">duoshuo_recent_comments</span>    <span class="string">//与小物件的名称保持一致</span></div></pre></td></tr></table></figure>
 
@@ -672,9 +867,9 @@
 <ol>
 <li>修改<code>themes\landscape\layout\_partial\article.ejs</code><br>删除下面的<code>disqus</code>评论的代码：</li>
 </ol>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.disqus_shortname)&#123; %&gt;</div><div class="line">  <span class="xml"><span class="tag">&lt;<span class="name">section</span> <span class="attr">id</span>=<span class="string">"comments"</span>&gt;</span></span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"disqus_thread"</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">noscript</span>&gt;</span>Please enable JavaScript to view the <span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"//disqus.com/?ref_noscript"</span>&gt;</span>comments powered by Disqus.<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">noscript</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line">  &lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.disqus_shortname)&#123; %&gt;</div><div class="line">  &lt;section id="comments"&gt;</div><div class="line">    &lt;div id="disqus_thread"&gt;</div><div class="line">      &lt;noscript&gt;Please enable JavaScript to view the &lt;a href="//disqus.com/?ref_noscript"&gt;comments powered by Disqus.&lt;/a&gt;&lt;/noscript&gt;</div><div class="line">    &lt;/div&gt;</div><div class="line">  &lt;/section&gt;</div><div class="line">  &lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
 <p>加入多说评论的代码</p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.duoshuo_shortname)&#123; %&gt;</div><div class="line">  <span class="xml"><span class="tag">&lt;<span class="name">section</span> <span class="attr">id</span>=<span class="string">"comments"</span>&gt;</span></span></div><div class="line">    <span class="comment">&lt;!-- 多说评论框 start --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"ds-thread"</span> <span class="attr">data-thread-key</span>=<span class="string">"&lt;%= post.layout %&gt;-&lt;%= post.slug %&gt;"</span> <span class="attr">data-title</span>=<span class="string">"&lt;%= post.title %&gt;"</span> <span class="attr">data-url</span>=<span class="string">"&lt;%= page.permalink %&gt;"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 多说评论框 end --&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">"text/javascript"</span>&gt;</span><span class="javascript"></span></div><div class="line">    <span class="keyword">var</span> duoshuoQuery = &#123;<span class="attr">short_name</span>:<span class="string">'&lt;%= config.duoshuo_shortname %&gt;'</span>&#125;;</div><div class="line">      (<span class="function"><span class="keyword">function</span>(<span class="params"></span>) </span>&#123;</div><div class="line">        <span class="keyword">var</span> ds = <span class="built_in">document</span>.createElement(<span class="string">'script'</span>);</div><div class="line">        ds.type = <span class="string">'text/javascript'</span>;ds.async = <span class="literal">true</span>;</div><div class="line">        ds.src = (<span class="built_in">document</span>.location.protocol == <span class="string">'https:'</span> ? <span class="string">'https:'</span> : <span class="string">'http:'</span>) + <span class="string">'//static.duoshuo.com/embed.js'</span>;</div><div class="line">        ds.charset = <span class="string">'UTF-8'</span>;</div><div class="line">        (<span class="built_in">document</span>.getElementsByTagName(<span class="string">'head'</span>)[<span class="number">0</span>] </div><div class="line">         || <span class="built_in">document</span>.getElementsByTagName(<span class="string">'body'</span>)[<span class="number">0</span>]).appendChild(ds);</div><div class="line">      &#125;)();</div><div class="line">      <span class="tag">&lt;/<span class="name">script</span>&gt;</span></div><div class="line">    <span class="comment">&lt;!-- 多说公共JS代码 end --&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">section</span>&gt;</span></div><div class="line">  &lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (!index &amp;&amp; post.comments &amp;&amp; config.duoshuo_shortname)&#123; %&gt;</div><div class="line">  &lt;section id="comments"&gt;</div><div class="line">    &lt;!-- 多说评论框 start --&gt;</div><div class="line">    &lt;div class="ds-thread" data-thread-key="&lt;%= post.layout %&gt;-&lt;%= post.slug %&gt;" data-title="&lt;%= post.title %&gt;" data-url="&lt;%= page.permalink %&gt;"&gt;&lt;/div&gt;</div><div class="line">    &lt;!-- 多说评论框 end --&gt;</div><div class="line">    &lt;!-- 多说公共JS代码 start (一个网页只需插入一次) --&gt;</div><div class="line">    &lt;script type="text/javascript"&gt;</div><div class="line">    var duoshuoQuery = &#123;short_name:'&lt;%= config.duoshuo_shortname %&gt;'&#125;;</div><div class="line">      (function() &#123;</div><div class="line">        var ds = document.createElement('script');</div><div class="line">        ds.type = 'text/javascript';ds.async = true;</div><div class="line">        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';</div><div class="line">        ds.charset = 'UTF-8';</div><div class="line">        (document.getElementsByTagName('head')[0] </div><div class="line">         || document.getElementsByTagName('body')[0]).appendChild(ds);</div><div class="line">      &#125;)();</div><div class="line">      &lt;/script&gt;</div><div class="line">    &lt;!-- 多说公共JS代码 end --&gt;</div><div class="line">  &lt;/section&gt;</div><div class="line">  &lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
 
       
     </div>
@@ -1081,222 +1276,6 @@
 
 
   
-    <article id="post-disable-module-in-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/disable-module-in-magento/" class="article-date">
-      <time datetime="2016-06-30T10:27:32.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/disable-module-in-magento/">禁用magento模块</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <blockquote>
-<p>有时候，我们需要禁用一些不用的模块，如magento核心模块中的Authorizenet模块是国外支付用的一个模块，国内商城是用不上的，可以禁用，让magento更轻便</p>
-</blockquote>
-<p>访问magento后台<code>localhost/magento/admin</code><br>选择<code>System/Configuration</code><br>在左侧选择<code>ADVANED/Advanced</code>，<br><img src="http://upload-images.jianshu.io/upload_images/1903856-cb84f511b6388b7e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Paste_Image.png"><br>在右侧展示的是所有已激活的模块列表</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-a8e371b2a6b41166.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-<p>找到你要禁用的模块，将模块右侧的状态从‘Enable’改成‘Disable’就可以禁用该模块了，如图所示</p>
-<p><img src="http://upload-images.jianshu.io/upload_images/1903856-d528da826076ded9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt=""></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-how-to-add-module-in-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/how-to-add-module-in-magento/" class="article-date">
-      <time datetime="2016-06-30T10:26:54.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/how-to-add-module-in-magento/">新增magento模块</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <blockquote>
-<p>模块是magento的基本功能单位<br>因为业务的需求而新增一个模块是常见的需求，网上也有很多的教程，推荐《深入理解magento第二章》</p>
-</blockquote>
-<h1 id="一切的开始"><a href="#一切的开始" class="headerlink" title="一切的开始"></a>一切的开始</h1><p>首先，成立一个公司，就叫<code>Nano</code>吧（- - 说到底不过是为了存放模块用的吧）<br>然后，就建立一个<code>app</code>的模块好了，一个好的公司怎么能没有<code>app</code>应用呢</p>
-<h1 id="模块的结构"><a href="#模块的结构" class="headerlink" title="模块的结构"></a>模块的结构</h1><p>按如下路径建立文件夹和文件：<br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1467908621346.png"></p>
-<p>其中，</p>
-<ul>
-<li>local是本地模块的路径</li>
-<li>Nano是模块的名字空间，一般是公司名</li>
-<li>App是建立的模块名称，一般以它的功能进行命名</li>
-<li>App目录下的是一个模块</li>
-</ul>
-<h1 id="修改模块配置文件"><a href="#修改模块配置文件" class="headerlink" title="修改模块配置文件"></a>修改模块配置文件</h1><p>编辑模块的配置文件<code>Nano/App/etc/config.xml</code></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span><span class="meta">?&gt;</span></span></div><div class="line"><span class="tag">&lt;<span class="name">config</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">modules</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">Nano_App</span>&gt;</span><span class="comment">&lt;!--模块的名字空间与模块名称用下划线分隔开--&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>0.0.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span><span class="comment">&lt;!--配置文件的版本号是0.0.1，后面进行数据库操作的时候，修改数据库就要将版本号递增一次--&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">Nano_App</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">modules</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">config</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>#激活模块<br>在<code>app/etc/modules</code>中新增<code>Nano_App.xml</code>并编辑:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span><span class="meta">?&gt;</span></span></div><div class="line"><span class="tag">&lt;<span class="name">config</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">modules</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">Nano_App</span>&gt;</span><span class="comment">&lt;!--模块的名字空间与模块名称用下划线分隔开--&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">active</span>&gt;</span>true<span class="tag">&lt;/<span class="name">active</span>&gt;</span><span class="comment">&lt;!--模块的激活状态，若为false，则模块未启用--&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">codePool</span>&gt;</span>local<span class="tag">&lt;/<span class="name">codePool</span>&gt;</span><span class="comment">&lt;!--模块的位置属性，分为核心core、社区community、本地local--&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">Nano_App</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">modules</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">config</span>&gt;</span></div></pre></td></tr></table></figure>
-<h1 id="查看模块是否新增成功"><a href="#查看模块是否新增成功" class="headerlink" title="查看模块是否新增成功"></a>查看模块是否新增成功</h1><p>先清除<code>magento</code>的缓存，使得上述配置文件生效</p>
-<p>然后访问<code>magento</code>后台<code>localhost/magento/admin</code>，如果已经登录后台了，那么可能需要退出登录重新登录后台<br>选择<code>System/Configuration</code><br>然后在左边的菜单栏选择<code>Advanced</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/images/1467908925897.png"></p>
-<p>在右侧展示的是所有模块</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/images/1467908876033.png"></p>
-<p>如果能在列表中找到刚建立的模块 <code>Tecent_App</code>,那么就说明模块新建成功了,如图所示</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-enable-magento-develop-model" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/enable-magento-develop-model/" class="article-date">
-      <time datetime="2016-06-30T10:26:22.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/enable-magento-develop-model/">开启开发者模式</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <blockquote>
-<p>开启了开发者模式后，可以直接在页面上显示错误信息</p>
-</blockquote>
-<ol>
-<li><p><code>项目根目录/errors</code>下的<code>local.xml.sample</code> 修改为<code>local.xml</code></p>
-</li>
-<li><p>修改index.php</p>
-</li>
-</ol>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">if</span> (<span class="keyword">isset</span>($_SERVER[<span class="string">'MAGE_IS_DEVELOPER_MODE'</span>])) &#123;</div><div class="line">    Mage::setIsDeveloperMode(<span class="keyword">true</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">#ini_set('display_errors', 1);</span></div></pre></td></tr></table></figure>
-<p>改为</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Mage::setIsDeveloperMode(<span class="keyword">true</span>);</div><div class="line">ini_set(<span class="string">'display_errors'</span>, <span class="number">1</span>);</div></pre></td></tr></table></figure>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
   
     <nav id="page-nav">
       <a class="extend prev" rel="prev" href="/page/8/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/7/">7</a><a class="page-number" href="/page/8/">8</a><span class="page-number current">9</span><a class="page-number" href="/page/10/">10</a><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/10/">Next &raquo;</a>
@@ -1308,7 +1287,7 @@
         <div id="footer-info">
             <div class="footer-left">
                 <i class="fa fa-copyright"></i>
-                2015-2017 小凡<a href="mailto:xujun_njupt@126.com">通过邮件联系我</a>
+                2015-2018 小凡<a href="mailto:xujun_njupt@126.com">通过邮件联系我</a>
             </div>
             <div class="footer-right">
                 <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>

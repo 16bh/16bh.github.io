@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[mac无法读取移动硬盘]]></title>
+    <url>%2F2018%2F02%2F28%2Fmac-can-not-read-mobile-HDD%2F</url>
+    <content type="text"><![CDATA[提示 无法识别{硬盘名称}，无法找到原身 解决方案： 下载Paragon NTFS for Mac，该软件是收费的，但是有10天的试用期 打开Paragon NTFS for Mac 选中你的硬盘，点击认证 ￼ 重启mac后生效]]></content>
+      <categories>
+        <category>mac</category>
+      </categories>
+      <tags>
+        <tag>mac</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[关于敏捷]]></title>
+    <url>%2F2017%2F11%2F08%2Fabout-scrum%2F</url>
+    <content type="text"><![CDATA[《人月神话》]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[scrum]]></title>
+    <url>%2F2017%2F11%2F08%2Fscrum%2F</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[mtr-1000x-change-device]]></title>
     <url>%2F2017%2F11%2F02%2Fmtr-1000x-change-device%2F</url>
     <content type="text"><![CDATA[mtr 1000x已经跟一台设备的蓝牙匹配了，如何跟另一台设备匹配 按住开关键7秒，直至蓝光和红光交替闪烁，此时可以在另一台设备的蓝牙列表中找到MDR-1000X，点击配对即可]]></content>
