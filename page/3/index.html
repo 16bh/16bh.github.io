@@ -232,6 +232,74 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-yaf-study-note-module" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/06/13/yaf-study-note-module/" class="article-date">
+      <time datetime="2017-06-13T02:12:59.000Z" itemprop="datePublished">2017-06-13</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/13/yaf-study-note-module/">yaf学习笔记 - 模块</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h2 id="模块是什么？"><a href="#模块是什么？" class="headerlink" title="模块是什么？"></a>模块是什么？</h2><p>设计模式的一条准则是“高内聚，低耦合”。<br>模块是高内聚的一种实现手段</p>
+<h2 id="建立模块"><a href="#建立模块" class="headerlink" title="建立模块"></a>建立模块</h2><p>当我们访问application/controllers/IndexController的时候，相当于访问了默认的Index模块，这是由配置决定的</p>
+<figure class="highlight"><figcaption><span>application.ini</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">application.dispatcher.defaultModule = Index</div></pre></td></tr></table></figure>
+<p>我们要实现一个博客网站，文章可以作为一个模块<br>在application目录下新建modules目录，建立Post文件夹，在Post下面依次建立models,views,controllers,在Post/controllers下建立List.php文件，内容如下：</p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">    <span class="class"><span class="keyword">class</span> <span class="title">ListController</span> <span class="keyword">extends</span> <span class="title">Yaf_Controller_Abstract</span></span></div><div class="line">    &#123;</div><div class="line">        <span class="keyword">public</span> <span class="function"><span class="keyword">function</span> <span class="title">viewAction</span><span class="params">()</span></span></div><div class="line">        &#123;</div><div class="line">              </div><div class="line">        &#125;</div><div class="line">    &#125;</div></pre></td></tr></table></figure>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/yaf/">yaf</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2017/06/13/yaf-study-note-module/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-yaf-study-note-mvc" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -1142,70 +1210,6 @@
       
         <p class="article-more-link">
           <a href="/2017/04/13/mysql-install-mysql-via-package/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-mysql-error-The-server-quit-without-updating-PID-file" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/" class="article-date">
-      <time datetime="2017-04-12T11:06:00.000Z" itemprop="datePublished">2017-04-12</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/">[mysql error]The server quit without updating PID file </a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>mysql是通过homebrew安装的,重启电脑后启动mysql报错</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/error/">error</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/#more">阅读全文 >></a>
         </p>
       
       <div class="clearfix"></div>

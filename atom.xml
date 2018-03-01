@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2018-02-28T07:44:41.418Z</updated>
+  <updated>2018-03-01T12:01:22.680Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -16,11 +16,51 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>用Photos管理你的相册</title>
+    <link href="http://jimxu.me/2018/03/01/how-to-manage-your-photos-with-Photos/"/>
+    <id>http://jimxu.me/2018/03/01/how-to-manage-your-photos-with-Photos/</id>
+    <published>2018-03-01T11:47:39.000Z</published>
+    <updated>2018-03-01T12:01:22.680Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h1 id="从iphone导入照片"><a href="#从iphone导入照片" class="headerlink" title="从iphone导入照片"></a>从iphone导入照片</h1><ol>
+<li>用数据线连接你的iphone和mac</li>
+<li>解锁iphone</li>
+<li>打开Photos</li>
+<li>左侧设备一栏会出现你的手机，点击后，会出现你手机上所有的照片，上面是已导入的，下面是未导入的新照片，可以选择右上角的<code>导入所有新照片</code>导入全部，也可以勾选想要导入的照片再导入</li>
+</ol>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990498860725.png" alt="20180301151990498860725.png"></p>
+<p>注意：<br>（1）右上角有个选项叫<code>导入后删除项目</code>，若勾选这一项，会将手机中的照片删掉<br>（2）导入之后，在Photos软件中修改或删除照片，不会影响手机中存储的照片<br>（3）导入的时候可以指定某个相簿，若未指定，则导入到<code>照片</code>中</p>
+<h1 id="从其他地方导入"><a href="#从其他地方导入" class="headerlink" title="从其他地方导入"></a>从其他地方导入</h1><p>安卓手机或下载到某个文件夹中的照片也可以导入Photos中<br>选择<code>文件/导入</code>，选择照片存储的文件夹，之后的导入方式跟从iphone中导入完全一致。不需要导入重复的照片，软件会将重复的照片自动识别为已导入的</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990534676408.png" alt="20180301151990534676408.png"></p>
+<h1 id="照片的整理"><a href="#照片的整理" class="headerlink" title="照片的整理"></a>照片的整理</h1><h2 id="加入相册"><a href="#加入相册" class="headerlink" title="加入相册"></a>加入相册</h2><p>右击某张照片，选择<code>添加到/新建相册（或某个已存在的相册）</code></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990548766014.png" alt="20180301151990548766014.png"></p>
+<p>之后可以在左侧的<code>相簿/我的相簿</code>中查看</p>
+<h2 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h2><p>再带编辑功能，可以进行<code>调整</code>或<code>滤镜</code>或<code>裁剪</code>操作</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990563728227.png" alt="20180301151990563728227.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h1 id=&quot;从iphone导入照片&quot;&gt;&lt;a href=&quot;#从iphone导入照片&quot; class=&quot;headerlink&quot; title=&quot;从iphone导入照片&quot;&gt;&lt;/a&gt;从iphone导入照片&lt;/h1&gt;&lt;ol&gt;
+&lt;li&gt;用数据线连接你的ip
+    
+    </summary>
+    
+      <category term="mac" scheme="http://jimxu.me/categories/mac/"/>
+    
+    
+      <category term="mac" scheme="http://jimxu.me/tags/mac/"/>
+    
+  </entry>
+  
+  <entry>
     <title>多台mac之间的数据同步问题</title>
     <link href="http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/"/>
     <id>http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/</id>
     <published>2018-02-28T07:28:11.000Z</published>
-    <updated>2018-02-28T07:44:41.418Z</updated>
+    <updated>2018-03-01T11:26:32.096Z</updated>
     
     <content type="html"><![CDATA[<p>当你在办公室和家里有多台mac时，数据如何保持同步<br>可以做到无缝切换电脑的效果</p>
 <a id="more"></a>
@@ -46,6 +86,10 @@
 <li>1Password</li>
 <li>钥匙串</li>
 </ol>
+<h1 id="Hosts同步"><a href="#Hosts同步" class="headerlink" title="Hosts同步"></a>Hosts同步</h1><p>SwitchHosts，须手动备份</p>
+<p>使用<code>文件/导出</code>功能将hosts文件导出到坚果云</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990353149728.png" alt="20180301151990353149728.png"></p>
+<p>另一台电脑直接从坚果云中导入，即可</p>
 <h1 id="代码同步"><a href="#代码同步" class="headerlink" title="代码同步"></a>代码同步</h1><p>git或svn</p>
 ]]></content>
     
@@ -798,60 +842,6 @@
       <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
     
       <category term="error" scheme="http://jimxu.me/tags/error/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>crontab入门</title>
-    <link href="http://jimxu.me/2017/07/12/get-started-to-crontab/"/>
-    <id>http://jimxu.me/2017/07/12/get-started-to-crontab/</id>
-    <published>2017-07-12T09:43:43.000Z</published>
-    <updated>2017-07-12T12:15:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>crontab用来定时执行脚本</p>
-<p>为什么要定时执行脚本：</p>
-<ul>
-<li>异步处理，如下单赠品，计算用户会员等</li>
-<li>自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等</li>
-</ul>
-<a id="more"></a>
-<h2 id="crontab文件格式"><a href="#crontab文件格式" class="headerlink" title="crontab文件格式"></a>crontab文件格式</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">分钟 小时 日 月 星期 [command]</div></pre></td></tr></table></figure>
-<p>一条crontab执行的shell脚本分为6部分</p>
-<ol>
-<li>分钟,默认*</li>
-<li>小时,默认*</li>
-<li>日,默认*</li>
-<li>月,默认*</li>
-<li>星期,默认*</li>
-<li>命令</li>
-</ol>
-<p>前面五个部分用于指定脚本的执行时间和频率，默认<code>* * * * *</code>代表每分钟执行一次</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">//输入精确时间</div><div class="line">3 * * * * do_sth	   //每3分钟执行一次</div><div class="line">//输入范围</div><div class="line">* 5-23 * * * do_sth   //从凌晨5点到晚上11点每分钟执行一次（普通人作息时间）</div><div class="line">//输入可选项</div><div class="line">* * * * 6,7          //在周六和周日每分钟执行一次</div></pre></td></tr></table></figure>
-<h2 id="启用cron"><a href="#启用cron" class="headerlink" title="启用cron"></a>启用cron</h2><p>新建一个cron文件 <code>$HOME/jimcron</code><br>编辑如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">#log time every min</div><div class="line">* * * * * /bin/echo date &gt; ~/cron.log</div></pre></td></tr></table></figure>
-<p>然后执行下面的命令启用cron</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab $HOME/jimcron</div></pre></td></tr></table></figure>
-<h2 id="查看所有cron"><a href="#查看所有cron" class="headerlink" title="查看所有cron"></a>查看所有cron</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab -l</div></pre></td></tr></table></figure>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170712149985458536665.png" alt="20170712149985458536665.png"></p>
-<h2 id="cron备份与恢复"><a href="#cron备份与恢复" class="headerlink" title="cron备份与恢复"></a>cron备份与恢复</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">crontab -l &gt; $HOME/jimcron  //备份cron</div><div class="line">crontab $HOME/jimcron	//恢复cron</div></pre></td></tr></table></figure>
-<h2 id="编辑当前用户的cron"><a href="#编辑当前用户的cron" class="headerlink" title="编辑当前用户的cron"></a>编辑当前用户的cron</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab -e</div></pre></td></tr></table></figure>
-<h2 id="删除cron文件"><a href="#删除cron文件" class="headerlink" title="删除cron文件"></a>删除cron文件</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">crontab -r</div></pre></td></tr></table></figure>
-<h2 id="ubuntu下cron命令"><a href="#ubuntu下cron命令" class="headerlink" title="ubuntu下cron命令"></a>ubuntu下cron命令</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo /etc/init.d/cron start	//启动</div><div class="line">sudo /etc/init.d/cron stop 	//关闭</div><div class="line">sudo /etc/init.d/cron restart		//重启</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;crontab用来定时执行脚本&lt;/p&gt;
-&lt;p&gt;为什么要定时执行脚本：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;异步处理，如下单赠品，计算用户会员等&lt;/li&gt;
-&lt;li&gt;自动化，如整点时间让用户可以签到，凌晨五点恢复游戏内体力等&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="shell" scheme="http://jimxu.me/tags/shell/"/>
     
   </entry>
   
