@@ -67,9 +67,20 @@
     <link href="http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/"/>
     <id>http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/</id>
     <published>2018-02-28T07:28:11.000Z</published>
-    <updated>2018-03-02T03:30:25.637Z</updated>
+    <updated>2018-03-02T03:35:00.515Z</updated>
     
     <content type="html"><![CDATA[<p>当你在办公室和家里有多台mac时，数据如何保持同步<br>可以做到无缝切换电脑的效果</p>
+<ul>
+<li>笔记同步</li>
+<li>文件同步</li>
+<li>书签同步</li>
+<li>postman同步</li>
+<li>密码同步</li>
+<li>hosts同步</li>
+<li>代码同步</li>
+<li>Atom配置同步</li>
+<li>粘贴板同步</li>
+</ul>
 <a id="more"></a>
 <h1 id="笔记同步"><a href="#笔记同步" class="headerlink" title="笔记同步"></a>笔记同步</h1><ol>
 <li>【推荐】使用mac自带的<code>备忘录</code>记笔记，会自动通过<code>iCloud</code>同步，免费</li>
@@ -103,11 +114,24 @@
 <p>只需要在设置里填写你的Personal Access Token和Gist Id就可以了<br>这两个都在github上申请，获取方式如下：</p>
 <p>Personal Access Token：<a href="https://github.com/settings/tokens" target="_blank" rel="external">https://github.com/settings/tokens</a></p>
 <p>Gist Id：<a href="https://gist.github.com/" target="_blank" rel="external">https://gist.github.com/</a></p>
+<h1 id="粘贴板同步"><a href="#粘贴板同步" class="headerlink" title="粘贴板同步"></a>粘贴板同步</h1><p>Paste</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151996169747597.png" alt="20180302151996169747597.png"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;当你在办公室和家里有多台mac时，数据如何保持同步&lt;br&gt;可以做到无缝切换电脑的效果&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;笔记同步&lt;/li&gt;
+&lt;li&gt;文件同步&lt;/li&gt;
+&lt;li&gt;书签同步&lt;/li&gt;
+&lt;li&gt;postman同步&lt;/li&gt;
+&lt;li&gt;密码同步&lt;/li&gt;
+&lt;li&gt;hosts同步&lt;/li&gt;
+&lt;li&gt;代码同步&lt;/li&gt;
+&lt;li&gt;Atom配置同步&lt;/li&gt;
+&lt;li&gt;粘贴板同步&lt;/li&gt;
+&lt;/ul&gt;
     
     </summary>
     
