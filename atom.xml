@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2018-03-01T12:01:22.680Z</updated>
+  <updated>2018-03-02T02:29:19.293Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -20,9 +20,14 @@
     <link href="http://jimxu.me/2018/03/01/how-to-manage-your-photos-with-Photos/"/>
     <id>http://jimxu.me/2018/03/01/how-to-manage-your-photos-with-Photos/</id>
     <published>2018-03-01T11:47:39.000Z</published>
-    <updated>2018-03-01T12:01:22.680Z</updated>
+    <updated>2018-03-02T02:29:19.293Z</updated>
     
-    <content type="html"><![CDATA[<a id="more"></a>
+    <content type="html"><![CDATA[<ol>
+<li>从iphone导入照片</li>
+<li>从其他地方导入</li>
+<li>照片的整理</li>
+</ol>
+<a id="more"></a>
 <h1 id="从iphone导入照片"><a href="#从iphone导入照片" class="headerlink" title="从iphone导入照片"></a>从iphone导入照片</h1><ol>
 <li>用数据线连接你的iphone和mac</li>
 <li>解锁iphone</li>
@@ -42,9 +47,11 @@
     
     <summary type="html">
     
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h1 id=&quot;从iphone导入照片&quot;&gt;&lt;a href=&quot;#从iphone导入照片&quot; class=&quot;headerlink&quot; title=&quot;从iphone导入照片&quot;&gt;&lt;/a&gt;从iphone导入照片&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;用数据线连接你的ip
+      &lt;ol&gt;
+&lt;li&gt;从iphone导入照片&lt;/li&gt;
+&lt;li&gt;从其他地方导入&lt;/li&gt;
+&lt;li&gt;照片的整理&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
@@ -60,7 +67,7 @@
     <link href="http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/"/>
     <id>http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/</id>
     <published>2018-02-28T07:28:11.000Z</published>
-    <updated>2018-03-01T11:26:32.096Z</updated>
+    <updated>2018-03-02T03:30:25.637Z</updated>
     
     <content type="html"><![CDATA[<p>当你在办公室和家里有多台mac时，数据如何保持同步<br>可以做到无缝切换电脑的效果</p>
 <a id="more"></a>
@@ -91,6 +98,11 @@
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990353149728.png" alt="20180301151990353149728.png"></p>
 <p>另一台电脑直接从坚果云中导入，即可</p>
 <h1 id="代码同步"><a href="#代码同步" class="headerlink" title="代码同步"></a>代码同步</h1><p>git或svn</p>
+<h1 id="Atom同步"><a href="#Atom同步" class="headerlink" title="Atom同步"></a>Atom同步</h1><p>如果你用的是Atom编辑器,可以下载<code>Sync setting</code>插件对你的插件、设置等进行备份</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151996127822958.png" alt="20180302151996127822958.png"></p>
+<p>只需要在设置里填写你的Personal Access Token和Gist Id就可以了<br>这两个都在github上申请，获取方式如下：</p>
+<p>Personal Access Token：<a href="https://github.com/settings/tokens" target="_blank" rel="external">https://github.com/settings/tokens</a></p>
+<p>Gist Id：<a href="https://gist.github.com/" target="_blank" rel="external">https://gist.github.com/</a></p>
 ]]></content>
     
     <summary type="html">

@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[用Photos管理你的相册]]></title>
     <url>%2F2018%2F03%2F01%2Fhow-to-manage-your-photos-with-Photos%2F</url>
-    <content type="text"><![CDATA[从iphone导入照片 用数据线连接你的iphone和mac 解锁iphone 打开Photos 左侧设备一栏会出现你的手机，点击后，会出现你手机上所有的照片，上面是已导入的，下面是未导入的新照片，可以选择右上角的导入所有新照片导入全部，也可以勾选想要导入的照片再导入 注意：（1）右上角有个选项叫导入后删除项目，若勾选这一项，会将手机中的照片删掉（2）导入之后，在Photos软件中修改或删除照片，不会影响手机中存储的照片（3）导入的时候可以指定某个相簿，若未指定，则导入到照片中 从其他地方导入安卓手机或下载到某个文件夹中的照片也可以导入Photos中选择文件/导入，选择照片存储的文件夹，之后的导入方式跟从iphone中导入完全一致。不需要导入重复的照片，软件会将重复的照片自动识别为已导入的 照片的整理加入相册右击某张照片，选择添加到/新建相册（或某个已存在的相册） 之后可以在左侧的相簿/我的相簿中查看 编辑再带编辑功能，可以进行调整或滤镜或裁剪操作]]></content>
+    <content type="text"><![CDATA[从iphone导入照片 从其他地方导入 照片的整理 从iphone导入照片 用数据线连接你的iphone和mac 解锁iphone 打开Photos 左侧设备一栏会出现你的手机，点击后，会出现你手机上所有的照片，上面是已导入的，下面是未导入的新照片，可以选择右上角的导入所有新照片导入全部，也可以勾选想要导入的照片再导入 注意：（1）右上角有个选项叫导入后删除项目，若勾选这一项，会将手机中的照片删掉（2）导入之后，在Photos软件中修改或删除照片，不会影响手机中存储的照片（3）导入的时候可以指定某个相簿，若未指定，则导入到照片中 从其他地方导入安卓手机或下载到某个文件夹中的照片也可以导入Photos中选择文件/导入，选择照片存储的文件夹，之后的导入方式跟从iphone中导入完全一致。不需要导入重复的照片，软件会将重复的照片自动识别为已导入的 照片的整理加入相册右击某张照片，选择添加到/新建相册（或某个已存在的相册） 之后可以在左侧的相簿/我的相簿中查看 编辑再带编辑功能，可以进行调整或滤镜或裁剪操作]]></content>
       <categories>
         <category>mac</category>
       </categories>
@@ -14,7 +14,7 @@
   <entry>
     <title><![CDATA[多台mac之间的数据同步问题]]></title>
     <url>%2F2018%2F02%2F28%2Fhow-to-sync-data-on-your-macs%2F</url>
-    <content type="text"><![CDATA[当你在办公室和家里有多台mac时，数据如何保持同步可以做到无缝切换电脑的效果 笔记同步 【推荐】使用mac自带的备忘录记笔记，会自动通过iCloud同步，免费 使用Bear订阅功能，通过iCloud同步所有的笔记，收费10元/月 印象笔记，免费版只支持两台设备 文件同步使用云盘 【推荐】坚果云，免费版一周可以用1G流量 Dropbox（可能存在网络问题） 百度云盘，无法自动同步，免费版下载速度慢 金山快盘，已关闭 书签同步 【推荐】safari chrome（须登录，可能存在网络问题） postman同步postman是模拟api接口请求的工具用相同的账号登录了postman之后，你请求的历史记录和收藏的api都可以自动同步 密码同步 【推荐】LastPass，支持软件版和主流的浏览器的插件版 1Password 钥匙串 Hosts同步SwitchHosts，须手动备份 使用文件/导出功能将hosts文件导出到坚果云 另一台电脑直接从坚果云中导入，即可 代码同步git或svn]]></content>
+    <content type="text"><![CDATA[当你在办公室和家里有多台mac时，数据如何保持同步可以做到无缝切换电脑的效果 笔记同步 【推荐】使用mac自带的备忘录记笔记，会自动通过iCloud同步，免费 使用Bear订阅功能，通过iCloud同步所有的笔记，收费10元/月 印象笔记，免费版只支持两台设备 文件同步使用云盘 【推荐】坚果云，免费版一周可以用1G流量 Dropbox（可能存在网络问题） 百度云盘，无法自动同步，免费版下载速度慢 金山快盘，已关闭 书签同步 【推荐】safari chrome（须登录，可能存在网络问题） postman同步postman是模拟api接口请求的工具用相同的账号登录了postman之后，你请求的历史记录和收藏的api都可以自动同步 密码同步 【推荐】LastPass，支持软件版和主流的浏览器的插件版 1Password 钥匙串 Hosts同步SwitchHosts，须手动备份 使用文件/导出功能将hosts文件导出到坚果云 另一台电脑直接从坚果云中导入，即可 代码同步git或svn Atom同步如果你用的是Atom编辑器,可以下载Sync setting插件对你的插件、设置等进行备份 只需要在设置里填写你的Personal Access Token和Gist Id就可以了这两个都在github上申请，获取方式如下： Personal Access Token：https://github.com/settings/tokens Gist Id：https://gist.github.com/]]></content>
       <categories>
         <category>mac</category>
       </categories>
