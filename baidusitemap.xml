@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://jimxu.me/2018/03/02/charles-support-https/</loc>
+    <lastmod>2018-03-02T10:27:07.662Z</lastmod>
+    <data>
+        <display>
+        <title>charles支持https</title>
+        <pubTime>2018-03-02T10:19:52.000Z</pubTime>
+        
+        <tag>charles</tag>
+         
+        <tag>mac</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2018/02/28/how-to-sync-data-on-your-macs/</loc>
     <lastmod>2018-03-02T03:35:00.515Z</lastmod>
     <data>
@@ -81,23 +100,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
-    <lastmod>2018-02-28T07:21:29.246Z</lastmod>
-    <data>
-        <display>
-        <title>SoftWare List - Mac</title>
-        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
-        
-        <tag>software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/11/20/jupyter-support-php/</loc>
     <lastmod>2018-02-28T07:21:29.246Z</lastmod>
     <data>
@@ -108,6 +110,23 @@
         <tag>php</tag>
          
         <tag>jupyter</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
+    <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+    <data>
+        <display>
+        <title>SoftWare List - Mac</title>
+        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
+        
+        <tag>software</tag>
          
          
            
@@ -153,14 +172,32 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/15/book-list/</loc>
+    <loc>http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>个人书单</title>
-        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
+        <title>git Error: Permission denied (publickey)</title>
+        <pubTime>2017-10-16T08:36:24.000Z</pubTime>
         
-        <tag>reading</tag>
+        <tag>git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://jimxu.me/2017/03/31/some-awesome-phpstorm-plugins/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>phpStorm有哪些值得安装的插件</title>
+        <pubTime>2017-03-31T07:07:01.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
          
          
            
@@ -170,14 +207,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/</loc>
+    <loc>http://jimxu.me/2017/04/07/how-to-use-markdown/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>git Error: Permission denied (publickey)</title>
-        <pubTime>2017-10-16T08:36:24.000Z</pubTime>
+        <title>MarkDown基础介绍</title>
+        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>markdown</tag>
          
          
            
@@ -221,6 +258,59 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/04/15/book-list/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>个人书单</title>
+        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
+        
+        <tag>reading</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/08/04/using-composer/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用composer</title>
+        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/11/sublime3144-build-php-develop-environment/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>sublime3144版本搭建php开发环境</title>
+        <pubTime>2016-07-11T09:36:35.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>sublime</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
@@ -254,69 +344,17 @@
     </url>
 
     
-    
   <url>
-    <loc>http://jimxu.me/2017/08/04/using-composer/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <loc>http://jimxu.me/2017/06/08/yaf-study-note-install/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>使用composer</title>
-        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
+        <title>yaf学习笔记 - mac环境下的安装运行</title>
+        <pubTime>2017-06-08T03:16:47.000Z</pubTime>
         
         <tag>php</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/07/how-to-use-markdown/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>MarkDown基础介绍</title>
-        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/11/sublime3144-build-php-develop-environment/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>sublime3144版本搭建php开发环境</title>
-        <pubTime>2016-07-11T09:36:35.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>sublime</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/31/some-awesome-phpstorm-plugins/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>phpStorm有哪些值得安装的插件</title>
-        <pubTime>2017-03-31T07:07:01.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
+        <tag>yaf</tag>
          
          
            
@@ -345,86 +383,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/06/13/yaf-study-note-module/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - 模块</title>
-        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/06/08/yaf-study-note-structure/</loc>
     <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
         <title>yaf学习笔记 - 项目结构</title>
         <pubTime>2017-06-08T10:59:00.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - request类和respose类</title>
-        <pubTime>2017-07-26T08:48:53.000Z</pubTime>
-        
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/08/yaf-study-note-install/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - mac环境下的安装运行</title>
-        <pubTime>2017-06-08T03:16:47.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/09/yaf-study-note-config/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - 配置</title>
-        <pubTime>2017-06-09T10:59:00.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -474,16 +438,52 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/12/oh-my-zsh-plugin-wd/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <loc>http://jimxu.me/2017/06/13/yaf-study-note-module/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</title>
-        <pubTime>2016-07-12T04:05:02.000Z</pubTime>
+        <title>yaf学习笔记 - 模块</title>
+        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
         
-        <tag>tools</tag>
+        <tag>php</tag>
          
-        <tag>oh my zsh</tag>
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - request类和respose类</title>
+        <pubTime>2017-07-26T08:48:53.000Z</pubTime>
+        
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/06/09/yaf-study-note-config/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - 配置</title>
+        <pubTime>2017-06-09T10:59:00.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
          
          
            
@@ -510,207 +510,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/27/hexo-yelee-add-github-widget/</loc>
+    <loc>http://jimxu.me/2016/07/06/hexo-new-post-template/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo中添加github组件</title>
-        <pubTime>2017-07-27T08:29:00.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-        <tag>github</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/27/hexo-yelee-theme-setting/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo的yelee主题设置</title>
-        <pubTime>2016-07-27T04:13:56.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/05/how-to-install-hexo-theme/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo如何安装主题</title>
-        <pubTime>2016-07-05T03:43:41.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo侧边栏安装最近评论小物件</title>
-        <pubTime>2016-07-06T06:10:06.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>landscape-plus主题增加hexo文章目录功能</title>
-        <pubTime>2016-07-06T06:59:23.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/05/how-to-use-hexo/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>第一次使用Hexo</title>
-        <pubTime>2016-07-05T09:14:59.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/13/hexo-404-page/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>设置hexo404页面</title>
-        <pubTime>2016-07-13T03:36:35.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/13/ios-software-list/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>Software List - IOS</title>
-        <pubTime>2017-03-13T06:46:55.000Z</pubTime>
-        
-        <tag>software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>运行hexo报错解决方案</title>
-        <pubTime>2016-07-06T04:30:02.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>Permanently added the RSA host key for IP address to the list of known hosts</title>
-        <pubTime>2017-07-26T10:27:02.000Z</pubTime>
-        
-        <tag>error</tag>
-         
-        <tag>hexo</tag>
-         
-        <tag>git</tag>
-         
-        <tag>ssh</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-busuanzi-plugin/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
-        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>landscape-plus主题代码高亮测试</title>
-        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
+        <title>hexo默认文章的模板修改</title>
+        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -739,224 +544,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/30/hexo-language-setting-not-effective/</loc>
+    <loc>http://jimxu.me/2016/07/27/hexo-yelee-theme-setting/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo语言设置未生效解决办法</title>
-        <pubTime>2017-03-30T11:11:45.000Z</pubTime>
+        <title>hexo的yelee主题设置</title>
+        <pubTime>2016-07-27T04:13:56.000Z</pubTime>
         
         <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/12/my-thinking-about-redis/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>关于缓存的一些思考</title>
-        <pubTime>2017-04-12T06:12:41.000Z</pubTime>
-        
-        <tag>redis</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-theme-add-friends/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo侧边栏增加链接小物件</title>
-        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/24/oh-my-zsh-cow-welcome/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>在oh my zsh的基础上添加终端的欢迎界面</title>
-        <pubTime>2016-06-24T10:16:03.000Z</pubTime>
-        
-        <tag>tools</tag>
-         
-        <tag>oh my zsh</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-new-post-template/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo默认文章的模板修改</title>
-        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/08/hexo-landscape-plus-set-head-image/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo菜单栏背景图片设置</title>
-        <pubTime>2016-07-08T15:15:35.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/19/hexo-show-categories-and-tags/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo文章的分类和标签</title>
-        <pubTime>2016-07-19T08:48:04.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo支持多说评论</title>
-        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>安装xdebug后var_dump显示问题</title>
-        <pubTime>2017-07-24T09:08:19.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-        <tag>xdebug</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/01/phpstorm-live-template/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>phpstorm使用代码片段</title>
-        <pubTime>2017-04-01T02:22:30.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/07/hexo-set-read-more/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
-        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/08/xdebug-in-phpstorm-on-mac/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>mac下phpstorm配置xdebug</title>
-        <pubTime>2016-07-08T06:28:10.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-        <tag>xdebug</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/07/25/prometheus-on-php/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>使用php对接prometheus监控系统</title>
-        <pubTime>2017-07-25T07:55:13.000Z</pubTime>
-        
-        <tag>php</tag>
          
          
            
@@ -983,16 +578,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/21/redis-in-magento/</loc>
+    <loc>http://jimxu.me/2016/07/05/how-to-install-hexo-theme/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>在magento中配置使用redis缓存</title>
-        <pubTime>2016-06-21T10:30:09.000Z</pubTime>
+        <title>hexo如何安装主题</title>
+        <pubTime>2016-07-05T03:43:41.000Z</pubTime>
         
-        <tag>magento</tag>
-         
-        <tag>redis</tag>
+        <tag>hexo</tag>
          
          
            
@@ -1019,14 +612,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/set-hexo-page-size/</loc>
+    <loc>http://jimxu.me/2017/03/13/ios-software-list/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>分别设置hexo首页、标签页、归档页文章个数</title>
-        <pubTime>2016-07-06T11:12:59.000Z</pubTime>
+        <title>Software List - IOS</title>
+        <pubTime>2017-03-13T06:46:55.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>software</tag>
          
          
            
@@ -1036,31 +629,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/08/fix-hexo-baidu-share/</loc>
+    <loc>http://jimxu.me/2016/07/05/how-to-use-hexo/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
-        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
+        <title>第一次使用Hexo</title>
+        <pubTime>2016-07-05T09:14:59.000Z</pubTime>
         
         <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/07/19/translate-seven-userfun-programming-habits/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>[译]改善编程的七个习惯</title>
-        <pubTime>2017-07-19T03:27:35.000Z</pubTime>
-        
-        <tag>translate</tag>
          
          
            
@@ -1108,6 +684,449 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>Permanently added the RSA host key for IP address to the list of known hosts</title>
+        <pubTime>2017-07-26T10:27:02.000Z</pubTime>
+        
+        <tag>error</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>git</tag>
+         
+        <tag>ssh</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/13/hexo-404-page/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>设置hexo404页面</title>
+        <pubTime>2016-07-13T03:36:35.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo支持多说评论</title>
+        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/08/fix-hexo-baidu-share/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
+        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>运行hexo报错解决方案</title>
+        <pubTime>2016-07-06T04:30:02.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo侧边栏安装最近评论小物件</title>
+        <pubTime>2016-07-06T06:10:06.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/12/my-thinking-about-redis/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>关于缓存的一些思考</title>
+        <pubTime>2017-04-12T06:12:41.000Z</pubTime>
+        
+        <tag>redis</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/12/oh-my-zsh-plugin-wd/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</title>
+        <pubTime>2016-07-12T04:05:02.000Z</pubTime>
+        
+        <tag>tools</tag>
+         
+        <tag>oh my zsh</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/24/oh-my-zsh-cow-welcome/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>在oh my zsh的基础上添加终端的欢迎界面</title>
+        <pubTime>2016-06-24T10:16:03.000Z</pubTime>
+        
+        <tag>tools</tag>
+         
+        <tag>oh my zsh</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/08/xdebug-in-phpstorm-on-mac/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>mac下phpstorm配置xdebug</title>
+        <pubTime>2016-07-08T06:28:10.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+        <tag>xdebug</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>安装xdebug后var_dump显示问题</title>
+        <pubTime>2017-07-24T09:08:19.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+        <tag>xdebug</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/01/phpstorm-live-template/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>phpstorm使用代码片段</title>
+        <pubTime>2017-04-01T02:22:30.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>landscape-plus主题增加hexo文章目录功能</title>
+        <pubTime>2016-07-06T06:59:23.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/08/hexo-landscape-plus-set-head-image/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo菜单栏背景图片设置</title>
+        <pubTime>2016-07-08T15:15:35.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>landscape-plus主题代码高亮测试</title>
+        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/25/prometheus-on-php/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用php对接prometheus监控系统</title>
+        <pubTime>2017-07-25T07:55:13.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-busuanzi-plugin/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
+        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-theme-add-friends/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo侧边栏增加链接小物件</title>
+        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/21/redis-in-magento/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>在magento中配置使用redis缓存</title>
+        <pubTime>2016-06-21T10:30:09.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+        <tag>redis</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/03/30/hexo-language-setting-not-effective/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo语言设置未生效解决办法</title>
+        <pubTime>2017-03-30T11:11:45.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/set-hexo-page-size/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>分别设置hexo首页、标签页、归档页文章个数</title>
+        <pubTime>2016-07-06T11:12:59.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/07/hexo-set-read-more/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
+        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/19/hexo-show-categories-and-tags/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo文章的分类和标签</title>
+        <pubTime>2016-07-19T08:48:04.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/27/hexo-yelee-add-github-widget/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo中添加github组件</title>
+        <pubTime>2017-07-27T08:29:00.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+        <tag>github</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/19/translate-seven-userfun-programming-habits/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>[译]改善编程的七个习惯</title>
+        <pubTime>2017-07-19T03:27:35.000Z</pubTime>
+        
+        <tag>translate</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/07/21/apple-usa-account/</loc>
     <lastmod>2017-07-21T14:28:50.000Z</lastmod>
     <data>
@@ -1125,16 +1144,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/08/03/build-php-develop-environment-in-atom/</loc>
+    <loc>http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>使用atom进行php开发</title>
-        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
+        <title>mysql datetime默认值设置为0000-00-00 00:00:00时报错</title>
+        <pubTime>2017-07-13T10:46:44.000Z</pubTime>
         
-        <tag>php</tag>
+        <tag>mysql</tag>
          
-        <tag>atom</tag>
+        <tag>error</tag>
          
          
            
@@ -1144,16 +1163,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/06/08/fibonacci-algorithm/</loc>
+    <loc>http://jimxu.me/2017/07/12/using-Coding-host-website-code/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>斐波那契数列问题</title>
-        <pubTime>2017-06-08T07:20:02.000Z</pubTime>
+        <title>将Hexo网站托管到Coding.net</title>
+        <pubTime>2017-07-12T08:37:04.000Z</pubTime>
         
-        <tag>php</tag>
-         
-        <tag>algorithm</tag>
+        <tag>website</tag>
          
          
            
@@ -1163,14 +1180,50 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/06/28/mac-must-install-software/</loc>
+    <loc>http://jimxu.me/2017/04/12/phpstorm-key-maps/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>php开发者mac必装软件 - 终极版本</title>
-        <pubTime>2017-06-28T03:22:46.000Z</pubTime>
+        <title>phpStorm快捷键个人设置</title>
+        <pubTime>2017-04-12T07:12:11.000Z</pubTime>
         
-        <tag>software</tag>
+        <tag>phpstorm</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/01/phpstorm-develop-magento-skills/</loc>
+    <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>用phpStorm进行magento开发的几个Tips</title>
+        <pubTime>2017-04-01T08:41:58.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+        <tag>phpstorm</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/13/mysql-install-mysql-via-package/</loc>
+    <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>package安装mysql</title>
+        <pubTime>2017-04-13T10:46:08.000Z</pubTime>
+        
+        <tag>mysql</tag>
          
          
            
@@ -1199,14 +1252,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/12/phpstorm-key-maps/</loc>
+    <loc>http://jimxu.me/2017/06/28/mac-must-install-software/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>phpStorm快捷键个人设置</title>
-        <pubTime>2017-04-12T07:12:11.000Z</pubTime>
+        <title>php开发者mac必装软件 - 终极版本</title>
+        <pubTime>2017-06-28T03:22:46.000Z</pubTime>
         
-        <tag>phpstorm</tag>
+        <tag>software</tag>
          
          
            
@@ -1216,14 +1269,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/12/using-Coding-host-website-code/</loc>
+    <loc>http://jimxu.me/2017/05/17/laravel-study-note-structure/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>将Hexo网站托管到Coding.net</title>
-        <pubTime>2017-07-12T08:37:04.000Z</pubTime>
+        <title>Laravel目录结构</title>
+        <pubTime>2017-05-17T10:15:38.000Z</pubTime>
         
-        <tag>website</tag>
+        <tag>laravel</tag>
          
          
            
@@ -1233,14 +1286,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/13/mysql-install-mysql-via-package/</loc>
+    <loc>http://jimxu.me/2017/06/08/fibonacci-algorithm/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>package安装mysql</title>
-        <pubTime>2017-04-13T10:46:08.000Z</pubTime>
+        <title>斐波那契数列问题</title>
+        <pubTime>2017-06-08T07:20:02.000Z</pubTime>
         
-        <tag>mysql</tag>
+        <tag>php</tag>
+         
+        <tag>algorithm</tag>
          
          
            
@@ -1250,16 +1305,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/</loc>
+    <loc>http://jimxu.me/2016/08/03/build-php-develop-environment-in-atom/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>mysql datetime默认值设置为0000-00-00 00:00:00时报错</title>
-        <pubTime>2017-07-13T10:46:44.000Z</pubTime>
+        <title>使用atom进行php开发</title>
+        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
         
-        <tag>mysql</tag>
+        <tag>php</tag>
          
-        <tag>error</tag>
+        <tag>atom</tag>
          
          
            
@@ -1290,42 +1345,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/05/17/laravel-study-note-structure/</loc>
-    <lastmod>2017-07-21T14:15:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>Laravel目录结构</title>
-        <pubTime>2017-05-17T10:15:38.000Z</pubTime>
-        
-        <tag>laravel</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/01/phpstorm-develop-magento-skills/</loc>
-    <lastmod>2017-07-21T14:15:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>用phpStorm进行magento开发的几个Tips</title>
-        <pubTime>2017-04-01T08:41:58.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-        <tag>phpstorm</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/07/12/use-mtr-detect-network-status/</loc>
     <lastmod>2017-07-12T16:07:30.000Z</lastmod>
     <data>
@@ -1343,12 +1362,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/11/magento-locale/</loc>
+    <loc>http://jimxu.me/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>magento后台汉化</title>
-        <pubTime>2016-07-11T07:28:42.000Z</pubTime>
+        <title>magento报错:Customer website ID must be specified when using the website scope</title>
+        <pubTime>2016-07-21T02:58:20.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1360,46 +1379,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/12/get-started-to-crontab/</loc>
+    <loc>http://jimxu.me/2016/10/27/magento-inspect-sql-of-specific-code/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>crontab入门</title>
-        <pubTime>2017-07-12T09:43:43.000Z</pubTime>
-        
-        <tag>shell</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/07/magento-rewrite-core-controller/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>magento复写core中的controller</title>
-        <pubTime>2016-07-07T10:20:00.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/10/magento-new-module-add-system-config/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>magento新建模块的后台配置</title>
-        <pubTime>2016-07-10T13:38:19.000Z</pubTime>
+        <title>magento中查看某一段代码生成的sql</title>
+        <pubTime>2016-10-27T08:25:49.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1417,6 +1402,40 @@
         <display>
         <title>magento设置后台配置的默认值</title>
         <pubTime>2016-07-20T06:19:02.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/22/magento-log/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>magento日志</title>
+        <pubTime>2016-06-22T10:29:37.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/10/magento-new-module-add-system-config/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>magento新建模块的后台配置</title>
+        <pubTime>2016-07-10T13:38:19.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1447,12 +1466,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/10/magento-system-config-summary/</loc>
+    <loc>http://jimxu.me/2016/07/07/mangeto-rewrite-core-model/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>Magento后台配置攻略</title>
-        <pubTime>2017-04-10T10:57:15.000Z</pubTime>
+        <title>magento复写core中的model</title>
+        <pubTime>2016-07-07T10:20:15.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1481,12 +1500,46 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/04/10/magento-system-config-summary/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Magento后台配置攻略</title>
+        <pubTime>2017-04-10T10:57:15.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2016/07/07/magneto-enable-backend-login-captcha/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
         <title>magento用户登录开启验证码功能</title>
         <pubTime>2016-07-07T05:39:19.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/30/enable-magento-develop-model/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>开启开发者模式</title>
+        <pubTime>2016-06-30T10:26:22.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1515,31 +1568,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/07/mangeto-rewrite-core-model/</loc>
+    <loc>http://jimxu.me/2016/06/24/fast-type-long-shell-command/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>magento复写core中的model</title>
-        <pubTime>2016-07-07T10:20:15.000Z</pubTime>
+        <title>mac下快速输入长命令行的两种方法</title>
+        <pubTime>2016-06-24T10:18:52.000Z</pubTime>
         
-        <tag>magento</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/11/git-ignore-file-mode/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>git设置忽略对文件权限进行版本控制</title>
-        <pubTime>2016-07-11T06:08:58.000Z</pubTime>
-        
-        <tag>git</tag>
+        <tag>tools</tag>
          
          
            
@@ -1568,14 +1604,50 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/20/backend-develop-skill-tree/</loc>
+    <loc>http://jimxu.me/2017/07/12/get-started-to-crontab/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>后端开发技能树</title>
-        <pubTime>2017-04-20T15:54:54.000Z</pubTime>
+        <title>crontab入门</title>
+        <pubTime>2017-07-12T09:43:43.000Z</pubTime>
+        
+        <tag>shell</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/20/php-float-to-int/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>php浮点数取整</title>
+        <pubTime>2016-07-20T10:15:09.000Z</pubTime>
         
         <tag>php</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>mac下php开发环境搭建:nginx+mysql+php+php-fpm</title>
+        <pubTime>2016-06-30T10:21:57.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>environment</tag>
          
          
            
@@ -1604,12 +1676,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/30/disable-module-in-magento/</loc>
+    <loc>http://jimxu.me/2016/06/24/flush-magento-cache/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>禁用magento模块</title>
-        <pubTime>2016-06-30T10:27:32.000Z</pubTime>
+        <title>如何清除magento缓存</title>
+        <pubTime>2016-06-24T10:28:34.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1621,31 +1693,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/16/homebrew%E3%80%81homebrew-cask%E5%8F%8Acakebrew/</loc>
+    <loc>http://jimxu.me/2017/05/26/php-review-note-on-2017-06/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>homebrew、homebrew-cask及cakebrew</title>
-        <pubTime>2016-06-16T10:19:59.000Z</pubTime>
+        <title>php个人面试题</title>
+        <pubTime>2017-05-26T09:39:25.000Z</pubTime>
         
-        <tag>homebrew</tag>
+        <tag>php</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/30/how-to-add-module-in-magento/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>新增magento模块</title>
-        <pubTime>2016-06-30T10:26:54.000Z</pubTime>
-        
-        <tag>magento</tag>
+        <tag>review</tag>
          
          
            
@@ -1674,48 +1731,31 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/04/01/phpmd-in-phpstorm-on-mac/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>mac下phpStorm配置使用phpmd</title>
+        <pubTime>2017-04-01T09:02:33.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+        <tag>phpmd</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2016/04/22/php-review-note-on-2016-04/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
         <title>php面试笔记</title>
         <pubTime>2016-04-22T07:00:35.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>review</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/20/php-float-to-int/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>php浮点数取整</title>
-        <pubTime>2016-07-20T10:15:09.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/05/26/php-review-note-on-2017-06/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>php个人面试题</title>
-        <pubTime>2017-05-26T09:39:25.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -1746,16 +1786,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/01/phpmd-in-phpstorm-on-mac/</loc>
+    <loc>http://jimxu.me/2016/06/16/homebrew%E3%80%81homebrew-cask%E5%8F%8Acakebrew/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>mac下phpStorm配置使用phpmd</title>
-        <pubTime>2017-04-01T09:02:33.000Z</pubTime>
+        <title>homebrew、homebrew-cask及cakebrew</title>
+        <pubTime>2016-06-16T10:19:59.000Z</pubTime>
         
-        <tag>phpstorm</tag>
-         
-        <tag>phpmd</tag>
+        <tag>homebrew</tag>
          
          
            
@@ -1765,33 +1803,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/11/go-study-note/</loc>
+    <loc>http://jimxu.me/2016/07/01/build-php-develop-environment-in-macvim/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>go语言入门知识点</title>
-        <pubTime>2017-04-11T02:09:55.000Z</pubTime>
-        
-        <tag>go</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
-        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
+        <title>如何用macVim搭建php开发的IDE</title>
+        <pubTime>2016-06-30T18:23:07.000Z</pubTime>
         
         <tag>php</tag>
          
-        <tag>error</tag>
+        <tag>vim</tag>
          
          
            
@@ -1801,14 +1822,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/24/fast-type-long-shell-command/</loc>
+    <loc>http://jimxu.me/2016/06/30/how-to-add-module-in-magento/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>mac下快速输入长命令行的两种方法</title>
-        <pubTime>2016-06-24T10:18:52.000Z</pubTime>
+        <title>新增magento模块</title>
+        <pubTime>2016-06-30T10:26:54.000Z</pubTime>
         
-        <tag>tools</tag>
+        <tag>magento</tag>
          
          
            
@@ -1824,93 +1845,6 @@
         <display>
         <title>安装magento</title>
         <pubTime>2016-06-24T10:23:45.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
-        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/21/phpstorm-php-file-header/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>phpstorm修改php文件头模板</title>
-        <pubTime>2017-06-21T08:32:39.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/07/python-install-requests/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>python安装requests库</title>
-        <pubTime>2016-07-07T12:37:15.000Z</pubTime>
-        
-        <tag>python</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2015/12/21/how-to-use-charles-on-windows/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>windows下通过charles和夜神模拟器对安卓app进行抓包</title>
-        <pubTime>2015-12-21T14:28:27.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>tools</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/30/enable-magento-develop-model/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>开启开发者模式</title>
-        <pubTime>2016-06-30T10:26:22.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1958,14 +1892,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/11/how-to-use-jekyll/</loc>
+    <loc>http://jimxu.me/2017/06/21/phpstorm-php-file-header/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>尝试jekyll</title>
-        <pubTime>2017-07-11T09:16:50.000Z</pubTime>
+        <title>phpstorm修改php文件头模板</title>
+        <pubTime>2017-06-21T08:32:39.000Z</pubTime>
         
-        <tag>jekyll</tag>
+        <tag>phpstorm</tag>
          
          
            
@@ -1975,14 +1909,86 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/16/reset-launchpad-icon/</loc>
+    <loc>http://jimxu.me/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>重新排序Launchpad图标</title>
-        <pubTime>2016-06-16T14:51:31.000Z</pubTime>
+        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
+        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
         
-        <tag>mac</tag>
+        <tag>php</tag>
+         
+        <tag>error</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/07/fix-invalid-private-key-after-reboot/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>解决重启后私钥失效的问题</title>
+        <pubTime>2017-07-07T08:26:09.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2015/12/21/how-to-use-charles-on-windows/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>windows下通过charles和夜神模拟器对安卓app进行抓包</title>
+        <pubTime>2015-12-21T14:28:27.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>tools</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/07/python-install-requests/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>python安装requests库</title>
+        <pubTime>2016-07-07T12:37:15.000Z</pubTime>
+        
+        <tag>python</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/11/how-to-use-jekyll/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>尝试jekyll</title>
+        <pubTime>2017-07-11T09:16:50.000Z</pubTime>
+        
+        <tag>jekyll</tag>
          
          
            
@@ -2002,6 +2008,40 @@
         <tag>php</tag>
          
         <tag>algorithm</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/05/show-hidden-file-in-finder/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>在Finder中查看隐藏文件</title>
+        <pubTime>2016-07-05T14:48:16.000Z</pubTime>
+        
+        <tag>mac</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/16/reset-launchpad-icon/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>重新排序Launchpad图标</title>
+        <pubTime>2016-06-16T14:51:31.000Z</pubTime>
+        
+        <tag>mac</tag>
          
          
            
@@ -2049,6 +2089,23 @@
 
     
   <url>
+    <loc>http://jimxu.me/2016/10/28/some-sql/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>常用sql操作</title>
+        <pubTime>2016-10-28T04:08:42.000Z</pubTime>
+        
+        <tag>mysql</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2016/06/24/show-name-of-template-and-block-in-magento/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
@@ -2066,14 +2123,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/05/show-hidden-file-in-finder/</loc>
+    <loc>http://jimxu.me/2016/06/30/disable-module-in-magento/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>在Finder中查看隐藏文件</title>
-        <pubTime>2016-07-05T14:48:16.000Z</pubTime>
+        <title>禁用magento模块</title>
+        <pubTime>2016-06-30T10:27:32.000Z</pubTime>
         
-        <tag>mac</tag>
+        <tag>magento</tag>
          
          
            
@@ -2102,40 +2159,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/10/28/some-sql/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>常用sql操作</title>
-        <pubTime>2016-10-28T04:08:42.000Z</pubTime>
-        
-        <tag>mysql</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/07/07/fix-invalid-private-key-after-reboot/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>解决重启后私钥失效的问题</title>
-        <pubTime>2017-07-07T08:26:09.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/04/11/sublime-build-golang-develop-environment/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
@@ -2144,25 +2167,6 @@
         <pubTime>2017-04-11T06:39:36.000Z</pubTime>
         
         <tag>go</tag>
-         
-        <tag>sublime</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/21/sublime-build-js-develop-environment/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</title>
-        <pubTime>2016-07-21T10:50:05.000Z</pubTime>
-        
-        <tag>js</tag>
          
         <tag>sublime</tag>
          
@@ -2198,6 +2202,25 @@
         <title>sublime插件 - css颜色高亮与取色器</title>
         <pubTime>2016-07-06T13:12:17.000Z</pubTime>
         
+        <tag>sublime</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/21/sublime-build-js-develop-environment/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</title>
+        <pubTime>2016-07-21T10:50:05.000Z</pubTime>
+        
+        <tag>js</tag>
+         
         <tag>sublime</tag>
          
          
@@ -2246,6 +2269,23 @@
 
     
   <url>
+    <loc>http://jimxu.me/2016/06/30/how-to-visit-magento-controller/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>访问模块中的controller</title>
+        <pubTime>2016-06-30T10:27:55.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2016/01/18/use-fiddler-to-change-website-cotent/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
@@ -2265,23 +2305,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/30/how-to-visit-magento-controller/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>访问模块中的controller</title>
-        <pubTime>2016-06-30T10:27:55.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2016/10/27/ios-and-mac-skills/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
@@ -2290,163 +2313,6 @@
         <pubTime>2016-10-27T10:14:23.000Z</pubTime>
         
         <tag>mac</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/20/install-redis-on-mac/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>mac下安装redis</title>
-        <pubTime>2016-06-20T10:12:38.000Z</pubTime>
-        
-        <tag>redis</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/22/magento-log/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>magento日志</title>
-        <pubTime>2016-06-22T10:29:37.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>mac下php开发环境搭建:nginx+mysql+php+php-fpm</title>
-        <pubTime>2016-06-30T10:21:57.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>environment</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/22/js-study-note/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>PHPer学习JS 语法</title>
-        <pubTime>2016-07-22T02:32:45.000Z</pubTime>
-        
-        <tag>js</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/11/wakatime-record-coding/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>记录你的编程习惯 - 编辑器通用插件：WakaTime</title>
-        <pubTime>2016-07-11T11:16:05.000Z</pubTime>
-        
-        <tag>tools</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/01/03/lua-study-note/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>Lua学习笔记</title>
-        <pubTime>2017-01-03T14:23:05.000Z</pubTime>
-        
-        <tag>lua</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/08/wechat-rafale-algorithm/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>微信领红包问题</title>
-        <pubTime>2017-06-08T06:54:33.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>algorithm</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/30/what-does-magento's-order-model-save-function-do/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>[magento]Order对象的save方法执行哪些操作？</title>
-        <pubTime>2017-03-30T06:31:19.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/29/what-does-magento's-order-model-cancel-function-do/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>[magento]Order对象的cancel方法会执行哪些操作？</title>
-        <pubTime>2017-03-29T08:53:49.000Z</pubTime>
-        
-        <tag>magento</tag>
          
          
            
@@ -2475,12 +2341,46 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/24/flush-magento-cache/</loc>
+    <loc>http://jimxu.me/2016/06/20/install-redis-on-mac/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>如何清除magento缓存</title>
-        <pubTime>2016-06-24T10:28:34.000Z</pubTime>
+        <title>mac下安装redis</title>
+        <pubTime>2016-06-20T10:12:38.000Z</pubTime>
+        
+        <tag>redis</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/22/js-study-note/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>PHPer学习JS 语法</title>
+        <pubTime>2016-07-22T02:32:45.000Z</pubTime>
+        
+        <tag>js</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/07/magento-rewrite-core-controller/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>magento复写core中的controller</title>
+        <pubTime>2016-07-07T10:20:00.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -2492,12 +2392,65 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/</loc>
+    <loc>http://jimxu.me/2016/07/11/git-ignore-file-mode/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>magento报错:Customer website ID must be specified when using the website scope</title>
-        <pubTime>2016-07-21T02:58:20.000Z</pubTime>
+        <title>git设置忽略对文件权限进行版本控制</title>
+        <pubTime>2016-07-11T06:08:58.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/11/wakatime-record-coding/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>记录你的编程习惯 - 编辑器通用插件：WakaTime</title>
+        <pubTime>2016-07-11T11:16:05.000Z</pubTime>
+        
+        <tag>tools</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/06/08/wechat-rafale-algorithm/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>微信领红包问题</title>
+        <pubTime>2017-06-08T06:54:33.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>algorithm</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/03/29/what-does-magento's-order-model-cancel-function-do/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>[magento]Order对象的cancel方法会执行哪些操作？</title>
+        <pubTime>2017-03-29T08:53:49.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -2509,16 +2462,65 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/20/xml-error-XML-declaration-allowed-only-at-the-start-of-the-document/</loc>
+    <loc>http://jimxu.me/2017/03/30/what-does-magento's-order-model-save-function-do/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>XML报错:XML declaration allowed only at the start of the document</title>
-        <pubTime>2016-07-20T03:01:15.000Z</pubTime>
+        <title>[magento]Order对象的save方法执行哪些操作？</title>
+        <pubTime>2017-03-30T06:31:19.000Z</pubTime>
         
-        <tag>xml</tag>
+        <tag>magento</tag>
          
-        <tag>error</tag>
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/01/03/lua-study-note/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>Lua学习笔记</title>
+        <pubTime>2017-01-03T14:23:05.000Z</pubTime>
+        
+        <tag>lua</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/20/backend-develop-skill-tree/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>后端开发技能树</title>
+        <pubTime>2017-04-20T15:54:54.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
+        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
+        
+        <tag>php</tag>
          
          
            
@@ -2547,16 +2549,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/01/build-php-develop-environment-in-macvim/</loc>
+    <loc>http://jimxu.me/2016/07/20/xml-error-XML-declaration-allowed-only-at-the-start-of-the-document/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>如何用macVim搭建php开发的IDE</title>
-        <pubTime>2016-06-30T18:23:07.000Z</pubTime>
+        <title>XML报错:XML declaration allowed only at the start of the document</title>
+        <pubTime>2016-07-20T03:01:15.000Z</pubTime>
         
-        <tag>php</tag>
+        <tag>xml</tag>
          
-        <tag>vim</tag>
+        <tag>error</tag>
          
          
            
@@ -2566,14 +2568,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/06/30/magento-code-structure/</loc>
+    <loc>http://jimxu.me/2017/04/11/go-study-note/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>初识magento框架代码结构</title>
-        <pubTime>2016-06-30T10:24:32.000Z</pubTime>
+        <title>go语言入门知识点</title>
+        <pubTime>2017-04-11T02:09:55.000Z</pubTime>
         
-        <tag>magento</tag>
+        <tag>go</tag>
          
          
            
@@ -2589,6 +2591,23 @@
         <display>
         <title>[译]给用户grid表增加新的column</title>
         <pubTime>2016-08-29T08:19:31.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/06/30/magento-code-structure/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>初识magento框架代码结构</title>
+        <pubTime>2016-06-30T10:24:32.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -2617,12 +2636,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/06/magento-get-address-data-by-order/</loc>
+    <loc>http://jimxu.me/2016/07/11/magento-locale/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>Magento根据订单获取地址信息</title>
-        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
+        <title>magento后台汉化</title>
+        <pubTime>2016-07-11T07:28:42.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -2634,12 +2653,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/10/27/magento-inspect-sql-of-specific-code/</loc>
+    <loc>http://jimxu.me/2017/04/06/magento-get-address-data-by-order/</loc>
     <lastmod>2017-07-12T12:15:47.000Z</lastmod>
     <data>
         <display>
-        <title>magento中查看某一段代码生成的sql</title>
-        <pubTime>2016-10-27T08:25:49.000Z</pubTime>
+        <title>Magento根据订单获取地址信息</title>
+        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
         
         <tag>magento</tag>
          

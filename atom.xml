@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2018-03-02T02:29:19.293Z</updated>
+  <updated>2018-03-02T10:27:07.662Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>charles支持https</title>
+    <link href="http://jimxu.me/2018/03/02/charles-support-https/"/>
+    <id>http://jimxu.me/2018/03/02/charles-support-https/</id>
+    <published>2018-03-02T10:19:52.000Z</published>
+    <updated>2018-03-02T10:27:07.662Z</updated>
+    
+    <content type="html"><![CDATA[<p>安装好charles之后，设置以支持https抓包</p>
+<a id="more"></a>
+<h2 id="第一步-设置ssl-proxying"><a href="#第一步-设置ssl-proxying" class="headerlink" title="第一步  设置ssl proxying"></a>第一步  设置ssl proxying</h2><p><code>Proxy/SSL Proxying Settings</code></p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998614257750.png" alt="20180302151998614257750.png"></p>
+<h2 id="第二步-安装证书"><a href="#第二步-安装证书" class="headerlink" title="第二步 安装证书"></a>第二步 安装证书</h2><p><code>Help/SSL Proxying/Install Charles Root Certificate</code></p>
+<p>点击后，会安装到钥匙串中</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998634953062.png" alt="20180302151998634953062.png"></p>
+<p>在所有项目中搜索<code>charles</code>，选中证书，双击打开，将信任设置为“始终信任”</p>
+<p>如果不安装证书，访问https网站时会报错“您的连不是私密连接”</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998591661934.png" alt="20180302151998591661934.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;安装好charles之后，设置以支持https抓包&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="charles" scheme="http://jimxu.me/tags/charles/"/>
+    
+      <category term="mac" scheme="http://jimxu.me/tags/mac/"/>
+    
+  </entry>
   
   <entry>
     <title>用Photos管理你的相册</title>
@@ -821,63 +853,6 @@
     
     
       <category term="translate" scheme="http://jimxu.me/tags/translate/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>mysql datetime默认值设置为0000-00-00 00:00:00时报错</title>
-    <link href="http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/"/>
-    <id>http://jimxu.me/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/</id>
-    <published>2017-07-13T10:46:44.000Z</published>
-    <updated>2017-07-21T14:15:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>出错原因：mysql5.7之后的版本默认设置不允许日期为空</p>
-<p>解决方法:</p>
-<ul>
-<li>修改mysql的sql mode</li>
-<li>默认值设置为非空值</li>
-</ul>
-<a id="more"></a>
-<h2 id="查看sql-mode"><a href="#查看sql-mode" class="headerlink" title="查看sql mode"></a>查看sql mode</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">SELECT @@GLOBAL.sql_mode;</div><div class="line">SELECT @@SESSION.sql_mode;</div></pre></td></tr></table></figure>
-<h2 id="sql-mode常用值"><a href="#sql-mode常用值" class="headerlink" title="sql_mode常用值"></a>sql_mode常用值</h2><ul>
-<li><p>ONLY_FULL_GROUP_BY：<br>对于GROUP BY聚合操作，如果在SELECT中的列，没有在GROUP BY中出现，那么这个SQL是不合法的，因为列不在GROUP BY从句中</p>
-</li>
-<li><p>NO_AUTO_VALUE_ON_ZERO：<br>该值影响自增长列的插入。默认设置下，插入0或NULL代表生成下一个自增长值。如果用户 希望插入的值为0，而该列又是自增长的，那么这个选项就有用了。</p>
-</li>
-<li><p>STRICT_TRANS_TABLES：<br>在该模式下，如果一个值不能插入到一个事务表中，则中断当前的操作，对非事务表不做限制</p>
-</li>
-<li><p>NO_ZERO_IN_DATE：<br>在严格模式下，不允许日期和月份为零</p>
-</li>
-<li><p>NO_ZERO_DATE：<br>设置该值，mysql数据库不允许插入零日期，插入零日期会抛出错误而不是警告。</p>
-</li>
-<li><p>ERROR_FOR_DIVISION_BY_ZERO：<br>在INSERT或UPDATE过程中，如果数据被零除，则产生错误而非警告。如 果未给出该模式，那么数据被零除时MySQL返回NULL</p>
-</li>
-<li><p>NO_AUTO_CREATE_USER：<br>禁止GRANT创建密码为空的用户</p>
-</li>
-<li><p>NO_ENGINE_SUBSTITUTION：<br>如果需要的存储引擎被禁用或未编译，那么抛出错误。不设置此值时，用默认的存储引擎替代，并抛出一个异常</p>
-</li>
-<li><p>PIPES_AS_CONCAT：<br>将”||”视为字符串的连接操作符而非或运算符，这和Oracle数据库是一样的，也和字符串的拼接函数Concat相类似</p>
-</li>
-<li><p>ANSI_QUOTES：启用ANSI_QUOTES后，不能用双引号来引用字符串，因为它被解释为识别符</p>
-</li>
-</ul>
-<h2 id="设置sql-mode"><a href="#设置sql-mode" class="headerlink" title="设置sql mode"></a>设置sql mode</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">SET GLOBAL sql_mode = &apos;modes...&apos;;</div><div class="line">SET SESSION sql_mode = &apos;modes...&apos;;</div></pre></td></tr></table></figure>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;出错原因：mysql5.7之后的版本默认设置不允许日期为空&lt;/p&gt;
-&lt;p&gt;解决方法:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;修改mysql的sql mode&lt;/li&gt;
-&lt;li&gt;默认值设置为非空值&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="mysql" scheme="http://jimxu.me/tags/mysql/"/>
-    
-      <category term="error" scheme="http://jimxu.me/tags/error/"/>
     
   </entry>
   

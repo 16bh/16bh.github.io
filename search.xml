@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[charles支持https]]></title>
+    <url>%2F2018%2F03%2F02%2Fcharles-support-https%2F</url>
+    <content type="text"><![CDATA[安装好charles之后，设置以支持https抓包 第一步 设置ssl proxyingProxy/SSL Proxying Settings 第二步 安装证书Help/SSL Proxying/Install Charles Root Certificate 点击后，会安装到钥匙串中 在所有项目中搜索charles，选中证书，双击打开，将信任设置为“始终信任” 如果不安装证书，访问https网站时会报错“您的连不是私密连接”]]></content>
+      <tags>
+        <tag>charles</tag>
+        <tag>mac</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[用Photos管理你的相册]]></title>
     <url>%2F2018%2F03%2F01%2Fhow-to-manage-your-photos-with-Photos%2F</url>
     <content type="text"><![CDATA[从iphone导入照片 从其他地方导入 照片的整理 从iphone导入照片 用数据线连接你的iphone和mac 解锁iphone 打开Photos 左侧设备一栏会出现你的手机，点击后，会出现你手机上所有的照片，上面是已导入的，下面是未导入的新照片，可以选择右上角的导入所有新照片导入全部，也可以勾选想要导入的照片再导入 注意：（1）右上角有个选项叫导入后删除项目，若勾选这一项，会将手机中的照片删掉（2）导入之后，在Photos软件中修改或删除照片，不会影响手机中存储的照片（3）导入的时候可以指定某个相簿，若未指定，则导入到照片中 从其他地方导入安卓手机或下载到某个文件夹中的照片也可以导入Photos中选择文件/导入，选择照片存储的文件夹，之后的导入方式跟从iphone中导入完全一致。不需要导入重复的照片，软件会将重复的照片自动识别为已导入的 照片的整理加入相册右击某张照片，选择添加到/新建相册（或某个已存在的相册） 之后可以在左侧的相簿/我的相簿中查看 编辑再带编辑功能，可以进行调整或滤镜或裁剪操作]]></content>
