@@ -317,22 +317,22 @@
     </url>
 
     <url>
+        <loc>http://jimxu.me/tags/reading/</loc>
+        <lastmod>2018-03-06T03:07:52.213Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>http://jimxu.me/tags/charles/</loc>
-        <lastmod>2018-03-02T10:27:07.662Z</lastmod>
+        <lastmod>2018-03-06T03:20:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://jimxu.me/tags/mac/</loc>
-        <lastmod>2018-03-02T10:27:07.662Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/tags/reading/</loc>
-        <lastmod>2018-03-06T03:07:52.213Z</lastmod>
+        <lastmod>2018-03-06T03:20:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

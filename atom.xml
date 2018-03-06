@@ -290,18 +290,24 @@
     <link href="http://jimxu.me/2018/03/02/charles-support-https/"/>
     <id>http://jimxu.me/2018/03/02/charles-support-https/</id>
     <published>2018-03-02T10:19:52.000Z</published>
-    <updated>2018-03-02T10:27:07.662Z</updated>
+    <updated>2018-03-06T03:20:37.033Z</updated>
     
     <content type="html"><![CDATA[<p>安装好charles之后，设置以支持https抓包</p>
 <a id="more"></a>
 <h2 id="第一步-设置ssl-proxying"><a href="#第一步-设置ssl-proxying" class="headerlink" title="第一步  设置ssl proxying"></a>第一步  设置ssl proxying</h2><p><code>Proxy/SSL Proxying Settings</code></p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998614257750.png" alt="20180302151998614257750.png"></p>
+<p>将Host和Port都设置为*，就可以抓取所有的https请求</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180306152030640030250.png" alt="20180306152030640030250.png"></p>
 <h2 id="第二步-安装证书"><a href="#第二步-安装证书" class="headerlink" title="第二步 安装证书"></a>第二步 安装证书</h2><p><code>Help/SSL Proxying/Install Charles Root Certificate</code></p>
 <p>点击后，会安装到钥匙串中</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998634953062.png" alt="20180302151998634953062.png"></p>
 <p>在所有项目中搜索<code>charles</code>，选中证书，双击打开，将信任设置为“始终信任”</p>
 <p>如果不安装证书，访问https网站时会报错“您的连不是私密连接”</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998591661934.png" alt="20180302151998591661934.png"></p>
+<h2 id="手机抓包"><a href="#手机抓包" class="headerlink" title="手机抓包"></a>手机抓包</h2><p>设置wifi的代理并访问<a href="chls.pro/ssl">chls.pro/ssl</a>下载证书到手机上即可</p>
+<blockquote>
+<p>tips:在安卓模拟器上也可以抓包</p>
+</blockquote>
 ]]></content>
     
     <summary type="html">
