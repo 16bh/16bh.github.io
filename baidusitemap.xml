@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>http://jimxu.me/2018/03/05/2017-reading-list/</loc>
+    <lastmod>2018-03-06T11:05:27.678Z</lastmod>
+    <data>
+        <display>
+        <title>2017阅读总结</title>
+        <pubTime>2018-03-05T11:08:35.000Z</pubTime>
+        
+        <tag>reading</tag>
+         
+         
+           
+             
+              <breadCrumb title="reading" url="http://jimxu.me/categories/reading/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2018/03/02/charles-support-https/</loc>
     <lastmod>2018-03-06T03:20:37.033Z</lastmod>
     <data>
@@ -17,26 +37,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2018/03/05/2017-reading-list/</loc>
-    <lastmod>2018-03-06T03:07:52.213Z</lastmod>
-    <data>
-        <display>
-        <title>2017阅读总结</title>
-        <pubTime>2018-03-05T11:08:35.000Z</pubTime>
-        
-        <tag>reading</tag>
-         
-         
-           
-             
-              <breadCrumb title="reading" url="http://jimxu.me/categories/reading/"/>
-          
         </display>
     </data>
     </url>
