@@ -3,6 +3,7 @@
 
 
     
+    
   <url>
     <loc>http://jimxu.me/2018/03/05/2017-reading-list/</loc>
     <lastmod>2018-03-06T11:05:27.678Z</lastmod>
@@ -120,23 +121,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
-    <lastmod>2018-02-28T07:21:29.246Z</lastmod>
-    <data>
-        <display>
-        <title>SoftWare List - Mac</title>
-        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
-        
-        <tag>software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/11/20/jupyter-support-php/</loc>
     <lastmod>2018-02-28T07:21:29.246Z</lastmod>
     <data>
@@ -147,6 +131,23 @@
         <tag>php</tag>
          
         <tag>jupyter</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
+    <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+    <data>
+        <display>
+        <title>SoftWare List - Mac</title>
+        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
+        
+        <tag>software</tag>
          
          
            
@@ -192,14 +193,31 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/15/book-list/</loc>
+    <loc>http://jimxu.me/2017/03/31/some-awesome-phpstorm-plugins/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>个人书单</title>
-        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
+        <title>phpStorm有哪些值得安装的插件</title>
+        <pubTime>2017-03-31T07:07:01.000Z</pubTime>
         
-        <tag>reading</tag>
+        <tag>phpstorm</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/04/07/how-to-use-markdown/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>MarkDown基础介绍</title>
+        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
+        
+        <tag>markdown</tag>
          
          
            
@@ -226,6 +244,23 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/04/15/book-list/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>个人书单</title>
+        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
+        
+        <tag>reading</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/07/31/go-study-note-grammar/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
@@ -241,7 +276,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://jimxu.me/2016/07/11/sublime3144-build-php-develop-environment/</loc>
@@ -263,40 +297,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/08/04/using-composer/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>使用composer</title>
-        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/03/31/some-awesome-phpstorm-plugins/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>phpStorm有哪些值得安装的插件</title>
-        <pubTime>2017-03-31T07:07:01.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/08/10/postman-test-image-upload/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
@@ -305,6 +305,23 @@
         <pubTime>2017-08-10T07:30:32.000Z</pubTime>
         
         <tag>postman</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/08/04/using-composer/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用composer</title>
+        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
+        
+        <tag>php</tag>
          
          
            
@@ -348,84 +365,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/07/how-to-use-markdown/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>MarkDown基础介绍</title>
-        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/08/yaf-study-note-structure/</loc>
+    <loc>http://jimxu.me/2017/06/09/yaf-study-note-config/</loc>
     <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>yaf学习笔记 - 项目结构</title>
-        <pubTime>2017-06-08T10:59:00.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - request类和respose类</title>
-        <pubTime>2017-07-26T08:48:53.000Z</pubTime>
-        
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/12/yaf-study-note-mvc/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - MVC模式</title>
-        <pubTime>2017-06-12T10:59:00.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/13/yaf-study-note-module/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - 模块</title>
-        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
+        <title>yaf学习笔记 - 配置</title>
+        <pubTime>2017-06-09T10:59:00.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -458,33 +403,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/06/09/yaf-study-note-config/</loc>
+    <loc>http://jimxu.me/2017/06/08/yaf-study-note-structure/</loc>
     <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>yaf学习笔记 - 配置</title>
-        <pubTime>2017-06-09T10:59:00.000Z</pubTime>
+        <title>yaf学习笔记 - 项目结构</title>
+        <pubTime>2017-06-08T10:59:00.000Z</pubTime>
         
         <tag>php</tag>
          
         <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/04/11/go-study-note-install-on-mac/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>go学习笔记：安装并运行hello world</title>
-        <pubTime>2017-04-11T03:53:15.000Z</pubTime>
-        
-        <tag>go</tag>
          
          
            
@@ -513,16 +441,86 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/12/oh-my-zsh-plugin-wd/</loc>
+    <loc>http://jimxu.me/2017/04/11/go-study-note-install-on-mac/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>go学习笔记：安装并运行hello world</title>
+        <pubTime>2017-04-11T03:53:15.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/06/12/yaf-study-note-mvc/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - MVC模式</title>
+        <pubTime>2017-06-12T10:59:00.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - request类和respose类</title>
+        <pubTime>2017-07-26T08:48:53.000Z</pubTime>
+        
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/06/13/yaf-study-note-module/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - 模块</title>
+        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/06/hexo-new-page/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</title>
-        <pubTime>2016-07-12T04:05:02.000Z</pubTime>
+        <title>hexo菜单栏创建留言板</title>
+        <pubTime>2016-07-06T05:34:33.000Z</pubTime>
         
-        <tag>tools</tag>
-         
-        <tag>oh my zsh</tag>
+        <tag>hexo</tag>
          
          
            
@@ -636,14 +634,20 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-busuanzi-plugin/</loc>
+    <loc>http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
-        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
+        <title>Permanently added the RSA host key for IP address to the list of known hosts</title>
+        <pubTime>2017-07-26T10:27:02.000Z</pubTime>
         
+        <tag>error</tag>
+         
         <tag>hexo</tag>
+         
+        <tag>git</tag>
+         
+        <tag>ssh</tag>
          
          
            
@@ -653,12 +657,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
+    <loc>http://jimxu.me/2016/07/08/fix-hexo-baidu-share/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>landscape-plus主题增加hexo文章目录功能</title>
-        <pubTime>2016-07-06T06:59:23.000Z</pubTime>
+        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
+        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -708,12 +712,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/08/hexo-landscape-plus-set-head-image/</loc>
+    <loc>http://jimxu.me/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo菜单栏背景图片设置</title>
-        <pubTime>2016-07-08T15:15:35.000Z</pubTime>
+        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
+        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -725,12 +729,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/30/hexo-language-setting-not-effective/</loc>
+    <loc>http://jimxu.me/2016/07/08/hexo-bind-godaddy-host-name/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo语言设置未生效解决办法</title>
-        <pubTime>2017-03-30T11:11:45.000Z</pubTime>
+        <title>hexo绑定DNSPOD代理的狗爹域名</title>
+        <pubTime>2016-07-08T14:42:40.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -742,12 +746,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
+    <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>landscape-plus主题代码高亮测试</title>
-        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
+        <title>hexo支持多说评论</title>
+        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -759,12 +763,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/08/fix-hexo-baidu-share/</loc>
+    <loc>http://jimxu.me/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
-        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
+        <title>运行hexo报错解决方案</title>
+        <pubTime>2016-07-06T04:30:02.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -776,12 +780,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-new-post-template/</loc>
+    <loc>http://jimxu.me/2016/07/13/hexo-404-page/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo默认文章的模板修改</title>
-        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
+        <title>设置hexo404页面</title>
+        <pubTime>2016-07-13T03:36:35.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -810,12 +814,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo nexT主题新增分类页和标签页</title>
-        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
+        <title>hexo侧边栏安装最近评论小物件</title>
+        <pubTime>2016-07-06T06:10:06.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -865,14 +869,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-theme-add-friends/</loc>
+    <loc>http://jimxu.me/2016/07/12/oh-my-zsh-plugin-wd/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo侧边栏增加链接小物件</title>
-        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
+        <title>在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</title>
+        <pubTime>2016-07-12T04:05:02.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>tools</tag>
+         
+        <tag>oh my zsh</tag>
          
          
            
@@ -901,12 +907,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-busuanzi-plugin/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo侧边栏安装最近评论小物件</title>
-        <pubTime>2016-07-06T06:10:06.000Z</pubTime>
+        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
+        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -918,12 +924,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/13/hexo-404-page/</loc>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>设置hexo404页面</title>
-        <pubTime>2016-07-13T03:36:35.000Z</pubTime>
+        <title>landscape-plus主题增加hexo文章目录功能</title>
+        <pubTime>2016-07-06T06:59:23.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -935,12 +941,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
+    <loc>http://jimxu.me/2016/07/06/hexo-landscape-theme-add-friends/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
-        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
+        <title>hexo侧边栏增加链接小物件</title>
+        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -969,12 +975,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/07/hexo-set-read-more/</loc>
+    <loc>http://jimxu.me/2016/07/08/hexo-landscape-plus-set-head-image/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
-        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
+        <title>hexo菜单栏背景图片设置</title>
+        <pubTime>2016-07-08T15:15:35.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -986,12 +992,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
+    <loc>http://jimxu.me/2017/03/30/hexo-language-setting-not-effective/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>运行hexo报错解决方案</title>
-        <pubTime>2016-07-06T04:30:02.000Z</pubTime>
+        <title>hexo语言设置未生效解决办法</title>
+        <pubTime>2017-03-30T11:11:45.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1020,20 +1026,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
+    <loc>http://jimxu.me/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>Permanently added the RSA host key for IP address to the list of known hosts</title>
-        <pubTime>2017-07-26T10:27:02.000Z</pubTime>
+        <title>landscape-plus主题代码高亮测试</title>
+        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
         
-        <tag>error</tag>
-         
         <tag>hexo</tag>
-         
-        <tag>git</tag>
-         
-        <tag>ssh</tag>
          
          
            
@@ -1079,12 +1079,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
+    <loc>http://jimxu.me/2016/07/06/hexo-new-post-template/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo支持多说评论</title>
-        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
+        <title>hexo默认文章的模板修改</title>
+        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1096,12 +1096,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/08/hexo-bind-godaddy-host-name/</loc>
+    <loc>http://jimxu.me/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo绑定DNSPOD代理的狗爹域名</title>
-        <pubTime>2016-07-08T14:42:40.000Z</pubTime>
+        <title>hexo nexT主题新增分类页和标签页</title>
+        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1113,12 +1113,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/06/hexo-new-page/</loc>
+    <loc>http://jimxu.me/2016/07/07/hexo-set-read-more/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo菜单栏创建留言板</title>
-        <pubTime>2016-07-06T05:34:33.000Z</pubTime>
+        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
+        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1293,6 +1293,23 @@
 
     
   <url>
+    <loc>http://jimxu.me/2017/06/28/mac-must-install-software/</loc>
+    <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+    <data>
+        <display>
+        <title>php开发者mac必装软件 - 终极版本</title>
+        <pubTime>2017-06-28T03:22:46.000Z</pubTime>
+        
+        <tag>software</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://jimxu.me/2017/06/08/fibonacci-algorithm/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
@@ -1312,14 +1329,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/06/28/mac-must-install-software/</loc>
+    <loc>http://jimxu.me/2016/08/03/build-php-develop-environment-in-atom/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>php开发者mac必装软件 - 终极版本</title>
-        <pubTime>2017-06-28T03:22:46.000Z</pubTime>
+        <title>使用atom进行php开发</title>
+        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
         
-        <tag>software</tag>
+        <tag>php</tag>
+         
+        <tag>atom</tag>
          
          
            
@@ -1337,25 +1356,6 @@
         <pubTime>2017-05-17T10:15:38.000Z</pubTime>
         
         <tag>laravel</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/08/03/build-php-develop-environment-in-atom/</loc>
-    <lastmod>2017-07-21T14:15:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>使用atom进行php开发</title>
-        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>atom</tag>
          
          
            
