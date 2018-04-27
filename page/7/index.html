@@ -232,6 +232,70 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-magento-crom" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/19/magento-crom/" class="article-date">
+      <time datetime="2016-07-19T09:56:24.000Z" itemprop="datePublished">2016-07-19</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/19/magento-crom/">magento计划任务</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>设置计划任务，定时运行脚本</p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mangeo/">mangeo</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/07/19/magento-crom/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-hexo-show-categories-and-tags" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -1139,75 +1203,6 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
     </div>
 
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-xdebug-in-phpstorm-on-mac" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/08/xdebug-in-phpstorm-on-mac/" class="article-date">
-      <time datetime="2016-07-08T06:28:10.000Z" itemprop="datePublished">2016-07-08</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/08/xdebug-in-phpstorm-on-mac/">mac下phpstorm配置xdebug</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <h1 id="给php安装xdebug扩展"><a href="#给php安装xdebug扩展" class="headerlink" title="给php安装xdebug扩展"></a>给php安装xdebug扩展</h1><p>安装扩展(前提是你的<code>php</code>也是用<code>brew</code>安装的)</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php55-xdebug --build-from-source</div></pre></td></tr></table></figure>
-<p>进入下面的目录打开<code>xdebug</code>配置文件：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /usr/local/etc/php/5.5/conf.d</div><div class="line">vim ext-xdebug.ini</div></pre></td></tr></table></figure></p>
-<p>编辑如下：</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[xdebug]</div><div class="line">zend_extension="/usr/local/opt/php55-xdebug/xdebug.so"</div><div class="line"></div><div class="line">xdebug.remote_enable=on</div><div class="line">xdebug.remote_handler=dbgp</div><div class="line">xdebug.remote_host=localhost</div><div class="line">xdebug.remote_port=9010</div><div class="line">xdebug.remote_log=/tmp/xdebug.log</div><div class="line">xdebug.profiler_enable=0</div><div class="line">xdebug.profiler_output_name=xdebug.cachegrind-out.%s.%p</div><div class="line">xdebug.idekey="PHPSTORM"</div></pre></td></tr></table></figure>
-<p>配置完成后要重启<code>php-fpm</code>:</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/xdebug/">xdebug</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/07/08/xdebug-in-phpstorm-on-mac/#more">阅读全文 >></a>
-        </p>
       
       <div class="clearfix"></div>
     </div>

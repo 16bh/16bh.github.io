@@ -3,6 +3,26 @@
 
 
     
+  <url>
+    <loc>http://jimxu.me/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/</loc>
+    <lastmod>2018-04-27T06:55:04.994Z</lastmod>
+    <data>
+        <display>
+        <title>使用pecl终端命令安装php扩展</title>
+        <pubTime>2018-04-27T06:28:17.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+             
+              <breadCrumb title="php" url="http://jimxu.me/categories/php/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://jimxu.me/2018/03/05/2017-reading-list/</loc>
@@ -121,23 +141,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
-    <lastmod>2018-02-28T07:21:29.246Z</lastmod>
-    <data>
-        <display>
-        <title>SoftWare List - Mac</title>
-        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
-        
-        <tag>software</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/11/20/jupyter-support-php/</loc>
     <lastmod>2018-02-28T07:21:29.246Z</lastmod>
     <data>
@@ -148,6 +151,23 @@
         <tag>php</tag>
          
         <tag>jupyter</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/08/16/mac-software-list/</loc>
+    <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+    <data>
+        <display>
+        <title>SoftWare List - Mac</title>
+        <pubTime>2016-08-16T06:12:44.000Z</pubTime>
+        
+        <tag>software</tag>
          
          
            
@@ -193,14 +213,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/</loc>
+    <loc>http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>phpstorm忽略拼写错误</title>
-        <pubTime>2017-08-21T03:23:39.000Z</pubTime>
+        <title>git Error: Permission denied (publickey)</title>
+        <pubTime>2017-10-16T08:36:24.000Z</pubTime>
         
-        <tag>phpstorm</tag>
+        <tag>git</tag>
          
          
            
@@ -227,40 +247,6 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/04/15/book-list/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>个人书单</title>
-        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
-        
-        <tag>reading</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>phpstorm生成函数调用关系</title>
-        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://jimxu.me/2017/07/31/go-study-note-grammar/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
@@ -278,31 +264,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/08/04/using-composer/</loc>
+    <loc>http://jimxu.me/2017/04/15/book-list/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>使用composer</title>
-        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
+        <title>个人书单</title>
+        <pubTime>2017-04-15T00:34:23.000Z</pubTime>
         
-        <tag>php</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/10/16/git-Error-Permission-denied-publickey/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>git Error: Permission denied (publickey)</title>
-        <pubTime>2017-10-16T08:36:24.000Z</pubTime>
-        
-        <tag>git</tag>
+        <tag>reading</tag>
          
          
            
@@ -365,12 +334,63 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/06/13/yaf-study-note-module/</loc>
+    <loc>http://jimxu.me/2017/08/04/using-composer/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>使用composer</title>
+        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/08/21/phpstorm-ignore-spell-error/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>phpstorm忽略拼写错误</title>
+        <pubTime>2017-08-21T03:23:39.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>phpstorm生成函数调用关系</title>
+        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/06/09/yaf-study-note-config/</loc>
     <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>yaf学习笔记 - 模块</title>
-        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
+        <title>yaf学习笔记 - 配置</title>
+        <pubTime>2017-06-09T10:59:00.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -403,48 +423,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/</loc>
+    <loc>http://jimxu.me/2017/06/13/yaf-study-note-module/</loc>
     <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>yaf学习笔记 - request类和respose类</title>
-        <pubTime>2017-07-26T08:48:53.000Z</pubTime>
-        
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/08/yaf-study-note-install/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - mac环境下的安装运行</title>
-        <pubTime>2017-06-08T03:16:47.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2017/06/08/yaf-study-note-structure/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - 项目结构</title>
-        <pubTime>2017-06-08T10:59:00.000Z</pubTime>
+        <title>yaf学习笔记 - 模块</title>
+        <pubTime>2017-06-13T02:12:59.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -494,12 +478,12 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/06/09/yaf-study-note-config/</loc>
+    <loc>http://jimxu.me/2017/06/08/yaf-study-note-install/</loc>
     <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>yaf学习笔记 - 配置</title>
-        <pubTime>2017-06-09T10:59:00.000Z</pubTime>
+        <title>yaf学习笔记 - mac环境下的安装运行</title>
+        <pubTime>2017-06-08T03:16:47.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -513,14 +497,33 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <loc>http://jimxu.me/2017/06/08/yaf-study-note-structure/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
         <display>
-        <title>hexo nexT主题新增分类页和标签页</title>
-        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
+        <title>yaf学习笔记 - 项目结构</title>
+        <pubTime>2017-06-08T10:59:00.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/07/26/yaf-study-note-request-and-respose/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - request类和respose类</title>
+        <pubTime>2017-07-26T08:48:53.000Z</pubTime>
+        
+        <tag>yaf</tag>
          
          
            
@@ -831,16 +834,14 @@
 
     
   <url>
-    <loc>http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/</loc>
+    <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>安装xdebug后var_dump显示问题</title>
-        <pubTime>2017-07-24T09:08:19.000Z</pubTime>
+        <title>hexo支持多说评论</title>
+        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
         
-        <tag>phpstorm</tag>
-         
-        <tag>xdebug</tag>
+        <tag>hexo</tag>
          
          
            
@@ -888,33 +889,16 @@
 
     
   <url>
-    <loc>http://jimxu.me/2016/07/08/xdebug-in-phpstorm-on-mac/</loc>
+    <loc>http://jimxu.me/2017/07/24/xdebug-var-dump-display-error/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>mac下phpstorm配置xdebug</title>
-        <pubTime>2016-07-08T06:28:10.000Z</pubTime>
+        <title>安装xdebug后var_dump显示问题</title>
+        <pubTime>2017-07-24T09:08:19.000Z</pubTime>
         
         <tag>phpstorm</tag>
          
         <tag>xdebug</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/05/hexo-enable-duoshuo/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo支持多说评论</title>
-        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
-        
-        <tag>hexo</tag>
          
          
            
@@ -949,6 +933,25 @@
         <pubTime>2016-07-06T06:59:23.000Z</pubTime>
         
         <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/08/xdebug-in-phpstorm-on-mac/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>mac下phpstorm配置xdebug</title>
+        <pubTime>2016-07-08T06:28:10.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+        <tag>xdebug</tag>
          
          
            
@@ -1136,6 +1139,23 @@
         <display>
         <title>hexo语言设置未生效解决办法</title>
         <pubTime>2017-03-30T11:11:45.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo nexT主题新增分类页和标签页</title>
+        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1373,23 +1393,6 @@
         <pubTime>2017-07-12T09:21:07.000Z</pubTime>
         
         <tag>tools</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://jimxu.me/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/</loc>
-    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
-    <data>
-        <display>
-        <title>magento报错:Customer website ID must be specified when using the website scope</title>
-        <pubTime>2016-07-21T02:58:20.000Z</pubTime>
-        
-        <tag>magento</tag>
          
          
            
@@ -2679,6 +2682,23 @@
         <display>
         <title>magento后台汉化</title>
         <pubTime>2016-07-11T07:28:42.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://jimxu.me/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/</loc>
+    <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+    <data>
+        <display>
+        <title>magento报错:Customer website ID must be specified when using the website scope</title>
+        <pubTime>2016-07-21T02:58:20.000Z</pubTime>
         
         <tag>magento</tag>
          

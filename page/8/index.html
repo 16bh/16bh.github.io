@@ -232,6 +232,75 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-xdebug-in-phpstorm-on-mac" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/07/08/xdebug-in-phpstorm-on-mac/" class="article-date">
+      <time datetime="2016-07-08T06:28:10.000Z" itemprop="datePublished">2016-07-08</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/08/xdebug-in-phpstorm-on-mac/">mac下phpstorm配置xdebug</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <h1 id="给php安装xdebug扩展"><a href="#给php安装xdebug扩展" class="headerlink" title="给php安装xdebug扩展"></a>给php安装xdebug扩展</h1><p>安装扩展(前提是你的<code>php</code>也是用<code>brew</code>安装的)</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php55-xdebug --build-from-source</div></pre></td></tr></table></figure>
+<p>进入下面的目录打开<code>xdebug</code>配置文件：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /usr/local/etc/php/5.5/conf.d</div><div class="line">vim ext-xdebug.ini</div></pre></td></tr></table></figure></p>
+<p>编辑如下：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">[xdebug]</div><div class="line">zend_extension="/usr/local/opt/php55-xdebug/xdebug.so"</div><div class="line"></div><div class="line">xdebug.remote_enable=on</div><div class="line">xdebug.remote_handler=dbgp</div><div class="line">xdebug.remote_host=localhost</div><div class="line">xdebug.remote_port=9010</div><div class="line">xdebug.remote_log=/tmp/xdebug.log</div><div class="line">xdebug.profiler_enable=0</div><div class="line">xdebug.profiler_output_name=xdebug.cachegrind-out.%s.%p</div><div class="line">xdebug.idekey="PHPSTORM"</div></pre></td></tr></table></figure>
+<p>配置完成后要重启<code>php-fpm</code>:</p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/xdebug/">xdebug</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/07/08/xdebug-in-phpstorm-on-mac/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-fix-Alfred-markdown-workflow" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -1147,72 +1216,6 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">&lt;% <span class="keyword">if</span> (theme.duoshuo_shortname)&#123; %&gt;</div><div class="line"><span class="xml"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget-wrap"</span>&gt;</span></span></div><div class="line">  <span class="tag">&lt;<span class="name">h3</span> <span class="attr">class</span>=<span class="string">"widget-title"</span>&gt;</span>最近评论<span class="tag">&lt;/<span class="name">h3</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"widget"</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"ds-recent-comments"</span> <span class="attr">data-num-items</span>=<span class="string">"5"</span> <span class="attr">data-show-avatars</span>=<span class="string">"1"</span> <span class="attr">data-show-time</span>=<span class="string">"1"</span> <span class="attr">data-show-title</span>=<span class="string">"1"</span> <span class="attr">data-show-admin</span>=<span class="string">"1"</span> <span class="attr">data-excerpt-length</span>=<span class="string">"70"</span>&gt;</span><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">  <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">&lt;% &#125; %&gt;</div></pre></td></tr></table></figure>
 <p>再修改主题的配置<code>themes/landscape-plus/_config.yml</code></p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Sidebar</span></div><div class="line"><span class="attr">sidebar:</span> <span class="string">right</span></div><div class="line"><span class="attr">widgets:</span></div><div class="line"><span class="bullet">-</span> <span class="string">recent_posts</span></div><div class="line"><span class="bullet">-</span> <span class="string">category</span></div><div class="line"><span class="bullet">-</span> <span class="string">tag</span></div><div class="line"><span class="bullet">-</span> <span class="string">tagcloud</span></div><div class="line"><span class="bullet">-</span> <span class="string">archive</span></div><div class="line"><span class="bullet">-</span> <span class="string">links</span></div><div class="line"><span class="bullet">-</span> <span class="string">duoshuo_recent_comments</span>    <span class="string">//与小物件的名称保持一致</span></div></pre></td></tr></table></figure>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-hexo-new-page" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/06/hexo-new-page/" class="article-date">
-      <time datetime="2016-07-06T05:34:33.000Z" itemprop="datePublished">2016-07-06</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/06/hexo-new-page/">hexo菜单栏创建留言板</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>在命令行里面输入：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new page "message"</div></pre></td></tr></table></figure>
-<p>然后你会发现source里面多了个目录message，里面有个index.md</p>
-<p>再编辑<code>themes/landscape-plus/_config.yml</code>，加入<code>留言板: /message</code>,如下所示：</p>
-<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Header</span></div><div class="line"><span class="attr">menu:</span></div><div class="line">  <span class="string">本站首页:</span> <span class="string">/</span></div><div class="line">  <span class="string">所有文章:</span> <span class="string">/archives</span></div><div class="line">  <span class="string">留言板:</span> <span class="string">/message</span></div><div class="line"><span class="attr">rss:</span> <span class="string">/atom.xml</span></div></pre></td></tr></table></figure>
-<p>最后，将改动提交</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo g -d</div></pre></td></tr></table></figure>
 
       
     </div>

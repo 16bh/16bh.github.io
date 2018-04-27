@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jimxu.me/"/>
-  <updated>2018-03-06T11:05:27.678Z</updated>
+  <updated>2018-04-27T06:55:04.994Z</updated>
   <id>http://jimxu.me/</id>
   
   <author>
@@ -14,6 +14,57 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用pecl终端命令安装php扩展</title>
+    <link href="http://jimxu.me/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/"/>
+    <id>http://jimxu.me/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/</id>
+    <published>2018-04-27T06:28:17.000Z</published>
+    <updated>2018-04-27T06:55:04.994Z</updated>
+    
+    <content type="html"><![CDATA[<p>brew不支持php70扩展的安装了，改用pecl</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">➜  conf.d brew search php70</div><div class="line">==&gt; Searching local taps...</div><div class="line">==&gt; Searching taps on GitHub...</div><div class="line">==&gt; Searching blacklisted, migrated and deleted formulae...</div><div class="line">It was migrated from josegonzalez/php to homebrew/core.</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<h2 id="安装PHP-7-0"><a href="#安装PHP-7-0" class="headerlink" title="安装PHP@7.0"></a>安装PHP@7.0</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php@7.0</div></pre></td></tr></table></figure>
+<p>安装完要配置环境变量,加入<code>.zshrc</code>文件</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">export PATH="$(brew --prefix php@7.0)/sbin:$PATH"</div><div class="line">export PATH="/usr/local/bin:/usr/local/sbin:$PATH"</div></pre></td></tr></table></figure>
+<p>启动关闭的命令也变了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">//启动php-fpm</div><div class="line">sudo php-fpm</div><div class="line"></div><div class="line">//关闭php-fpm</div><div class="line">sudo pkill php-fpm</div></pre></td></tr></table></figure>
+<h2 id="安装pear"><a href="#安装pear" class="headerlink" title="安装pear"></a>安装pear</h2><p>参考一下的教程，安装pear，安装完之后就可以使用pecl命令安装管理php扩展了</p>
+<p><a href="https://www.jianshu.com/p/598c0fd84719" target="_blank" rel="external">在Mac上安装pecl</a></p>
+<h2 id="pecl命令"><a href="#pecl命令" class="headerlink" title="pecl命令"></a>pecl命令</h2><ul>
+<li>pecl search xxxx 查找扩展</li>
+<li>pecl install xxxx 安装扩展</li>
+<li>pecl list xxxx  查看已安装扩展列表</li>
+</ul>
+<h2 id="扩展的配置"><a href="#扩展的配置" class="headerlink" title="扩展的配置"></a>扩展的配置</h2><p>以前brew安装php70的扩展都是放在conf.d文件夹下的，而现在php@7.0的扩展安装完之后之前会自动在<code>php.ini</code>文件中开启</p>
+<p>以protobuf扩展为例，我们通过<code>pecl install protobuf</code>安装完成之后,在终端日志最后可以看到以下内容</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Build process completed successfully</div><div class="line">Installing '/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so'</div><div class="line">install ok: channel://pecl.php.net/protobuf-3.5.1.1</div><div class="line">Extension protobuf enabled in php.ini</div></pre></td></tr></table></figure>
+<p><code>/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so</code>是扩展所在的目录</p>
+<p>打开<code>php.ini</code>文件,<br>第一行新增了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">extension=&quot;protobuf.so&quot;</div></pre></td></tr></table></figure>
+<p>将其注释掉</p>
+<p>在conf.d目录下新建文件<code>ext-protobuf.ini</code>，编辑如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">protobuf]</div><div class="line">extension=&quot;/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so&quot;</div></pre></td></tr></table></figure>
+<h2 id="php的配置"><a href="#php的配置" class="headerlink" title="php的配置"></a>php的配置</h2><p>brew安装的php70时，php.ini文件是不生效的<br>但是brew安装php@7.0，php.ini文件是生效的</p>
+<h3 id="obcache"><a href="#obcache" class="headerlink" title="obcache"></a>obcache</h3><p>默认打开了obcache，影响本地测试，需要关闭</p>
+<p>修改php.ini</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[opcache]</div><div class="line">; Determines if Zend OPCache is enabled</div><div class="line">opcache.enable=0</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;brew不支持php70扩展的安装了，改用pecl&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;2&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;3&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;4&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;5&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;➜  conf.d brew search php70&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;==&amp;gt; Searching local taps...&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;==&amp;gt; Searching taps on GitHub...&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;==&amp;gt; Searching blacklisted, migrated and deleted formulae...&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;It was migrated from josegonzalez/php to homebrew/core.&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://jimxu.me/categories/php/"/>
+    
+    
+      <category term="php" scheme="http://jimxu.me/tags/php/"/>
+    
+  </entry>
   
   <entry>
     <title>2017阅读总结</title>
@@ -1038,37 +1089,6 @@
       <category term="phpstorm" scheme="http://jimxu.me/tags/phpstorm/"/>
     
       <category term="xdebug" scheme="http://jimxu.me/tags/xdebug/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>美区apple账号的申请和使用</title>
-    <link href="http://jimxu.me/2017/07/21/apple-usa-account/"/>
-    <id>http://jimxu.me/2017/07/21/apple-usa-account/</id>
-    <published>2017-07-21T14:16:32.000Z</published>
-    <updated>2017-07-21T14:28:50.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170721150064666695739.png" width="492" height="297"></p>
-<a id="more"></a>
-<h2 id="申请美区账号"><a href="#申请美区账号" class="headerlink" title="申请美区账号"></a>申请美区账号</h2><ul>
-<li>先选择一款免费的软件点击下载（必须要有这一步，否则选择付款方式的时候不会出现none的选项)</li>
-<li>申请账号，地点选择美国，下一步</li>
-<li>输入邮箱账号，密码，下一步</li>
-<li>输入姓，名，安全问题，下一步</li>
-<li>付款方式处选“None”，填写详细地址，下一步</li>
-<li>验证邮箱，成功！</li>
-</ul>
-<h2 id="快速切换中区账号和美区账号"><a href="#快速切换中区账号和美区账号" class="headerlink" title="快速切换中区账号和美区账号"></a>快速切换中区账号和美区账号</h2><p>使用workflow实现<br><a href="https://workflow.is/workflows/9f3eb6c502b14181a5abd690b16338ec" target="_blank" rel="external">https://workflow.is/workflows/9f3eb6c502b14181a5abd690b16338ec</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170721150064666695739.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="life" scheme="http://jimxu.me/tags/life/"/>
     
   </entry>
   
