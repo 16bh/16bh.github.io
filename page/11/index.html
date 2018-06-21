@@ -232,6 +232,154 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-homebrew、homebrew-cask及cakebrew" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/16/homebrew、homebrew-cask及cakebrew/" class="article-date">
+      <time datetime="2016-06-16T10:19:59.000Z" itemprop="datePublished">2016-06-16</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/06/16/homebrew、homebrew-cask及cakebrew/">homebrew、homebrew-cask及cakebrew</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="一-用homebrew安装常用包"><a href="#一-用homebrew安装常用包" class="headerlink" title="一 用homebrew安装常用包"></a>一 用homebrew安装常用包</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</div></pre></td></tr></table></figure>
+<p>在终端运行<code>brew</code>命令可得到常用命令</p>
+<blockquote>
+<p>Example usage:<br>  查询包是否存在：brew search [TEXT|/REGEX/]<br>  查询包信息及可用安装命令：brew (info|home|options) [FORMULA…]<br>  安装包：brew install FORMULA…<br>  更新homebrew：brew update<br>  更新包：brew upgrade [FORMULA…]<br>  卸载包：brew uninstall FORMULA…<br>  查看已安装包：brew list [FORMULA…]  </p>
+<p>Troubleshooting:<br>  brew config<br>  检查homebrew状况：brew doctor<br>  brew install -vd FORMULA</p>
+<p>Brewing:<br>  brew create [URL [–no-fetch]]<br>  brew edit [FORMULA…]<br>  <a href="https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Formula-Cookbook.md" target="_blank" rel="external">https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Formula-Cookbook.md</a></p>
+<p>Further help:<br>  man brew<br>  brew help [COMMAND]<br>  brew home</p>
+</blockquote>
+<p>如：</p>
+<pre><code>brew search brew-cask
+brew install nginx
+brew search php
+brew uninstall mysql
+</code></pre><h2 id="二-用homebrew-cask安装常用软件"><a href="#二-用homebrew-cask安装常用软件" class="headerlink" title="二 用homebrew-cask安装常用软件"></a>二 用homebrew-cask安装常用软件</h2><p>比在网上下载安装文件安装的优势在于：<br>（1）节省下载安装包的过程，一行命令即可安装<br>（2）一些在网上搜不到安装文件的软件也可以通过这种方法安装</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew tap phinze/homebrew-cask</div><div class="line">brew install brew-cask</div></pre></td></tr></table></figure>
+<p>使用方法：将上面的brew换成brew-cask即可，如</p>
+<pre><code>brew-cask install qq
+</code></pre><h2 id="三-用cakebrew可视化你的homebrew"><a href="#三-用cakebrew可视化你的homebrew" class="headerlink" title="三 用cakebrew可视化你的homebrew"></a>三 用cakebrew可视化你的homebrew</h2><p>如果你不熟悉终端命令，可以下载cakebrew，它是homebrew的客户端，可以实现常用的搜索、安装、卸载操作<br>官网下载安装</p>
+<blockquote>
+<p><a href="https://www.cakebrew.com" target="_blank" rel="external">https://www.cakebrew.com</a></p>
+</blockquote>
+<p>或执行以下命令</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew cask install cakebrew</div></pre></td></tr></table></figure>
+<p>效果图：<br><img src="https://www.cakebrew.com/assets/img/app-bg.png" alt=""></p>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/homebrew/">homebrew</a></li></ul>
+    </div>
+
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-php-review-note-on-2016-04" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/04/22/php-review-note-on-2016-04/" class="article-date">
+      <time datetime="2016-04-22T07:00:35.000Z" itemprop="datePublished">2016-04-22</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/04/22/php-review-note-on-2016-04/">php面试笔记</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p>面试岗位：web开发工程师<br>时间： 2016-04-22</p>
+<p>面试总结： 前端和后端数据库部分掌握不足</p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/review/">review</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2016/04/22/php-review-note-on-2016-04/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-use-fiddler-to-change-website-cotent" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">

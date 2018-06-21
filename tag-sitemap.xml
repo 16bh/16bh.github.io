@@ -177,13 +177,6 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/translate/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/xdebug/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -192,6 +185,13 @@
 
     <url>
         <loc>http://jimxu.me/tags/error/</loc>
+        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/translate/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -296,22 +296,8 @@
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/software/</loc>
-        <lastmod>2018-02-28T07:21:29.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://jimxu.me/tags/jupyter/</loc>
         <lastmod>2018-02-28T07:21:29.246Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://jimxu.me/tags/mac/</loc>
-        <lastmod>2018-03-06T03:20:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -333,6 +319,20 @@
     <url>
         <loc>http://jimxu.me/tags/php/</loc>
         <lastmod>2018-04-27T06:55:04.994Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/mac/</loc>
+        <lastmod>2018-05-28T11:02:07.402Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://jimxu.me/tags/software/</loc>
+        <lastmod>2018-06-21T08:39:27.429Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

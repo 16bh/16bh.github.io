@@ -232,6 +232,135 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-how-to-use-markdown" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/07/how-to-use-markdown/" class="article-date">
+      <time datetime="2017-04-07T03:38:38.000Z" itemprop="datePublished">2017-04-07</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/07/how-to-use-markdown/">MarkDown基础介绍</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170408149162816052701.png" alt="20170408149162816052701.png"></p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/markdown/">markdown</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2017/04/07/how-to-use-markdown/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
+    <article id="post-magento-set-up-sql-common-problems" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2017/04/07/magento-set-up-sql-common-problems/" class="article-date">
+      <time datetime="2017-04-07T03:02:02.000Z" itemprop="datePublished">2017-04-07</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/07/magento-set-up-sql-common-problems/">Magento升级脚本常见问题</a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+              <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170407149153451049148.png" alt="20170407149153451049148.png"></p>
+<p>magento通过自带的升级脚本操作数据库，常见问题的解决方法如下</p>
+          
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+
+      
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mysql/">mysql</a></li></ul>
+    </div>
+
+      
+        <p class="article-more-link">
+          <a href="/2017/04/07/magento-set-up-sql-common-problems/#more">阅读全文 >></a>
+        </p>
+      
+      <div class="clearfix"></div>
+    </div>
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+
+
+  
     <article id="post-phpstorm-code-style-wrapping=-and-braces" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
@@ -1078,139 +1207,6 @@
       
         <p class="article-more-link">
           <a href="/2017/03/30/what-does-magento's-order-model-save-function-do/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-what-does-magento&#39;s-order-model-cancel-function-do" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/03/29/what-does-magento's-order-model-cancel-function-do/" class="article-date">
-      <time datetime="2017-03-29T08:53:49.000Z" itemprop="datePublished">2017-03-29</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/29/what-does-magento's-order-model-cancel-function-do/">[magento]Order对象的cancel方法会执行哪些操作？</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p><img src="http://o9xbyqajf.bkt.clouddn.com/20170329149077771445601.png" alt="20170329149077771445601.png"></p>
-<p>用户下单未付款，用户付款后申请取消，…，这些场景时我们需要取消magento中生成的订单，取消的方式如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$order-&gt;cancel();//取消普通订单</div><div class="line">$order-&gt;cancelPaidOrder();//取消已付款订单</div></pre></td></tr></table></figure>
-<p>这种对象的方法实现的具体方式是怎样的呢？</p>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2017/03/29/what-does-magento's-order-model-cancel-function-do/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-PHP-ERROR-Arrays-are-not-allowed-in-class-constants" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/" class="article-date">
-      <time datetime="2017-03-27T10:38:37.000Z" itemprop="datePublished">2017-03-27</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/">[PHP ERROR]:Arrays are not allowed in class constants </a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <blockquote>
-<p>FastCGI sent in stderr: “PHP message: PHP Fatal error:  Arrays are not allowed in class constants in xxxxx on line xx” while reading response header from upstream</p>
-</blockquote>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/error/">error</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/#more">阅读全文 >></a>
         </p>
       
       <div class="clearfix"></div>
