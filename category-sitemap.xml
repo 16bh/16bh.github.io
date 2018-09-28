@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://jimxu.me</loc>
+        <loc>16bh.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/mac/</loc>
+        <loc>16bh.github.io/categories/mac/</loc>
         <lastmod>2018-03-02T03:35:00.515Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/reading/</loc>
+        <loc>16bh.github.io/categories/reading/</loc>
         <lastmod>2018-03-06T11:05:27.678Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/categories/php/</loc>
+        <loc>16bh.github.io/categories/php/</loc>
         <lastmod>2018-04-27T06:55:04.994Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>

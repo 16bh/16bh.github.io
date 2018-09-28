@@ -2,336 +2,336 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>http://jimxu.me/tags/js/</loc>
+        <loc>16bh.github.io/tags/js/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/vim/</loc>
+        <loc>16bh.github.io/tags/vim/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/xml/</loc>
+        <loc>16bh.github.io/tags/xml/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/environment/</loc>
+        <loc>16bh.github.io/tags/environment/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/alfred/</loc>
+        <loc>16bh.github.io/tags/alfred/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/shell/</loc>
+        <loc>16bh.github.io/tags/shell/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/homebrew/</loc>
+        <loc>16bh.github.io/tags/homebrew/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/jekyll/</loc>
+        <loc>16bh.github.io/tags/jekyll/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/json/</loc>
+        <loc>16bh.github.io/tags/json/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/lua/</loc>
+        <loc>16bh.github.io/tags/lua/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mangeo/</loc>
+        <loc>16bh.github.io/tags/mangeo/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/review/</loc>
+        <loc>16bh.github.io/tags/review/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/phpcs/</loc>
+        <loc>16bh.github.io/tags/phpcs/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/phpmd/</loc>
+        <loc>16bh.github.io/tags/phpmd/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/python/</loc>
+        <loc>16bh.github.io/tags/python/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/nginx/</loc>
+        <loc>16bh.github.io/tags/nginx/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/psr/</loc>
+        <loc>16bh.github.io/tags/psr/</loc>
         <lastmod>2017-07-12T12:15:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mysql/</loc>
+        <loc>16bh.github.io/tags/mysql/</loc>
         <lastmod>2017-07-21T14:15:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/design-pattern/</loc>
+        <loc>16bh.github.io/tags/design-pattern/</loc>
         <lastmod>2017-07-21T14:15:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/atom/</loc>
+        <loc>16bh.github.io/tags/atom/</loc>
         <lastmod>2017-07-21T14:15:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/algorithm/</loc>
+        <loc>16bh.github.io/tags/algorithm/</loc>
         <lastmod>2017-07-21T14:15:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/laravel/</loc>
+        <loc>16bh.github.io/tags/laravel/</loc>
         <lastmod>2017-07-21T14:15:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/website/</loc>
+        <loc>16bh.github.io/tags/website/</loc>
         <lastmod>2017-07-21T14:15:53.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/life/</loc>
+        <loc>16bh.github.io/tags/life/</loc>
         <lastmod>2017-07-21T14:28:50.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/magento/</loc>
+        <loc>16bh.github.io/tags/magento/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/xdebug/</loc>
+        <loc>16bh.github.io/tags/xdebug/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/error/</loc>
+        <loc>16bh.github.io/tags/error/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/translate/</loc>
+        <loc>16bh.github.io/tags/translate/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/hexo/</loc>
+        <loc>16bh.github.io/tags/hexo/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/tools/</loc>
+        <loc>16bh.github.io/tags/tools/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/redis/</loc>
+        <loc>16bh.github.io/tags/redis/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/github/</loc>
+        <loc>16bh.github.io/tags/github/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/oh-my-zsh/</loc>
+        <loc>16bh.github.io/tags/oh-my-zsh/</loc>
         <lastmod>2017-07-31T13:14:22.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/yaf/</loc>
+        <loc>16bh.github.io/tags/yaf/</loc>
         <lastmod>2017-08-01T13:20:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/vscode/</loc>
+        <loc>16bh.github.io/tags/vscode/</loc>
         <lastmod>2017-08-01T13:20:14.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/go/</loc>
+        <loc>16bh.github.io/tags/go/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/phpstorm/</loc>
+        <loc>16bh.github.io/tags/phpstorm/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/markdown/</loc>
+        <loc>16bh.github.io/tags/markdown/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/postman/</loc>
+        <loc>16bh.github.io/tags/postman/</loc>
         <lastmod>2017-11-02T03:43:37.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/git/</loc>
+        <loc>16bh.github.io/tags/git/</loc>
         <lastmod>2017-11-07T08:30:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/ssh/</loc>
+        <loc>16bh.github.io/tags/ssh/</loc>
         <lastmod>2017-11-07T08:30:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/sublime/</loc>
+        <loc>16bh.github.io/tags/sublime/</loc>
         <lastmod>2017-11-07T08:31:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/jupyter/</loc>
+        <loc>16bh.github.io/tags/jupyter/</loc>
         <lastmod>2018-02-28T07:21:29.246Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/charles/</loc>
+        <loc>16bh.github.io/tags/charles/</loc>
         <lastmod>2018-03-06T03:20:37.033Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/reading/</loc>
+        <loc>16bh.github.io/tags/reading/</loc>
         <lastmod>2018-03-06T11:05:27.678Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/php/</loc>
+        <loc>16bh.github.io/tags/php/</loc>
         <lastmod>2018-04-27T06:55:04.994Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/mac/</loc>
+        <loc>16bh.github.io/tags/mac/</loc>
         <lastmod>2018-05-28T11:02:07.402Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://jimxu.me/tags/software/</loc>
+        <loc>16bh.github.io/tags/software/</loc>
         <lastmod>2018-06-21T08:47:39.606Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
