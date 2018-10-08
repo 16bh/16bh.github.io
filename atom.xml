@@ -496,9 +496,10 @@
     <link href="16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/"/>
     <id>16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/</id>
     <published>2018-02-28T07:28:11.000Z</published>
-    <updated>2018-03-02T03:35:00.515Z</updated>
+    <updated>2018-10-08T07:25:01.979Z</updated>
     
     <content type="html"><![CDATA[<p>当你在办公室和家里有多台mac时，数据如何保持同步<br>可以做到无缝切换电脑的效果</p>
+<p><strong>同步的基本思想是：将常用的配置或文件保存在坚果云中，实现跨设备的同步</strong></p>
 <ul>
 <li>笔记同步</li>
 <li>文件同步</li>
@@ -524,9 +525,24 @@
 <li><code>金山快盘</code>，已关闭</li>
 </ol>
 <h1 id="书签同步"><a href="#书签同步" class="headerlink" title="书签同步"></a>书签同步</h1><ol>
-<li>【推荐】safari</li>
-<li>chrome（须登录，可能存在网络问题）</li>
+<li><p>【推荐】safari</p>
+</li>
+<li><p>chrome（须登录，可能存在网络问题）</p>
+</li>
+<li><p>基于chrome的homely扩展，结合坚果云的同步功能实现<br>效果预览：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20181008153898320819295.png" alt=""></p>
+</li>
 </ol>
+<p>实现方式：</p>
+<ul>
+<li><p>下载homely扩展并安装</p>
+</li>
+<li><p>配置你的书签页面</p>
+</li>
+<li>将配置文件导出到坚果云，默认只能导出到Download目录，需要自己拷贝到坚果云文件夹中</li>
+<li>同步完成后，在另一台设备中导入配置文件</li>
+</ul>
+<p>导入导出的入口在:</p>
+<p><img src="http://o9xbyqajf.bkt.clouddn.com/2018100815389833365849.png" alt=""></p>
 <h1 id="postman同步"><a href="#postman同步" class="headerlink" title="postman同步"></a>postman同步</h1><p>postman是模拟api接口请求的工具<br>用相同的账号登录了postman之后，你请求的历史记录和收藏的api都可以自动同步</p>
 <h1 id="密码同步"><a href="#密码同步" class="headerlink" title="密码同步"></a>密码同步</h1><ol>
 <li>【推荐】LastPass，支持软件版和主流的浏览器的插件版</li>
@@ -536,20 +552,24 @@
 <h1 id="Hosts同步"><a href="#Hosts同步" class="headerlink" title="Hosts同步"></a>Hosts同步</h1><p>SwitchHosts，须手动备份</p>
 <p>使用<code>文件/导出</code>功能将hosts文件导出到坚果云</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990353149728.png" alt="20180301151990353149728.png"></p>
-<p>另一台电脑直接从坚果云中导入，即可</p>
+<p>注意：只有显示了Dock图标才能看到<code>文件/导出</code>功能<br><img src="http://o9xbyqajf.bkt.clouddn.com/20181008153898160195878.png" alt=""><br>另一台电脑直接从坚果云中导入，即可</p>
 <h1 id="代码同步"><a href="#代码同步" class="headerlink" title="代码同步"></a>代码同步</h1><p>git或svn</p>
 <h1 id="Atom同步"><a href="#Atom同步" class="headerlink" title="Atom同步"></a>Atom同步</h1><p>如果你用的是Atom编辑器,可以下载<code>Sync setting</code>插件对你的插件、设置等进行备份</p>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151996127822958.png" alt="20180302151996127822958.png"></p>
 <p>只需要在设置里填写你的Personal Access Token和Gist Id就可以了<br>这两个都在github上申请，获取方式如下：</p>
 <p>Personal Access Token：<a href="https://github.com/settings/tokens" target="_blank" rel="external">https://github.com/settings/tokens</a></p>
 <p>Gist Id：<a href="https://gist.github.com/" target="_blank" rel="external">https://gist.github.com/</a></p>
-<h1 id="粘贴板同步"><a href="#粘贴板同步" class="headerlink" title="粘贴板同步"></a>粘贴板同步</h1><p>Paste</p>
+<h1 id="粘贴板同步"><a href="#粘贴板同步" class="headerlink" title="粘贴板同步"></a>粘贴板同步</h1><p>1.mac的通用剪切板功能可以实现</p>
+<ol>
+<li>Paste</li>
+</ol>
 <p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151996169747597.png" alt="20180302151996169747597.png"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;当你在办公室和家里有多台mac时，数据如何保持同步&lt;br&gt;可以做到无缝切换电脑的效果&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;同步的基本思想是：将常用的配置或文件保存在坚果云中，实现跨设备的同步&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;笔记同步&lt;/li&gt;
 &lt;li&gt;文件同步&lt;/li&gt;

@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/</loc>
+    <lastmod>2018-10-08T07:25:01.979Z</lastmod>
+    <data>
+        <display>
+        <title>多台mac之间的数据同步问题</title>
+        <pubTime>2018-02-28T07:28:11.000Z</pubTime>
+        
+        <tag>mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="mac" url="16bh.github.io/categories/mac/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>16bh.github.io/2016/08/16/mac-software-list/</loc>
     <lastmod>2018-06-21T08:47:39.606Z</lastmod>
     <data>
@@ -107,26 +127,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/</loc>
-    <lastmod>2018-03-02T03:35:00.515Z</lastmod>
-    <data>
-        <display>
-        <title>多台mac之间的数据同步问题</title>
-        <pubTime>2018-02-28T07:28:11.000Z</pubTime>
-        
-        <tag>mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="mac" url="16bh.github.io/categories/mac/"/>
-          
         </display>
     </data>
     </url>
@@ -245,14 +245,65 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/04/07/how-to-use-markdown/</loc>
+    <loc>16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>MarkDown基础介绍</title>
-        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
+        <title>git Error: Permission denied (publickey)</title>
+        <pubTime>2017-10-16T08:36:24.000Z</pubTime>
         
-        <tag>markdown</tag>
+        <tag>git</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>16bh.github.io/2017/08/10/postman-test-image-upload/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>postman模拟图片上传</title>
+        <pubTime>2017-08-10T07:30:32.000Z</pubTime>
+        
+        <tag>postman</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>16bh.github.io/2017/07/31/go-study-note-grammar/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>go学习笔记 - 语法</title>
+        <pubTime>2017-07-31T10:16:25.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>16bh.github.io/2017/03/31/some-awesome-phpstorm-plugins/</loc>
+    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>phpStorm有哪些值得安装的插件</title>
+        <pubTime>2017-03-31T07:07:01.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
          
          
            
@@ -281,57 +332,6 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/08/10/postman-test-image-upload/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>postman模拟图片上传</title>
-        <pubTime>2017-08-10T07:30:32.000Z</pubTime>
-        
-        <tag>postman</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>16bh.github.io/2017/03/31/some-awesome-phpstorm-plugins/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>phpStorm有哪些值得安装的插件</title>
-        <pubTime>2017-03-31T07:07:01.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>16bh.github.io/2017/07/31/go-study-note-grammar/</loc>
-    <lastmod>2017-11-02T03:43:37.000Z</lastmod>
-    <data>
-        <display>
-        <title>go学习笔记 - 语法</title>
-        <pubTime>2017-07-31T10:16:25.000Z</pubTime>
-        
-        <tag>go</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>16bh.github.io/2017/04/15/book-list/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
@@ -349,14 +349,14 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/</loc>
+    <loc>16bh.github.io/2017/04/07/how-to-use-markdown/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>git Error: Permission denied (publickey)</title>
-        <pubTime>2017-10-16T08:36:24.000Z</pubTime>
+        <title>MarkDown基础介绍</title>
+        <pubTime>2017-04-07T03:38:38.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>markdown</tag>
          
          
            
@@ -383,12 +383,12 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/08/04/using-composer/</loc>
+    <loc>16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>使用composer</title>
-        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
+        <title>phpstorm生成函数调用关系</title>
+        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -400,12 +400,12 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
+    <loc>16bh.github.io/2017/08/04/using-composer/</loc>
     <lastmod>2017-11-02T03:43:37.000Z</lastmod>
     <data>
         <display>
-        <title>phpstorm生成函数调用关系</title>
-        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
+        <title>使用composer</title>
+        <pubTime>2017-08-04T07:27:25.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -455,25 +455,6 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/06/12/yaf-study-note-mvc/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - MVC模式</title>
-        <pubTime>2017-06-12T10:59:00.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>16bh.github.io/2017/06/13/yaf-study-note-module/</loc>
     <lastmod>2017-08-01T13:20:14.000Z</lastmod>
     <data>
@@ -500,25 +481,6 @@
         <title>yaf学习笔记 - request类和respose类</title>
         <pubTime>2017-07-26T08:48:53.000Z</pubTime>
         
-        <tag>yaf</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>16bh.github.io/2017/06/08/yaf-study-note-structure/</loc>
-    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
-    <data>
-        <display>
-        <title>yaf学习笔记 - 项目结构</title>
-        <pubTime>2017-06-08T10:59:00.000Z</pubTime>
-        
-        <tag>php</tag>
-         
         <tag>yaf</tag>
          
          
@@ -565,14 +527,52 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/07/25/disable-auto-ucfirst-word-on-mac/</loc>
+    <loc>16bh.github.io/2017/06/08/yaf-study-note-structure/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - 项目结构</title>
+        <pubTime>2017-06-08T10:59:00.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>16bh.github.io/2017/06/12/yaf-study-note-mvc/</loc>
+    <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>yaf学习笔记 - MVC模式</title>
+        <pubTime>2017-06-12T10:59:00.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>yaf</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>16bh.github.io/2016/07/19/hexo-show-categories-and-tags/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>关闭mac自动大写单词首字母功能</title>
-        <pubTime>2017-07-25T07:12:28.000Z</pubTime>
+        <title>hexo文章的分类和标签</title>
+        <pubTime>2016-07-19T08:48:04.000Z</pubTime>
         
-        <tag>mac</tag>
+        <tag>hexo</tag>
          
          
            
@@ -616,14 +616,14 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/07/08/fix-hexo-baidu-share/</loc>
+    <loc>16bh.github.io/2017/07/25/disable-auto-ucfirst-word-on-mac/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
-        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
+        <title>关闭mac自动大写单词首字母功能</title>
+        <pubTime>2017-07-25T07:12:28.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>mac</tag>
          
          
            
@@ -650,23 +650,6 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
-        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>16bh.github.io/2017/07/26/Maximum-function-nesting-level-of-256-reached/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
@@ -679,6 +662,23 @@
         <tag>xdebug</tag>
          
         <tag>error</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>16bh.github.io/2016/07/08/fix-hexo-baidu-share/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo的landscape-plus主题百度分享无法加载的bug</title>
+        <pubTime>2016-07-08T07:51:44.000Z</pubTime>
+        
+        <tag>hexo</tag>
          
          
            
@@ -719,6 +719,23 @@
         <tag>git</tag>
          
         <tag>ssh</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>16bh.github.io/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
+        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
          
          
            
@@ -813,23 +830,6 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/07/06/hexo-landscape-plus-busuanzi-plugin/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
-        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>16bh.github.io/2017/04/12/my-thinking-about-redis/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
@@ -847,12 +847,12 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
+    <loc>16bh.github.io/2016/07/06/hexo-landscape-plus-busuanzi-plugin/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>landscape-plus主题增加hexo文章目录功能</title>
-        <pubTime>2016-07-06T06:59:23.000Z</pubTime>
+        <title>hexo的landscape-plus主题安装不蒜子访问量统计插件</title>
+        <pubTime>2016-07-06T04:04:15.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -940,6 +940,23 @@
 
     
   <url>
+    <loc>16bh.github.io/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>landscape-plus主题增加hexo文章目录功能</title>
+        <pubTime>2016-07-06T06:59:23.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>16bh.github.io/2016/07/08/hexo-landscape-plus-set-head-image/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
@@ -991,23 +1008,6 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/03/30/hexo-language-setting-not-effective/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo语言设置未生效解决办法</title>
-        <pubTime>2017-03-30T11:11:45.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>16bh.github.io/2017/04/01/phpstorm-live-template/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
@@ -1025,12 +1025,12 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/07/06/hexo-new-page/</loc>
+    <loc>16bh.github.io/2017/03/30/hexo-language-setting-not-effective/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo菜单栏创建留言板</title>
-        <pubTime>2016-07-06T05:34:33.000Z</pubTime>
+        <title>hexo语言设置未生效解决办法</title>
+        <pubTime>2017-03-30T11:11:45.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1042,12 +1042,12 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/07/06/hexo-new-post-template/</loc>
+    <loc>16bh.github.io/2016/07/06/hexo-new-page/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo默认文章的模板修改</title>
-        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
+        <title>hexo菜单栏创建留言板</title>
+        <pubTime>2016-07-06T05:34:33.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1076,12 +1076,12 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/07/07/hexo-set-read-more/</loc>
+    <loc>16bh.github.io/2016/07/06/hexo-new-post-template/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
         <display>
-        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
-        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
+        <title>hexo默认文章的模板修改</title>
+        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -1129,6 +1129,23 @@
 
     
   <url>
+    <loc>16bh.github.io/2016/07/07/hexo-set-read-more/</loc>
+    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
+        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>16bh.github.io/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
     <lastmod>2017-07-31T13:14:22.000Z</lastmod>
     <data>
@@ -1156,23 +1173,6 @@
         <tag>hexo</tag>
          
         <tag>github</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>16bh.github.io/2016/07/19/hexo-show-categories-and-tags/</loc>
-    <lastmod>2017-07-31T13:14:22.000Z</lastmod>
-    <data>
-        <display>
-        <title>hexo文章的分类和标签</title>
-        <pubTime>2016-07-19T08:48:04.000Z</pubTime>
-        
-        <tag>hexo</tag>
          
          
            
@@ -1216,16 +1216,16 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/</loc>
+    <loc>16bh.github.io/2017/04/27/phpstorm-use-atom-theme/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>mysql datetime默认值设置为0000-00-00 00:00:00时报错</title>
-        <pubTime>2017-07-13T10:46:44.000Z</pubTime>
+        <title>phpstorm安装Atom主题</title>
+        <pubTime>2017-04-27T10:47:52.000Z</pubTime>
         
-        <tag>mysql</tag>
+        <tag>phpstorm</tag>
          
-        <tag>error</tag>
+        <tag>atom</tag>
          
          
            
@@ -1305,16 +1305,16 @@
 
     
   <url>
-    <loc>16bh.github.io/2016/08/03/build-php-develop-environment-in-atom/</loc>
+    <loc>16bh.github.io/2017/06/08/fibonacci-algorithm/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>使用atom进行php开发</title>
-        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
+        <title>斐波那契数列问题</title>
+        <pubTime>2017-06-08T07:20:02.000Z</pubTime>
         
         <tag>php</tag>
          
-        <tag>atom</tag>
+        <tag>algorithm</tag>
          
          
            
@@ -1345,16 +1345,14 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/06/08/fibonacci-algorithm/</loc>
+    <loc>16bh.github.io/2017/06/28/mac-must-install-software/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>斐波那契数列问题</title>
-        <pubTime>2017-06-08T07:20:02.000Z</pubTime>
+        <title>php开发者mac必装软件 - 终极版本</title>
+        <pubTime>2017-06-28T03:22:46.000Z</pubTime>
         
-        <tag>php</tag>
-         
-        <tag>algorithm</tag>
+        <tag>software</tag>
          
          
            
@@ -1364,14 +1362,14 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/04/27/phpstorm-use-atom-theme/</loc>
+    <loc>16bh.github.io/2016/08/03/build-php-develop-environment-in-atom/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>phpstorm安装Atom主题</title>
-        <pubTime>2017-04-27T10:47:52.000Z</pubTime>
+        <title>使用atom进行php开发</title>
+        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
         
-        <tag>phpstorm</tag>
+        <tag>php</tag>
          
         <tag>atom</tag>
          
@@ -1400,14 +1398,16 @@
 
     
   <url>
-    <loc>16bh.github.io/2017/06/28/mac-must-install-software/</loc>
+    <loc>16bh.github.io/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/</loc>
     <lastmod>2017-07-21T14:15:53.000Z</lastmod>
     <data>
         <display>
-        <title>php开发者mac必装软件 - 终极版本</title>
-        <pubTime>2017-06-28T03:22:46.000Z</pubTime>
+        <title>mysql datetime默认值设置为0000-00-00 00:00:00时报错</title>
+        <pubTime>2017-07-13T10:46:44.000Z</pubTime>
         
-        <tag>software</tag>
+        <tag>mysql</tag>
+         
+        <tag>error</tag>
          
          
            
