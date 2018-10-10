@@ -111,9 +111,9 @@ homebrew install todolist
 - `PixelScheduler`  在屏幕右侧以线条的形式显示一天的日程，限免
 <img src="http://o9xbyqajf.bkt.clouddn.com/1489379054.png" width="166" height="163" />
 
-- Go2Shell  在Finder中打开终端并进入当前项目路径,支持默认终端，不支持iterm2,按住Command的键将app拖到finder菜单栏
-- TermHere  在Finder中打开终端并进入当前项目路径，支持iterm2
-
+- `Go2Shell`  在Finder中打开终端并进入当前项目路径,支持默认终端，不支持iterm2,按住Command的键将app拖到finder菜单栏
+- `TermHere`  在Finder中打开终端并进入当前项目路径，支持iterm2
+- `Pocket`   延迟阅读，搭配浏览器插件使用，将别人分享或自己看到的好文章保存备用
 
 
 # 工具
@@ -165,4 +165,14 @@ homebrew install todolist
 - [`PicU`](https://itunes.apple.com/cn/app/picu-markdown%E9%93%BE%E6%8E%A5/id1135023555?mt=12)  U图床，支持上传图片(gif,png)到七牛云并将md格式的链接保存在剪切板中的小工具,灰常的好用
 ![20170328149067001910274.png](http://o9xbyqajf.bkt.clouddn.com/20170328149067001910274.png)
 
+# 读书
 
+- `kindle`  手机端pc端均可下载kindle客户端，正版图书可以自动同步阅读进度
+
+- `Klib`  将kindle或iBooks中的标注整理到一个软件中阅读
+
+![20180621152957023625037.png](http://o9xbyqajf.bkt.clouddn.com/20180621152957023625037.png)
+
+- `calibre`  迄今为止，见过的最强大的本地图书管理工具
+
+![20180621152957033513772.png](http://o9xbyqajf.bkt.clouddn.com/20180621152957033513772.png)

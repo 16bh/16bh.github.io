@@ -10,6 +10,8 @@ tags: mac
 当你在办公室和家里有多台mac时，数据如何保持同步
 可以做到无缝切换电脑的效果
 
+**同步的基本思想是：将常用的配置或文件保存在坚果云中，实现跨设备的同步**
+
 - 笔记同步
 - 文件同步
 - 书签同步
@@ -42,7 +44,25 @@ tags: mac
 # 书签同步
 
 1. 【推荐】safari
+
 2. chrome（须登录，可能存在网络问题）
+
+3. 基于chrome的homely扩展，结合坚果云的同步功能实现
+效果预览：
+![](http://o9xbyqajf.bkt.clouddn.com/20181008153898320819295.png)
+
+实现方式：
+
+* 下载homely扩展并安装
+
+* 配置你的书签页面
+* 将配置文件导出到坚果云，默认只能导出到Download目录，需要自己拷贝到坚果云文件夹中
+* 同步完成后，在另一台设备中导入配置文件
+
+导入导出的入口在:
+
+![](http://o9xbyqajf.bkt.clouddn.com/2018100815389833365849.png)
+
 
 # postman同步
 
@@ -61,6 +81,8 @@ SwitchHosts，须手动备份
 
 ![20180301151990353149728.png](http://o9xbyqajf.bkt.clouddn.com/20180301151990353149728.png)
 
+注意：只有显示了Dock图标才能看到`文件/导出`功能
+![](http://o9xbyqajf.bkt.clouddn.com/20181008153898160195878.png)
 另一台电脑直接从坚果云中导入，即可
 
 # 代码同步
@@ -81,7 +103,8 @@ Personal Access Token：[https://github.com/settings/tokens](https://github.com/
 Gist Id：[https://gist.github.com/](https://gist.github.com/)
 
 # 粘贴板同步
+1.mac的通用剪切板功能可以实现
 
-Paste
+2. Paste
 
 ![20180302151996169747597.png](http://o9xbyqajf.bkt.clouddn.com/20180302151996169747597.png)
