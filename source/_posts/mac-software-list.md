@@ -175,4 +175,8 @@ homebrew install todolist
 
 - `calibre`  迄今为止，见过的最强大的本地图书管理工具
 
+
 ![20180621152957033513772.png](http://o9xbyqajf.bkt.clouddn.com/20180621152957033513772.png)
+
+## 	其它
+- 科学上网  [Agentneo](https://agentneo.rocks/?rc=nl8sqg64)
