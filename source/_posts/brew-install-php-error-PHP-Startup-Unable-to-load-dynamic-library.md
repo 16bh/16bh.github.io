@@ -15,7 +15,7 @@ toc: true
        brew install php55-imagick
 
 运行 `php --version`发现报错信息
-![安装imagick报错](http://upload-images.jianshu.io/upload_images/1903856-bcc2f0e512f67e69.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![安装imagick报错](brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240.png)
 
 >注：此处解决方案参考了这里
 https://github.com/Homebrew/homebrew-php/issues/1556
@@ -23,9 +23,9 @@ https://github.com/Homebrew/homebrew-php/issues/1556
 报错原因是因为安装的***imagick扩展与php版本不匹配***，通过下面的命令重新安装
   ```
    brew reinstall php55-imagick --build-from-source
-```
+  ```
 运行 `php --version`发现新的报错信息
-![imagick报错信息](http://upload-images.jianshu.io/upload_images/1903856-679b772444333817.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![imagick报错信息](brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214159584.png)
 
 这个原因一直没找到
 
@@ -35,7 +35,7 @@ https://github.com/Homebrew/homebrew-php/issues/1556
 brew uninstall php55-imagick
 ```
 果然，又报错了：
-![](http://upload-images.jianshu.io/upload_images/1903856-8c04f007494aa4ed.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214210796.png)
 
 在`stackoverflow`上搜索了半天，几乎所有提供的解决方案都是重装`imagick`
 but，前面装过了还是会报错啊
@@ -53,7 +53,7 @@ but，前面装过了还是会报错啊
 php -i | grep ini
 ```
 
-![](http://upload-images.jianshu.io/upload_images/1903856-4900a7be69b49b82.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214214845.png)
 
 接下来就简单了,打开ext-imagick.ini文件
 
@@ -62,6 +62,6 @@ cd /usr/local/etc/php/5.5/conf.d/
 vim ext-imagick.ini
 ```
 注销掉`extentions=""`这行就可以了
-![](http://upload-images.jianshu.io/upload_images/1903856-25448babbaf24854.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214222889.png)
 
 这下，世界终于安静了，每次启动php的时候静悄悄的，再也没有烦人的warning提示了

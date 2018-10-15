@@ -2,7 +2,7 @@
 title: 设置hexo404页面
 toc: false
 date: 2016-07-13 11:36:35
-categories: 
+categories:
 tags: hexo
 ---
 
@@ -24,7 +24,7 @@ tags: hexo
   <meta name="robots" content="index,follow"/>
 </head>
 <body
-<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="http:/jimxu.me" homePageName="回到我的主页"></script>
+<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="http:/16bh.github.io" homePageName="回到我的主页"></script>
 </body>
 </html>
 ```

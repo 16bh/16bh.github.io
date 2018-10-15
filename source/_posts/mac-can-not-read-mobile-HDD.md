@@ -4,7 +4,7 @@ toc: true
 comment: true
 date: 2018-02-28 15:19:56
 categories: mac
-tags: mac
+tags: 
 ---
 
 
@@ -22,10 +22,12 @@ tags: mac
 2. 打开`Paragon NTFS for Mac`
 
 3. 选中你的硬盘，点击`认证`
-![20180228151980268888706.png](/images/20180228151980268888706.png)
+![20180228151980268888706.png](mac-can-not-read-mobile-HDD/20180228151980268888706.png)
 
 4. 重启mac后生效
 
 
+
+也可以使用其它软件，如`Tuxera`
 
 

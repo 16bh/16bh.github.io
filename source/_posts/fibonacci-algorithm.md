@@ -1,14 +1,11 @@
 ---
 title: 斐波那契数列问题
-categories:
-tags: [php,algorithm]
+categories: php
+tags: [algorithm,math]
 toc: false
 comment: true
 date: 2017-06-08 15:20:02
 ---
-
-
-<img src="/images/20170608149690673867363.png" width="492" height="297"/>
 
 斐波那契数列：
 

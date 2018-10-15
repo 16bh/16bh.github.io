@@ -14,14 +14,16 @@ toc: true
 ## 二 安装redis服务器
 1. 通过homebrew安装
 
+  ```shell
+  brew install redis
   ```
-brew install redis
-```
+
+
 
 2. 直接下载安装
 本人是用这种方法安装的，安装完后才发现可以用homebrew安装
 
-```
+```shell
 curl -O http://redis.googlecode.com/files/redis-2.8.7.tar.gz
 sudo tar -zxf redis-2.8.7.tar.gz
 mv redis-2.8.7 /usr/local/redis
@@ -39,7 +41,7 @@ mv redis.conf /etc/reds.conf
 /usr/local/bin/redis-server /etc/redis.conf
 ```
 出现下面的界面说明redis服务器安装成功
-![](/images/images/1469498761643.png)
+![](install-redis-on-mac/1469498761643.png)
 
 
 进入`/usr/local/bin`目录可以看到以下文件
@@ -47,13 +49,23 @@ mv redis.conf /etc/reds.conf
 > redis-cli    用于启动redis客户端
 
 ***2 查看redis服务是否启动***
-```
-ps aux | grep redis
+```shell
+➜  16bh.github.io git:(gh-pages) ✗ ps aux |grep redis
+jimxu             3196  96.9  0.0  4321720   1500   ??  Rs   11:02PM   0:02.34 redis-server 127.0.0.1:6379
+jimxu             3207   0.0  0.0  4258736    192 s000  R+   11:02PM   0:00.00 grep --color=auto --exclude-dir=.bzr --exclude-dir=CVS --exclude-dir=.git --exclude-dir=.hg --exclude-dir=.svn redis
 ```
 ***3 使用redis服务***
 >注：启动redis服务器后终端所在的窗口就不能输入别的命令了(如下图所示)，需要在终端打开新的窗口才能使用客户端功能
 >
-![](/images/images/1469498796319.png)
+![](images/images/1469498796319.png)
+
+2018-10-15：补充，可以设置redis后台，这样就不影响终端窗口的使用
+
+配置文件redis.conf 
+
+```conf
+daemonize yes
+```
 
 
 
@@ -71,7 +83,7 @@ redis-cli
 > get (key) 查看键key的值
 
 redis客户端使用举例：
-![](/images/images/1469498811208.png)
+![](install-redis-on-mac/1469498811208.png)
 
 
 6.23补充：如何设置和查看缓存时间
@@ -95,14 +107,13 @@ ps -u jim(替换成你的用户名) -o pid,rss,command | grep redis-server
 ```
 查看所有redis服务的pid号
 
-![](/images/images/1469498829072.png)
-
+![](install-redis-on-mac/1469498829072.png)
 
 16.6.24日补充：还可以通过mac自带的活动监视器查看pid
 如下图所示
 通过Spotlight或alfred搜索`activity monitor`打开活动监视器
 在活动监视器中搜索`redis-server`，即可得到pid号
-![](/images/images/1469498837473.png)
+![](install-redis-on-mac/1469498837473.png)
 
 
 补充：如果你的电脑安装了oh my zsh
@@ -125,11 +136,11 @@ kill -9 27355
 `php55`是本机安装的php的版本（5.5）,`--build-from-source`是让安装的扩展与php的版本保持一致
 
   查看phpinfo()，出现redis选项说明redis配置成功
-![](/images/images/1469498850108.png)
+![](install-redis-on-mac/1469498850108.png)
 
 2. 在php代码中使用redis服务
 
-``` php
+```php
 $redis = new Redis();
 $redis->connect('127.0.0.1','host');//redis服务器ip及端口号
 $redis->set($key,$value,$timeout);//设置缓存:键-值-缓存时间
@@ -148,4 +159,3 @@ cd /usr/loal/bin
 ```
 chmod 777 dump.rdb
 ```
-

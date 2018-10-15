@@ -1,8 +1,8 @@
 ---
 title: 如何清除magento缓存
 date: 2016-06-24 18:28:34
-category:
-tags: magento
+category:magento
+tags: 
 toc: true
 ---
 
@@ -38,7 +38,7 @@ cache.clear
 
 其中`Configuration`表示配置文件，如`local.xml`、`config.xml`的缓存
 
-![](/images/images/1473771056463.png)
+![](flush-magento-cache/1473771056463.png)
 
 
 ## 清除redis缓存
@@ -46,9 +46,9 @@ cache.clear
 当magento接入redis之后，清除redis的缓存会清除magento的所有缓存，清除方法
 
 ``` shell
-redis-cli
+>redis-cli
 FLUSHALL
 ```
 
-	>注：最好不要这样做，会清除产品、列表、fpc以及其它所有缓存
+>注：最好不要这样做，会清除产品、列表、fpc以及其它所有缓存
 

@@ -3,12 +3,12 @@ title: hexo中添加github组件
 toc: true
 comment: true
 date: 2017-07-27 16:29:00
-categories:
+categories: hexo
 tags: [hexo,github]
 ---
 
 
-<img src="/images/20170727150114537274249.png" width="492" height="297"/>
+
 
 Hexo的yelee支持添加github组件
 

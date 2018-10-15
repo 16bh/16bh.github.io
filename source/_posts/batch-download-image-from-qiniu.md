@@ -19,7 +19,7 @@ tags:
 
 <!--more-->
 
-![image-20181015153427041](images/image-20181015153427041.png)
+![image-20181015153427041](batch-download-image-from-qiniu/image-20181015153427041.png)
 
 
 
@@ -29,7 +29,7 @@ tags:
 
 > https://developer.qiniu.com/kodo/tools/1302/qshell
 
-![image-20181015181253444](images/image-20181015181253444.png)
+![image-20181015181253444](batch-download-image-from-qiniu/image-20181015181253444.png)
 
 下载后解压，包含以下文件
 
@@ -110,7 +110,7 @@ qshell qdownload 10 qdisk_down.conf
 
 搞定了
 
-![](images/wanmei.jpg)
+![](batch-download-image-from-qiniu/wanmei.jpg)
 
 
 

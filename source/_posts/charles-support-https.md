@@ -3,8 +3,8 @@ title: charles支持https
 toc: true
 comment: true
 date: 2018-03-02 18:19:52
-categories:
-tags: [charles,mac]
+categories: [software]
+tags: [charles]
 ---
 
 
@@ -18,11 +18,11 @@ tags: [charles,mac]
 
 `Proxy/SSL Proxying Settings`
 
-![20180302151998614257750.png](/images/20180302151998614257750.png)
+![20180302151998614257750.png](charles-support-https/20180302151998614257750.png)
 
 将Host和Port都设置为*，就可以抓取所有的https请求
 
-![20180306152030640030250.png](/images/20180306152030640030250.png)
+![20180306152030640030250.png](charles-support-https/20180306152030640030250.png)
 
 ## 第二步 安装证书
 
@@ -30,7 +30,7 @@ tags: [charles,mac]
 
 点击后，会安装到钥匙串中
 
-![20180302151998634953062.png](/images/20180302151998634953062.png)
+![20180302151998634953062.png](charles-support-https/20180302151998634953062.png)
 
 在所有项目中搜索`charles`，选中证书，双击打开，将信任设置为“始终信任”
 
@@ -38,7 +38,7 @@ tags: [charles,mac]
 
 如果不安装证书，访问https网站时会报错“您的连不是私密连接”
 
-![20180302151998591661934.png](/images/20180302151998591661934.png)
+![20180302151998591661934.png](charles-support-https/20180302151998591661934.png)
 
 ## 手机抓包
 

@@ -1,7 +1,7 @@
 ---
 title: 访问模块中的controller
 date: 2016-06-30 18:27:55
-category:
+category: php
 tags: magento
 toc: true
 ---
@@ -11,7 +11,7 @@ toc: true
 
 #controller文件
 之前我们新成立的Nano公司建了如下的模块，
-![](/images/images/1468037922718.png)
+![](how-to-visit-magento-controller/1468037922718.png)
 
 完善一下HelloWorldController
 

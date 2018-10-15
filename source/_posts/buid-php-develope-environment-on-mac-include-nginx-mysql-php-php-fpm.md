@@ -26,23 +26,24 @@ mac下也有集成环境：[MAMP](https://www.mamp.info/en/),基础功能不能�
 1. 在终端通过命令行安装
  ```     
 brew install mysql
-```
+ ```
 2. 设置mysql开机启动
 
   ```
   ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
   launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
-```
+  ```
+
 3.  通过安全方式设置mysql的密码
 输入以下命令后
- ``` 
+```
  /usr/local/opt/mysql/bin/mysql_secure_installation
 ```
 根据提示输入密码,密码要记住，下面登录的时候要用
 
 4. 登录mysql数据库
 
-  ![数据库登录](http://upload-images.jianshu.io/upload_images/1903856-a013f2ca141ed02a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![数据库登录](buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/1240-20181015214455236.png)
 
 5. 安装mysql客户端
 推荐使用`Sequel`
@@ -52,7 +53,7 @@ brew cask install sequel-pro
 ```
 
 效果图：
-![sequel界面](http://upload-images.jianshu.io/upload_images/1903856-26a12f216b43cbd2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![sequel界面](buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/1240.jpeg)
 
 #三  安装配置php及php-fpm
 
@@ -67,30 +68,40 @@ $a = [
 ];
 ```
 
+
+
+
 1. 安装php(若要使用系统自带的php可跳过这一步)，以php5.5为例
-  ```
-brew install php55 --with-fpm --with-gmp --with-imap --with-tidy --with-debug --with-mysql --with-libmysql
 ```
+  brew install php55 --with-fpm --with-gmp --with-imap --with-tidy --with-debug --with-mysql --with-libmysql
+```
+
+  
 
 2. 安装php扩展，也可以先不急，等后面要用到什么扩展的时候再安装也可以
 安装扩展的方法(以xdebug扩展为例)：
+
 ```
 brew install php55-xdebug --build-from-source;
 ```
+
 最后的`--build-from-source`是一定要加上的，我看很多教程里都漏了这一句。加上这句可以保证安装的扩展与php版本保持一致
 
 >备注：要卸载通过homebrew安装的php扩展，参考这篇文章：[mac环境下通过homebrew安装的php报错解决](http://www.jianshu.com/p/ef92888fd5f4)
 
 3. 配置环境变量，使我们安装的5.5版本的php覆盖系统自带的php
-  ```
-vim ~/.bash_profile
-##在文件中写入下面的内容
+
+在文件中写入下面的内容
+
+```
 export PATH="$(brew --prefix php55)/bin:$PATH"
 export PATH="$(brew --prefix php55)/sbin:$PATH"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
-##
-source ~/.bash_profile
 ```
+
+
+
+
 觉得这样麻烦的，可以直接删除mac自带的老版本的php后再安装
 
 4. php-fpm配置
@@ -123,3 +134,11 @@ ln -sfv /usr/local/opt/nginx/*.plist ~/Library/LaunchAgents
 launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist
 ```
 ## 五 配置快捷键
+```
+alias nginx.start="sudo nginx"
+alias fpm.start="sudo php-fpm -D"
+alias redis.start="redis-server /usr/local/etc/redis.conf"
+
+alias nginx.stop="sudo nginx -s quit"
+alias fpm.stop='sudo pkill php-fpm'
+```

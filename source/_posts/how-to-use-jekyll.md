@@ -3,7 +3,7 @@ title: 尝试jekyll
 toc: false
 comment: true
 date: 2017-07-11 17:16:50
-categories:
+categories: blog
 tags: jekyll
 ---
 
@@ -42,7 +42,7 @@ Configuration file: /Users/jim/jimxu-blog/_config.yml
 
 初始效果：
 
-![20170711149976507027132.png](/images/20170711149976507027132.png)
+![20170711149976507027132.png](how-to-use-jekyll/20170711149976507027132.png)
 
 安装时如果报`jekyll 3.5.0 | Error:  bundler`的错误:
 

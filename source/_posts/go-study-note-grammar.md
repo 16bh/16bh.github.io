@@ -3,13 +3,13 @@ title: go学习笔记 - 语法
 toc: true
 comment: true
 date: 2017-07-31 18:16:25
-categories:
-tags: go
+categories: go
+tags: 
 ---
 
 
 
-<img src="/images/20170802150164469935152.png" width="492" height="297"/>
+<img src="go-study-note-grammar/20170802150164469935152.png" width="492" height="297"/>
 
 
 <!--more-->
@@ -48,7 +48,7 @@ func main() {
 
 引入多个包
 
-```
+```go
 package main
 
 import (
@@ -76,10 +76,10 @@ rune: int32
 
 不能前置，不能用作表达式
 
-```
-a++;  //√
-++a;  //×
-if (a++) {  //×
+```go
+a++;  //right
+++a;  //wrong
+if (a++) {  //wrong
 ```
 
 # 数组及遍历
@@ -164,7 +164,7 @@ case 1,2:
 # for
 初始语句和结束语句可以省略
 
-```
+```go
 for sum < 1000 {
 	sum += sum
 }
@@ -173,7 +173,7 @@ for sum < 1000 {
 # 函数
 需指定入参和出参的类型，可以返回多个值
 
-```
+```go
 //x后面的int可省略，根据王垠的博客说的最好保留
 func add(x int, y int) int {
 	return x + y
@@ -182,7 +182,7 @@ func add(x int, y int) int {
 
 # defer
 
-```
+```go
 package main
 
 import "fmt"
@@ -203,7 +203,7 @@ func main() {
 # struct
 用点号`.`访问结构体中的字段
 
-```
+```go
 type Vertex struct {
 	X int
 	Y int
@@ -212,7 +212,7 @@ type Vertex struct {
 
 # slice
 
-```
+```go
 s := []int{2, 3, 5, 7, 11, 13}
 
 //slice长度
@@ -239,7 +239,7 @@ fmt.Printf("%v", s)
 goroutine
 channel
 
-```
+```go
 ch <- v    // 将 v 送入 channel ch
 v := <-ch  // 从 ch 接收，并且赋值给 v
 ```

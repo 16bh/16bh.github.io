@@ -3,8 +3,8 @@ title: 解决重启后私钥失效的问题
 toc: true
 comment: true
 date: 2017-07-07 16:26:09
-categories:
-tags: git
+categories: git
+tags: 
 ---
 
 
@@ -26,12 +26,12 @@ tags: git
 使用mac自带的`Automator`工具
 
 新建一个应用程序
-![20170707149941570858169.png](/images/20170707149941570858169.png)
+![20170707149941570858169.png](fix-invalid-private-key-after-reboot/20170707149941570858169.png)
 
 
 选择`运行shell脚本`
 
-![20170707149941566797740.png](/images/20170707149941566797740.png)
+![20170707149941566797740.png](fix-invalid-private-key-after-reboot/20170707149941566797740.png)
 
 在脚本中添加如下命令
 

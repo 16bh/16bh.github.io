@@ -1,13 +1,13 @@
 ---
 title: go学习笔记：安装并运行hello world
-categories:
-tags: [go]
+categories: go
+tags: 
 toc: false
 comment: true
 date: 2017-04-11 11:53:15
 ---
 
-<img src="/images/20170411149188484167726.png" width="492" height="297"/>
+
 
 - homebrew安装go
 - 配置环境变量
@@ -18,14 +18,19 @@ date: 2017-04-11 11:53:15
 
 # 通过homebrew安装go
 
-```
+```shell
 brew update
 brew install go
 ```
 
 查看安装的路径：
 
-<img src="/images/20170727150113573556935.png" />
+```shell
+➜  ~ which go
+/usr/local/bin/go
+```
+
+
 
 # 添加环境变量
 
@@ -58,11 +63,11 @@ func main() {
 
 ## go run
 在终端执行
-```
+```shell
 cd ~/code/go/src/hello.go
 go run hello.go
 ```
-<img src="/images/20170727150113791458287.png"/>
+<img src="go-study-note-install-on-mac/20170727150113791458287.png"/>
 
 
 ## go build
@@ -73,7 +78,7 @@ go build hello.go  //生成可执行文件hello
 ./hello
 ```
 
-<img src="/images/20170727150114608372047.png" />
+<img src="go-study-note-install-on-mac/20170727150114608372047.png" />
 
 
 ## go tool objdump 查看执行过程
@@ -86,7 +91,7 @@ go build hello.go
 go tool objdump -s "main\.main" hello
 ```
 
-<img src="/images/20170727150114621467973.png" />
+<img src="go-study-note-install-on-mac/20170727150114621467973.png" />
 
 # 参考
 >https://golang.org/doc/install?download=go1.8.1.darwin-amd64.pkg

@@ -3,13 +3,9 @@ title: 美区apple账号的申请和使用
 toc: true
 comment: true
 date: 2017-07-21 22:16:32
-categories:
-tags: life
+categories:life
+tags:apple
 ---
-
-
-<img src="/images/20170721150064666695739.png" width="492" height="297"/>
-
 
 <!--more-->
 

@@ -7,7 +7,7 @@ tags: magento
 ---
 
 
-在[《magento新建模块的后台配置》](http://jimxu.me/2016/07/10/magento%E6%96%B0%E5%BB%BA%E6%A8%A1%E5%9D%97%E7%9A%84%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE/)
+在[《magento新建模块的后台配置》](http://16bh.github.io/2016/07/10/magento%E6%96%B0%E5%BB%BA%E6%A8%A1%E5%9D%97%E7%9A%84%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE/)
 中设置了系统的后台配置选项后，可以在`config.xml`中设置后台配置的默认值
 
 

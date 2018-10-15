@@ -68,7 +68,7 @@ crontab $HOME/jimcron
 crontab -l
 ```
 
-![20170712149985458536665.png](/images/20170712149985458536665.png)
+![20170712149985458536665.png](get-started-to-crontab/20170712149985458536665.png)
 
 ## cron备份与恢复
 
@@ -96,3 +96,10 @@ sudo /etc/init.d/cron stop 	//关闭
 sudo /etc/init.d/cron restart		//重启
 ```
 
+## crontab模拟工具
+
+https://tool.lu/crontab
+
+
+
+![image-20181015222003501](get-started-to-crontab/image-20181015222003501.png)

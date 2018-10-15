@@ -26,7 +26,7 @@ tags: [magento,phpstorm]
 
 phpcs可以统一编码的规范，常用的是psr2
 
-[怎么在phpStorm中配置使用phpcs？](http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpcs/)
+[怎么在phpStorm中配置使用phpcs？](http://16bh.github.io/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpcs/)
 
 
 
@@ -34,7 +34,7 @@ phpcs可以统一编码的规范，常用的是psr2
 
 php代码纠错
 
-[怎么在phpStorm中配置使用phpmd？](http://jimxu.me/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/)
+[怎么在phpStorm中配置使用phpmd？](http://16bh.github.io/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/)
 
 # 安装[magicento](http://magicento.com/ )插件
 ![20170401149103633058337.png](/images/20170401149103633058337.png)
@@ -56,4 +56,4 @@ php代码纠错
 
 # 设置常用代码片段
 
-http://jimxu.me/2017/04/01/phpstorm-live-template/
+http://16bh.github.io/2017/04/01/phpstorm-live-template/

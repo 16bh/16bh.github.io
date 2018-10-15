@@ -7,7 +7,7 @@ categories:
 tags: [software]
 ---
 
-<img src="/images/1490601890.png"/>
+<img src="mac-software-list/1490601890.png"/>
 
 列举一些个人使用的mac软件
 ---
@@ -30,7 +30,7 @@ tags: [software]
 - `Mail`  自带的邮件客户端
 - `ShadowsocksX`  必装,科学上网工具
 - `f.lux`  自动调节屏幕亮度
-<img src="/images/1489378577.png" width="517" height="593" />
+<img src="mac-software-list/1489378577.png" width="517" height="593" />
 - `XCode`  基础工具
 
 
@@ -43,13 +43,13 @@ tags: [software]
 - `Chrome`   开发最佳浏览器（之一）
 	必装插件
 
-    <img src="/images/1489378622.png" width="836" height="520" />
+    <img src="mac-software-list/1489378622.png" width="836" height="520" />
 
 
 - `Charles` 必备，抓包工具
 - `Dash`  收费开发参考手册，并且能与各种浏览器整合
 - [`devdocs`]( http://devdocs.io )  [helloSwift](https://www.v2ex.com/member/helloSwift)推荐的Dash替代产品，免费
-![](/images/images/1490668840917.png)
+![](mac-software-list/1490668840917.png)
 - ~~`Gas Mask`  管理hosts文件,最新版本系统不支持~~
 - `iHosts`  hosts管理工具
 - `iThoughtsX`   思维导图，收费
@@ -74,13 +74,13 @@ tags: [software]
 - `Alfred` 	Spotlight替代，快速启动软件，workflow功能
 重点推荐以下workflow，可以自己google到扩展包
 一是`,b`,可以直接在`Alfred`搜索chrome浏览器的书签
-<img src="/images/1489386505.png" width="559" height="483" />
+<img src="mac-software-list/1489386505.png" width="559" height="483" />
 二是`markdown image`可以将剪贴板中的截图文件上传到七牛云，并转换为markdown可用的图片链接
 > 此插件可以用U图床代替
 
-<img src="/images/1489386654.png" width="842" height="283" />
+<img src="mac-software-list/1489386654.png" width="842" height="283" />
 三是Dash插件 直接dash+你要搜索的关键字
-<img src="/images/1490668947.png" width="565" height="164" />
+<img src="mac-software-list/1490668947.png" width="565" height="164" />
 
 - `Yoink` 	收费，临时存放文件
 - `Paste` 	收费，记录剪切历史，随时调用之前剪切的内容，甚至可以搜索你之前剪切的内容
@@ -88,9 +88,9 @@ tags: [software]
 - `Moom`   收费，调节窗口大小，并实现Windows经典功能，拖动窗口到屏幕的最左边或最右边的时候会自动半屏，拖动到屏幕左上边会自动全屏
 - `Manico`   快速启动dock栏软件，其实用Alfred就够了
 - `HyperDock`   预览软件打开的窗口，拖动窗口自动半屏、全屏
-![](http://images.fengimg.com/data/attachment/forum/201508/03/151955y4awwv7ooov7v7d6.jpg)
+
 - `uBar` windows任务栏效果,不过挺贵
-![20170401149101624985514.png](/images/20170401149101624985514.png)
+![20170401149101624985514.png](mac-software-list/20170401149101624985514.png)
 - `Bartender 2`  收费，整理菜单栏，将不常用的菜单栏图标隐藏起来
 - [`Vanilla`](http://vanilla.matthewpalmer.net/r/6d400915) 类似Bartender,免费的菜单栏工具
 - `aText`   收费，片段工具，输入简短的别名替换成复杂的终端命令、代码片段等
@@ -100,16 +100,17 @@ tags: [software]
 - [`todolist`](http://todolist.site/#quickstart) 在终端显示任务列表
 安装方式：
 
-```
+```shell
 homebrew install todolist
 ```
 
-<img src="/images/1490259924.png">
+<img src="mac-software-list/1490259924.png">
+
 - `RescueTime`  【拯救你的时间】，顾名思义，可以记录你的软件使用习惯，看你一天工作和娱乐的时间占比是多少，程序员的话更推荐下面的插件
 - `wakatime`  免费，收费服务更强大，超强插件，程序员编程习惯统计，可以统计你在不同的编辑器或者语言上分配的时间，支持几乎所有主流的编辑器
-<img src="/images/1489378066.png" width="573" height="511" />
+<img src="mac-software-list/1489378066.png" width="573" height="511" />
 - `PixelScheduler`  在屏幕右侧以线条的形式显示一天的日程，限免
-<img src="/images/1489379054.png" width="166" height="163" />
+<img src="mac-software-list/1489379054.png" width="166" height="163" />
 
 - `Go2Shell`  在Finder中打开终端并进入当前项目路径,支持默认终端，不支持iterm2,按住Command的键将app拖到finder菜单栏
 - `TermHere`  在Finder中打开终端并进入当前项目路径，支持iterm2
@@ -122,7 +123,10 @@ homebrew install todolist
 - `Snip`    腾讯出品的截图小工具，简单实用，可以加注释,唯一的缺点是电脑外接显示器后无法使用
 - `Jietu`  腾讯出品的另一款截图工具，支持录屏
 
-<center>![20170407149157049983663.png](/images/20170407149157049983663.png)</center>
+![20170407149157049983663.png](mac-software-list/20170407149157049983663.png)
+
+
+
 - `SnapNDrag Pro`  功能强大的截图工具，会将所有的截图保存在自己生成的文件夹中并分类，不可注释，外接显示器后也能使用
 - `Noizio`   生成白噪音
 - `Boom2`   音效增强，效果一般
@@ -134,7 +138,7 @@ homebrew install todolist
 - `Cal Cat`  在桌面显示日历，并每日更新一张猫咪的图片
 - `Tickeys`  免费，模拟机械键盘音效
 - `Reeder`  收费，RSS阅读，阅读体验极佳
-<img src="/images/1490669228.png" />
+<img src="mac-software-list/1490669228.png" />
 - `Leaf`  RSS阅读，限免
 - `scrollreveal`  修改mac触摸板滚动方向，享受触控板自然滚动的方便又不改变鼠标的使用习惯
 - `Memo`  在桌面显示彩色便签
@@ -143,27 +147,38 @@ homebrew install todolist
 
 - `iTunes`+`Lyricsx`   苹果自带音乐播放器，可按专辑分类，加上开源的歌词工具
 
-![20171120151114825072757.png](/images/20171120151114825072757.png)
+![20171120151114825072757.png](mac-software-list/20171120151114825072757.png)
 
 # 编辑器
 - `PHPStorm` 	功能最齐全的PHP开发IDE
+
 - `vscode`   微软出品的编辑器，潜力无穷
+
 - `MacVim`   编辑单个文件最强大的编辑器，缺点是需要进行超多的配置
+
 - `sublime`  最好用的轻量级编辑器,大量插件，写md文件体验也不错
-![20170329149077718029401.png](/images/20170329149077718029401.png)
+  ![20170329149077718029401.png](mac-software-list/20170329149077718029401.png
 
 - `ATOM`    操作习惯于sublime完全相同，更多插件，更炫酷，卸载并重装过无数次，每次用起来都有点卡，期待不卡的时候
+
 - ~~`Mou` 	最轻量级的markdown编辑工具，国人开发（mac系统升级到Sierra后，无法使用），曾经发起众筹后跳票~~
+
 - `MacDown`  功能同Mou,作者本人也是自认模仿的Mou，推荐使用
+
 - `MWeb` 	  编辑markdown文件
-- `Typora`   不同于之前的双栏md编辑器，Typora在编辑的同时进行渲染
-![20170328149067066017327.png](/images/20170328149067066017327.png)
+
+- `Typora`   不同于之前的双栏md编辑器，Typora在编辑的同时进行渲染
+  ![20170328149067066017327.png](images/20170328149067066017327.png)
+
 - ~~~`Haroopad`  markdown编辑器，在左侧提示常用操作，页面更美观，升级到最新版本的mac系统之后经常不会弹出界面,暂时雪藏~~~
-<img src="/images/1489378450.png" />
+  <img src="mac-software-list/1489378450.png" />
 
 - `qlmarkdown`    以系统自带的预览方式查看md文件
-- [`PicU`](https://itunes.apple.com/cn/app/picu-markdown%E9%93%BE%E6%8E%A5/id1135023555?mt=12)  U图床，支持上传图片(gif,png)到七牛云并将md格式的链接保存在剪切板中的小工具,灰常的好用
-![20170328149067001910274.png](/images/20170328149067001910274.png)
+
+- [`PicU`](https://itunes.apple.com/cn/app/picu-markdown%E9%93%BE%E6%8E%A5/id1135023555?mt=12)  ~~U图床，支持上传图片(gif,png)到七牛云并将md格式的链接保存在剪切板中的小工具,灰常的好用~~
+  ![20170328149067001910274.png](mac-software-list/20170328149067001910274.png)
+
+  2018-10-15：七牛测试域名过期，此软件可以下岗了
 
 # 读书
 
@@ -171,12 +186,12 @@ homebrew install todolist
 
 - `Klib`  将kindle或iBooks中的标注整理到一个软件中阅读
 
-![20180621152957023625037.png](/images/20180621152957023625037.png)
+![20180621152957023625037.png](mac-software-list/20180621152957023625037.png)
 
 - `calibre`  迄今为止，见过的最强大的本地图书管理工具
 
 
-![20180621152957033513772.png](/images/20180621152957033513772.png)
+![20180621152957033513772.png](mac-software-list/20180621152957033513772.png)
 
 ## 	其它
 - 科学上网  [Agentneo](https://agentneo.rocks/?rc=nl8sqg64)

@@ -45,5 +45,5 @@ repository:
 ![20170719150044386842213.png](/images/20170719150044386842213.png)
 
 
-最后，为了看是否生效，可以[使用mtr检测域名的网络状态](http://jimxu.me/2017/07/12/use-mtr-detect-network-status/)
+最后，为了看是否生效，可以[使用mtr检测域名的网络状态](http://16bh.github.io/2017/07/12/use-mtr-detect-network-status/)
 

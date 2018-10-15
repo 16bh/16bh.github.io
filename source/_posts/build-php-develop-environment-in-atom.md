@@ -2,8 +2,8 @@
 title: 使用atom进行php开发
 toc: true
 date: 2016-08-03 15:30:21
-categories:
-tags: [atom,php]
+categories:php
+tags: [atom]
 ---
 
 # 特点
@@ -11,7 +11,6 @@ tags: [atom,php]
 1. `atom`一个字形容：酷，搭配`active-power-mode`的爆炸效果码字效果爽的不行；
 2. `github`打造，完美支持`git`
 3. 插件支持及其丰富，但最好别装太多
-
 
 ---
 截止16.7.12还存在以下问题：
@@ -65,7 +64,7 @@ strict-ssl=false
 
 ###  函数列表 `symboles-tree-view`
 >显示函数列表，点击函数名跳转到代码中对应的位置
-![20170328149068391168710.png](/images/20170328149068391168710.png)
+![20170328149068391168710.png](build-php-develop-environment-in-atom/20170328149068391168710.png)
 
 如果不设置的话默认会显示类、变量、函数等混在一起的列表，在下面的设置中隐藏掉变量和类
 ![20170328149068397978835.png](/images/20170328149068397978835.png)

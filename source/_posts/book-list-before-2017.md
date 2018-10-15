@@ -1,14 +1,15 @@
 ---
-title: 个人书单
-categories:
-tags: [reading]
+
+title: 部分书单
+categories: book
+tags: 
 toc: false
 comment: true
 date: 2017-04-15 08:34:23
 ---
 
 
-<img src="/images/20170728150122296296412.png" width="492" height="297"/>
+
 
 
 <!--more-->

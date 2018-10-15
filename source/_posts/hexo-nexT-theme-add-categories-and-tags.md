@@ -8,7 +8,7 @@ tags: hexo
 ---
 
 
-![20170330149087424963717.png](/images/20170330149087424963717.png)
+
 
 切换到nexT主题后，默认是没有分类页和标签页的，要自己新建
 
@@ -39,7 +39,7 @@ hexo new page categories
 ## 编辑分类页标签页
 在分类页和标签页的md文件头部加上types指明页面的类型就行了
 
-``` md hexo/source/categories/index.md
+``` hexo/source/categories/index.md
 ---
 title: categories
 date: 2017-03-30 19:32:41

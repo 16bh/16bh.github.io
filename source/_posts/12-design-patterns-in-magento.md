@@ -3,12 +3,12 @@ title: '[译]Magento中的12种设计模式'
 toc: true
 comment: true
 date: 2017-03-30 17:18:15
-categories:
-tags: [magento,design pattern,translate]
+categories: [php]
+tags: [magento,design pattern]
 ---
 
 
-![20170331149095046779669.png](/images/20170331149095046779669.png)
+发现一篇介绍magento的设计模式的英文文章，有空的时候翻译了一下
 
 > 原文地址:
 > http://magenticians.com/12-design-patterns-magento
