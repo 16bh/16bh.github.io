@@ -16,5 +16,5 @@ tags: postman
 
 Headers留空，Body添加一个key，key的属性选file
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170810150235019860302.png" />
+<img src="/images/20170810150235019860302.png" />
 

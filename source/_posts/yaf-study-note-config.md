@@ -1,6 +1,6 @@
 ---
 title: yaf学习笔记 - 配置
-categories: 
+categories:
 tags: [php,yaf]
 toc: false
 comment: true
@@ -21,7 +21,7 @@ yaf的配置有两种，
 
 ## 修改yaf设置
 在路径`/usr/local/etc/php/7.0/conf.d`下存放了各个扩展的配置文件
-![20170612149726524849464.png](http://o9xbyqajf.bkt.clouddn.com/20170612149726524849464.png)
+![20170612149726524849464.png](/images/20170612149726524849464.png)
 
 <!--more-->
 
@@ -35,7 +35,7 @@ extension="/usr/local/opt/php70-yaf/yaf.so"  //扩展位置
 
 ```
 [yaf]
-extension="/usr/local/opt/php70-yaf/yaf.so"	//扩展位置 
+extension="/usr/local/opt/php70-yaf/yaf.so"	//扩展位置
 yaf.use_namespace = 1	//启用名字空间
 yaf.environ = "dev"	   //设置环境为本地开发环境
 ```
@@ -43,10 +43,10 @@ yaf.environ = "dev"	   //设置环境为本地开发环境
 修改后重启php-fpm
 
 打印phpinfo(),`yaf.use_namespace`的值已经变成ON了，说明修改成功
-![20170612149726543885457.png](http://o9xbyqajf.bkt.clouddn.com/20170612149726543885457.png)
+![20170612149726543885457.png](/images/20170612149726543885457.png)
 
 ## yaf的配置项一览
-![20170612149726554799450.png](http://o9xbyqajf.bkt.clouddn.com/20170612149726554799450.png)
+![20170612149726554799450.png](/images/20170612149726554799450.png)
 
 
 ## 项目配置
@@ -67,7 +67,7 @@ database.read_pwd = root
 database.name = yaf
 database.db_prefix = tbl_
 
-[test : common] 
+[test : common]
 
 [product : common]
 

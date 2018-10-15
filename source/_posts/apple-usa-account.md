@@ -8,7 +8,7 @@ tags: life
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170721150064666695739.png" width="492" height="297"/>
+<img src="/images/20170721150064666695739.png" width="492" height="297"/>
 
 
 <!--more-->

@@ -10,7 +10,7 @@ tags: magento
 >复写的原理是同名的模块会按优先级覆盖，优先级为：`local` > `community` > `core`
 
 以复写`Customer/AccountController.php`为例
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468163108242.png)
+![](/images/images/1468163108242.png)
 
 
 <!--more-->
@@ -29,7 +29,7 @@ class Nano_App_AccountController extends Mage_Customer_AccountController
     {
         echo 'login post has been rewritten';
     }
-} 
+}
 ```
 
 再修改`app`模块的配置文件`config.xml`，在`global`标签下对`AccountContoller`进行复写

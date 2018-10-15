@@ -1,7 +1,7 @@
 ---
 title: PHPer学习JS 语法
 toc: true
-top: 
+top:
 date: 2016-07-22 10:32:45
 categories:
 tags: js
@@ -111,8 +111,8 @@ print_r ($values);
 > (
 >     [0] => 0
 >     [1] => 0
->     [2] => 
->     [3] => 
+>     [2] =>
+>     [3] =>
 > )
 
 # 字符串
@@ -293,7 +293,7 @@ for(var i in arr){
 > 2-c
 
 ``` php 5.php
-<?php 
+<?php
 $arr = ['a','b','c'];
 foreach($arr as $key => $value){
     echo $key.'-'.$value."\n";
@@ -409,11 +409,11 @@ s
 用`var`来申明常量，属于一种约定,意思是告诉别人我申明的是一个常量，但修改它的值不会报错
 
 如果常量是用`const`申明的话，修改它的值会报错
-	
+
 ## this
 函数内部`this`指向
 如果以对象的方法形式调用，如`object.func()`,那么`func()`方法中的`this`就指向`object`对象；单独调用`func()`方法中的`this`指向全局的`window`对象(`strict`模式下指向`undefined`)
-	
+
 ## 高阶函数
 `js`中函数也可以当做变量
 以函数为入参的函数就是高阶函数
@@ -457,7 +457,7 @@ var arr2 = arr.map(function(){
 `map`传递了三个参数：`值`、`索引`、`数组`
 
 而`parseInt`函数说明如下：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469516107543.png)
+![](/images/images/1469516107543.png)
 
 之前的程序相当于依次执行下面的操作：
 ``` js
@@ -487,7 +487,7 @@ alert(arr2);
 ``` js
 var arr = [1,2,3,4];
 var rule = function(x){
-    return x % 2 == 0; 
+    return x % 2 == 0;
 };
 var arr2 = arr.filter(rule);
 alert(arr2);

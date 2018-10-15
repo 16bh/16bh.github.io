@@ -7,7 +7,7 @@ categories:
 tags: [hexo,git,ssh,error]
 ---
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png" width="492" height="297"/>
+<img src="/images/20170726150106524593664.png" width="492" height="297"/>
 
 将Hexo项目托管到Coding.net后，使用`hexo g -d`提交代码后报下面的Warning
 

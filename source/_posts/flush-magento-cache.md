@@ -38,7 +38,7 @@ cache.clear
 
 其中`Configuration`表示配置文件，如`local.xml`、`config.xml`的缓存
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1473771056463.png)
+![](/images/images/1473771056463.png)
 
 
 ## 清除redis缓存

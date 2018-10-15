@@ -8,7 +8,7 @@ tags: software
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170628149862035151555.png" width="492" height="297"/>
+<img src="/images/20170628149862035151555.png" width="492" height="297"/>
 
 
 <!--more-->

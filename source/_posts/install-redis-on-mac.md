@@ -33,13 +33,13 @@ mv redis.conf /etc/reds.conf
 ```
 安装成功
 ## 三 redis服务器的启动、使用和退出
-*** 1 启动redis服务*** 
+*** 1 启动redis服务***
 执行以下命令
 ```
 /usr/local/bin/redis-server /etc/redis.conf
 ```
 出现下面的界面说明redis服务器安装成功
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469498761643.png)
+![](/images/images/1469498761643.png)
 
 
 进入`/usr/local/bin`目录可以看到以下文件
@@ -52,8 +52,8 @@ ps aux | grep redis
 ```
 ***3 使用redis服务***
 >注：启动redis服务器后终端所在的窗口就不能输入别的命令了(如下图所示)，需要在终端打开新的窗口才能使用客户端功能
-> 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469498796319.png)
+>
+![](/images/images/1469498796319.png)
 
 
 
@@ -71,7 +71,7 @@ redis-cli
 > get (key) 查看键key的值
 
 redis客户端使用举例：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469498811208.png)
+![](/images/images/1469498811208.png)
 
 
 6.23补充：如何设置和查看缓存时间
@@ -95,14 +95,14 @@ ps -u jim(替换成你的用户名) -o pid,rss,command | grep redis-server
 ```
 查看所有redis服务的pid号
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469498829072.png)
+![](/images/images/1469498829072.png)
 
 
 16.6.24日补充：还可以通过mac自带的活动监视器查看pid
 如下图所示
 通过Spotlight或alfred搜索`activity monitor`打开活动监视器
 在活动监视器中搜索`redis-server`，即可得到pid号
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469498837473.png)
+![](/images/images/1469498837473.png)
 
 
 补充：如果你的电脑安装了oh my zsh
@@ -125,7 +125,7 @@ kill -9 27355
 `php55`是本机安装的php的版本（5.5）,`--build-from-source`是让安装的扩展与php的版本保持一致
 
   查看phpinfo()，出现redis选项说明redis配置成功
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469498850108.png)
+![](/images/images/1469498850108.png)
 
 2. 在php代码中使用redis服务
 

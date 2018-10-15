@@ -8,7 +8,7 @@ tags: software
 
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170330149087102975209.png" width="492" height="297"/>
+<img src="/images/20170330149087102975209.png" width="492" height="297"/>
 
 列举个人使用的ios软件
 
@@ -24,9 +24,9 @@ tags: software
 # 生活
 
 - `财禅`  记账软件，非常好用，支持为每笔支出建立tag，按tag或者日期统计
-<img src="http://o9xbyqajf.bkt.clouddn.com/1489390648.png" width="264" height="459" />
+<img src="/images/1489390648.png" width="264" height="459" />
 - `即刻`  消息推送，选择感兴趣的话题即可获得推送
-<img src="http://o9xbyqajf.bkt.clouddn.com/1489390691.png" width="268" height="475" />
+<img src="/images/1489390691.png" width="268" height="475" />
 - `微博国际版`  无广告版微博
 - `花生地铁WiFi` 
 - `哔哩哔哩`

@@ -9,7 +9,7 @@ tags: php
 
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170804150183174467257.png" width="492" height="297"/>
+<img src="/images/20170804150183174467257.png" width="492" height="297"/>
 
 
 <!--more-->

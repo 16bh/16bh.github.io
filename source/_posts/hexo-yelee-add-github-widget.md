@@ -8,7 +8,7 @@ tags: [hexo,github]
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114537274249.png" width="492" height="297"/>
+<img src="/images/20170727150114537274249.png" width="492" height="297"/>
 
 Hexo的yelee支持添加github组件
 
@@ -22,13 +22,13 @@ Hexo的yelee支持添加github组件
 github_widget: true
 ```
 
-## 如何使用 
+## 如何使用
 
 在文章中想要添加github组件的地方添加如下代码:
 
 {user_name} github作者名
 {project_name} github项目名称
- 
+
 ```
 <div class="github-widget" data-repo="{user_name}/{project_name}"></div>
 ```

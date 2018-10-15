@@ -49,7 +49,7 @@ tags: mac
 
 3. 基于chrome的homely扩展，结合坚果云的同步功能实现
 效果预览：
-![](http://o9xbyqajf.bkt.clouddn.com/20181008153898320819295.png)
+![](/images/20181008153898320819295.png)
 
 实现方式：
 
@@ -61,7 +61,7 @@ tags: mac
 
 导入导出的入口在:
 
-![](http://o9xbyqajf.bkt.clouddn.com/2018100815389833365849.png)
+![](/images/2018100815389833365849.png)
 
 
 # postman同步
@@ -79,10 +79,10 @@ SwitchHosts，须手动备份
 
 使用`文件/导出`功能将hosts文件导出到坚果云
 
-![20180301151990353149728.png](http://o9xbyqajf.bkt.clouddn.com/20180301151990353149728.png)
+![20180301151990353149728.png](/images/20180301151990353149728.png)
 
 注意：只有显示了Dock图标才能看到`文件/导出`功能
-![](http://o9xbyqajf.bkt.clouddn.com/20181008153898160195878.png)
+![](/images/20181008153898160195878.png)
 另一台电脑直接从坚果云中导入，即可
 
 # 代码同步
@@ -92,7 +92,7 @@ git或svn
 # Atom同步
 如果你用的是Atom编辑器,可以下载`Sync setting`插件对你的插件、设置等进行备份
 
-![20180302151996127822958.png](http://o9xbyqajf.bkt.clouddn.com/20180302151996127822958.png)
+![20180302151996127822958.png](/images/20180302151996127822958.png)
 
 只需要在设置里填写你的Personal Access Token和Gist Id就可以了
 这两个都在github上申请，获取方式如下：
@@ -107,4 +107,4 @@ Gist Id：[https://gist.github.com/](https://gist.github.com/)
 
 2. Paste
 
-![20180302151996169747597.png](http://o9xbyqajf.bkt.clouddn.com/20180302151996169747597.png)
+![20180302151996169747597.png](/images/20180302151996169747597.png)

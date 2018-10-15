@@ -10,7 +10,7 @@ tags: magento
 
 以复写`Captcha`模块下的`Model`下的`Observer.php`为例:
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468163564079.png)
+![](/images/images/1468163564079.png)
 
 
 

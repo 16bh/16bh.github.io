@@ -68,7 +68,7 @@ crontab $HOME/jimcron
 crontab -l
 ```
 
-![20170712149985458536665.png](http://o9xbyqajf.bkt.clouddn.com/20170712149985458536665.png)
+![20170712149985458536665.png](/images/20170712149985458536665.png)
 
 ## cron备份与恢复
 

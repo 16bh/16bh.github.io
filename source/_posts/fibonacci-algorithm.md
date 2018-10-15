@@ -8,7 +8,7 @@ date: 2017-06-08 15:20:02
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170608149690673867363.png" width="492" height="297"/>
+<img src="/images/20170608149690673867363.png" width="492" height="297"/>
 
 斐波那契数列：
 

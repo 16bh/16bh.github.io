@@ -3,12 +3,12 @@ title: '[译]Magento中的12种设计模式'
 toc: true
 comment: true
 date: 2017-03-30 17:18:15
-categories: 
+categories:
 tags: [magento,design pattern,translate]
 ---
 
 
-![20170331149095046779669.png](http://o9xbyqajf.bkt.clouddn.com/20170331149095046779669.png)
+![20170331149095046779669.png](/images/20170331149095046779669.png)
 
 > 原文地址:
 > http://magenticians.com/12-design-patterns-magento
@@ -63,7 +63,7 @@ Magento has only one point of entry (index.php) which will initialize the applic
 区别于传统的在代码中直接引入类所在文件并调用类，工厂模式以统一的方式对类进行初始化。
 
 >  Factory Pattern
-> 
+>
 As implied by the name, the factory pattern is responsible of factorizing (instantiating) classes. It’s widely used through the Magento code base and leverages the autoloading system in Magento. By defining an alias in a module its config.xml you are letting the factory know where it can find classes.
 There are various factory-helper methods in the Mage core class and one of them is getModel(). It accepts an alias for a class and will then return an instance of it. Instead of having include calls scattered through the code base, the factory pattern will instantiate classes in an uniform way.
 
@@ -177,7 +177,7 @@ Though Magento heavily relies on a modular architecture, its not modular to the 
 简易程度：
 使用场景：
 
-Magento的事件驱动架构是实现观察者模式的结果。通过定义观察者（或监听者），可以挂接额外的代码，随着观察到的事件触发，这些代码将被调用。 
+Magento的事件驱动架构是实现观察者模式的结果。通过定义观察者（或监听者），可以挂接额外的代码，随着观察到的事件触发，这些代码将被调用。
 
 Magento使用`config.xml`存储并定义观察者。使用`Mage::dispatchEvent（$eventName，$data）`触发事件，eventName是事件名，data是参数。事件触发后会将查询数据存储，并触发相应的`$event`观察者。
 除了使用模块之外，还可以使用事件来定制现有的逻辑，而不用接触现有的代码。

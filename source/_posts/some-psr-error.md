@@ -1,6 +1,6 @@
 ---
 title: psr2规范
-categories: 
+categories:
 toc: false
 comment: true
 date: 2017-04-01 16:19:26
@@ -8,7 +8,7 @@ tags: [php,psr]
 ---
 
 
-![20170401149103566288287.png](http://o9xbyqajf.bkt.clouddn.com/20170401149103566288287.png)
+![20170401149103566288287.png](/images/20170401149103566288287.png)
 
 给phpStorm安装phpcs之后，碰到的psr问题都记录下来
 
@@ -44,11 +44,11 @@ class Text
     {
         test;
     }
-    
+
 }//错误,类的结束花括号应该紧邻body
 ```
 
-![20170401149103534322168.png](http://o9xbyqajf.bkt.clouddn.com/20170401149103534322168.png)
+![20170401149103534322168.png](/images/20170401149103534322168.png)
 
 -  Each class must be in a namespace of at least one level(a top-level vendor name)
 
@@ -79,12 +79,12 @@ class Foo
 类的命名要遵循大写开头的驼峰命名规范
 
 - 参数以分布在多行，随后的行应该缩进一次。如果这么做，第一项应该 在下一行，而且每一个参数独占一行；
-![20170405149139889813936.png](http://o9xbyqajf.bkt.clouddn.com/20170405149139889813936.png)
+![20170405149139889813936.png](/images/20170405149139889813936.png)
 
 ```
 //错误
 $className->funcName($param1, $param2, $param3mayhaveaveryverylongnamelongerthen120words);
-                                    
+
 ```
 ```
 //正确

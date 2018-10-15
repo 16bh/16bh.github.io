@@ -1,6 +1,6 @@
 ---
 title: 从零搭建mac开发环境
-categories: 
+categories:
 tags: mac
 toc: false
 comment: true
@@ -17,15 +17,15 @@ date: 2017-05-10 21:48:02
 # 系统设置
 - 登录apple账号
 - 将不常用的app折叠到文件夹中
-![20170628149862006734533.png](http://o9xbyqajf.bkt.clouddn.com/20170628149862006734533.png)
+![20170628149862006734533.png](/images/20170628149862006734533.png)
 -  设置快捷键
 - 设置触摸板（三指拖拽功能在`辅助功能`中设置）
 - 设置触发角
-![20170624149830172871625.png](http://o9xbyqajf.bkt.clouddn.com/20170624149830172871625.png)
+![20170624149830172871625.png](/images/20170624149830172871625.png)
 - 下载已购项目
 - 设置dock
 
-![201706261498466531224.png](http://o9xbyqajf.bkt.clouddn.com/201706261498466531224.png)
+![201706261498466531224.png](/images/201706261498466531224.png)
 置于左侧
 将窗口最小化为应用程序图标
 
@@ -110,23 +110,23 @@ chsh -s /bin/zsh
 ## 安装nginx
 
 	```brew install nginx```
-	
+
 	- 配置servers文件
 	- 设置pid和log路径
 
 ## 安装php
 
 	```brew install php70```
-	
+
 	- 设置环境变量
 	- 设置pid和log路径
 	- 安装扩展
 
 	编译安装
-	
+
 ## 安装phpstorm
 	- 下载安装
-	- 导入配置（安装前导出备份） 
+	- 导入配置（安装前导出备份）
 	- 安装必要的插件
 
 ## 安装redis
@@ -174,11 +174,11 @@ log: /usr/local/var/log
 # 重要软件
 - 安装reeder，登录inoreader账号
 - 安装quiver、paste、yonik、bartender、moom、dash等常用软件
-![20170626149846649474604.png](http://o9xbyqajf.bkt.clouddn.com/20170626149846649474604.png)
+![20170626149846649474604.png](/images/20170626149846649474604.png)
 
 
 # 设置开启启动app
-![20170626149846660040418.png](http://o9xbyqajf.bkt.clouddn.com/20170626149846660040418.png)
+![20170626149846660040418.png](/images/20170626149846660040418.png)
 
 
 # 其他

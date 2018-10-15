@@ -9,7 +9,7 @@ tags: go
 
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170802150164469935152.png" width="492" height="297"/>
+<img src="/images/20170802150164469935152.png" width="492" height="297"/>
 
 
 <!--more-->
@@ -194,7 +194,7 @@ func main() {
 }
 ```
 
->输出结果： 
+>输出结果：
 
 >hello
 >

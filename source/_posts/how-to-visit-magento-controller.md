@@ -11,7 +11,7 @@ toc: true
 
 #controller文件
 之前我们新成立的Nano公司建了如下的模块，
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468037922718.png)
+![](/images/images/1468037922718.png)
 
 完善一下HelloWorldController
 

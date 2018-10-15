@@ -8,13 +8,13 @@ date: 2017-04-11 16:26:03
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170727150113818639668.png" width="492" height="297"/>
+<img src="/images/20170727150113818639668.png" width="492" height="297"/>
 
 
 
 <!--more-->
 # 安装Go插件
-![20170411149189925767872.png](http://o9xbyqajf.bkt.clouddn.com/20170411149189925767872.png)
+![20170411149189925767872.png](/images/20170411149189925767872.png)
 
 # 修改配置
 `command+,`
@@ -48,7 +48,7 @@ go get -u -v golang.org/x/tools/cmd/guru
 
 # 调试
 `调试 - 添加配置`
-![20170411149189954583746.png](http://o9xbyqajf.bkt.clouddn.com/20170411149189954583746.png)
+![20170411149189954583746.png](/images/20170411149189954583746.png)
 
 修改`program`为文件路径
 
@@ -70,6 +70,6 @@ go get -u -v golang.org/x/tools/cmd/guru
 
 开始调试：
 
-![20170411149189917370532.png](http://o9xbyqajf.bkt.clouddn.com/20170411149189917370532.png)
+![20170411149189917370532.png](/images/20170411149189917370532.png)
 
- 
+

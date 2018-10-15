@@ -6,10 +6,10 @@ categories:
 tags: tools
 ---
 
->和`RescueTime`等软件不同，`WakaTime`只专注于记录编程相关的活动，即所有你在编辑器中的操作  
+>和`RescueTime`等软件不同，`WakaTime`只专注于记录编程相关的活动，即所有你在编辑器中的操作
 
 先上效果图：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468241463615.png)
+![](/images/images/1468241463615.png)
 
 
 <!--more-->
@@ -26,7 +26,7 @@ tags: tools
  - Re-launch PhpStorm.
 
  - Enter your API key , then click Save.
- 
+
 
 # `sublime`安装`wakatime`
  - Install Package Control.
@@ -49,12 +49,12 @@ echo "Plugin 'wakatime/vim-wakatime'" >> ~/.vimrc && vim +PluginInstall
 
  - (Re-)start Vim and enter your API key , then press Enter.
 
- 
+
  # 隐私设置
- 
+
  `wakatime`默认会记录你编辑的项目文件名称，如果不想让它记录的话可以修改配置文件`~/.wakatime.cfg`，加上下面这句话：
 
  ```
  hidefilenames = true
- ``` 
+ ```
 

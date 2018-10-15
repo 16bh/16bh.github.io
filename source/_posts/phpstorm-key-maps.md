@@ -7,7 +7,7 @@ comment: true
 date: 2017-04-12 15:12:11
 ---
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170412149198604588533.png" width="492" height="297"/>
+<img src="/images/20170412149198604588533.png" width="492" height="297"/>
 
 自定义phpstorm快捷键，类sublime风格
 
@@ -15,7 +15,7 @@ date: 2017-04-12 15:12:11
 # 将phpstorm快捷键设置为其它编辑器的
 从以下编辑器切换到phpstorm的可以直接使用原先的快捷键：
 
-![20170412149198586170323.png](http://o9xbyqajf.bkt.clouddn.com/20170412149198586170323.png)
+![20170412149198586170323.png](/images/20170412149198586170323.png)
 
 # 自定义快捷键
 直接搜索快捷键的关键字修改

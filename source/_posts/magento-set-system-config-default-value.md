@@ -31,7 +31,7 @@ tags: magento
 其中，`app_options`、`app_setting`、`user_name`、`pass_word`均为你在同一目录下的`system.xml`中配置的唯一标识符
 
 打开后台，结果如下：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468984141679.png)
+![](/images/images/1468984141679.png)
 
 # 默认值不生效解决方法
 >**配置默认值的优先级：数据库 > `xml`配置文件**
@@ -43,9 +43,9 @@ tags: magento
 
 若先提交了`system.xml`，并在后台查看配置已经生效了，此时系统会将配置存入`core_config_data`表中，存入的默认值为`NULL`,如下图所示，再提交`config.xml`的时候，由于数据库中已经存入默认值且为空，导致设置的默认值不生效
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468996708948.png)
+![](/images/images/1468996708948.png)
 
 如果要让`config.xml`中设置的默认值生效，可以将数据库中配置的值对应的记录删除，清除`magento`缓存后重新进入后台查看，默认值生效
 此时查看表`core_config_data`中配置项的值，跟设置的默认值一样了
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468996558123.png)
+![](/images/images/1468996558123.png)

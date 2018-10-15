@@ -2,7 +2,7 @@
 title: 使用atom进行php开发
 toc: true
 date: 2016-08-03 15:30:21
-categories: 
+categories:
 tags: [atom,php]
 ---
 
@@ -59,29 +59,29 @@ strict-ssl=false
 ### 自动补全
 - autocomplete-php    自动补全代码
 - autocomplete-paths    自动补全文件路径
- 
+
 ### VIM `vim-mode`
  vim-mode && ex-mode    vim插件，ex-mode支持使用命令行
- 
-###  函数列表 `symboles-tree-view` 
+
+###  函数列表 `symboles-tree-view`
 >显示函数列表，点击函数名跳转到代码中对应的位置
-![20170328149068391168710.png](http://o9xbyqajf.bkt.clouddn.com/20170328149068391168710.png)
+![20170328149068391168710.png](/images/20170328149068391168710.png)
 
 如果不设置的话默认会显示类、变量、函数等混在一起的列表，在下面的设置中隐藏掉变量和类
-![20170328149068397978835.png](http://o9xbyqajf.bkt.clouddn.com/20170328149068397978835.png)
+![20170328149068397978835.png](/images/20170328149068397978835.png)
 
 
 - symboles-view 默认安装，弹窗显示索引列表，无法屏蔽变量名、类名等
- 
+
 ###  终端
 - terminal-plus
 - tokamak-terminal    在atom中使用终端，可设置使用iterm2
 
 ### 记录代码习惯  `wakatime`
-![20170328149068416318820.png](http://o9xbyqajf.bkt.clouddn.com/20170328149068416318820.png)
+![20170328149068416318820.png](/images/20170328149068416318820.png)
 
-### 代码错误提示 
-- `linter` 
+### 代码错误提示
+- `linter`
 - `linter-php`
 
 ### 代码对齐
@@ -121,5 +121,5 @@ strict-ssl=false
 # 注释
 用代码片段（Snippets）注释文件
 Atom - Snippets
- 
+
 

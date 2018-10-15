@@ -19,15 +19,15 @@ tags: [sublime,php]
 
 选择`Tools`>`Build System`>`New Build System`
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468218966073.png)
+![](/images/images/1468218966073.png)
 
 在弹出的文件中添加如下内容：
 
 ``` sublime-build /Users/jim/Library/Application Support/Sublime Text 3/Packages/User/php.sublime-build
-{     
+{
     "cmd": ["php", "$file"],
-    "file_regex": "php$",    
-    "selector": "source.php" 
+    "file_regex": "php$",
+    "selector": "source.php"
 }
 ```
 
@@ -35,5 +35,5 @@ tags: [sublime,php]
 
 新建一个测试的`php`文件,输入以下内容，按`Command`+`B`即可编译
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468219622854.png)
+![](/images/images/1468219622854.png)
 

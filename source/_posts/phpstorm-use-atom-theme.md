@@ -8,7 +8,7 @@ date: 2017-04-27 18:47:52
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170721150061409066654.png" width="492" height="297"/>
+<img src="/images/20170721150061409066654.png" width="492" height="297"/>
 
 
 

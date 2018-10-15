@@ -8,7 +8,7 @@ tags: yaf
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106236928086.png" width="492" height="297"/>
+<img src="/images/20170726150106236928086.png" width="492" height="297"/>
 
 
 

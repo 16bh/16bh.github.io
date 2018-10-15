@@ -17,7 +17,7 @@ tags: hexo
 在`markdwon`文件头部的一对`---`标记之间添加 `category: 分类名`和`tags:标签名`
 
 如本文的文件头部如下：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468918218644.png)
+![](/images/images/1468918218644.png)
 
 # 多标签
 

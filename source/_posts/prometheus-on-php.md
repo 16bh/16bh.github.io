@@ -8,7 +8,7 @@ tags: php
 ---
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097148897159.png" width="492" height="297"/>
+<img src="/images/20170725150097148897159.png" width="492" height="297"/>
 
 <!--more-->
 
@@ -72,13 +72,13 @@ if ($adapter === 'redis') {
 方法列表：
 
 - registerCounter
-- getCounter 
+- getCounter
 - getOrRegisterCounter
 - registerGauge
 - getGauge
 - getOrRegisterGauge
 - registerHistogram
-- getHistogram 
+- getHistogram
 - getOrRegisterHistogram
 
 ```
@@ -121,16 +121,16 @@ $adapter->flushMemory();
 ```
 
 ## counter用法
- 
- 
+
+
 
 ```
  $counter = $registry->getOrRegisterCounter('aaa', 'bbb', 'ccc', ['color']);
  $counter->incBy(1, ['red']);
 ```
- 
+
  结果为：
- 
+
 ```
 # HELP aaa_bbb ccc
 # TYPE aaa_bbb counter
@@ -147,7 +147,7 @@ aaa_bbb{color="red"} 1
 ```
 
  结果为：
- 
+
 ```
 # HELP aaa_bbb ccc
 # TYPE aaa_bbb counter

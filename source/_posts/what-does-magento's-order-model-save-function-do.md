@@ -7,14 +7,14 @@ categories:
 tags: magento
 ---
 
-![20170330149085600641699.png](http://o9xbyqajf.bkt.clouddn.com/20170330149085600641699.png)
+![20170330149085600641699.png](/images/20170330149085600641699.png)
 保存订单对象时除了更新sales_flat_order表，还会：
- 
- > 
+
+ >
  - _beforeSave方法
  - _afterSave方法
  - order_save_after事件
- 
+
 
 
 
@@ -24,9 +24,9 @@ tags: magento
  - 检查state
  - 设置店名
  - 设置订单号
- 
+
  > magento自带的通过对象的方式生成订单号的做法影响下单时的性能，可以通过redis的方式自动生成订单号
- 
+
  - 设置item数量
  - 设置用户id
  - 设置账单地址
@@ -166,4 +166,4 @@ protected function _afterSave()
 ```
 
 ## 监控sales_order_save_after事件
-![2017033014908558291593.png](http://o9xbyqajf.bkt.clouddn.com/2017033014908558291593.png)
+![2017033014908558291593.png](/images/2017033014908558291593.png)

@@ -1,6 +1,6 @@
 ---
 title: yaf学习笔记 - mac环境下的安装运行
-categories: 
+categories:
 tags: [php,yaf]
 toc: false
 comment: true
@@ -36,7 +36,7 @@ brew install php70-yaf --build-from-source
 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf
 
 在终端运行`php -m`,能看到yaf，说明扩展安装成功（或打印phpinfo()）
-![20170612149726521862950.png](http://o9xbyqajf.bkt.clouddn.com/20170612149726521862950.png)
+![20170612149726521862950.png](/images/20170612149726521862950.png)
 
 
 ## 建立demo项目
@@ -58,20 +58,20 @@ cp -R test ~/test
 server {
         listen       80;
         server_name  yaf.com;
-         
+
         location / {
             root   ~/test;
             index  index.html index.htm index.php;
             try_files $uri $uri/  /index.php;
         }
- 
+
         error_page  404              /404.html;
- 
+
         error_page   500 502 503 504  /50x.html;
         location = /50x.html {
             root   ~/test;
         }
- 
+
         location ~ \.php {
             root ~/test;
             fastcgi_pass   127.0.0.1:9000;
@@ -93,4 +93,4 @@ server {
 
 访问`yaf.com`,能看到`Hello World! I am Stranger`，说明安装配置成功
 
-![20170609149700636438511.png](http://o9xbyqajf.bkt.clouddn.com/20170609149700636438511.png)
+![20170609149700636438511.png](/images/20170609149700636438511.png)

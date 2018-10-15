@@ -8,7 +8,7 @@ tags: [sublime,js]
 
 开始学习`js`,先在`sublime`上搭建`js`的编译环境
 
-<!--more--> 
+<!--more-->
 
 # 搭建js编译环境
 
@@ -28,9 +28,9 @@ tags: [sublime,js]
 ```
 
 保存并命名为`js.sublime-build`，此时`sublime`的所有编译环境列表在`Tools` > `Build System` 中已经有`js`这一项了，选择它即可
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469098626551.png)
+![](/images/images/1469098626551.png)
 当你打开`javascript`文件时，按`Command`+`B`就可以编译程序了：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469098738991.png)
+![](/images/images/1469098738991.png)
 
 # sublime中编译js时执行alert命令报错解决方法
 
@@ -50,7 +50,7 @@ if((typeof alert) === 'undefined') {
 其实就是用`console.log`命令替换了`alert`命令，将要再弹窗中展示的问题直接打印输出
 
 效果如下：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469158250092.png)
+![](/images/images/1469158250092.png)
 
 
 # 让sublime自动选择编译环境

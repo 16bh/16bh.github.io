@@ -28,6 +28,6 @@ echo 'round(1.6):'.round(1.6)."\n";die;
 
 运行结果如下：
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1469009820175.png)
+![](/images/images/1469009820175.png)
 
 

@@ -1,6 +1,6 @@
 ---
 title: '[xml error]Unescaped & or nonterminated character/entity reference'
-categories: 
+categories:
 toc: false
 comment: true
 date: 2017-04-01 15:48:36
@@ -8,7 +8,7 @@ tags: [xml,error]
 ---
 
 
-![20170401149103309822659.png](http://o9xbyqajf.bkt.clouddn.com/20170401149103309822659.png)
+![20170401149103309822659.png](/images/20170401149103309822659.png)
 xml的某个标签中的值包含了&，会报下面的错误
 `Unescaped & or nonterminated character/entity reference`
 

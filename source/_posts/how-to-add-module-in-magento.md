@@ -16,7 +16,7 @@ toc: true
 
 # 模块的结构
 按如下路径建立文件夹和文件：
-<img src="http://o9xbyqajf.bkt.clouddn.com/images/1467908621346.png"/>
+<img src="/images/images/1467908621346.png"/>
 
 
 
@@ -61,10 +61,10 @@ toc: true
 然后访问`magento`后台`localhost/magento/admin`，如果已经登录后台了，那么可能需要退出登录重新登录后台
 选择`System/Configuration`
 然后在左边的菜单栏选择`Advanced`
-<img src="http://o9xbyqajf.bkt.clouddn.com/images/1467908925897.png"/>
+<img src="/images/images/1467908925897.png"/>
 
 在右侧展示的是所有模块
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/images/1467908876033.png"/>
+<img src="/images/images/1467908876033.png"/>
 
 如果能在列表中找到刚建立的模块 `Tecent_App`,那么就说明模块新建成功了,如图所示

@@ -13,15 +13,15 @@ tags: hexo
 `VISIT MY ACCOUNT`
 
 管理域名：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1467989090580.png)
+![](/images/images/1467989090580.png)
 
 管理DNS：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1467989132015.png)
+![](/images/images/1467989132015.png)
 
 <!--more-->
 
 选择第二项`Nameservers`,修改代理地址为`f1g1ns1.dnspod.net`和`f1g1ns2.dnspod.net`
-![](http://o9xbyqajf.bkt.clouddn.com/images/1467989192566.png)
+![](/images/images/1467989192566.png)
 
 设置完成
 
@@ -42,14 +42,14 @@ www      CNAME    your_github_username.github.io.
 ```
 > 注意，当不需要使用github pages的时候 要将这三条都暂停
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1467989450112.png)
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468137616462.png)
+![](/images/images/1467989450112.png)
+![](/images/images/1468137616462.png)
 将`jimxu.me`指向`github page`的ip地址,记录类型为`A`
 将`www.jimxu.me`指向`16bh.github.io`，记录类型为`CNAME`
 
 
 
- 
+
 # 设置hexo
 
 

@@ -9,9 +9,9 @@ tags: mac
 
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097228693096.png" width="492" height="297"/>
+<img src="/images/20170725150097228693096.png" width="492" height="297"/>
 
 <!--more-->
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170725150096665552592.png"/>
+<img src="/images/20170725150096665552592.png"/>

@@ -96,7 +96,7 @@ tags: magento
 # Helper类
 
 这时候若访问`magento`的后台，会报下面的错误:
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468159859154.png)
+![](/images/images/1468159859154.png)
 说明我们需要建立`App`这个模块的`helper`类
 
 先修改`config.xml`配置
@@ -128,7 +128,7 @@ class Nano_App_Helper_Data extends Mage_Core_Helper_Abstract
 配置成功后就能在后台对`App`模块配置一些参数了
 配置的路径为：`System` > `Configuration` > `APP OPTIONS` > `Settings`
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468160454227.png)
+![](/images/images/1468160454227.png)
 
 
 
@@ -136,7 +136,7 @@ class Nano_App_Helper_Data extends Mage_Core_Helper_Abstract
 
 配置完成后，如果要使用这个配置，可使用`Mage::getStoreConfig()`方法
 
-``` php 
+``` php
 $userName = Mage::getStoreConfig("app_options/app_setting/user_name");
 $passWord = Mage::getStoreConfig("app_options/app_setting/pass_word");
 ```

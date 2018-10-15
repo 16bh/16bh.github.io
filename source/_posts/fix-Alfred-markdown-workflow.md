@@ -13,7 +13,7 @@ tags: [markdown,alfred]
 然而我在使用的时候发现截图带上了尺寸，生成的如下所示的链接之后
 
 ```
-<img src="http://o9xbyqajf.bkt.clouddn.com/images/1467908925897.png" width="120"/>
+<img src="/images/images/1467908925897.png" width="120"/>
 ```
 
 在网页上显示的效果不是很好，图片不点开的话经常看不清楚
@@ -30,7 +30,7 @@ tags: [markdown,alfred]
 再次截图并粘贴之后得到的链接就是这样的了：
 
 ```
-![](http://o9xbyqajf.bkt.clouddn.com/images/1467950738418.png)
+![](/images/images/1467950738418.png)
 ```
 
 修改之后的脚本代码如下：
@@ -61,7 +61,7 @@ if img_file:
     # has image
 
     # use time to generate a unique upload_file name, we can not use the tmp file name
-    upload_name = "%s.%s" % (int(time.time() * 1000), format) 
+    upload_name = "%s.%s" % (int(time.time() * 1000), format)
     if need_format:
         #size_str = subprocess.check_output('sips -g pixelWidth %s | tail -n1 | cut -d" " -f4' % img_file.name, shell=True)
         #size = int(size_str.strip()) / 2

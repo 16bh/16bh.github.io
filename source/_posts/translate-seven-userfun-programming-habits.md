@@ -7,7 +7,7 @@ categories:
 tags: translate
 ---
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170721150061352433270.png" width="492" height="297"/>
+<img src="/images/20170721150061352433270.png" width="492" height="297"/>
 
 作者：BinarForge
 

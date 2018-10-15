@@ -26,7 +26,7 @@ toc: true
 然后在前台就会显示对应的`template`和`block`了
 效果图：
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1467950460634.png)
+![](/images/images/1467950460634.png)
 
 # 方法三：安装开发者插件（不可用）
 > 注：从水水的博客看到的方法，见

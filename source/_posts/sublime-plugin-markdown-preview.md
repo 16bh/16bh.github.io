@@ -16,7 +16,7 @@ tags: [sublime,markdown]
 # MarkDownEditing
 
 如本文的编辑效果如图所示：
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468241270431.png)
+![](/images/images/1468241270431.png)
 
 
 # MarkDown Preview

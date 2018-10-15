@@ -14,7 +14,7 @@ jekyll是和hexo一样的静态博客框架
 brew install ruby    //安装ruby环境
 gem install jekyll   //安装jekyll
 jekyll new blog      //新建一个本地站点
-cd blog  
+cd blog
 jekyll server  启动本地服务器
 
 ```
@@ -42,7 +42,7 @@ Configuration file: /Users/jim/jimxu-blog/_config.yml
 
 初始效果：
 
-![20170711149976507027132.png](http://o9xbyqajf.bkt.clouddn.com/20170711149976507027132.png)
+![20170711149976507027132.png](/images/20170711149976507027132.png)
 
 安装时如果报`jekyll 3.5.0 | Error:  bundler`的错误:
 

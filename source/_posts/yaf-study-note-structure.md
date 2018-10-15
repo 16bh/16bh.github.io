@@ -19,7 +19,7 @@ date: 2017-06-08 18:59:00
 
 > 注：tree命令不是自带的，有需要可以通过`brew install tree`安装
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170609149700575912100.png" width="492" height="297"/>
+<img src="/images/20170609149700575912100.png" width="492" height="297"/>
 
 <!--more-->
 

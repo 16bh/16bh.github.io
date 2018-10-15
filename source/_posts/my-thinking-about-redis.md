@@ -7,7 +7,7 @@ comment: true
 date: 2017-04-12 14:12:41
 ---
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170728150122388188040.png" width="492" height="297"/>
+<img src="/images/20170728150122388188040.png" width="492" height="297"/>
 
 > 性能有问题怎么办，加机器，做缓存
 

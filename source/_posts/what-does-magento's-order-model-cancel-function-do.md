@@ -6,7 +6,7 @@ categories:
 tags: magento
 ---
 
-![20170329149077771445601.png](http://o9xbyqajf.bkt.clouddn.com/20170329149077771445601.png)
+![20170329149077771445601.png](/images/20170329149077771445601.png)
 
 用户下单未付款，用户付款后申请取消，...，这些场景时我们需要取消magento中生成的订单，取消的方式如下：
 
@@ -60,7 +60,7 @@ public function registerCancellation($comment = '', $graceful = true)
                 $item->cancel(); //订单中的每件商品都要通过item对象的cancel方法处理一遍
             }
             $this->setSubtotalCanceled($this->getSubtotal() - $this->getSubtotalInvoiced());//以下是给order表中跟取消订单相关的字段赋值
-            ... ... 
+            ... ...
             $this->setBaseTotalCanceled($this->getBaseGrandTotal() - $this->getBaseTotalPaid());
 
             $this->_setState($cancelState, true, $comment);//设置订单的状态

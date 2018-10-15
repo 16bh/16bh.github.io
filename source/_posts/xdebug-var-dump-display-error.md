@@ -7,16 +7,16 @@ categories:
 tags: [xdebug,phpstorm]
 ---
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088775879.png" width="492" height="297"/>
+<img src="/images/20170724150088775879.png" width="492" height="297"/>
 
 
  安装了xdebug之后，使用var_dump打印输出时显示错误
- 
+
 <!--more-->
 
  错误如下：
- 
- <img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088734626603.jpg"/>
+
+ <img src="/images/20170724150088734626603.jpg"/>
 
 
 
@@ -35,16 +35,16 @@ php -i | grep html_errors
 好了，先检查一下
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088750041484.jpg"/>
+<img src="/images/20170724150088750041484.jpg"/>
 
 果然是关闭的，去`php.ini`里开启它吧
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170724150088738770125.jpg"/>
+<img src="/images/20170724150088738770125.jpg"/>
 
 若还未生效
 查看php设置的`xdebug.overload_var_dump`这一项，将其设置为0
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097075965208.png"/>
+<img src="/images/20170725150097075965208.png"/>
 
 改好了重启php-fpm服务
 

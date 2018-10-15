@@ -2,7 +2,7 @@
 title: sublime3144版本搭建php开发环境
 toc: true
 date: 2016-07-11 17:36:35
-categories: 
+categories:
 tags: [php,sublime]
 ---
 
@@ -62,12 +62,12 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 - SideBarEnhancement  侧边栏增强插件
     必装插件，安装完该插件后，在侧边栏文件上右击即可看到效果
-    
+
 - Colorsublime    主题库插件
     Why we use sublime? beacuse it is Cool!
     安装`colorsublime`插件后，为自动为你下载近百套主题到本地，供你切换使用，你只需`Command`+`Shift`+`P`呼出控制面板，输入`install theme`，确认后出现主题列表，可以用上下键预览主题的效果，按确认键确定主题
-    
-    
+
+
 - SideBarFolders    项目列表插件
     如果需要打开多个项目文件夹，切经常在多个项目之间切换工作空间，可以安装`SideBarFolders`插件，该插件在在菜单栏多出一个`Folders`选项，点击可查看所有项目文件夹
 
@@ -75,7 +75,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
     默认的补全只能根据当前文件进行补全，安装了`AllAutocomplete`插件后会根据你已经打开的标签文件进行补全
 
 - BracketHignlighter    高亮配对的括号插件
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468233622657.png)
+![](/images/images/1468233622657.png)
 
 
 - SyncedSidevarBg插件    修改侧边栏颜色插件
@@ -84,7 +84,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 - Seti_UI    自带精美的文件图标的主题
     如图所示，会为侧边栏的文件生成不同样式的文件图标，同时不需要安装上面的`SyncedSidevarBg`插件也可以解决侧边栏颜色的问题
-    ![](http://o9xbyqajf.bkt.clouddn.com/images/1468231624322.png)
+    ![](/images/images/1468231624322.png)
 
 
 安装完成后，修改配置文件（`Sublime Text`>`Perferences`>`Settings - User`），加入以下内容启用`Seti-UI`主题
@@ -95,11 +95,11 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 - SideBarGit    在侧边栏显示文件的git状态的插件
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468233896575.png)
+![](/images/images/1468233896575.png)
 
 
 - SublimeLinter和SublimeLinter-php    php错误提示插件
-![](http://o9xbyqajf.bkt.clouddn.com/images/1468477997880.png)
+![](/images/images/1468477997880.png)
 
 
 - Color Highlighter和ColorPicker    css颜色插件
@@ -126,7 +126,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 ## 显示所有已打开的文件
   `View` > `Side Bar` > `Show Open Files`
-  ![](http://o9xbyqajf.bkt.clouddn.com/images/1468233445271.png)
+  ![](/images/images/1468233445271.png)
 
 
 ## 配置php的编译环境
@@ -146,7 +146,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 ```
 "ignored_packages": [],    //取消禁用Vintage模块
-"vintage_ctrl_keys": true,     //在vim模式下支持ctrl快捷键的使用   
+"vintage_ctrl_keys": true,     //在vim模式下支持ctrl快捷键的使用
 "vintage_start_in_command_mode": true,    //默认使用vim输入模式而不是插入模式
 ```
 然后就可以欢快的像使用`vim`模式进行编辑了
@@ -192,7 +192,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
   { "keys": ["super+\\"], "command": "reveal_in_side_bar"},
   { "keys": ["alt+m"], "command": "markdown_preview", "args": { "target": "browser"}},
    { "keys": ["alt+d"], "command": "dash_doc"},
-``` 
+```
 
 
 ## 备份sublime插件及设置

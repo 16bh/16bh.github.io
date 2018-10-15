@@ -18,7 +18,7 @@ date: 2017-06-12 18:59:00
 运行流程如下图所示（摘自鸟哥文档）：
 
 
-<img src="http://o9xbyqajf.bkt.clouddn.com/20170613149732111245337.png" width="492" height="297"/>
+<img src="/images/20170613149732111245337.png" width="492" height="297"/>
 Yaf运行流程(摘自鸟哥文档)
 
 <!--more-->
@@ -38,7 +38,7 @@ yaf.com/index/index/index
 
 访问结果如下：
 
-![20170613149732160779459.png](http://o9xbyqajf.bkt.clouddn.com/20170613149732160779459.png)
+![20170613149732160779459.png](/images/20170613149732160779459.png)
 
 IndexController的indexAction的代码如下：
 
@@ -67,7 +67,7 @@ IndexController的indexAction的代码如下：
 yaf.com/index/index/index/name/jimxu
 ```
 
-![2017061314973219814429.png](http://o9xbyqajf.bkt.clouddn.com/2017061314973219814429.png)
+![2017061314973219814429.png](/images/2017061314973219814429.png)
 
 * 申明SampleModel类的一个对象，通过selectSample方法获取$content的值
 
