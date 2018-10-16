@@ -1,7 +1,7 @@
 ---
 title: 从零搭建mac开发环境
 categories:
-tags: mac
+tags: [mac,环境]
 toc: false
 comment: true
 date: 2017-05-10 21:48:02
@@ -17,34 +17,34 @@ date: 2017-05-10 21:48:02
 # 系统设置
 - 登录apple账号
 - 将不常用的app折叠到文件夹中
-![20170628149862006734533.png](/images/20170628149862006734533.png)
--  设置快捷键
+  ![20170628149862006734533.png](rebuild-mac-develop-environment/20170628149862006734533.png)
+- 设置快捷键
 - 设置触摸板（三指拖拽功能在`辅助功能`中设置）
 - 设置触发角
-![20170624149830172871625.png](/images/20170624149830172871625.png)
+  ![20170624149830172871625.png](rebuild-mac-develop-environment/20170624149830172871625.png)
 - 下载已购项目
 - 设置dock
 
-![201706261498466531224.png](/images/201706261498466531224.png)
+![201706261498466531224.png](rebuild-mac-develop-environment/201706261498466531224.png)
 置于左侧
 将窗口最小化为应用程序图标
 
 # 环境搭建
 ## 安装homebrew
 
-```
+```shell
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 ## 通过homebrew安装homebrew-cask
 
-```
+```shell
 brew tap caskroom/cask
 ```
 > 正常的软件通过appstore多dmg安装文件安装，正常渠道无法安装的采用brew cask
 
 ## shadowsocksx和chrome
 
-```
+```shell
 brew cask install shadowsocksx
 ```
 
@@ -68,14 +68,14 @@ brew cask install shadowsocksx
 
 - 安装oh my zsh
 
-```
+```shell
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 - 安装wd和zsh-wakatime插件
 - 下载powerline主题
 
-```
+```shell
 git clone git://github.com/jeremyFreeAgent/oh-my-zsh-powerline-theme ~/.ohmyzsh-powerline
 cd ~/.ohmyzsh-powerline
 cp powerline.zsh-theme ~/.oh-my-zsh/themes/powerline.zsh-theme
@@ -86,7 +86,7 @@ rm -rf ~/.ohmyzsh-powerline
 
 - 安装powerline等宽字体
 
-```
+```shell
 git clone https://github.com/powerline/fonts.git
 cd fonts
 ./install.sh
@@ -101,7 +101,7 @@ Profiles - Text - Font
 
 - 使用zsh
 
-```
+```shell
 chsh -s /bin/zsh
 ```
 
@@ -111,30 +111,35 @@ chsh -s /bin/zsh
 
 	```brew install nginx```
 
-	- 配置servers文件
-	- 设置pid和log路径
+- 配置servers文件
+- 设置pid和log路径
 
 ## 安装php
 
 	```brew install php70```
 
-	- 设置环境变量
-	- 设置pid和log路径
-	- 安装扩展
+ - 设置环境变量
+ - 设置pid和log路径
+ - 安装扩展
 
 	编译安装
 
 ## 安装phpstorm
-	- 下载安装
-	- 导入配置（安装前导出备份）
-	- 安装必要的插件
+- 下载安装
+- 导入配置（安装前导出备份）
+- 安装必要的插件
 
 ## 安装redis
 
-	- `brew install redis`
-	- 查看启动命令 `brew info redis`
-	- 设置pid和log路径
-	- 关闭持久化
+ ```brew install redis```
+
+- 查看启动命令 
+
+  ```brew info redis```
+
+- 设置pid和log路径
+
+- 关闭持久化
 
 ## 建议pid和log目录
 
@@ -174,11 +179,13 @@ log: /usr/local/var/log
 # 重要软件
 - 安装reeder，登录inoreader账号
 - 安装quiver、paste、yonik、bartender、moom、dash等常用软件
-![20170626149846649474604.png](/images/20170626149846649474604.png)
-
+![20170626149846649474604.png](rebuild-mac-develop-environment/20170626149846649474604.png)
 
 # 设置开启启动app
-![20170626149846660040418.png](/images/20170626149846660040418.png)
+
+系统偏好设置-用户和群组-登录项
+
+![20170626149846660040418.png](rebuild-mac-develop-environment/20170626149846660040418.png)
 
 
 # 其他

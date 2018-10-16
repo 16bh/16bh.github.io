@@ -1,15 +1,11 @@
 ---
 title: yaf学习笔记 - 项目结构
-categories:
-tags: [php,yaf]
+categories: php
+tags: yaf
 toc: false
 comment: true
 date: 2017-06-08 18:59:00
 ---
-
-
-
-
 
 
 
@@ -19,7 +15,7 @@ date: 2017-06-08 18:59:00
 
 > 注：tree命令不是自带的，有需要可以通过`brew install tree`安装
 
-<img src="/images/20170609149700575912100.png" width="492" height="297"/>
+<img src="yaf-study-note-structure/20170609149700575912100.png" width="492" height="297"/>
 
 <!--more-->
 

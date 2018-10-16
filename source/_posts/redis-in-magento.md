@@ -8,7 +8,7 @@ toc: true
 
 php常用的缓存工具：memcached和redis,本文讲的是在magento框架中借助magento的模块来使用redis
 
-
+<!--more-->
 
 ## 准备工作
 确保你的电脑安装并启动了redis服务、配置了php的redis扩展
@@ -39,14 +39,14 @@ php常用的缓存工具：memcached和redis,本文讲的是在magento框架中�
     <use_lua>0</use_lua> <!-- Set to 1 if Lua scripts should be used for some operations -->
   </backend_options>
 </cache>
-  ```
-  
+```
+
 3. 清空magento缓存使得配置文件生效，关于如何清空magento缓存，参考[《magento二次开发 - 如何清除magento缓存》](http://www.jianshu.com/p/a240602a4f36)
 
 ## 可能遇到的问题
 - 6-22:今天上午打开本地网站时报如下错误`connection to Redis failed`：
 
-![错误页面](http://upload-images.jianshu.io/upload_images/1903856-73c60ab2ef05b45b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![错误页面](redis-in-magento/1240-20181016225246938.png)
 
 发现是因为redis服务没有开启导致的，开启redis即可
 

@@ -12,6 +12,7 @@ tags: mac
 [如何在 Mac 上通过“启动转换”安装 Windows](https://support.apple.com/zh-cn/HT201468)
 
 
+
 <!--more-->
 
 1.准备一个U盘，插到电脑上

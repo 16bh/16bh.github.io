@@ -26,6 +26,8 @@ defaults write com.apple.Finder AppleShowAllFiles NO
 
 ## 方法2
 
-使用快捷键：
+
+
+(推荐)使用快捷键：
 `command+shif+.`
 

@@ -9,7 +9,7 @@ tags: hexo
 
 直接修改`/scaffolds/post.md`,加入`toc: true`即可
 
-```
+```markdown
 ---
 title: {{ title }}
 date: {{ date }}
@@ -18,3 +18,4 @@ toc: true
 ---
 
 ```
+

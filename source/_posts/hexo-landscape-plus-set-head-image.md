@@ -6,7 +6,7 @@ categories:
 tags: hexo
 ---
 
-landscape-plus主题默认关闭了顶部的大图，如需开启，取消`header.styl`第33行的注释即可
+landscape-plus主题默认关闭了顶部的大图，如需开启，取消`header.styl`第33行的注释即可。
 
 ```styl themes/landscape-plus/source/css/_partial/header.styl
 background: url(banner-url) center #000 

@@ -22,25 +22,25 @@ update: 2017年7月11日17:42
 
 debug前须知：
 mysql配置文件依次读取：
-```
+```ini
 /etc/my.cnf
 /etc/mysql/my.cnf
 ~/my.cnf
 ```
 
 
-![2017041214919952361252.png](/images/2017041214919952361252.png)
+![2017041214919952361252.png](mysql-error-The-server-quit-without-updating-PID-file/2017041214919952361252.png)
 
 网上提供的解决方法：
 
 ## 查看报错信息，有两处报错
 err文件位于`/usr/local/var/mysql/data`
-![20170412149199540435226.png](/images/20170412149199540435226.png)
+![20170412149199540435226.png](mysql-error-The-server-quit-without-updating-PID-file/20170412149199540435226.png)
 
     - Can't open the mysql.plugin table. Please run mysql_upgrade to create it.
     按照提示运行`mysql_upgrade`报错
-    ![20170412149199546335602.png](/images/20170412149199546335602.png)
-    >mysql_upgrade: Got error: 2002: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2) while connecting to the MySQL server
+![20170412149199546335602.png](mysql-error-The-server-quit-without-updating-PID-file/20170412149199546335602.png)
+​    >mysql_upgrade: Got error: 2002: Can't connect to local MySQL server through socket '/tmp/mysql.sock' (2) while connecting to the MySQL server
 Upgrade process encountered error and will not continue.
 
     - Fatal error: Can't open and lock privilege tables: Table 'mysql.user' doesn't exist
@@ -49,11 +49,11 @@ Upgrade process encountered error and will not continue.
 ```
 ps -ef | grep mysql
 ```
-![20170412149199567567857.png](/images/20170412149199567567857.png)
+![20170412149199567567857.png](mysql-error-The-server-quit-without-updating-PID-file/20170412149199567567857.png)
 结果：没有
 
 ## 删除.err文件
-![20170412149199529841695.png](/images/20170412149199529841695.png)
+![20170412149199529841695.png](mysql-error-The-server-quit-without-updating-PID-file/20170412149199529841695.png)
 结果：无效
 
 ## 改变权限
@@ -67,7 +67,7 @@ sudo chown -R _mysql:mysql /usr/local/var/mysql
 unset TMPDIR
 mysql_install_db --verbose --user=`whoami` --basedir="$(brew --prefix mysql)" --datadir=/usr/local/var/mysql/data --tmpdir=/tmp
 ```
-![20170412149199560432948.png](/images/20170412149199560432948.png)
+![20170412149199560432948.png](mysql-error-The-server-quit-without-updating-PID-file/20170412149199560432948.png)
 
 因为/usr/local/var/mysql/data目录不为空，所以没法初始化，那么先清空目录，再初始化
 
@@ -82,7 +82,7 @@ mysql_install_db
 ```
 sudo chown -R _mysql:mysql /usr/local/var/mysql
 ```
-![2017041214919969007399.png](/images/2017041214919969007399.png)
+![2017041214919969007399.png](mysql-error-The-server-quit-without-updating-PID-file/2017041214919969007399.png)
 
 DONE！
 

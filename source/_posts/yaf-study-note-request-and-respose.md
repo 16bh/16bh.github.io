@@ -3,20 +3,15 @@ title: yaf学习笔记 - request类和respose类
 toc: true
 comment: true
 date: 2017-07-26 16:48:53
-categories:
+categories: php
 tags: yaf
 ---
-
-
-<img src="/images/20170726150106236928086.png" width="492" height="297"/>
-
-
 
 <!--more-->
 
 ## Yaf-Request-Abstract
 
-```
+```php
 /* Methods */
 public void getActionName ( void )
 public void getBaseUri ( void )
@@ -51,7 +46,7 @@ public void setRouted ([ string $flag ] )
 
 ## Yaf-Response-Abstract
 
-```
+```php
 /* Methods */
 public bool appendBody ( string $content [, string $key ] )
 public bool clearBody ([ string $key ] )
@@ -60,7 +55,7 @@ private void __clone ( void )
 public __construct ( void )
 public void __destruct ( void )
 public mixed getBody ([ string $key ] )
-public void getHeader ( void )
+public void phpgetHeader ( void )
 public bool prependBody ( string $content [, string $key ] )
 public void response ( void )
 protected void setAllHeaders ( void )

@@ -16,7 +16,7 @@ tags: [xml,error]
 
 检查后发现，`xml`文件的头文件开头处出现了多余的空格
 
-```
+```xml
     <?xml version="1.0"?>
 ```
 

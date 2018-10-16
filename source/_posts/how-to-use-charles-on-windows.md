@@ -8,6 +8,7 @@ tags: [charles]
 
 >通过charles对手机app进行抓包，应该算是客户端、服务端、测试应该掌握的基本技能了。如果你没有一台安卓手机，又想抓取安卓app的请求的话，可以考虑在电脑上安装安卓模拟器，然后通过charles或fiddler进行抓包
 
+介绍在windows系统上通过安卓模拟器和charles进行抓包操作。
 
 <!--more-->
 
@@ -33,7 +34,7 @@ tags: [charles]
 而是在模拟的安卓系统内的设置
 <img src="how-to-use-charles-on-windows/1467902040285.png" width="172"/>
 选择设置中的wifi
-<img src="images/images/1467902054467.png" width="225"/>
+<img src="how-to-use-charles-on-windows/1467902054467.png" width="225"/>
 鼠标长按默认的wifi进入修改界面
 <img src="how-to-use-charles-on-windows/1467902073787.png" width="204"/>
 
@@ -56,7 +57,7 @@ C：获取的请求列表
 
 
 点击选中一个请求后，在右侧可以看到请求的详细数据
-<img src="images/images/1467902151768.png" width="238"/>
+<img src="how-to-use-charles-on-windows/1467902151768.png" width="238"/>
 overview包含请求的链接
 
 request：请求的入参

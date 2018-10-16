@@ -19,7 +19,7 @@ tags: [sublime,php]
 
 选择`Tools`>`Build System`>`New Build System`
 
-![](/images/images/1468218966073.png)
+![](sublime-php-build-system-on-mac/1468218966073.png)
 
 在弹出的文件中添加如下内容：
 
@@ -35,5 +35,5 @@ tags: [sublime,php]
 
 新建一个测试的`php`文件,输入以下内容，按`Command`+`B`即可编译
 
-![](/images/images/1468219622854.png)
+![](sublime-php-build-system-on-mac/1468219622854.png)
 

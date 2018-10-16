@@ -3,8 +3,8 @@ title: phpstorm生成函数调用关系
 toc: true
 comment: true
 date: 2017-10-16 16:25:39
-categories:
-tags: php
+categories: [software]
+tags: [phpstorm]
 ---
 
 
@@ -24,7 +24,7 @@ phpstorm也有检查函数调用这个功能
 
 找到快捷键 ctrl+alt+h
 
-<img src="/images/20171016150814248321882.png" />
+<img src="phpstorm-generate-Call-Hierarchy/20171016150814248321882.png" />
 
 
 使用效果如下：
@@ -33,4 +33,4 @@ phpstorm也有检查函数调用这个功能
 
 与查看用例find usage不同的是，Call Hierarchy功能会递归的寻找用例的用例，直到找到没有入口函数为止
 
-<img src="/images/20171016150814276075001.png" />
+<img src="phpstorm-generate-Call-Hierarchy/20171016150814276075001.png" />

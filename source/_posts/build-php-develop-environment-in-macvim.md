@@ -1,9 +1,15 @@
 ---
-title: 如何用macVim搭建php开发的IDE
+title: 把VIM打造成php开发的IDE需要哪些插件
 date: 2016-07-01 02:23:07
 category: 
 tags: [php,vim]
 ---
+
+2018-10-16：现在老实多了，基本只用IDE，不瞎折腾编辑器了
+
+---
+
+
 
 php开发必备插件列表：
 

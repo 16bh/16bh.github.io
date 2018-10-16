@@ -1,7 +1,7 @@
 ---
 title: yaf学习笔记 - 配置
-categories:
-tags: [php,yaf]
+categories: php
+tags: yaf
 toc: false
 comment: true
 date: 2017-06-09 18:59:00
@@ -21,19 +21,19 @@ yaf的配置有两种，
 
 ## 修改yaf设置
 在路径`/usr/local/etc/php/7.0/conf.d`下存放了各个扩展的配置文件
-![20170612149726524849464.png](/images/20170612149726524849464.png)
+![20170612149726524849464.png](yaf-study-note-config/20170612149726524849464.png)
 
 <!--more-->
 
 `ex-yaf.ini`文件即为yaf模块的配置文件，用vim命令打开该文件，内容如下所示
 
-```
+```ini
 [yaf]
 extension="/usr/local/opt/php70-yaf/yaf.so"  //扩展位置
 ```
 我们直接在后面添加配置内容，修改后如下
 
-```
+```ini
 [yaf]
 extension="/usr/local/opt/php70-yaf/yaf.so"	//扩展位置
 yaf.use_namespace = 1	//启用名字空间
@@ -43,17 +43,17 @@ yaf.environ = "dev"	   //设置环境为本地开发环境
 修改后重启php-fpm
 
 打印phpinfo(),`yaf.use_namespace`的值已经变成ON了，说明修改成功
-![20170612149726543885457.png](/images/20170612149726543885457.png)
+![20170612149726543885457.png](yaf-study-note-config/20170612149726543885457.png)
 
 ## yaf的配置项一览
-![20170612149726554799450.png](/images/20170612149726554799450.png)
+![20170612149726554799450.png](yaf-study-note-config/20170612149726554799450.png)
 
 
 ## 项目配置
 项目的配置文件为`./conf/application.ini`
 默认配置如下：
 
-```
+```ini
 [common]
 application.directory = APPLICATION_PATH  "/application"
 application.dispatcher.catchException = TRUE
@@ -81,7 +81,7 @@ database.db_prefix = tbl_
 
 如要获取上述配置文件中`application.directory`的值，可以通过下面的方式获取
 
-```
+```php
 $config = Yaf_Application::app()->getConfig()
 echo $config->application->directory;
 ```

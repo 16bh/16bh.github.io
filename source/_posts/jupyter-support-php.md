@@ -7,7 +7,7 @@ categories:
 tags: [jupyter,php]
 ---
 
-
+> ignore: not used now
 
 As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.
 
@@ -40,8 +40,3 @@ You are running PHP-CLI with xdebug enabled. This will have a major impact on th
 it means that you have't install zeromq
 
 
-
-
-
----
-any question, contact me by email

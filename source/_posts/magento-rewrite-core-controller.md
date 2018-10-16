@@ -10,7 +10,8 @@ tags: magento
 >复写的原理是同名的模块会按优先级覆盖，优先级为：`local` > `community` > `core`
 
 以复写`Customer/AccountController.php`为例
-![](/images/images/1468163108242.png)
+
+![](magento-rewrite-core-controller/1468163108242.png)
 
 
 <!--more-->

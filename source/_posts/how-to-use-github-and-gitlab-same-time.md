@@ -50,7 +50,7 @@ ssh-add id_rsa.github
 
 以github为例，在`Personal settings/SSH and GPG keys`中就可以添加`ssh key`了，如下图所示
 
-![20170707149941538098409.png](/images/20170707149941538098409.png)
+![20170707149941538098409.png](how-to-use-github-and-gitlab-same-time/20170707149941538098409.png)
 
 
 ## 测试ssh
@@ -63,7 +63,7 @@ ssh -T git@github.com
 
 若出现类似下面的提示，说明ssh可用
 
-![201707071499415537639.png](/images/201707071499415537639.png)
+![201707071499415537639.png](how-to-use-github-and-gitlab-same-time/201707071499415537639.png)
 
 然后就可以使用ssh的方式使用git平台了
 

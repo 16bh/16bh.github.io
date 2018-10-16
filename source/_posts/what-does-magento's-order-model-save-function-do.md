@@ -7,10 +7,9 @@ categories:
 tags: magento
 ---
 
-![20170330149085600641699.png](/images/20170330149085600641699.png)
-保存订单对象时除了更新sales_flat_order表，还会：
 
- >
+保存订单对象时除了更新sales_flat_order表，还会执行下面的一坨子方法：
+
  - _beforeSave方法
  - _afterSave方法
  - order_save_after事件
@@ -166,4 +165,8 @@ protected function _afterSave()
 ```
 
 ## 监控sales_order_save_after事件
-![2017033014908558291593.png](/images/2017033014908558291593.png)
+![2017033014908558291593.png](what-does-magento's-order-model-save-function-do/2017033014908558291593.png)
+
+
+
+最后，真爱生命，远离magento

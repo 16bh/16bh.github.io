@@ -17,8 +17,6 @@ tags: [mysql,error]
 - 默认值设置为非空值
 
 
-
-
 <!--more-->
 
 ## 查看sql mode

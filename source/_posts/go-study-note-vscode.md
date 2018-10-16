@@ -7,9 +7,10 @@ comment: true
 date: 2017-04-11 16:26:03
 ---
 
-
+用vsc开发go。
 
 <!--more-->
+
 # 安装Go插件
 ![20170411149189925767872.png](go-study-note-vscode/20170411149189925767872.png)
 

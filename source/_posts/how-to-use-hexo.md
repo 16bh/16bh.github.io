@@ -7,7 +7,8 @@ toc: true
 ---
 >通过github和hexo搭建博客
 
-# 解决在同一台电脑上使用github与gitlab的问题
+## 解决在同一台电脑上使用github与gitlab的问题
+
 参考这篇博文:https://github.com/xirong/my-git/blob/master/use-gitlab-github-together.md
 
 方法是一个仓库使用git的全局配置，一个仓库使用git的本地配置
@@ -53,7 +54,7 @@ npm install -a hexo
 
 
 
-# 生成博客后快速用`Mou`打开博客的方法
+# 生成博客后快速用Mou打开博客的方法
 
 ``` shell
 open test.md
@@ -61,7 +62,9 @@ open test.md
 
 > 注：open命令会用默认的方式打开指定的文件，相当于双击打开该文件。配置文件默认打开方式的方法：选中.md文件,`command+I`显示简介，选择`打开方式`为`Mou`，点击`全部更改`，如下图所示
 
-![](http://upload-images.jianshu.io/upload_images/1903856-9c3a5ec1253f70b6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](how-to-use-hexo/1240-20181017001428104.png)
+
+
 
 # 安装完成后写一篇博客的过程
 
@@ -73,7 +76,7 @@ hexo g    //更新本地库
 hexo d    //提交本地修改
 ```
 
---- 
+---
 update: 2017年7月11日17:11
 
 # 切换主题
@@ -107,3 +110,18 @@ hexo clean
 hexo g -d
 ```
 
+---
+
+2018-10-16：
+
+hexo new生成文章后，会在命令行显示文章的路径，此时，按住command键并单击就可以用默认的markdown编辑器打开了
+
+
+
+node_modules要加入.gitignore
+
+如果不修改主题的话，themes最好也忽略掉
+
+
+
+不需要经常更新node package，否则因为不兼容的问题很容易报错，专注于写作就好了

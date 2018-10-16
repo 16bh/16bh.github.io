@@ -3,8 +3,8 @@ title: mac无法读取移动硬盘
 toc: true
 comment: true
 date: 2018-02-28 15:19:56
-categories: mac
-tags: 
+categories: 
+tags: [mac,ntfs]
 ---
 
 
@@ -12,6 +12,7 @@ tags:
 
 > 无法识别{你的硬盘名称}，无法找到原身
 
+原因是无法识别ntfs格式的硬盘
 
 <!--more-->
 

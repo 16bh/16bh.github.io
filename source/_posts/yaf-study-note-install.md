@@ -1,7 +1,7 @@
 ---
 title: yaf学习笔记 - mac环境下的安装运行
-categories:
-tags: [php,yaf]
+categories: php
+tags: [yaf]
 toc: false
 comment: true
 date: 2017-06-08 11:16:47
@@ -10,11 +10,7 @@ date: 2017-06-08 11:16:47
 
 
 
-
-
-
-
-> 本系列基于macos系统，PHP版本7.0.19
+> 基于macos系统，PHP版本7.0.19
 
 ## yaf介绍
 
@@ -30,19 +26,25 @@ Yaf = yet another framework
 
 ## 安装yaf扩展
 
-```
+```shell
 brew install php70-yaf --build-from-source
 ```
 根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf
 
 在终端运行`php -m`,能看到yaf，说明扩展安装成功（或打印phpinfo()）
-![20170612149726521862950.png](/images/20170612149726521862950.png)
+
+```shell
+➜  ~ php -m | grep yaf
+yaf
+```
+
+
 
 
 ## 建立demo项目
 用yaf的代码生成器cg快速生成一个demo project
 
-```
+```shell
 下载https://github.com/laruence/yaf后解压
 cd tools
 cd cg
@@ -54,7 +56,7 @@ cp -R test ~/test
 ## 设置虚拟主机
  - 修改server_name域名，root项目根目录
 
-```
+```conf
 server {
         listen       80;
         server_name  yaf.com;
@@ -93,4 +95,4 @@ server {
 
 访问`yaf.com`,能看到`Hello World! I am Stranger`，说明安装配置成功
 
-![20170609149700636438511.png](/images/20170609149700636438511.png)
+![20170609149700636438511.png](yaf-study-note-install/20170609149700636438511.png)

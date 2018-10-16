@@ -42,7 +42,7 @@ repository:
 
 
 # 设置DNSPod域名解析
-![20170719150044386842213.png](/images/20170719150044386842213.png)
+![20170719150044386842213.png](using-Coding-host-website-code/20170719150044386842213.png)
 
 
 最后，为了看是否生效，可以[使用mtr检测域名的网络状态](http://16bh.github.io/2017/07/12/use-mtr-detect-network-status/)

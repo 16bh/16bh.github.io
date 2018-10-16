@@ -8,13 +8,13 @@ toc: true
 
 # 一 关于错误日志
 使用magento的过程中经常出现图示的错误页面
-![magento错误页面](http://upload-images.jianshu.io/upload_images/1903856-9788d9e07ea4414c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![magento错误页面](magento-log/1240-20181016235031944.png)
 红框中的部分是错误日志的编号，以下是查看对应的错误日志的方法：
 
 1. 在***`项目根目录/var/report/错误日志编号`***文件中即可查看对应的错误信息
 2. 在页面上直接显示错误信息的方法：将`项目根目录/errors/local.xml.sample`修改为`local.xml`即可(最好保留原文件)
 附：通过终端命令行复制文件
-```
+```shell
 cd 你的项目根目录路径/errors
 cp local.xml.sample local.xml
 ```

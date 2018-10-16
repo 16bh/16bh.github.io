@@ -1,13 +1,11 @@
 ---
 title: yaf学习笔记 - MVC模式
-categories:
-tags: [php,yaf]
+categories: php
+tags: yaf
 toc: false
 comment: true
 date: 2017-06-12 18:59:00
 ---
-
-
 
 
 
@@ -17,8 +15,7 @@ date: 2017-06-12 18:59:00
 
 运行流程如下图所示（摘自鸟哥文档）：
 
-
-<img src="/images/20170613149732111245337.png" width="492" height="297"/>
+<img src="yaf-study-note-mvc/20170613149732111245337.png" width="492" height="297"/>
 Yaf运行流程(摘自鸟哥文档)
 
 <!--more-->
@@ -34,11 +31,9 @@ yaf.com/index/index/index
 ```
 最后一种访问方式里：第一个index是Module模块名，第二个index是Controller控制器名，第三个index是Action方法名
 
-> 模块的用法见下一节
-
 访问结果如下：
 
-![20170613149732160779459.png](/images/20170613149732160779459.png)
+![20170613149732160779459.png](yaf-study-note-mvc/20170613149732160779459.png)
 
 IndexController的indexAction的代码如下：
 
@@ -67,7 +62,7 @@ IndexController的indexAction的代码如下：
 yaf.com/index/index/index/name/jimxu
 ```
 
-![2017061314973219814429.png](/images/2017061314973219814429.png)
+![2017061314973219814429.png](yaf-study-note-mvc/2017061314973219814429.png)
 
 * 申明SampleModel类的一个对象，通过selectSample方法获取$content的值
 
@@ -79,7 +74,7 @@ yaf.com/index/index/index/name/jimxu
 
 * 将`$name`和`$content`传到view
 
-```
+```php
 $this->getView()->assign("content", $model->selectSample());
 $this->getView()->assign("name", $name);
 ```

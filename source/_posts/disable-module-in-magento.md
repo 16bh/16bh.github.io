@@ -11,11 +11,11 @@ tags: magento
 访问magento后台`localhost/magento/admin`
 选择`System/Configuration`
 在左侧选择`ADVANED/Advanced`，
-![Paste_Image.png](http://upload-images.jianshu.io/upload_images/1903856-cb84f511b6388b7e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Paste_Image.png](disable-module-in-magento/1240-20181016225740190.png)
 在右侧展示的是所有已激活的模块列表
 
-![](http://upload-images.jianshu.io/upload_images/1903856-a8e371b2a6b41166.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](disable-module-in-magento/1240-20181016225743643.png)
 
 找到你要禁用的模块，将模块右侧的状态从‘Enable’改成‘Disable’就可以禁用该模块了，如图所示
 
-![](http://upload-images.jianshu.io/upload_images/1903856-d528da826076ded9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](disable-module-in-magento/1240-20181016225747141.png)

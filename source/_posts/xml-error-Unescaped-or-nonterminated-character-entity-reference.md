@@ -8,7 +8,7 @@ tags: [xml,error]
 ---
 
 
-![20170401149103309822659.png](/images/20170401149103309822659.png)
+
 xml的某个标签中的值包含了&，会报下面的错误
 `Unescaped & or nonterminated character/entity reference`
 

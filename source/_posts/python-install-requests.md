@@ -36,7 +36,7 @@ python
 ```
 
 查看当前python的版本
-<img src="/images/images/1467904179678.png" width="292"/>
+<img src="python-install-requests/1467904179678.png" width="292"/>
 
 如图，正运行的版本是2.7
 
@@ -47,7 +47,7 @@ cd /Library/python
 ll
 ```
 
-<img src="/images/images/1467904516625.png" width="281"/>
+<img src="python-install-requests/1467904516625.png" width="281"/>
 
 不出意外，电脑里有2.6和2.7两个版本，pip默认安装到了2.6版本
 

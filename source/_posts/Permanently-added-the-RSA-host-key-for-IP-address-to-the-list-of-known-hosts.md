@@ -7,7 +7,7 @@ categories:
 tags: [hexo,git,ssh,error]
 ---
 
-<img src="/images/20170726150106524593664.png" width="492" height="297"/>
+<img src="Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/20170726150106524593664.png" width="492" height="297"/>
 
 将Hexo项目托管到Coding.net后，使用`hexo g -d`提交代码后报下面的Warning
 
@@ -23,7 +23,7 @@ tags: [hexo,git,ssh,error]
 编辑config文件 `~/.ssh/config`:
 
 
-```
+```config
 Host coding.net
       HostName 123.59.85.105
       IdentityFile {path_to_private_key}

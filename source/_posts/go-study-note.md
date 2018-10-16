@@ -1,7 +1,7 @@
 ---
 title: go语言入门知识点
-categories:
-tags: [go]
+categories: go
+tags: 
 toc: false
 comment: true
 date: 2017-04-11 10:09:55

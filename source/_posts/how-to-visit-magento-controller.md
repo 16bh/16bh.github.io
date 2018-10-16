@@ -7,9 +7,14 @@ toc: true
 ---
 
 >magento与别的框架的不同之处之一：路由规则通过xml文件进行配置
-参考：《深入理解magento 第二章》
+>参考：《深入理解magento 第二章》
 
-#controller文件
+简单介绍magento的控制器。
+
+<!--more-->
+
+controller文件
+
 之前我们新成立的Nano公司建了如下的模块，
 ![](how-to-visit-magento-controller/1468037922718.png)
 

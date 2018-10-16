@@ -5,8 +5,8 @@ title: 七牛测试域名过期后批量下载图片到本地
 toc: true
 comment: true
 date: 2018-10-15 15:24:04
-categories: [hexo]
-tags:
+categories: 
+tags: [hexo,qiniu]
 ---
 
 

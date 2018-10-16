@@ -1,5 +1,5 @@
 ---
-title: php面试笔记
+title: 2016年4月php面试笔记
 toc: false
 date: 2016-04-22 15:00:35
 categories:
@@ -78,7 +78,7 @@ svn和git的区别：
 7、向数据库中插入一个字段
 
   ALTER TABLE [表名] ADD COLUMN [字段名] DATATYPE  
- 
+
 
 8、设计模式
 

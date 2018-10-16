@@ -9,10 +9,6 @@ tags: [git,ssh]
 
 
 
-
-
-
-
 用ssh连接服务器，通常是下面这样的
 
 ```
@@ -31,14 +27,14 @@ ssh user@127.0.0.1
 
 编辑如下：
 
-```
+```config
  Host test
       HostName 172.0.0.1
       User user
 ```
 然后就可以用
 
-```
+```shell
 ssh test
 ```
 来连接服务器了，但是还是要输入密码的
@@ -48,7 +44,7 @@ ssh test
 
 先生成秘钥
 
-```
+```shell
 ssh-keygen -t rsa
 ```
 
@@ -56,14 +52,14 @@ ssh-keygen -t rsa
 
 这样在你的`.ssh`目录下就应该生成了下面两个文件
 
-```
+```shell
 id_rsa  私有秘钥(私钥)
 id_rsa.pub  公有秘钥(公钥)
 ```
 
 用`scp`命令将生成的公钥copy到服务器，为了防止文件名重复改个名字
 
-```
+```shell
 scp ~/.ssh/id_rsa.pub user@172.0.0.1:~/.ssh/unique_id_rsa.pub
 ```
 按提示输入密码（以后就不用输了）
@@ -72,14 +68,14 @@ scp ~/.ssh/id_rsa.pub user@172.0.0.1:~/.ssh/unique_id_rsa.pub
 
 应该能看到下面两个文件
 
-```
+```shell
 authorized_keys 存储了很多公钥的文件
 unique_id_rsa.pub 我们刚才copy过来的
 ```
 
 执行下面的操作
 
-```
+```shell
 //将我们的公钥加入到文件的末尾
 cat unique_id_rsa.pub >> authorized_keys
 //然后删除无用的公钥
@@ -89,7 +85,7 @@ rm unique_id_rsa.pub
 退出服务器
 
 执行
-```
+```shell
 ssh test
 ```
 就可以直连服务器啦
@@ -98,7 +94,7 @@ ssh test
 
 - 生成的一定要是默认的秘钥名（id_rsa），如果生成秘钥的时候你指定了其他的名字如 `id_rsa.different`,那么连接服务器的时候就要用下面的命令
 
-```
+```shell
 ssh -i id_rsa.different test
 ```
 

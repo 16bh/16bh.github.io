@@ -10,7 +10,7 @@ tags: [hexo,github]
 
 
 
-Hexo的yelee支持添加github组件
+Hexo的yelee支持添加github组件。
 
 <!--more-->
 

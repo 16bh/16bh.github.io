@@ -11,14 +11,14 @@ tags: [phpstorm]
 
 phpstorm设置新建php文件时的头文件，一个帅气的头文件是不是让你码字的心情都更好了呢
 
-![20170712149985488177380.png](/images/20170712149985488177380.png)
+![20170712149985488177380.png](phpstorm-php-file-header/20170712149985488177380.png)
 
 
 <!--more-->
 
 `Editor/ File and Code Templates / includes / PHP File Header`
 
-![20170621149803412611540.png](/images/20170621149803412611540.png)
+![20170621149803412611540.png](phpstorm-php-file-header/20170621149803412611540.png)
 
 可以在模板中使用一下变量：
 

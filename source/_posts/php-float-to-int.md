@@ -2,8 +2,8 @@
 title: php浮点数取整
 toc: false
 date: 2016-07-20 18:15:09
-categories:
-tags: php
+categories: php
+tags:
 ---
 
 
@@ -28,6 +28,6 @@ echo 'round(1.6):'.round(1.6)."\n";die;
 
 运行结果如下：
 
-![](/images/images/1469009820175.png)
+![](php-float-to-int/1469009820175.png)
 
 

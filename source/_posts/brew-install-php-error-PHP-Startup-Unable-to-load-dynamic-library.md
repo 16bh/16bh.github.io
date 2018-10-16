@@ -2,7 +2,7 @@
 title: 'mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library'
 date: 2016-06-23 18:22:39
 category: 
-tags: php
+tags: [php,homebrew]
 toc: true
 ---
 

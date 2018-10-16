@@ -8,7 +8,7 @@ date: 2017-04-01 16:41:58
 tags: [magento,phpstorm]
 ---
 
-![20170401149103658911016.png](/images/20170401149103658911016.png)
+
 
 - 安装phpcs
 - 安装phpmd
@@ -37,7 +37,7 @@ php代码纠错
 [怎么在phpStorm中配置使用phpmd？](http://16bh.github.io/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/)
 
 # 安装[magicento](http://magicento.com/ )插件
-![20170401149103633058337.png](/images/20170401149103633058337.png)
+![20170401149103633058337.png](phpstorm-develop-magento-skills/20170401149103633058337.png)
 
 # 只对用的到的文件夹进行索引
 ```
@@ -52,8 +52,8 @@ php代码纠错
 ```
 建议将以上的文件夹标记为`Excluded`，这样就不会浪费phpStorm的性能对它们进行索引了
 
-![20170401149103630080427.png](/images/20170401149103630080427.png)
+![20170401149103630080427.png](phpstorm-develop-magento-skills/20170401149103630080427.png)
 
 # 设置常用代码片段
 
-http://16bh.github.io/2017/04/01/phpstorm-live-template/
+https://16bh.github.io/2017/04/01/phpstorm-live-template/

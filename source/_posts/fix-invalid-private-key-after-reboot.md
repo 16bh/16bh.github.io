@@ -3,8 +3,8 @@ title: 解决重启后私钥失效的问题
 toc: true
 comment: true
 date: 2017-07-07 16:26:09
-categories: git
-tags: 
+categories:
+tags: git
 ---
 
 

@@ -5,10 +5,15 @@ category:
 tags: [tools,oh my zsh]
 ---
 
+2018-10-16：虽然现在不用这个了，但是还是觉得很有趣
+
+---
+
+
 
 先上效果图，就是这只萌萌哒的小牛以及牛说的每日格言啦，怎么做出这种效果呢，往下看。
 
-![](http://upload-images.jianshu.io/upload_images/1903856-5d5cbca95ddbb2f5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](oh-my-zsh-cow-welcome/1240-20181016225140769.png)
 
 # 准备工作
 假设你已经完成了下面的准备工作
@@ -30,7 +35,7 @@ brew install cowsay
 打开终端配置文件
 
       vim ~/.zshrc
-      
+
 修改`plugins = ( )`这一行
 括号里表示你安装过的插件，以空格区分，只要加上`chucknorris`就可以了，下面是我安装的所有的`oh my zsh`的插件，以供参考
 
@@ -46,4 +51,8 @@ plugins=(brew git z extract history catimg wd last-working-dir chucknorris )
 
 `source ~/.zshrc`
 
-重启终端，牛牛就出来啦，enjoy it!
+重启终端，牛牛就出来啦
+
+
+
+enjoy it!

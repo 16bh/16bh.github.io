@@ -7,7 +7,7 @@ tags: magento
 ---
 
 
-根据邮件用户名获取顾客对象时，可以用`Customer`模块自带的`loadByEmail方法`
+根据邮件用户名获取顾客对象时，可以用`Customer`模块自带的`loadByEmail方法`。
 
 ``` php app/code/core/Mage/Customer/Model/Customer.php
 public function loadByEmail($customerEmail)

@@ -1,7 +1,7 @@
 ---
 title: 斐波那契数列问题
-categories: php
-tags: [algorithm,math]
+categories:
+tags: [algorithm,math,php]
 toc: false
 comment: true
 date: 2017-06-08 15:20:02

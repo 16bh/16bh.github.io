@@ -4,7 +4,7 @@ toc: true
 comment: true
 date: 2018-04-27 14:28:17
 categories: php
-tags: php
+tags: pecl
 ---
 
 
@@ -36,7 +36,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 ```
 启动关闭的命令也变了
 
-```
+```shell
 //启动php-fpm
 sudo php-fpm
 
@@ -73,15 +73,15 @@ Extension protobuf enabled in php.ini
 打开`php.ini`文件,
 第一行新增了
 
-```
+```ini
 extension="protobuf.so"
 ```
 将其注释掉
 
 在conf.d目录下新建文件`ext-protobuf.ini`，编辑如下：
 
-```
-protobuf]
+```ini
+[protobuf]
 extension="/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so"
 ```
 
@@ -95,7 +95,7 @@ brew安装的php70时，php.ini文件是不生效的
 
 修改php.ini
 
-```
+```ini
 [opcache]
 ; Determines if Zend OPCache is enabled
 opcache.enable=0

@@ -18,7 +18,7 @@ tags: [magento,mysql]
 <!--more-->
 # 代码框架
 
-![](/images/images/1468494111778.png)
+![](mysql-in-magento/1468494111778.png)
 # 配置文件
 
 > (1) 修改配置文件后需要清除`mageno`缓存方可生效
@@ -120,13 +120,13 @@ $installer->endSetup();
 ```
 
 这时候，访问你的magento主页，当加载到`APP`模块的时候就会执行安装脚本，并创建一张名为`user_account`的表，表中有四个字段，自增的`id`，用户名`user_name`,密码`pass_word`,学校名称`schoolName`(这里用驼峰型后面要用）
-![](/images/images/1468565040331.png)
+![](mysql-in-magento/1468565040331.png)
 
 
 >注1：从`app/user`到表`user_account`的过程如下：左边的`app`是模型名，右边的`user`是实体名，先寻找名为`app`的模型，再找它的默认资源模型：`app_mysql4`，资源模型下寻找名为`user`的实体，即为`user_account`
 
 >注2：如果安装程序没有生效，查看`core_resource`表，找到名为`app_setup`的一项，删除该项，并清空magento的缓存，即可
-![](/images/images/1468496115988.png)
+![](mysql-in-magento/1468496115988.png)
 
 # 创建模型
 
@@ -193,9 +193,9 @@ public function insertAction()
 > (2) `setUserName`这样的方法之所以能生效，是因为使用了`__set()`魔术方法
 
 调用`insert`接口：
-![](/images/images/1468568994471.png)
+![](mysql-in-magento/1468568994471.png)
 查看数据库：
-![](/images/images/1468568973537.png)
+![](mysql-in-magento/1468568973537.png)
 
 ## 查询数据
 
@@ -211,7 +211,7 @@ public function selectAction()
 ```
 
 调用`select`接口：
-![](/images/images/1468570583138.png)
+![](mysql-in-magento/1468570583138.png)
 
 > `getUserName`这样的方法之所以能生效，是因为使用了`__get()`魔术方法
 
@@ -228,9 +228,9 @@ public function updateAction()
     }
 ```
 调用`update`接口：
-![](/images/images/1468569050912.png)
+![](mysql-in-magento/1468569050912.png)
 查看数据库：
-![](/images/images/1468569035398.png)
+![](mysql-in-magento/1468569035398.png)
 
 
 ## 删除数据
@@ -245,9 +245,9 @@ public function delete()
     }
 ```
 调用`delete`接口
-![](/images/images/1468569204906.png)
+![](mysql-in-magento/1468569204906.png)
 查看数据库：
-![](/images/images/1468569229355.png)
+![](mysql-in-magento/1468569229355.png)
 
 
 ## 获取所有数据
@@ -264,9 +264,9 @@ public function collectAction()
 ```
 
 先向数据库中插入几条数据
-![](/images/images/1468569394523.png)
+![](mysql-in-magento/1468569394523.png)
 再调用`collect`接口
-![](/images/images/1468569518671.png)
+![](mysql-in-magento/1468569518671.png)
 
 > 这里用到了前面创建的模型集合类
 
@@ -304,10 +304,10 @@ $installer->endSetup();
 清除缓存后，访问你本地的`magento`网站
 
 这时，查看数据库，发现`age`字段已经出现了
-![](/images/images/1468572542839.png)
+![](mysql-in-magento/1468572542839.png)
 
 再查看`core_resource`表
-![](/images/images/1468572751302.png)
+![](mysql-in-magento/1468572751302.png)
 `app`模块的版本号也已经成功升级到了`0.2.0`
 
 

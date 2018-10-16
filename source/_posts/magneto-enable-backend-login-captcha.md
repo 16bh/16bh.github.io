@@ -11,10 +11,6 @@ tags: magento
 
 设置方法如下：
 
-![](http://upload-images.jianshu.io/upload_images/1903856-ecab64654f6bd851.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-<!--more-->
-
-
+![](magneto-enable-backend-login-captcha/1240-20181016235113413.png)
 
 

@@ -37,3 +37,10 @@ theme: landscape-plus
 ``` shell
 hexo clean;
 ```
+
+然后就可以
+
+```
+hexo g -d
+```
+

@@ -9,7 +9,12 @@ tags: hexo
 >IT博客怎么能没有代码高亮的功能呢
 >hexo支持代码块的高亮，使用方式是在第一个\`\`\`后面接空格+语言名称,还可以在语言名称后面加上代码块的标题
 
+2018-10-16：回头看看，这tm不就是markdown自带的功能吗。真年轻
+
+---
+
 ## C语言
+
 >\`\`\` c
 >int main(){
 > return main();
@@ -32,7 +37,7 @@ int main(){
 >\`\`\` php 1.php
 >array_values();
 >for($a=0;$a<10;$a++){
->    break;
+>​    break;
 >}
 >\`\`\`
 
@@ -48,7 +53,7 @@ for($a=0;$a<10;$a++){
 >\`\`\`
 >array_values();
 >for($a=0;$a<10;$a++){
->    break;
+>​    break;
 }
 >\`\`\`
 
@@ -77,7 +82,7 @@ for($a=0;$a<10;$a++){
 ## css
 >\`\`\` css
 >.id:{
->    border:1px solid red;
+>​    border:1px solid red;
 >}
 >\`\`\`
 
@@ -116,8 +121,8 @@ tag: 1
 
 >\`\`\` xml
 > <FirstElement>
->        Some Text
->    </FirstElement>
+>​        Some Text
+>​    </FirstElement>
 >\`\`\``
 
 

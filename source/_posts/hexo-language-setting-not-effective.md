@@ -11,7 +11,7 @@ tags: hexo
 
 ![20170330149087276742023.png](hexo-language-setting-not-effective/20170330149087276742023.png)
 
-修改了hexo的language没有生效，可能是你没有执行`hexo clean`
+修改了hexo的language没有生效，可能是你没有执行`hexo clean`！
 
 <!--more-->
 

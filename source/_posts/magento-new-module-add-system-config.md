@@ -9,6 +9,8 @@ tags: magento
 
 # 后台配置文件
 
+
+
 在模块的`etc`文件夹下新建`system.xml`和`adminhtml.xml`
 
 
@@ -96,7 +98,7 @@ tags: magento
 # Helper类
 
 这时候若访问`magento`的后台，会报下面的错误:
-![](/images/images/1468159859154.png)
+![](magento-new-module-add-system-config/1468159859154.png)
 说明我们需要建立`App`这个模块的`helper`类
 
 先修改`config.xml`配置
@@ -128,7 +130,7 @@ class Nano_App_Helper_Data extends Mage_Core_Helper_Abstract
 配置成功后就能在后台对`App`模块配置一些参数了
 配置的路径为：`System` > `Configuration` > `APP OPTIONS` > `Settings`
 
-![](/images/images/1468160454227.png)
+![](magento-new-module-add-system-config/1468160454227.png)
 
 
 

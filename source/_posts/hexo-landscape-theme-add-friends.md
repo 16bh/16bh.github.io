@@ -28,8 +28,8 @@ tags: hexo
 
 ***2. 修改配置文件***
 
-
   `themes/landscape/_config.yml`
+
 这里是要展示的链接的内容
 
 ``` yml

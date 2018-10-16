@@ -11,6 +11,8 @@ tags:
 
 <img src="go-study-note-grammar/20170802150164469935152.png" width="492" height="297"/>
 
+记录学习go语言过程中的一些语法知识。
+
 
 <!--more-->
 

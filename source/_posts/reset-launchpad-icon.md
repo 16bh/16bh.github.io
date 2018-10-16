@@ -6,8 +6,16 @@ tags: mac
 ---
 
 
+
 在终端执行：
 
 ``` shell
 defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock
 ```
+
+复原：
+
+```shell
+defaults write com.apple.dock ResetLaunchPad -bool false; killall Dock
+```
+

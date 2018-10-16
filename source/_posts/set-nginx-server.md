@@ -53,7 +53,7 @@ cd servers
 vim blog
 ```
 编辑如下内容：
-```
+```conf
 server {
     listen 8080;    //此处修改端口号
     server_name myblog.com; //此处添加hosts中设置的域名

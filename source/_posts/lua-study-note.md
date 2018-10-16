@@ -8,7 +8,7 @@ tags: lua
 
 
 
-开始学习Lua啦
+开始学习Lua啦。
 学会了就可以去搭建openApi平台 n(*≧▽≦*)n
 
 

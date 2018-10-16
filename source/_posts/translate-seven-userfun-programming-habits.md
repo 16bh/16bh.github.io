@@ -4,10 +4,9 @@ toc: true
 comment: true
 date: 2017-07-19 11:27:35
 categories:
-tags: translate
+tags: 翻译
 ---
 
-<img src="/images/20170721150061352433270.png" width="492" height="297"/>
 
 作者：BinarForge
 

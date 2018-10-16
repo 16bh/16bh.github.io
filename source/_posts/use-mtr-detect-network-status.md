@@ -4,7 +4,7 @@ toc: true
 comment: true
 date: 2017-07-12 17:21:07
 categories:
-tags: tools
+tags: mtr
 ---
 
 
@@ -17,13 +17,13 @@ mtr集成了traceroute、ping、nslookup功能
 
 # 安装mtr
 
-```
+```shell
 brew install mtr
 ```
 
 # 使用mtr
 
-```
+```shel
 mtr ip/host_name
 ```
 
@@ -42,6 +42,6 @@ mtr ip/host_name
  jimxu.me这个域名通过DNSPod分别解析到了16bh.github.io(国外)和jimxu.coding.me(国内)
 
  对比下托管在国内外的两个Pages服务的网络状态
- ![20170712149986203271598.png](/images/20170712149986203271598.png)
+ ![20170712149986203271598.png](use-mtr-detect-network-status/20170712149986203271598.png)
 
 可见国内网络时托管在coding.net的网站比托管在github的网站有了大幅的提速

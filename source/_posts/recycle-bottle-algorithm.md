@@ -1,7 +1,7 @@
 ---
 title: 回收饮料瓶问题
 categories:
-tags: [php,algorithm]
+tags: [php,算法]
 toc: false
 comment: true
 date: 2017-06-08 14:43:54
@@ -9,8 +9,6 @@ date: 2017-06-08 14:43:54
 
 
 x瓶饮料，喝完了每y个空瓶可以兑换一瓶新的饮料（y<x）,求总共可以喝多少瓶饮料？
-
-
 
 <!--more-->
 

@@ -3,7 +3,7 @@ title: 在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd
 toc: true
 date: 2016-07-12 12:05:02
 categorie:
-tags: [tools,oh my zsh]
+tags: [zsh]
 ---
 
 `zsh`的`z`插件可以随意跳转最近经常打开的文件夹
@@ -63,10 +63,10 @@ plugins=(git z wd)
 安装完`z`插件后
 
 输入命令 `z` 即可查看你最近访问最频繁的目录
-![](/images/images/1468333461556.png)
+![](oh-my-zsh-plugin-wd/1468333461556.png)
 
 按`z`+目录名称的部分内容即可跳转目录
-![](/images/images/1468334078114.png)
+![](oh-my-zsh-plugin-wd/1468334078114.png)
 
 
 # 使用`wd`插件
@@ -83,4 +83,4 @@ wd list             //查看所有标记
 进入一个你觉得很常用的目录,如上面提到的`usr/local/etc/nginx`,执行`wd add nginx`,相当于告诉终端：我喜欢这个目录，帮我记住它，什么还要取个名字，那就叫`nginx`吧。以后在任何位置，你只需要执行`wd nginx`，就能直接返回这个目录了
 
 示例：
-![](/images/images/1468333921006.png)
+![](oh-my-zsh-plugin-wd/1468333921006.png)

@@ -15,7 +15,7 @@ per_page: 10
 pagination_dir: page
 ```
 
-其中，`per_page`即为你想要设置的分页个数，如果不想分页的话，设置`per_page: 0`即可
+其中，`per_page`即为你想要设置的分页个数，如果不想分页的话，设置`per_page: 0`即可。
 
 # 个性化页面分页
 

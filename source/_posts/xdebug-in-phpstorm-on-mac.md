@@ -46,47 +46,47 @@ sudo php55-fpm restart
 在`index.php`中加入`phpinfo();die;`并执行
 若能在php的配置页面中看到`xdebug`的模块说明配置成功
 
-![](/images/images/1467959560969.png)
+![](xdebug-in-phpstorm-on-mac/1467959560969.png)
 
 
 # chrome或firefox浏览器安装扩展
-![](/images/images/1467962586560.png)
+![](xdebug-in-phpstorm-on-mac/1467962586560.png)
 
 安装[xdebug-helper](https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc?hl=zh-CN)扩展并开启，直到在浏览器工具栏可以看到激活状态的图标
-![](/images/images/1467962624678.png)
+![](xdebug-in-phpstorm-on-mac/1467962624678.png)
 
 # phpstorm设置
 进入`phpstorm`的偏好设置:
 
 （1）`Languages & Frameworks` > `PHP` > `Servers`
-![](/images/images/1467962809444.png)
+![](xdebug-in-phpstorm-on-mac/1467962809444.png)
 
 （2）`Languages & Frameworks` > `PHP` > `Debug` > `DBGp Proxy`
 
-![](/images/images/1467962870171.png)
+![](xdebug-in-phpstorm-on-mac/1467962870171.png)
 
  (3) `Languages & Frameworks` > `PHP` > `Debug`
- ![](/images/images/1467962941842.png)
+ ![](xdebug-in-phpstorm-on-mac/1467962941842.png)
 
 
 # xdebug使用
 
 1. 在`chrome`上启用`xdebug-helper`扩展，输入网址或请求的接口地址
-2. 在`phpstorm`上开启`xdeubg`监听![](/images/images/1467963645152.png)
+2. 在`phpstorm`上开启`xdeubg`监听![](xdebug-in-phpstorm-on-mac/1467963645152.png)
 
 3. 刷新`chrome`,在`phpstorm`中弹出xdebug窗口
 
 4. 单步调试
-![20170621149801911655649.png](/images/20170621149801911655649.png)
+![20170621149801911655649.png](xdebug-in-phpstorm-on-mac/20170621149801911655649.png)
 
 5. 跳入，进入调用的方法体
-![20170621149801924516403.png](/images/20170621149801924516403.png)
+![20170621149801924516403.png](xdebug-in-phpstorm-on-mac/20170621149801924516403.png)
 
 6. 跳出，离开方法体，返回原来执行的代码
-![20170621149801925964706.png](/images/20170621149801925964706.png)
+![20170621149801925964706.png](xdebug-in-phpstorm-on-mac/20170621149801925964706.png)
 
 
 # 报错
 如果报下面的错误，说明端口号错误，确保设置的端口号与之前在`ext-xdebug.ini`中配置的是一致的。如果一致的还出现这种错误，那么换一个端口号试试
 
-![](/images/images/1467960299385.png)
+![](xdebug-in-phpstorm-on-mac/1467960299385.png)

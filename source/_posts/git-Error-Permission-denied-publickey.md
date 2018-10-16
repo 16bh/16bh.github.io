@@ -12,6 +12,6 @@ tags: git
 
 执行`ssh-add id_rsa`
 
-<!--more-->
 
 
+进阶：把上述命令写到脚本里，开机运行

@@ -7,6 +7,12 @@ tags: hexo
 
 > 前提：你的hexo已经配置了多说
 
+多说已经倒闭很多年了
+
+---
+
+
+
 先`themes/landscape-plus/layout/_widget`目录下新建小物件`duoshuo_recent_comments.ejs`，编辑如下：
 
 

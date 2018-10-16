@@ -6,8 +6,6 @@ categories:
 tags: magento
 ---
 
-
-
 记录常用的Magento方法
 
 
@@ -24,7 +22,7 @@ Mage::helper()->functionInHelper();
 ``` php
 $object = Mage::Model();
 ```
-        
+
 以及可用的方法：
 
 ``` php
@@ -38,7 +36,7 @@ Mage::log();
 Mage::logException();
 ```
 
-      
+
 # 获取入参,可以设置默认值
 
 ``` php
@@ -59,7 +57,7 @@ $session->logout();              //登出
 $session->isLoggedIn();        //判断是否登录
 $customer = $session->getCustomer();
 ```
-    
+
 
 # 获取系统session对象
 
@@ -72,10 +70,10 @@ $session = Mage::getSingleton('core/session');
 ``` php
 $ip = Mage::helper('core/http')->getRemoteAddr()
 ```
-    
+
 # 获取顾客对象
 ## 根据id获取对象
- 
+
 ``` php
 $customer = Mage::getModel('customer/customer')
 				->load($id);
@@ -94,7 +92,7 @@ $customer = Mage::getModel('customer/customer')
 ``` php
 $product = Mage::getModel('catalog/product');
 ```
-    
+
 # 获取订单对象
 
 ``` php
@@ -102,11 +100,11 @@ $order = Mage::getModel('sales/order');
 ```
 
 # 获取店铺对象
- 
+
 ``` php
 $store = Mage::app()->getStore();
 ```
-    
+
 # 获取商品库存
 
 ``` php

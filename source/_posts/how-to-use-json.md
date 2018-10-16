@@ -13,7 +13,7 @@ toc: true
 json字符串容易存储，尤其是要将一个数组存入数据库或缓存或记录日志的时候
 
 2. json_encode
- 
+
 ``` php
 $str = json_encode($arr);
 ```
@@ -42,11 +42,11 @@ $array = json_decode($str,true);
 （1）Json Parser Online:http://json.parser.online.fr/
   优势：界面简洁美观,json解析框够大，适用于解析很长的json字符串
 
-  ![](http://upload-images.jianshu.io/upload_images/1903856-69fa98c63024668d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![](how-to-use-json/1240-20181016234745433.png)
 
   （2） Be Json
 
-  ![](http://upload-images.jianshu.io/upload_images/1903856-d3e9c44b183927ab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![](how-to-use-json/1240-20181016234749326.png)
   优势：***json解析出错时会给出错误提示***
 
 2. Chrome的json解析扩展 - `JSONVIEW`
@@ -56,4 +56,4 @@ $array = json_decode($str,true);
 https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc
 
 效果图：
-![](http://upload-images.jianshu.io/upload_images/1903856-308e543c7c44f27d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](how-to-use-json/1240-20181016234752107.png)

@@ -40,14 +40,16 @@ toc: true
   brew home
 
 如：
-        
-      brew search brew-cask
-      brew install nginx
-      brew search php
-      brew uninstall mysql
- 
+​        
+```shell
+  brew search brew-cask
+  brew install nginx
+  brew search php
+  brew uninstall mysql
+```
 
-      
+
+​      
 
 ## 二 用homebrew-cask安装常用软件
 比在网上下载安装文件安装的优势在于：
@@ -61,7 +63,9 @@ brew install brew-cask
 
 使用方法：将上面的brew换成brew-cask即可，如
 
-       brew-cask install qq
+```shell
+   brew-cask install qq
+```
 
 ## 三 用cakebrew可视化你的homebrew
 如果你不熟悉终端命令，可以下载cakebrew，它是homebrew的客户端，可以实现常用的搜索、安装、卸载操作
@@ -75,4 +79,4 @@ brew install brew-cask
 brew cask install cakebrew
 ```
 效果图：
-![](https://www.cakebrew.com/assets/img/app-bg.png)
+![](homebrew、homebrew-cask及cakebrew/app-bg.png)

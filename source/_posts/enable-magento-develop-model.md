@@ -5,7 +5,7 @@ category:
 tags: magento
 ---
 
-> 开启了开发者模式后，可以直接在页面上显示错误信息
+> 开启了开发者模式后，可以直接在页面上显示错误信息。
 
 1. `项目根目录/errors`下的`local.xml.sample` 修改为`local.xml`
 

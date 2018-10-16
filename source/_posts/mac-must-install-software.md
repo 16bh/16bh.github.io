@@ -8,8 +8,8 @@ tags: software
 ---
 
 
-<img src="mac-must-install-software/20170628149862035151555.png" width="492" height="297"/>
 
+最新的一版mac软件列表
 
 <!--more-->
 

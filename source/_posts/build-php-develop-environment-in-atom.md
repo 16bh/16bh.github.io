@@ -2,8 +2,8 @@
 title: 使用atom进行php开发
 toc: true
 date: 2016-08-03 15:30:21
-categories:php
-tags: [atom]
+categories:
+tags: [php,atom]
 ---
 
 # 特点
@@ -67,7 +67,7 @@ strict-ssl=false
 ![20170328149068391168710.png](build-php-develop-environment-in-atom/20170328149068391168710.png)
 
 如果不设置的话默认会显示类、变量、函数等混在一起的列表，在下面的设置中隐藏掉变量和类
-![20170328149068397978835.png](/images/20170328149068397978835.png)
+![20170328149068397978835.png](build-php-develop-environment-in-atom/20170328149068397978835.png)
 
 
 - symboles-view 默认安装，弹窗显示索引列表，无法屏蔽变量名、类名等
@@ -77,7 +77,7 @@ strict-ssl=false
 - tokamak-terminal    在atom中使用终端，可设置使用iterm2
 
 ### 记录代码习惯  `wakatime`
-![20170328149068416318820.png](/images/20170328149068416318820.png)
+![20170328149068416318820.png](build-php-develop-environment-in-atom/20170328149068416318820.png)
 
 ### 代码错误提示
 - `linter`

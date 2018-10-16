@@ -75,7 +75,6 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
     默认的补全只能根据当前文件进行补全，安装了`AllAutocomplete`插件后会根据你已经打开的标签文件进行补全
 
 - BracketHignlighter    高亮配对的括号插件
-![](/images/images/1468233622657.png)
 
 
 - SyncedSidevarBg插件    修改侧边栏颜色插件
@@ -84,7 +83,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 - Seti_UI    自带精美的文件图标的主题
     如图所示，会为侧边栏的文件生成不同样式的文件图标，同时不需要安装上面的`SyncedSidevarBg`插件也可以解决侧边栏颜色的问题
-    ![](/images/images/1468231624322.png)
+    ![](sublime3144-build-php-develop-environment/1468231624322.png)
 
 
 安装完成后，修改配置文件（`Sublime Text`>`Perferences`>`Settings - User`），加入以下内容启用`Seti-UI`主题
@@ -95,11 +94,11 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 - SideBarGit    在侧边栏显示文件的git状态的插件
-![](/images/images/1468233896575.png)
+![](sublime3144-build-php-develop-environment/1468233896575.png)
 
 
 - SublimeLinter和SublimeLinter-php    php错误提示插件
-![](/images/images/1468477997880.png)
+![](sublime3144-build-php-develop-environment/1468477997880.png)
 
 
 - Color Highlighter和ColorPicker    css颜色插件
@@ -126,7 +125,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 ## 显示所有已打开的文件
   `View` > `Side Bar` > `Show Open Files`
-  ![](/images/images/1468233445271.png)
+  ![](sublime3144-build-php-develop-environment/1468233445271.png)
 
 
 ## 配置php的编译环境
@@ -243,4 +242,6 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 ```
 
 
-## 自动启动项目
+## 设置用sublime打开项目
+
+//todo 贴文章链接

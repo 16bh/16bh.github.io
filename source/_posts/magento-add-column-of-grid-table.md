@@ -9,13 +9,11 @@ tags: magento
 
 > 来源：http://magento.stackexchange.com/questions/5973/adding-columns-to-customer-grid-using-observer-or-overriding-the-customer-grid
 
-
-
 <!--more-->
 
 为了给用户grid新增一个column，需要重写block：`Mage_Adminhtml_Block_Customer_Grid`，并覆写block里的两个方法：
-	- _prepareCollection：添加你的属性到collection中
-	- _prepareColumns：添加column到grid中	
+​	- _prepareCollection：添加你的属性到collection中
+​	- _prepareColumns：添加column到grid中	
 # 新建模块并配置
 
 先新建一个模块`Easylife_Customer`,修改	
@@ -33,8 +31,8 @@ tags: magento
         </Easylife_Customer>
     </modules>
 </config>
-	```
-	
+```
+
 # 修改配置文件
 
 ``` xml app/code/local/Easylife/Customer/etc/config.xml

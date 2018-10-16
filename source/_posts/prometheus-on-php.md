@@ -3,12 +3,12 @@ title: 使用php对接prometheus监控系统
 toc: true
 comment: true
 date: 2017-07-25 15:55:13
-categories:
-tags: php
+categories: php
+tags: promotheus
 ---
 
 
-<img src="/images/20170725150097148897159.png" width="492" height="297"/>
+<div class="github-widget" data-repo="Jimdo/prometheus_client_php"></div>
 
 <!--more-->
 
@@ -81,7 +81,7 @@ if ($adapter === 'redis') {
 - getHistogram
 - getOrRegisterHistogram
 
-```
+```php
 $registry = new CollectorRegistry($adapter);
 
 //或者，获取默认的registry
@@ -90,7 +90,7 @@ $registry = \Prometheus\CollectorRegistry::getDefault();
 
 ## 供prometheus调用的接口
 
-```
+```php
 $registry = new CollectorRegistry($adapter);
 $renderer = new RenderTextFormat();
 $result = $renderer->render($registry->getMetricFamilySamples());
@@ -103,7 +103,7 @@ echo $result;
 
 测试的时候想要清除在apc中存储的prometheus数据，可以调用下面的方法
 
-```
+```php
 $adapter = new Prometheus\Storage\APC();
 $adapter->flushAPC();
 ```
@@ -112,7 +112,7 @@ $adapter->flushAPC();
 
 同理，清除redis和memory
 
-```
+```php
 $adapter = new Prometheus\Storage\Redis();
 $adapter->flushRedis();
 
@@ -124,7 +124,7 @@ $adapter->flushMemory();
 
 
 
-```
+```php
  $counter = $registry->getOrRegisterCounter('aaa', 'bbb', 'ccc', ['color']);
  $counter->incBy(1, ['red']);
 ```
@@ -141,7 +141,7 @@ aaa_bbb{color="red"} 1
 当然也可以同时设置两个label
 
 
-```
+```php
  $counter = $registry->getOrRegisterCounter('aaa', 'bbb', 'ccc', ['color', 'size']);
  $counter->incBy(1, ['red', 10]);
 ```
@@ -156,14 +156,14 @@ aaa_bbb{color="red",size=10} 1
 
 ## gauge
 
-```
+```php
 $gauge = $registry->getOrRegisterGauge('test', 'some_gauge', 'it sets', ['type']);
 $gauge->set(2.5, ['blue']);
 ```
 
 ## histogram
 
-```
+```php
 $histogram = $registry->getOrRegisterHistogram('test', 'some_histogram', 'it observes', ['type'], [0.1, 1, 2, 3.5, 4, 5, 6, 7, 8, 9]);
 $histogram->observe(3.5, ['blue']);
 ```

@@ -7,7 +7,7 @@ comment: true
 date: 2017-04-07 11:38:38
 ---
 
-一篇关于markdown的简单介绍
+一篇关于markdown的简单介绍。
 
 <!--more-->
 
@@ -131,5 +131,5 @@ echo 'Hello World';
 [TOC]
 
 
-如果你要用markdown写博客，推荐看[此文](https://16bh.github.io/a-nice-way-to-blog-by-hexo-and-typora)
+如果你要用markdown写博客，推荐看[此文](https://16bh.github.io/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/)
 

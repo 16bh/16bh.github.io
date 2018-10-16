@@ -7,7 +7,12 @@ categorie: hexo
 tags:
 ---
 
+在godday上购买域名的一次体验
+
+<!--more-->
+
 # 购买域名
+
 在[狗爹](https://au.godaddy.com/)上购买域名,已有域名的可忽略
 然后修改成国内的DNS代理
 

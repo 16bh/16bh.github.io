@@ -8,9 +8,9 @@ tags: software
 
 
 
-<img src="images/20170330149087102975209.png" width="492" height="297"/>
+<img src="ios-software-list/20170330149087102975209.png" width="492" height="297"/>
 
-列举个人使用的ios软件
+列举个人使用的ios软件。
 
 
 <!--more-->

@@ -3,9 +3,11 @@ title: 美区apple账号的申请和使用
 toc: true
 comment: true
 date: 2017-07-21 22:16:32
-categories:life
-tags:apple
+categories:
+tags: apple
 ---
+
+iphone上部分app只有美区账号才可以下载，因此申请一个美区账号很有必要。
 
 <!--more-->
 

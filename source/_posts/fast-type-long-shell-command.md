@@ -11,7 +11,7 @@ toc: true
 
 
 # 方法一： alias
-```
+```shell
 cd ~  //进入用户目录
 vim .zshrc  //如果安装了zsh的话，打开这个配置，否则使用 vim .bash_profile
 //编辑配置文件
@@ -32,19 +32,19 @@ source .zshrc  //保存配置，同理，未安装zsh的使用 source .bash_prof
 ***2.atext设置 ***
 先在偏好设置里设置触发片段的热键，如ctrl+\
 然后打开atext，新建一个片段组`New Group`，并如下图所示设置组的属性
-  ![atext设置](http://upload-images.jianshu.io/upload_images/1903856-7edee8bcb2d05b1d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+  ![atext设置](fast-type-long-shell-command/1240-20181017001939521.png)
 这样设置之后，我们输入片段+热键就能触发命令，展开片段对应的内容
 
 ***3.编辑常用命令***
 如图所示，在组下面新建常用的片段
-![atext使用示意图](http://upload-images.jianshu.io/upload_images/1903856-8123069c7af65a47.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![atext使用示意图](fast-type-long-shell-command/1240-20181017001635860.png)
 ***4.使用***
 这时候，在终端输入设置好的片段名称，如`redis.start`，再按设置好的热键，如 ctrl+\ ,就会自动展开成`/usr/local/bin/redis-server /etc/redis.conf`
 ，按`return`即可使用该命令了
 
 # 两种方法的比较
 第一种alias的方法比较快捷，不用再输入热键，可以可以将多个alias组合起来使用，如：
-```
+```shell
 alias fpm.start="sudo php55-fpm start"
 alias fpm.stop="sudo php55-fpm stop"
 alias fpm.restart='fpm.stop && fpm.start'

@@ -1,15 +1,11 @@
 ---
 title: yaf学习笔记 - 模块
-categories:
-tags: [php,yaf]
+categories: php
+tags: yaf
 toc: false
 comment: true
 date: 2017-06-13 10:12:59
 ---
-
-
-
-
 
 
 
@@ -47,12 +43,12 @@ application.dispatcher.defaultModule = Index
 
 Post/views下面建立list文件夹，新建view.phtml文件
 
-```
+```php
 <?php
 echo 2333;
 ```
 Post模块的结构如下所示：
-![20170613149732391375464.png](/images/20170613149732391375464.png)
+![20170613149732391375464.png](yaf-study-note-module/20170613149732391375464.png)
 
 ## 模块的配置
 
@@ -62,7 +58,7 @@ Post模块的结构如下所示：
 yaf.com/post/list/view
 ```
 看到下面的报错信息：
-![20170613149732400095678.png](/images/20170613149732400095678.png)
+![20170613149732400095678.png](yaf-study-note-module/20170613149732400095678.png)
 
 报错的原因是因为我们没有将新建的模块加到配置文件中
 编辑conf/application.ini文件，将下面两句代码加入common分组下面
@@ -73,4 +69,4 @@ application.dispatcher.defaultModule = Index	//默认模块
 ```
 
 再次访问，就可以了
-![20170613149732414586476.png](/images/20170613149732414586476.png)
+![20170613149732414586476.png](yaf-study-note-module/20170613149732414586476.png)

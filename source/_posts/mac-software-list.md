@@ -7,8 +7,6 @@ categories:
 tags: [software]
 ---
 
-<img src="mac-software-list/1490601890.png"/>
-
 列举一些个人使用的mac软件
 ---
 更新时间：2017年3月13日14:41

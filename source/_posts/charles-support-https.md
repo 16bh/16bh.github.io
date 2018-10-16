@@ -8,7 +8,7 @@ tags: [charles]
 ---
 
 
-安装好charles之后，设置以支持https抓包
+安装好charles之后，设置以支持https抓包。
 
 
 

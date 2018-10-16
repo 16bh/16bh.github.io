@@ -4,11 +4,17 @@ date: 2016-07-05 20:12:33
 category:
 tags: hexo
 ---
+2018-10-16：多说已经倒闭很多年了
+
+---
+
+
+
 只需要三步即可让你的`hexo`主题支持评论
 
 1. 去[多说](http://duoshuo.com)登录，设置`short name`
 2. 将上面的`short name `加入配置`themes/landscape/_config.yml`中
-    
+  
 ``` yml
 duoshuo_shortname: 你站点的short_name
 ```

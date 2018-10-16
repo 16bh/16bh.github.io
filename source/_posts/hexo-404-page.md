@@ -8,7 +8,7 @@ tags: hexo
 
 不爽默认的404页面，那么就换一个吧
 
-在主题的`source`目录下新建`404.html`，编辑如下，注意修改第10行`homePageUrl`的值
+在主题的`source`目录下新建`404.html`，编辑如下，注意修改第10行`homePageUrl`的值。
 
 
 <!--more-->

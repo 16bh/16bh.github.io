@@ -8,9 +8,11 @@ tags: magento
 
 >与复写`controller`比较类似的功能,在`config.xml`的配置上有一些差异
 
+
+
 以复写`Captcha`模块下的`Model`下的`Observer.php`为例:
 
-![](/images/images/1468163564079.png)
+![](mangeto-rewrite-core-model/1468163564079.png)
 
 
 

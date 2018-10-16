@@ -17,7 +17,7 @@ tags:
 从官网下载CI框架的压缩包，加压到根目录
 修改nginx配置和hosts，设置项目的域名为`ci.practise.com`,指向根目录中的项目文件夹
 
-![](http://o9xbyqajf.bkt.clouddn.com/images/1472546613722.png)
+![](学习CodeIgniter框架/1472546613722.png)
 
 
 # 学习CI框架的使用
