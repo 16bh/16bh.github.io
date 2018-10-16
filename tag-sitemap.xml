@@ -2,337 +2,421 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>16bh.github.io/tags/js/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/website/</loc>
+        <lastmod>2018-10-16T02:18:58.650Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/vim/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/ntfs/</loc>
+        <lastmod>2018-10-16T02:27:06.934Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/xml/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/laravel/</loc>
+        <lastmod>2018-10-16T02:28:31.641Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/environment/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/jekyll/</loc>
+        <lastmod>2018-10-16T02:31:47.322Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/alfred/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/github/</loc>
+        <lastmod>2018-10-16T04:09:55.318Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/shell/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/vscode/</loc>
+        <lastmod>2018-10-16T04:11:03.883Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/homebrew/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/algorithm/</loc>
+        <lastmod>2018-10-16T06:13:01.791Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/jekyll/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/math/</loc>
+        <lastmod>2018-10-16T06:13:01.791Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/json/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/qiniu/</loc>
+        <lastmod>2018-10-16T06:15:05.919Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/lua/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+        <lastmod>2018-10-16T06:15:24.198Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/mangeo/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/yaf/</loc>
+        <lastmod>2018-10-16T06:21:22.155Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/review/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/wakatime/</loc>
+        <lastmod>2018-10-16T06:31:35.060Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/phpcs/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/composer/</loc>
+        <lastmod>2018-10-16T06:33:14.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/phpmd/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/mtr/</loc>
+        <lastmod>2018-10-16T06:34:50.472Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/python/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/fiddler/</loc>
+        <lastmod>2018-10-16T06:36:43.357Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/nginx/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/psr/</loc>
+        <lastmod>2018-10-16T06:40:47.137Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/psr/</loc>
-        <lastmod>2017-07-12T12:15:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/%E7%8E%AF%E5%A2%83/</loc>
+        <lastmod>2018-10-16T06:47:38.047Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/mysql/</loc>
-        <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/promotheus/</loc>
+        <lastmod>2018-10-16T06:53:33.011Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/design-pattern/</loc>
-        <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/postman/</loc>
+        <lastmod>2018-10-16T06:54:08.218Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/atom/</loc>
-        <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/phpmd/</loc>
+        <lastmod>2018-10-16T07:00:51.262Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/algorithm/</loc>
-        <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/phpcs/</loc>
+        <lastmod>2018-10-16T07:02:26.512Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/laravel/</loc>
-        <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/zsh/</loc>
+        <lastmod>2018-10-16T07:09:37.658Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/website/</loc>
-        <lastmod>2017-07-21T14:15:53.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/xdebug/</loc>
+        <lastmod>2018-10-16T14:05:35.697Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/life/</loc>
-        <lastmod>2017-07-21T14:28:50.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/api/</loc>
+        <lastmod>2018-10-16T14:18:33.215Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/magento/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/pecl/</loc>
+        <lastmod>2018-10-16T14:19:37.922Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/xdebug/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/python/</loc>
+        <lastmod>2018-10-16T14:37:32.810Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/error/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/jupyter/</loc>
+        <lastmod>2018-10-16T14:38:14.283Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/translate/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/ssh/</loc>
+        <lastmod>2018-10-16T14:39:28.541Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/hexo/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/oh-my-zsh/</loc>
+        <lastmod>2018-10-16T14:52:23.267Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/tools/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/vim/</loc>
+        <lastmod>2018-10-16T14:57:06.232Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/redis/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/git/</loc>
+        <lastmod>2018-10-16T14:59:29.895Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/github/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/homebrew/</loc>
+        <lastmod>2018-10-16T15:04:25.114Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/oh-my-zsh/</loc>
-        <lastmod>2017-07-31T13:14:22.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/shell/</loc>
+        <lastmod>2018-10-16T15:43:14.254Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/yaf/</loc>
-        <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/json/</loc>
+        <lastmod>2018-10-16T15:47:54.352Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/vscode/</loc>
-        <lastmod>2017-08-01T13:20:14.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/lua/</loc>
+        <lastmod>2018-10-16T15:48:47.074Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/go/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/mangeo/</loc>
+        <lastmod>2018-10-16T15:49:59.210Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/phpstorm/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/magento/</loc>
+        <lastmod>2018-10-16T15:51:22.753Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/markdown/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/review/</loc>
+        <lastmod>2018-10-16T15:54:00.247Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/postman/</loc>
-        <lastmod>2017-11-02T03:43:37.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/nginx/</loc>
+        <lastmod>2018-10-16T15:55:04.980Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/git/</loc>
-        <lastmod>2017-11-07T08:30:10.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/go/</loc>
+        <lastmod>2018-10-16T15:58:43.120Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/ssh/</loc>
-        <lastmod>2017-11-07T08:30:10.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
+        <lastmod>2018-10-16T16:00:02.442Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/sublime/</loc>
-        <lastmod>2017-11-07T08:31:47.000Z</lastmod>
+        <loc>http://16bh.github.io/tags/xml/</loc>
+        <lastmod>2018-10-16T16:00:23.521Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/jupyter/</loc>
-        <lastmod>2018-02-28T07:21:29.246Z</lastmod>
+        <loc>http://16bh.github.io/tags/mac/</loc>
+        <lastmod>2018-10-16T16:03:35.313Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/charles/</loc>
-        <lastmod>2018-03-06T03:20:37.033Z</lastmod>
+        <loc>http://16bh.github.io/tags/typora/</loc>
+        <lastmod>2018-10-16T16:04:17.461Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/reading/</loc>
-        <lastmod>2018-03-06T11:05:27.678Z</lastmod>
+        <loc>http://16bh.github.io/tags/apple/</loc>
+        <lastmod>2018-10-16T16:04:26.794Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/php/</loc>
-        <lastmod>2018-04-27T06:55:04.994Z</lastmod>
+        <loc>http://16bh.github.io/tags/%E7%BF%BB%E8%AF%91/</loc>
+        <lastmod>2018-10-16T16:08:26.256Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/software/</loc>
-        <lastmod>2018-06-21T08:47:39.606Z</lastmod>
+        <loc>http://16bh.github.io/tags/sublime/</loc>
+        <lastmod>2018-10-16T16:10:40.634Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/tags/mac/</loc>
-        <lastmod>2018-10-08T07:25:01.979Z</lastmod>
+        <loc>http://16bh.github.io/tags/phpstorm/</loc>
+        <lastmod>2018-10-16T16:11:15.693Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/mysql/</loc>
+        <lastmod>2018-10-16T16:12:25.086Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/error/</loc>
+        <lastmod>2018-10-16T16:12:25.086Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/js/</loc>
+        <lastmod>2018-10-16T16:13:02.207Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/software/</loc>
+        <lastmod>2018-10-16T16:13:26.707Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/redis/</loc>
+        <lastmod>2018-10-16T16:14:01.288Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/hexo/</loc>
+        <lastmod>2018-10-16T16:14:29.448Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/charles/</loc>
+        <lastmod>2018-10-16T16:15:24.659Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/markdown/</loc>
+        <lastmod>2018-10-16T16:16:12.513Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/afred/</loc>
+        <lastmod>2018-10-16T16:16:12.513Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/php/</loc>
+        <lastmod>2018-10-16T16:17:16.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/atom/</loc>
+        <lastmod>2018-10-16T16:17:16.724Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/tools/</loc>
+        <lastmod>2018-10-16T16:19:40.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

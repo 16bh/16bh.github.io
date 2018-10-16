@@ -4,9 +4,9 @@
   <subtitle>这一切都是命运石之门的选择！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="16bh.github.io/"/>
-  <updated>2018-05-28T11:02:07.402Z</updated>
-  <id>16bh.github.io/</id>
+  <link href="http://16bh.github.io/"/>
+  <updated>2018-10-16T15:43:14.254Z</updated>
+  <id>http://16bh.github.io/</id>
   
   <author>
     <name>小凡</name>
@@ -16,11 +16,236 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一款比man更好用的工具：tldr</title>
+    <link href="http://16bh.github.io/2018/10/16/a-command-more-powerful-than-man/"/>
+    <id>http://16bh.github.io/2018/10/16/a-command-more-powerful-than-man/</id>
+    <published>2018-10-16T15:05:10.000Z</published>
+    <updated>2018-10-16T15:43:14.254Z</updated>
+    
+    <content type="html"><![CDATA[<p>感谢duang duang给我介绍的一款实用的小工具:tldr</p>
+<p><a href="http://tldr-pages.github.io/" target="_blank" rel="external">tldr的官网介绍</a></p>
+<p>tldr = too long don’t read</p>
+<p>通常我们碰到一个陌生或很长时间没用过的command命令的时候不会用，会用man来查看这个命令的用法，但是man的介绍太详细了，如下所示：</p>
+<a id="more"></a>
+<p>以下是截取的一部分命令介绍：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line">BSDTAR(1)                 BSD General Commands Manual                BSDTAR(1)</div><div class="line"></div><div class="line">NAME</div><div class="line">     tar -- manipulate tape archives</div><div class="line"></div><div class="line">SYNOPSIS</div><div class="line">     tar [bundled-flags &lt;args&gt;] [&lt;file&gt; | &lt;pattern&gt; ...]</div><div class="line">     tar &#123;-c&#125; [options] [files | directories]</div><div class="line">     tar &#123;-r | -u&#125; -f archive-file [options] [files | directories]</div><div class="line">     tar &#123;-t | -x&#125; [options] [patterns]</div><div class="line"></div><div class="line">DESCRIPTION</div><div class="line">     tar creates and manipulates streaming archive files.  This implementation</div><div class="line">     can extract from tar, pax, cpio, zip, jar, ar, and ISO 9660 cdrom images</div><div class="line">     and can create tar, pax, cpio, ar, and shar archives.</div><div class="line"></div><div class="line">     The first synopsis form shows a ``bundled&apos;&apos; option word.  This usage is</div><div class="line">     provided for compatibility with historical implementations.  See COMPATI-</div><div class="line">     BILITY below for details.</div><div class="line"></div><div class="line">     The other synopsis forms show the preferred usage.  The first option to</div><div class="line">     tar is a mode indicator from the following list:</div><div class="line">     -c      Create a new archive containing the specified items.</div><div class="line">     -r      Like -c, but new entries are appended to the archive.  Note that</div><div class="line">             this only works on uncompressed archives stored in regular files.</div><div class="line">             The -f option is required.</div><div class="line">     -t      List archive contents to stdout.</div><div class="line">     -u      Like -r, but new entries are added only if they have a modifica-</div><div class="line">             tion date newer than the corresponding entry in the archive.</div><div class="line">             Note that this only works on uncompressed archives stored in reg-</div><div class="line">             ular files.  The -f option is required.</div></pre></td></tr></table></figure>
+<p>急等着一个命令用的时候，真的是欲仙欲死。</p>
+<p>比较一下，用<code>tldr</code>查询<code>tar</code>的结果：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div></pre></td><td class="code"><pre><div class="line">➜  ~ tldr tar</div><div class="line">Local data is older than two weeks, use --update to update it.</div><div class="line"></div><div class="line"></div><div class="line">tar</div><div class="line"></div><div class="line">Archiving utility.</div><div class="line">Often combined with a compression method, such as gzip or bzip.</div><div class="line"></div><div class="line">- Create an archive from files:</div><div class="line">    tar cf target.tar file1 file2 file3</div><div class="line"></div><div class="line">- Create a gzipped archive:</div><div class="line">    tar czf target.tar.gz file1 file2 file3</div><div class="line"></div><div class="line">- Extract an archive in a target folder:</div><div class="line">    tar xf source.tar -C folder</div><div class="line"></div><div class="line">- Extract a gzipped archive in the current directory:</div><div class="line">    tar xzf source.tar.gz</div><div class="line"></div><div class="line">- Extract a bzipped archive in the current directory:</div><div class="line">    tar xjf source.tar.bz2</div><div class="line"></div><div class="line">- Create a compressed archive, using archive suffix to determine the compression program:</div><div class="line">    tar caf target.tar.xz file1 file2 file3</div><div class="line"></div><div class="line">- List the contents of a tar file:</div><div class="line">    tar tvf source.tar</div><div class="line"></div><div class="line">- Extract files matching a pattern:</div><div class="line">    tar xf source.tar --wildcards "*.html"</div></pre></td></tr></table></figure>
+<p>根据示例，立马就知道这个命令的常见用法了。</p>
+<p>最后，把tldr设置成man的alias别名，更方便日常的使用</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">alias man="tldr"</div></pre></td></tr></table></figure>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;感谢duang duang给我介绍的一款实用的小工具:tldr&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://tldr-pages.github.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;tldr的官网介绍&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;tldr = too long don’t read&lt;/p&gt;
+&lt;p&gt;通常我们碰到一个陌生或很长时间没用过的command命令的时候不会用，会用man来查看这个命令的用法，但是man的介绍太详细了，如下所示：&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="shell" scheme="http://16bh.github.io/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用jupyter来学习python</title>
+    <link href="http://16bh.github.io/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/"/>
+    <id>http://16bh.github.io/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/</id>
+    <published>2018-10-16T06:51:07.000Z</published>
+    <updated>2018-10-16T14:37:32.810Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前一直是通过brew安装python的，后面发现有一种更简便的方法，如下:</p>
+<p>通过miniconda安装python和jupyter</p>
+<p>然后通过jupyter notebook学习python知识</p>
+<a id="more"></a>
+<h2 id="安装conda、python和jupyter"><a href="#安装conda、python和jupyter" class="headerlink" title="安装conda、python和jupyter"></a>安装conda、python和jupyter</h2><p><a href="https://conda.io/miniconda.html" target="_blank" rel="external">点击进入miniconda下载页面</a></p>
+<p>下载miniconda之后，通过<code>conda</code>命令来安装python和jupyter</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">conda install python</div><div class="line">conda install jupyter</div></pre></td></tr></table></figure>
+<p>查看是否安装成功</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">➜  ~ conda list|grep python</div><div class="line">condaipython                   6.5.0                    py36_0</div><div class="line">ipython_genutils          0.2.0            py36h241746c_0</div><div class="line">python                    3.6.5                hc167b69_1</div><div class="line">python-dateutil           2.7.3                    py36_0</div><div class="line">python.app                2                        py36_8</div><div class="line">➜  ~ conda list | grep jupyter</div><div class="line">jupyter                   1.0.0                    py36_4</div><div class="line">jupyter_client            5.2.3                    py36_0</div><div class="line">jupyter_console           5.2.0                    py36_1</div><div class="line">jupyter_core</div></pre></td></tr></table></figure>
+<p>安装成功了</p>
+<h2 id="使用jupyter"><a href="#使用jupyter" class="headerlink" title="使用jupyter"></a>使用jupyter</h2><p>在终端输入以下命令启动</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">jupyter notebook</div></pre></td></tr></table></figure>
+<p>启动过程：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">➜  ~ jupyter notebook</div><div class="line">[W 22:27:59.899 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.</div><div class="line">[I 22:27:59.919 NotebookApp] Serving notebooks from local directory: /Users/jimxu/jupyter</div><div class="line">[I 22:27:59.919 NotebookApp] 0 active kernels</div><div class="line">[I 22:27:59.919 NotebookApp] The Jupyter Notebook is running at:</div><div class="line">[I 22:27:59.919 NotebookApp] http://192.168.1.11:8888/</div><div class="line">[I 22:27:59.919 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).</div></pre></td></tr></table></figure>
+<p>会直接通过默认浏览器打开本地jupyter服务器页面</p>
+<p><img src="/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/image-20181016222851648.png" alt="image-20181016222851648"></p>
+<p><code>jupyter notebook</code>中默认的文件格式是<code>ipynb</code></p>
+<p>刚进入的时候应该只有一个类似helloworld.ipynb的文件,上图中的文件都是我自己新建的</p>
+<h2 id="认识ipynb文件"><a href="#认识ipynb文件" class="headerlink" title="认识ipynb文件"></a>认识ipynb文件</h2><p>打开一个ipynb文件，如下图所示</p>
+<p><img src="/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/image-20181016223011413.png" alt="image-20181016223011413"></p>
+<p>文档内容以cell的格式展示，你可以选择cell的样式，jupyter提供以下样式</p>
+<ul>
+<li>Markdown</li>
+<li>Code</li>
+<li>Raw NBConvert</li>
+<li>Heading</li>
+<li>…</li>
+</ul>
+<p>其中，以Markdown和Code的cell最常用</p>
+<p>如果只是这样的话，jupyter只能算是个高级的markdown笔记本了</p>
+<p>最神奇的是，<strong>你可以直接在文档中运行cell里的python代码</strong></p>
+<p><img src="/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/image-20181016223411601.png" alt="image-20181016223411601"></p>
+<h2 id="jupyter的配置"><a href="#jupyter的配置" class="headerlink" title="jupyter的配置"></a>jupyter的配置</h2><p>jupyter的配置文件是<code>~/.jupyter/jupyter_notebook_config.py</code></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前一直是通过brew安装python的，后面发现有一种更简便的方法，如下:&lt;/p&gt;
+&lt;p&gt;通过miniconda安装python和jupyter&lt;/p&gt;
+&lt;p&gt;然后通过jupyter notebook学习python知识&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="jupyter" scheme="http://16bh.github.io/tags/jupyter/"/>
+    
+      <category term="python" scheme="http://16bh.github.io/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一种酷炫的博客实践方式：hexo+typora</title>
+    <link href="http://16bh.github.io/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/"/>
+    <id>http://16bh.github.io/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/</id>
+    <published>2018-10-15T13:14:13.000Z</published>
+    <updated>2018-10-16T16:04:17.461Z</updated>
+    
+    <content type="html"><![CDATA[<p>博客的图片不能上传到七牛云了，也懒得去折腾那些在线的图床了，还是放在本地最安心</p>
+<p>最近发现了mac上超好用又免费的一款markdown工具<code>Typora</code>，<code>Typora</code>自带的图片工具可以将本地图片直接复制到md文件中，并放在自定义的路径中，例如与当前md文件同名的文件夹中</p>
+<p>这种格式以方便可以被编辑器<code>Typora</code>识别并预览</p>
+<p>另一方面刚好也是<code>hexo</code>支持并可以预览的</p>
+<p>于是，就产生了一种比较好的博客实践方式，即<code>hexo+typora</code>，详情见正文</p>
+<a id="more"></a>
+<h2 id="将博客中的图片从七牛云中下载到本地"><a href="#将博客中的图片从七牛云中下载到本地" class="headerlink" title="将博客中的图片从七牛云中下载到本地"></a>将博客中的图片从七牛云中下载到本地</h2><p><a href="16bh.github.io/batch-download-image-from-qiniu">详见本文</a></p>
+<h2 id="配置hexo支持本地图片"><a href="#配置hexo支持本地图片" class="headerlink" title="配置hexo支持本地图片"></a>配置hexo支持本地图片</h2><p>hexo3的一个新特性，是可以支持本地图片</p>
+<p>修改配置文件<code>*.github.io/_config.yml</code></p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> <span class="attr">post_asset_folder:</span> <span class="literal">true</span></div></pre></td></tr></table></figure>
+<p>这样每次之后，每次新建一篇md博文的时候，都会同时新建一个同名的文件夹用于存储该文章的图片</p>
+<h2 id="配置typora"><a href="#配置typora" class="headerlink" title="配置typora"></a>配置typora</h2><p>按如下方式配置<code>typora</code>，这样当你在md文件中插入一张图片的时候，刚好会被<code>typora</code>复制到hexo生成的文件文件夹中</p>
+<p><img src="/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/image-20181015213318141.png" alt="image-20181015213318141"></p>
+<p>如上图，我截图并复制到markdown文件中后，就会被自动替换成下面的路径</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![image-20181015213318141](a-cool-way-to-blog-by-hexo-and-typora/image-20181015213318141.png)</div></pre></td></tr></table></figure>
+<p>其中,<code>a-cool-way-to-blog-by-hexo-and-typora</code>是本文的标题</p>
+<h2 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h2><p>有一篇文章指出的一点我觉得很好</p>
+<p>图片能省则省，不要滥用图片，占用空间</p>
+<p>其他关于hexo的使用，请参考以下文章：<a href="https://16bh.github.io/tags/hexo">hexo系列</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;博客的图片不能上传到七牛云了，也懒得去折腾那些在线的图床了，还是放在本地最安心&lt;/p&gt;
+&lt;p&gt;最近发现了mac上超好用又免费的一款markdown工具&lt;code&gt;Typora&lt;/code&gt;，&lt;code&gt;Typora&lt;/code&gt;自带的图片工具可以将本地图片直接复制到md文件中，并放在自定义的路径中，例如与当前md文件同名的文件夹中&lt;/p&gt;
+&lt;p&gt;这种格式以方便可以被编辑器&lt;code&gt;Typora&lt;/code&gt;识别并预览&lt;/p&gt;
+&lt;p&gt;另一方面刚好也是&lt;code&gt;hexo&lt;/code&gt;支持并可以预览的&lt;/p&gt;
+&lt;p&gt;于是，就产生了一种比较好的博客实践方式，即&lt;code&gt;hexo+typora&lt;/code&gt;，详情见正文&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://16bh.github.io/tags/hexo/"/>
+    
+      <category term="typora" scheme="http://16bh.github.io/tags/typora/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>七牛测试域名过期后批量下载图片到本地</title>
+    <link href="http://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/"/>
+    <id>http://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/</id>
+    <published>2018-10-15T07:24:04.000Z</published>
+    <updated>2018-10-16T06:15:05.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>收到邮件，七牛云的测试域名过期了，之前都是免费试用的，看来七牛是发现太多人在白嫖了</p>
+<p>博客的图片都是上传到七牛云的域名的</p>
+<p>需要迁移出来</p>
+<a id="more"></a>
+<p><img src="/2018/10/15/batch-download-image-from-qiniu/image-20181015153427041.png" alt="image-20181015153427041"></p>
+<p>在网上查询了一下，七牛云的网站上是不支持直接下载所有的图片的，需要借助他们的<code>qshel</code>l工具来批量下载图片</p>
+<p>文档在此：</p>
+<blockquote>
+<p><a href="https://developer.qiniu.com/kodo/tools/1302/qshell" target="_blank" rel="external">https://developer.qiniu.com/kodo/tools/1302/qshell</a></p>
+</blockquote>
+<p><img src="/2018/10/15/batch-download-image-from-qiniu/image-20181015181253444.png" alt="image-20181015181253444"></p>
+<p>下载后解压，包含以下文件</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"> jim@jims-mac-mini.local  /Users/jim/Downloads/qshell-v2.1.8   ll                                                                                                                                                             18:13:40</div><div class="line">total 99824</div><div class="line">drwxr-xr-x@   8 jim  staff      256 Oct 15 18:13 .</div><div class="line">drwx------+ 102 jim  staff     3264 Oct 15 17:45 ..</div><div class="line">-rwxr-xr-x@   1 jim  staff  9119260 Feb  2  2018 qshell-darwin-x64</div><div class="line">-rwxr-xr-x@   1 jim  staff  8021196 Feb  4  2018 qshell-linux-arm</div><div class="line">-rwxr-xr-x@   1 jim  staff  9215268 Feb  2  2018 qshell-linux-x64</div><div class="line">-rwxr-xr-x@   1 jim  staff  7893862 Feb  2  2018 qshell-linux-x86</div><div class="line">-rwxr-xr-x@   1 jim  staff  9057792 Feb  2  2018 qshell-windows-x64.exe</div><div class="line">-rwxr-xr-x@   1 jim  staff  7790592 Feb  2  2018 qshell-windows-x86.exe</div></pre></td></tr></table></figure>
+<p>我们的系统是mac，所以用其中<code>qshell-darwin-x64</code>命令行就可以了，如果是windows系统可以参考上面的文档页面，有详细的操作</p>
+<p>1.根据要求将命令行工具需改名称为qshell，并修改权限</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cp qshell-darwin-x64 qshell</div><div class="line">chmod +x qshell</div></pre></td></tr></table></figure>
+<ol>
+<li><p>登录七牛账号，其中AccessKey和SecretKey可以在你的七牛云网站中查到，不赘述</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./qshell &#123;AccessKey&#125; &#123;SecretKey&#125;</div></pre></td></tr></table></figure>
+</li>
+<li><p>可以用<code>buckets</code>和<code>domins</code>命令查看bucket和domin</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"> jim@jims-mac-mini.local  /Users/jim/Downloads/qshell-v2.1.8   ./qshell buckets                                                                                                                                               17:39:51</div><div class="line">2018/10/15 17:39:53 [I] Load account from /Users/jim/.qshell/account.json</div><div class="line">j***u</div><div class="line"></div><div class="line"> jim@jims-mac-mini.local  /Users/jim/Downloads/qshell-v2.1.8   ./qshell domains j***u                                                                                                                                        17:40:09</div><div class="line">2018/10/15 17:40:13 [I] Load account from /Users/jim/.qshell/account.json</div><div class="line">***.bkt.clouddn.com</div></pre></td></tr></table></figure>
+<p>其中，bucket对应的就是我们的存储空间，也即我们需要下载图片的地方</p>
+</li>
+<li><p>创建爱你下载配置并下载</p>
+<p>我们通过<code>qdownload</code>命令来下载，<a href="https://github.com/qiniu/qshell/blob/master/docs/qdownload.md" target="_blank" rel="external">该命令的详细用法</a></p>
+<p>大概的思路就是创建一个下载配置文件<code>qdisk_down.conf</code>，然后指定qdownload命令通过这个配置下载就ok了</p>
+</li>
+</ol>
+<p>随便找个地方创建这个文件，编辑如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">	&quot;dest_dir&quot;	:	&quot;/Users/***/qiniu&quot;,</div><div class="line">	&quot;bucket&quot;	:	&quot;j***u&quot;,</div><div class="line">	&quot;cdn_domain&quot;    :      &quot;***.bkt.clouddn.com&quot;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>这里的bucket和cdn_domain就是我们上面查询得到的玩意儿了</p>
+<p>dset_dir是你指定下载的目录，其它的用默认配置就ojbk了</p>
+<p>最后运行</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">qshell qdownload 10 qdisk_down.conf</div></pre></td></tr></table></figure>
+<p>搞定了</p>
+<p><img src="/2018/10/15/batch-download-image-from-qiniu/wanmei.jpg" alt=""></p>
+<hr>
+<p>ps，如果用的blog是hexo框架的</p>
+<p>那么，把下载的图片文件夹重命名为assets，copy到<code>16bh.github.io/source/_posts</code>目录，然后找个编辑器批量替换_posts中所有的图片地址，将七牛的前缀修改为assets就ok啦</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;收到邮件，七牛云的测试域名过期了，之前都是免费试用的，看来七牛是发现太多人在白嫖了&lt;/p&gt;
+&lt;p&gt;博客的图片都是上传到七牛云的域名的&lt;/p&gt;
+&lt;p&gt;需要迁移出来&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://16bh.github.io/tags/hexo/"/>
+    
+      <category term="qiniu" scheme="http://16bh.github.io/tags/qiniu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客域名切回github</title>
+    <link href="http://16bh.github.io/2018/10/10/change-back-to-github-io-domin/"/>
+    <id>http://16bh.github.io/2018/10/10/change-back-to-github-io-domin/</id>
+    <published>2018-10-10T03:39:27.000Z</published>
+    <updated>2018-10-16T16:03:49.817Z</updated>
+    
+    <content type="html"><![CDATA[<p>域名过期，换回原来的github的域名<br>但是访问<code>16bh.github.io</code>仍然跳转到原来配置的域名。</p>
+<a id="more"></a>
+<p>解决方案：<br>删除source文件夹下的CNAME文件里配置的域名</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;域名过期，换回原来的github的域名&lt;br&gt;但是访问&lt;code&gt;16bh.github.io&lt;/code&gt;仍然跳转到原来配置的域名。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="http://16bh.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何在Mac上安装Windows</title>
-    <link href="16bh.github.io/2018/05/28/how-to-install-windows-on-mac/"/>
-    <id>16bh.github.io/2018/05/28/how-to-install-windows-on-mac/</id>
+    <link href="http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/"/>
+    <id>http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/</id>
     <published>2018-05-28T10:34:20.000Z</published>
-    <updated>2018-05-28T11:02:07.402Z</updated>
+    <updated>2018-10-16T04:09:22.973Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://support.apple.com/zh-cn/HT201468" target="_blank" rel="external">如何在 Mac 上通过“启动转换”安装 Windows</a></p>
 <a id="more"></a>
@@ -29,13 +254,17 @@
 <p>U盘会被格式化</p>
 </blockquote>
 <p>2.<a href="https://www.microsoft.com/zh-cn/software-download/windows10ISO" target="_blank" rel="external">下载Windows镜像文件</a>，</p>
-<p>选择版本<br><img src="http://o9xbyqajf.bkt.clouddn.com/20180528152750396397606.png" alt="20180528152750396397606.png"></p>
-<p>选择语言<br><img src="http://o9xbyqajf.bkt.clouddn.com/20180528152750398228115.png" alt="20180528152750398228115.png"></p>
-<p>选择64位<br><img src="http://o9xbyqajf.bkt.clouddn.com/20180528152750399827466.png" alt="20180528152750399827466.png"></p>
+<p>选择版本<br><img src="/2018/05/28/how-to-install-windows-on-mac/20180528152750396397606.png" alt="20180528152750396397606.png"></p>
+<p>选择语言<br><img src="/2018/05/28/how-to-install-windows-on-mac/20180528152750398228115.png" alt="20180528152750398228115.png"></p>
+<p>选择64位<br><img src="/2018/05/28/how-to-install-windows-on-mac/20180528152750399827466.png" alt="20180528152750399827466.png"></p>
 <p>3.运行MAC自带的软件 Boot Camp 助理</p>
 <blockquote>
 <p>软件在应用程序的实用工具里</p>
 </blockquote>
+<p>3.1 打开助手界面,点继续</p>
+<p><img src="/2018/05/28/how-to-install-windows-on-mac/20180528152750534878018.png" alt="20180528152750534878018.png"></p>
+<p>3.2 选择任务，如果不需要</p>
+<p><img src="/2018/05/28/how-to-install-windows-on-mac/20180528152750540313772.png" alt="20180528152750540313772.png"></p>
 ]]></content>
     
     <summary type="html">
@@ -45,45 +274,63 @@
     </summary>
     
     
-      <category term="mac" scheme="16bh.github.io/tags/mac/"/>
+      <category term="mac" scheme="http://16bh.github.io/tags/mac/"/>
     
   </entry>
   
   <entry>
     <title>phpstorm可编辑的Rest客户端</title>
-    <link href="16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/"/>
-    <id>16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/</id>
+    <link href="http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/"/>
+    <id>http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/</id>
     <published>2018-05-07T09:51:59.000Z</published>
-    <updated>2018-05-07T11:38:48.490Z</updated>
+    <updated>2018-10-16T14:18:33.215Z</updated>
     
-    <content type="html"><![CDATA[<p>看了一篇文章<a href="https://toutiao.io/k/6tokkp" target="_blank" rel="external">快速测试 API 接口的新技能</a>,说的是IDEA自带了Rest客户端<br>我就看看phpstorm能不能用的上</p>
+    <content type="html"><![CDATA[<p>看了一篇文章<a href="https://toutiao.io/k/6tokkp" target="_blank" rel="external">快速测试 API 接口的新技能</a>,说的是IDEA自带了Rest客户端，可以模拟接口请求<br>我就看看phpstorm能不能用的上</p>
+<p>结果当然用的上啦n(<em>≧▽≦</em>)n</p>
+<p>基本上，postman能实现的功能这里都可以搞定</p>
 <a id="more"></a>
 <h2 id="版本支持"><a href="#版本支持" class="headerlink" title="版本支持"></a>版本支持</h2><p>新建了个.http文件，发现根本识别不了</p>
 <p>丫的，原来我的正版phpstorm还是2017.3的版本，速度升级到最新版，然后就支持了，bingo!</p>
-<h2 id="post请求"><a href="#post请求" class="headerlink" title="post请求"></a>post请求</h2><h2 id="能不能支持xdebug呢？"><a href="#能不能支持xdebug呢？" class="headerlink" title="能不能支持xdebug呢？"></a>能不能支持xdebug呢？</h2><p>google的app版本的Postman刚开始也支持不了xdebug，后来在同事的指点下，发现在cookie里加入以下内容就可以了</p>
+<h2 id="建一个api试试"><a href="#建一个api试试" class="headerlink" title="建一个api试试"></a>建一个api试试</h2><p>在新建的http文件中编辑如下一个api，注意起始一行一定要用<code>###</code>打头</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">###</div><div class="line">GET localhost/api/test/index</div><div class="line">Accept : application/json</div><div class="line">Content-Type: application/json;charset=UTF-8</div><div class="line">Authorization:</div><div class="line">Cookie:</div></pre></td></tr></table></figure>
+<p><img src="/2018/05/07/phpstorm-editor-based-Rest-Client/image-20181016221550175.png" alt="image-20181016221550175"></p>
+<p>点击api左边的绿色三角，就可以模拟这个api了</p>
+<h2 id="post请求"><a href="#post请求" class="headerlink" title="post请求"></a>post请求</h2><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line">###</div><div class="line">POST localhost/api/test/index</div><div class="line">Accept : application/json</div><div class="line">Content-Type: application/json;charset=UTF-8</div><div class="line">Authorization:</div><div class="line">Cookie:</div><div class="line"></div><div class="line">&#123;</div><div class="line">"a":1,</div><div class="line">"b":2,</div><div class="line">"c":"hello world"</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="能不能支持xdebug呢？"><a href="#能不能支持xdebug呢？" class="headerlink" title="能不能支持xdebug呢？"></a>能不能支持xdebug呢？</h2><p>google的app版本的Postman刚开始也支持不了xdebug，后来在同事的指点下，发现在cookie里加入以下内容就可以了</p>
 <blockquote>
 <p>XDEBUG_SESSION=PHPSTORM;</p>
 </blockquote>
 <p>在这里应该也可以，编辑以下请求：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">### test</div><div class="line">GET &#123;&#123;host&#125;&#125;/api/ticket/test</div><div class="line">Accept : application/json</div><div class="line">Content-Type: application/json;charset=UTF-8</div><div class="line">Authorization:</div><div class="line">Cookie: XDEBUG_SESSION=PHPSTORM</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">### test</div><div class="line">GET localhost/api/test/index</div><div class="line">Accept : application/json</div><div class="line">Content-Type: application/json;charset=UTF-8</div><div class="line">Authorization:</div><div class="line">Cookie: XDEBUG_SESSION=PHPSTORM</div></pre></td></tr></table></figure>
 <p>开启phpstorm的xdebug功能，果然成功了！</p>
+<h2 id="支持多环境"><a href="#支持多环境" class="headerlink" title="支持多环境"></a>支持多环境</h2><p>新建一个rest-client.env.json</p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="attr">"dev"</span>: &#123;</div><div class="line">      <span class="attr">"host"</span>:<span class="string">""</span>,</div><div class="line">      <span class="attr">"Accept"</span>:<span class="string">"application/json"</span>,</div><div class="line">      <span class="attr">"Content-Type"</span>:<span class="string">"application/json;charset=UTF-8"</span>,</div><div class="line">      <span class="attr">"Cookie"</span>:<span class="string">"XDEBUG_SESSION=PHPSTORM"</span></div><div class="line">  &#125;,</div><div class="line">  <span class="attr">"test"</span>:&#123;</div><div class="line">      <span class="attr">"host"</span>:<span class="string">""</span>,</div><div class="line">      <span class="attr">"Accept"</span>:<span class="string">""</span>,</div><div class="line">      <span class="attr">"Content-Type"</span>:<span class="string">""</span>,</div><div class="line">      <span class="attr">"Cookie"</span>:<span class="string">""</span></div><div class="line">  &#125;,</div><div class="line">  <span class="attr">"prod"</span>:&#123;</div><div class="line">      <span class="attr">"host"</span>:<span class="string">""</span>,</div><div class="line">      <span class="attr">"Accept"</span>:<span class="string">""</span>,</div><div class="line">      <span class="attr">"Content-Type"</span>:<span class="string">""</span>,</div><div class="line">      <span class="attr">"Cookie"</span>:<span class="string">""</span></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>上面的api可以改写成：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">### test</div><div class="line">GET &#123;&#123;host&#125;&#125;/api/test/index</div><div class="line">Accept : &#123;&#123;Accept&#125;&#125;</div><div class="line">Content-Type: &#123;&#123;Content_Type&#125;&#125;</div><div class="line">Authorization:</div><div class="line">Cookie: &#123;&#123;Cookie&#125;&#125;</div></pre></td></tr></table></figure>
+<p>此时，点运行的时候，就会让你选择环境来运行了。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;看了一篇文章&lt;a href=&quot;https://toutiao.io/k/6tokkp&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;快速测试 API 接口的新技能&lt;/a&gt;,说的是IDEA自带了Rest客户端&lt;br&gt;我就看看phpstorm能不能用的上&lt;/p&gt;
+      &lt;p&gt;看了一篇文章&lt;a href=&quot;https://toutiao.io/k/6tokkp&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;快速测试 API 接口的新技能&lt;/a&gt;,说的是IDEA自带了Rest客户端，可以模拟接口请求&lt;br&gt;我就看看phpstorm能不能用的上&lt;/p&gt;
+&lt;p&gt;结果当然用的上啦n(&lt;em&gt;≧▽≦&lt;/em&gt;)n&lt;/p&gt;
+&lt;p&gt;基本上，postman能实现的功能这里都可以搞定&lt;/p&gt;
     
     </summary>
     
+    
+      <category term="phpstorm" scheme="http://16bh.github.io/tags/phpstorm/"/>
+    
+      <category term="api" scheme="http://16bh.github.io/tags/api/"/>
     
   </entry>
   
   <entry>
     <title>使用pecl终端命令安装php扩展</title>
-    <link href="16bh.github.io/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/"/>
-    <id>16bh.github.io/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/</id>
+    <link href="http://16bh.github.io/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/"/>
+    <id>http://16bh.github.io/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/</id>
     <published>2018-04-27T06:28:17.000Z</published>
-    <updated>2018-04-27T06:55:04.994Z</updated>
+    <updated>2018-10-16T14:19:37.922Z</updated>
     
     <content type="html"><![CDATA[<p>brew不支持php70扩展的安装了，改用pecl</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">➜  conf.d brew search php70</div><div class="line">==&gt; Searching local taps...</div><div class="line">==&gt; Searching taps on GitHub...</div><div class="line">==&gt; Searching blacklisted, migrated and deleted formulae...</div><div class="line">It was migrated from josegonzalez/php to homebrew/core.</div></pre></td></tr></table></figure>
@@ -92,7 +339,7 @@
 <p>安装完要配置环境变量,加入<code>.zshrc</code>文件</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">export PATH="$(brew --prefix php@7.0)/sbin:$PATH"</div><div class="line">export PATH="/usr/local/bin:/usr/local/sbin:$PATH"</div></pre></td></tr></table></figure>
 <p>启动关闭的命令也变了</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">//启动php-fpm</div><div class="line">sudo php-fpm</div><div class="line"></div><div class="line">//关闭php-fpm</div><div class="line">sudo pkill php-fpm</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">//启动php-fpm</div><div class="line">sudo php-fpm</div><div class="line"></div><div class="line">//关闭php-fpm</div><div class="line">sudo pkill php-fpm</div></pre></td></tr></table></figure>
 <h2 id="安装pear"><a href="#安装pear" class="headerlink" title="安装pear"></a>安装pear</h2><p>参考一下的教程，安装pear，安装完之后就可以使用pecl命令安装管理php扩展了</p>
 <p><a href="https://www.jianshu.com/p/598c0fd84719" target="_blank" rel="external">在Mac上安装pecl</a></p>
 <h2 id="pecl命令"><a href="#pecl命令" class="headerlink" title="pecl命令"></a>pecl命令</h2><ul>
@@ -105,14 +352,14 @@
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Build process completed successfully</div><div class="line">Installing '/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so'</div><div class="line">install ok: channel://pecl.php.net/protobuf-3.5.1.1</div><div class="line">Extension protobuf enabled in php.ini</div></pre></td></tr></table></figure>
 <p><code>/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so</code>是扩展所在的目录</p>
 <p>打开<code>php.ini</code>文件,<br>第一行新增了</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">extension=&quot;protobuf.so&quot;</div></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attr">extension</span>=<span class="string">"protobuf.so"</span></div></pre></td></tr></table></figure>
 <p>将其注释掉</p>
 <p>在conf.d目录下新建文件<code>ext-protobuf.ini</code>，编辑如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">protobuf]</div><div class="line">extension=&quot;/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so&quot;</div></pre></td></tr></table></figure>
+<figure class="highlight ini"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="section">[protobuf]</span></div><div class="line"><span class="attr">extension</span>=<span class="string">"/usr/local/Cellar/php@7.0/7.0.29_1/pecl/20151012/protobuf.so"</span></div></pre></td></tr></table></figure>
 <h2 id="php的配置"><a href="#php的配置" class="headerlink" title="php的配置"></a>php的配置</h2><p>brew安装的php70时，php.ini文件是不生效的<br>但是brew安装php@7.0，php.ini文件是生效的</p>
 <h3 id="obcache"><a href="#obcache" class="headerlink" title="obcache"></a>obcache</h3><p>默认打开了obcache，影响本地测试，需要关闭</p>
 <p>修改php.ini</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[opcache]</div><div class="line">; Determines if Zend OPCache is enabled</div><div class="line">opcache.enable=0</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[opcache]</div><div class="line">; Determines if Zend OPCache is enabled</div><div class="line">opcache.enable=0</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
@@ -122,19 +369,19 @@
     
     </summary>
     
-      <category term="php" scheme="16bh.github.io/categories/php/"/>
+      <category term="php" scheme="http://16bh.github.io/categories/php/"/>
     
     
-      <category term="php" scheme="16bh.github.io/tags/php/"/>
+      <category term="pecl" scheme="http://16bh.github.io/tags/pecl/"/>
     
   </entry>
   
   <entry>
     <title>2017阅读总结</title>
-    <link href="16bh.github.io/2018/03/05/2017-reading-list/"/>
-    <id>16bh.github.io/2018/03/05/2017-reading-list/</id>
+    <link href="http://16bh.github.io/2018/03/05/2017-reading-list/"/>
+    <id>http://16bh.github.io/2018/03/05/2017-reading-list/</id>
     <published>2018-03-05T11:08:35.000Z</published>
-    <updated>2018-03-06T11:05:27.678Z</updated>
+    <updated>2018-10-16T16:03:58.832Z</updated>
     
     <content type="html"><![CDATA[<ol>
 <li>2017阅读记录</li>
@@ -142,219 +389,219 @@
 <li>推荐阅读top10</li>
 </ol>
 <a id="more"></a>
-<h2 id="2017阅读记录"><a href="#2017阅读记录" class="headerlink" title="2017阅读记录"></a>2017阅读记录</h2><p>❏ 风雨平生 </p>
-<p>❏ 哈利波特8 </p>
-<p>❏ 浪潮之巅（下） </p>
-<p>❏ 人类简史（下） </p>
-<p>❏ 未来简史 </p>
-<p>❏ 我的职业是小说家 </p>
+<h2 id="2017阅读记录"><a href="#2017阅读记录" class="headerlink" title="2017阅读记录"></a>2017阅读记录</h2><p>❏ 风雨平生</p>
+<p>❏ 哈利波特8</p>
+<p>❏ 浪潮之巅（下）</p>
+<p>❏ 人类简史（下）</p>
+<p>❏ 未来简史</p>
+<p>❏ 我的职业是小说家</p>
 <p>✔ 程序员修炼之道 - 亨特</p>
 <blockquote>
-<p>作者的水平太高了，只能看懂一部分，光这一部分就受益匪浅了 </p>
+<p>作者的水平太高了，只能看懂一部分，光这一部分就受益匪浅了</p>
 </blockquote>
 <p>✔ 人类简史（上） - 尤瓦尔赫拉利</p>
 <blockquote>
-<p>推荐，作者很博学，很贴心的引用了很多中国的典故，有趣的人类史 </p>
+<p>推荐，作者很博学，很贴心的引用了很多中国的典故，有趣的人类史</p>
 </blockquote>
 <p>✔ 第七棵柳树 - 矫健</p>
 <blockquote>
-<p>有年代感的一本书，微信群里别人送的，还可以，就当了解历史吧，故事发生的背景已经不为年轻人所知了 </p>
+<p>有年代感的一本书，微信群里别人送的，还可以，就当了解历史吧，故事发生的背景已经不为年轻人所知了</p>
 </blockquote>
 <p>✔ 摆渡人 - 克莱尔麦克福尔</p>
 <blockquote>
-<p>名气很大的一本书，个人觉得名不副实，摆渡人是按照人的梦中情人的样子出现的，然后女主就爱上了她的梦中情人，从此，摆渡人成了她的至爱她的所有，可能因为性别的原因，无法理解这种感情 </p>
+<p>名气很大的一本书，个人觉得名不副实，摆渡人是按照人的梦中情人的样子出现的，然后女主就爱上了她的梦中情人，从此，摆渡人成了她的至爱她的所有，可能因为性别的原因，无法理解这种感情</p>
 </blockquote>
 <p>✔ 我可以咬一口吗 - 利兹克里莫</p>
 <blockquote>
-<p>推荐，萌萌哒漫画 </p>
+<p>推荐，萌萌哒漫画</p>
 </blockquote>
 <p>✔ 比特币：一个虚幻而真实的金融世界 - 李钧 长铗</p>
 <blockquote>
-<p>一般，就当科普的书看了 </p>
+<p>一般，就当科普的书看了</p>
 </blockquote>
 <p>✔ 你也是蘑菇吗 - 安定医院郝医生</p>
 <blockquote>
-<p>挺有意思的一本书，讲述精神病人的小故事 </p>
+<p>挺有意思的一本书，讲述精神病人的小故事</p>
 </blockquote>
 <p>✔ 世界上的所有童话都是写给大人看的 - 陈湛</p>
 <blockquote>
-<p>其实还可以，可能是我看的那本排版太差了，好多重复的 </p>
+<p>其实还可以，可能是我看的那本排版太差了，好多重复的</p>
 </blockquote>
 <p>✔ 小姨多鹤 - 严歌苓</p>
 <blockquote>
-<p>推荐，精彩 </p>
+<p>推荐，精彩</p>
 </blockquote>
 <p>✔ 芳华 - 严歌苓</p>
 <blockquote>
-<p>推荐，代表作，电影很好看，书比电影还好看 </p>
+<p>推荐，代表作，电影很好看，书比电影还好看</p>
 </blockquote>
 <p>✔ 第九个寡妇 - 严歌苓</p>
 <blockquote>
-<p>推荐，通过《芳华》认识的严歌苓，发现其他作品也都很精彩 </p>
+<p>推荐，通过《芳华》认识的严歌苓，发现其他作品也都很精彩</p>
 </blockquote>
 <p>✔ 十一字杀人 - 东野圭吾</p>
 <blockquote>
-<p>一般 </p>
+<p>一般</p>
 </blockquote>
 <p>✔ 你今天真好看 - 利兹克里莫</p>
 <blockquote>
-<p>推荐，很有趣温馨的漫画，看了可以让人开心起来 </p>
+<p>推荐，很有趣温馨的漫画，看了可以让人开心起来</p>
 </blockquote>
 <p>✔ 妈妈离婚记 - 毛冷瞪</p>
 <blockquote>
-<p>推荐，可以给感情生活带来启发的一本书，文笔非常有意思 </p>
+<p>推荐，可以给感情生活带来启发的一本书，文笔非常有意思</p>
 </blockquote>
 <p>✔ 无终仙境 - 天下霸唱</p>
 <blockquote>
-<p>浪费时间的一本书 </p>
+<p>浪费时间的一本书</p>
 </blockquote>
 <p>✔ 西游日记 - 今何在</p>
 <blockquote>
-<p>西游三部曲之二，神作，推荐 </p>
+<p>西游三部曲之二，神作，推荐</p>
 </blockquote>
 <p>✔ 风雪追击 - 东野圭吾</p>
 <blockquote>
-<p>滑雪 </p>
+<p>滑雪</p>
 </blockquote>
 <p>✔ 湖畔  - 东野圭吾</p>
 <blockquote>
-<p>推荐，高质量的一本 </p>
+<p>推荐，高质量的一本</p>
 </blockquote>
 <p>✔ 大型网站技术架构：核心原理与案例分析 - 李智慧</p>
 <blockquote>
-<p>后端开发必看，深入浅出 </p>
+<p>后端开发必看，深入浅出</p>
 </blockquote>
 <p>✔ 淘宝技术这十年 - 子柳</p>
 <blockquote>
-<p>挺好，干货满满 </p>
+<p>挺好，干货满满</p>
 </blockquote>
 <p>✔ 阿里巴巴：天下没有难做的生意 - 郑作时</p>
 <blockquote>
-<p>一般 </p>
+<p>一般</p>
 </blockquote>
 <p>✔ 新参者 - 东野圭吾</p>
 <blockquote>
-<p>新题材，温馨的风格，刚看还好，后面就觉得套路了，强行每个故事都有个煽情的结局，就跟午夜食堂似的，看了开头就知道结尾 </p>
+<p>新题材，温馨的风格，刚看还好，后面就觉得套路了，强行每个故事都有个煽情的结局，就跟午夜食堂似的，看了开头就知道结尾</p>
 </blockquote>
 <p>✔ 恋爱的贡多拉 - 东野圭吾</p>
 <blockquote>
-<p>滑雪 </p>
+<p>滑雪</p>
 </blockquote>
 <p>✔ 恶意 - 东野圭吾</p>
 <blockquote>
-<p>好看，代表作之一 </p>
+<p>好看，代表作之一</p>
 </blockquote>
 <p>✔ 分身 - 东野圭吾</p>
 <blockquote>
-<p>一般 </p>
+<p>一般</p>
 </blockquote>
 <p>✔ 仿徨之刃 - 东野圭吾</p>
 <blockquote>
-<p>高质量  </p>
+<p>高质量</p>
 </blockquote>
 <p>✔ 金色的茅草 - 曹文轩</p>
 <blockquote>
-<p>推荐，非常好的一本童话书，这才叫给成人看的童话 </p>
+<p>推荐，非常好的一本童话书，这才叫给成人看的童话</p>
 </blockquote>
 <p>✔ 创京东：刘强东亲述创业之路</p>
 <blockquote>
-<p>洗脑作，名不符实，不推荐，被《腾讯做》甩了一万条街，概括成一句话：刘强东讲义气，你好好干不会亏待你 </p>
+<p>洗脑作，名不符实，不推荐，被《腾讯做》甩了一万条街，概括成一句话：刘强东讲义气，你好好干不会亏待你</p>
 </blockquote>
 <p>✔ 放学后 - 东野圭吾</p>
 <blockquote>
-<p>质量还行 </p>
+<p>质量还行</p>
 </blockquote>
 <p>✔ 时生 - 东野圭吾</p>
 <blockquote>
-<p>东野煽情作，跟韩寒的《乘风破浪》很类似的一本书，如果看过这部作品就很容易猜到剧情，按照时间顺序，应该是韩寒借鉴了《时生》和《新<br>难兄难弟》吧 </p>
+<p>东野煽情作，跟韩寒的《乘风破浪》很类似的一本书，如果看过这部作品就很容易猜到剧情，按照时间顺序，应该是韩寒借鉴了《时生》和《新<br>难兄难弟》吧</p>
 </blockquote>
 <p>✔ 刑警手记之异案侦缉组 - 风雪如书</p>
 <blockquote>
-<p>跳过，浪费时间的一本书 </p>
+<p>跳过，浪费时间的一本书</p>
 </blockquote>
 <p>✔ 梦幻花 - 东野圭吾</p>
 <blockquote>
-<p>一般 </p>
+<p>一般</p>
 </blockquote>
 <p>✔ 信 - 东野圭吾</p>
 <blockquote>
-<p>东野的好书一般都会揭露一些社会问题，比如这本 </p>
+<p>东野的好书一般都会揭露一些社会问题，比如这本</p>
 </blockquote>
 <p>✔ 妞妞 - 周国平</p>
 <blockquote>
-<p>催人泪下，可以看出来周国平对妞妞的感情之深，失去挚爱那种痛彻心扉的感受 </p>
+<p>催人泪下，可以看出来周国平对妞妞的感情之深，失去挚爱那种痛彻心扉的感受</p>
 </blockquote>
 <p>✔ 沉睡的人鱼之家 - 东野圭吾</p>
 <blockquote>
-<p>一般 </p>
+<p>一般</p>
 </blockquote>
 <p>✔ 疾风回旋曲 - 东野圭吾</p>
 <blockquote>
-<p>滑雪题材你懂的，作者可能一没钱就写这种书，然后就有钱去滑雪了吧 </p>
+<p>滑雪题材你懂的，作者可能一没钱就写这种书，然后就有钱去滑雪了吧</p>
 </blockquote>
 <p>✔ 岛上书店 - 加布瑞埃拉泽文</p>
 <blockquote>
-<p>神作，看完立马推荐给身边所有人，太好看了 </p>
+<p>神作，看完立马推荐给身边所有人，太好看了</p>
 </blockquote>
 <p>✔ 别担心，我会陪你一起老 - 影山直美</p>
 <blockquote>
-<p>推荐，喜欢猫狗题材的作品，作者养了两只狗狗 </p>
+<p>推荐，喜欢猫狗题材的作品，作者养了两只狗狗</p>
 </blockquote>
 <p>✔ 周鸿祎自述：我的互联网方法论 - 周鸿祎</p>
 <blockquote>
-<p>推荐，挺好看的一本书，周鸿祎真性情 </p>
+<p>推荐，挺好看的一本书，周鸿祎真性情</p>
 </blockquote>
 <p>✔ 假面饭店 - 东野圭吾</p>
 <blockquote>
-<p>故事一般，男主女主挺有意思的，适合拍片的一本书 </p>
+<p>故事一般，男主女主挺有意思的，适合拍片的一本书</p>
 </blockquote>
 <p>✔ 人生只有一次，去做自己喜欢的事 - 摩西奶奶</p>
 <blockquote>
-<p>Derek推荐看的一本书，还阔以，第一次看摩西奶奶的书，老人家的生活方式值得学习 </p>
+<p>Derek推荐看的一本书，还阔以，第一次看摩西奶奶的书，老人家的生活方式值得学习</p>
 </blockquote>
 <p>✔ 拉普拉斯的魔女 - 东野圭吾</p>
 <blockquote>
-<p>期待很久的一本书，结果一般，东野普通的一本书 </p>
+<p>期待很久的一本书，结果一般，东野普通的一本书</p>
 </blockquote>
 <p>✔ 守夜者 - 法医秦明</p>
 <blockquote>
-<p>故事还行，文笔一般，不推荐了 </p>
+<p>故事还行，文笔一般，不推荐了</p>
 </blockquote>
 <p>✔ 腾讯传 - 吴晓波</p>
 <blockquote>
-<p>推荐神作，讲述了腾讯的发家史，比《创京东》好看一万倍 </p>
+<p>推荐神作，讲述了腾讯的发家史，比《创京东》好看一万倍</p>
 </blockquote>
 <p>✔ 就是想看你笑的样子 - 懒兔子</p>
 <blockquote>
-<p>作者是个自学中医的自学漫画的中年女人，还挺好看的 </p>
+<p>作者是个自学中医的自学漫画的中年女人，还挺好看的</p>
 </blockquote>
 <p>✔ 急诊科女超人 - 于莺</p>
 <blockquote>
-<p>随便看看就好，就是把网红的微博整到一起了，连编辑整理都没有，不走心 </p>
+<p>随便看看就好，就是把网红的微博整到一起了，连编辑整理都没有，不走心</p>
 </blockquote>
 <p>✔ 就喜欢你看不惯我又干不掉我的样子2 - 白茶</p>
 <blockquote>
-<p>推荐，好玩的宠物题材漫画书，吾皇万岁 </p>
+<p>推荐，好玩的宠物题材漫画书，吾皇万岁</p>
 </blockquote>
 <p>✔ 影响力 - 罗伯特·B.西奥迪尼</p>
 <blockquote>
-<p>神作，营销必看，了解人性 </p>
+<p>神作，营销必看，了解人性</p>
 </blockquote>
-<p>✔ 小王子 - 圣埃克苏佩里 </p>
+<p>✔ 小王子 - 圣埃克苏佩里</p>
 <blockquote>
-<p>神作，你可以读给孩子听的童话故事 </p>
+<p>神作，你可以读给孩子听的童话故事</p>
 </blockquote>
 <p>✔ 虚无的十字架 - 东野圭吾</p>
 <blockquote>
-<p>质量还不错 </p>
+<p>质量还不错</p>
 </blockquote>
 <p>✔ 无人生还 - 阿加莎克里斯蒂</p>
 <blockquote>
-<p>推荐，阿加莎本格推理代表作，结局有点略牵强 </p>
+<p>推荐，阿加莎本格推理代表作，结局有点略牵强</p>
 </blockquote>
 <p>✔ 无证之罪 - 紫金陈</p>
 <blockquote>
-<p>故事还行，文笔略差了一点，结局太突兀，可以凑合看看 </p>
+<p>故事还行，文笔略差了一点，结局太突兀，可以凑合看看</p>
 </blockquote>
 <p>✔ 不散的宴席 - 一个工作室</p>
 <blockquote>
@@ -362,11 +609,11 @@
 </blockquote>
 <p>✔ 东方快车谋杀案 - 阿加莎克里斯蒂</p>
 <blockquote>
-<p>推荐，阿加莎代表作之一 </p>
+<p>推荐，阿加莎代表作之一</p>
 </blockquote>
 <p>✔ 黄金时代 - 王小波</p>
 <blockquote>
-<p>推荐，王小波作品，看了挺久的一本书，伤痕文学，喜剧的核心是悲剧，为作者的乐观精神打call </p>
+<p>推荐，王小波作品，看了挺久的一本书，伤痕文学，喜剧的核心是悲剧，为作者的乐观精神打call</p>
 </blockquote>
 <h2 id="2017阅读关键字"><a href="#2017阅读关键字" class="headerlink" title="2017阅读关键字"></a>2017阅读关键字</h2><p>东野圭吾、严歌苓、阿加莎、侦探、互联网</p>
 <h2 id="2017推荐阅读top"><a href="#2017推荐阅读top" class="headerlink" title="2017推荐阅读top"></a>2017推荐阅读top</h2><ul>
@@ -399,32 +646,30 @@
     
     </summary>
     
-      <category term="reading" scheme="16bh.github.io/categories/reading/"/>
+      <category term="reading" scheme="http://16bh.github.io/categories/reading/"/>
     
-    
-      <category term="reading" scheme="16bh.github.io/tags/reading/"/>
     
   </entry>
   
   <entry>
     <title>charles支持https</title>
-    <link href="16bh.github.io/2018/03/02/charles-support-https/"/>
-    <id>16bh.github.io/2018/03/02/charles-support-https/</id>
+    <link href="http://16bh.github.io/2018/03/02/charles-support-https/"/>
+    <id>http://16bh.github.io/2018/03/02/charles-support-https/</id>
     <published>2018-03-02T10:19:52.000Z</published>
-    <updated>2018-03-06T03:20:37.033Z</updated>
+    <updated>2018-10-16T06:12:16.466Z</updated>
     
-    <content type="html"><![CDATA[<p>安装好charles之后，设置以支持https抓包</p>
+    <content type="html"><![CDATA[<p>安装好charles之后，设置以支持https抓包。</p>
 <a id="more"></a>
 <h2 id="第一步-设置ssl-proxying"><a href="#第一步-设置ssl-proxying" class="headerlink" title="第一步  设置ssl proxying"></a>第一步  设置ssl proxying</h2><p><code>Proxy/SSL Proxying Settings</code></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998614257750.png" alt="20180302151998614257750.png"></p>
+<p><img src="charles-support-https/20180302151998614257750.png" alt="20180302151998614257750.png"></p>
 <p>将Host和Port都设置为*，就可以抓取所有的https请求</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180306152030640030250.png" alt="20180306152030640030250.png"></p>
+<p><img src="charles-support-https/20180306152030640030250.png" alt="20180306152030640030250.png"></p>
 <h2 id="第二步-安装证书"><a href="#第二步-安装证书" class="headerlink" title="第二步 安装证书"></a>第二步 安装证书</h2><p><code>Help/SSL Proxying/Install Charles Root Certificate</code></p>
 <p>点击后，会安装到钥匙串中</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998634953062.png" alt="20180302151998634953062.png"></p>
+<p><img src="charles-support-https/20180302151998634953062.png" alt="20180302151998634953062.png"></p>
 <p>在所有项目中搜索<code>charles</code>，选中证书，双击打开，将信任设置为“始终信任”</p>
 <p>如果不安装证书，访问https网站时会报错“您的连不是私密连接”</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151998591661934.png" alt="20180302151998591661934.png"></p>
+<p><img src="charles-support-https/20180302151998591661934.png" alt="20180302151998591661934.png"></p>
 <h2 id="手机抓包"><a href="#手机抓包" class="headerlink" title="手机抓包"></a>手机抓包</h2><p>设置wifi的代理并访问<a href="chls.pro/ssl">chls.pro/ssl</a>下载证书到手机上即可</p>
 <blockquote>
 <p>tips:在安卓模拟器上也可以抓包</p>
@@ -433,28 +678,28 @@
     
     <summary type="html">
     
-      &lt;p&gt;安装好charles之后，设置以支持https抓包&lt;/p&gt;
+      &lt;p&gt;安装好charles之后，设置以支持https抓包。&lt;/p&gt;
     
     </summary>
     
+      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
     
-      <category term="charles" scheme="16bh.github.io/tags/charles/"/>
     
-      <category term="mac" scheme="16bh.github.io/tags/mac/"/>
+      <category term="charles" scheme="http://16bh.github.io/tags/charles/"/>
     
   </entry>
   
   <entry>
     <title>用Photos管理你的相册</title>
-    <link href="16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/"/>
-    <id>16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/</id>
+    <link href="http://16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/"/>
+    <id>http://16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/</id>
     <published>2018-03-01T11:47:39.000Z</published>
-    <updated>2018-03-02T02:29:19.293Z</updated>
+    <updated>2018-10-16T04:09:10.796Z</updated>
     
     <content type="html"><![CDATA[<ol>
-<li>从iphone导入照片</li>
-<li>从其他地方导入</li>
-<li>照片的整理</li>
+<li>从iphone导入照片。</li>
+<li>从其他地方导入。</li>
+<li>照片的整理。</li>
 </ol>
 <a id="more"></a>
 <h1 id="从iphone导入照片"><a href="#从iphone导入照片" class="headerlink" title="从iphone导入照片"></a>从iphone导入照片</h1><ol>
@@ -463,43 +708,45 @@
 <li>打开Photos</li>
 <li>左侧设备一栏会出现你的手机，点击后，会出现你手机上所有的照片，上面是已导入的，下面是未导入的新照片，可以选择右上角的<code>导入所有新照片</code>导入全部，也可以勾选想要导入的照片再导入</li>
 </ol>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990498860725.png" alt="20180301151990498860725.png"></p>
+<p><img src="/2018/03/01/how-to-manage-your-photos-with-Photos/20180301151990498860725.png" alt="20180301151990498860725.png"></p>
 <p>注意：<br>（1）右上角有个选项叫<code>导入后删除项目</code>，若勾选这一项，会将手机中的照片删掉<br>（2）导入之后，在Photos软件中修改或删除照片，不会影响手机中存储的照片<br>（3）导入的时候可以指定某个相簿，若未指定，则导入到<code>照片</code>中</p>
 <h1 id="从其他地方导入"><a href="#从其他地方导入" class="headerlink" title="从其他地方导入"></a>从其他地方导入</h1><p>安卓手机或下载到某个文件夹中的照片也可以导入Photos中<br>选择<code>文件/导入</code>，选择照片存储的文件夹，之后的导入方式跟从iphone中导入完全一致。不需要导入重复的照片，软件会将重复的照片自动识别为已导入的</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990534676408.png" alt="20180301151990534676408.png"></p>
+<p><img src="/2018/03/01/how-to-manage-your-photos-with-Photos/20180301151990534676408.png" alt="20180301151990534676408.png"></p>
 <h1 id="照片的整理"><a href="#照片的整理" class="headerlink" title="照片的整理"></a>照片的整理</h1><h2 id="加入相册"><a href="#加入相册" class="headerlink" title="加入相册"></a>加入相册</h2><p>右击某张照片，选择<code>添加到/新建相册（或某个已存在的相册）</code></p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990548766014.png" alt="20180301151990548766014.png"></p>
+<p><img src="/2018/03/01/how-to-manage-your-photos-with-Photos/20180301151990548766014.png" alt="20180301151990548766014.png"></p>
 <p>之后可以在左侧的<code>相簿/我的相簿</code>中查看</p>
 <h2 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h2><p>再带编辑功能，可以进行<code>调整</code>或<code>滤镜</code>或<code>裁剪</code>操作</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990563728227.png" alt="20180301151990563728227.png"></p>
+<p><img src="/2018/03/01/how-to-manage-your-photos-with-Photos/20180301151990563728227.png" alt="20180301151990563728227.png"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;ol&gt;
-&lt;li&gt;从iphone导入照片&lt;/li&gt;
-&lt;li&gt;从其他地方导入&lt;/li&gt;
-&lt;li&gt;照片的整理&lt;/li&gt;
+&lt;li&gt;从iphone导入照片。&lt;/li&gt;
+&lt;li&gt;从其他地方导入。&lt;/li&gt;
+&lt;li&gt;照片的整理。&lt;/li&gt;
 &lt;/ol&gt;
     
     </summary>
     
-      <category term="mac" scheme="16bh.github.io/categories/mac/"/>
+      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
     
-    
-      <category term="mac" scheme="16bh.github.io/tags/mac/"/>
     
   </entry>
   
   <entry>
     <title>多台mac之间的数据同步问题</title>
-    <link href="16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/"/>
-    <id>16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/</id>
+    <link href="http://16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/"/>
+    <id>http://16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/</id>
     <published>2018-02-28T07:28:11.000Z</published>
-    <updated>2018-10-08T07:25:01.979Z</updated>
+    <updated>2018-10-16T04:08:29.788Z</updated>
     
-    <content type="html"><![CDATA[<p>当你在办公室和家里有多台mac时，数据如何保持同步<br>可以做到无缝切换电脑的效果</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>ps:这是我本人比较喜欢的一篇文章,非常实用</p>
+</blockquote>
+<p>当你在办公室和家里有多台mac时，数据如何保持同步<br>可以做到无缝切换电脑的效果</p>
 <p><strong>同步的基本思想是：将常用的配置或文件保存在坚果云中，实现跨设备的同步</strong></p>
+<a id="more"></a>
 <ul>
 <li>笔记同步</li>
 <li>文件同步</li>
@@ -511,11 +758,11 @@
 <li>Atom配置同步</li>
 <li>粘贴板同步</li>
 </ul>
-<a id="more"></a>
+<!--more-->
 <h1 id="笔记同步"><a href="#笔记同步" class="headerlink" title="笔记同步"></a>笔记同步</h1><ol>
-<li>【推荐】使用mac自带的<code>备忘录</code>记笔记，会自动通过<code>iCloud</code>同步，免费</li>
+<li>【推荐】使用mac自带的<code>备忘录</code>记笔记，会自动通过<code>iCloud</code>同步，免费.缺点是不支持markdown和分类</li>
 <li>使用<code>Bear</code>订阅功能，通过<code>iCloud</code>同步所有的笔记，收费10元/月</li>
-<li>印象笔记，免费版只支持两台设备</li>
+<li>印象笔记，免费版只支持两台设备,目前也支持markdown了</li>
 </ol>
 <h1 id="文件同步"><a href="#文件同步" class="headerlink" title="文件同步"></a>文件同步</h1><p>使用云盘</p>
 <ol>
@@ -524,12 +771,13 @@
 <li><code>百度云盘</code>，无法自动同步，免费版下载速度慢</li>
 <li><code>金山快盘</code>，已关闭</li>
 </ol>
-<h1 id="书签同步"><a href="#书签同步" class="headerlink" title="书签同步"></a>书签同步</h1><ol>
+<h1 id="书签同步"><a href="#书签同步" class="headerlink" title="书签同步"></a>书签同步</h1><p>☆☆☆☆☆</p>
+<ol>
 <li><p>【推荐】safari</p>
 </li>
 <li><p>chrome（须登录，可能存在网络问题）</p>
 </li>
-<li><p>基于chrome的homely扩展，结合坚果云的同步功能实现<br>效果预览：<br><img src="http://o9xbyqajf.bkt.clouddn.com/20181008153898320819295.png" alt=""></p>
+<li><p>【推荐】基于chrome的homely扩展，结合坚果云的同步功能实现<br>效果预览：<br><img src="/2018/02/28/how-to-sync-data-on-your-macs/image-20181015224104672.png" alt="image-20181015224104672"></p>
 </li>
 </ol>
 <p>实现方式：</p>
@@ -542,66 +790,65 @@
 <li>同步完成后，在另一台设备中导入配置文件</li>
 </ul>
 <p>导入导出的入口在:</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/2018100815389833365849.png" alt=""></p>
+<p><img src="/2018/02/28/how-to-sync-data-on-your-macs/2018100815389833365849.png" alt=""></p>
 <h1 id="postman同步"><a href="#postman同步" class="headerlink" title="postman同步"></a>postman同步</h1><p>postman是模拟api接口请求的工具<br>用相同的账号登录了postman之后，你请求的历史记录和收藏的api都可以自动同步</p>
 <h1 id="密码同步"><a href="#密码同步" class="headerlink" title="密码同步"></a>密码同步</h1><ol>
-<li>【推荐】LastPass，支持软件版和主流的浏览器的插件版</li>
-<li>1Password</li>
-<li>钥匙串</li>
+<li><p>【推荐】LastPass，支持软件版和主流的浏览器的插件版</p>
+</li>
+<li><p>1Password</p>
+</li>
+<li><p>钥匙串</p>
+<blockquote>
+<p>2018-10-15：最新的ios12系统钥匙串功能得到了极大的提升</p>
+</blockquote>
+</li>
 </ol>
-<h1 id="Hosts同步"><a href="#Hosts同步" class="headerlink" title="Hosts同步"></a>Hosts同步</h1><p>SwitchHosts，须手动备份</p>
+<h1 id="Hosts同步"><a href="#Hosts同步" class="headerlink" title="Hosts同步"></a>Hosts同步</h1><p>☆☆☆☆☆</p>
+<p>SwitchHosts，须手动备份</p>
 <p>使用<code>文件/导出</code>功能将hosts文件导出到坚果云</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180301151990353149728.png" alt="20180301151990353149728.png"></p>
-<p>注意：只有显示了Dock图标才能看到<code>文件/导出</code>功能<br><img src="http://o9xbyqajf.bkt.clouddn.com/20181008153898160195878.png" alt=""><br>另一台电脑直接从坚果云中导入，即可</p>
+<p><img src="/2018/02/28/how-to-sync-data-on-your-macs/20180301151990353149728.png" alt="20180301151990353149728.png"></p>
+<p>注意：只有显示了Dock图标才能看到<code>文件/导出</code>功能<br><img src="/2018/02/28/how-to-sync-data-on-your-macs/20181008153898160195878.png" alt=""><br>另一台电脑直接从坚果云中导入，即可</p>
 <h1 id="代码同步"><a href="#代码同步" class="headerlink" title="代码同步"></a>代码同步</h1><p>git或svn</p>
 <h1 id="Atom同步"><a href="#Atom同步" class="headerlink" title="Atom同步"></a>Atom同步</h1><p>如果你用的是Atom编辑器,可以下载<code>Sync setting</code>插件对你的插件、设置等进行备份</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151996127822958.png" alt="20180302151996127822958.png"></p>
+<p><img src="/2018/02/28/how-to-sync-data-on-your-macs/20180302151996127822958.png" alt="20180302151996127822958.png"></p>
 <p>只需要在设置里填写你的Personal Access Token和Gist Id就可以了<br>这两个都在github上申请，获取方式如下：</p>
 <p>Personal Access Token：<a href="https://github.com/settings/tokens" target="_blank" rel="external">https://github.com/settings/tokens</a></p>
 <p>Gist Id：<a href="https://gist.github.com/" target="_blank" rel="external">https://gist.github.com/</a></p>
-<h1 id="粘贴板同步"><a href="#粘贴板同步" class="headerlink" title="粘贴板同步"></a>粘贴板同步</h1><p>1.mac的通用剪切板功能可以实现</p>
+<h1 id="粘贴板同步"><a href="#粘贴板同步" class="headerlink" title="粘贴板同步"></a>粘贴板同步</h1><p>需求不大</p>
+<p>1.mac的通用剪切板功能可以实现</p>
 <ol>
 <li>Paste</li>
 </ol>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20180302151996169747597.png" alt="20180302151996169747597.png"></p>
+<p><img src="/2018/02/28/how-to-sync-data-on-your-macs/20180302151996169747597.png" alt="20180302151996169747597.png"></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;当你在办公室和家里有多台mac时，数据如何保持同步&lt;br&gt;可以做到无缝切换电脑的效果&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;ps:这是我本人比较喜欢的一篇文章,非常实用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;当你在办公室和家里有多台mac时，数据如何保持同步&lt;br&gt;可以做到无缝切换电脑的效果&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;同步的基本思想是：将常用的配置或文件保存在坚果云中，实现跨设备的同步&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;笔记同步&lt;/li&gt;
-&lt;li&gt;文件同步&lt;/li&gt;
-&lt;li&gt;书签同步&lt;/li&gt;
-&lt;li&gt;postman同步&lt;/li&gt;
-&lt;li&gt;密码同步&lt;/li&gt;
-&lt;li&gt;hosts同步&lt;/li&gt;
-&lt;li&gt;代码同步&lt;/li&gt;
-&lt;li&gt;Atom配置同步&lt;/li&gt;
-&lt;li&gt;粘贴板同步&lt;/li&gt;
-&lt;/ul&gt;
     
     </summary>
     
-      <category term="mac" scheme="16bh.github.io/categories/mac/"/>
+      <category term="mac" scheme="http://16bh.github.io/categories/mac/"/>
     
-    
-      <category term="mac" scheme="16bh.github.io/tags/mac/"/>
     
   </entry>
   
   <entry>
     <title>mac无法读取移动硬盘</title>
-    <link href="16bh.github.io/2018/02/28/mac-can-not-read-mobile-HDD/"/>
-    <id>16bh.github.io/2018/02/28/mac-can-not-read-mobile-HDD/</id>
+    <link href="http://16bh.github.io/2018/02/28/mac-can-not-read-mobile-HDD/"/>
+    <id>http://16bh.github.io/2018/02/28/mac-can-not-read-mobile-HDD/</id>
     <published>2018-02-28T07:19:56.000Z</published>
-    <updated>2018-02-28T07:25:15.482Z</updated>
+    <updated>2018-10-16T02:27:06.934Z</updated>
     
-    <content type="html"><![CDATA[<p>提示 </p>
+    <content type="html"><![CDATA[<p>提示</p>
 <blockquote>
 <p>无法识别{你的硬盘名称}，无法找到原身</p>
 </blockquote>
+<p>原因是无法识别ntfs格式的硬盘</p>
 <a id="more"></a>
 <p>解决方案：</p>
 <ol>
@@ -609,37 +856,73 @@
 </li>
 <li><p>打开<code>Paragon NTFS for Mac</code></p>
 </li>
-<li><p>选中你的硬盘，点击<code>认证</code><br><img src="http://o9xbyqajf.bkt.clouddn.com/20180228151980268888706.png" alt="20180228151980268888706.png"></p>
+<li><p>选中你的硬盘，点击<code>认证</code><br><img src="/2018/02/28/mac-can-not-read-mobile-HDD/20180228151980268888706.png" alt="20180228151980268888706.png"></p>
 </li>
 <li><p>重启mac后生效</p>
 </li>
 </ol>
+<p>也可以使用其它软件，如<code>Tuxera</code></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;提示 &lt;/p&gt;
+      &lt;p&gt;提示&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;无法识别{你的硬盘名称}，无法找到原身&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;原因是无法识别ntfs格式的硬盘&lt;/p&gt;
     
     </summary>
     
-      <category term="mac" scheme="16bh.github.io/categories/mac/"/>
     
+      <category term="mac" scheme="http://16bh.github.io/tags/mac/"/>
     
-      <category term="mac" scheme="16bh.github.io/tags/mac/"/>
+      <category term="ntfs" scheme="http://16bh.github.io/tags/ntfs/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>echo字符串时字符串头部出现空格bug</title>
+    <link href="http://16bh.github.io/2018/02/06/auto-add-whitespace-at-the-start-of-string-when-echo/"/>
+    <id>http://16bh.github.io/2018/02/06/auto-add-whitespace-at-the-start-of-string-when-echo/</id>
+    <published>2018-02-06T10:51:50.000Z</published>
+    <updated>2018-10-16T14:06:58.758Z</updated>
+    
+    <content type="html"><![CDATA[<p>echo字符串时字符串头部出现了未知的空格<br>如果是单纯的展示问题不大<br>但是如果作为接口的返回值，调用方判断字符串时多出的空格就会报错</p>
+<a id="more"></a>
+<p>以下面的代码为例，</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"> &lt;?php</div><div class="line"></div><div class="line">echo 2233;</div></pre></td></tr></table></figure>
+<p>输出结果为：</p>
+<blockquote>
+<p>2233</p>
+</blockquote>
+<p>注意2233前面多了个空格，其实是把php文件的头部<code>&lt;?php</code>之前的空格打印出来了</p>
+<p>上面只是个简单的示例，实际情况可能更加复杂：比如use了别的文件或者使用了别的类的方法，那么别的文件头部的字符也会被打印出来</p>
+<p>可以通过下面的命令检查项目中所有文件的头部是否有多余的空格</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /project_root</div><div class="line">find . *|xargs grep &quot;^ &lt;?php&quot;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;echo字符串时字符串头部出现了未知的空格&lt;br&gt;如果是单纯的展示问题不大&lt;br&gt;但是如果作为接口的返回值，调用方判断字符串时多出的空格就会报错&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="php" scheme="http://16bh.github.io/categories/php/"/>
+    
     
   </entry>
   
   <entry>
     <title>jupyter support php</title>
-    <link href="16bh.github.io/2017/11/20/jupyter-support-php/"/>
-    <id>16bh.github.io/2017/11/20/jupyter-support-php/</id>
+    <link href="http://16bh.github.io/2017/11/20/jupyter-support-php/"/>
+    <id>http://16bh.github.io/2017/11/20/jupyter-support-php/</id>
     <published>2017-11-20T08:28:48.000Z</published>
-    <updated>2018-02-28T07:21:29.246Z</updated>
+    <updated>2018-10-16T14:38:14.283Z</updated>
     
-    <content type="html"><![CDATA[<p>As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.</p>
+    <content type="html"><![CDATA[<blockquote>
+<p>ignore: not used now</p>
+</blockquote>
+<p>As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.</p>
 <a id="more"></a>
 <h2 id="envirenement"><a href="#envirenement" class="headerlink" title="envirenement"></a>envirenement</h2><ul>
 <li>php7</li>
@@ -656,51 +939,54 @@
 <h2 id="notice"><a href="#notice" class="headerlink" title="notice"></a>notice</h2><p>while installing, if you see error below:</p>
 <p>You are running PHP-CLI with xdebug enabled. This will have a major impact on the kernel’s performance.</p>
 <p>it means that you have’t install zeromq</p>
-<hr>
-<p>any question, contact me by email</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.&lt;/p&gt;
+      &lt;blockquote&gt;
+&lt;p&gt;ignore: not used now&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.&lt;/p&gt;
     
     </summary>
     
     
-      <category term="php" scheme="16bh.github.io/tags/php/"/>
+      <category term="php" scheme="http://16bh.github.io/tags/php/"/>
     
-      <category term="jupyter" scheme="16bh.github.io/tags/jupyter/"/>
+      <category term="jupyter" scheme="http://16bh.github.io/tags/jupyter/"/>
     
   </entry>
   
   <entry>
     <title>git Error: Permission denied (publickey)</title>
-    <link href="16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/"/>
-    <id>16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/</id>
+    <link href="http://16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/"/>
+    <id>http://16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/</id>
     <published>2017-10-16T08:36:24.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
+    <updated>2018-10-16T14:40:11.675Z</updated>
     
     <content type="html"><![CDATA[<p>执行<code>ssh-add id_rsa</code></p>
-<a id="more"></a>
+<p>进阶：把上述命令写到脚本里，开机运行</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;执行&lt;code&gt;ssh-add id_rsa&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;进阶：把上述命令写到脚本里，开机运行&lt;/p&gt;
+
     
     </summary>
     
     
-      <category term="git" scheme="16bh.github.io/tags/git/"/>
+      <category term="git" scheme="http://16bh.github.io/tags/git/"/>
     
   </entry>
   
   <entry>
     <title>phpstorm生成函数调用关系</title>
-    <link href="16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/"/>
-    <id>16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</id>
+    <link href="http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/"/>
+    <id>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</id>
     <published>2017-10-16T08:25:39.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
+    <updated>2018-10-16T06:57:38.690Z</updated>
     
     <content type="html"><![CDATA[<p>知乎上有人提问如何生成函数调用路程图</p>
 <p>原问题见：<br><a href="https://www.zhihu.com/question/34495043/answer/244410441" target="_blank" rel="external">https://www.zhihu.com/question/34495043/answer/244410441</a></p>
@@ -708,11 +994,11 @@
 <p>phpstorm也有检查函数调用这个功能</p>
 <p>在偏好设置中搜索关键字 Call Hierarchy</p>
 <p>找到快捷键 ctrl+alt+h</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171016150814248321882.png"></p>
+<p><img src="/2017/10/16/phpstorm-generate-Call-Hierarchy/20171016150814248321882.png"></p>
 <p>使用效果如下：</p>
 <p>选中一个函数array_slice，按快捷键，在右边生成了该函数所有的调用关系</p>
 <p>与查看用例find usage不同的是，Call Hierarchy功能会递归的寻找用例的用例，直到找到没有入口函数为止</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20171016150814276075001.png"></p>
+<p><img src="/2017/10/16/phpstorm-generate-Call-Hierarchy/20171016150814276075001.png"></p>
 ]]></content>
     
     <summary type="html">
@@ -722,20 +1008,21 @@
     
     </summary>
     
+      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
     
-      <category term="php" scheme="16bh.github.io/tags/php/"/>
+    
+      <category term="phpstorm" scheme="http://16bh.github.io/tags/phpstorm/"/>
     
   </entry>
   
   <entry>
     <title>phpstorm忽略拼写错误</title>
-    <link href="16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/"/>
-    <id>16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</id>
+    <link href="http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/"/>
+    <id>http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</id>
     <published>2017-08-21T03:23:39.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
+    <updated>2018-10-16T06:56:53.011Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170821150328588236449.png" width="492" height="297"></p>
-<p>phpstorm会检查拼写单词的拼写错误<br>但是有时候会给我们造成困扰，比如我们公司的名称不是一个正规的单词就会报错</p>
+    <content type="html"><![CDATA[<p>phpstorm会检查拼写单词的拼写错误<br>但是有时候会给我们造成困扰，比如我们公司的名称不是一个正规的单词就会报错</p>
 <a id="more"></a>
 <p>打开偏好设置</p>
 <p>Editor &gt; Spelling</p>
@@ -744,366 +1031,70 @@
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170821150328588236449.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-&lt;p&gt;phpstorm会检查拼写单词的拼写错误&lt;br&gt;但是有时候会给我们造成困扰，比如我们公司的名称不是一个正规的单词就会报错&lt;/p&gt;
+      &lt;p&gt;phpstorm会检查拼写单词的拼写错误&lt;br&gt;但是有时候会给我们造成困扰，比如我们公司的名称不是一个正规的单词就会报错&lt;/p&gt;
     
     </summary>
     
+      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
     
-      <category term="phpstorm" scheme="16bh.github.io/tags/phpstorm/"/>
+    
+      <category term="phpstorm" scheme="http://16bh.github.io/tags/phpstorm/"/>
     
   </entry>
   
   <entry>
     <title>postman模拟图片上传</title>
-    <link href="16bh.github.io/2017/08/10/postman-test-image-upload/"/>
-    <id>16bh.github.io/2017/08/10/postman-test-image-upload/</id>
+    <link href="http://16bh.github.io/2017/08/10/postman-test-image-upload/"/>
+    <id>http://16bh.github.io/2017/08/10/postman-test-image-upload/</id>
     <published>2017-08-10T07:30:32.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
+    <updated>2018-10-16T06:54:08.218Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <p>Headers留空，Body添加一个key，key的属性选file</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170810150235019860302.png"></p>
+<p><img src="/2017/08/10/postman-test-image-upload/20170810150235019860302.png"></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;p&gt;Headers留空，Body添加一个key，key的属性选file&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170810150235019860302.png&quot;&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&quot;/2017/08/10/postman-test-image-upload/20170810150235019860302.png&quot;&gt;&lt;
     
     </summary>
     
     
-      <category term="postman" scheme="16bh.github.io/tags/postman/"/>
+      <category term="postman" scheme="http://16bh.github.io/tags/postman/"/>
     
   </entry>
   
   <entry>
     <title>使用composer</title>
-    <link href="16bh.github.io/2017/08/04/using-composer/"/>
-    <id>16bh.github.io/2017/08/04/using-composer/</id>
+    <link href="http://16bh.github.io/2017/08/04/using-composer/"/>
+    <id>http://16bh.github.io/2017/08/04/using-composer/</id>
     <published>2017-08-04T07:27:25.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
+    <updated>2018-10-16T06:33:14.034Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170804150183174467257.png" width="492" height="297"></p>
+    <content type="html"><![CDATA[<p><img src="/2017/08/04/using-composer/20170804150183174467257.png" width="492" height="297"></p>
 <a id="more"></a>
-<h1 id="安装composer"><a href="#安装composer" class="headerlink" title="安装composer"></a>安装composer</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install composer</div></pre></td></tr></table></figure>
+<h1 id="安装composer"><a href="#安装composer" class="headerlink" title="安装composer"></a>安装composer</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install composer</div></pre></td></tr></table></figure>
 <h1 id="修改源"><a href="#修改源" class="headerlink" title="修改源"></a>修改源</h1><p>方法一： 修改 composer 的全局配置文件（推荐方式）<br>打开命令行窗口（windows用户）或控制台（Linux、Mac 用户）并执行如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config -g repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config -g repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
 <p>方法二： 修改当前项目的 composer.json 配置文件：<br>打开命令行窗口（windows用户）或控制台（Linux、Mac 用户），进入你的项目的根目录（也就是 composer.json 文件所在目录），执行如下命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
-<p>上述命令将会在当前项目中的 composer.json 文件的末尾自动添加镜像的配置信息（你也可以自己手工添加）：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">&quot;repositories&quot;: &#123;</div><div class="line">    &quot;packagist&quot;: &#123;</div><div class="line">        &quot;type&quot;: &quot;composer&quot;,</div><div class="line">        &quot;url&quot;: &quot;https://packagist.phpcomposer.com&quot;</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<h1 id="composer使用"><a href="#composer使用" class="headerlink" title="composer使用"></a>composer使用</h1>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170804150183174467257.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="16bh.github.io/tags/php/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>go学习笔记 - 语法</title>
-    <link href="16bh.github.io/2017/07/31/go-study-note-grammar/"/>
-    <id>16bh.github.io/2017/07/31/go-study-note-grammar/</id>
-    <published>2017-07-31T10:16:25.000Z</published>
-    <updated>2017-11-02T03:43:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170802150164469935152.png" width="492" height="297"></p>
-<a id="more"></a>
-<h1 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h1><ul>
-<li>语法简易</li>
-<li>自动格式化代码，保证所有人代码风格一致</li>
-<li>并发处理</li>
-<li>垃圾回收</li>
-<li>函数多返回值，返回错误</li>
-</ul>
-<h1 id="代码规范"><a href="#代码规范" class="headerlink" title="代码规范"></a>代码规范</h1><ul>
-<li>要有main包和main函数</li>
-<li>变量必须要使用，引入的包必须要使用</li>
-<li>表达式可以省略括号，不能省略花括号，左花括号必须在行尾</li>
-</ul>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="keyword">import</span> (</div><div class="line">	<span class="string">"fmt"</span></div><div class="line">)</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := <span class="number">3</span></div><div class="line">	<span class="keyword">if</span> a &gt; <span class="number">1</span> &#123;</div><div class="line">		fmt.Printf(<span class="string">"%T,%v"</span>, a, a)</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h1 id="包"><a href="#包" class="headerlink" title="包"></a>包</h1><p>引入多个包</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">package main</div><div class="line"></div><div class="line">import (</div><div class="line">	&quot;fmt&quot;</div><div class="line">	&quot;math&quot;</div><div class="line">)</div></pre></td></tr></table></figure>
-<p>不可以import未被使用的包</p>
-<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> a <span class="keyword">int8</span> = <span class="number">4</span></div><div class="line"><span class="keyword">var</span> a = <span class="number">4</span></div><div class="line">a := <span class="number">8</span>    <span class="comment">//:=只能用在函数内</span></div></pre></td></tr></table></figure>
-<p>byte: unit8</p>
-<p>rune: int32</p>
-<h1 id="自增"><a href="#自增" class="headerlink" title="自增"></a>自增</h1><p>不能前置，不能用作表达式</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">a++;  //√</div><div class="line">++a;  //×</div><div class="line">if (a++) &#123;  //×</div></pre></td></tr></table></figure>
-<h1 id="数组及遍历"><a href="#数组及遍历" class="headerlink" title="数组及遍历"></a>数组及遍历</h1><figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := [<span class="number">3</span>]<span class="keyword">int</span>&#123;<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>&#125;</div><div class="line">	<span class="keyword">for</span> i, s := <span class="keyword">range</span> a &#123;</div><div class="line">		<span class="built_in">println</span>(i, s)</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h1 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h1><p>指针不能运算</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := <span class="number">3</span></div><div class="line">	<span class="keyword">var</span> p *<span class="keyword">int</span> = &amp;a</div><div class="line">	<span class="built_in">print</span>(*p)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h1 id="switch"><a href="#switch" class="headerlink" title="switch"></a>switch</h1><p>对比下php和go的swithc语句</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&lt;?php</span></div><div class="line">$a = <span class="number">1</span></div><div class="line"><span class="keyword">switch</span> ($a) &#123;</div><div class="line">    <span class="keyword">case</span> <span class="number">1</span>:</div><div class="line">    <span class="keyword">case</span> <span class="number">2</span>:</div><div class="line">        <span class="keyword">echo</span> <span class="number">1</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">    <span class="keyword">case</span> <span class="number">3</span>:</div><div class="line">        <span class="keyword">echo</span> <span class="number">3</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">    <span class="keyword">default</span>:</div><div class="line">        <span class="keyword">echo</span> <span class="string">'default'</span>;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>输出为1</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">package</span> main</div><div class="line"></div><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123;</div><div class="line">	a := <span class="number">1</span></div><div class="line">	<span class="keyword">switch</span> a &#123;</div><div class="line">	<span class="keyword">case</span> <span class="number">1</span>:</div><div class="line">	<span class="keyword">case</span> <span class="number">2</span>:</div><div class="line">		<span class="built_in">println</span>(<span class="number">1</span>)</div><div class="line">		<span class="keyword">break</span></div><div class="line">	<span class="keyword">case</span> <span class="number">3</span>:</div><div class="line">		<span class="built_in">println</span>(<span class="number">3</span>)</div><div class="line">	<span class="keyword">default</span>:</div><div class="line">		<span class="keyword">break</span></div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<p>输出为空</p>
-<p>go会自动在语句为空的case后面补上break，相当于没有执行任何操作</p>
-<p>要实现php中的多个case执行相同的语句，应该使用下面的写法：</p>
-<figure class="highlight go"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">case</span> <span class="number">1</span>,<span class="number">2</span>:</div><div class="line">	<span class="built_in">println</span>(<span class="number">1</span>)</div><div class="line">	<span class="keyword">break</span></div></pre></td></tr></table></figure>
-<h1 id="for"><a href="#for" class="headerlink" title="for"></a>for</h1><p>初始语句和结束语句可以省略</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">for sum &lt; 1000 &#123;</div><div class="line">	sum += sum</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><p>需指定入参和出参的类型，可以返回多个值</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">//x后面的int可省略，根据王垠的博客说的最好保留</div><div class="line">func add(x int, y int) int &#123;</div><div class="line">	return x + y</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h1 id="defer"><a href="#defer" class="headerlink" title="defer"></a>defer</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">package main</div><div class="line"></div><div class="line">import &quot;fmt&quot;</div><div class="line"></div><div class="line">func main() &#123;</div><div class="line">	defer fmt.Println(&quot;world&quot;)</div><div class="line"></div><div class="line">	fmt.Println(&quot;hello&quot;)</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<blockquote>
-<p>输出结果： </p>
-<p>hello</p>
-<p>world</p>
-</blockquote>
-<h1 id="struct"><a href="#struct" class="headerlink" title="struct"></a>struct</h1><p>用点号<code>.</code>访问结构体中的字段</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">type Vertex struct &#123;</div><div class="line">	X int</div><div class="line">	Y int</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h1 id="slice"><a href="#slice" class="headerlink" title="slice"></a>slice</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">s := []int&#123;2, 3, 5, 7, 11, 13&#125;</div><div class="line"></div><div class="line">//slice长度</div><div class="line">len(s)</div><div class="line"></div><div class="line">//slice转string,第二个参数是分隔符</div><div class="line">strings.Join(s,&apos;_&apos;)</div><div class="line"></div><div class="line">//打印slice</div><div class="line">fmt.Printf(&quot;%v&quot;, s)</div></pre></td></tr></table></figure>
-<h1 id="map"><a href="#map" class="headerlink" title="map"></a>map</h1><h1 id="函数-1"><a href="#函数-1" class="headerlink" title="函数"></a>函数</h1><p>函数可以作为函数的入参</p>
-<p>闭包</p>
-<blockquote>
-<p>Go 函数可以是一个闭包。闭包是一个函数值，它引用了函数体之外的变量。 这个函数可以对这个引用的变量进行访问和赋值；换句话说这个函数被“绑定”在这个变量上。</p>
-</blockquote>
-<h1 id="并发"><a href="#并发" class="headerlink" title="并发"></a>并发</h1><p>goroutine<br>channel</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ch &lt;- v    // 将 v 送入 channel ch</div><div class="line">v := &lt;-ch  // 从 ch 接收，并且赋值给 v</div></pre></td></tr></table></figure>
-<h1 id="错误处理"><a href="#错误处理" class="headerlink" title="错误处理"></a>错误处理</h1><h1 id="gc"><a href="#gc" class="headerlink" title="gc"></a>gc</h1><h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
-<li><a href="https://tour.go-zh.org/list" target="_blank" rel="external">官网tutorial</a></li>
-<li><a href="https://github.com/qyuhen/book" target="_blank" rel="external">《Go语言学习笔记》，雨痕著</a></li>
-<li><a href="http://www.yinwang.org/blog-cn/2014/04/18/golang" target="_blank" rel="external">王垠：对Go语言的综合评价</a></li>
-</ul>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
+<p>上述命令将会在当前项目中的 composer.json 文件的末尾自动添加镜像的配置信息（你也可以自己手工添加）：<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">"repositories": &#123;</div><div class="line">    "packagist": &#123;</div><div class="line">        "type": "composer",</div><div class="line">        "url": "https://packagist.phpcomposer.com"</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<h1 id="composer使用"><a href="#composer使用" class="headerlink" title="composer使用"></a>composer使用</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">A package-based dependency manager for PHP projects.</div><div class="line"></div><div class="line">- Add a package as a dependency for this project, adding it to `composer.json`:</div><div class="line">    composer require user/package-name</div><div class="line"></div><div class="line">- Install all the dependencies in this project's `composer.json`:</div><div class="line">    composer install</div><div class="line"></div><div class="line">- Uninstall a package from this project, removing it as a dependency from `composer.json`:</div><div class="line">    composer remove user/package-name</div><div class="line"></div><div class="line">- Update all the dependencies in this project's `composer.json`:</div><div class="line">    composer update</div><div class="line"></div><div class="line">- Update composer to the latest version:</div><div class="line">    composer self-update</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170802150164469935152.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;/2017/08/04/using-composer/20170804150183174467257.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
     
     </summary>
     
-    
-      <category term="go" scheme="16bh.github.io/tags/go/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo中添加github组件</title>
-    <link href="16bh.github.io/2017/07/27/hexo-yelee-add-github-widget/"/>
-    <id>16bh.github.io/2017/07/27/hexo-yelee-add-github-widget/</id>
-    <published>2017-07-27T08:29:00.000Z</published>
-    <updated>2017-07-31T13:14:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170727150114537274249.png" width="492" height="297"></p>
-<p>Hexo的yelee支持添加github组件</p>
-<a id="more"></a>
-<h2 id="如何开启"><a href="#如何开启" class="headerlink" title="如何开启"></a>如何开启</h2><p>修改主题配置文件 <code>{path_to_hexo}/themes/yelee/_config.yml</code>, 开启此功能</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">github_widget: true</div></pre></td></tr></table></figure>
-<h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><p>在文章中想要添加github组件的地方添加如下代码:</p>
-<p>{user_name} github作者名<br>{project_name} github项目名称</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;github-widget&quot; data-repo=&quot;&#123;user_name&#125;/&#123;project_name&#125;&quot;&gt;&lt;/div&gt;</div></pre></td></tr></table></figure>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;github-widget&quot; data-repo=&quot;hustcc/GitHub-Repo-Widget.js&quot;&gt;&lt;/div&gt;</div></pre></td></tr></table></figure>
-<p>会显示如下效果：</p>
-<div class="github-widget" data-repo="hustcc/GitHub-Repo-Widget.js"></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170727150114537274249.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Hexo的yelee支持添加github组件&lt;/p&gt;
-    
-    </summary>
+      <category term="php" scheme="http://16bh.github.io/categories/php/"/>
     
     
-      <category term="hexo" scheme="16bh.github.io/tags/hexo/"/>
-    
-      <category term="github" scheme="16bh.github.io/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Permanently added the RSA host key for IP address to the list of known hosts</title>
-    <link href="16bh.github.io/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/"/>
-    <id>16bh.github.io/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</id>
-    <published>2017-07-26T10:27:02.000Z</published>
-    <updated>2017-07-31T13:14:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png" width="492" height="297"></p>
-<p>将Hexo项目托管到Coding.net后，使用<code>hexo g -d</code>提交代码后报下面的Warning</p>
-<blockquote>
-<p>Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.</p>
-</blockquote>
-<a id="more"></a>
-<p><code>123.59.85.105</code>为域名<code>coding.net</code>的ip地址</p>
-<p>猜测可能的原因是hexo命令deploy时不会检查<code>~/.ssh/known_hosts</code>文件</p>
-<p>编辑config文件 <code>~/.ssh/config</code>:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Host coding.net</div><div class="line">      HostName 123.59.85.105</div><div class="line">      IdentityFile &#123;path_to_private_key&#125;</div><div class="line">      User &#123;user_name&#125;</div></pre></td></tr></table></figure>
-<p>此时提交就没有warning了</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170726150106524593664.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-&lt;p&gt;将Hexo项目托管到Coding.net后，使用&lt;code&gt;hexo g -d&lt;/code&gt;提交代码后报下面的Warning&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Permanently added the RSA host key for IP address ‘123.59.85.105’ to the list of known hosts.&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="error" scheme="16bh.github.io/tags/error/"/>
-    
-      <category term="hexo" scheme="16bh.github.io/tags/hexo/"/>
-    
-      <category term="git" scheme="16bh.github.io/tags/git/"/>
-    
-      <category term="ssh" scheme="16bh.github.io/tags/ssh/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Maximum function nesting level of 256 reached</title>
-    <link href="16bh.github.io/2017/07/26/Maximum-function-nesting-level-of-256-reached/"/>
-    <id>16bh.github.io/2017/07/26/Maximum-function-nesting-level-of-256-reached/</id>
-    <published>2017-07-26T09:50:04.000Z</published>
-    <updated>2017-07-31T13:14:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106445031039.png" width="492" height="297"></p>
-<p>Maximum function nesting level of ‘256’ reached, aborting!函数递归深度超过256</p>
-<a id="more"></a>
-<p>php本身并没有限制函数递归深度，其实是xdebug扩展报的错</p>
-<p>检查php的xdebug配置</p>
-<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106262652534.png"></p>
-<p>修改xdebug配置<code>/usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</code></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">xdebug.max_nesting_level=512</div></pre></td></tr></table></figure>
-<p>重启 php-fpm,生效</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170726150106445031039.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Maximum function nesting level of ‘256’ reached, aborting!函数递归深度超过256&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="16bh.github.io/tags/php/"/>
-    
-      <category term="xdebug" scheme="16bh.github.io/tags/xdebug/"/>
-    
-      <category term="error" scheme="16bh.github.io/tags/error/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>yaf学习笔记 - request类和respose类</title>
-    <link href="16bh.github.io/2017/07/26/yaf-study-note-request-and-respose/"/>
-    <id>16bh.github.io/2017/07/26/yaf-study-note-request-and-respose/</id>
-    <published>2017-07-26T08:48:53.000Z</published>
-    <updated>2017-08-01T13:20:14.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170726150106236928086.png" width="492" height="297"></p>
-<a id="more"></a>
-<h2 id="Yaf-Request-Abstract"><a href="#Yaf-Request-Abstract" class="headerlink" title="Yaf-Request-Abstract"></a>Yaf-Request-Abstract</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div></pre></td><td class="code"><pre><div class="line">/* Methods */</div><div class="line">public void getActionName ( void )</div><div class="line">public void getBaseUri ( void )</div><div class="line">public void getControllerName ( void )</div><div class="line">public void getEnv ( string $name [, string $default ] )</div><div class="line">public void getException ( void )</div><div class="line">public void getLanguage ( void )</div><div class="line">public void getMethod ( void )</div><div class="line">public void getModuleName ( void )</div><div class="line">public void getParam ( string $name [, string $default ] )</div><div class="line">public void getParams ( void )</div><div class="line">public void getRequestUri ( void )</div><div class="line">public void getServer ( string $name [, string $default ] )</div><div class="line">public void isCli ( void )</div><div class="line">public void isDispatched ( void )</div><div class="line">public void isGet ( void )</div><div class="line">public void isHead ( void )</div><div class="line">public void isOptions ( void )</div><div class="line">public void isPost ( void )</div><div class="line">public void isPut ( void )</div><div class="line">public void isRouted ( void )</div><div class="line">public void isXmlHttpRequest ( void )</div><div class="line">public void setActionName ( string $action )</div><div class="line">public bool setBaseUri ( string $uir )</div><div class="line">public void setControllerName ( string $controller )</div><div class="line">public void setDispatched ( void )</div><div class="line">public void setModuleName ( string $module )</div><div class="line">public void setParam ( string $name [, string $value ] )</div><div class="line">public void setRequestUri ( string $uir )</div><div class="line">public void setRouted ([ string $flag ] )</div></pre></td></tr></table></figure>
-<h2 id="Yaf-Response-Abstract"><a href="#Yaf-Response-Abstract" class="headerlink" title="Yaf-Response-Abstract"></a>Yaf-Response-Abstract</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">/* Methods */</div><div class="line">public bool appendBody ( string $content [, string $key ] )</div><div class="line">public bool clearBody ([ string $key ] )</div><div class="line">public void clearHeaders ( void )</div><div class="line">private void __clone ( void )</div><div class="line">public __construct ( void )</div><div class="line">public void __destruct ( void )</div><div class="line">public mixed getBody ([ string $key ] )</div><div class="line">public void getHeader ( void )</div><div class="line">public bool prependBody ( string $content [, string $key ] )</div><div class="line">public void response ( void )</div><div class="line">protected void setAllHeaders ( void )</div><div class="line">public bool setBody ( string $content [, string $key ] )</div><div class="line">public void setHeader ( void )</div><div class="line">public void setRedirect ( void )</div><div class="line">private void __toString ( void )</div></pre></td></tr></table></figure>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><ul>
-<li><p><a href="http://php.net/manual/en/class.yaf-response-abstract.php" target="_blank" rel="external">Yaf-Response-Abstract</a></p>
-</li>
-<li><p><a href="http://php.net/manual/en/class.yaf-request-abstract.php" target="_blank" rel="external">Yaf-Request-Abstract</a></p>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170726150106236928086.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="yaf" scheme="16bh.github.io/tags/yaf/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用php对接prometheus监控系统</title>
-    <link href="16bh.github.io/2017/07/25/prometheus-on-php/"/>
-    <id>16bh.github.io/2017/07/25/prometheus-on-php/</id>
-    <published>2017-07-25T07:55:13.000Z</published>
-    <updated>2017-07-31T13:14:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="http://o9xbyqajf.bkt.clouddn.com/20170725150097148897159.png" width="492" height="297"></p>
-<a id="more"></a>
-<h2 id="什么是prometheus"><a href="#什么是prometheus" class="headerlink" title="什么是prometheus"></a>什么是prometheus</h2><ul>
-<li>监控系统</li>
-<li>报警机制</li>
-<li>时间序列数据</li>
-<li>支持Java,Go，PHP等</li>
-</ul>
-<h2 id="prometheus-client-php"><a href="#prometheus-client-php" class="headerlink" title="prometheus_client_php"></a>prometheus_client_php</h2><p>A prometheus client library written in PHP</p>
-<div class="github-widget" data-repo="Jimdo/ prometheus_client_php"></div>
-
-<h2 id="对接prometheus系统"><a href="#对接prometheus系统" class="headerlink" title="对接prometheus系统"></a>对接prometheus系统</h2><p>第一步 将监控数据写入适配器，如redis、apc<br>第二步 提供接口供prometheus系统调用</p>
-<h2 id="四种数据类型"><a href="#四种数据类型" class="headerlink" title="四种数据类型"></a>四种数据类型</h2><ul>
-<li>counter 计时器</li>
-</ul>
-<p>只能增加value值，适合记录持续增长的，如接接口调用次数、请求总数、页面访问次数等</p>
-<ul>
-<li>gauge 尺度盘</li>
-</ul>
-<p>可以任意修改value值,适合记录瞬时数据，如CPU使用率、内存使用情况、磁盘空间等</p>
-<ul>
-<li>histogram 直方图</li>
-</ul>
-<p>用来度量数据中值的分布情况，如程序执行时间：0-100ms、100-200ms、200-300ms、&gt;300ms 的分布情况</p>
-<ul>
-<li>summary</li>
-</ul>
-<h2 id="adapter-存储介质"><a href="#adapter-存储介质" class="headerlink" title="adapter 存储介质"></a>adapter 存储介质</h2><p>三种adapter</p>
-<ul>
-<li>apc</li>
-<li>redis</li>
-<li>in-memory</li>
-</ul>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> ($adapter === <span class="string">'redis'</span>) &#123;</div><div class="line">    Redis::setDefaultOptions(<span class="keyword">array</span>(<span class="string">'host'</span> =&gt; <span class="keyword">isset</span>($_SERVER[<span class="string">'REDIS_HOST'</span>]) ? $_SERVER[<span class="string">'REDIS_HOST'</span>] : <span class="string">'127.0.0.1'</span>));</div><div class="line">    $adapter = <span class="keyword">new</span> Prometheus\Storage\Redis();</div><div class="line">&#125; <span class="keyword">elseif</span> ($adapter === <span class="string">'apc'</span>) &#123;</div><div class="line">    $adapter = <span class="keyword">new</span> Prometheus\Storage\APC();</div><div class="line">&#125; <span class="keyword">elseif</span> ($adapter === <span class="string">'in-memory'</span>) &#123;</div><div class="line">    $adapter = <span class="keyword">new</span> Prometheus\Storage\InMemory();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<h2 id="register-注册器"><a href="#register-注册器" class="headerlink" title="register 注册器"></a>register 注册器</h2><p>方法列表：</p>
-<ul>
-<li>registerCounter</li>
-<li>getCounter </li>
-<li>getOrRegisterCounter</li>
-<li>registerGauge</li>
-<li>getGauge</li>
-<li>getOrRegisterGauge</li>
-<li>registerHistogram</li>
-<li>getHistogram </li>
-<li>getOrRegisterHistogram</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$registry = new CollectorRegistry($adapter);</div><div class="line"></div><div class="line">//或者，获取默认的registry</div><div class="line">$registry = \Prometheus\CollectorRegistry::getDefault();</div></pre></td></tr></table></figure>
-<h2 id="供prometheus调用的接口"><a href="#供prometheus调用的接口" class="headerlink" title="供prometheus调用的接口"></a>供prometheus调用的接口</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">$registry = new CollectorRegistry($adapter);</div><div class="line">$renderer = new RenderTextFormat();</div><div class="line">$result = $renderer-&gt;render($registry-&gt;getMetricFamilySamples());</div><div class="line"></div><div class="line">header(&apos;Content-type: &apos; . RenderTextFormat::MIME_TYPE);</div><div class="line">echo $result;</div></pre></td></tr></table></figure>
-<h2 id="清除测试数据"><a href="#清除测试数据" class="headerlink" title="清除测试数据"></a>清除测试数据</h2><p>测试的时候想要清除在apc中存储的prometheus数据，可以调用下面的方法</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$adapter = new Prometheus\Storage\APC();</div><div class="line">$adapter-&gt;flushAPC();</div></pre></td></tr></table></figure>
-<p>同理，清除redis和memory</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$adapter = new Prometheus\Storage\Redis();</div><div class="line">$adapter-&gt;flushRedis();</div><div class="line"></div><div class="line">$adapter = new Prometheus\Storage\InMemory();</div><div class="line">$adapter-&gt;flushMemory();</div></pre></td></tr></table></figure>
-<h2 id="counter用法"><a href="#counter用法" class="headerlink" title="counter用法"></a>counter用法</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$counter = $registry-&gt;getOrRegisterCounter(&apos;aaa&apos;, &apos;bbb&apos;, &apos;ccc&apos;, [&apos;color&apos;]);</div><div class="line">$counter-&gt;incBy(1, [&apos;red&apos;]);</div></pre></td></tr></table></figure>
-<p> 结果为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># HELP aaa_bbb ccc</div><div class="line"># TYPE aaa_bbb counter</div><div class="line">aaa_bbb&#123;color=&quot;red&quot;&#125; 1</div></pre></td></tr></table></figure>
-<p>当然也可以同时设置两个label</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$counter = $registry-&gt;getOrRegisterCounter(&apos;aaa&apos;, &apos;bbb&apos;, &apos;ccc&apos;, [&apos;color&apos;, &apos;size&apos;]);</div><div class="line">$counter-&gt;incBy(1, [&apos;red&apos;, 10]);</div></pre></td></tr></table></figure>
-<p> 结果为：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"># HELP aaa_bbb ccc</div><div class="line"># TYPE aaa_bbb counter</div><div class="line">aaa_bbb&#123;color=&quot;red&quot;,size=10&#125; 1</div></pre></td></tr></table></figure>
-<h2 id="gauge"><a href="#gauge" class="headerlink" title="gauge"></a>gauge</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$gauge = $registry-&gt;getOrRegisterGauge(&apos;test&apos;, &apos;some_gauge&apos;, &apos;it sets&apos;, [&apos;type&apos;]);</div><div class="line">$gauge-&gt;set(2.5, [&apos;blue&apos;]);</div></pre></td></tr></table></figure>
-<h2 id="histogram"><a href="#histogram" class="headerlink" title="histogram"></a>histogram</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$histogram = $registry-&gt;getOrRegisterHistogram(&apos;test&apos;, &apos;some_histogram&apos;, &apos;it observes&apos;, [&apos;type&apos;], [0.1, 1, 2, 3.5, 4, 5, 6, 7, 8, 9]);</div><div class="line">$histogram-&gt;observe(3.5, [&apos;blue&apos;]);</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;http://o9xbyqajf.bkt.clouddn.com/20170725150097148897159.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="php" scheme="16bh.github.io/tags/php/"/>
+      <category term="composer" scheme="http://16bh.github.io/tags/composer/"/>
     
   </entry>
   

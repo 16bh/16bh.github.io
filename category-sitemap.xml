@@ -1,28 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>16bh.github.io</loc>
+        <loc>http://16bh.github.io</loc>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/categories/reading/</loc>
-        <lastmod>2018-03-06T11:05:27.678Z</lastmod>
+        <loc>http://16bh.github.io/categories/blog/</loc>
+        <lastmod>2018-10-16T02:31:47.322Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/categories/php/</loc>
-        <lastmod>2018-04-27T06:55:04.994Z</lastmod>
+        <loc>http://16bh.github.io/categories/mac/</loc>
+        <lastmod>2018-10-16T04:08:29.788Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>16bh.github.io/categories/mac/</loc>
-        <lastmod>2018-10-08T07:25:01.979Z</lastmod>
+        <loc>http://16bh.github.io/categories/hexo/</loc>
+        <lastmod>2018-10-16T04:09:55.318Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/categories/book/</loc>
+        <lastmod>2018-10-16T06:11:19.541Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/categories/php/</loc>
+        <lastmod>2018-10-16T14:19:37.922Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/categories/go/</loc>
+        <lastmod>2018-10-16T14:59:47.760Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/categories/reading/</loc>
+        <lastmod>2018-10-16T16:03:58.832Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/categories/software/</loc>
+        <lastmod>2018-10-16T16:15:24.659Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
