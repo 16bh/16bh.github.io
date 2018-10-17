@@ -387,20 +387,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/tags/markdown/</loc>
-        <lastmod>2018-10-16T16:16:12.513Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://16bh.github.io/tags/afred/</loc>
-        <lastmod>2018-10-16T16:16:12.513Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/tags/php/</loc>
         <lastmod>2018-10-16T16:17:16.724Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -417,6 +403,20 @@
     <url>
         <loc>http://16bh.github.io/tags/tools/</loc>
         <lastmod>2018-10-16T16:19:40.037Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/markdown/</loc>
+        <lastmod>2018-10-16T16:25:15.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/tags/afred/</loc>
+        <lastmod>2018-10-16T16:25:15.242Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

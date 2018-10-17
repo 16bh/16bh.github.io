@@ -7,6 +7,22 @@
     </url>
 
     <url>
+        <loc>http://16bh.github.io/2016/07/08/fix-Alfred-markdown-workflow/</loc>
+        <lastmod>2018-10-16T16:25:15.242Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/2017/04/07/how-to-use-markdown/</loc>
+        <lastmod>2018-10-16T16:24:48.667Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://16bh.github.io/2016/06/24/fast-type-long-shell-command/</loc>
         <lastmod>2018-10-16T16:19:40.037Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,14 +33,6 @@
     <url>
         <loc>http://16bh.github.io/2016/08/03/build-php-develop-environment-in-atom/</loc>
         <lastmod>2018-10-16T16:17:16.724Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://16bh.github.io/2016/07/08/fix-Alfred-markdown-workflow/</loc>
-        <lastmod>2018-10-16T16:16:12.513Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -1193,14 +1201,6 @@
     <url>
         <loc>http://16bh.github.io/2016/07/11/magento-locale/</loc>
         <lastmod>2018-10-16T02:26:10.014Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://16bh.github.io/2017/04/07/how-to-use-markdown/</loc>
-        <lastmod>2018-10-16T02:25:23.888Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
