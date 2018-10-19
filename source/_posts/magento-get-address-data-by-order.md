@@ -1,6 +1,6 @@
 ---
 title: Magento根据订单获取地址信息
-categories:
+categories: IT
 tags: [magento]
 toc: false
 comment: true

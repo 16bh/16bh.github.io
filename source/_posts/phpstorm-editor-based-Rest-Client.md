@@ -3,7 +3,7 @@ title: phpstorm可编辑的Rest客户端
 toc: true
 comment: true
 date: 2018-05-07 17:51:59
-categories:
+categories: Software
 tags: [phpstorm,api]
 ---
 
@@ -32,7 +32,7 @@ GET localhost/api/test/index
 Accept : application/json
 Content-Type: application/json;charset=UTF-8
 Authorization:
-Cookie: 
+Cookie:
 ```
 
 ![image-20181016221550175](phpstorm-editor-based-Rest-Client/image-20181016221550175.png)

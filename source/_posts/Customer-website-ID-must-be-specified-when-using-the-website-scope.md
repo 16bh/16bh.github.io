@@ -2,7 +2,7 @@
 title: magento报错:Customer website ID must be specified when using the website scope
 toc: false
 date: 2016-07-21 10:58:20
-categories: 
+categories: [IT]
 tags: magento
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 回收饮料瓶问题
-categories:
+categories: IT
 tags: [php,算法]
 toc: false
 comment: true

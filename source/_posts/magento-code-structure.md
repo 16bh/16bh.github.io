@@ -1,7 +1,7 @@
 ---
 title: 初识magento框架代码结构
 date: 2016-06-30 18:24:32
-category:
+categories: [IT]
 tags: magento
 ---
 
@@ -21,10 +21,10 @@ tags: magento
 /app/code/core/Mage/{Module}/Block –显示块的逻辑类
 /app/code/core/Mage/{Module}/Model –模块的对象模型
 /app/code/core/Mage/{Module}/Model/Mysql4 –模块的资源模型
-/app/code/core/Mage/{Module}/sql –模块各个版本的安装和升级用sql 
+/app/code/core/Mage/{Module}/sql –模块各个版本的安装和升级用sql
 /app/code/core/Mage/{Module}/sql/{resource}/ - 升级是需要的资源模型
-/app/code/core/Mage/{Module}/sql/{resource}/{type}-{action}-{versions}.(sql|php) –资源升级文件例如: mysql4-upgrade-0.6.23-0.6.25.sql 
-/app/design –设计包目录(layouts, templates, translations) 
+/app/code/core/Mage/{Module}/sql/{resource}/{type}-{action}-{versions}.(sql|php) –资源升级文件例如: mysql4-upgrade-0.6.23-0.6.25.sql
+/app/design –设计包目录(layouts, templates, translations)
 /app/design/frontend –前端的设计
 /app/design/adminhtml –后台管理设计
 /app/design/{area}/{package}/{theme} –定制的主题
@@ -35,7 +35,7 @@ tags: magento
 /app/locale/{locale (en_US)} –Zend_Translate 兼容的模块用的文字翻译
 /skin/{area}/{package}/{theme}/- css和图像
 /lib –公用库
-/js – javascripts 
+/js – javascripts
 /media –上传文件存放目录
 /tests –测试目录
 /var –临时文件目录

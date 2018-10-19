@@ -1,8 +1,8 @@
 ---
 title: mac下快速输入长命令行的两种方法
 date: 2016-06-24 18:18:52
-category:
-tags: tools
+categories: [Software]
+tags: shell
 toc: true
 ---
 

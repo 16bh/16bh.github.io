@@ -1,6 +1,6 @@
 ---
 title: phpstorm安装Atom主题
-categories:
+categories: Software
 tags: [phpstorm,atom]
 toc: false
 comment: true

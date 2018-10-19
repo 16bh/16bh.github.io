@@ -1,6 +1,6 @@
 ---
 title: 关于缓存的一些思考
-categories:
+categories: IT
 tags: [redis]
 toc: false
 comment: true

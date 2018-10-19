@@ -1,6 +1,6 @@
 ---
 title: 用phpStorm进行magento开发的几个Tips
-categories:
+categories: Software
 top: 6
 toc: false
 comment: true
@@ -26,7 +26,7 @@ tags: [magento,phpstorm]
 
 phpcs可以统一编码的规范，常用的是psr2
 
-[怎么在phpStorm中配置使用phpcs？](http://16bh.github.io/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpcs/)
+[mac下phpStorm配置使用phpcs](https://16bh.github.io/2017/04/01/phpcs-in-phpstorm-on-mac/)
 
 
 
@@ -34,7 +34,7 @@ phpcs可以统一编码的规范，常用的是psr2
 
 php代码纠错
 
-[怎么在phpStorm中配置使用phpmd？](http://16bh.github.io/2017/04/01/mac%E4%B8%8BphpStorm%E9%85%8D%E7%BD%AE%E4%BD%BF%E7%94%A8phpmd/)
+[mac下phpStorm配置使用phpmd](https://16bh.github.io/2017/04/01/phpmd-in-phpstorm-on-mac/)
 
 # 安装[magicento](http://magicento.com/ )插件
 ![20170401149103633058337.png](phpstorm-develop-magento-skills/20170401149103633058337.png)

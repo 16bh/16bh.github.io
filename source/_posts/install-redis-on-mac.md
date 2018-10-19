@@ -1,7 +1,7 @@
 ---
 title: mac下安装redis
 date: 2016-06-20 18:12:38
-category:
+categories: [IT]
 tags: [redis]
 toc: true
 ---
@@ -65,7 +65,7 @@ jimxu             3207   0.0  0.0  4258736    192 s000  R+   11:02PM   0:00.00 g
 
 2018-10-15：补充，可以设置redis后台，这样就不影响终端窗口的使用
 
-配置文件redis.conf 
+配置文件redis.conf
 
 ```conf
 daemonize yes

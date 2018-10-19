@@ -2,7 +2,7 @@
 title: '[译]给用户grid表增加新的column'
 toc: true
 date: 2016-08-29 16:19:31
-categories:
+categories: IT
 tags: magento
 ---
 
@@ -13,10 +13,10 @@ tags: magento
 
 为了给用户grid新增一个column，需要重写block：`Mage_Adminhtml_Block_Customer_Grid`，并覆写block里的两个方法：
 ​	- _prepareCollection：添加你的属性到collection中
-​	- _prepareColumns：添加column到grid中	
+​	- _prepareColumns：添加column到grid中
 # 新建模块并配置
 
-先新建一个模块`Easylife_Customer`,修改	
+先新建一个模块`Easylife_Customer`,修改
 ``` xml app/etc/module/Easylife_Customer.xml
 <?xml version="1.0"?>
 <config>
@@ -82,7 +82,7 @@ class Easylife_Customer_Block_Adminhtml_Customer_Grid extends Mage_Adminhtml_Blo
             ->joinAttribute('billing_country_id', 'customer_address/country_id', 'default_billing', null, 'left');
 
         $this->setCollection($collection);
-        //下面是替换了原有的parent::_prepareCollection的代码，原有的代码是调用了Mage_Adminhtml_Block_Customer_Grid的父类即Mage_Adminhtml_Block_Widget_Grid中的代码        
+        //下面是替换了原有的parent::_prepareCollection的代码，原有的代码是调用了Mage_Adminhtml_Block_Customer_Grid的父类即Mage_Adminhtml_Block_Widget_Grid中的代码
         //直接调用 parent::_prepareCollection 会使得上面的代码失效。
         //而你又不能用这种语法来调用父类的父类的方法 parent::parent::_prepareCollection()，所以就只能将代码整个copy到此处
         if ($this->getCollection()) {
@@ -124,8 +124,8 @@ class Easylife_Customer_Block_Adminhtml_Customer_Grid extends Mage_Adminhtml_Blo
     }
 
     /**
-     * 覆写_prepareColumns方法在email列后面新增一列    
-     * 如果你想要改变新增列的位置，那么直接修改addColumnAfter方法的第三个参数就好了     
+     * 覆写_prepareColumns方法在email列后面新增一列
+     * 如果你想要改变新增列的位置，那么直接修改addColumnAfter方法的第三个参数就好了
      */
     protected function _prepareColumns(){
         $this->addColumnAfter('mobile', array(

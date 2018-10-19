@@ -1,6 +1,6 @@
 ---
 title: 微信领红包问题
-categories:
+categories: IT
 tags: [php,算法]
 toc: false
 comment: true
@@ -44,7 +44,7 @@ function raffle()
         $leftTotal -= $money;
         $leftNum --;
     }
-    
+
 }
 
 raffle();

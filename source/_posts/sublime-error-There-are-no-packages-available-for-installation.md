@@ -1,7 +1,7 @@
 ---
 title: sublime报错There are no packages available for installation
-categories:
-tags: [sublime,error]
+categories: Software
+tags: [sublime]
 toc: false
 comment: true
 date: 2017-04-11 14:20:42

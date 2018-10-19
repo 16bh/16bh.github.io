@@ -2,7 +2,7 @@
 title: magento中查看某一段代码生成的sql
 toc: false
 date: 2016-10-27 16:25:49
-categories:
+categories: IT
 tags: magento
 ---
 
@@ -13,7 +13,7 @@ tags: magento
 <!--more-->
 
 使用magento自带的读写适配器操纵数据库的时候，会调用`lib/Zend/Db/Adapter/Abstract.php`文件中的`query`方法,在`query`方法中将sql语句记入日志
-​	
+​
 ```php
 public function query($sql, $bind = array())
 {

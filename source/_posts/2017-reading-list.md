@@ -3,7 +3,7 @@ title: 2017阅读总结
 toc: true
 comment: true
 date: 2018-03-05 19:08:35
-categories: reading
+categories: [Reading]
 tags:
 ---
 

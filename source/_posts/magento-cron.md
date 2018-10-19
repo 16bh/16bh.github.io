@@ -2,8 +2,8 @@
 title: magento计划任务
 toc: false
 date: 2016-07-19 17:56:24
-categories:
-tags: mangeo
+categories: IT
+tags: [magento,crontab]
 ---
 
 

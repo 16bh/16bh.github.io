@@ -1,7 +1,7 @@
 ---
 title: go学习笔记：安装并运行hello world
-categories: go
-tags: 
+categories: [IT]
+tags: [go]
 toc: false
 comment: true
 date: 2017-04-11 11:53:15

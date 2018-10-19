@@ -1,6 +1,6 @@
 ---
 title: phpStorm格式化代码设置等号对齐
-categories: [software]
+categories: Software
 tags: [phpstorm]
 toc: false
 comment: true

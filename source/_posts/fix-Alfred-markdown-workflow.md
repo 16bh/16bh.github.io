@@ -2,7 +2,7 @@
 title: markdown图片链接生成的Alfred脚本微调整
 toc: false
 date: 2016-07-08 12:04:14
-categories:
+categories: [Software]
 tags: [markdown,afred]
 ---
 

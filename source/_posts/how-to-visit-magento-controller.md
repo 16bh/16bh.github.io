@@ -1,7 +1,7 @@
 ---
 title: 访问模块中的controller
 date: 2016-06-30 18:27:55
-category: php
+categories: [IT]
 tags: magento
 toc: true
 ---

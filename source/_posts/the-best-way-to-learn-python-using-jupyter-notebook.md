@@ -3,7 +3,7 @@ title: 使用jupyter来学习python
 toc: true
 comment: true
 date: 2018-10-16 14:51:07
-categories:
+categories: Software
 tags: [python,jupyter]
 ---
 

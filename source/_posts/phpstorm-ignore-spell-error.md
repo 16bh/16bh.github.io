@@ -3,7 +3,7 @@ title: phpstorm忽略拼写错误
 toc: true
 comment: true
 date: 2017-08-21 11:23:39
-categories: [software]
+categories: Software
 tags: [phpstorm]
 ---
 

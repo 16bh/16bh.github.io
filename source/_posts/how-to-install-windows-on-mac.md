@@ -3,8 +3,8 @@ title: 如何在Mac上安装Windows
 toc: true
 comment: true
 date: 2018-05-28 18:34:20
-categories:
-tags: mac
+categories: Software
+tags: [mac,windows]
 ---
 
 

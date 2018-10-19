@@ -3,7 +3,7 @@ title: 使用mtr工具检测网络
 toc: true
 comment: true
 date: 2017-07-12 17:21:07
-categories:
+categories: Software
 tags: mtr
 ---
 

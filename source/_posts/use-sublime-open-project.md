@@ -3,7 +3,7 @@ title: 设置使用sublime打开项目文件夹
 toc: false
 comment: true
 date: 2017-06-22 11:42:45
-categories:
+categories: Software
 tags: [sublime]
 ---
 

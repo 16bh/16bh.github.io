@@ -3,7 +3,7 @@ title: 一款比man更好用的工具：tldr
 toc: true
 comment: true
 date: 2018-10-16 23:05:10
-categories:
+categories: [IT]
 tags: shell
 ---
 

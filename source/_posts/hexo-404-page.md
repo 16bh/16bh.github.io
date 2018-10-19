@@ -2,7 +2,7 @@
 title: 设置hexo404页面
 toc: false
 date: 2016-07-13 11:36:35
-categories:
+categories: [Blog]
 tags: hexo
 ---
 

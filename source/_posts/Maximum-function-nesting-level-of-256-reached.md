@@ -3,7 +3,7 @@ title: Maximum function nesting level of 256 reached
 toc: true
 comment: true
 date: 2017-07-26 17:50:04
-categories:
+categories: IT
 tags: [php,xdebug]
 ---
 

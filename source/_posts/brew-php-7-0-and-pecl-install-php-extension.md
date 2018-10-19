@@ -3,8 +3,8 @@ title: 使用pecl终端命令安装php扩展
 toc: true
 comment: true
 date: 2018-04-27 14:28:17
-categories: php
-tags: pecl
+categories: [IT]
+tags: [pecl,php]
 ---
 
 

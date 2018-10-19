@@ -2,7 +2,7 @@
 title: windows下通过charles和夜神模拟器对安卓app进行抓包
 toc: false
 date: 2015-12-21 22:28:27
-category: software
+categories: [Software]
 tags: [charles]
 ---
 

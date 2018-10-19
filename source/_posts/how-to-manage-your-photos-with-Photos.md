@@ -3,8 +3,8 @@ title: 用Photos管理你的相册
 toc: true
 comment: true
 date: 2018-03-01 19:47:39
-categories: software
-tags: 
+categories: Software
+tags: photos
 ---
 
 

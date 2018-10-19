@@ -1,8 +1,7 @@
 ---
-
 title: 部分书单
-categories: book
-tags: 
+categories: [Reading]
+tags:
 toc: false
 comment: true
 date: 2017-04-15 08:34:23

@@ -1,7 +1,7 @@
 ---
 title: 分别设置hexo首页、标签页、归档页文章个数
 toc: false
-cagegory: 
+cagegory: Blog
 date: 2016-07-06 19:12:59
 tags: hexo
 ---
@@ -11,7 +11,7 @@ tags: hexo
 ``` yml
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10 
+per_page: 10
 pagination_dir: page
 ```
 
@@ -59,7 +59,7 @@ archive_generator:
 tag_generator:
   per_page: 20 ##标签页面默认20篇文章，如果值为0不分页
 
-category_generator: 
+category_generator:
   per_page: 20 ##分类页面默认20篇文章，如果值为0不分页
 
 ```

@@ -3,7 +3,7 @@ title: '[译]Magento中的12种设计模式'
 toc: true
 comment: true
 date: 2017-03-30 17:18:15
-categories: [php]
+categories: [IT]
 tags: [magento,设计模式]
 ---
 

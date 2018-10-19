@@ -3,7 +3,7 @@ title: 使用composer
 toc: true
 comment: true
 date: 2017-08-04 15:27:25
-categories: php
+categories: IT
 tags: composer
 ---
 

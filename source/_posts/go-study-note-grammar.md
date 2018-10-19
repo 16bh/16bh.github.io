@@ -3,8 +3,8 @@ title: go学习笔记 - 语法
 toc: true
 comment: true
 date: 2017-07-31 18:16:25
-categories: go
-tags: 
+categories: [IT]
+tags: [go]
 ---
 
 

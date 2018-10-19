@@ -3,7 +3,7 @@ title: phpstorm修改php文件头模板
 toc: false
 comment: true
 date: 2017-06-21 16:32:39
-categories:
+categories: Software
 tags: [phpstorm]
 ---
 

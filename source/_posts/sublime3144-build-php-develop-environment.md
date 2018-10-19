@@ -2,7 +2,7 @@
 title: sublime3144版本搭建php开发环境
 toc: true
 date: 2016-07-11 17:36:35
-categories:
+categories: Software
 tags: [php,sublime]
 ---
 
@@ -103,14 +103,13 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 - Color Highlighter和ColorPicker    css颜色插件
 
-见单独介绍部分：[sublime插件 - css颜色高亮与取色器
-](http://jimxu.me/2016/07/06/sublime%E6%8F%92%E4%BB%B6-css%E9%A2%9C%E8%89%B2%E9%AB%98%E4%BA%AE%E4%B8%8E%E5%8F%96%E8%89%B2%E5%99%A8/)
+见单独介绍部分：[sublime插件 - css颜色高亮与取色器](https://16bh.github.io/2016/07/06/sublime-plugin-css-color-hignlighter/)
 
 - Markdown Preview和MarkdownEditing    Markdown编辑插件
-见单独介绍部分:[sublime插件 - markdown编辑和预览](http://16bh.github.io/2016/07/11/sublime%E6%8F%92%E4%BB%B6-markdown%E7%BC%96%E8%BE%91%E5%92%8C%E9%A2%84%E8%A7%88/)
+见单独介绍部分:[sublime插件 - markdown编辑和预览](https://16bh.github.io/2016/07/11/sublime-plugin-markdown-preview/)
 
 - WakaTime    记录编程习惯
-见单独介绍部分:[记录你的编程习惯 - 编辑器通用插件：WakaTime](http://16bh.github.io/2016/07/11/%E8%AE%B0%E5%BD%95%E4%BD%A0%E7%9A%84%E7%BC%96%E7%A8%8B%E4%B9%A0%E6%83%AF-%E7%BC%96%E8%BE%91%E5%99%A8%E9%80%9A%E7%94%A8%E6%8F%92%E4%BB%B6%EF%BC%9AWakaTime/)
+见单独介绍部分:[记录你的编程习惯 - 编辑器通用插件：WakaTime](https://16bh.github.io/2016/07/11/wakatime-record-coding/)
 
 - AutoFileName    自动补全文件路径
 
@@ -129,7 +128,7 @@ import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.
 
 
 ## 配置php的编译环境
-见单独介绍部分：[mac环境sublime配置php编译环境](http://16bh.github.io/2016/06/28/mac%E7%8E%AF%E5%A2%83sublime%E5%A2%9E%E5%8A%A0php%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83/)
+见单独介绍部分：[mac环境sublime配置php编译环境](https://16bh.github.io/2016/06/28/sublime-php-build-system-on-mac/)
 
 ## 开启vim模式
 

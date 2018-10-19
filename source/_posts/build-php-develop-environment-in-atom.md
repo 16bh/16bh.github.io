@@ -2,7 +2,7 @@
 title: 使用atom进行php开发
 toc: true
 date: 2016-08-03 15:30:21
-categories:
+categories: [Software]
 tags: [php,atom]
 ---
 

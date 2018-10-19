@@ -3,8 +3,8 @@ title: crontab入门
 toc: true
 comment: true
 date: 2017-07-12 17:43:43
-categories:
-tags: shell
+categories: [IT]
+tags: crontab
 ---
 
 

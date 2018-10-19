@@ -3,7 +3,7 @@ title: mac无法读取移动硬盘
 toc: true
 comment: true
 date: 2018-02-28 15:19:56
-categories: 
+categories: Software
 tags: [mac,ntfs]
 ---
 

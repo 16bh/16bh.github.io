@@ -1,11 +1,9 @@
 ---
-
-
 title: 七牛测试域名过期后批量下载图片到本地
 toc: true
 comment: true
 date: 2018-10-15 15:24:04
-categories: 
+categories: [Software]
 tags: [hexo,qiniu]
 ---
 
@@ -70,7 +68,7 @@ chmod +x qshell
     jim@jims-mac-mini.local  /Users/jim/Downloads/qshell-v2.1.8   ./qshell buckets                                                                                                                                               17:39:51
    2018/10/15 17:39:53 [I] Load account from /Users/jim/.qshell/account.json
    j***u
-   
+
     jim@jims-mac-mini.local  /Users/jim/Downloads/qshell-v2.1.8   ./qshell domains j***u                                                                                                                                        17:40:09
    2018/10/15 17:40:13 [I] Load account from /Users/jim/.qshell/account.json
    ***.bkt.clouddn.com

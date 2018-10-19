@@ -3,7 +3,7 @@ title: PHPer学习JS 语法
 toc: true
 top:
 date: 2016-07-22 10:32:45
-categories:
+categories: IT
 tags: js
 ---
 

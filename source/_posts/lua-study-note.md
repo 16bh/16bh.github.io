@@ -2,7 +2,7 @@
 title: Lua学习笔记
 toc: false
 date: 2017-01-03 22:23:05
-categories:
+categories: IT
 tags: lua
 ---
 

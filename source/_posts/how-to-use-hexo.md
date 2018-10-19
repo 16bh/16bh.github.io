@@ -1,7 +1,7 @@
 ---
 title: 第一次使用Hexo
 date: 2016-07-05 17:14:59
-category: 
+category: Blog
 tags: hexo
 toc: true
 ---

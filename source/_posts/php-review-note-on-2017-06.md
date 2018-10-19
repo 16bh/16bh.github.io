@@ -1,6 +1,6 @@
 ---
 title: 2017年4月php面试
-categories:
+categories: IT
 tags: [php,review]
 toc: false
 comment: true
@@ -21,7 +21,7 @@ date: 2017-05-26 17:39:25
 	- 如何判断添加索引是否生效
 	explain sql
 	- sql如何优化
-	
+
 - **趣头条**
 	- php7
 	- 什么原因导致服务器负载过高

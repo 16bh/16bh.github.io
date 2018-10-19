@@ -1,6 +1,6 @@
 ---
 title: 后端开发技能树
-categories: 
+categories: [IT]
 tags: php
 toc: false
 comment: true
@@ -47,7 +47,7 @@ date: 2017-04-20 23:54:54
 - 单元测试
 - memecached
 - redis
-   - 数据类型 
+   - 数据类型
     - 与memecached比较，与memecached共同使用
     - 缓存穿透
     - 原子性
@@ -62,7 +62,7 @@ date: 2017-04-20 23:54:54
       - 事务 transaction
       - 优化
       - 存储过程
-      - 引擎: 种类，使用场景	
+      - 引擎: 种类，使用场景
    - MongoDB
    - Hive （2018-10-16）
 - 面向对象
@@ -84,7 +84,7 @@ date: 2017-04-20 23:54:54
     - phpcs
     - phpmd
 - 大数据时代
-    - 用户画像 
+    - 用户画像
     - 机器学习
     - 推荐
 

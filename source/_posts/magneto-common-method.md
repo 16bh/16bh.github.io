@@ -2,7 +2,7 @@
 title: magento常用方法
 toc: true
 date: 2016-07-12 15:41:35
-categories:
+categories: IT
 tags: magento
 ---
 

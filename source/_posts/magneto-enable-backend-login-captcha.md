@@ -2,7 +2,7 @@
 title: magento用户登录开启验证码功能
 toc: false
 date: 2016-07-07 13:39:19
-category:
+categories: [IT]
 tags: magento
 ---
 

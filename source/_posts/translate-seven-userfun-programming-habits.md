@@ -3,7 +3,7 @@ title: '[译]改善编程的七个习惯'
 toc: true
 comment: true
 date: 2017-07-19 11:27:35
-categories:
+categories: IT
 tags: 翻译
 ---
 

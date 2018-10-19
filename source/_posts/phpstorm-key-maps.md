@@ -1,6 +1,6 @@
 ---
 title: phpStorm快捷键个人设置
-categories: [software]
+categories: Software
 tags: [phpstorm]
 toc: false
 comment: true

@@ -1,7 +1,7 @@
 ---
 title: {{ title }}
 date: {{ date }}
-categories:
+categories: [IT-Life-Read-Software-Blog]
 tags:
 toc: true
 comment: true

@@ -1,7 +1,7 @@
 ---
 title: hexo默认文章的模板修改
 date: 2016-07-06 14:41:14
-category:
+categories: [Blog]
 tags: hexo
 ---
 

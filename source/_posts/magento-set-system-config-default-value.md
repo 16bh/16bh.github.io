@@ -2,11 +2,11 @@
 title: magento设置后台配置的默认值
 toc: false
 date: 2016-07-20 14:19:02
-categories:
+categories: IT
 tags: magento
 ---
 
-在[《magento新建模块的后台配置》](http://16bh.github.io/2016/07/10/magento%E6%96%B0%E5%BB%BA%E6%A8%A1%E5%9D%97%E7%9A%84%E5%90%8E%E5%8F%B0%E9%85%8D%E7%BD%AE/)
+在[《magento新建模块的后台配置》](https://16bh.github.io/2016/07/10/magento-new-module-add-system-config/)
 中设置了系统的后台配置选项后，可以在`config.xml`中设置后台配置的默认值
 
 <!--more-->

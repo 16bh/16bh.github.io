@@ -2,7 +2,7 @@
 title: magento复写core中的model
 toc: false
 date: 2016-07-07 18:20:15
-category:
+categories: [IT]
 tags: magento
 ---
 

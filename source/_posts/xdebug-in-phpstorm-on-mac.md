@@ -2,7 +2,7 @@
 title: mac下phpstorm配置xdebug
 toc: true
 date: 2016-07-08 14:28:10
-categories:
+categories: Software
 tags: [phpstorm,xdebug]
 ---
 

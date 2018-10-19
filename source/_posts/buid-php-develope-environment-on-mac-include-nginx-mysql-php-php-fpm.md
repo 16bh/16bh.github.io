@@ -1,7 +1,7 @@
 ---
 title: 'mac下php开发环境搭建:nginx+mysql+php+php-fpm'
 date: 2016-06-30 18:21:57
-category: 
+categories: [IT]
 tags: [php,环境]
 toc: true
 ---
@@ -22,7 +22,7 @@ mac下也有集成环境：[MAMP](https://www.mamp.info/en/),基础功能不能�
 
 ## 二 安装配置mysql
 1. 在终端通过命令行安装
- ```     
+ ```
 brew install mysql
  ```
 2. 设置mysql开机启动
@@ -74,7 +74,7 @@ $a = [
   brew install php55 --with-fpm --with-gmp --with-imap --with-tidy --with-debug --with-mysql --with-libmysql
 ```
 
-  
+
 
 2. 安装php扩展，也可以先不急，等后面要用到什么扩展的时候再安装也可以
 安装扩展的方法(以xdebug扩展为例)：

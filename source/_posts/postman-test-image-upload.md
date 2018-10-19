@@ -3,7 +3,7 @@ title: postman模拟图片上传
 toc: true
 comment: true
 date: 2017-08-10 15:30:32
-categories:
+categories: Software
 tags: postman
 ---
 

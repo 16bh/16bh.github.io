@@ -3,7 +3,7 @@ title: phpstorm使用代码片段
 toc: true
 comment: true
 date: 2017-04-01 10:22:30
-categories: software
+categories: Software
 tags: phpstorm
 ---
 

@@ -3,8 +3,8 @@ title: 多台mac之间的数据同步问题
 toc: true
 comment: true
 date: 2018-02-28 15:28:11
-categories: mac
-tags: 
+categories: Software
+tags: [备份]
 ---
 
 > ps:这是我本人比较喜欢的一篇文章,非常实用

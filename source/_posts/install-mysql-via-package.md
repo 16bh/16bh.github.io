@@ -1,9 +1,9 @@
 ---
-title: package安装mysql
+title: 通过package安装包安装mysql
 toc: true
 comment: true
 date: 2017-04-13 18:46:08
-categories:
+categories: IT
 tags: mysql
 ---
 

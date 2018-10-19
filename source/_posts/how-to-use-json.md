@@ -1,7 +1,7 @@
 ---
 title: 在php中使用json
 date: 2016-06-23 18:14:55
-category:
+categories: [IT]
 tags: [php,json]
 toc: true
 ---

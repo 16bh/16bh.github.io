@@ -1,6 +1,6 @@
 ---
 title: Magento后台配置攻略
-categories:
+categories: IT
 tags: [magento]
 toc: false
 comment: true

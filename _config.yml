@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: true 
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -44,16 +44,8 @@ highlight:
   tab_replace:
 
 # Category & Tag
-default_category: uncategorized
+default_category: IT
 category_map:
-  - Editor: editor
-  - Magento: magento
-  - IT: it
-  - Software: software
-  - Hexo: hexo
-  - Mac: mac
-  - Reading: reading
-  - Architect: architect
 tag_map:
 
 # Date / Time format

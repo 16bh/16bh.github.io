@@ -1,6 +1,6 @@
 ---
 title: mac下phpStorm配置使用phpmd
-categories: [software]
+categories: Software
 toc: false
 comment: true
 date: 2017-04-01 17:02:33

@@ -1,6 +1,6 @@
 ---
 title: Laravel目录结构
-categories: php
+categories: IT
 tags: [laravel]
 toc: false
 comment: true

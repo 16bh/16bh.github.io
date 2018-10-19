@@ -1,8 +1,8 @@
 ---
 title: 在Finder中查看隐藏文件
 date: 2016-07-05 22:48:16
-category: 
-tags: mac
+categories: Software
+tags: [finder]
 ---
 
 ##方法1：

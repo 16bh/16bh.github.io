@@ -2,7 +2,7 @@
 title: mac环境sublime配置php编译环境
 toc: false
 date: 2016-06-28 14:35:34
-category:
+categories: Software
 tags: [sublime,php]
 ---
 

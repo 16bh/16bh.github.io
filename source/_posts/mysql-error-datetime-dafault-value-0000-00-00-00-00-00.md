@@ -3,8 +3,8 @@ title: 'mysql datetime默认值设置为0000-00-00 00:00:00时报错'
 toc: true
 comment: true
 date: 2017-07-13 18:46:44
-categories:
-tags: [mysql,error]
+categories: IT
+tags: [mysql]
 ---
 
 

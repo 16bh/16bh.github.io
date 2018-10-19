@@ -1,6 +1,6 @@
 ---
 title: 从零搭建mac开发环境
-categories:
+categories: Software
 tags: [mac,环境]
 toc: false
 comment: true
@@ -133,7 +133,7 @@ chsh -s /bin/zsh
 
  ```brew install redis```
 
-- 查看启动命令 
+- 查看启动命令
 
   ```brew info redis```
 

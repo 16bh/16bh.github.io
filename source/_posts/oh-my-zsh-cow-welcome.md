@@ -1,8 +1,8 @@
 ---
 title: 在oh my zsh的基础上添加终端的欢迎界面
 date: 2016-06-24 18:16:03
-category:
-tags: [tools,oh my zsh]
+categories: [Software]
+tags: [zsh]
 ---
 
 2018-10-16：虽然现在不用这个了，但是还是觉得很有趣

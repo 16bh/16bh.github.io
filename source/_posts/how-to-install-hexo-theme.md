@@ -2,7 +2,7 @@
 title: hexo如何安装主题
 toc: true
 date: 2016-07-05 11:43:41
-category: 
+categories: [Blog]
 tags: hexo
 ---
 

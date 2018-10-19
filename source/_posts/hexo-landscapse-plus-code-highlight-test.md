@@ -2,7 +2,7 @@
 title: landscape-plus主题代码高亮测试
 toc: true
 date: 2016-07-07 10:50:25
-category:
+categories: [Blog]
 tags: hexo
 ---
 

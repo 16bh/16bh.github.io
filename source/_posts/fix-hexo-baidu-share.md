@@ -2,7 +2,7 @@
 title: hexo的landscape-plus主题百度分享无法加载的bug
 toc: false
 date: 2016-07-08 15:51:44
-categorie:
+categorie: [Blog]
 tags: hexo
 ---
 

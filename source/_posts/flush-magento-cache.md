@@ -1,7 +1,7 @@
 ---
 title: 如何清除magento缓存
 date: 2016-06-24 18:28:34
-category:
+categories: [IT]
 tags: magento
 toc: true
 ---

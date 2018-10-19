@@ -2,7 +2,7 @@
 title: Magento数据库非EAV模型使用
 toc: true
 date: 2016-07-14 14:43:35
-categories:
+categories: IT
 tags: [magento,mysql]
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: MarkDown插入图片技巧
-categories:
+categories: Software
 tags: [markdown]
 toc: false
 comment: true

@@ -3,8 +3,8 @@ title: Permanently added the RSA host key for IP address to the list of known ho
 toc: true
 comment: true
 date: 2017-07-26 18:27:02
-categories:
-tags: [hexo,git,ssh,error]
+categories: IT
+tags: [hexo,git,ssh]
 ---
 
 <img src="Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/20170726150106524593664.png" width="492" height="297"/>

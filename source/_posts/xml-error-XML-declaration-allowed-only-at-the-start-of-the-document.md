@@ -2,7 +2,7 @@
 title: 'XML报错:XML declaration allowed only at the start of the document'
 toc: false
 date: 2016-07-20 11:01:15
-categories: 
+categories: IT
 tags: [xml,error]
 ---
 

@@ -3,8 +3,8 @@ title: SoftWare List - Mac
 toc: false
 top: 5
 date: 2016-08-16 14:12:44
-categories:
-tags: [software]
+categories: Software
+tags:
 ---
 
 列举一些个人使用的mac软件

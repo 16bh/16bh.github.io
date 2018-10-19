@@ -2,8 +2,8 @@
 title: '[PHP ERROR]:Arrays are not allowed in class constants '
 toc: false
 date: 2017-03-27 18:38:37
-categories:
-tags: [php,error]
+categories: IT
+tags: [php]
 ---
 
 

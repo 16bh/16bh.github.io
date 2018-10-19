@@ -2,8 +2,8 @@
 title: php浮点数取整
 toc: false
 date: 2016-07-20 18:15:09
-categories: php
-tags:
+categories: IT
+tags: [php]
 ---
 
 

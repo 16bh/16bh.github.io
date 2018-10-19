@@ -3,8 +3,8 @@ title: 将Hexo网站托管到Coding.net
 toc: true
 comment: true
 date: 2017-07-12 16:37:04
-categories:
-tags: website
+categories: Blog
+tags: hexo
 ---
 
 

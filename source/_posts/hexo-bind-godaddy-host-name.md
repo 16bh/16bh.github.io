@@ -1,10 +1,9 @@
 ---
-
 title: hexo绑定DNSPOD代理的狗爹域名
 toc: true
 date: 2016-07-08 22:42:40
-categorie: hexo
-tags:
+categorie: Blog
+tags: hexo
 ---
 
 在godday上购买域名的一次体验

@@ -1,7 +1,7 @@
 ---
 title: hexo侧边栏安装最近评论小物件
 date: 2016-07-06 14:10:06
-category:
+categories: [Blog]
 tags: hexo
 ---
 

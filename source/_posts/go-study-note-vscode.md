@@ -1,7 +1,7 @@
 ---
 title: go学习笔记：用vscode搭建go开发环境
-categories: go
-tags: vscode
+categories: [Software]
+tags: [vscode,go]
 toc: false
 comment: true
 date: 2017-04-11 16:26:03

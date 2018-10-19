@@ -1,8 +1,8 @@
 ---
 title: homebrew、homebrew-cask及cakebrew
 date: 2016-06-16 18:19:59
-catory:
-tags: homebrew
+catory: IT
+tags: brew
 toc: true
 ---
 
@@ -16,17 +16,17 @@ toc: true
 在终端运行`brew`命令可得到常用命令
 
 >Example usage:
-  查询包是否存在：brew search [TEXT|/REGEX/]  
+  查询包是否存在：brew search [TEXT|/REGEX/]
   查询包信息及可用安装命令：brew (info|home|options) [FORMULA...]
-  安装包：brew install FORMULA... 
-  更新homebrew：brew update  
-  更新包：brew upgrade [FORMULA...]  
-  卸载包：brew uninstall FORMULA...  
-  查看已安装包：brew list [FORMULA...]  
+  安装包：brew install FORMULA...
+  更新homebrew：brew update
+  更新包：brew upgrade [FORMULA...]
+  卸载包：brew uninstall FORMULA...
+  查看已安装包：brew list [FORMULA...]
 
 >Troubleshooting:
   brew config
-  检查homebrew状况：brew doctor  
+  检查homebrew状况：brew doctor
   brew install -vd FORMULA
 
 >Brewing:
@@ -40,7 +40,7 @@ toc: true
   brew home
 
 如：
-​        
+​
 ```shell
   brew search brew-cask
   brew install nginx
@@ -49,7 +49,7 @@ toc: true
 ```
 
 
-​      
+​
 
 ## 二 用homebrew-cask安装常用软件
 比在网上下载安装文件安装的优势在于：

@@ -1,6 +1,6 @@
 ---
 title: sublime搭建go-lang开发环境
-categories:
+categories: Software
 tags: [sublime,go]
 toc: false
 comment: true

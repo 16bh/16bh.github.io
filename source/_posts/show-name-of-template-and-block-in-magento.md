@@ -1,7 +1,7 @@
 ---
 title: 定位前台的template和block
 date: 2016-06-24 18:25:19
-cateogory: php
+cateogory: IT
 tags: magento
 toc: true
 ---

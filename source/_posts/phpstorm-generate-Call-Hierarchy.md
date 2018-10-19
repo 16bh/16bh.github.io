@@ -3,7 +3,7 @@ title: phpstorm生成函数调用关系
 toc: true
 comment: true
 date: 2017-10-16 16:25:39
-categories: [software]
+categories: Software
 tags: [phpstorm]
 ---
 

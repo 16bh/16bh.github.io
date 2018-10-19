@@ -3,8 +3,8 @@ title: echo字符串时字符串头部出现空格bug
 toc: true
 comment: true
 date: 2018-02-06 18:51:50
-categories: php
-tags: 
+categories: [IT]
+tags: [php]
 ---
 
 

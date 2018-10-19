@@ -3,8 +3,8 @@ title: 使用php对接prometheus监控系统
 toc: true
 comment: true
 date: 2017-07-25 15:55:13
-categories: php
-tags: promotheus
+categories: IT
+tags: [php,promotheus]
 ---
 
 

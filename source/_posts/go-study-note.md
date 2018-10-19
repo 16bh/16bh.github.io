@@ -1,7 +1,7 @@
 ---
 title: go语言入门知识点
-categories: go
-tags: 
+categories: [IT]
+tags: go
 toc: false
 comment: true
 date: 2017-04-11 10:09:55
@@ -39,7 +39,7 @@ date: 2017-04-11 10:09:55
 - 有且必须要有有一个main包
 - 包的依赖关系影响编译的顺序
 - import 多个包时可以将多个包名放在数组中
-- 以大写字母打头的标识符类似public，以小写字母打头的标识符类似private 
+- 以大写字母打头的标识符类似public，以小写字母打头的标识符类似private
 - import 一个包不使用它会报错
 - go中没有不必要的代码
 - 和C一样有个main函数，入口执行函数

@@ -1,6 +1,6 @@
 ---
 title: Magento升级脚本常见问题
-categories:
+categories: IT
 tags: [magento,mysql]
 toc: false
 comment: true

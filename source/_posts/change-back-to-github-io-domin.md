@@ -3,7 +3,7 @@ title: 博客域名切回github
 toc: true
 comment: true
 date: 2018-10-10 11:39:27
-categories:
+categories: [Blog]
 tags: hexo
 ---
 

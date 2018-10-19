@@ -1,7 +1,7 @@
 ---
 title: hexo的landscape-plus主题安装不蒜子访问量统计插件
 date: 2016-07-06 12:04:15
-category:
+categories: [Blog]
 tags: hexo
 ---
 

@@ -2,7 +2,7 @@
 title: ssh连接服务器更简单一点
 comment: true
 date: 2017-07-07 15:50:02
-categories:
+categories: IT
 tags: [git,ssh]
 ---
 

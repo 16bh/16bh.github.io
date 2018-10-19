@@ -2,7 +2,7 @@
 title: magento后台汉化
 toc: false
 date: 2016-07-11 15:28:42
-categories:
+categories: IT
 tags: magento
 ---
 

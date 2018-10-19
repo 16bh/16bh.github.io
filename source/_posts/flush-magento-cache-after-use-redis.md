@@ -1,11 +1,11 @@
 ---
 title: 安装redis后清除magento缓存失效解决方案
 date: 2016-06-30 18:30:57
-category:
+categories: [IT]
 tags: [magento,redis]
 ---
 
->在[《如何清除magento缓存》](https://16bh.github.io/2016/07/05/%E5%A6%82%E4%BD%95%E6%B8%85%E9%99%A4magento%E7%BC%93%E5%AD%98/)一文中介绍了清除magento缓存的三种方法
+>在[《如何清除magento缓存》](https://16bh.github.io/2016/06/24/flush-magento-cache/)一文中介绍了清除magento缓存的三种方法
 
 2016.6.27
 

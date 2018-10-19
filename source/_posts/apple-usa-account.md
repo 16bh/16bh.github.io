@@ -3,7 +3,7 @@ title: 美区apple账号的申请和使用
 toc: true
 comment: true
 date: 2017-07-21 22:16:32
-categories:
+categories: [Software]
 tags: apple
 ---
 

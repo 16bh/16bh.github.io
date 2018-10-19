@@ -2,7 +2,7 @@
 title: mac下nginx服务器设置虚拟主机
 toc: true
 date: 2016-07-07 12:48:38
-category: 
+category: IT
 tags: [php,nginx]
 ---
 
@@ -57,12 +57,12 @@ vim blog
 server {
     listen 8080;    //此处修改端口号
     server_name myblog.com; //此处添加hosts中设置的域名
-    
+
     root /Users/jim/blog;    //此处设置项目根目录
 
     location ~ \.php$ { ## Execute PHP scripts
         expires        off; ## Do not cache dynamic content
-        
+
         fastcgi_pass   127.0.0.1:9000;
         fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
         include        fastcgi_params; ## See /etc/nginx/fastcgi_params

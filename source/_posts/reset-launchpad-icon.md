@@ -1,8 +1,8 @@
 ---
 title: 重新排序Launchpad图标
 date: 2016-06-16 22:51:31
-category: 
-tags: mac
+categories: Software
+tags: launchpad
 ---
 
 

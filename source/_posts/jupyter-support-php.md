@@ -3,7 +3,7 @@ title: jupyter support php
 toc: true
 comment: true
 date: 2017-11-20 16:28:48
-categories:
+categories: Software
 tags: [jupyter,php]
 ---
 
@@ -23,7 +23,7 @@ As we know, jupyter support python originally. It can also support other languag
 - composer
 
 > just run `brew install zeromq` to install zeromq on mac
-> 
+>
 > php7.0 don't support php-zmq,must upgrade to php7.1,then `brew install php71-zmq`
 
 ## install jupyter-PHP

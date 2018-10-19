@@ -1,7 +1,7 @@
 ---
 title: 在magento中配置使用redis缓存
 date: 2016-06-21 18:30:09
-category:
+categories: IT
 tags: [magento,redis]
 toc: true
 ---
@@ -53,7 +53,7 @@ php常用的缓存工具：memcached和redis,本文讲的是在magento框架中�
 ***说明magento在配置了redis之后那么要保持reids服务一直处于开启状态***
 
 参考：
-[1]在magento中配置redis文档： 
+[1]在magento中配置redis文档：
 > http://devdocs.magento.com/guides/m1x/ce18-ee113/using_redis.html
 
 [2]Cm_Cache_Backend_Redis配置

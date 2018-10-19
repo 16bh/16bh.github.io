@@ -1,6 +1,6 @@
 ---
 title: yaf学习笔记 - 配置
-categories: php
+categories: IT
 tags: yaf
 toc: false
 comment: true

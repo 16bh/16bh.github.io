@@ -2,7 +2,7 @@
 title: sublime插件 - markdown编辑和预览
 toc: true
 date: 2016-07-11 18:49:38
-categories:
+categories: Software
 tags: [sublime,markdown]
 ---
 

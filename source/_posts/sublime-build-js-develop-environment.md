@@ -2,7 +2,7 @@
 title: sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境
 toc: true
 date: 2016-07-21 18:50:05
-categories:
+categories: Software
 tags: [sublime,js]
 ---
 

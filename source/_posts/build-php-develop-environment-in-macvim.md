@@ -1,7 +1,7 @@
 ---
 title: 把VIM打造成php开发的IDE需要哪些插件
 date: 2016-07-01 02:23:07
-category: 
+categories: [IT]
 tags: [php,vim]
 ---
 

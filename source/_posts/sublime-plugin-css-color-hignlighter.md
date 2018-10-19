@@ -2,7 +2,7 @@
 title: sublime插件 - css颜色高亮与取色器
 toc: false
 date: 2016-07-06 21:12:17
-category: 
+categories: Software
 tags: sublime
 ---
 

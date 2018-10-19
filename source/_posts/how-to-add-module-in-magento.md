@@ -1,7 +1,7 @@
 ---
 title: 新增magento模块
 date: 2016-06-30 18:26:54
-category:
+categories: [IT]
 tags: magento
 toc: true
 ---

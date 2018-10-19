@@ -3,7 +3,7 @@ title: hexo中添加github组件
 toc: true
 comment: true
 date: 2017-07-27 16:29:00
-categories: hexo
+categories: Blog
 tags: [hexo,github]
 ---
 

@@ -2,7 +2,7 @@
 title: 'landscape-plus主题增加hexo文章目录功能'
 toc: false
 date: 2016-07-06 14:59:23
-category:
+categories: [Blog]
 tags: hexo
 ---
 
@@ -57,6 +57,6 @@ tags: hexo
     line-height 1.8em
     li
       list-style-type none
-  .toc-child 
+  .toc-child
     margin-left 1em
 ```

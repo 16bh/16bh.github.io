@@ -3,8 +3,8 @@ title: 安装xdebug后var_dump显示问题
 toc: true
 comment: true
 date: 2017-07-24 17:08:19
-categories:
-tags: [xdebug,phpstorm,error]
+categories: Software
+tags: [xdebug,phpstorm]
 ---
 
 

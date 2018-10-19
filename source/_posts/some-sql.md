@@ -2,7 +2,7 @@
 title: 常用sql操作
 toc: false
 date: 2016-10-28 12:08:42
-categories:
+categories: IT
 tags: mysql
 ---
 
@@ -14,7 +14,7 @@ tags: mysql
 <!--more-->
 
 1. 统计查询结果的数量
-  
+
     ```sql
     select count(*) from  table
     ```

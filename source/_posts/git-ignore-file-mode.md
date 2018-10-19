@@ -2,7 +2,7 @@
 title: git设置忽略对文件权限进行版本控制
 toc: false
 date: 2016-07-11 14:08:58
-categories:
+categories: [IT]
 tags: git
 ---
 
@@ -21,7 +21,7 @@ vim project_root/.git/config
 	filemode = false         //filemode设置为false就不会记录文件权限的变化了
 	bare = false
 	logallrefupdates = true
-	ignorecase = false 
+	ignorecase = false
 	precomposeunicode = true
 
 ```
