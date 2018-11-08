@@ -147,6 +147,8 @@ homebrew install todolist
 
 ![20171120151114825072757.png](mac-software-list/20171120151114825072757.png)
 
+- `XLD` 将flac格式转换成`Apple Lossless`格式，以便导入iTunes
+
 # 编辑器
 - `PHPStorm` 	功能最齐全的PHP开发IDE
 
