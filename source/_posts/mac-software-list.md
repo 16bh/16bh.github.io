@@ -84,11 +84,11 @@ tags:
 - `Paste` 	收费，记录剪切历史，随时调用之前剪切的内容，甚至可以搜索你之前剪切的内容
 - `PopClip`   收费，选择文字会自动弹出菜单，提供复制、粘贴、保存到印象笔记等各种扩展功能
 - `Moom`   收费，调节窗口大小，并实现Windows经典功能，拖动窗口到屏幕的最左边或最右边的时候会自动半屏，拖动到屏幕左上边会自动全屏
+- `Magnet`  功能跟Moom一样，免费的
 - `Manico`   快速启动dock栏软件，其实用Alfred就够了
 - `HyperDock`   预览软件打开的窗口，拖动窗口自动半屏、全屏
-
 - `uBar` windows任务栏效果,不过挺贵
-![20170401149101624985514.png](mac-software-list/20170401149101624985514.png)
+  ![20170401149101624985514.png](mac-software-list/20170401149101624985514.png)
 - `Bartender 2`  收费，整理菜单栏，将不常用的菜单栏图标隐藏起来
 - [`Vanilla`](http://vanilla.matthewpalmer.net/r/6d400915) 类似Bartender,免费的菜单栏工具
 - `aText`   收费，片段工具，输入简短的别名替换成复杂的终端命令、代码片段等
@@ -96,7 +96,7 @@ tags:
 - `奇妙清单`(`WunderList`)		 免费，清单工具，移动端同步
 - `todoList`  任务管理，和移动端同步
 - [`todolist`](http://todolist.site/#quickstart) 在终端显示任务列表
-安装方式：
+  安装方式：
 
 ```shell
 homebrew install todolist
@@ -165,8 +165,7 @@ homebrew install todolist
 
 - `MWeb` 	  编辑markdown文件
 
-- `Typora`   不同于之前的双栏md编辑器，Typora在编辑的同时进行渲染
-  ![20170328149067066017327.png](images/20170328149067066017327.png)
+- `Typora`   免费，不同于之前的双栏md编辑器，Typora在编辑的同时进行渲染
 
 - ~~~`Haroopad`  markdown编辑器，在左侧提示常用操作，页面更美观，升级到最新版本的mac系统之后经常不会弹出界面,暂时雪藏~~~
   <img src="mac-software-list/1489378450.png" />
