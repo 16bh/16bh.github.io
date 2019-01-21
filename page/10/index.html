@@ -1,1474 +1,1561 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-CN">
+
+  
 <head>
+  <meta charset="utf-8">
+  <meta name="author" content="董沅鑫, yuanxin.me@gmail.com" />
+  
+    <meta name="robots" content="noindex" />
+  
+  
+  
+  <title>凡·间</title>
 
-    <!--[if lt IE 9]>
-        <style>body {display: none; background: none !important} </style>
-        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
-    <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="format-detection" content="telephone=no" />
-<meta name="author" content="小凡" />
+  
+    <meta name="keywords" content="Hexo, jimxu, 16bh" />
+  
 
+  <script>
+    console.log('\n%c Hexo-theme-bmw v4.0 ' + '%c 🎉 https://github.com/dongyuanxin/theme-bmw 🎉\n' + '\n%c View demo online ' + '%c 🔍 https://godbmw.com/ 🔍  \n' , 'color: #fadfa3; background: #030307; padding:3px 0;', '', 'color: #fadfa3; background: #030307; padding:3px 0;', '');
+  </script>
 
-    
-    
+  
 
+  
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="凡·间">
-<meta property="og:url" content="http://16bh.github.io/page/10/index.html">
-<meta property="og:site_name" content="凡·间">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="凡·间">
+  
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/touch-icon.png">
+  
 
-<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+  <link href="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/icon/iconfont.css">
+<link rel="stylesheet" href="/css/github-markdown.css">
+<link rel="stylesheet" href="/css/highlight.css">
 
+  <script src="/js/util.js"></script>
+<script src="/js/valine.min.js"></script>
 
-    <link rel="alternate" href="/atom.xml" title="凡·间" type="application/atom+xml">
+  
 
+  
+    <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js" async></script>
+  
 
-
-    <link rel="shortcut icon" href="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png">
-
-
-
-    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
-
-
-
-    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
-
-
-
-    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-    <style> .article { opacity: 0;} </style>
-
-
-<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-
-
-<title>凡·间</title>
-
-<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
-
-<script>
-    var yiliaConfig = {
-        fancybox: true,
-        animate: true,
-        isHome: true,
-        isPost: false,
-        isArchive: false,
-        isTag: false,
-        isCategory: false,
-        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
-        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: true
-    }
-</script>
-
-
-    <script>
-        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
-    </script>
-
-
-
-    <script> yiliaConfig.rootUrl = "\/";</script>
-
-
-
-
-
+  
+    <link href="https://cdn.bootcss.com/social-share.js/1.0.16/css/share.min.css" rel="stylesheet">
+  
+  
+  <script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js" async></script>
+  
+  
+    <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.0/dist/av-min.js"></script>
+  
 
 </head>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
-        <a href="/" class="profilepic">
-            <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/">小凡</a></h1>
-        </hgroup>
 
-        
-        <p class="header-subtitle">这一切都是命运石之门的选择！</p>
-        
+  <body>
 
-        
-            <form id="search-form">
-            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
-            <i class="fa fa-times" onclick="resetSearch()"></i>
-            </form>
-            <div id="local-search-result"></div>
-            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
-        
+    
 
+    <div id="app">
 
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        
-                    </div>
-                    
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        
-                    </ul>
-                </div>
-            </div>
-        
-
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/">主页</a></li>
-                        
-                            <li><a href="/archives/">所有文章</a></li>
-                        
-                            <li><a href="/tags/">标签云</a></li>
-                        
-                            <li><a href="/about/">关于我</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" href="mailto:xujun_njupt@126.com" title="Email"></a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/afred/">afred</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/api/">api</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/apple/">apple</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/charles/">charles</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/composer/">composer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/error/">error</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/fiddler/">fiddler</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/">go</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/json/">json</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jupyter/">jupyter</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/laravel/">laravel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lua/">lua</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/magento/">magento</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mangeo/">mangeo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/math/">math</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mtr/">mtr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ntfs/">ntfs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/oh-my-zsh/">oh my zsh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/pecl/">pecl</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpcs/">phpcs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpmd/">phpmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/postman/">postman</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/promotheus/">promotheus</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psr/">psr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/qiniu/">qiniu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/">redis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/review/">review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell/">shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tools/">tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/typora/">typora</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vscode/">vscode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wakatime/">wakatime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/website/">website</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xdebug/">xdebug</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xml/">xml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yaf/">yaf</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/zsh/">zsh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/环境/">环境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法/">算法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计模式/">设计模式</a></li></ul>
-                    </div>
-                </section>
-                
-                
-                
-
-                
-            </div>
-        </div>
-    </header>                
-</div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">小凡</a></h1>
+      <div class="header-wrap">
+  <header>
+    <div class="site-brand">
+      <div class="site-title">
+        <a href="/">16BH.GITHUB.com</a>
       </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">小凡</a></h1>
-            </hgroup>
-            
-            <p class="header-subtitle">这一切都是命运石之门的选择！</p>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/">主页</a></li>
-                
-                    <li><a href="/archives/">所有文章</a></li>
-                
-                    <li><a href="/tags/">标签云</a></li>
-                
-                    <li><a href="/about/">关于我</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" target="_blank" href="mailto:xujun_njupt@126.com" title="Email"></a>
-                            
-                        </ul>
-            </nav>
-        </header>                
     </div>
-    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
-</nav>
-      <div class="body-wrap">
-  
-    <article id="post-how-to-install-hexo-theme" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/05/how-to-install-hexo-theme/" class="article-date">
-      <time datetime="2016-07-05T03:43:41.000Z" itemprop="datePublished">2016-07-05</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/05/how-to-install-hexo-theme/">hexo如何安装主题</a>
-    </h1>
-  
-
-      </header>
+    <nav class="site-navigation">
+      <ul class="nav-menu">
       
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <li class="nav-item" data-path="/">
           
-              <blockquote>
+            <a 
+              href="/"
+              target="_self"
+            >
+              主页
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/archives/">
+          
+            <a 
+              href="/archives/"
+              target="_self"
+            >
+              归档
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/categories/">
+          
+            <a 
+              href="/categories/"
+              target="_self"
+            >
+              分类
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/tags/">
+          
+            <a 
+              href="/tags/"
+              target="_self"
+            >
+              标签
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/about/">
+          
+            <a 
+              href="/about/"
+              target="_self"
+            >
+              关于
+            </a>
+          
+        </li>
+      
+      </ul>
+    </nav>
+    <i class="iconfont icon-menu"></i>
+  </header>
+</div>
+
+<script>
+  let links = document.querySelectorAll('.nav-item');
+  for(let link of links){
+    let childrenLink = link.querySelector('ul');
+    link.addEventListener('mouseenter', () => {
+      if(childrenLink) {
+        childrenLink.className = "nav-menu--dropdown active";
+      }
+    })
+    link.addEventListener('mouseleave', () => {
+      if(childrenLink) {
+        childrenLink.className = "nav-menu--dropdown";
+      }
+    })
+  }
+  let rootRealPath = getRealPath(window.location.pathname, true);
+  for(let link of links) {
+    let linkPath = link.getAttribute("data-path");
+    if(linkPath && getRealPath(linkPath, true) === rootRealPath) {
+      link.className = "nav-item hover";
+    }
+  }
+
+  let iconMenu = document.querySelector("i.iconfont.icon-menu"),
+    iconMenuClicked = false;
+  let navDOM = document.querySelector("nav.site-navigation");
+  iconMenu.addEventListener("click", () => {
+    iconMenuClicked 
+      ? navDOM.className = "site-navigation active"
+      : navDOM.className = "site-navigation";
+    iconMenuClicked = !iconMenuClicked;
+  })
+</script>
+
+      
+<div class="container home-index">
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/07/05/hexo-enable-duoshuo/">
+        <span>hexo支持多说评论</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-07-05
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-07-05
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/Blog/">
+            Blog
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="hexo-enable-duoshuo"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Blog/">
+              Blog
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/hexo/">
+                  #hexo
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="hexo-enable-duoshuo"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/07/05/how-to-use-hexo/">
+        <span>第一次使用Hexo</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-07-05
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-07-05
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/Blog/">
+            Blog
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="how-to-use-hexo"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Blog/">
+              Blog
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/hexo/">
+                  #hexo
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="how-to-use-hexo"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/07/05/how-to-install-hexo-theme/">
+        <span>hexo如何安装主题</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-07-05
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-07-05
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/Blog/">
+            Blog
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="how-to-install-hexo-theme"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <blockquote>
 <p>以<code>landscape-plus</code>主题为例,该主题是在默认主题<code>landscape</code>结合国人的使用习惯改进的</p>
 </blockquote>
 <h1 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h1><p>终端执行命令<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd hexo;    //进入你的hexo博客的根目录</div><div class="line">git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus</div></pre></td></tr></table></figure></p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Blog/">
+              Blog
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/hexo/">
+                  #hexo
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="how-to-install-hexo-theme"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/hexo/">hexo</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/07/05/how-to-install-hexo-theme/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-build-php-develop-environment-in-macvim" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/07/01/build-php-develop-environment-in-macvim/" class="article-date">
-      <time datetime="2016-06-30T18:23:07.000Z" itemprop="datePublished">2016-07-01</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/01/build-php-develop-environment-in-macvim/">把VIM打造成php开发的IDE需要哪些插件</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/07/01/build-php-develop-environment-in-macvim/">
+        <span>把VIM打造成php开发的IDE需要哪些插件</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-07-01
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-07-01
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="build-php-develop-environment-in-macvim"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-        <p>2018-10-16：现在老实多了，基本只用IDE，不瞎折腾编辑器了</p>
-<hr>
-<p>php开发必备插件列表：</p>
-<p>（一）Vundle：管理vim插件的插件，必备</p>
-<p>（二）nerdtree：文件目录</p>
-<p>（三）nerdtree-git-plugin：在文件目录窗口显示git状态</p>
-<p>（四）vim-gitgutter：在编辑区显示文件中的改动，可以查看diff</p>
-<p>（五）tagbar：显示php文件中的方法，点击跳转到该方法</p>
-<p>（六）bufexplorer.zip：管理缓冲区，列出所有你打开的文件</p>
-<p>（七）vim-airline： 状态栏美化</p>
-<p>（八）YouCompleteMe： 代码自动补全</p>
-<p>（九）ctrlp.vim： 查找文件</p>
-<p>（十）ctags：方法跳转</p>
-<p>（十一）syntastic：语法错误分析</p>
-<p>（十二）nerdcommenter：代码注释</p>
-<p>（十三）<del>~ultisnips：代码片段</del>~　　用aText软件替代</p>
-
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/php/">
+                  #php
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/vim/">
+                  #vim
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="build-php-develop-environment-in-macvim"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vim/">vim</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-flush-magento-cache-after-use-redis" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/flush-magento-cache-after-use-redis/" class="article-date">
-      <time datetime="2016-06-30T10:30:57.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/flush-magento-cache-after-use-redis/">安装redis后清除magento缓存失效解决方案</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/30/flush-magento-cache-after-use-redis/">
+        <span>安装redis后清除magento缓存失效解决方案</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-30
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-30
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="flush-magento-cache-after-use-redis"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/redis/">
+                  #redis
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="flush-magento-cache-after-use-redis"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/30/how-to-visit-magento-controller/">
+        <span>访问模块中的controller</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-30
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-30
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="how-to-visit-magento-controller"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
         <blockquote>
-<p>在<a href="https://16bh.github.io/2016/07/05/%E5%A6%82%E4%BD%95%E6%B8%85%E9%99%A4magento%E7%BC%93%E5%AD%98/">《如何清除magento缓存》</a>一文中介绍了清除magento缓存的三种方法</p>
-</blockquote>
-<p>2016.6.27</p>
-<hr>
-<p>前几天给mac安装了redis服务器之后，今天在开发的过程中，先修改了一些配置文件，然后像往常一样用删除var下的cache目录的方法清除缓存后，发现配置文件未生效</p>
-<hr>
-<p>原因：magento缓存和redis缓存<br>解决方法：清除所有redis的缓存</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">redis-cli  //打开redis服务器的客户端</div><div class="line">flushall  //清除所有redis服务内容</div></pre></td></tr></table></figure>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/redis/">redis</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-how-to-visit-magento-controller" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/how-to-visit-magento-controller/" class="article-date">
-      <time datetime="2016-06-30T10:27:55.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/how-to-visit-magento-controller/">访问模块中的controller</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <blockquote>
 <p>magento与别的框架的不同之处之一：路由规则通过xml文件进行配置<br>参考：《深入理解magento 第二章》</p>
 </blockquote>
 <p>简单介绍magento的控制器。</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="how-to-visit-magento-controller"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/php/">php</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/30/how-to-visit-magento-controller/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-disable-module-in-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/disable-module-in-magento/" class="article-date">
-      <time datetime="2016-06-30T10:27:32.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/disable-module-in-magento/">禁用magento模块</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/30/disable-module-in-magento/">
+        <span>禁用magento模块</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-30
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-30
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="disable-module-in-magento"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="disable-module-in-magento"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/30/how-to-add-module-in-magento/">
+        <span>新增magento模块</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-30
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-30
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="how-to-add-module-in-magento"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="how-to-add-module-in-magento"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/30/enable-magento-develop-model/">
+        <span>开启开发者模式</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-30
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-30
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="enable-magento-develop-model"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="enable-magento-develop-model"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/30/magento-code-structure/">
+        <span>初识magento框架代码结构</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-30
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-30
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="magento-code-structure"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="magento-code-structure"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/">
+        <span>mac下php开发环境搭建:nginx+mysql+php+php-fpm</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-30
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-30
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/php/">
+                  #php
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/环境/">
+                  #环境
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/28/sublime-php-build-system-on-mac/">
+        <span>mac环境sublime配置php编译环境</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-28
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-28
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/Software/">
+            Software
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="sublime-php-build-system-on-mac"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
         <blockquote>
-<p>有时候，我们需要禁用一些不用的模块，如magento核心模块中的Authorizenet模块是国外支付用的一个模块，国内商城是用不上的，可以禁用，让magento更轻便</p>
-</blockquote>
-<p>访问magento后台<code>localhost/magento/admin</code><br>选择<code>System/Configuration</code><br>在左侧选择<code>ADVANED/Advanced</code>，<br><img src="/2016/06/30/disable-module-in-magento/1240-20181016225740190.png" alt="Paste_Image.png"><br>在右侧展示的是所有已激活的模块列表</p>
-<p><img src="/2016/06/30/disable-module-in-magento/1240-20181016225743643.png" alt=""></p>
-<p>找到你要禁用的模块，将模块右侧的状态从‘Enable’改成‘Disable’就可以禁用该模块了，如图所示</p>
-<p><img src="/2016/06/30/disable-module-in-magento/1240-20181016225747141.png" alt=""></p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-how-to-add-module-in-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/how-to-add-module-in-magento/" class="article-date">
-      <time datetime="2016-06-30T10:26:54.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/how-to-add-module-in-magento/">新增magento模块</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <blockquote>
-<p>模块是magento的基本功能单位<br>因为业务的需求而新增一个模块是常见的需求，网上也有很多的教程，推荐《深入理解magento第二章》</p>
-</blockquote>
-<p>一切的开始</p>
-<p>首先，成立一个公司，就叫<code>Nano</code>吧（- - 说到底不过是为了存放模块用的吧）<br>然后，就建立一个<code>app</code>的模块好了，一个好的公司怎么能没有<code>app</code>应用呢</p>
-<p>模块的结构</p>
-<p>按如下路径建立文件夹和文件：<br><img src="/2016/06/30/how-to-add-module-in-magento/1467908621346.png"></p>
-<p>其中，</p>
-<ul>
-<li>local是本地模块的路径</li>
-<li>Nano是模块的名字空间，一般是公司名</li>
-<li>App是建立的模块名称，一般以它的功能进行命名</li>
-<li>App目录下的是一个模块</li>
-</ul>
-<h1 id="修改模块配置文件"><a href="#修改模块配置文件" class="headerlink" title="修改模块配置文件"></a>修改模块配置文件</h1><p>编辑模块的配置文件<code>Nano/App/etc/config.xml</code></p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span><span class="meta">?&gt;</span></span></div><div class="line"><span class="tag">&lt;<span class="name">config</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">modules</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">Nano_App</span>&gt;</span><span class="comment">&lt;!--模块的名字空间与模块名称用下划线分隔开--&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">version</span>&gt;</span>0.0.1<span class="tag">&lt;/<span class="name">version</span>&gt;</span><span class="comment">&lt;!--配置文件的版本号是0.0.1，后面进行数据库操作的时候，修改数据库就要将版本号递增一次--&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">Nano_App</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">modules</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">config</span>&gt;</span></div></pre></td></tr></table></figure>
-<p>#激活模块<br>在<code>app/etc/modules</code>中新增<code>Nano_App.xml</code>并编辑:</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="php"><span class="meta">&lt;?</span>xml version=<span class="string">"1.0"</span><span class="meta">?&gt;</span></span></div><div class="line"><span class="tag">&lt;<span class="name">config</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">modules</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">Nano_App</span>&gt;</span><span class="comment">&lt;!--模块的名字空间与模块名称用下划线分隔开--&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">active</span>&gt;</span>true<span class="tag">&lt;/<span class="name">active</span>&gt;</span><span class="comment">&lt;!--模块的激活状态，若为false，则模块未启用--&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">codePool</span>&gt;</span>local<span class="tag">&lt;/<span class="name">codePool</span>&gt;</span><span class="comment">&lt;!--模块的位置属性，分为核心core、社区community、本地local--&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">Nano_App</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">modules</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">config</span>&gt;</span></div></pre></td></tr></table></figure>
-<h1 id="查看模块是否新增成功"><a href="#查看模块是否新增成功" class="headerlink" title="查看模块是否新增成功"></a>查看模块是否新增成功</h1><p>先清除<code>magento</code>的缓存，使得上述配置文件生效</p>
-<p>然后访问<code>magento</code>后台<code>localhost/magento/admin</code>，如果已经登录后台了，那么可能需要退出登录重新登录后台<br>选择<code>System/Configuration</code><br>然后在左边的菜单栏选择<code>Advanced</code><br><img src="/2016/06/30/how-to-add-module-in-magento/1467908925897.png"></p>
-<p>在右侧展示的是所有模块</p>
-<p><img src="/2016/06/30/how-to-add-module-in-magento/1467908876033.png"></p>
-<p>如果能在列表中找到刚建立的模块 <code>Tecent_App</code>,那么就说明模块新建成功了</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-enable-magento-develop-model" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/enable-magento-develop-model/" class="article-date">
-      <time datetime="2016-06-30T10:26:22.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/enable-magento-develop-model/">开启开发者模式</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <blockquote>
-<p>开启了开发者模式后，可以直接在页面上显示错误信息。</p>
-</blockquote>
-<ol>
-<li><p><code>项目根目录/errors</code>下的<code>local.xml.sample</code> 修改为<code>local.xml</code></p>
-</li>
-<li><p>修改index.php</p>
-</li>
-</ol>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"><span class="keyword">if</span> (<span class="keyword">isset</span>($_SERVER[<span class="string">'MAGE_IS_DEVELOPER_MODE'</span>])) &#123;</div><div class="line">    Mage::setIsDeveloperMode(<span class="keyword">true</span>);</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">#ini_set('display_errors', 1);</span></div></pre></td></tr></table></figure>
-<p>改为</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">Mage::setIsDeveloperMode(<span class="keyword">true</span>);</div><div class="line">ini_set(<span class="string">'display_errors'</span>, <span class="number">1</span>);</div></pre></td></tr></table></figure>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-magento-code-structure" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/magento-code-structure/" class="article-date">
-      <time datetime="2016-06-30T10:24:32.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/magento-code-structure/">初识magento框架代码结构</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>安装好magento之后，用IDE打开所在文件夹，会看到如下所在的代码结构：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div></pre></td><td class="code"><pre><div class="line">/app     –程序根目录</div><div class="line">/app/etc –全局配置文件目录</div><div class="line">/app/code –所有模块安装其模型和控制器的目录</div><div class="line">/app/code/core –核心代码或经过认证得模块，如果要升级不要这里的代码</div><div class="line">/app/code/community –社区版的模块目录</div><div class="line">/app/code/local –定制代码目录</div><div class="line">/app/code/core/Mage –magento默认命名空间</div><div class="line">/app/code/core/Mage/&#123;Module&#125; –模块根目录</div><div class="line">/app/code/core/Mage/&#123;Module&#125;/etc –模块的配置文件目录</div><div class="line">/app/code/core/Mage/&#123;Module&#125;/controllers –模块的控制器</div><div class="line">/app/code/core/Mage/&#123;Module&#125;/Block –显示块的逻辑类</div><div class="line">/app/code/core/Mage/&#123;Module&#125;/Model –模块的对象模型</div><div class="line">/app/code/core/Mage/&#123;Module&#125;/Model/Mysql4 –模块的资源模型</div><div class="line">/app/code/core/Mage/&#123;Module&#125;/sql –模块各个版本的安装和升级用sql </div><div class="line">/app/code/core/Mage/&#123;Module&#125;/sql/&#123;resource&#125;/ - 升级是需要的资源模型</div><div class="line">/app/code/core/Mage/&#123;Module&#125;/sql/&#123;resource&#125;/&#123;type&#125;-&#123;action&#125;-&#123;versions&#125;.(sql|php) –资源升级文件例如: mysql4-upgrade-0.6.23-0.6.25.sql </div><div class="line">/app/design –设计包目录(layouts, templates, translations) </div><div class="line">/app/design/frontend –前端的设计</div><div class="line">/app/design/adminhtml –后台管理设计</div><div class="line">/app/design/&#123;area&#125;/&#123;package&#125;/&#123;theme&#125; –定制的主题</div><div class="line">/app/design/&#123;area&#125;/&#123;package&#125;/&#123;theme&#125;/layout –定义显示块的 .xml 文件</div><div class="line">/app/design/&#123;area&#125;/&#123;package&#125;/&#123;theme&#125;/template – .phtml (html with php tags)模版</div><div class="line">/app/design/&#123;area&#125;/&#123;package&#125;/&#123;theme&#125;/locale –Zend_Translate 兼容的主题用的文字翻译</div><div class="line">/app/locale –本地化文件</div><div class="line">/app/locale/&#123;locale (en_US)&#125; –Zend_Translate 兼容的模块用的文字翻译</div><div class="line">/skin/&#123;area&#125;/&#123;package&#125;/&#123;theme&#125;/- css和图像</div><div class="line">/lib –公用库</div><div class="line">/js – javascripts </div><div class="line">/media –上传文件存放目录</div><div class="line">/tests –测试目录</div><div class="line">/var –临时文件目录</div></pre></td></tr></table></figure>
-<p>说明：</p>
-<ol>
-<li><p><code>app/code</code>目录下分为三部分：<code>core</code>、<code>community</code>、<code>local</code></p>
-<ul>
-<li><code>core</code>里的是核心模块，修改了这部分的话magento就没法升级了</li>
-<li><code>commutiy</code>里的是社区模块，就是别人开发的，有免费的也有收费的</li>
-<li><strong><em><code>local</code></em></strong>里的是我们自己开发的模块，在新建模块之前先建立一个名字空间，一般是公司的名称，如tecent，然后就可以在<code>app/code/local/tecent/</code>目录下新建模块了，如何新建模块，参考<a href=""></a></li>
-</ul>
-</li>
-<li><p><code>media</code>和<code>var</code>文件需要有写入的权限，在安装<code>magento</code>的时候如果这两个文件权限不够的话会报错，需要<code>chmod 777</code>修改文件夹的权限</p>
-</li>
-</ol>
-<p>2018-10-16 用tree命令展示整个目录会更清晰，当时还不知道这个命令。</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/" class="article-date">
-      <time datetime="2016-06-30T10:21:57.000Z" itemprop="datePublished">2016-06-30</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/">mac下php开发环境搭建:nginx+mysql+php+php-fpm</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>#关于集成环境</p>
-<p>如果要使用apache服务器的话，可以考虑windows环境下可以安装集成环境，phpstudy、xampp<br>mac下也有集成环境：<a href="https://www.mamp.info/en/" target="_blank" rel="external">MAMP</a>,基础功能不能切换php版本，高级功能收费</p>
-<p>另外，mac自带了apache和php，如果对php版本要求不高，线上服务器使用的是apache的话，只需要启用并进行简单的配置，搭配上mysql数据库就拥有一套开发环境了</p>
-<p>至于<strong><em>到底是安装集成环境还是逐项安装</em></strong>，我的建议是跟线上服务器保持一致：<br>线上使用nginx，那我们本地就使用nginx,不然远程服务器上的nginx日志都不知道在哪里<br>线上使用php5，我们也用php5，就不要图新鲜安装php7了（可以在虚拟机里单独搭建一套测试环境，那想装什么样的都ok）</p>
-<h2 id="一-准备工作"><a href="#一-准备工作" class="headerlink" title="一 准备工作"></a>一 准备工作</h2><p>安装homebrew</p>
-<h2 id="二-安装配置mysql"><a href="#二-安装配置mysql" class="headerlink" title="二 安装配置mysql"></a>二 安装配置mysql</h2><ol>
-<li><p>在终端通过命令行安装</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install mysql</div></pre></td></tr></table></figure>
-</li>
-<li><p>设置mysql开机启动</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents</div><div class="line">launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist</div></pre></td></tr></table></figure>
-</li>
-<li><p>通过安全方式设置mysql的密码<br>输入以下命令后</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/local/opt/mysql/bin/mysql_secure_installation</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>根据提示输入密码,密码要记住，下面登录的时候要用</p>
-<ol>
-<li><p>登录mysql数据库</p>
-<p><img src="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/1240-20181015214455236.png" alt="数据库登录"></p>
-</li>
-<li><p>安装mysql客户端<br>推荐使用<code>Sequel</code><br>安装方法：搜索下载安装文件或用命令行下载</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew cask install sequel-pro</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<p>效果图：<br><img src="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/1240.jpeg" alt="sequel界面"></p>
-<p>#三  安装配置php及php-fpm</p>
-<p>  系统自带的php版本不一定能满足我们的需要，一般我们会选择重新安装php，安装的版本应当与线上环境的php版本保持一致。<strong><em>这样就可以避免本地与线上php版本不一致产生的bug</em></strong>，比如老版本的一些方法在新版本中已经被淘汰了，而新版本增加了许多实用的功能老版本并不支持<br>举个小例子：<br>php5.4之后，可以用<code>[]</code>表示数组</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$a = [</div><div class="line">    <span class="string">'a'</span> =&gt; <span class="number">1</span>,</div><div class="line">    <span class="string">'b'</span> =&gt; <span class="number">2</span>,</div><div class="line">];</div></pre></td></tr></table></figure>
-<ol>
-<li>安装php(若要使用系统自带的php可跳过这一步)，以php5.5为例<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php55 --with-fpm --with-gmp --with-imap --with-tidy --with-debug --with-mysql --with-libmysql</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<ol>
-<li>安装php扩展，也可以先不急，等后面要用到什么扩展的时候再安装也可以<br>安装扩展的方法(以xdebug扩展为例)：</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php55-xdebug --build-from-source;</div></pre></td></tr></table></figure>
-<p>最后的<code>--build-from-source</code>是一定要加上的，我看很多教程里都漏了这一句。加上这句可以保证安装的扩展与php版本保持一致</p>
-<blockquote>
-<p>备注：要卸载通过homebrew安装的php扩展，参考这篇文章：<a href="http://www.jianshu.com/p/ef92888fd5f4" target="_blank" rel="external">mac环境下通过homebrew安装的php报错解决</a></p>
-</blockquote>
-<ol>
-<li>配置环境变量，使我们安装的5.5版本的php覆盖系统自带的php</li>
-</ol>
-<p>在文件中写入下面的内容</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">export PATH=&quot;$(brew --prefix php55)/bin:$PATH&quot;</div><div class="line">export PATH=&quot;$(brew --prefix php55)/sbin:$PATH&quot;</div><div class="line">export PATH=&quot;/usr/local/bin:/usr/local/sbin:$PATH&quot;</div></pre></td></tr></table></figure>
-<p>觉得这样麻烦的，可以直接删除mac自带的老版本的php后再安装</p>
-<ol>
-<li><p>php-fpm配置<br>打开你的php目录，一般在<code>usr/local/etc/php/5.5</code>，需要配置<code>php-fpm.conf</code>和<code>php.ini</code></p>
-</li>
-<li><p>php-fpm开机启动</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ln -sfv /usr/local/opt/php55/*.plist ~/Library/LaunchAgents</div><div class="line">launchctl load ~/Library/LaunchAgents/homebrew.mxcl.php55.plist</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="四-安装配置nginx"><a href="#四-安装配置nginx" class="headerlink" title="四 安装配置nginx"></a>四 安装配置nginx</h2><ol>
-<li><p>安装nginx</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install nginx --with-http_geoip_module</div></pre></td></tr></table></figure>
-</li>
-<li><p>启动nginx</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo nginx</div></pre></td></tr></table></figure>
-</li>
-<li><p>重新加载配置|重启|停止|退出 nginx</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">nginx -s reload/reopen/stop/quit</div></pre></td></tr></table></figure>
-</li>
-<li><p>设置nginx开机启动</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ln -sfv /usr/local/opt/nginx/*.plist ~/Library/LaunchAgents</div><div class="line">launchctl load ~/Library/LaunchAgents/homebrew.mxcl.nginx.plist</div></pre></td></tr></table></figure>
-</li>
-</ol>
-<h2 id="五-配置快捷键"><a href="#五-配置快捷键" class="headerlink" title="五 配置快捷键"></a>五 配置快捷键</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">alias nginx.start=&quot;sudo nginx&quot;</div><div class="line">alias fpm.start=&quot;sudo php-fpm -D&quot;</div><div class="line">alias redis.start=&quot;redis-server /usr/local/etc/redis.conf&quot;</div><div class="line"></div><div class="line">alias nginx.stop=&quot;sudo nginx -s quit&quot;</div><div class="line">alias fpm.stop=&apos;sudo pkill php-fpm&apos;</div></pre></td></tr></table></figure>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/环境/">环境</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-sublime-php-build-system-on-mac" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/28/sublime-php-build-system-on-mac/" class="article-date">
-      <time datetime="2016-06-28T06:35:34.000Z" itemprop="datePublished">2016-06-28</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/28/sublime-php-build-system-on-mac/">mac环境sublime配置php编译环境</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <blockquote>
 <p>有时候在写<code>php</code>代码的时候，需要写一些短小的脚本测试，比如<code>empty()</code>,<code>is_null()</code>函数碰到<code>null</code>、<code>false</code>、<code>0</code>等变量时的结果</p>
 <p>这些脚本可能就两三句话，想要运行的话，比较麻烦,幸好<code>sublime</code>自带的编译环境也支持php,不过需要我们进行一些配置</p>
 </blockquote>
 <p>先确认你的<code>php</code>已经加入了环境变量</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sublime/">sublime</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/28/sublime-php-build-system-on-mac/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-flush-magento-cache" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/flush-magento-cache/" class="article-date">
-      <time datetime="2016-06-24T10:28:34.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/flush-magento-cache/">如何清除magento缓存</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Software/">
+              Software
+            </a>
+          </span>
           
-        <h2 id="手动删除"><a href="#手动删除" class="headerlink" title="手动删除"></a>手动删除</h2><p>直接删除文件夹：<code>项目根目录/var/cache</code>(需要先暂停<code>nginx</code>服务)</p>
-<h2 id="终端删除缓存"><a href="#终端删除缓存" class="headerlink" title="终端删除缓存"></a>终端删除缓存</h2><p>在终端删除的命令行：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">rm -rf 项目根目录/var/cache</div></pre></td></tr></table></figure>
-<p>可以建立别名，后面快捷删除</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">vim ~/.zshrc</div><div class="line">alias cache.clear="rm -rf 项目根目录/var/cache"</div><div class="line">source ~/.zshrc</div></pre></td></tr></table></figure>
-<p>注意：如果没有安装过<code>oh my zsh</code>，那么需要将上面命令中的<code>.zshrc</code>换成 <code>.bash_profile</code><br>建立别名后，直接在终端输入</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">cache.clear</div></pre></td></tr></table></figure>
-<p>即可清缓存</p>
-<h2 id="后台删除缓存"><a href="#后台删除缓存" class="headerlink" title="后台删除缓存"></a>后台删除缓存</h2><p>进入后台，选择<code>System</code> &gt; <code>Cache Management</code></p>
-<p>其中<code>Configuration</code>表示配置文件，如<code>local.xml</code>、<code>config.xml</code>的缓存</p>
-<p><img src="/2016/06/24/flush-magento-cache/1473771056463.png" alt=""></p>
-<h2 id="清除redis缓存"><a href="#清除redis缓存" class="headerlink" title="清除redis缓存"></a>清除redis缓存</h2><p>当magento接入redis之后，清除redis的缓存会清除magento的所有缓存，清除方法</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&gt;</span>redis-cli</div><div class="line">FLUSHALL</div></pre></td></tr></table></figure>
-<blockquote>
-<p>注：最好不要这样做，会清除产品、列表、fpc以及其它所有缓存</p>
-</blockquote>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-show-name-of-template-and-block-in-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/show-name-of-template-and-block-in-magento/" class="article-date">
-      <time datetime="2016-06-24T10:25:19.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/show-name-of-template-and-block-in-magento/">定位前台的template和block</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <span>
           
-        <h1 id="背景：-关于template和block"><a href="#背景：-关于template和block" class="headerlink" title="背景： 关于template和block"></a>背景： 关于template和block</h1><blockquote>
-<p>Magento 的执行控制器不直接将数据传给试图,相反的视图将直接引用模型,从模型取数据。这样的设计就导致了视图被拆分成两 部 分,块(Block)和模板(Template)。块是 PHP 对象,而模板是原始 PHP 文件,混合了 XHTML 和 PHP 代码(也就是把 PHP 作为模板语言 来使用了)。每 一个块都和一个唯一的模板文件绑定。在模板文件 phtml 中,“$this”就是指 该模板文件对应的块对象。<br> ​                                   -引用自《深入理解magento第三章》</p>
-</blockquote>
-<h1 id="方法一：直接在项目中搜索模板中的关键字"><a href="#方法一：直接在项目中搜索模板中的关键字" class="headerlink" title="方法一：直接在项目中搜索模板中的关键字"></a>方法一：直接在项目中搜索模板中的关键字</h1><p>直接在代码库中搜索前台出现的关键字，如登陆页面的“用户名”、“密码”；首页的的“联系我们”之类的<br>缺点是可能会搜索到很多相关的文件，需要仔细的甄别</p>
-<h1 id="方法二：-［推荐］修改后台配置，直接在前台看到模板的名称"><a href="#方法二：-［推荐］修改后台配置，直接在前台看到模板的名称" class="headerlink" title="方法二： ［推荐］修改后台配置，直接在前台看到模板的名称"></a>方法二： ［推荐］修改后台配置，直接在前台看到模板的名称</h1><p>打开后台<code>你的magento网址/admin</code>选择：<br><code>System - Configuration</code><br>再选择<code>ADVANCED</code>下的<code>Developer</code>，如图<br><img src="/2016/06/24/show-name-of-template-and-block-in-magento/1240-20181016144235520.png" alt=""><br>先在左上角选择<code>Default Store View</code>，如图<br><img src="/2016/06/24/show-name-of-template-and-block-in-magento/1240-20181016144240355.png" alt=""><br>再修改右边的<code>Debug</code>模块，如图<br><img src="/2016/06/24/show-name-of-template-and-block-in-magento/1240-20181016144244805.png" alt="后台配置步骤"><br>然后在前台就会显示对应的<code>template</code>和<code>block</code>了<br>效果图：</p>
-<p><img src="/2016/06/24/show-name-of-template-and-block-in-magento/1467950460634.png" alt=""></p>
-<h1 id="方法三：安装开发者插件（不可用）"><a href="#方法三：安装开发者插件（不可用）" class="headerlink" title="方法三：安装开发者插件（不可用）"></a>方法三：安装开发者插件（不可用）</h1><blockquote>
-<p>注：从水水的博客看到的方法，见<br><a href="http://blog.csdn.net/shuishui8310/article/details/5223383" target="_blank" rel="external">http://blog.csdn.net/shuishui8310/article/details/5223383</a></p>
-</blockquote>
-<p>安装要用的key:   <strong>magento-community/HM_DeveloperToolbar</strong></p>
-
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/php/">
+                  #php
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/sublime/">
+                  #sublime
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
       
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-how-to-install-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/how-to-install-magento/" class="article-date">
-      <time datetime="2016-06-24T10:23:45.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/how-to-install-magento/">安装magento</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ol>
-<li>搭建开发环境：nginx(apache)+php+php-fpm+mysql</li>
-<li><p>在mysql中新建magento要用的数据库</p>
-</li>
-<li><p>注册<a href="https://magento.com" target="_blank" rel="external">magento</a>官网账号，并下载magento<br><a href="https://magento.com" target="_blank" rel="external">https://magento.com</a></p>
-</li>
-</ol>
-<p><img src="/2016/06/24/how-to-install-magento/1240-20181016234501738.png" alt=""><br>选择社区版，在打开的页面点<code>Download Now</code></p>
-<p><img src="/2016/06/24/how-to-install-magento/1240-20181016234506901.png" alt=""><br>选择带sample data的版本（即测试数据，不然安装好了啥都没有，要自己从头弄起，安装好了）</p>
-<p>下载完成后解压到本地根目录，文件夹名称修改成你的项目名称，如’jimPractiseMagento’,即可以通过<code>localhost</code>访问到的目录</p>
-<h1 id="安装mageno"><a href="#安装mageno" class="headerlink" title="安装mageno"></a>安装mageno</h1><p>访问<code>localhost/jimPractiseMagento</code>会自动跳转到安装页面</p>
-<p>第一步，【用户协议】，勾选<code>agree</code>，选择<code>continue</code></p>
-<p><img src="/2016/06/24/how-to-install-magento/1240-20181016234509869.png" alt=""></p>
-<p>第二步，【语言】， 选择<code>continue</code></p>
-<p><img src="/2016/06/24/how-to-install-magento/1240-20181016234521824.png" alt=""></p>
-<p>第三步，【检测问题】一般出问题的都在这一步</p>
-<p>常见的错误有两种：</p>
-<blockquote>
-<ol>
-<li>缺乏<code>php</code>扩展</li>
-<li>文件路径不可写，如下图所示</li>
-</ol>
-</blockquote>
-<p><img src="/2016/06/24/how-to-install-magento/1240-20181016234512464.png" alt=""></p>
-<p>缺乏php扩展的时候，根据提示安装对应的扩展即可</p>
-<p>如果像图示一样提示：<code>xxx/media</code>或<code>xxx/var</code>路径不可写的时候，执行下面的命令<strong><em>修改根目录的文件权限</em></strong></p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">chmod -R 777 文件根目录路径</div></pre></td></tr></table></figure>
-<blockquote>
-<p>注：修改权限以后，<code>git</code>可能会将改了权限的文件视为一种修改，并出现在<code>sourceTree</code>的未暂存文件中，这里就需要修改git的配置</p>
-</blockquote>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd 项目根目录</div><div class="line">vim .git/config</div></pre></td></tr></table></figure>
-<p>将.git/config文件中的<code>filemode = true</code>改为<code>filemode = false</code>即可</p>
-<p>解决页面提示的错误后刷新下页面，没有错误后点<code>continue</code></p>
-<p>第四步，【数据库】，填写数据库信息后，点<code>continue</code>，安装完成<br>（这里比较简单，故略去）</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-fast-type-long-shell-command" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/fast-type-long-shell-command/" class="article-date">
-      <time datetime="2016-06-24T10:18:52.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/fast-type-long-shell-command/">mac下快速输入长命令行的两种方法</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>本文介绍两种在mac下快捷输入长命令行的方法<br>以启动redis服务的命令<code>/usr/local/bin/redis-server /etc/redis.conf</code>为例</p>
-<h1 id="方法一：-alias"><a href="#方法一：-alias" class="headerlink" title="方法一： alias"></a>方法一： alias</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">cd ~  //进入用户目录</div><div class="line">vim .zshrc  //如果安装了zsh的话，打开这个配置，否则使用 vim .bash_profile</div><div class="line">//编辑配置文件</div><div class="line">alias redis.start="/usr/local/bin/redis-server /etc/redis.conf"//注意，等号左右不能有空格</div><div class="line">//完成编辑</div><div class="line">source .zshrc  //保存配置，同理，未安装zsh的使用 source .bash_profile</div></pre></td></tr></table></figure>
-<p>这样，别名就设置好了<br>直接在终端使用<code>redis.start</code>就可以启动你的<code>redis</code>服务了<br><em>甚至，你还可以将多个alias结合起来使用（见文末）</em></p>
-<h1 id="方法二：atext"><a href="#方法二：atext" class="headerlink" title="方法二：atext"></a>方法二：atext</h1><blockquote>
-<p>注：也可以使用其他类似的软件，如<code>TextExpander</code></p>
-</blockquote>
-<p><strong><em>1.下载并安装<code>atext</code></em></strong><br>  略</p>
-<p><strong><em>2.atext设置 </em></strong><br>先在偏好设置里设置触发片段的热键，如ctrl+\<br>然后打开atext，新建一个片段组<code>New Group</code>，并如下图所示设置组的属性<br>  <img src="/2016/06/24/fast-type-long-shell-command/1240-20181017001939521.png" alt="atext设置"><br>这样设置之后，我们输入片段+热键就能触发命令，展开片段对应的内容</p>
-<p><strong><em>3.编辑常用命令</em></strong><br>如图所示，在组下面新建常用的片段<br><img src="/2016/06/24/fast-type-long-shell-command/1240-20181017001635860.png" alt="atext使用示意图"><br><strong><em>4.使用</em></strong><br>这时候，在终端输入设置好的片段名称，如<code>redis.start</code>，再按设置好的热键，如 ctrl+\ ,就会自动展开成<code>/usr/local/bin/redis-server /etc/redis.conf</code><br>，按<code>return</code>即可使用该命令了</p>
-<h1 id="两种方法的比较"><a href="#两种方法的比较" class="headerlink" title="两种方法的比较"></a>两种方法的比较</h1><p>第一种alias的方法比较快捷，不用再输入热键，可以可以将多个alias组合起来使用，如：<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">alias fpm.start="sudo php55-fpm start"</div><div class="line">alias fpm.stop="sudo php55-fpm stop"</div><div class="line">alias fpm.restart='fpm.stop &amp;&amp; fpm.start'</div></pre></td></tr></table></figure></p>
-<p>局限性：只能在自己的终端上使用，不能在别的地方用，只能给命令行设置别名</p>
-<p>第二种<code>atext</code>的使用范围很广，不但可以在自己的终端上使用，还可以在远程服务的终端上使用，还可以记录常用的代码片段，在coding的时候使用（<strong><em>话说最后才是<code>atext</code>最常用的功能吧：）- 来自本人的吐槽</em></strong>）</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/">tools</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-oh-my-zsh-cow-welcome" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/24/oh-my-zsh-cow-welcome/" class="article-date">
-      <time datetime="2016-06-24T10:16:03.000Z" itemprop="datePublished">2016-06-24</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/24/oh-my-zsh-cow-welcome/">在oh my zsh的基础上添加终端的欢迎界面</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <p>2018-10-16：虽然现在不用这个了，但是还是觉得很有趣</p>
-<hr>
-<p>先上效果图，就是这只萌萌哒的小牛以及牛说的每日格言啦，怎么做出这种效果呢，往下看。</p>
-<p><img src="/2016/06/24/oh-my-zsh-cow-welcome/1240-20181016225140769.png" alt=""></p>
-<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><p>假设你已经完成了下面的准备工作</p>
-<blockquote>
-<p>*安装了items2+zsh+oh my zsh(安装过程在这里不赘述了，网上一堆教程,推荐迟建强老师的教程：<a href="http://macshuo.com/?p=676" target="_blank" rel="external">终极 Shell</a>)</p>
-<p>*安装了homebrew</p>
-</blockquote>
-<h1 id="开始安装zsh的欢迎界面"><a href="#开始安装zsh的欢迎界面" class="headerlink" title="开始安装zsh的欢迎界面"></a>开始安装zsh的欢迎界面</h1><p>第一步，先用<code>homebrew</code>安装两个依赖的包</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew install fortune</div><div class="line">brew install cowsay</div></pre></td></tr></table></figure>
-<p>第二步，安装<code>oh my zsh</code>的<code>chucknorris</code>插件<br>打开终端配置文件</p>
-<pre><code>vim ~/.zshrc
-</code></pre><p>修改<code>plugins = ( )</code>这一行<br>括号里表示你安装过的插件，以空格区分，只要加上<code>chucknorris</code>就可以了，下面是我安装的所有的<code>oh my zsh</code>的插件，以供参考</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">plugins=(brew git z extract history catimg wd last-working-dir chucknorris )</div></pre></td></tr></table></figure>
-<p>再在.zshrc文件的最后一行添一句命令：</p>
-<p><code>chuck_cow</code><br>即可</p>
-<p>保存并退出，重新加载配置文件</p>
-<p><code>source ~/.zshrc</code></p>
-<p>重启终端，牛牛就出来啦</p>
-<p>enjoy it!</p>
-
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/oh-my-zsh/">oh my zsh</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/tools/">tools</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-  
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/9/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><a class="extend next" rel="next" href="/page/11/">Next &raquo;</a>
-    </nav>
-  
-</div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                <i class="fa fa-copyright"></i>
-                2015-2018 小凡<a href="mailto:xujun_njupt@126.com">通过邮件联系我</a>
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
-            </div>
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="sublime-php-build-system-on-mac"></span>
+          </span>
         </div>
-        
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>| </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
-        
+      
     </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/24/flush-magento-cache/">
+        <span>如何清除magento缓存</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-24
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-24
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="flush-magento-cache"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="flush-magento-cache"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/24/show-name-of-template-and-block-in-magento/">
+        <span>定位前台的template和block</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-24
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-24
+      </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="show-name-of-template-and-block-in-magento"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="show-name-of-template-and-block-in-magento"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/24/how-to-install-magento/">
+        <span>安装magento</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-24
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-24
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="how-to-install-magento"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="how-to-install-magento"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+
+  <nav class="page-navigation">
+    
+      <a href="/page/9/">上一页</a>
+    
+    
+      <a href="/page/11/">下一页</a>
+    
+  </nav>
+
+  
+    <script defer>
+const valineAPI = (() => {
+  try {
+    AV.init("NCeV64E5tzksk4EkiV7IUtYj-gzGzoHsz", "tajxyQiSX2markpmi5N0oImA");
+  } catch(error) {}
+  const isExist = (identity) => {
+    identity = identity || getRealPath();
+    let query = new AV.Query('Timer');
+    return new Promise((resolve, reject) => {
+      query.equalTo("identity", identity);
+      query.find().then(results => {
+        resolve(results.length > 0);
+      }, error => reject(error));
+    })
+  }
+
+  const _get = (identity) => {
+    let query = null;
+    if(identity && identity instanceof Array){
+      let querys = [];
+      for(let i = 0; i < identity.length; ++i) {
+        querys[i] = new AV.Query('Timer');
+        querys[i].equalTo('identity', identity[i]);
+      }
+      query = AV.Query.or.apply(null ,querys);
+    } else {
+      identity = identity || getRealPath();
+      query = new AV.Query("Timer");
+      query.equalTo("identity", identity);
+    }
+
+    return new Promise((resolve, reject) => {
+      query.find()
+      .then(results => resolve(results))
+      .catch(error => reject(error))
+    })
+  }
+
+  const create = (identity) => {
+    identity = identity || getRealPath();
+    return new Promise((resolve, reject) => {
+      let Todo = AV.Object.extend('Timer');
+      let todo = new Todo();
+      todo.set("times", 1);
+      todo.set("identity", identity);
+      todo.save().then(res => resolve(true), error => reject(error));
+    })
+  }
+
+  const update = (identity) => {
+    identity = identity || getRealPath();
+    return new Promise((resolve, reject) => {
+      let query = new AV.Query('Timer');
+      query.equalTo("identity", identity);
+      query.find().then(todos => {
+        todos.forEach(todo => {
+          todo.set("times", todo.attributes.times + 1);
+        });
+        return AV.Object.saveAll(todos);
+      }).then(todos => resolve(true), error => reject(error));
+    })
+  }
+
+  return {
+    isExist,
+    _get,
+    update,
+    create
+  }
+})()
+
+const calcAndWriteTimes = () => {
+  let isPost = false;
+
+  let timerAllDOM = document.querySelectorAll(".article-timer");
+
+  if(isPost) {
+    let identity = timerAllDOM[0].getAttribute("data-identity");
+    valineAPI.isExist(identity)
+    .then(exist => {
+      if(exist) {
+        return valineAPI.update(identity);
+      }
+      return new Promise(resolve => resolve(true));
+    })
+    .then( succuess => valineAPI._get(identity))
+    .then( result => timerAllDOM[0].innerText = result[0].attributes.times)
+    .catch(error => console.log(error.message))
+    return ;
+  }
+
+  let timerDOMCache = {};
+
+  for(let timerDOM of timerAllDOM) {
+    let identity = timerDOM.getAttribute("data-identity");
+    if(timerDOMCache.hasOwnProperty(identity)){
+      timerDOMCache[identity].dom.push(timerDOM);
+    }else{
+      timerDOMCache[identity] = {
+        dom: [timerDOM],
+        times: undefined
+      };
+    }
+  }
+
+  let identities = Object.keys(timerDOMCache);
+  valineAPI._get(identities).then(results => {
+    for(let result of results) {
+      let {identity, times} = result.attributes;
+      timerDOMCache[identity].times = times;
+      timerDOMCache[identity].dom.map(item => item.innerText = times);
+    }
+    for(let identity of identities) {
+      if(timerDOMCache[identity].times){
+        continue;
+      }
+      timerDOMCache[identity].dom.map(item => item.innerText = 1);
+      valineAPI.create(identity);
+    }
+  }).catch(error => console.log(error.message))
+}
+
+if(true){
+  calcAndWriteTimes();
+}
+</script>
+   
+</div>
+
+
+      <footer>
+  <p class="site-info">
+    博客已萌萌哒运行<span id="time-to-now"></span><span class="my-face">(●'◡'●)ﾉ♥</span>
+    <br>
+    Theme - <a href="https://github.com/dongyuanxin/theme-bmw">BMW</a> | Made With 💗 | Powered by <a href="https://godbmw.com/">GodBMW</a>
+    <br>
+    
+  </p>
 </footer>
 
-    </div>
-    
-    <script src="/js/GithubRepoWidget.js"></script>
-
-<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
 
 
-    
-
-     
-
-
-
-
-<div class="scroll" id="scroll">
-    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
-</div>
 <script>
-    // Open in New Window
-    
-        var oOpenInNew = {
-             github: ".github-widget a", 
-            
-             post: ".article-entry a[href], .copyright a[href]", 
-            
-            
-            
-             archives: ".archive-article-title", 
-             miniArchives: "a.post-list-link", 
-            
-             friends: "#js-friends a", 
-             socail: ".social a" 
-        }
-        for (var x in oOpenInNew) {
-            $(oOpenInNew[x]).attr("target", "_blank");
-        }
-    
+const timeToNowDOM = document.querySelector("#time-to-now");
+const startTimestamp = new Date(2015, 11, 21).getTime();
+
+const updateTimeStr = () => {
+  let offset = parseInt(
+      (new Date().getTime() - startTimestamp) / 1000,
+      10
+    ),
+    day = Math.floor(offset / 86400),
+    hour = Math.floor((offset % 86400) / 3600),
+    minute = Math.floor(((offset % 86400) % 3600) / 60),
+    second = Math.floor(((offset % 86400) % 3600) % 60);
+  timeToNowDOM.innerHTML =
+    day + "天" + hour + "小时" + minute + "分钟" + second + "秒";
+  setTimeout(updateTimeStr, 500);
+}
+
+setTimeout(updateTimeStr, 500);
 </script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+
+      <div class="back-to-top hidden">
+  <span>
+    <i class="iconfont icon-60"></i><span></span>%
+  </span>
+</div>
+
+<script>
+const updateIconToTop = percent => {
+  let dom = document.querySelector(".back-to-top span span");
+  dom.innerText = percent;
+  if(percent < 1) {
+    document.querySelector(".back-to-top").className = "back-to-top hidden";
+  } else {
+    document.querySelector(".back-to-top").className = "back-to-top";
+  }
+}
+
+const handleScoll = () => {
+  let isRunning = false;
+  return () => {
+    if (isRunning) return;
+    isRunning = true;
+    window.requestAnimationFrame(timestamp => {
+      let scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop,
+        scrollHeight =
+          document.documentElement.scrollHeight ||
+          document.body.scrollHeight,
+        clientHeight =
+          document.documentElement.clientHeight ||
+          document.body.clientHeight;
+      isRunning = false;
+      if (scrollTop <= 1) {
+        updateIconToTop(0);
+        return;
+      }
+      if (scrollTop + clientHeight >= scrollHeight) {
+        updateIconToTop(100);
+      } else {
+        updateIconToTop(parseInt(
+          100 * scrollTop / (scrollHeight - clientHeight),
+          10
+        ));
+      }
+    });
+  };
+}
+
+const backToTop = () => {
+  let scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop,
+    delay = 10,
+    time = 200;
+  if (scrollTop <= 20) {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    return;
+  }
+  let step = Math.ceil(scrollTop * delay / time);
+  let timer = setInterval(() => {
+    scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    if (scrollTop - step <= 0) {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      clearInterval(timer);
+    } else {
+      document.documentElement.scrollTop = scrollTop - step;
+      document.body.scrollTop = scrollTop - step;
+    }
+  }, delay);
+}
+
+document.addEventListener("scroll", handleScoll(), false);
+
+document.querySelector(".back-to-top").addEventListener("click", backToTop, false);
+
 </script>
-  </div>
-</body>
+
+    </div>
+
+    
+
+    <script src="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js" async></script>
+<script async>
+  let fancyTimer = setInterval(function(){
+    if(!window.$){
+      return;
+    }
+    $(document).ready(function() {
+      $(".post img").each(function () {
+        if($(this).parent().get(0).tagName.toLowerCase() === "a") {
+          return;
+        }
+        // $(this).attr("data-fancybox", "gallery"); // if you add 'data-fancybox', img will display after showed
+        var element = document.createElement("a");
+        $(element).attr("data-fancybox", "gallery");
+        $(element).attr("href", $(this).attr("src"));
+        $(this).wrap(element);
+      });
+      
+      clearInterval(fancyTimer);
+    });
+  }, 10);
+</script>
+
+    
+  </body>
+
 </html>

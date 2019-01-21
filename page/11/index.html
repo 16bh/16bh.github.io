@@ -1,843 +1,951 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-CN">
+
+  
 <head>
+  <meta charset="utf-8">
+  <meta name="author" content="董沅鑫, yuanxin.me@gmail.com" />
+  
+    <meta name="robots" content="noindex" />
+  
+  
+  
+  <title>凡·间</title>
 
-    <!--[if lt IE 9]>
-        <style>body {display: none; background: none !important} </style>
-        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
-    <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="format-detection" content="telephone=no" />
-<meta name="author" content="小凡" />
+  
+    <meta name="keywords" content="Hexo, jimxu, 16bh" />
+  
 
+  <script>
+    console.log('\n%c Hexo-theme-bmw v4.0 ' + '%c 🎉 https://github.com/dongyuanxin/theme-bmw 🎉\n' + '\n%c View demo online ' + '%c 🔍 https://godbmw.com/ 🔍  \n' , 'color: #fadfa3; background: #030307; padding:3px 0;', '', 'color: #fadfa3; background: #030307; padding:3px 0;', '');
+  </script>
 
-    
-    
+  
 
+  
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="凡·间">
-<meta property="og:url" content="http://16bh.github.io/page/11/index.html">
-<meta property="og:site_name" content="凡·间">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="凡·间">
+  
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/touch-icon.png">
+  
 
-<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+  <link href="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/icon/iconfont.css">
+<link rel="stylesheet" href="/css/github-markdown.css">
+<link rel="stylesheet" href="/css/highlight.css">
 
+  <script src="/js/util.js"></script>
+<script src="/js/valine.min.js"></script>
 
-    <link rel="alternate" href="/atom.xml" title="凡·间" type="application/atom+xml">
+  
 
+  
+    <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js" async></script>
+  
 
-
-    <link rel="shortcut icon" href="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png">
-
-
-
-    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
-
-
-
-    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
-
-
-
-    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-    <style> .article { opacity: 0;} </style>
-
-
-<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-
-
-<title>凡·间</title>
-
-<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
-
-<script>
-    var yiliaConfig = {
-        fancybox: true,
-        animate: true,
-        isHome: true,
-        isPost: false,
-        isArchive: false,
-        isTag: false,
-        isCategory: false,
-        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
-        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: true
-    }
-</script>
-
-
-    <script>
-        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
-    </script>
-
-
-
-    <script> yiliaConfig.rootUrl = "\/";</script>
-
-
-
-
-
+  
+    <link href="https://cdn.bootcss.com/social-share.js/1.0.16/css/share.min.css" rel="stylesheet">
+  
+  
+  <script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js" async></script>
+  
+  
+    <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.0/dist/av-min.js"></script>
+  
 
 </head>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
-        <a href="/" class="profilepic">
-            <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/">小凡</a></h1>
-        </hgroup>
 
-        
-        <p class="header-subtitle">这一切都是命运石之门的选择！</p>
-        
+  <body>
 
-        
-            <form id="search-form">
-            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
-            <i class="fa fa-times" onclick="resetSearch()"></i>
-            </form>
-            <div id="local-search-result"></div>
-            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
-        
+    
 
+    <div id="app">
 
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        
-                    </div>
-                    
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        
-                    </ul>
-                </div>
-            </div>
-        
-
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/">主页</a></li>
-                        
-                            <li><a href="/archives/">所有文章</a></li>
-                        
-                            <li><a href="/tags/">标签云</a></li>
-                        
-                            <li><a href="/about/">关于我</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" href="mailto:xujun_njupt@126.com" title="Email"></a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/afred/">afred</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/api/">api</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/apple/">apple</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/charles/">charles</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/composer/">composer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/error/">error</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/fiddler/">fiddler</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/">go</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/json/">json</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jupyter/">jupyter</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/laravel/">laravel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lua/">lua</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/magento/">magento</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mangeo/">mangeo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/math/">math</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mtr/">mtr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ntfs/">ntfs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/oh-my-zsh/">oh my zsh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/pecl/">pecl</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpcs/">phpcs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpmd/">phpmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/postman/">postman</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/promotheus/">promotheus</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psr/">psr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/qiniu/">qiniu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/">redis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/review/">review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell/">shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tools/">tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/typora/">typora</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vscode/">vscode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wakatime/">wakatime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/website/">website</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xdebug/">xdebug</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xml/">xml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yaf/">yaf</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/zsh/">zsh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/环境/">环境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法/">算法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计模式/">设计模式</a></li></ul>
-                    </div>
-                </section>
-                
-                
-                
-
-                
-            </div>
-        </div>
-    </header>                
-</div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">小凡</a></h1>
+      <div class="header-wrap">
+  <header>
+    <div class="site-brand">
+      <div class="site-title">
+        <a href="/">16BH.GITHUB.com</a>
       </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
+    </div>
+    <nav class="site-navigation">
+      <ul class="nav-menu">
+      
+        <li class="nav-item" data-path="/">
+          
+            <a 
+              href="/"
+              target="_self"
+            >
+              主页
             </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">小凡</a></h1>
-            </hgroup>
-            
-            <p class="header-subtitle">这一切都是命运石之门的选择！</p>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/">主页</a></li>
-                
-                    <li><a href="/archives/">所有文章</a></li>
-                
-                    <li><a href="/tags/">标签云</a></li>
-                
-                    <li><a href="/about/">关于我</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" target="_blank" href="mailto:xujun_njupt@126.com" title="Email"></a>
-                            
-                        </ul>
-            </nav>
-        </header>                
-    </div>
-    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
-</nav>
-      <div class="body-wrap">
-  
-    <article id="post-brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/" class="article-date">
-      <time datetime="2016-06-23T10:22:39.000Z" itemprop="datePublished">2016-06-23</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/">mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
           
-        <h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><blockquote>
-<p><em>注：可以直接查看最下面的解决方案</em></p>
-</blockquote>
-<p>事情的起因是这样的：<br>通过下面的命令安装imagic扩展（不要问我为什么装这玩意儿，抽风了可能）</p>
-<pre><code>brew install php55-imagick
-</code></pre><p>运行 <code>php --version</code>发现报错信息<br><img src="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240.png" alt="安装imagick报错"></p>
-<blockquote>
-<p>注：此处解决方案参考了这里<br><a href="https://github.com/Homebrew/homebrew-php/issues/1556" target="_blank" rel="external">https://github.com/Homebrew/homebrew-php/issues/1556</a></p>
-</blockquote>
-<p>报错原因是因为安装的<strong><em>imagick扩展与php版本不匹配</em></strong>，通过下面的命令重新安装<br>  <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew reinstall php55-imagick --build-from-source</div></pre></td></tr></table></figure></p>
-<p>运行 <code>php --version</code>发现新的报错信息<br><img src="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214159584.png" alt="imagick报错信息"></p>
-<p>这个原因一直没找到</p>
-<p>然后我一想：我管它什么原因，这玩意儿我压根就不需要吧，卸载了就是了<br>执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew uninstall php55-imagick</div></pre></td></tr></table></figure></p>
-<p>果然，又报错了：<br><img src="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214210796.png" alt=""></p>
-<p>在<code>stackoverflow</code>上搜索了半天，几乎所有提供的解决方案都是重装<code>imagick</code><br>but，前面装过了还是会报错啊</p>
-<p>先是在<code>php.ini</code>文件中看看在哪里启用了imagick这个扩展，并没有发现</p>
-<blockquote>
-<p>附：<code>php.ini</code>的路径是：<br><code>/usr/local/etc/php/5.5</code>(如果你跟我一样是通过homebrew安装的php的话)</p>
-</blockquote>
-<h1 id="最终解决方案"><a href="#最终解决方案" class="headerlink" title="最终解决方案"></a>最终解决方案</h1><blockquote>
-<p>注：最后的解决方法参考这里<br> <a href="http://stackoverflow.com/questions/5282264/php-warning-php-startup-unable-to-load-dynamic-library" target="_blank" rel="external">http://stackoverflow.com/questions/5282264/php-warning-php-startup-unable-to-load-dynamic-library</a></p>
-</blockquote>
-<p>先执行下面的命令，获取所有跟php配置相关的文件的路径，终于找到了通过homebrew安装的扩展的位置<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">php -i | grep ini</div></pre></td></tr></table></figure></p>
-<p><img src="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214214845.png" alt=""></p>
-<p>接下来就简单了,打开ext-imagick.ini文件</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /usr/local/etc/php/5.5/conf.d/</div><div class="line">vim ext-imagick.ini</div></pre></td></tr></table></figure>
-<p>注销掉<code>extentions=&quot;&quot;</code>这行就可以了<br><img src="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/1240-20181015214222889.png" alt=""></p>
-<p>这下，世界终于安静了，每次启动php的时候静悄悄的，再也没有烦人的warning提示了</p>
+        </li>
+      
+        <li class="nav-item" data-path="/archives/">
+          
+            <a 
+              href="/archives/"
+              target="_self"
+            >
+              归档
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/categories/">
+          
+            <a 
+              href="/categories/"
+              target="_self"
+            >
+              分类
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/tags/">
+          
+            <a 
+              href="/tags/"
+              target="_self"
+            >
+              标签
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/about/">
+          
+            <a 
+              href="/about/"
+              target="_self"
+            >
+              关于
+            </a>
+          
+        </li>
+      
+      </ul>
+    </nav>
+    <i class="iconfont icon-menu"></i>
+  </header>
+</div>
 
+<script>
+  let links = document.querySelectorAll('.nav-item');
+  for(let link of links){
+    let childrenLink = link.querySelector('ul');
+    link.addEventListener('mouseenter', () => {
+      if(childrenLink) {
+        childrenLink.className = "nav-menu--dropdown active";
+      }
+    })
+    link.addEventListener('mouseleave', () => {
+      if(childrenLink) {
+        childrenLink.className = "nav-menu--dropdown";
+      }
+    })
+  }
+  let rootRealPath = getRealPath(window.location.pathname, true);
+  for(let link of links) {
+    let linkPath = link.getAttribute("data-path");
+    if(linkPath && getRealPath(linkPath, true) === rootRealPath) {
+      link.className = "nav-item hover";
+    }
+  }
+
+  let iconMenu = document.querySelector("i.iconfont.icon-menu"),
+    iconMenuClicked = false;
+  let navDOM = document.querySelector("nav.site-navigation");
+  iconMenu.addEventListener("click", () => {
+    iconMenuClicked 
+      ? navDOM.className = "site-navigation active"
+      : navDOM.className = "site-navigation";
+    iconMenuClicked = !iconMenuClicked;
+  })
+</script>
+
+      
+<div class="container home-index">
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/24/fast-type-long-shell-command/">
+        <span>mac下快速输入长命令行的两种方法</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-24
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-24
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/Software/">
+            Software
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="fast-type-long-shell-command"></span>
+        </span>
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
     </div>
-
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Software/">
+              Software
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/shell/">
+                  #shell
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
       
-      <div class="clearfix"></div>
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="fast-type-long-shell-command"></span>
+          </span>
+        </div>
+      
     </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-how-to-use-json" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/23/how-to-use-json/" class="article-date">
-      <time datetime="2016-06-23T10:14:55.000Z" itemprop="datePublished">2016-06-23</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/23/how-to-use-json/">在php中使用json</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/24/oh-my-zsh-cow-welcome/">
+        <span>在oh my zsh的基础上添加终端的欢迎界面</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-24
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-24
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/Software/">
+            Software
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="oh-my-zsh-cow-welcome"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-        <h1 id="关于json"><a href="#关于json" class="headerlink" title="关于json"></a>关于json</h1><ol>
-<li><p>为什么要使用json<br>json字符串容易存储，尤其是要将一个数组存入数据库或缓存或记录日志的时候</p>
-</li>
-<li><p>json_encode</p>
-</li>
-</ol>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$str = json_encode($arr);</div></pre></td></tr></table></figure>
-<ol>
-<li>json_decode<br>在<code>Dash</code>中的函数格式如下</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mixed json_decode ( string $json [, bool $assoc = false [, int $depth = 512 [, int $options = 0 ]]] )</div></pre></td></tr></table></figure>
-<p>注意第二个参数，当<code>json_decode()</code>的第二个参数不填的时候，json解析的到的结果是个object对象，只有当第二个参数是true的时候，json解析的结果才是list数组<br>即</p>
-<figure class="highlight php"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$object = json_decode($str);</div><div class="line">$array = json_decode($str,<span class="keyword">true</span>);</div></pre></td></tr></table></figure>
-<p><strong><em>如果是做API接口开发，经常和客户端联调的筒子们肯定就知道，object类型和list类型对于安卓来说相差甚远，直接关系到接口是否能够解析</em></strong></p>
-<h1 id="关于json工具"><a href="#关于json工具" class="headerlink" title="关于json工具"></a>关于json工具</h1><ol>
-<li><p>在线json解析<br>（1）Json Parser Online:<a href="http://json.parser.online.fr/" target="_blank" rel="external">http://json.parser.online.fr/</a><br>优势：界面简洁美观,json解析框够大，适用于解析很长的json字符串</p>
-<p><img src="/2016/06/23/how-to-use-json/1240-20181016234745433.png" alt=""></p>
-<p>（2） Be Json</p>
-<p><img src="/2016/06/23/how-to-use-json/1240-20181016234749326.png" alt=""><br>优势：<strong><em>json解析出错时会给出错误提示</em></strong></p>
-</li>
-<li><p>Chrome的json解析扩展 - <code>JSONVIEW</code><br>安装完成后调用接口直接在页面上显示json解析后的内容</p>
-</li>
-</ol>
-<p>下载链接：<br><a href="https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc" target="_blank" rel="external">https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc</a></p>
-<p>效果图：<br><img src="/2016/06/23/how-to-use-json/1240-20181016234752107.png" alt=""></p>
-
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Software/">
+              Software
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/zsh/">
+                  #zsh
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="oh-my-zsh-cow-welcome"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/json/">json</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-magento-log" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/22/magento-log/" class="article-date">
-      <time datetime="2016-06-22T10:29:37.000Z" itemprop="datePublished">2016-06-22</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/22/magento-log/">magento日志</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/">
+        <span>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-23
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-23
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-              <h1 id="一-关于错误日志"><a href="#一-关于错误日志" class="headerlink" title="一 关于错误日志"></a>一 关于错误日志</h1><p>使用magento的过程中经常出现图示的错误页面<br><img src="/2016/06/22/magento-log/1240-20181016235031944.png" alt="magento错误页面"><br>红框中的部分是错误日志的编号，以下是查看对应的错误日志的方法：</p>
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/php/">
+                  #php
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/brew/">
+                  #brew
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/23/how-to-use-json/">
+        <span>在php中使用json</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-23
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-23
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="how-to-use-json"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/php/">
+                  #php
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/json/">
+                  #json
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="how-to-use-json"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/22/magento-log/">
+        <span>magento日志</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-22
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-22
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="magento-log"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <h1 id="一-关于错误日志"><a href="#一-关于错误日志" class="headerlink" title="一 关于错误日志"></a>一 关于错误日志</h1><p>使用magento的过程中经常出现图示的错误页面<br><img src="/2016/06/22/magento-log/1240-20181016235031944.png" alt="magento错误页面"><br>红框中的部分是错误日志的编号，以下是查看对应的错误日志的方法：</p>
 <ol>
 <li>在<strong><em><code>项目根目录/var/report/错误日志编号</code></em></strong>文件中即可查看对应的错误信息</li>
 <li>在页面上直接显示错误信息的方法：将<code>项目根目录/errors/local.xml.sample</code>修改为<code>local.xml</code>即可(最好保留原文件)<br>附：通过终端命令行复制文件<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd 你的项目根目录路径/errors</div><div class="line">cp local.xml.sample local.xml</div></pre></td></tr></table></figure>
 </li>
 </ol>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="magento-log"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/22/magento-log/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-redis-in-magento" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/21/redis-in-magento/" class="article-date">
-      <time datetime="2016-06-21T10:30:09.000Z" itemprop="datePublished">2016-06-21</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/21/redis-in-magento/">在magento中配置使用redis缓存</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/21/redis-in-magento/">
+        <span>在magento中配置使用redis缓存</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-21
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-21
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="redis-in-magento"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <p>php常用的缓存工具：memcached和redis,本文讲的是在magento框架中借助magento的模块来使用redis</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-              <p>php常用的缓存工具：memcached和redis,本文讲的是在magento框架中借助magento的模块来使用redis</p>
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
           
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/redis/">
+                  #redis
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="redis-in-magento"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/magento/">magento</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/redis/">redis</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/21/redis-in-magento/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-install-redis-on-mac" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/20/install-redis-on-mac/" class="article-date">
-      <time datetime="2016-06-20T10:12:38.000Z" itemprop="datePublished">2016-06-20</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/20/install-redis-on-mac/">mac下安装redis</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/20/install-redis-on-mac/">
+        <span>mac下安装redis</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-20
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-20
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="install-redis-on-mac"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <p>在mac上安装redis服务。</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-              <p>在mac上安装redis服务。</p>
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
           
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/redis/">
+                  #redis
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="install-redis-on-mac"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/redis/">redis</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/06/20/install-redis-on-mac/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-reset-launchpad-icon" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/16/reset-launchpad-icon/" class="article-date">
-      <time datetime="2016-06-16T14:51:31.000Z" itemprop="datePublished">2016-06-16</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/16/reset-launchpad-icon/">重新排序Launchpad图标</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/16/reset-launchpad-icon/">
+        <span>重新排序Launchpad图标</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-16
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-16
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/Software/">
+            Software
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="reset-launchpad-icon"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-        <p>在终端执行：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">defaults write com.apple.dock ResetLaunchPad -bool true; killall Dock</div></pre></td></tr></table></figure>
-<p>复原：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">defaults write com.apple.dock ResetLaunchPad -bool false; killall Dock</div></pre></td></tr></table></figure>
-
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Software/">
+              Software
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/launchpad/">
+                  #launchpad
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="reset-launchpad-icon"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/mac/">mac</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-homebrew、homebrew-cask及cakebrew" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/06/16/homebrew、homebrew-cask及cakebrew/" class="article-date">
-      <time datetime="2016-06-16T10:19:59.000Z" itemprop="datePublished">2016-06-16</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/06/16/homebrew、homebrew-cask及cakebrew/">homebrew、homebrew-cask及cakebrew</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/06/16/homebrew、homebrew-cask及cakebrew/">
+        <span>homebrew、homebrew-cask及cakebrew</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-06-16
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-06-16
+      </span>
       
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="homebrew、homebrew-cask及cakebrew"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
-        <h2 id="一-用homebrew安装常用包"><a href="#一-用homebrew安装常用包" class="headerlink" title="一 用homebrew安装常用包"></a>一 用homebrew安装常用包</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</div></pre></td></tr></table></figure>
-<p>在终端运行<code>brew</code>命令可得到常用命令</p>
-<blockquote>
-<p>Example usage:<br>  查询包是否存在：brew search [TEXT|/REGEX/]<br>  查询包信息及可用安装命令：brew (info|home|options) [FORMULA…]<br>  安装包：brew install FORMULA…<br>  更新homebrew：brew update<br>  更新包：brew upgrade [FORMULA…]<br>  卸载包：brew uninstall FORMULA…<br>  查看已安装包：brew list [FORMULA…]  </p>
-<p>Troubleshooting:<br>  brew config<br>  检查homebrew状况：brew doctor<br>  brew install -vd FORMULA</p>
-<p>Brewing:<br>  brew create [URL [–no-fetch]]<br>  brew edit [FORMULA…]<br>  <a href="https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Formula-Cookbook.md" target="_blank" rel="external">https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Formula-Cookbook.md</a></p>
-<p>Further help:<br>  man brew<br>  brew help [COMMAND]<br>  brew home</p>
-</blockquote>
-<p>如：<br>​<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">brew search brew-cask</div><div class="line">brew install nginx</div><div class="line">brew search php</div><div class="line">brew uninstall mysql</div></pre></td></tr></table></figure></p>
-<p>​      </p>
-<h2 id="二-用homebrew-cask安装常用软件"><a href="#二-用homebrew-cask安装常用软件" class="headerlink" title="二 用homebrew-cask安装常用软件"></a>二 用homebrew-cask安装常用软件</h2><p>比在网上下载安装文件安装的优势在于：<br>（1）节省下载安装包的过程，一行命令即可安装<br>（2）一些在网上搜不到安装文件的软件也可以通过这种方法安装</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">brew tap phinze/homebrew-cask</div><div class="line">brew install brew-cask</div></pre></td></tr></table></figure>
-<p>使用方法：将上面的brew换成brew-cask即可，如</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew-cask install qq</div></pre></td></tr></table></figure>
-<h2 id="三-用cakebrew可视化你的homebrew"><a href="#三-用cakebrew可视化你的homebrew" class="headerlink" title="三 用cakebrew可视化你的homebrew"></a>三 用cakebrew可视化你的homebrew</h2><p>如果你不熟悉终端命令，可以下载cakebrew，它是homebrew的客户端，可以实现常用的搜索、安装、卸载操作<br>官网下载安装</p>
-<blockquote>
-<p><a href="https://www.cakebrew.com" target="_blank" rel="external">https://www.cakebrew.com</a></p>
-</blockquote>
-<p>或执行以下命令</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew cask install cakebrew</div></pre></td></tr></table></figure>
-<p>效果图：<br><img src="/2016/06/16/homebrew、homebrew-cask及cakebrew/app-bg.png" alt=""></p>
-
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/brew/">
+                  #brew
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="homebrew、homebrew-cask及cakebrew"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/homebrew/">homebrew</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-php-review-note-on-2016-04" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/22/php-review-note-on-2016-04/" class="article-date">
-      <time datetime="2016-04-22T07:00:35.000Z" itemprop="datePublished">2016-04-22</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/22/php-review-note-on-2016-04/">2016年4月php面试笔记</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/04/22/php-review-note-on-2016-04/">
+        <span>2016年4月php面试笔记</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-04-22
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-04-22
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="php-review-note-on-2016-04"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>面试岗位：web开发工程师<br>时间： 2016-04-22</p>
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <p>面试岗位：web开发工程师<br>时间： 2016-04-22</p>
 <p>面试总结： 前端和后端数据库部分掌握不足</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/php/">
+                  #php
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/review/">
+                  #review
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="php-review-note-on-2016-04"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/php/">php</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/review/">review</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/04/22/php-review-note-on-2016-04/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-use-fiddler-to-change-website-cotent" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/18/use-fiddler-to-change-website-cotent/" class="article-date">
-      <time datetime="2016-01-18T14:16:53.000Z" itemprop="datePublished">2016-01-18</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/18/use-fiddler-to-change-website-cotent/">通过Fiddler工具进行接口代理-改变线上网页的显示结果</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2016/01/18/use-fiddler-to-change-website-cotent/">
+        <span>通过Fiddler工具进行接口代理-改变线上网页的显示结果</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-01-18
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-01-18
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/Software/">
+            Software
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="use-fiddler-to-change-website-cotent"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <blockquote>
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <blockquote>
 <p>Fiddler是抓取请求的工具的一种，类似的还有Charles等，使用Fidder之前应先关闭其他的代理工具</p>
 <p>需求如下：</p>
 <p>网站前端和服务端配合开发了一个页面，会调取接口A的数据并在页面上呈现，现在由于业务要求需要开发新的接口B，在原有的前端逻辑下正常展示。那么，在开发的过程中，在没有前端配合的情况下，服务端如何让这个页面调取B的接口并呈现呢？</p>
@@ -845,193 +953,397 @@
 <p>解决方案是这样：</p>
 <p>以去哪儿的某款产品为例：<a href="http://szgq1.package.qunar.com/user/id=187688454&amp;abt=a#tf=tejiaqunar" target="_blank" rel="external">http://szgq1.package.qunar.com/user/id=187688454&amp;abt=a#tf=tejiaqunar</a></p>
 <p>用chrome打开该链接，打开开发者工具，依次选择<code>Network -XHR</code>可以看到页面调用的服务端的接口列表</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Software/">
+              Software
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/fiddler/">
+                  #fiddler
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="use-fiddler-to-change-website-cotent"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/fiddler/">fiddler</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2016/01/18/use-fiddler-to-change-website-cotent/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-how-to-use-charles-on-windows" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2015/12/21/how-to-use-charles-on-windows/" class="article-date">
-      <time datetime="2015-12-21T14:28:27.000Z" itemprop="datePublished">2015-12-21</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/12/21/how-to-use-charles-on-windows/">windows下通过charles和夜神模拟器对安卓app进行抓包</a>
+  <div class="post">
+    <h1 class="article-title">
+      <a href="/2015/12/21/how-to-use-charles-on-windows/">
+        <span>windows下通过charles和夜神模拟器对安卓app进行抓包</span>
+      </a>
     </h1>
-  
-
-      </header>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2015-12-21
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2015-12-21
+      </span>
       
+        <span>
+        分类 :
+          <a href="/categories/Software/">
+            Software
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="how-to-use-charles-on-windows"></span>
+        </span>
+      
+    </div>
     
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <blockquote>
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <blockquote>
 <p>通过charles对手机app进行抓包，应该算是客户端、服务端、测试应该掌握的基本技能了。如果你没有一台安卓手机，又想抓取安卓app的请求的话，可以考虑在电脑上安装安卓模拟器，然后通过charles或fiddler进行抓包</p>
 </blockquote>
 <p>介绍在windows系统上通过安卓模拟器和charles进行抓包操作。</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
           
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/Software/">
+              Software
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/charles/">
+                  #charles
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="how-to-use-charles-on-windows"></span>
+          </span>
+        </div>
       
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/software/">software</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/charles/">charles</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a href="/2015/12/21/how-to-use-charles-on-windows/#more">阅读全文 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
 
-
-
-
-
-
-
-
+  <nav class="page-navigation">
+    
+      <a href="/page/10/">上一页</a>
+    
+    
+  </nav>
 
   
-  
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/10/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><a class="page-number" href="/page/10/">10</a><span class="page-number current">11</span>
-    </nav>
-  
+    <script defer>
+const valineAPI = (() => {
+  try {
+    AV.init("NCeV64E5tzksk4EkiV7IUtYj-gzGzoHsz", "tajxyQiSX2markpmi5N0oImA");
+  } catch(error) {}
+  const isExist = (identity) => {
+    identity = identity || getRealPath();
+    let query = new AV.Query('Timer');
+    return new Promise((resolve, reject) => {
+      query.equalTo("identity", identity);
+      query.find().then(results => {
+        resolve(results.length > 0);
+      }, error => reject(error));
+    })
+  }
+
+  const _get = (identity) => {
+    let query = null;
+    if(identity && identity instanceof Array){
+      let querys = [];
+      for(let i = 0; i < identity.length; ++i) {
+        querys[i] = new AV.Query('Timer');
+        querys[i].equalTo('identity', identity[i]);
+      }
+      query = AV.Query.or.apply(null ,querys);
+    } else {
+      identity = identity || getRealPath();
+      query = new AV.Query("Timer");
+      query.equalTo("identity", identity);
+    }
+
+    return new Promise((resolve, reject) => {
+      query.find()
+      .then(results => resolve(results))
+      .catch(error => reject(error))
+    })
+  }
+
+  const create = (identity) => {
+    identity = identity || getRealPath();
+    return new Promise((resolve, reject) => {
+      let Todo = AV.Object.extend('Timer');
+      let todo = new Todo();
+      todo.set("times", 1);
+      todo.set("identity", identity);
+      todo.save().then(res => resolve(true), error => reject(error));
+    })
+  }
+
+  const update = (identity) => {
+    identity = identity || getRealPath();
+    return new Promise((resolve, reject) => {
+      let query = new AV.Query('Timer');
+      query.equalTo("identity", identity);
+      query.find().then(todos => {
+        todos.forEach(todo => {
+          todo.set("times", todo.attributes.times + 1);
+        });
+        return AV.Object.saveAll(todos);
+      }).then(todos => resolve(true), error => reject(error));
+    })
+  }
+
+  return {
+    isExist,
+    _get,
+    update,
+    create
+  }
+})()
+
+const calcAndWriteTimes = () => {
+  let isPost = false;
+
+  let timerAllDOM = document.querySelectorAll(".article-timer");
+
+  if(isPost) {
+    let identity = timerAllDOM[0].getAttribute("data-identity");
+    valineAPI.isExist(identity)
+    .then(exist => {
+      if(exist) {
+        return valineAPI.update(identity);
+      }
+      return new Promise(resolve => resolve(true));
+    })
+    .then( succuess => valineAPI._get(identity))
+    .then( result => timerAllDOM[0].innerText = result[0].attributes.times)
+    .catch(error => console.log(error.message))
+    return ;
+  }
+
+  let timerDOMCache = {};
+
+  for(let timerDOM of timerAllDOM) {
+    let identity = timerDOM.getAttribute("data-identity");
+    if(timerDOMCache.hasOwnProperty(identity)){
+      timerDOMCache[identity].dom.push(timerDOM);
+    }else{
+      timerDOMCache[identity] = {
+        dom: [timerDOM],
+        times: undefined
+      };
+    }
+  }
+
+  let identities = Object.keys(timerDOMCache);
+  valineAPI._get(identities).then(results => {
+    for(let result of results) {
+      let {identity, times} = result.attributes;
+      timerDOMCache[identity].times = times;
+      timerDOMCache[identity].dom.map(item => item.innerText = times);
+    }
+    for(let identity of identities) {
+      if(timerDOMCache[identity].times){
+        continue;
+      }
+      timerDOMCache[identity].dom.map(item => item.innerText = 1);
+      valineAPI.create(identity);
+    }
+  }).catch(error => console.log(error.message))
+}
+
+if(true){
+  calcAndWriteTimes();
+}
+</script>
+   
 </div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                <i class="fa fa-copyright"></i>
-                2015-2018 小凡<a href="mailto:xujun_njupt@126.com">通过邮件联系我</a>
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
-            </div>
-        </div>
-        
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>| </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
-        
-    </div>
+
+
+      <footer>
+  <p class="site-info">
+    博客已萌萌哒运行<span id="time-to-now"></span><span class="my-face">(●'◡'●)ﾉ♥</span>
+    <br>
+    Theme - <a href="https://github.com/dongyuanxin/theme-bmw">BMW</a> | Made With 💗 | Powered by <a href="https://godbmw.com/">GodBMW</a>
+    <br>
+    
+  </p>
 </footer>
 
-    </div>
-    
-    <script src="/js/GithubRepoWidget.js"></script>
-
-<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
 
 
-    
-
-     
-
-
-
-
-<div class="scroll" id="scroll">
-    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
-</div>
 <script>
-    // Open in New Window
-    
-        var oOpenInNew = {
-             github: ".github-widget a", 
-            
-             post: ".article-entry a[href], .copyright a[href]", 
-            
-            
-            
-             archives: ".archive-article-title", 
-             miniArchives: "a.post-list-link", 
-            
-             friends: "#js-friends a", 
-             socail: ".social a" 
-        }
-        for (var x in oOpenInNew) {
-            $(oOpenInNew[x]).attr("target", "_blank");
-        }
-    
+const timeToNowDOM = document.querySelector("#time-to-now");
+const startTimestamp = new Date(2015, 11, 21).getTime();
+
+const updateTimeStr = () => {
+  let offset = parseInt(
+      (new Date().getTime() - startTimestamp) / 1000,
+      10
+    ),
+    day = Math.floor(offset / 86400),
+    hour = Math.floor((offset % 86400) / 3600),
+    minute = Math.floor(((offset % 86400) % 3600) / 60),
+    second = Math.floor(((offset % 86400) % 3600) % 60);
+  timeToNowDOM.innerHTML =
+    day + "天" + hour + "小时" + minute + "分钟" + second + "秒";
+  setTimeout(updateTimeStr, 500);
+}
+
+setTimeout(updateTimeStr, 500);
 </script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+
+      <div class="back-to-top hidden">
+  <span>
+    <i class="iconfont icon-60"></i><span></span>%
+  </span>
+</div>
+
+<script>
+const updateIconToTop = percent => {
+  let dom = document.querySelector(".back-to-top span span");
+  dom.innerText = percent;
+  if(percent < 1) {
+    document.querySelector(".back-to-top").className = "back-to-top hidden";
+  } else {
+    document.querySelector(".back-to-top").className = "back-to-top";
+  }
+}
+
+const handleScoll = () => {
+  let isRunning = false;
+  return () => {
+    if (isRunning) return;
+    isRunning = true;
+    window.requestAnimationFrame(timestamp => {
+      let scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop,
+        scrollHeight =
+          document.documentElement.scrollHeight ||
+          document.body.scrollHeight,
+        clientHeight =
+          document.documentElement.clientHeight ||
+          document.body.clientHeight;
+      isRunning = false;
+      if (scrollTop <= 1) {
+        updateIconToTop(0);
+        return;
+      }
+      if (scrollTop + clientHeight >= scrollHeight) {
+        updateIconToTop(100);
+      } else {
+        updateIconToTop(parseInt(
+          100 * scrollTop / (scrollHeight - clientHeight),
+          10
+        ));
+      }
+    });
+  };
+}
+
+const backToTop = () => {
+  let scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop,
+    delay = 10,
+    time = 200;
+  if (scrollTop <= 20) {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    return;
+  }
+  let step = Math.ceil(scrollTop * delay / time);
+  let timer = setInterval(() => {
+    scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    if (scrollTop - step <= 0) {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      clearInterval(timer);
+    } else {
+      document.documentElement.scrollTop = scrollTop - step;
+      document.body.scrollTop = scrollTop - step;
+    }
+  }, delay);
+}
+
+document.addEventListener("scroll", handleScoll(), false);
+
+document.querySelector(".back-to-top").addEventListener("click", backToTop, false);
+
 </script>
-  </div>
-</body>
+
+    </div>
+
+    
+
+    <script src="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js" async></script>
+<script async>
+  let fancyTimer = setInterval(function(){
+    if(!window.$){
+      return;
+    }
+    $(document).ready(function() {
+      $(".post img").each(function () {
+        if($(this).parent().get(0).tagName.toLowerCase() === "a") {
+          return;
+        }
+        // $(this).attr("data-fancybox", "gallery"); // if you add 'data-fancybox', img will display after showed
+        var element = document.createElement("a");
+        $(element).attr("data-fancybox", "gallery");
+        $(element).attr("href", $(this).attr("src"));
+        $(this).wrap(element);
+      });
+      
+      clearInterval(fancyTimer);
+    });
+  }, 10);
+</script>
+
+    
+  </body>
+
 </html>

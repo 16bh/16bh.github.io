@@ -1,291 +1,215 @@
 <!DOCTYPE html>
-<html lang="zh-Hans">
+<html lang="zh-CN">
+
+  
 <head>
+  <meta charset="utf-8">
+  <meta name="author" content="董沅鑫, yuanxin.me@gmail.com" />
+  
+  
+  
+  <title>yaf学习笔记 - mac环境下的安装运行 | 凡·间</title>
 
-    <!--[if lt IE 9]>
-        <style>body {display: none; background: none !important} </style>
-        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
-    <![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="format-detection" content="telephone=no" />
-<meta name="author" content="小凡" />
+  
+    <meta name="keywords" content="IT,yaf," />
+  
 
+  <script>
+    console.log('\n%c Hexo-theme-bmw v4.0 ' + '%c 🎉 https://github.com/dongyuanxin/theme-bmw 🎉\n' + '\n%c View demo online ' + '%c 🔍 https://godbmw.com/ 🔍  \n' , 'color: #fadfa3; background: #030307; padding:3px 0;', '', 'color: #fadfa3; background: #030307; padding:3px 0;', '');
+  </script>
 
+  
 
-<meta name="description" content="基于macos系统，PHP版本7.0.19  yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题  Yaf框架 = 最不像框架的框架 = 对高性能有要求时选择">
-<meta name="keywords" content="yaf">
-<meta property="og:type" content="article">
-<meta property="og:title" content="yaf学习笔记 - mac环境下的安装运行">
-<meta property="og:url" content="http://16bh.github.io/2017/06/08/yaf-study-note-install/index.html">
-<meta property="og:site_name" content="凡·间">
-<meta property="og:description" content="基于macos系统，PHP版本7.0.19  yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题  Yaf框架 = 最不像框架的框架 = 对高性能有要求时选择">
-<meta property="og:image" content="http://16bh.github.io/2017/06/08/yaf-study-note-install/20170609149700636438511.png">
-<meta property="og:updated_time" content="2018-10-16T06:19:30.632Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="yaf学习笔记 - mac环境下的安装运行">
-<meta name="twitter:description" content="基于macos系统，PHP版本7.0.19  yaf介绍Yaf = yet another framework 鸟哥用C语言编写的一个PHP扩展，致力于解决框架影响性能这一经典问题  Yaf框架 = 最不像框架的框架 = 对高性能有要求时选择">
-<meta name="twitter:image" content="http://16bh.github.io/2017/06/08/yaf-study-note-install/20170609149700636438511.png">
+  
 
-<link rel="apple-touch-icon" href= "/apple-touch-icon.png">
+  
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="apple-touch-icon" href="/images/touch-icon.png">
+  
 
+  <link href="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/base.css">
+<link rel="stylesheet" href="/icon/iconfont.css">
+<link rel="stylesheet" href="/css/github-markdown.css">
+<link rel="stylesheet" href="/css/highlight.css">
 
-    <link rel="alternate" href="/atom.xml" title="凡·间" type="application/atom+xml">
+  <script src="/js/util.js"></script>
+<script src="/js/valine.min.js"></script>
 
+  
 
+  
+    <link href="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js" async></script>
+  
 
-    <link rel="shortcut icon" href="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png">
-
-
-
-    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
-
-
-
-    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
-
-
-
-    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
-    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
-
-
-<link rel="stylesheet" href="/css/style.css">
-
-
-
-<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-
-
-<title>yaf学习笔记 - mac环境下的安装运行 | 凡·间</title>
-
-<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
-<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
-
-<script>
-    var yiliaConfig = {
-        fancybox: true,
-        animate: true,
-        isHome: false,
-        isPost: true,
-        isArchive: false,
-        isTag: false,
-        isCategory: false,
-        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
-        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
-        search: true
-    }
-</script>
-
-
-    <script>
-        yiliaConfig.jquery_ui = [true, "//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js", "//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css"];
-    </script>
-
-
-
-    <script> yiliaConfig.rootUrl = "\/";</script>
-
-
-
-
-
+  
+    <link href="https://cdn.bootcss.com/social-share.js/1.0.16/css/share.min.css" rel="stylesheet">
+  
+  
+  <script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js" async></script>
+  
+  
+    <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.0/dist/av-min.js"></script>
+  
 
 </head>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
-        <a href="/" class="profilepic">
-            <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
-        </a>
-        <hgroup>
-          <h1 class="header-author"><a href="/">小凡</a></h1>
-        </hgroup>
 
-        
-        <p class="header-subtitle">这一切都是命运石之门的选择！</p>
-        
+  <body>
 
-        
-            <form id="search-form">
-            <input type="text" id="local-search-input" name="q" placeholder="search..." class="search form-control" autocomplete="off" autocorrect="off" searchonload="true" />
-            <i class="fa fa-times" onclick="resetSearch()"></i>
-            </form>
-            <div id="local-search-result"></div>
-            <p class='no-result'>No results found <i class='fa fa-spinner fa-pulse'></i></p>
-        
+    
 
+    <div id="app">
 
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        
-                    </div>
-                    
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        
-                    </ul>
-                </div>
-            </div>
-        
-
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/">主页</a></li>
-                        
-                            <li><a href="/archives/">所有文章</a></li>
-                        
-                            <li><a href="/tags/">标签云</a></li>
-                        
-                            <li><a href="/about/">关于我</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" href="mailto:xujun_njupt@126.com" title="Email"></a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/afred/">afred</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/algorithm/">algorithm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/api/">api</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/apple/">apple</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/atom/">atom</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/charles/">charles</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/composer/">composer</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/error/">error</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/fiddler/">fiddler</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/github/">github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/go/">go</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hexo/">hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/homebrew/">homebrew</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jekyll/">jekyll</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/js/">js</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/json/">json</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/jupyter/">jupyter</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/laravel/">laravel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/lua/">lua</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mac/">mac</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/magento/">magento</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mangeo/">mangeo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/markdown/">markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/math/">math</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mtr/">mtr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/nginx/">nginx</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ntfs/">ntfs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/oh-my-zsh/">oh my zsh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/pecl/">pecl</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/php/">php</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpcs/">phpcs</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpmd/">phpmd</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/phpstorm/">phpstorm</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/postman/">postman</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/promotheus/">promotheus</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/psr/">psr</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/python/">python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/qiniu/">qiniu</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/redis/">redis</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/review/">review</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/shell/">shell</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/software/">software</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/sublime/">sublime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/tools/">tools</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/typora/">typora</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vim/">vim</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/vscode/">vscode</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/wakatime/">wakatime</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/website/">website</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xdebug/">xdebug</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/xml/">xml</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/yaf/">yaf</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/zsh/">zsh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/环境/">环境</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/算法/">算法</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/翻译/">翻译</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/设计模式/">设计模式</a></li></ul>
-                    </div>
-                </section>
-                
-                
-                
-
-                
-            </div>
-        </div>
-    </header>                
-</div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">小凡</a></h1>
+      <div class="header-wrap">
+  <header>
+    <div class="site-brand">
+      <div class="site-title">
+        <a href="/">16BH.GITHUB.com</a>
       </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                <img src="http://o9xbyqajf.bkt.clouddn.com/2017071114997616049335.png" class="animated zoomIn">
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="回到主页">小凡</a></h1>
-            </hgroup>
-            
-            <p class="header-subtitle">这一切都是命运石之门的选择！</p>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/">主页</a></li>
-                
-                    <li><a href="/archives/">所有文章</a></li>
-                
-                    <li><a href="/tags/">标签云</a></li>
-                
-                    <li><a href="/about/">关于我</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fa Email" target="_blank" href="mailto:xujun_njupt@126.com" title="Email"></a>
-                            
-                        </ul>
-            </nav>
-        </header>                
     </div>
-    <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
-</nav>
-      <div class="body-wrap"><article id="post-yaf-study-note-install" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/06/08/yaf-study-note-install/" class="article-date">
-      <time datetime="2017-06-08T03:16:47.000Z" itemprop="datePublished">2017-06-08</time>
-</a>
-
-
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 class="article-title" itemprop="name">
-      yaf学习笔记 - mac环境下的安装运行
-    </h1>
-  
-
-      </header>
+    <nav class="site-navigation">
+      <ul class="nav-menu">
       
-      <div class="article-info article-info-post">
-        
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/php/">php</a>
-    </div>
-
-
-        
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/yaf/">yaf</a></li></ul>
-    </div>
-
-        <div class="clearfix"></div>
-      </div>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <li class="nav-item" data-path="/">
           
-        <blockquote>
-<p>基于macos系统，PHP版本7.0.19</p>
-</blockquote>
-<h2 id="yaf介绍"><a href="#yaf介绍" class="headerlink" title="yaf介绍"></a>yaf介绍</h2><p>Yaf = yet another framework</p>
-<p>鸟哥用C语言编写的一个PHP扩展，致力于解决<code>框架影响性能</code>这一经典问题</p>
-<blockquote>
-<p>Yaf框架 = 最不像框架的框架 = 对高性能有要求时选择</p>
-</blockquote>
-<a id="more"></a>
-<h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
+            <a 
+              href="/"
+              target="_self"
+            >
+              主页
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/archives/">
+          
+            <a 
+              href="/archives/"
+              target="_self"
+            >
+              归档
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/categories/">
+          
+            <a 
+              href="/categories/"
+              target="_self"
+            >
+              分类
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/tags/">
+          
+            <a 
+              href="/tags/"
+              target="_self"
+            >
+              标签
+            </a>
+          
+        </li>
+      
+        <li class="nav-item" data-path="/about/">
+          
+            <a 
+              href="/about/"
+              target="_self"
+            >
+              关于
+            </a>
+          
+        </li>
+      
+      </ul>
+    </nav>
+    <i class="iconfont icon-menu"></i>
+  </header>
+</div>
+
+<script>
+  let links = document.querySelectorAll('.nav-item');
+  for(let link of links){
+    let childrenLink = link.querySelector('ul');
+    link.addEventListener('mouseenter', () => {
+      if(childrenLink) {
+        childrenLink.className = "nav-menu--dropdown active";
+      }
+    })
+    link.addEventListener('mouseleave', () => {
+      if(childrenLink) {
+        childrenLink.className = "nav-menu--dropdown";
+      }
+    })
+  }
+  let rootRealPath = getRealPath(window.location.pathname, true);
+  for(let link of links) {
+    let linkPath = link.getAttribute("data-path");
+    if(linkPath && getRealPath(linkPath, true) === rootRealPath) {
+      link.className = "nav-item hover";
+    }
+  }
+
+  let iconMenu = document.querySelector("i.iconfont.icon-menu"),
+    iconMenuClicked = false;
+  let navDOM = document.querySelector("nav.site-navigation");
+  iconMenu.addEventListener("click", () => {
+    iconMenuClicked 
+      ? navDOM.className = "site-navigation active"
+      : navDOM.className = "site-navigation";
+    iconMenuClicked = !iconMenuClicked;
+  })
+</script>
+
+      
+
+
+
+
+
+
+
+
+<div class="container post-index">
+
+  
+
+<div class="post">
+  <h1 class="article-title">
+    <span>yaf学习笔记 - mac环境下的安装运行</span>
+  </h1>
+  <div class="article-top-meta">
+    <span>
+      发布 : 
+      2017-06-08
+    </span>
+    
+      <span>
+        分类 : 
+          <a href="/categories/IT/">
+            IT
+          </a>
+      </span>
+    
+    
+      <span>
+        浏览 : <span class="article-timer" data-identity="yaf-study-note-install"></span>
+      </span>
+    
+  </div>
+
+  
+
+  <div class="article-content">
+    <div class="markdown-body">
+      <h2 id="安装yaf扩展"><a href="#安装yaf扩展" class="headerlink" title="安装yaf扩展"></a>安装yaf扩展</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install php70-yaf --build-from-source</div></pre></td></tr></table></figure>
 <p>根据自己的php版本下载对应的扩展，如你的版本是php5.6那么就通过brew下载php56-yaf</p>
 <p>在终端运行<code>php -m</code>,能看到yaf，说明扩展安装成功（或打印phpinfo()）</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">➜  ~ php -m | grep yaf</div><div class="line">yaf</div></pre></td></tr></table></figure>
@@ -302,181 +226,378 @@
 <p>这样就可以通过访问域名<code>yaf.com</code>访问到demo项目了</p>
 <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><p>访问<code>yaf.com</code>,能看到<code>Hello World! I am Stranger</code>，说明安装配置成功</p>
 <p><img src="/2017/06/08/yaf-study-note-install/20170609149700636438511.png" alt="20170609149700636438511.png"></p>
-
-      
     </div>
-    
   </div>
   
-    
-    <div class="copyright">
-        <p><span>本文标题:</span><a href="/2017/06/08/yaf-study-note-install/">yaf学习笔记 - mac环境下的安装运行</a></p>
-        <p><span>文章作者:</span><a href="/" title="回到主页">小凡</a></p>
-        <p><span>发布时间:</span>2017-06-08, 11:16:47</p>
-        <p><span>最后更新:</span>2018-10-16, 14:19:30</p>
-        <p>
-            <span>原始链接:</span><a class="post-url" href="/2017/06/08/yaf-study-note-install/" title="yaf学习笔记 - mac环境下的安装运行">http://16bh.github.io/2017/06/08/yaf-study-note-install/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://16bh.github.io/2017/06/08/yaf-study-note-install/　　作者: 小凡" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
-            <script> var clipboard = new Clipboard('.copy-path'); </script>
-        </p>
-        <p>
-            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
-        </p>
+    <div class="copy-right">
+      <div class="markdown-body">
+        <blockquote>
+        
+        
+          本文作者 : GODBMW <br/>
+        
+        原文链接 : <a href="">http://16bh.github.io/2017/06/08/yaf-study-note-install/</a><br>
+        版权声明 : 本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 许可协议。转载请注明出处！
+        </blockquote>
+      </div>
     </div>
-
-
-
-    <nav id="article-nav">
-        
-            <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2017/06/08/recycle-bottle-algorithm/">
-                    回收饮料瓶问题
-                </a>
-            </div>
-        
-        
-            <div id="article-nav-older" class="article-nav-title">
-                <a href="/2017/05/26/php-review-note-on-2017-06/">
-                    2017年4月php面试
-                </a>
-            </div>
-        
-    </nav>
+  
+  
+  
+    <div class="social-share"
+  style="margin-top: -2rem"
+  data-wechat-qrcode-title="<p>微信扫一扫</p>"
+  data-wechat-qrcode-helper="<p>微信右上角, 扫一扫分享</p>"
+   data-sites="weibo, wechat, douban" 
+  
+>
+  <span style="color: #6b7487; font-size: 1.4rem;">分享到: </span>
+</div>
+<script src="https://cdn.bootcss.com/social-share.js/1.0.16/js/social-share.min.js" async>
+  
 
   
-</article>
 
-
-
-    
-<div class="share">
-    
-        <div class="bdsharebuttonbox">
-            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
-            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
-            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
-            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
-            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
-            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
-        </div>
-        <script>
-            window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"yaf学习笔记 - mac环境下的安装运行　| 凡·间　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
-        </script>
-    
-
-    
+  <div class="article-footer">
+    <div class="article-meta pull-left">
+      <span>
+        
+          <i class="iconfont icon-06tags"></i>标签: 
+          
+          <span class="span--tag">
+            <a href="/tags/yaf/">
+              #yaf
+            </a>
+          </span>
+          
+        
+      </span>
+    </div>
+    <div class="article-meta pull-right">
+    </div>
+  </div>
 </div>
 
 
+  <aside id="sidebar">
+    <p id="sidebar-header"></p>
+    <ol id="sidebar-toc"></ol>
+  </aside>
+  <script async>setTimeout(generateToc, 10);</script>
 
 
-
-
-
+  <nav class="post-navigation">
     
+      <div class="nav-pre">
+        <i class="iconfont icon-prev"></i>
+        上一篇:
+        <a href="/2017/05/26/php-review-note-on-2017-06/" target="_self">2017年4月php面试</a>
+      </div>
+    
+    
+      <div class="nav-next">
+        下一篇:
+        <a href="/2017/06/08/recycle-bottle-algorithm/" target="_self">回收饮料瓶问题</a>
+        <i class="iconfont icon-next"></i>
+      </div>
+    
+  </nav>
 
+  
+    <a href="#comment" class="comment-anchor"></a>
+<div class="comment-title"><i class="iconfont icon-footprint"></i> 留下足迹 <i class="iconfont icon-footprint"></i></div>
+<div id="vcomments"></div>
 
+<script defer>
+  if( true ) {
+    let path = getRealPath()
+    new Valine({
+      el: "#vcomments",
+      appId: "NCeV64E5tzksk4EkiV7IUtYj-gzGzoHsz",
+      appKey: "tajxyQiSX2markpmi5N0oImA",
+      notify: false,
+      verify: false,
+      avatar: "robohash",
+      placeholder: "正确填写邮箱, 才能及时收到回复哦♪(^∇^*)",
+      path
+    });
+  }
+</script>
+   
 
+  
+    <script defer>
+const valineAPI = (() => {
+  try {
+    AV.init("NCeV64E5tzksk4EkiV7IUtYj-gzGzoHsz", "tajxyQiSX2markpmi5N0oImA");
+  } catch(error) {}
+  const isExist = (identity) => {
+    identity = identity || getRealPath();
+    let query = new AV.Query('Timer');
+    return new Promise((resolve, reject) => {
+      query.equalTo("identity", identity);
+      query.find().then(results => {
+        resolve(results.length > 0);
+      }, error => reject(error));
+    })
+  }
 
-    <div class="scroll" id="post-nav-button">
-        
-            <a href="/2017/06/08/recycle-bottle-algorithm/" title="上一篇: 回收饮料瓶问题">
-                <i class="fa fa-angle-left"></i>
-            </a>
-        
+  const _get = (identity) => {
+    let query = null;
+    if(identity && identity instanceof Array){
+      let querys = [];
+      for(let i = 0; i < identity.length; ++i) {
+        querys[i] = new AV.Query('Timer');
+        querys[i].equalTo('identity', identity[i]);
+      }
+      query = AV.Query.or.apply(null ,querys);
+    } else {
+      identity = identity || getRealPath();
+      query = new AV.Query("Timer");
+      query.equalTo("identity", identity);
+    }
 
-        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+    return new Promise((resolve, reject) => {
+      query.find()
+      .then(results => resolve(results))
+      .catch(error => reject(error))
+    })
+  }
 
-        
-            <a href="/2017/05/26/php-review-note-on-2017-06/" title="下一篇: 2017年4月php面试">
-                <i class="fa fa-angle-right"></i>
-            </a>
-        
-    </div>
+  const create = (identity) => {
+    identity = identity || getRealPath();
+    return new Promise((resolve, reject) => {
+      let Todo = AV.Object.extend('Timer');
+      let todo = new Todo();
+      todo.set("times", 1);
+      todo.set("identity", identity);
+      todo.save().then(res => resolve(true), error => reject(error));
+    })
+  }
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/10/16/a-command-more-powerful-than-man/">一款比man更好用的工具：tldr</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/">使用jupyter来学习python</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/">一种酷炫的博客实践方式：hexo+typora</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/15/batch-download-image-from-qiniu/">七牛测试域名过期后批量下载图片到本地</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/10/10/change-back-to-github-io-domin/">博客域名切回github</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/05/28/how-to-install-windows-on-mac/">如何在Mac上安装Windows</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/05/07/phpstorm-editor-based-Rest-Client/">phpstorm可编辑的Rest客户端</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/">使用pecl终端命令安装php扩展</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/03/05/2017-reading-list/">2017阅读总结</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/03/02/charles-support-https/">charles支持https</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/03/01/how-to-manage-your-photos-with-Photos/">用Photos管理你的相册</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/28/how-to-sync-data-on-your-macs/">多台mac之间的数据同步问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/28/mac-can-not-read-mobile-HDD/">mac无法读取移动硬盘</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/02/06/auto-add-whitespace-at-the-start-of-string-when-echo/">echo字符串时字符串头部出现空格bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/11/20/jupyter-support-php/">jupyter support php</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/10/16/git-Error-Permission-denied-publickey/">git Error: Permission denied (publickey)</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/10/16/phpstorm-generate-Call-Hierarchy/">phpstorm生成函数调用关系</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/08/21/phpstorm-ignore-spell-error/">phpstorm忽略拼写错误</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/08/10/postman-test-image-upload/">postman模拟图片上传</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/08/04/using-composer/">使用composer</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/31/go-study-note-grammar/">go学习笔记 - 语法</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/27/hexo-yelee-add-github-widget/">hexo中添加github组件</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/">Permanently added the RSA host key for IP address to the list of known hosts</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/26/Maximum-function-nesting-level-of-256-reached/">Maximum function nesting level of 256 reached</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/26/yaf-study-note-request-and-respose/">yaf学习笔记 - request类和respose类</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/25/prometheus-on-php/">使用php对接prometheus监控系统</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/25/disable-auto-ucfirst-word-on-mac/">关闭mac自动大写单词首字母功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/24/xdebug-var-dump-display-error/">安装xdebug后var_dump显示问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/21/apple-usa-account/">美区apple账号的申请和使用</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/19/translate-seven-userfun-programming-habits/">[译]改善编程的七个习惯</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/13/mysql-error-datetime-dafault-value-0000-00-00-00-00-00/">mysql datetime默认值设置为0000-00-00 00:00:00时报错</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/get-started-to-crontab/">crontab入门</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/use-mtr-detect-network-status/">使用mtr工具检测网络</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/12/using-Coding-host-website-code/">将Hexo网站托管到Coding.net</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/11/how-to-use-jekyll/">尝试jekyll</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/fix-invalid-private-key-after-reboot/">解决重启后私钥失效的问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/how-to-use-github-and-gitlab-same-time/">mac电脑上同时使用多个git平台</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/07/07/ssh-connect-server-without-password/">ssh连接服务器更简单一点</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/28/mac-must-install-software/">php开发者mac必装软件 - 终极版本</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/22/use-sublime-open-project/">设置使用sublime打开项目文件夹</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/21/phpstorm-php-file-header/">phpstorm修改php文件头模板</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/13/yaf-study-note-module/">yaf学习笔记 - 模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/12/yaf-study-note-mvc/">yaf学习笔记 - MVC模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/09/yaf-study-note-config/">yaf学习笔记 - 配置</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/yaf-study-note-structure/">yaf学习笔记 - 项目结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/fibonacci-algorithm/">斐波那契数列问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/wechat-raffle-algorithm/">微信领红包问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/recycle-bottle-algorithm/">回收饮料瓶问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/06/08/yaf-study-note-install/">yaf学习笔记 - mac环境下的安装运行</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/26/php-review-note-on-2017-06/">2017年4月php面试</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/17/laravel-project-tree/">Laravel目录结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/05/10/rebuild-mac-develop-environment/">从零搭建mac开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/27/phpstorm-use-atom-theme/">phpstorm安装Atom主题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/20/backend-develop-skill-tree/">后端开发技能树</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/15/book-list-before-2017/">部分书单</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/13/install-mysql-via-package/">package安装mysql</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/mysql-error-The-server-quit-without-updating-PID-file/">[mysql error]The server quit without updating PID file </a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/phpstorm-key-maps/">phpStorm快捷键个人设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/12/my-thinking-about-redis/">关于缓存的一些思考</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/go-study-note-vscode/">go学习笔记：用vscode搭建go开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/sublime-build-golang-develop-environment/">sublime搭建go-lang开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/sublime-error-There-are-no-packages-available-for-installation/">sublime报错There are no packages available for installation</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/go-study-note-install-on-mac/">go学习笔记：安装并运行hello world</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/11/go-study-note/">go语言入门知识点</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/10/magento-system-config-summary/">Magento后台配置攻略</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/markdown-insert-image-skills/">MarkDown插入图片技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/how-to-use-markdown/">MarkDown基础介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/07/magento-set-up-sql-common-problems/">Magento升级脚本常见问题</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/06/phpstorm-code-style-wrapping=-and-braces/">phpStorm格式化代码设置等号对齐</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/06/magento-get-address-data-by-order/">Magento根据订单获取地址信息</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpmd-in-phpstorm-on-mac/">mac下phpStorm配置使用phpmd</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpstorm-develop-magento-skills/">用phpStorm进行magento开发的几个Tips</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/some-psr-error/">一些psr2规范示例</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/xml-error-Unescaped-or-nonterminated-character-entity-reference/">[xml error]Unescaped & or nonterminated character/entity reference</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpcs-in-phpstorm-on-mac/">mac下phpStorm配置使用phpcs</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/04/01/phpstorm-live-template/">phpstorm使用代码片段</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/31/some-awesome-phpstorm-plugins/">phpStorm有哪些值得安装的插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/hexo-nexT-theme-add-categories-and-tags/">hexo nexT主题新增分类页和标签页</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/hexo-language-setting-not-effective/">hexo语言设置未生效解决办法</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/12-design-patterns-in-magento/">[译]Magento中的12种设计模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/30/what-does-magento's-order-model-save-function-do/">[magento]Order对象的save方法执行哪些操作？</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/29/what-does-magento's-order-model-cancel-function-do/">[magento]Order对象的cancel方法会执行哪些操作？</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/">[PHP ERROR]:Arrays are not allowed in class constants </a></li><li class="post-list-item"><a class="post-list-link" href="/2017/03/13/ios-software-list/">Software List - IOS</a></li><li class="post-list-item"><a class="post-list-link" href="/2017/01/03/lua-study-note/">Lua学习笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/28/some-sql/">常用sql操作</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/27/ios-and-mac-skills/">ios\macOs技巧</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/27/magento-inspect-sql-of-specific-code/">magento中查看某一段代码生成的sql</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/29/magento-add-column-of-grid-table/">[译]给用户grid表增加新的column</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/16/mac-software-list/">SoftWare List - Mac</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/08/03/build-php-develop-environment-in-atom/">使用atom进行php开发</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/27/hexo-yelee-theme-setting/">hexo的yelee主题设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/22/js-study-note/">PHPer学习JS 语法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/21/sublime-build-js-develop-environment/">sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/21/Customer-website-ID-must-be-specified-when-using-the-website-scope/">magento报错:Customer website ID must be specified when using the website scope</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/php-float-to-int/">php浮点数取整</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/magento-set-system-config-default-value/">magento设置后台配置的默认值</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/20/xml-error-XML-declaration-allowed-only-at-the-start-of-the-document/">XML报错:XML declaration allowed only at the start of the document</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/19/magento-cron/">magento计划任务</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/19/hexo-show-categories-and-tags/">hexo文章的分类和标签</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/14/mysql-in-magento/">Magento数据库非EAV模型使用</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/13/hexo-404-page/">设置hexo404页面</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/12/magneto-common-method/">magento常用方法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/12/oh-my-zsh-plugin-wd/">在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/wakatime-record-coding/">记录你的编程习惯 - 编辑器通用插件：WakaTime</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/sublime-plugin-markdown-preview/">sublime插件 - markdown编辑和预览</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/sublime3144-build-php-develop-environment/">sublime3144版本搭建php开发环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/magento-locale/">magento后台汉化</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/11/git-ignore-file-mode/">git设置忽略对文件权限进行版本控制</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/10/magento-new-module-add-system-config/">magento新建模块的后台配置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hexo-landscape-plus-set-head-image/">hexo菜单栏背景图片设置</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/hexo-bind-godaddy-host-name/">hexo绑定DNSPOD代理的狗爹域名</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/fix-hexo-baidu-share/">hexo的landscape-plus主题百度分享无法加载的bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/xdebug-in-phpstorm-on-mac/">mac下phpstorm配置xdebug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/08/fix-Alfred-markdown-workflow/">markdown图片链接生成的Alfred脚本微调整</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/python-install-requests/">python安装requests库</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/mangeto-rewrite-core-model/">magento复写core中的model</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/magento-rewrite-core-controller/">magento复写core中的controller</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/magneto-enable-backend-login-captcha/">magento用户登录开启验证码功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/set-nginx-server/">mac下nginx服务器设置虚拟主机</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/hexo-set-read-more/">hexo如何让首页的文章只显示一部分并出现查看更多选项</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/07/hexo-landscapse-plus-code-highlight-test/">landscape-plus主题代码高亮测试</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/sublime-plugin-css-color-hignlighter/">sublime插件 - css颜色高亮与取色器</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/set-hexo-page-size/">分别设置hexo首页、标签页、归档页文章个数</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/">解决hexo的landscape-plus主题标签和归档无法分页的bug</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-plus-add-post-toc/">landscape-plus主题增加hexo文章目录功能</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-new-post-template/">hexo默认文章的模板修改</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-pluas-add-recent-comment/">hexo侧边栏安装最近评论小物件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-new-page/">hexo菜单栏创建留言板</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/">运行hexo报错解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-plus-busuanzi-plugin/">hexo的landscape-plus主题安装不蒜子访问量统计插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/06/hexo-landscape-theme-add-friends/">hexo侧边栏增加链接小物件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/show-hidden-file-in-finder/">在Finder中查看隐藏文件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/hexo-enable-duoshuo/">hexo支持多说评论</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/how-to-use-hexo/">第一次使用Hexo</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/05/how-to-install-hexo-theme/">hexo如何安装主题</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/07/01/build-php-develop-environment-in-macvim/">把VIM打造成php开发的IDE需要哪些插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/flush-magento-cache-after-use-redis/">安装redis后清除magento缓存失效解决方案</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/how-to-visit-magento-controller/">访问模块中的controller</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/disable-module-in-magento/">禁用magento模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/how-to-add-module-in-magento/">新增magento模块</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/enable-magento-develop-model/">开启开发者模式</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/magento-code-structure/">初识magento框架代码结构</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/">mac下php开发环境搭建:nginx+mysql+php+php-fpm</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/28/sublime-php-build-system-on-mac/">mac环境sublime配置php编译环境</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/flush-magento-cache/">如何清除magento缓存</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/show-name-of-template-and-block-in-magento/">定位前台的template和block</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/how-to-install-magento/">安装magento</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/fast-type-long-shell-command/">mac下快速输入长命令行的两种方法</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/24/oh-my-zsh-cow-welcome/">在oh my zsh的基础上添加终端的欢迎界面</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/">mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/23/how-to-use-json/">在php中使用json</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/22/magento-log/">magento日志</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/21/redis-in-magento/">在magento中配置使用redis缓存</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/20/install-redis-on-mac/">mac下安装redis</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/16/reset-launchpad-icon/">重新排序Launchpad图标</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/06/16/homebrew、homebrew-cask及cakebrew/">homebrew、homebrew-cask及cakebrew</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/22/php-review-note-on-2016-04/">2016年4月php面试笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/18/use-fiddler-to-change-website-cotent/">通过Fiddler工具进行接口代理-改变线上网页的显示结果</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/how-to-use-charles-on-windows/">windows下通过charles和夜神模拟器对安卓app进行抓包</a></li></ul>
+  const update = (identity) => {
+    identity = identity || getRealPath();
+    return new Promise((resolve, reject) => {
+      let query = new AV.Query('Timer');
+      query.equalTo("identity", identity);
+      query.find().then(todos => {
+        todos.forEach(todo => {
+          todo.set("times", todo.attributes.times + 1);
+        });
+        return AV.Object.saveAll(todos);
+      }).then(todos => resolve(true), error => reject(error));
+    })
+  }
 
+  return {
+    isExist,
+    _get,
+    update,
+    create
+  }
+})()
 
+const calcAndWriteTimes = () => {
+  let isPost = true;
 
+  let timerAllDOM = document.querySelectorAll(".article-timer");
 
-    <script>
-        
-    </script>
+  if(isPost) {
+    let identity = timerAllDOM[0].getAttribute("data-identity");
+    valineAPI.isExist(identity)
+    .then(exist => {
+      if(exist) {
+        return valineAPI.update(identity);
+      }
+      return new Promise(resolve => resolve(true));
+    })
+    .then( succuess => valineAPI._get(identity))
+    .then( result => timerAllDOM[0].innerText = result[0].attributes.times)
+    .catch(error => console.log(error.message))
+    return ;
+  }
+
+  let timerDOMCache = {};
+
+  for(let timerDOM of timerAllDOM) {
+    let identity = timerDOM.getAttribute("data-identity");
+    if(timerDOMCache.hasOwnProperty(identity)){
+      timerDOMCache[identity].dom.push(timerDOM);
+    }else{
+      timerDOMCache[identity] = {
+        dom: [timerDOM],
+        times: undefined
+      };
+    }
+  }
+
+  let identities = Object.keys(timerDOMCache);
+  valineAPI._get(identities).then(results => {
+    for(let result of results) {
+      let {identity, times} = result.attributes;
+      timerDOMCache[identity].times = times;
+      timerDOMCache[identity].dom.map(item => item.innerText = times);
+    }
+    for(let identity of identities) {
+      if(timerDOMCache[identity].times){
+        continue;
+      }
+      timerDOMCache[identity].dom.map(item => item.innerText = 1);
+      valineAPI.create(identity);
+    }
+  }).catch(error => console.log(error.message))
+}
+
+if(true){
+  calcAndWriteTimes();
+}
+</script>
+   
+
 </div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                <i class="fa fa-copyright"></i>
-                2015-2018 小凡<a href="mailto:xujun_njupt@126.com">通过邮件联系我</a>
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i><p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
-            </div>
-        </div>
-        
-            <div class="visit">
-                
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
-                
-                
-                    <span>| </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit"  title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
-                
-            </div>
-        
-    </div>
+
+
+      <footer>
+  <p class="site-info">
+    博客已萌萌哒运行<span id="time-to-now"></span><span class="my-face">(●'◡'●)ﾉ♥</span>
+    <br>
+    Theme - <a href="https://github.com/dongyuanxin/theme-bmw">BMW</a> | Made With 💗 | Powered by <a href="https://godbmw.com/">GodBMW</a>
+    <br>
+    
+  </p>
 </footer>
 
-    </div>
-    
-    <script src="/js/GithubRepoWidget.js"></script>
-
-<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
 
 
-
-
-
-<div class="scroll" id="scroll">
-    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
-</div>
 <script>
-    // Open in New Window
-    
-        var oOpenInNew = {
-             github: ".github-widget a", 
-            
-             post: ".article-entry a[href], .copyright a[href]", 
-            
-            
-            
-             archives: ".archive-article-title", 
-             miniArchives: "a.post-list-link", 
-            
-             friends: "#js-friends a", 
-             socail: ".social a" 
-        }
-        for (var x in oOpenInNew) {
-            $(oOpenInNew[x]).attr("target", "_blank");
-        }
-    
+const timeToNowDOM = document.querySelector("#time-to-now");
+const startTimestamp = new Date(2015, 11, 21).getTime();
+
+const updateTimeStr = () => {
+  let offset = parseInt(
+      (new Date().getTime() - startTimestamp) / 1000,
+      10
+    ),
+    day = Math.floor(offset / 86400),
+    hour = Math.floor((offset % 86400) / 3600),
+    minute = Math.floor(((offset % 86400) % 3600) / 60),
+    second = Math.floor(((offset % 86400) % 3600) % 60);
+  timeToNowDOM.innerHTML =
+    day + "天" + hour + "小时" + minute + "分钟" + second + "秒";
+  setTimeout(updateTimeStr, 500);
+}
+
+setTimeout(updateTimeStr, 500);
 </script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+
+      <div class="back-to-top hidden">
+  <span>
+    <i class="iconfont icon-60"></i><span></span>%
+  </span>
+</div>
+
+<script>
+const updateIconToTop = percent => {
+  let dom = document.querySelector(".back-to-top span span");
+  dom.innerText = percent;
+  if(percent < 1) {
+    document.querySelector(".back-to-top").className = "back-to-top hidden";
+  } else {
+    document.querySelector(".back-to-top").className = "back-to-top";
+  }
+}
+
+const handleScoll = () => {
+  let isRunning = false;
+  return () => {
+    if (isRunning) return;
+    isRunning = true;
+    window.requestAnimationFrame(timestamp => {
+      let scrollTop =
+          document.documentElement.scrollTop || document.body.scrollTop,
+        scrollHeight =
+          document.documentElement.scrollHeight ||
+          document.body.scrollHeight,
+        clientHeight =
+          document.documentElement.clientHeight ||
+          document.body.clientHeight;
+      isRunning = false;
+      if (scrollTop <= 1) {
+        updateIconToTop(0);
+        return;
+      }
+      if (scrollTop + clientHeight >= scrollHeight) {
+        updateIconToTop(100);
+      } else {
+        updateIconToTop(parseInt(
+          100 * scrollTop / (scrollHeight - clientHeight),
+          10
+        ));
+      }
+    });
+  };
+}
+
+const backToTop = () => {
+  let scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop,
+    delay = 10,
+    time = 200;
+  if (scrollTop <= 20) {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    return;
+  }
+  let step = Math.ceil(scrollTop * delay / time);
+  let timer = setInterval(() => {
+    scrollTop =
+      document.documentElement.scrollTop || document.body.scrollTop;
+    if (scrollTop - step <= 0) {
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+      clearInterval(timer);
+    } else {
+      document.documentElement.scrollTop = scrollTop - step;
+      document.body.scrollTop = scrollTop - step;
+    }
+  }, delay);
+}
+
+document.addEventListener("scroll", handleScoll(), false);
+
+document.querySelector(".back-to-top").addEventListener("click", backToTop, false);
+
 </script>
-  </div>
-</body>
+
+    </div>
+
+    
+
+    <script src="https://cdn.bootcss.com/fancybox/3.5.2/jquery.fancybox.min.js" async></script>
+<script async>
+  let fancyTimer = setInterval(function(){
+    if(!window.$){
+      return;
+    }
+    $(document).ready(function() {
+      $(".post img").each(function () {
+        if($(this).parent().get(0).tagName.toLowerCase() === "a") {
+          return;
+        }
+        // $(this).attr("data-fancybox", "gallery"); // if you add 'data-fancybox', img will display after showed
+        var element = document.createElement("a");
+        $(element).attr("data-fancybox", "gallery");
+        $(element).attr("href", $(this).attr("src"));
+        $(this).wrap(element);
+      });
+      
+      clearInterval(fancyTimer);
+    });
+  }, 10);
+</script>
+
+    
+  </body>
+
 </html>

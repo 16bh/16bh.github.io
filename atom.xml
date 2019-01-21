@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://16bh.github.io/"/>
-  <updated>2018-10-16T15:43:14.254Z</updated>
+  <updated>2019-01-21T09:04:36.518Z</updated>
   <id>http://16bh.github.io/</id>
   
   <author>
@@ -16,11 +16,81 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo blog中怎么插入歌曲</title>
+    <link href="http://16bh.github.io/2018/11/12/%20add-music-to-blog/"/>
+    <id>http://16bh.github.io/2018/11/12/ add-music-to-blog/</id>
+    <published>2018-11-12T03:15:26.000Z</published>
+    <updated>2019-01-21T09:04:36.518Z</updated>
+    
+    <content type="html"><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=63738&auto=1&height=66"></iframe>
+
+<a id="more"></a>
+<p>如何将音乐添加到文章?</p>
+<p><a href="https://music.163.com/#/outchain/2/63738/m/use/html" target="_blank" rel="external">https://music.163.com/#/outchain/2/63738/m/use/html</a></p>
+<p>生成外链即可</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;330&quot; height=&quot;86&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;id=63738&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
+    
+    </summary>
+    
+      <category term="Life" scheme="http://16bh.github.io/categories/Life/"/>
+    
+    
+      <category term="hexo" scheme="http://16bh.github.io/tags/hexo/"/>
+    
+      <category term="music" scheme="http://16bh.github.io/tags/music/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>读书笔记：如何快速阅读</title>
+    <link href="http://16bh.github.io/2018/10/17/fast-read-skill/"/>
+    <id>http://16bh.github.io/2018/10/17/fast-read-skill/</id>
+    <published>2018-10-17T14:42:57.000Z</published>
+    <updated>2018-10-17T14:57:45.214Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近看了一些关于阅读技巧的书，作者本人都是爱读书并且看书贼快的，一天可以看好几本那种。</p>
+<p>以下是书单，点击可跳转到对应的豆瓣链接：</p>
+<p><a href="https://book.douban.com/subject/27199270/" target="_blank" rel="external">《高效阅读》，[日]渡边康弘</a></p>
+<p><a href="https://book.douban.com/subject/26391279/" target="_blank" rel="external">《如何高效阅读》，[美]彼得·孔普</a></p>
+<p><a href="https://book.douban.com/subject/27032526/" target="_blank" rel="external">《快速阅读术》，[日]印南敦史</a></p>
+<p>总结一下，怎样看书才又快又好呢？</p>
+<a id="more"></a>
+<p>​    几本书有一个共同的观点，那就是读书不应该逐字逐句的阅读，要扫视、通读。</p>
+<p>​    《快速阅读术》举了个例子，人在听音乐的时候，并没有仔细去听每一个音符，最后总能大体get到歌曲要表达的意思。因此，作者提出了名为“流水式”的阅读方法，让文字从你眼前很自然的流过，留下来的就是你掌握了的。</p>
+<p>​    《高效阅读》提到用纸笔来辅助阅读，有点麻烦。但是提到了一个“共振阅读法”，阅读的时候想象自己同作者对话，有点意思</p>
+<p>​    《如何高效阅读》提到了几点我觉得很有用：</p>
+<pre><code>1. 用手指辅助阅读，可以防止回读
+2. 避免默读，加快阅读速度，快到你的大脑来不及默读
+3. 带着目的去阅读，读这本书想收获什么
+4. 最重要的一点，读书不是目的，读完之后的行动才是重点。
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近看了一些关于阅读技巧的书，作者本人都是爱读书并且看书贼快的，一天可以看好几本那种。&lt;/p&gt;
+&lt;p&gt;以下是书单，点击可跳转到对应的豆瓣链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/27199270/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《高效阅读》，[日]渡边康弘&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/26391279/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《如何高效阅读》，[美]彼得·孔普&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/27032526/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《快速阅读术》，[日]印南敦史&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;总结一下，怎样看书才又快又好呢？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Reading" scheme="http://16bh.github.io/categories/Reading/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>一款比man更好用的工具：tldr</title>
     <link href="http://16bh.github.io/2018/10/16/a-command-more-powerful-than-man/"/>
     <id>http://16bh.github.io/2018/10/16/a-command-more-powerful-than-man/</id>
     <published>2018-10-16T15:05:10.000Z</published>
-    <updated>2018-10-16T15:43:14.254Z</updated>
+    <updated>2018-10-21T11:50:45.017Z</updated>
     
     <content type="html"><![CDATA[<p>感谢duang duang给我介绍的一款实用的小工具:tldr</p>
 <p><a href="http://tldr-pages.github.io/" target="_blank" rel="external">tldr的官网介绍</a></p>
@@ -46,6 +116,8 @@
     
     </summary>
     
+      <category term="IT" scheme="http://16bh.github.io/categories/IT/"/>
+    
     
       <category term="shell" scheme="http://16bh.github.io/tags/shell/"/>
     
@@ -56,7 +128,7 @@
     <link href="http://16bh.github.io/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/"/>
     <id>http://16bh.github.io/2018/10/16/the-best-way-to-learn-python-using-jupyter-notebook/</id>
     <published>2018-10-16T06:51:07.000Z</published>
-    <updated>2018-10-16T14:37:32.810Z</updated>
+    <updated>2018-10-21T11:50:45.088Z</updated>
     
     <content type="html"><![CDATA[<p>之前一直是通过brew安装python的，后面发现有一种更简便的方法，如下:</p>
 <p>通过miniconda安装python和jupyter</p>
@@ -101,6 +173,8 @@
     
     </summary>
     
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
+    
     
       <category term="jupyter" scheme="http://16bh.github.io/tags/jupyter/"/>
     
@@ -113,7 +187,7 @@
     <link href="http://16bh.github.io/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/"/>
     <id>http://16bh.github.io/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/</id>
     <published>2018-10-15T13:14:13.000Z</published>
-    <updated>2018-10-16T16:04:17.461Z</updated>
+    <updated>2018-10-21T11:50:45.017Z</updated>
     
     <content type="html"><![CDATA[<p>博客的图片不能上传到七牛云了，也懒得去折腾那些在线的图床了，还是放在本地最安心</p>
 <p>最近发现了mac上超好用又免费的一款markdown工具<code>Typora</code>，<code>Typora</code>自带的图片工具可以将本地图片直接复制到md文件中，并放在自定义的路径中，例如与当前md文件同名的文件夹中</p>
@@ -121,16 +195,27 @@
 <p>另一方面刚好也是<code>hexo</code>支持并可以预览的</p>
 <p>于是，就产生了一种比较好的博客实践方式，即<code>hexo+typora</code>，详情见正文</p>
 <a id="more"></a>
-<h2 id="将博客中的图片从七牛云中下载到本地"><a href="#将博客中的图片从七牛云中下载到本地" class="headerlink" title="将博客中的图片从七牛云中下载到本地"></a>将博客中的图片从七牛云中下载到本地</h2><p><a href="16bh.github.io/batch-download-image-from-qiniu">详见本文</a></p>
+<h2 id="将博客中的图片从七牛云中下载到本地"><a href="#将博客中的图片从七牛云中下载到本地" class="headerlink" title="将博客中的图片从七牛云中下载到本地"></a>将博客中的图片从七牛云中下载到本地</h2><p><a href="https://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/">详见本文</a></p>
 <h2 id="配置hexo支持本地图片"><a href="#配置hexo支持本地图片" class="headerlink" title="配置hexo支持本地图片"></a>配置hexo支持本地图片</h2><p>hexo3的一个新特性，是可以支持本地图片</p>
+<p>有两种支持方式，参考<a href="https://hexo.io/zh-cn/docs/asset-folders" target="_blank" rel="external">官方文章</a>：</p>
+<h3 id="方法1"><a href="#方法1" class="headerlink" title="方法1"></a>方法1</h3><p>直接把图片放到<code>source/images</code>目录下,然后就可以通过<code>images/图片名称</code>的方式来使用图片了</p>
+<ol>
+<li>也可以放到<code>source/_posts/images</code>目录下，两者的区别在于放soure/images目录中_posts和_drafts里的文章都可以用，放在_posts/images目录只有posts可以用了。一般drafts草稿文件夹用不上，所以区别不大</li>
+<li>需要注意的是这种方式只支持一级目录，不能在images文件夹中再建立文件夹了。此时typora虽然可以识别，但是hexo渲染的时候会报错</li>
+</ol>
+<h3 id="方法2"><a href="#方法2" class="headerlink" title="方法2"></a>方法2</h3><p>每篇文章都单独建立文件夹存放图片</p>
 <p>修改配置文件<code>*.github.io/_config.yml</code></p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> <span class="attr">post_asset_folder:</span> <span class="literal">true</span></div></pre></td></tr></table></figure>
 <p>这样每次之后，每次新建一篇md博文的时候，都会同时新建一个同名的文件夹用于存储该文章的图片</p>
-<h2 id="配置typora"><a href="#配置typora" class="headerlink" title="配置typora"></a>配置typora</h2><p>按如下方式配置<code>typora</code>，这样当你在md文件中插入一张图片的时候，刚好会被<code>typora</code>复制到hexo生成的文件文件夹中</p>
+<h2 id="配置typora"><a href="#配置typora" class="headerlink" title="配置typora"></a>配置typora</h2><p>上述的两种方式typora都支持</p>
+<p>对于第2种方法</p>
+<p>按如下方式配置<code>typora</code>，这样当你在md文件中插入一张图片的时候，刚好会被<code>typora</code>复制到hexo生成的文件文件夹中</p>
 <p><img src="/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/image-20181015213318141.png" alt="image-20181015213318141"></p>
 <p>如上图，我截图并复制到markdown文件中后，就会被自动替换成下面的路径</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">![image-20181015213318141](a-cool-way-to-blog-by-hexo-and-typora/image-20181015213318141.png)</div></pre></td></tr></table></figure>
 <p>其中,<code>a-cool-way-to-blog-by-hexo-and-typora</code>是本文的标题</p>
+<p>对于第1种方法</p>
+<p>把上面的自定义路径修改为<code>./images</code>即可</p>
 <h2 id="tips"><a href="#tips" class="headerlink" title="tips"></a>tips</h2><p>有一篇文章指出的一点我觉得很好</p>
 <p>图片能省则省，不要滥用图片，占用空间</p>
 <p>其他关于hexo的使用，请参考以下文章：<a href="https://16bh.github.io/tags/hexo">hexo系列</a></p>
@@ -146,6 +231,8 @@
     
     </summary>
     
+      <category term="Blog" scheme="http://16bh.github.io/categories/Blog/"/>
+    
     
       <category term="hexo" scheme="http://16bh.github.io/tags/hexo/"/>
     
@@ -158,7 +245,7 @@
     <link href="http://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/"/>
     <id>http://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/</id>
     <published>2018-10-15T07:24:04.000Z</published>
-    <updated>2018-10-16T06:15:05.919Z</updated>
+    <updated>2018-10-21T11:50:45.020Z</updated>
     
     <content type="html"><![CDATA[<p>收到邮件，七牛云的测试域名过期了，之前都是免费试用的，看来七牛是发现太多人在白嫖了</p>
 <p>博客的图片都是上传到七牛云的域名的</p>
@@ -210,6 +297,8 @@
     
     </summary>
     
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
+    
     
       <category term="hexo" scheme="http://16bh.github.io/tags/hexo/"/>
     
@@ -222,7 +311,7 @@
     <link href="http://16bh.github.io/2018/10/10/change-back-to-github-io-domin/"/>
     <id>http://16bh.github.io/2018/10/10/change-back-to-github-io-domin/</id>
     <published>2018-10-10T03:39:27.000Z</published>
-    <updated>2018-10-16T16:03:49.817Z</updated>
+    <updated>2018-10-21T11:50:45.023Z</updated>
     
     <content type="html"><![CDATA[<p>域名过期，换回原来的github的域名<br>但是访问<code>16bh.github.io</code>仍然跳转到原来配置的域名。</p>
 <a id="more"></a>
@@ -235,6 +324,8 @@
     
     </summary>
     
+      <category term="Blog" scheme="http://16bh.github.io/categories/Blog/"/>
+    
     
       <category term="hexo" scheme="http://16bh.github.io/tags/hexo/"/>
     
@@ -245,7 +336,7 @@
     <link href="http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/"/>
     <id>http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/</id>
     <published>2018-05-28T10:34:20.000Z</published>
-    <updated>2018-10-16T04:09:22.973Z</updated>
+    <updated>2018-10-21T11:50:45.045Z</updated>
     
     <content type="html"><![CDATA[<p><a href="https://support.apple.com/zh-cn/HT201468" target="_blank" rel="external">如何在 Mac 上通过“启动转换”安装 Windows</a></p>
 <a id="more"></a>
@@ -273,8 +364,12 @@
     
     </summary>
     
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
+    
     
       <category term="mac" scheme="http://16bh.github.io/tags/mac/"/>
+    
+      <category term="windows" scheme="http://16bh.github.io/tags/windows/"/>
     
   </entry>
   
@@ -283,7 +378,7 @@
     <link href="http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/"/>
     <id>http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/</id>
     <published>2018-05-07T09:51:59.000Z</published>
-    <updated>2018-10-16T14:18:33.215Z</updated>
+    <updated>2018-10-21T11:50:45.074Z</updated>
     
     <content type="html"><![CDATA[<p>看了一篇文章<a href="https://toutiao.io/k/6tokkp" target="_blank" rel="external">快速测试 API 接口的新技能</a>,说的是IDEA自带了Rest客户端，可以模拟接口请求<br>我就看看phpstorm能不能用的上</p>
 <p>结果当然用的上啦n(<em>≧▽≦</em>)n</p>
@@ -318,6 +413,8 @@
     
     </summary>
     
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
+    
     
       <category term="phpstorm" scheme="http://16bh.github.io/tags/phpstorm/"/>
     
@@ -330,7 +427,7 @@
     <link href="http://16bh.github.io/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/"/>
     <id>http://16bh.github.io/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/</id>
     <published>2018-04-27T06:28:17.000Z</published>
-    <updated>2018-10-16T14:19:37.922Z</updated>
+    <updated>2018-10-21T11:50:45.021Z</updated>
     
     <content type="html"><![CDATA[<p>brew不支持php70扩展的安装了，改用pecl</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">➜  conf.d brew search php70</div><div class="line">==&gt; Searching local taps...</div><div class="line">==&gt; Searching taps on GitHub...</div><div class="line">==&gt; Searching blacklisted, migrated and deleted formulae...</div><div class="line">It was migrated from josegonzalez/php to homebrew/core.</div></pre></td></tr></table></figure>
@@ -369,8 +466,10 @@
     
     </summary>
     
-      <category term="php" scheme="http://16bh.github.io/categories/php/"/>
+      <category term="IT" scheme="http://16bh.github.io/categories/IT/"/>
     
+    
+      <category term="php" scheme="http://16bh.github.io/tags/php/"/>
     
       <category term="pecl" scheme="http://16bh.github.io/tags/pecl/"/>
     
@@ -381,7 +480,7 @@
     <link href="http://16bh.github.io/2018/03/05/2017-reading-list/"/>
     <id>http://16bh.github.io/2018/03/05/2017-reading-list/</id>
     <published>2018-03-05T11:08:35.000Z</published>
-    <updated>2018-10-16T16:03:58.832Z</updated>
+    <updated>2018-10-21T11:50:45.013Z</updated>
     
     <content type="html"><![CDATA[<ol>
 <li>2017阅读记录</li>
@@ -646,7 +745,7 @@
     
     </summary>
     
-      <category term="reading" scheme="http://16bh.github.io/categories/reading/"/>
+      <category term="Reading" scheme="http://16bh.github.io/categories/Reading/"/>
     
     
   </entry>
@@ -656,7 +755,7 @@
     <link href="http://16bh.github.io/2018/03/02/charles-support-https/"/>
     <id>http://16bh.github.io/2018/03/02/charles-support-https/</id>
     <published>2018-03-02T10:19:52.000Z</published>
-    <updated>2018-10-16T06:12:16.466Z</updated>
+    <updated>2018-10-21T11:50:45.024Z</updated>
     
     <content type="html"><![CDATA[<p>安装好charles之后，设置以支持https抓包。</p>
 <a id="more"></a>
@@ -682,7 +781,7 @@
     
     </summary>
     
-      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
     
     
       <category term="charles" scheme="http://16bh.github.io/tags/charles/"/>
@@ -694,7 +793,7 @@
     <link href="http://16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/"/>
     <id>http://16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/</id>
     <published>2018-03-01T11:47:39.000Z</published>
-    <updated>2018-10-16T04:09:10.796Z</updated>
+    <updated>2018-10-21T11:50:45.045Z</updated>
     
     <content type="html"><![CDATA[<ol>
 <li>从iphone导入照片。</li>
@@ -729,8 +828,10 @@
     
     </summary>
     
-      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
     
+    
+      <category term="photos" scheme="http://16bh.github.io/tags/photos/"/>
     
   </entry>
   
@@ -739,7 +840,7 @@
     <link href="http://16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/"/>
     <id>http://16bh.github.io/2018/02/28/how-to-sync-data-on-your-macs/</id>
     <published>2018-02-28T07:28:11.000Z</published>
-    <updated>2018-10-16T04:08:29.788Z</updated>
+    <updated>2018-10-21T11:50:45.046Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>ps:这是我本人比较喜欢的一篇文章,非常实用</p>
@@ -832,8 +933,10 @@
     
     </summary>
     
-      <category term="mac" scheme="http://16bh.github.io/categories/mac/"/>
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
     
+    
+      <category term="备份" scheme="http://16bh.github.io/tags/%E5%A4%87%E4%BB%BD/"/>
     
   </entry>
   
@@ -842,7 +945,7 @@
     <link href="http://16bh.github.io/2018/02/28/mac-can-not-read-mobile-HDD/"/>
     <id>http://16bh.github.io/2018/02/28/mac-can-not-read-mobile-HDD/</id>
     <published>2018-02-28T07:19:56.000Z</published>
-    <updated>2018-10-16T02:27:06.934Z</updated>
+    <updated>2018-10-21T11:50:45.055Z</updated>
     
     <content type="html"><![CDATA[<p>提示</p>
 <blockquote>
@@ -874,6 +977,8 @@
     
     </summary>
     
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
+    
     
       <category term="mac" scheme="http://16bh.github.io/tags/mac/"/>
     
@@ -886,7 +991,7 @@
     <link href="http://16bh.github.io/2018/02/06/auto-add-whitespace-at-the-start-of-string-when-echo/"/>
     <id>http://16bh.github.io/2018/02/06/auto-add-whitespace-at-the-start-of-string-when-echo/</id>
     <published>2018-02-06T10:51:50.000Z</published>
-    <updated>2018-10-16T14:06:58.758Z</updated>
+    <updated>2018-10-21T11:50:45.018Z</updated>
     
     <content type="html"><![CDATA[<p>echo字符串时字符串头部出现了未知的空格<br>如果是单纯的展示问题不大<br>但是如果作为接口的返回值，调用方判断字符串时多出的空格就会报错</p>
 <a id="more"></a>
@@ -899,7 +1004,8 @@
 <p>注意2233前面多了个空格，其实是把php文件的头部<code>&lt;?php</code>之前的空格打印出来了</p>
 <p>上面只是个简单的示例，实际情况可能更加复杂：比如use了别的文件或者使用了别的类的方法，那么别的文件头部的字符也会被打印出来</p>
 <p>可以通过下面的命令检查项目中所有文件的头部是否有多余的空格</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /project_root</div><div class="line">find . *|xargs grep &quot;^ &lt;?php&quot;</div></pre></td></tr></table></figure>]]></content>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd /project_root</div><div class="line">find . *|xargs grep &quot;^ &lt;?php&quot;</div></pre></td></tr></table></figure>
+]]></content>
     
     <summary type="html">
     
@@ -907,8 +1013,10 @@
     
     </summary>
     
-      <category term="php" scheme="http://16bh.github.io/categories/php/"/>
+      <category term="IT" scheme="http://16bh.github.io/categories/IT/"/>
     
+    
+      <category term="php" scheme="http://16bh.github.io/tags/php/"/>
     
   </entry>
   
@@ -917,7 +1025,7 @@
     <link href="http://16bh.github.io/2017/11/20/jupyter-support-php/"/>
     <id>http://16bh.github.io/2017/11/20/jupyter-support-php/</id>
     <published>2017-11-20T08:28:48.000Z</published>
-    <updated>2018-10-16T14:38:14.283Z</updated>
+    <updated>2018-10-21T11:50:45.053Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>ignore: not used now</p>
@@ -950,6 +1058,8 @@
     
     </summary>
     
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
+    
     
       <category term="php" scheme="http://16bh.github.io/tags/php/"/>
     
@@ -962,7 +1072,7 @@
     <link href="http://16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/"/>
     <id>http://16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/</id>
     <published>2017-10-16T08:36:24.000Z</published>
-    <updated>2018-10-16T14:40:11.675Z</updated>
+    <updated>2018-10-21T11:50:45.031Z</updated>
     
     <content type="html"><![CDATA[<p>执行<code>ssh-add id_rsa</code></p>
 <p>进阶：把上述命令写到脚本里，开机运行</p>
@@ -976,6 +1086,8 @@
     
     </summary>
     
+      <category term="IT" scheme="http://16bh.github.io/categories/IT/"/>
+    
     
       <category term="git" scheme="http://16bh.github.io/tags/git/"/>
     
@@ -986,7 +1098,7 @@
     <link href="http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/"/>
     <id>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</id>
     <published>2017-10-16T08:25:39.000Z</published>
-    <updated>2018-10-16T06:57:38.690Z</updated>
+    <updated>2018-10-21T11:50:45.075Z</updated>
     
     <content type="html"><![CDATA[<p>知乎上有人提问如何生成函数调用路程图</p>
 <p>原问题见：<br><a href="https://www.zhihu.com/question/34495043/answer/244410441" target="_blank" rel="external">https://www.zhihu.com/question/34495043/answer/244410441</a></p>
@@ -1008,7 +1120,7 @@
     
     </summary>
     
-      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
     
     
       <category term="phpstorm" scheme="http://16bh.github.io/tags/phpstorm/"/>
@@ -1020,7 +1132,7 @@
     <link href="http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/"/>
     <id>http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</id>
     <published>2017-08-21T03:23:39.000Z</published>
-    <updated>2018-10-16T06:56:53.011Z</updated>
+    <updated>2018-10-21T11:50:45.075Z</updated>
     
     <content type="html"><![CDATA[<p>phpstorm会检查拼写单词的拼写错误<br>但是有时候会给我们造成困扰，比如我们公司的名称不是一个正规的单词就会报错</p>
 <a id="more"></a>
@@ -1035,66 +1147,10 @@
     
     </summary>
     
-      <category term="software" scheme="http://16bh.github.io/categories/software/"/>
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
     
     
       <category term="phpstorm" scheme="http://16bh.github.io/tags/phpstorm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>postman模拟图片上传</title>
-    <link href="http://16bh.github.io/2017/08/10/postman-test-image-upload/"/>
-    <id>http://16bh.github.io/2017/08/10/postman-test-image-upload/</id>
-    <published>2017-08-10T07:30:32.000Z</published>
-    <updated>2018-10-16T06:54:08.218Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<p>Headers留空，Body添加一个key，key的属性选file</p>
-<p><img src="/2017/08/10/postman-test-image-upload/20170810150235019860302.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;Headers留空，Body添加一个key，key的属性选file&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/2017/08/10/postman-test-image-upload/20170810150235019860302.png&quot;&gt;&lt;
-    
-    </summary>
-    
-    
-      <category term="postman" scheme="http://16bh.github.io/tags/postman/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用composer</title>
-    <link href="http://16bh.github.io/2017/08/04/using-composer/"/>
-    <id>http://16bh.github.io/2017/08/04/using-composer/</id>
-    <published>2017-08-04T07:27:25.000Z</published>
-    <updated>2018-10-16T06:33:14.034Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="/2017/08/04/using-composer/20170804150183174467257.png" width="492" height="297"></p>
-<a id="more"></a>
-<h1 id="安装composer"><a href="#安装composer" class="headerlink" title="安装composer"></a>安装composer</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">brew install composer</div></pre></td></tr></table></figure>
-<h1 id="修改源"><a href="#修改源" class="headerlink" title="修改源"></a>修改源</h1><p>方法一： 修改 composer 的全局配置文件（推荐方式）<br>打开命令行窗口（windows用户）或控制台（Linux、Mac 用户）并执行如下命令：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config -g repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
-<p>方法二： 修改当前项目的 composer.json 配置文件：<br>打开命令行窗口（windows用户）或控制台（Linux、Mac 用户），进入你的项目的根目录（也就是 composer.json 文件所在目录），执行如下命令：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">composer config repo.packagist composer https://packagist.phpcomposer.com</div></pre></td></tr></table></figure>
-<p>上述命令将会在当前项目中的 composer.json 文件的末尾自动添加镜像的配置信息（你也可以自己手工添加）：<br><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">"repositories": &#123;</div><div class="line">    "packagist": &#123;</div><div class="line">        "type": "composer",</div><div class="line">        "url": "https://packagist.phpcomposer.com"</div><div class="line">    &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
-<h1 id="composer使用"><a href="#composer使用" class="headerlink" title="composer使用"></a>composer使用</h1><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line">A package-based dependency manager for PHP projects.</div><div class="line"></div><div class="line">- Add a package as a dependency for this project, adding it to `composer.json`:</div><div class="line">    composer require user/package-name</div><div class="line"></div><div class="line">- Install all the dependencies in this project's `composer.json`:</div><div class="line">    composer install</div><div class="line"></div><div class="line">- Uninstall a package from this project, removing it as a dependency from `composer.json`:</div><div class="line">    composer remove user/package-name</div><div class="line"></div><div class="line">- Update all the dependencies in this project's `composer.json`:</div><div class="line">    composer update</div><div class="line"></div><div class="line">- Update composer to the latest version:</div><div class="line">    composer self-update</div></pre></td></tr></table></figure>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;/2017/08/04/using-composer/20170804150183174467257.png&quot; width=&quot;492&quot; height=&quot;297&quot;&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="php" scheme="http://16bh.github.io/categories/php/"/>
-    
-    
-      <category term="composer" scheme="http://16bh.github.io/tags/composer/"/>
     
   </entry>
   
