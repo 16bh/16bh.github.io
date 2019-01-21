@@ -1,5 +1,5 @@
 ---
-title: 分享一首歌
+title: hexo blog中怎么插入歌曲
 categories: [Life]
 toc: true
 comment: true
