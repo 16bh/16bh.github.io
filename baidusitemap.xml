@@ -5,6 +5,24 @@
     
     
   <url>
+    <loc>http://16bh.github.io/2019/01/21/2018-reading-list/</loc>
+    <lastmod>2019-01-21T11:49:51.873Z</lastmod>
+    <data>
+        <display>
+        <title>2018读书总结</title>
+        <pubTime>2019-01-21T11:21:01.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Read" url="http://16bh.github.io/categories/Read/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2018/11/12/%20add-music-to-blog/</loc>
     <lastmod>2019-01-21T09:04:36.518Z</lastmod>
     <data>
@@ -12,9 +30,9 @@
         <title>hexo blog中怎么插入歌曲</title>
         <pubTime>2018-11-12T03:15:26.000Z</pubTime>
         
-        <tag>hexo</tag>
-         
         <tag>music</tag>
+         
+        <tag>hexo</tag>
          
          
            
@@ -251,26 +269,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/03/30/what-does-magento's-order-model-save-function-do/</loc>
-    <lastmod>2018-10-21T11:50:45.093Z</lastmod>
-    <data>
-        <display>
-        <title>[magento]Order对象的save方法执行哪些操作？</title>
-        <pubTime>2017-03-30T06:31:19.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2017/03/29/what-does-magento's-order-model-cancel-function-do/</loc>
     <lastmod>2018-10-21T11:50:45.093Z</lastmod>
     <data>
@@ -291,16 +289,14 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/06/08/wechat-raffle-algorithm/</loc>
-    <lastmod>2018-10-21T11:50:45.092Z</lastmod>
+    <loc>http://16bh.github.io/2017/03/30/what-does-magento's-order-model-save-function-do/</loc>
+    <lastmod>2018-10-21T11:50:45.093Z</lastmod>
     <data>
         <display>
-        <title>微信领红包问题</title>
-        <pubTime>2017-06-08T06:54:33.000Z</pubTime>
+        <title>[magento]Order对象的save方法执行哪些操作？</title>
+        <pubTime>2017-03-30T06:31:19.000Z</pubTime>
         
-        <tag>php</tag>
-         
-        <tag>算法</tag>
+        <tag>magento</tag>
          
          
            
@@ -333,19 +329,21 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/07/12/using-Coding-host-website-code/</loc>
-    <lastmod>2018-10-21T11:50:45.091Z</lastmod>
+    <loc>http://16bh.github.io/2017/06/08/wechat-raffle-algorithm/</loc>
+    <lastmod>2018-10-21T11:50:45.092Z</lastmod>
     <data>
         <display>
-        <title>将Hexo网站托管到Coding.net</title>
-        <pubTime>2017-07-12T08:37:04.000Z</pubTime>
+        <title>微信领红包问题</title>
+        <pubTime>2017-06-08T06:54:33.000Z</pubTime>
         
-        <tag>hexo</tag>
+        <tag>php</tag>
+         
+        <tag>算法</tag>
          
          
            
              
-              <breadCrumb title="Blog" url="http://16bh.github.io/categories/Blog/"/>
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
           
         </display>
     </data>
@@ -373,6 +371,26 @@
 
     
   <url>
+    <loc>http://16bh.github.io/2017/07/12/using-Coding-host-website-code/</loc>
+    <lastmod>2018-10-21T11:50:45.091Z</lastmod>
+    <data>
+        <display>
+        <title>将Hexo网站托管到Coding.net</title>
+        <pubTime>2017-07-12T08:37:04.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Blog" url="http://16bh.github.io/categories/Blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2017/06/22/use-sublime-open-project/</loc>
     <lastmod>2018-10-21T11:50:45.090Z</lastmod>
     <data>
@@ -393,14 +411,14 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/07/12/use-mtr-detect-network-status/</loc>
+    <loc>http://16bh.github.io/2016/01/18/use-fiddler-to-change-website-cotent/</loc>
     <lastmod>2018-10-21T11:50:45.090Z</lastmod>
     <data>
         <display>
-        <title>使用mtr工具检测网络</title>
-        <pubTime>2017-07-12T09:21:07.000Z</pubTime>
+        <title>通过Fiddler工具进行接口代理-改变线上网页的显示结果</title>
+        <pubTime>2016-01-18T14:16:53.000Z</pubTime>
         
-        <tag>mtr</tag>
+        <tag>fiddler</tag>
          
          
            
@@ -413,14 +431,14 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/01/18/use-fiddler-to-change-website-cotent/</loc>
+    <loc>http://16bh.github.io/2017/07/12/use-mtr-detect-network-status/</loc>
     <lastmod>2018-10-21T11:50:45.090Z</lastmod>
     <data>
         <display>
-        <title>通过Fiddler工具进行接口代理-改变线上网页的显示结果</title>
-        <pubTime>2016-01-18T14:16:53.000Z</pubTime>
+        <title>使用mtr工具检测网络</title>
+        <pubTime>2017-07-12T09:21:07.000Z</pubTime>
         
-        <tag>fiddler</tag>
+        <tag>mtr</tag>
          
          
            
@@ -519,48 +537,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/04/11/sublime-error-There-are-no-packages-available-for-installation/</loc>
-    <lastmod>2018-10-21T11:50:45.087Z</lastmod>
-    <data>
-        <display>
-        <title>sublime报错There are no packages available for installation</title>
-        <pubTime>2017-04-11T06:20:42.000Z</pubTime>
-        
-        <tag>sublime</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2016/06/28/sublime-php-build-system-on-mac/</loc>
-    <lastmod>2018-10-21T11:50:45.087Z</lastmod>
-    <data>
-        <display>
-        <title>mac环境sublime配置php编译环境</title>
-        <pubTime>2016-06-28T06:35:34.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>sublime</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2016/07/21/sublime-build-js-develop-environment/</loc>
     <lastmod>2018-10-21T11:50:45.087Z</lastmod>
     <data>
@@ -603,21 +579,41 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/07/07/ssh-connect-server-without-password/</loc>
-    <lastmod>2018-10-21T11:50:45.086Z</lastmod>
+    <loc>http://16bh.github.io/2016/06/28/sublime-php-build-system-on-mac/</loc>
+    <lastmod>2018-10-21T11:50:45.087Z</lastmod>
     <data>
         <display>
-        <title>ssh连接服务器更简单一点</title>
-        <pubTime>2017-07-07T07:50:02.000Z</pubTime>
+        <title>mac环境sublime配置php编译环境</title>
+        <pubTime>2016-06-28T06:35:34.000Z</pubTime>
         
-        <tag>git</tag>
+        <tag>php</tag>
          
-        <tag>ssh</tag>
+        <tag>sublime</tag>
          
          
            
              
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2017/04/11/sublime-error-There-are-no-packages-available-for-installation/</loc>
+    <lastmod>2018-10-21T11:50:45.087Z</lastmod>
+    <data>
+        <display>
+        <title>sublime报错There are no packages available for installation</title>
+        <pubTime>2017-04-11T06:20:42.000Z</pubTime>
+        
+        <tag>sublime</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
           
         </display>
     </data>
@@ -640,6 +636,28 @@
            
              
               <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2017/07/07/ssh-connect-server-without-password/</loc>
+    <lastmod>2018-10-21T11:50:45.086Z</lastmod>
+    <data>
+        <display>
+        <title>ssh连接服务器更简单一点</title>
+        <pubTime>2017-07-07T07:50:02.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>ssh</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
           
         </display>
     </data>
@@ -687,23 +705,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/06/24/show-name-of-template-and-block-in-magento/</loc>
-    <lastmod>2018-10-21T11:50:45.084Z</lastmod>
-    <data>
-        <display>
-        <title>定位前台的template和block</title>
-        <pubTime>2016-06-24T10:25:19.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2017/03/31/some-awesome-phpstorm-plugins/</loc>
     <lastmod>2018-10-21T11:50:45.084Z</lastmod>
     <data>
@@ -724,20 +725,17 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/07/05/show-hidden-file-in-finder/</loc>
-    <lastmod>2018-10-21T11:50:45.083Z</lastmod>
+    <loc>http://16bh.github.io/2016/06/24/show-name-of-template-and-block-in-magento/</loc>
+    <lastmod>2018-10-21T11:50:45.084Z</lastmod>
     <data>
         <display>
-        <title>在Finder中查看隐藏文件</title>
-        <pubTime>2016-07-05T14:48:16.000Z</pubTime>
+        <title>定位前台的template和block</title>
+        <pubTime>2016-06-24T10:25:19.000Z</pubTime>
         
-        <tag>finder</tag>
+        <tag>magento</tag>
          
          
            
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
         </display>
     </data>
     </url>
@@ -759,6 +757,26 @@
            
              
               <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2016/07/05/show-hidden-file-in-finder/</loc>
+    <lastmod>2018-10-21T11:50:45.083Z</lastmod>
+    <data>
+        <display>
+        <title>在Finder中查看隐藏文件</title>
+        <pubTime>2016-07-05T14:48:16.000Z</pubTime>
+        
+        <tag>finder</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
           
         </display>
     </data>
@@ -847,28 +865,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/05/10/rebuild-mac-develop-environment/</loc>
-    <lastmod>2018-10-21T11:50:45.078Z</lastmod>
-    <data>
-        <display>
-        <title>从零搭建mac开发环境</title>
-        <pubTime>2017-05-10T13:48:02.000Z</pubTime>
-        
-        <tag>环境</tag>
-         
-        <tag>mac</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2016/07/07/python-install-requests/</loc>
     <lastmod>2018-10-21T11:50:45.078Z</lastmod>
     <data>
@@ -889,14 +885,16 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/08/10/postman-test-image-upload/</loc>
-    <lastmod>2018-10-21T11:50:45.077Z</lastmod>
+    <loc>http://16bh.github.io/2017/05/10/rebuild-mac-develop-environment/</loc>
+    <lastmod>2018-10-21T11:50:45.078Z</lastmod>
     <data>
         <display>
-        <title>postman模拟图片上传</title>
-        <pubTime>2017-08-10T07:30:32.000Z</pubTime>
+        <title>从零搭建mac开发环境</title>
+        <pubTime>2017-05-10T13:48:02.000Z</pubTime>
         
-        <tag>postman</tag>
+        <tag>环境</tag>
+         
+        <tag>mac</tag>
          
          
            
@@ -953,6 +951,46 @@
 
     
   <url>
+    <loc>http://16bh.github.io/2017/08/10/postman-test-image-upload/</loc>
+    <lastmod>2018-10-21T11:50:45.077Z</lastmod>
+    <data>
+        <display>
+        <title>postman模拟图片上传</title>
+        <pubTime>2017-08-10T07:30:32.000Z</pubTime>
+        
+        <tag>postman</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2017/04/12/phpstorm-key-maps/</loc>
+    <lastmod>2018-10-21T11:50:45.076Z</lastmod>
+    <data>
+        <display>
+        <title>phpStorm快捷键个人设置</title>
+        <pubTime>2017-04-12T07:12:11.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2017/06/21/phpstorm-php-file-header/</loc>
     <lastmod>2018-10-21T11:50:45.076Z</lastmod>
     <data>
@@ -993,12 +1031,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/04/12/phpstorm-key-maps/</loc>
-    <lastmod>2018-10-21T11:50:45.076Z</lastmod>
+    <loc>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
+    <lastmod>2018-10-21T11:50:45.075Z</lastmod>
     <data>
         <display>
-        <title>phpStorm快捷键个人设置</title>
-        <pubTime>2017-04-12T07:12:11.000Z</pubTime>
+        <title>phpstorm生成函数调用关系</title>
+        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
         
         <tag>phpstorm</tag>
          
@@ -1021,48 +1059,6 @@
         <pubTime>2017-08-21T03:23:39.000Z</pubTime>
         
         <tag>phpstorm</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
-    <lastmod>2018-10-21T11:50:45.075Z</lastmod>
-    <data>
-        <display>
-        <title>phpstorm生成函数调用关系</title>
-        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/</loc>
-    <lastmod>2018-10-21T11:50:45.074Z</lastmod>
-    <data>
-        <display>
-        <title>phpstorm可编辑的Rest客户端</title>
-        <pubTime>2018-05-07T09:51:59.000Z</pubTime>
-        
-        <tag>phpstorm</tag>
-         
-        <tag>api</tag>
          
          
            
@@ -1105,6 +1101,28 @@
         <pubTime>2017-04-06T13:41:56.000Z</pubTime>
         
         <tag>phpstorm</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/</loc>
+    <lastmod>2018-10-21T11:50:45.074Z</lastmod>
+    <data>
+        <display>
+        <title>phpstorm可编辑的Rest客户端</title>
+        <pubTime>2018-05-07T09:51:59.000Z</pubTime>
+        
+        <tag>phpstorm</tag>
+         
+        <tag>api</tag>
          
          
            
@@ -1161,12 +1179,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/05/26/php-review-note-on-2017-06/</loc>
+    <loc>http://16bh.github.io/2016/04/22/php-review-note-on-2016-04/</loc>
     <lastmod>2018-10-21T11:50:45.072Z</lastmod>
     <data>
         <display>
-        <title>2017年4月php面试</title>
-        <pubTime>2017-05-26T09:39:25.000Z</pubTime>
+        <title>2016年4月php面试笔记</title>
+        <pubTime>2016-04-22T07:00:35.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -1183,12 +1201,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/04/22/php-review-note-on-2016-04/</loc>
+    <loc>http://16bh.github.io/2017/05/26/php-review-note-on-2017-06/</loc>
     <lastmod>2018-10-21T11:50:45.072Z</lastmod>
     <data>
         <display>
-        <title>2016年4月php面试笔记</title>
-        <pubTime>2016-04-22T07:00:35.000Z</pubTime>
+        <title>2017年4月php面试</title>
+        <pubTime>2017-05-26T09:39:25.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -1219,23 +1237,6 @@
              
               <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2016/07/12/oh-my-zsh-plugin-wd/</loc>
-    <lastmod>2018-10-21T11:50:45.070Z</lastmod>
-    <data>
-        <display>
-        <title>在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</title>
-        <pubTime>2016-07-12T04:05:02.000Z</pubTime>
-        
-        <tag>zsh</tag>
-         
-         
-           
         </display>
     </data>
     </url>
@@ -1278,6 +1279,23 @@
              
               <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2016/07/12/oh-my-zsh-plugin-wd/</loc>
+    <lastmod>2018-10-21T11:50:45.070Z</lastmod>
+    <data>
+        <display>
+        <title>在终端跳快速跳转到指定目录的oh-my-zsh插件：z与wd</title>
+        <pubTime>2016-07-12T04:05:02.000Z</pubTime>
+        
+        <tag>zsh</tag>
+         
+         
+           
         </display>
     </data>
     </url>
@@ -1364,26 +1382,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/07/07/magneto-enable-backend-login-captcha/</loc>
-    <lastmod>2018-10-21T11:50:45.067Z</lastmod>
-    <data>
-        <display>
-        <title>magento用户登录开启验证码功能</title>
-        <pubTime>2016-07-07T05:39:19.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2016/07/07/mangeto-rewrite-core-model/</loc>
     <lastmod>2018-10-21T11:50:45.067Z</lastmod>
     <data>
@@ -1424,12 +1422,52 @@
 
     
   <url>
+    <loc>http://16bh.github.io/2016/07/07/magneto-enable-backend-login-captcha/</loc>
+    <lastmod>2018-10-21T11:50:45.067Z</lastmod>
+    <data>
+        <display>
+        <title>magento用户登录开启验证码功能</title>
+        <pubTime>2016-07-07T05:39:19.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2017/04/10/magento-system-config-summary/</loc>
     <lastmod>2018-10-21T11:50:45.066Z</lastmod>
     <data>
         <display>
         <title>Magento后台配置攻略</title>
         <pubTime>2017-04-10T10:57:15.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2016/07/20/magento-set-system-config-default-value/</loc>
+    <lastmod>2018-10-21T11:50:45.065Z</lastmod>
+    <data>
+        <display>
+        <title>magento设置后台配置的默认值</title>
+        <pubTime>2016-07-20T06:19:02.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1454,26 +1492,6 @@
         <tag>magento</tag>
          
         <tag>mysql</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2016/07/20/magento-set-system-config-default-value/</loc>
-    <lastmod>2018-10-21T11:50:45.065Z</lastmod>
-    <data>
-        <display>
-        <title>magento设置后台配置的默认值</title>
-        <pubTime>2016-07-20T06:19:02.000Z</pubTime>
-        
-        <tag>magento</tag>
          
          
            
@@ -1770,24 +1788,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/03/13/ios-software-list/</loc>
-    <lastmod>2018-10-21T11:50:45.052Z</lastmod>
-    <data>
-        <display>
-        <title>Software List - IOS</title>
-        <pubTime>2017-03-13T06:46:55.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2016/07/22/js-study-note/</loc>
     <lastmod>2018-10-21T11:50:45.052Z</lastmod>
     <data>
@@ -1801,6 +1801,24 @@
            
              
               <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2017/03/13/ios-software-list/</loc>
+    <lastmod>2018-10-21T11:50:45.052Z</lastmod>
+    <data>
+        <display>
+        <title>Software List - IOS</title>
+        <pubTime>2017-03-13T06:46:55.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
           
         </display>
     </data>
@@ -1828,6 +1846,26 @@
 
     
   <url>
+    <loc>http://16bh.github.io/2017/04/13/install-mysql-via-package/</loc>
+    <lastmod>2018-10-21T11:50:45.051Z</lastmod>
+    <data>
+        <display>
+        <title>通过package安装包安装mysql</title>
+        <pubTime>2017-04-13T10:46:08.000Z</pubTime>
+        
+        <tag>mysql</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2016/06/20/install-redis-on-mac/</loc>
     <lastmod>2018-10-21T11:50:45.051Z</lastmod>
     <data>
@@ -1848,14 +1886,14 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/04/13/install-mysql-via-package/</loc>
-    <lastmod>2018-10-21T11:50:45.051Z</lastmod>
+    <loc>http://16bh.github.io/2016/06/30/how-to-visit-magento-controller/</loc>
+    <lastmod>2018-10-21T11:50:45.050Z</lastmod>
     <data>
         <display>
-        <title>通过package安装包安装mysql</title>
-        <pubTime>2017-04-13T10:46:08.000Z</pubTime>
+        <title>访问模块中的controller</title>
+        <pubTime>2016-06-30T10:27:55.000Z</pubTime>
         
-        <tag>mysql</tag>
+        <tag>magento</tag>
          
          
            
@@ -1881,26 +1919,6 @@
            
              
               <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2016/06/30/how-to-visit-magento-controller/</loc>
-    <lastmod>2018-10-21T11:50:45.050Z</lastmod>
-    <data>
-        <display>
-        <title>访问模块中的controller</title>
-        <pubTime>2016-06-30T10:27:55.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
           
         </display>
     </data>
@@ -2030,16 +2048,14 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/</loc>
+    <loc>http://16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/</loc>
     <lastmod>2018-10-21T11:50:45.045Z</lastmod>
     <data>
         <display>
-        <title>如何在Mac上安装Windows</title>
-        <pubTime>2018-05-28T10:34:20.000Z</pubTime>
+        <title>用Photos管理你的相册</title>
+        <pubTime>2018-03-01T11:47:39.000Z</pubTime>
         
-        <tag>mac</tag>
-         
-        <tag>windows</tag>
+        <tag>photos</tag>
          
          
            
@@ -2052,14 +2068,16 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/</loc>
+    <loc>http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/</loc>
     <lastmod>2018-10-21T11:50:45.045Z</lastmod>
     <data>
         <display>
-        <title>用Photos管理你的相册</title>
-        <pubTime>2018-03-01T11:47:39.000Z</pubTime>
+        <title>如何在Mac上安装Windows</title>
+        <pubTime>2018-05-28T10:34:20.000Z</pubTime>
         
-        <tag>photos</tag>
+        <tag>mac</tag>
+         
+        <tag>windows</tag>
          
          
            
@@ -2092,6 +2110,26 @@
 
     
   <url>
+    <loc>http://16bh.github.io/2016/06/30/how-to-add-module-in-magento/</loc>
+    <lastmod>2018-10-21T11:50:45.044Z</lastmod>
+    <data>
+        <display>
+        <title>新增magento模块</title>
+        <pubTime>2016-06-30T10:26:54.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2016/06/24/how-to-install-magento/</loc>
     <lastmod>2018-10-21T11:50:45.044Z</lastmod>
     <data>
@@ -2112,19 +2150,19 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/06/30/how-to-add-module-in-magento/</loc>
-    <lastmod>2018-10-21T11:50:45.044Z</lastmod>
+    <loc>http://16bh.github.io/2016/07/27/hexo-yelee-theme-setting/</loc>
+    <lastmod>2018-10-21T11:50:45.043Z</lastmod>
     <data>
         <display>
-        <title>新增magento模块</title>
-        <pubTime>2016-06-30T10:26:54.000Z</pubTime>
+        <title>hexo的yelee主题设置</title>
+        <pubTime>2016-07-27T04:13:56.000Z</pubTime>
         
-        <tag>magento</tag>
+        <tag>hexo</tag>
          
          
            
              
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+              <breadCrumb title="Blog" url="http://16bh.github.io/categories/Blog/"/>
           
         </display>
     </data>
@@ -2171,12 +2209,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/07/27/hexo-yelee-theme-setting/</loc>
-    <lastmod>2018-10-21T11:50:45.043Z</lastmod>
+    <loc>http://16bh.github.io/2016/07/07/hexo-set-read-more/</loc>
+    <lastmod>2018-10-21T11:50:45.042Z</lastmod>
     <data>
         <display>
-        <title>hexo的yelee主题设置</title>
-        <pubTime>2016-07-27T04:13:56.000Z</pubTime>
+        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
+        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2197,26 +2235,6 @@
         <display>
         <title>hexo文章的分类和标签</title>
         <pubTime>2016-07-19T08:48:04.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Blog" url="http://16bh.github.io/categories/Blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2016/07/07/hexo-set-read-more/</loc>
-    <lastmod>2018-10-21T11:50:45.042Z</lastmod>
-    <data>
-        <display>
-        <title>hexo如何让首页的文章只显示一部分并出现查看更多选项</title>
-        <pubTime>2016-07-07T03:37:06.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2311,12 +2329,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
+    <loc>http://16bh.github.io/2016/07/06/hexo-landscape-theme-add-friends/</loc>
     <lastmod>2018-10-21T11:50:45.039Z</lastmod>
     <data>
         <display>
-        <title>landscape-plus主题代码高亮测试</title>
-        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
+        <title>hexo侧边栏增加链接小物件</title>
+        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2331,12 +2349,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/07/06/hexo-landscape-theme-add-friends/</loc>
+    <loc>http://16bh.github.io/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
     <lastmod>2018-10-21T11:50:45.039Z</lastmod>
     <data>
         <display>
-        <title>hexo侧边栏增加链接小物件</title>
-        <pubTime>2016-07-06T02:27:09.000Z</pubTime>
+        <title>landscape-plus主题代码高亮测试</title>
+        <pubTime>2016-07-07T02:50:25.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2431,12 +2449,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
+    <loc>http://16bh.github.io/2016/07/05/hexo-enable-duoshuo/</loc>
     <lastmod>2018-10-21T11:50:45.036Z</lastmod>
     <data>
         <display>
-        <title>运行hexo报错解决方案</title>
-        <pubTime>2016-07-06T04:30:02.000Z</pubTime>
+        <title>hexo支持多说评论</title>
+        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2451,12 +2469,12 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/07/05/hexo-enable-duoshuo/</loc>
+    <loc>http://16bh.github.io/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
     <lastmod>2018-10-21T11:50:45.036Z</lastmod>
     <data>
         <display>
-        <title>hexo支持多说评论</title>
-        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
+        <title>运行hexo报错解决方案</title>
+        <pubTime>2016-07-06T04:30:02.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2650,6 +2668,28 @@
 
     
   <url>
+    <loc>http://16bh.github.io/2016/06/30/flush-magento-cache-after-use-redis/</loc>
+    <lastmod>2018-10-21T11:50:45.029Z</lastmod>
+    <data>
+        <display>
+        <title>安装redis后清除magento缓存失效解决方案</title>
+        <pubTime>2016-06-30T10:30:57.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+        <tag>redis</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2016/06/24/flush-magento-cache/</loc>
     <lastmod>2018-10-21T11:50:45.029Z</lastmod>
     <data>
@@ -2670,16 +2710,14 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/06/30/flush-magento-cache-after-use-redis/</loc>
-    <lastmod>2018-10-21T11:50:45.029Z</lastmod>
+    <loc>http://16bh.github.io/2017/07/07/fix-invalid-private-key-after-reboot/</loc>
+    <lastmod>2018-10-21T11:50:45.028Z</lastmod>
     <data>
         <display>
-        <title>安装redis后清除magento缓存失效解决方案</title>
-        <pubTime>2016-06-30T10:30:57.000Z</pubTime>
+        <title>解决重启后私钥失效的问题</title>
+        <pubTime>2017-07-07T08:26:09.000Z</pubTime>
         
-        <tag>magento</tag>
-         
-        <tag>redis</tag>
+        <tag>git</tag>
          
          
            
@@ -2709,26 +2747,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/07/07/fix-invalid-private-key-after-reboot/</loc>
-    <lastmod>2018-10-21T11:50:45.028Z</lastmod>
-    <data>
-        <display>
-        <title>解决重启后私钥失效的问题</title>
-        <pubTime>2017-07-07T08:26:09.000Z</pubTime>
-        
-        <tag>git</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2016/07/08/fix-hexo-baidu-share/</loc>
     <lastmod>2018-10-21T11:50:45.027Z</lastmod>
     <data>
@@ -2740,26 +2758,6 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2016/06/24/fast-type-long-shell-command/</loc>
-    <lastmod>2018-10-21T11:50:45.026Z</lastmod>
-    <data>
-        <display>
-        <title>mac下快速输入长命令行的两种方法</title>
-        <pubTime>2016-06-24T10:18:52.000Z</pubTime>
-        
-        <tag>shell</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
         </display>
     </data>
     </url>
@@ -2810,14 +2808,14 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/07/25/disable-auto-ucfirst-word-on-mac/</loc>
-    <lastmod>2018-10-21T11:50:45.025Z</lastmod>
+    <loc>http://16bh.github.io/2016/06/24/fast-type-long-shell-command/</loc>
+    <lastmod>2018-10-21T11:50:45.026Z</lastmod>
     <data>
         <display>
-        <title>关闭mac自动大写单词首字母功能</title>
-        <pubTime>2017-07-25T07:12:28.000Z</pubTime>
+        <title>mac下快速输入长命令行的两种方法</title>
+        <pubTime>2016-06-24T10:18:52.000Z</pubTime>
         
-        <tag>mac</tag>
+        <tag>shell</tag>
          
          
            
@@ -2863,6 +2861,26 @@
            
              
               <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2017/07/25/disable-auto-ucfirst-word-on-mac/</loc>
+    <lastmod>2018-10-21T11:50:45.025Z</lastmod>
+    <data>
+        <display>
+        <title>关闭mac自动大写单词首字母功能</title>
+        <pubTime>2017-07-25T07:12:28.000Z</pubTime>
+        
+        <tag>mac</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
           
         </display>
     </data>
@@ -2932,28 +2950,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2016/08/03/build-php-develop-environment-in-atom/</loc>
-    <lastmod>2018-10-21T11:50:45.022Z</lastmod>
-    <data>
-        <display>
-        <title>使用atom进行php开发</title>
-        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>atom</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/</loc>
     <lastmod>2018-10-21T11:50:45.022Z</lastmod>
     <data>
@@ -2976,6 +2972,28 @@
 
     
   <url>
+    <loc>http://16bh.github.io/2016/08/03/build-php-develop-environment-in-atom/</loc>
+    <lastmod>2018-10-21T11:50:45.022Z</lastmod>
+    <data>
+        <display>
+        <title>使用atom进行php开发</title>
+        <pubTime>2016-08-03T07:30:21.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>atom</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://16bh.github.io/2018/04/27/brew-php-7-0-and-pecl-install-php-extension/</loc>
     <lastmod>2018-10-21T11:50:45.021Z</lastmod>
     <data>
@@ -2986,6 +3004,28 @@
         <tag>php</tag>
          
         <tag>pecl</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
+    <lastmod>2018-10-21T11:50:45.020Z</lastmod>
+    <data>
+        <display>
+        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
+        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>brew</tag>
          
          
            
@@ -3031,28 +3071,6 @@
            
              
               <breadCrumb title="Software" url="http://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://16bh.github.io/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
-    <lastmod>2018-10-21T11:50:45.020Z</lastmod>
-    <data>
-        <display>
-        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
-        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>brew</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
           
         </display>
     </data>
@@ -3162,26 +3180,6 @@
 
     
   <url>
-    <loc>http://16bh.github.io/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
-    <lastmod>2018-10-21T11:50:45.016Z</lastmod>
-    <data>
-        <display>
-        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
-        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://16bh.github.io/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
     <lastmod>2018-10-21T11:50:45.016Z</lastmod>
     <data>
@@ -3194,6 +3192,26 @@
         <tag>git</tag>
          
         <tag>ssh</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="http://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://16bh.github.io/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
+    <lastmod>2018-10-21T11:50:45.016Z</lastmod>
+    <data>
+        <display>
+        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
+        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
+        
+        <tag>php</tag>
          
          
            
