@@ -29,6 +29,7 @@ Book List
 
 [my book list](https://16bh.github.io/2017/04/15/book-list/)
 [2017 reading list](https://16bh.github.io/2018/03/05/2017-reading-list/)
+[2018 reading list](https://16bh.github.io/2019/01/21/2018-reading-list/)
 
 Software List
 ---
