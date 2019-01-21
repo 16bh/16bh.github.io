@@ -56,3 +56,4 @@ About Website
 - 2017-07-12    代码托管到`Coding.net`，设置国内用户访问时dns解析到`coding.net`,国外用户解析到`github`
 - 2018-10-10    `jimxu.me`域名过期
 - 2018-10-15    七牛云测试域名过期，将图片备份到本地
+- 2019-01-21    在阮一峰老师的博客上看到了[`bmw`](https://github.com/dongyuanxin/theme-bmw)主题，作者更新很勤快，支持通[`leanclound`](https://leancloud.cn/?source=EBBVF4T1)评论，试用后切换
