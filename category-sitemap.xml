@@ -7,13 +7,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/categories/Reading/</loc>
-        <lastmod>2018-10-21T11:50:45.020Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/categories/Blog/</loc>
         <lastmod>2018-10-21T11:50:45.091Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -42,8 +35,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/categories/Read/</loc>
-        <lastmod>2019-01-21T11:49:51.873Z</lastmod>
+        <loc>http://16bh.github.io/categories/Reading/</loc>
+        <lastmod>2019-01-24T10:38:48.908Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
