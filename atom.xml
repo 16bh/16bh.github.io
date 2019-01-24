@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://16bh.github.io/"/>
-  <updated>2019-01-24T10:38:48.908Z</updated>
+  <updated>2019-01-24T10:42:05.088Z</updated>
   <id>http://16bh.github.io/</id>
   
   <author>
@@ -16,11 +16,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>2019 reading list</title>
+    <link href="http://16bh.github.io/2019/01/24/2019-reading-list/"/>
+    <id>http://16bh.github.io/2019/01/24/2019-reading-list/</id>
+    <published>2019-01-24T10:40:18.000Z</published>
+    <updated>2019-01-24T10:42:05.088Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="1月"><a href="#1月" class="headerlink" title="1月"></a>1月</h2><ul>
+<li>《神奇动物在哪里》 JK罗琳 ★★★★</li>
+<li>《神奇的魁地奇球》JK罗琳 ★★★★</li>
+<li>《哈利波特与密室纪念版》JK罗琳 ★★★★★</li>
+<li>《一只名叫鲍勃的猫》詹姆斯鲍文 ★★★★</li>
+<li>《禅者的初心》铃木俊隆  ★★★★★</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;1月&quot;&gt;&lt;a href=&quot;#1月&quot; class=&quot;headerlink&quot; title=&quot;1月&quot;&gt;&lt;/a&gt;1月&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;《神奇动物在哪里》 JK罗琳 ★★★★&lt;/li&gt;
+&lt;li&gt;《神奇的魁地奇球》JK罗琳 ★★★
+    
+    </summary>
+    
+      <category term="Reading" scheme="http://16bh.github.io/categories/Reading/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>2018读书总结</title>
     <link href="http://16bh.github.io/2019/01/21/2018-reading-list/"/>
     <id>http://16bh.github.io/2019/01/21/2018-reading-list/</id>
     <published>2019-01-21T11:21:01.000Z</published>
-    <updated>2019-01-24T10:38:48.908Z</updated>
+    <updated>2019-01-24T10:41:36.415Z</updated>
     
     <content type="html"><![CDATA[<p>2018年共看了</p>
 <p>龙应台 5本<br>严歌苓 2本<br>是枝裕和 4本<br>夏目漱石 2本<br>村上春树 2本<br>弗雷德里克·巴克曼 3本<br>肯福莱特 3本</p>
@@ -171,12 +202,7 @@
 <li>《新名字的故事》埃莱娜费兰特 ★★★★★</li>
 <li>《离开的，留下的》埃莱娜费兰特 ★★★★★</li>
 <li>《失踪的孩子》埃莱娜费兰特 ★★★★★</li>
-<li>《哈利波特与密室纪念版》JK罗琳 ★★★★★</li>
-<li>《神奇动物在哪里》 JK罗琳 ★★★★</li>
-<li>《神奇的魁地奇球》JK罗琳 ★★★★</li>
-<li>《哈利波特与密室纪念版》JK罗琳 ★★★★★</li>
-<li>《一只名叫鲍勃的猫》詹姆斯鲍文 ★★★★</li>
-<li>《禅者的初心》铃木俊隆  ★★★★★</li>
+<li>《哈利波特与魔法石纪念版》JK罗琳 ★★★★★</li>
 </ul>
 ]]></content>
     
@@ -1269,40 +1295,6 @@
     
     
       <category term="git" scheme="http://16bh.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>phpstorm生成函数调用关系</title>
-    <link href="http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/"/>
-    <id>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</id>
-    <published>2017-10-16T08:25:39.000Z</published>
-    <updated>2018-10-21T11:50:45.075Z</updated>
-    
-    <content type="html"><![CDATA[<p>知乎上有人提问如何生成函数调用路程图</p>
-<p>原问题见：<br><a href="https://www.zhihu.com/question/34495043/answer/244410441" target="_blank" rel="external">https://www.zhihu.com/question/34495043/answer/244410441</a></p>
-<a id="more"></a>
-<p>phpstorm也有检查函数调用这个功能</p>
-<p>在偏好设置中搜索关键字 Call Hierarchy</p>
-<p>找到快捷键 ctrl+alt+h</p>
-<p><img src="/2017/10/16/phpstorm-generate-Call-Hierarchy/20171016150814248321882.png"></p>
-<p>使用效果如下：</p>
-<p>选中一个函数array_slice，按快捷键，在右边生成了该函数所有的调用关系</p>
-<p>与查看用例find usage不同的是，Call Hierarchy功能会递归的寻找用例的用例，直到找到没有入口函数为止</p>
-<p><img src="/2017/10/16/phpstorm-generate-Call-Hierarchy/20171016150814276075001.png"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;知乎上有人提问如何生成函数调用路程图&lt;/p&gt;
-&lt;p&gt;原问题见：&lt;br&gt;&lt;a href=&quot;https://www.zhihu.com/question/34495043/answer/244410441&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.zhihu.com/question/34495043/answer/244410441&lt;/a&gt;&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
-    
-    
-      <category term="phpstorm" scheme="http://16bh.github.io/tags/phpstorm/"/>
     
   </entry>
   

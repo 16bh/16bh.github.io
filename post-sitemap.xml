@@ -7,8 +7,16 @@
     </url>
 
     <url>
+        <loc>http://16bh.github.io/2019/01/24/2019-reading-list/</loc>
+        <lastmod>2019-01-24T10:42:05.088Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://16bh.github.io/2019/01/21/2018-reading-list/</loc>
-        <lastmod>2019-01-24T10:38:48.908Z</lastmod>
+        <lastmod>2019-01-24T10:41:36.415Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -127,14 +135,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/11/wakatime-record-coding/</loc>
-        <lastmod>2018-10-21T11:50:45.092Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/2017/06/08/wechat-raffle-algorithm/</loc>
         <lastmod>2018-10-21T11:50:45.092Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -143,8 +143,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/07/12/using-Coding-host-website-code/</loc>
-        <lastmod>2018-10-21T11:50:45.091Z</lastmod>
+        <loc>http://16bh.github.io/2016/07/11/wakatime-record-coding/</loc>
+        <lastmod>2018-10-21T11:50:45.092Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -159,7 +159,15 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/06/22/use-sublime-open-project/</loc>
+        <loc>http://16bh.github.io/2017/07/12/using-Coding-host-website-code/</loc>
+        <lastmod>2018-10-21T11:50:45.091Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/2016/01/18/use-fiddler-to-change-website-cotent/</loc>
         <lastmod>2018-10-21T11:50:45.090Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -175,7 +183,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/01/18/use-fiddler-to-change-website-cotent/</loc>
+        <loc>http://16bh.github.io/2017/06/22/use-sublime-open-project/</loc>
         <lastmod>2018-10-21T11:50:45.090Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -407,7 +415,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
+        <loc>http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</loc>
         <lastmod>2018-10-21T11:50:45.075Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -415,7 +423,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</loc>
+        <loc>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
         <lastmod>2018-10-21T11:50:45.075Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -527,14 +535,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/04/07/markdown-insert-image-skills/</loc>
-        <lastmod>2018-10-21T11:50:45.068Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/2017/04/12/my-thinking-about-redis/</loc>
         <lastmod>2018-10-21T11:50:45.068Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -543,8 +543,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/12/magneto-common-method/</loc>
-        <lastmod>2018-10-21T11:50:45.067Z</lastmod>
+        <loc>http://16bh.github.io/2017/04/07/markdown-insert-image-skills/</loc>
+        <lastmod>2018-10-21T11:50:45.068Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -567,6 +567,14 @@
     </url>
 
     <url>
+        <loc>http://16bh.github.io/2016/07/12/magneto-common-method/</loc>
+        <lastmod>2018-10-21T11:50:45.067Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://16bh.github.io/2017/04/10/magento-system-config-summary/</loc>
         <lastmod>2018-10-21T11:50:45.066Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -575,7 +583,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/20/magento-set-system-config-default-value/</loc>
+        <loc>http://16bh.github.io/2017/04/07/magento-set-up-sql-common-problems/</loc>
         <lastmod>2018-10-21T11:50:45.065Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -583,7 +591,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/04/07/magento-set-up-sql-common-problems/</loc>
+        <loc>http://16bh.github.io/2016/07/20/magento-set-system-config-default-value/</loc>
         <lastmod>2018-10-21T11:50:45.065Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -647,7 +655,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/06/30/magento-code-structure/</loc>
+        <loc>http://16bh.github.io/2016/08/29/magento-add-column-of-grid-table/</loc>
         <lastmod>2018-10-21T11:50:45.060Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -655,7 +663,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/08/29/magento-add-column-of-grid-table/</loc>
+        <loc>http://16bh.github.io/2016/06/30/magento-code-structure/</loc>
         <lastmod>2018-10-21T11:50:45.060Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -831,7 +839,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/05/how-to-install-hexo-theme/</loc>
+        <loc>http://16bh.github.io/2016/06/24/how-to-install-magento/</loc>
         <lastmod>2018-10-21T11:50:45.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -839,7 +847,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/06/24/how-to-install-magento/</loc>
+        <loc>http://16bh.github.io/2016/07/05/how-to-install-hexo-theme/</loc>
         <lastmod>2018-10-21T11:50:45.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -887,7 +895,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
+        <loc>http://16bh.github.io/2016/07/06/hexo-new-post-template/</loc>
         <lastmod>2018-10-21T11:50:45.041Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -895,7 +903,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/06/hexo-new-post-template/</loc>
+        <loc>http://16bh.github.io/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
         <lastmod>2018-10-21T11:50:45.041Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -919,7 +927,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/06/hexo-landscape-theme-add-friends/</loc>
+        <loc>http://16bh.github.io/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
         <lastmod>2018-10-21T11:50:45.039Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -927,7 +935,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/07/hexo-landscapse-plus-code-highlight-test/</loc>
+        <loc>http://16bh.github.io/2016/07/06/hexo-landscape-theme-add-friends/</loc>
         <lastmod>2018-10-21T11:50:45.039Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -967,7 +975,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
+        <loc>http://16bh.github.io/2016/07/05/hexo-enable-duoshuo/</loc>
         <lastmod>2018-10-21T11:50:45.036Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -975,7 +983,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/05/hexo-enable-duoshuo/</loc>
+        <loc>http://16bh.github.io/2016/07/06/hexo-error-FATAL-Permission-denied-publickey/</loc>
         <lastmod>2018-10-21T11:50:45.036Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1167,7 +1175,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/08/03/build-php-develop-environment-in-atom/</loc>
+        <loc>http://16bh.github.io/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/</loc>
         <lastmod>2018-10-21T11:50:45.022Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1175,7 +1183,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/06/30/buid-php-develope-environment-on-mac-include-nginx-mysql-php-php-fpm/</loc>
+        <loc>http://16bh.github.io/2016/08/03/build-php-develop-environment-in-atom/</loc>
         <lastmod>2018-10-21T11:50:45.022Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1239,7 +1247,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/</loc>
+        <loc>http://16bh.github.io/2018/10/16/a-command-more-powerful-than-man/</loc>
         <lastmod>2018-10-21T11:50:45.017Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1247,7 +1255,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2018/10/16/a-command-more-powerful-than-man/</loc>
+        <loc>http://16bh.github.io/2018/10/15/a-cool-way-to-blog-by-hexo-and-typora/</loc>
         <lastmod>2018-10-21T11:50:45.017Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
