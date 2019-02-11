@@ -21,13 +21,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/categories/Software/</loc>
-        <lastmod>2019-01-21T08:50:57.221Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/categories/Life/</loc>
         <lastmod>2019-01-21T09:04:36.518Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -36,7 +29,14 @@
 
     <url>
         <loc>http://16bh.github.io/categories/Reading/</loc>
-        <lastmod>2019-01-24T10:42:05.088Z</lastmod>
+        <lastmod>2019-01-28T09:32:51.296Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/categories/Software/</loc>
+        <lastmod>2019-02-11T09:43:15.343Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

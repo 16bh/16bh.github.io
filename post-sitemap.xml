@@ -7,8 +7,24 @@
     </url>
 
     <url>
+        <loc>http://16bh.github.io/2019/02/11/replace-haker-software/</loc>
+        <lastmod>2019-02-11T09:43:15.343Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/2016/08/16/mac-software-list/</loc>
+        <lastmod>2019-02-11T09:29:07.220Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://16bh.github.io/2019/01/24/2019-reading-list/</loc>
-        <lastmod>2019-01-24T10:42:05.088Z</lastmod>
+        <lastmod>2019-01-28T09:32:51.296Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -31,14 +47,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/08/16/mac-software-list/</loc>
-        <lastmod>2019-01-21T08:50:57.221Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/2017/06/08/yaf-study-note-structure/</loc>
         <lastmod>2018-10-21T11:50:45.101Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -47,7 +55,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/06/12/yaf-study-note-mvc/</loc>
+        <loc>http://16bh.github.io/2017/07/26/yaf-study-note-request-and-respose/</loc>
         <lastmod>2018-10-21T11:50:45.100Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -55,7 +63,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/07/26/yaf-study-note-request-and-respose/</loc>
+        <loc>http://16bh.github.io/2017/06/12/yaf-study-note-mvc/</loc>
         <lastmod>2018-10-21T11:50:45.100Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -103,14 +111,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/08/xdebug-in-phpstorm-on-mac/</loc>
-        <lastmod>2018-10-21T11:50:45.094Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/2017/07/24/xdebug-var-dump-display-error/</loc>
         <lastmod>2018-10-21T11:50:45.094Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -119,8 +119,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/03/29/what-does-magento's-order-model-cancel-function-do/</loc>
-        <lastmod>2018-10-21T11:50:45.093Z</lastmod>
+        <loc>http://16bh.github.io/2016/07/08/xdebug-in-phpstorm-on-mac/</loc>
+        <lastmod>2018-10-21T11:50:45.094Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -135,8 +135,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/06/08/wechat-raffle-algorithm/</loc>
-        <lastmod>2018-10-21T11:50:45.092Z</lastmod>
+        <loc>http://16bh.github.io/2017/03/29/what-does-magento's-order-model-cancel-function-do/</loc>
+        <lastmod>2018-10-21T11:50:45.093Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -151,8 +151,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/08/04/using-composer/</loc>
-        <lastmod>2018-10-21T11:50:45.091Z</lastmod>
+        <loc>http://16bh.github.io/2017/06/08/wechat-raffle-algorithm/</loc>
+        <lastmod>2018-10-21T11:50:45.092Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -160,6 +160,14 @@
 
     <url>
         <loc>http://16bh.github.io/2017/07/12/using-Coding-host-website-code/</loc>
+        <lastmod>2018-10-21T11:50:45.091Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/2017/08/04/using-composer/</loc>
         <lastmod>2018-10-21T11:50:45.091Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -415,7 +423,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</loc>
+        <loc>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
         <lastmod>2018-10-21T11:50:45.075Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -423,7 +431,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
+        <loc>http://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</loc>
         <lastmod>2018-10-21T11:50:45.075Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -439,7 +447,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/04/01/phpstorm-develop-magento-skills/</loc>
+        <loc>http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/</loc>
         <lastmod>2018-10-21T11:50:45.074Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -447,7 +455,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/</loc>
+        <loc>http://16bh.github.io/2017/04/01/phpstorm-develop-magento-skills/</loc>
         <lastmod>2018-10-21T11:50:45.074Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -535,6 +543,14 @@
     </url>
 
     <url>
+        <loc>http://16bh.github.io/2017/04/07/markdown-insert-image-skills/</loc>
+        <lastmod>2018-10-21T11:50:45.068Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://16bh.github.io/2017/04/12/my-thinking-about-redis/</loc>
         <lastmod>2018-10-21T11:50:45.068Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -543,8 +559,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/04/07/markdown-insert-image-skills/</loc>
-        <lastmod>2018-10-21T11:50:45.068Z</lastmod>
+        <loc>http://16bh.github.io/2016/07/12/magneto-common-method/</loc>
+        <lastmod>2018-10-21T11:50:45.067Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -560,14 +576,6 @@
 
     <url>
         <loc>http://16bh.github.io/2016/07/07/mangeto-rewrite-core-model/</loc>
-        <lastmod>2018-10-21T11:50:45.067Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://16bh.github.io/2016/07/12/magneto-common-method/</loc>
         <lastmod>2018-10-21T11:50:45.067Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -615,7 +623,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/11/magento-locale/</loc>
+        <loc>http://16bh.github.io/2016/06/22/magento-log/</loc>
         <lastmod>2018-10-21T11:50:45.062Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -623,7 +631,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/06/22/magento-log/</loc>
+        <loc>http://16bh.github.io/2016/07/11/magento-locale/</loc>
         <lastmod>2018-10-21T11:50:45.062Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -791,7 +799,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2015/12/21/how-to-use-charles-on-windows/</loc>
+        <loc>http://16bh.github.io/2017/07/07/how-to-use-github-and-gitlab-same-time/</loc>
         <lastmod>2018-10-21T11:50:45.047Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -799,7 +807,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/07/07/how-to-use-github-and-gitlab-same-time/</loc>
+        <loc>http://16bh.github.io/2015/12/21/how-to-use-charles-on-windows/</loc>
         <lastmod>2018-10-21T11:50:45.047Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -815,14 +823,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/</loc>
-        <lastmod>2018-10-21T11:50:45.045Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/2018/03/01/how-to-manage-your-photos-with-Photos/</loc>
         <lastmod>2018-10-21T11:50:45.045Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -831,7 +831,15 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/06/30/how-to-add-module-in-magento/</loc>
+        <loc>http://16bh.github.io/2018/05/28/how-to-install-windows-on-mac/</loc>
+        <lastmod>2018-10-21T11:50:45.045Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/2016/07/05/how-to-install-hexo-theme/</loc>
         <lastmod>2018-10-21T11:50:45.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -847,7 +855,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/05/how-to-install-hexo-theme/</loc>
+        <loc>http://16bh.github.io/2016/06/30/how-to-add-module-in-magento/</loc>
         <lastmod>2018-10-21T11:50:45.044Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -911,7 +919,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/06/hexo-new-page/</loc>
+        <loc>http://16bh.github.io/2017/03/30/hexo-language-setting-not-effective/</loc>
         <lastmod>2018-10-21T11:50:45.040Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -919,7 +927,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/03/30/hexo-language-setting-not-effective/</loc>
+        <loc>http://16bh.github.io/2016/07/06/hexo-new-page/</loc>
         <lastmod>2018-10-21T11:50:45.040Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -959,7 +967,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
+        <loc>http://16bh.github.io/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
         <lastmod>2018-10-21T11:50:45.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -967,7 +975,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
+        <loc>http://16bh.github.io/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
         <lastmod>2018-10-21T11:50:45.037Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -991,14 +999,6 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/13/hexo-404-page/</loc>
-        <lastmod>2018-10-21T11:50:45.035Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://16bh.github.io/2016/07/08/hexo-bind-godaddy-host-name/</loc>
         <lastmod>2018-10-21T11:50:45.035Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -1007,8 +1007,8 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/04/11/go-study-note-vscode/</loc>
-        <lastmod>2018-10-21T11:50:45.034Z</lastmod>
+        <loc>http://16bh.github.io/2016/07/13/hexo-404-page/</loc>
+        <lastmod>2018-10-21T11:50:45.035Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -1016,6 +1016,14 @@
 
     <url>
         <loc>http://16bh.github.io/2017/04/11/go-study-note/</loc>
+        <lastmod>2018-10-21T11:50:45.034Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://16bh.github.io/2017/04/11/go-study-note-vscode/</loc>
         <lastmod>2018-10-21T11:50:45.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1079,7 +1087,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
+        <loc>http://16bh.github.io/2017/07/07/fix-invalid-private-key-after-reboot/</loc>
         <lastmod>2018-10-21T11:50:45.028Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1087,7 +1095,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/07/07/fix-invalid-private-key-after-reboot/</loc>
+        <loc>http://16bh.github.io/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
         <lastmod>2018-10-21T11:50:45.028Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1127,7 +1135,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/07/25/disable-auto-ucfirst-word-on-mac/</loc>
+        <loc>http://16bh.github.io/2016/06/30/disable-module-in-magento/</loc>
         <lastmod>2018-10-21T11:50:45.025Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1135,7 +1143,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2016/06/30/disable-module-in-magento/</loc>
+        <loc>http://16bh.github.io/2017/07/25/disable-auto-ucfirst-word-on-mac/</loc>
         <lastmod>2018-10-21T11:50:45.025Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1199,7 +1207,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/</loc>
+        <loc>http://16bh.github.io/2017/04/15/book-list-before-2017/</loc>
         <lastmod>2018-10-21T11:50:45.020Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1207,7 +1215,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/04/15/book-list-before-2017/</loc>
+        <loc>http://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/</loc>
         <lastmod>2018-10-21T11:50:45.020Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1263,7 +1271,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
+        <loc>http://16bh.github.io/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
         <lastmod>2018-10-21T11:50:45.016Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -1271,7 +1279,7 @@
     </url>
 
     <url>
-        <loc>http://16bh.github.io/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
+        <loc>http://16bh.github.io/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
         <lastmod>2018-10-21T11:50:45.016Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

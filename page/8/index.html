@@ -175,6 +175,93 @@
   
   <div class="post">
     <h1 class="article-title">
+      <a href="/2016/07/14/mysql-in-magento/">
+        <span>Magento数据库非EAV模型使用</span>
+      </a>
+    </h1>
+    <!-- PC端文章信息 -->
+    <div class="article-top-meta pc-view">
+      <span>
+        发布时间 : 2016-07-14
+      </span>
+    </div>
+    <!-- 移动端文章信息 -->
+    <div class="article-top-meta mobile-view">
+      <span>
+        发布 : 2016-07-14
+      </span>
+      
+        <span>
+        分类 :
+          <a href="/categories/IT/">
+            IT
+          </a>
+        </span>
+      
+      
+        <span>
+          浏览 : <span class="article-timer" data-identity="mysql-in-magento"></span>
+        </span>
+      
+    </div>
+    
+    <!-- 文章简介 -->
+    <div class="article-content">
+      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
+        <blockquote>
+<p>《深入理解Magento第四章 - 模型和ERM模型》指出，模型的使用分为四步：</p>
+<ol>
+<li>启用模型</li>
+<li>启用资源模型</li>
+<li>在资源模型中添加实体(Entity)。对于简单的模型来说,实体就是数据表的名字</li>
+<li>为资源模型设置读、写适配器</li>
+</ol>
+</blockquote>
+<p>在<code>magento</code>中创建并使用一个记录用户信息的数据库</p>
+      </div>
+    </div>
+    <div class="article-footer">
+      <div class="article-meta pull-left">
+        <!-- 分类pc端可见 -->
+        <span class="pc-view">
+          
+            <i class="iconfont icon-tag"></i>分类:
+            <a href="/categories/IT/">
+              IT
+            </a>
+          </span>
+          
+        <span>
+          
+            <i class="iconfont icon-06tags"></i>标签:
+            
+              <span class="span--tag">
+                <a href="/tags/magento/">
+                  #magento
+                </a>
+              </span>
+            
+              <span class="span--tag">
+                <a href="/tags/mysql/">
+                  #mysql
+                </a>
+              </span>
+            
+                    
+        </span>
+      </div>
+      
+        <div class="article-meta pull-right">
+          <span class="pc-view">
+            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="mysql-in-magento"></span>
+          </span>
+        </div>
+      
+    </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="article-title">
       <a href="/2016/07/13/hexo-404-page/">
         <span>设置hexo404页面</span>
       </a>
@@ -1186,86 +1273,6 @@
         <div class="article-meta pull-right">
           <span class="pc-view">
             <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="fix-Alfred-markdown-workflow"></span>
-          </span>
-        </div>
-      
-    </div>
-  </div>
-  
-  <div class="post">
-    <h1 class="article-title">
-      <a href="/2016/07/07/python-install-requests/">
-        <span>python安装requests库</span>
-      </a>
-    </h1>
-    <!-- PC端文章信息 -->
-    <div class="article-top-meta pc-view">
-      <span>
-        发布时间 : 2016-07-07
-      </span>
-    </div>
-    <!-- 移动端文章信息 -->
-    <div class="article-top-meta mobile-view">
-      <span>
-        发布 : 2016-07-07
-      </span>
-      
-        <span>
-        分类 :
-          <a href="/categories/IT/">
-            IT
-          </a>
-        </span>
-      
-      
-        <span>
-          浏览 : <span class="article-timer" data-identity="python-install-requests"></span>
-        </span>
-      
-    </div>
-    
-    <!-- 文章简介 -->
-    <div class="article-content">
-      <div class="markdown-body article-content--inner" v-html="mdToHtml(psg.summary)">
-        <blockquote>
-<p>墙裂推荐史上最简单的<code>markdown</code>图片使用方法：<a href="https://github.com/tiann/markdown-img-upload" target="_blank" rel="external">markdown图片实用工具</a>。通过<code>Alfred</code>的工作流和七牛云存储相结合的方法，复制图片粘贴到编辑器自动生成图片链接</p>
-<p>其中，<code>Alfred</code>用到的<code>python</code>脚本依赖<code>requests</code>库,而网上很多人的<code>pip</code>安装方法不成功，其实因为你电脑安装了不同版本的<code>python</code></p>
-</blockquote>
-<p>安装python的requests，网上推荐的大部分是<code>pip</code>方法</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo easy_install pip   //安装pip</div><div class="line">sudo pip install requests   //安装requests</div></pre></td></tr></table></figure>
-<p>执行后在python控制台查看所有已安装的模块：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">&gt;</span>&gt;&gt; help('modules')</div></pre></td></tr></table></figure>
-<p>未发现requests</p>
-      </div>
-    </div>
-    <div class="article-footer">
-      <div class="article-meta pull-left">
-        <!-- 分类pc端可见 -->
-        <span class="pc-view">
-          
-            <i class="iconfont icon-tag"></i>分类:
-            <a href="/categories/IT/">
-              IT
-            </a>
-          </span>
-          
-        <span>
-          
-            <i class="iconfont icon-06tags"></i>标签:
-            
-              <span class="span--tag">
-                <a href="/tags/python/">
-                  #python
-                </a>
-              </span>
-            
-                    
-        </span>
-      </div>
-      
-        <div class="article-meta pull-right">
-          <span class="pc-view">
-            <i class="iconfont icon-view"></i>浏览: <span class="article-timer" data-identity="python-install-requests"></span>
           </span>
         </div>
       

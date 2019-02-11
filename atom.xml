@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://16bh.github.io/"/>
-  <updated>2019-01-24T10:42:05.088Z</updated>
+  <updated>2019-02-11T09:43:15.343Z</updated>
   <id>http://16bh.github.io/</id>
   
   <author>
@@ -16,11 +16,59 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>mac软件正版化</title>
+    <link href="http://16bh.github.io/2019/02/11/replace-haker-software/"/>
+    <id>http://16bh.github.io/2019/02/11/replace-haker-software/</id>
+    <published>2019-02-11T09:12:13.000Z</published>
+    <updated>2019-02-11T09:43:15.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>2018年个人比较有成就感的事情之一是把电脑里的盗版软件基本都去掉了。一是为了电脑的安全，盗版软件有安全隐患，二个也是为了支持正版软件，码农写软件不易</p>
+<p>两种途径：</p>
+<ol>
+<li>购买正版</li>
+<li>用免费软件替代</li>
+</ol>
+<a id="more"></a>
+<h2 id="Paste和Yoink：购买正版"><a href="#Paste和Yoink：购买正版" class="headerlink" title="Paste和Yoink：购买正版"></a>Paste和Yoink：购买正版</h2><p>一个是管理剪切板的，一个是文件临时中转站</p>
+<p>这两款软件很早就开始用了，尤其是Paste，基本离不开。所以一开始就买了正版，并不贵，后面还打折了</p>
+<h2 id="Alfred：使用免费版"><a href="#Alfred：使用免费版" class="headerlink" title="Alfred：使用免费版"></a>Alfred：使用免费版</h2><p>这个收费功能wordflows很强大，但还是有替代方案的。所以免费功能足够用了，非常值得用来替代系统原生的Spotlight</p>
+<h2 id="小历：购买正版"><a href="#小历：购买正版" class="headerlink" title="小历：购买正版"></a>小历：购买正版</h2><p>一款小而美的日历软件，只要一块钱，用来取代系统的时间工具，可以展开日历，规划日程</p>
+<h2 id="Quiver-Bear-用备忘录替代"><a href="#Quiver-Bear-用备忘录替代" class="headerlink" title="Quiver/Bear: 用备忘录替代"></a>Quiver/Bear: 用备忘录替代</h2><p>笔记本工具，用来随时记录工作、生活等片段笔记。Quiver收费，Bear需要订阅，如果资金充足可以选择这两款，我后面是用系统自带的备忘录替代的，通过iclound备份，在多台电脑和手机之间同步效果非常好，唯一的缺点应该是不支持markdown</p>
+<h2 id="Bear-用Macdown-Typora替代"><a href="#Bear-用Macdown-Typora替代" class="headerlink" title="Bear: 用Macdown/Typora替代"></a>Bear: 用Macdown/Typora替代</h2><p>同样，原来写markdown的时候用的bear软件，收费后用免费的Macdown/Typora替代，这两个软件风格不一样，Macdown参考了Mou是多窗口的，有编辑区和预览区，Typora则是“所见即所得”的代表</p>
+<h2 id="Bartender：-用Vanilla-Dozer替代"><a href="#Bartender：-用Vanilla-Dozer替代" class="headerlink" title="Bartender： 用Vanilla/Dozer替代"></a>Bartender： 用Vanilla/Dozer替代</h2><p>菜单栏管理工具。</p>
+<p>菜单栏是很方便的入口，很多mac软件都支持菜单栏图标，图标过多了就不方便使用，所以需要一款整理的工具。</p>
+<p>bartender是功能最强大的工具，收费</p>
+<p>vanilla和dozer是免费的替代品，比较了一下软件的交互，我现在用的是dozer</p>
+<h2 id="Moom-用Manico替代"><a href="#Moom-用Manico替代" class="headerlink" title="Moom: 用Manico替代"></a>Moom: 用Manico替代</h2><p>窗口管理工具，调节窗口的大小，完全可用Manico替代，收费6元，限免的时候下载了</p>
+<h2 id="redisdeskmanager-用Medis替代"><a href="#redisdeskmanager-用Medis替代" class="headerlink" title="redisdeskmanager: 用Medis替代"></a>redisdeskmanager: 用Medis替代</h2><p>redis GUI软件</p>
+<h2 id="目前暂时找不到替代品的"><a href="#目前暂时找不到替代品的" class="headerlink" title="目前暂时找不到替代品的"></a>目前暂时找不到替代品的</h2><ul>
+<li>charles</li>
+<li>IDEA</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2018年个人比较有成就感的事情之一是把电脑里的盗版软件基本都去掉了。一是为了电脑的安全，盗版软件有安全隐患，二个也是为了支持正版软件，码农写软件不易&lt;/p&gt;
+&lt;p&gt;两种途径：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;购买正版&lt;/li&gt;
+&lt;li&gt;用免费软件替代&lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="Software" scheme="http://16bh.github.io/categories/Software/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>2019 reading list</title>
     <link href="http://16bh.github.io/2019/01/24/2019-reading-list/"/>
     <id>http://16bh.github.io/2019/01/24/2019-reading-list/</id>
     <published>2019-01-24T10:40:18.000Z</published>
-    <updated>2019-01-24T10:42:05.088Z</updated>
+    <updated>2019-01-28T09:32:51.296Z</updated>
     
     <content type="html"><![CDATA[<a id="more"></a>
 <h2 id="1月"><a href="#1月" class="headerlink" title="1月"></a>1月</h2><ul>
@@ -29,6 +77,8 @@
 <li>《哈利波特与密室纪念版》JK罗琳 ★★★★★</li>
 <li>《一只名叫鲍勃的猫》詹姆斯鲍文 ★★★★</li>
 <li>《禅者的初心》铃木俊隆  ★★★★★</li>
+<li>《鹿鼎记》金庸 ★★★★★</li>
+<li>《流浪地球》刘慈欣</li>
 </ul>
 ]]></content>
     
@@ -1269,32 +1319,6 @@
       <category term="php" scheme="http://16bh.github.io/tags/php/"/>
     
       <category term="jupyter" scheme="http://16bh.github.io/tags/jupyter/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>git Error: Permission denied (publickey)</title>
-    <link href="http://16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/"/>
-    <id>http://16bh.github.io/2017/10/16/git-Error-Permission-denied-publickey/</id>
-    <published>2017-10-16T08:36:24.000Z</published>
-    <updated>2018-10-21T11:50:45.031Z</updated>
-    
-    <content type="html"><![CDATA[<p>执行<code>ssh-add id_rsa</code></p>
-<p>进阶：把上述命令写到脚本里，开机运行</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;执行&lt;code&gt;ssh-add id_rsa&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;进阶：把上述命令写到脚本里，开机运行&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="IT" scheme="http://16bh.github.io/categories/IT/"/>
-    
-    
-      <category term="git" scheme="http://16bh.github.io/tags/git/"/>
     
   </entry>
   
