@@ -2,22 +2,22 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://16bh.github.io/post-sitemap.xml</loc>
+        <loc>https://16bh.github.io/post-sitemap.xml</loc>
         <lastmod>2019-02-11T09:43:15.343Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://16bh.github.io/page-sitemap.xml</loc>
+        <loc>https://16bh.github.io/page-sitemap.xml</loc>
         <lastmod>2019-01-21T11:51:23.363Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://16bh.github.io/category-sitemap.xml</loc>
+        <loc>https://16bh.github.io/category-sitemap.xml</loc>
         <lastmod>2018-10-21T11:50:45.091Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://16bh.github.io/tag-sitemap.xml</loc>
+        <loc>https://16bh.github.io/tag-sitemap.xml</loc>
         <lastmod>2018-10-21T11:50:45.012Z</lastmod>
     </sitemap>
 
