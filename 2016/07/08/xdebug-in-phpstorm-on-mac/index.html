@@ -4,10 +4,10 @@
   
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="董沅鑫, yuanxin.me@gmail.com" />
+  <meta name="author" content="小凡, xujun_njupt@126.com" />
   
   
-  
+
   <title>mac下phpstorm配置xdebug | 凡·间</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -45,14 +45,15 @@
   
     <link href="https://cdn.bootcss.com/social-share.js/1.0.16/css/share.min.css" rel="stylesheet">
   
-  
+
   <script src="//cdn.bootcss.com/jquery/3.3.1/jquery.min.js" async></script>
-  
+
   
     <script src="//cdn.jsdelivr.net/npm/leancloud-storage@3.11.0/dist/av-min.js"></script>
   
 
 </head>
+
 
   <body>
 
@@ -206,16 +207,21 @@
 
   <div class="article-content">
     <div class="markdown-body">
-      <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo php55-fpm restart</div></pre></td></tr></table></figure>
+      <figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo php70-fpm restart</div></pre></td></tr></table></figure>
 <p>在<code>index.php</code>中加入<code>phpinfo();die;</code>并执行<br>若能在php的配置页面中看到<code>xdebug</code>的模块说明配置成功</p>
 <p><img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467959560969.png" alt=""></p>
-<h1 id="chrome或firefox浏览器安装扩展"><a href="#chrome或firefox浏览器安装扩展" class="headerlink" title="chrome或firefox浏览器安装扩展"></a>chrome或firefox浏览器安装扩展</h1><p><img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467962586560.png" alt=""></p>
-<p>安装<a href="https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc?hl=zh-CN" target="_blank" rel="external">xdebug-helper</a>扩展并开启，直到在浏览器工具栏可以看到激活状态的图标<br><img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467962624678.png" alt=""></p>
 <h1 id="phpstorm设置"><a href="#phpstorm设置" class="headerlink" title="phpstorm设置"></a>phpstorm设置</h1><p>进入<code>phpstorm</code>的偏好设置:</p>
 <p>（1）<code>Languages &amp; Frameworks</code> &gt; <code>PHP</code> &gt; <code>Servers</code><br><img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467962809444.png" alt=""></p>
 <p>（2）<code>Languages &amp; Frameworks</code> &gt; <code>PHP</code> &gt; <code>Debug</code> &gt; <code>DBGp Proxy</code></p>
 <p><img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467962870171.png" alt=""></p>
 <p> (3) <code>Languages &amp; Frameworks</code> &gt; <code>PHP</code> &gt; <code>Debug</code><br> <img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467962941842.png" alt=""></p>
+<h1 id="浏览器或postman配置"><a href="#浏览器或postman配置" class="headerlink" title="浏览器或postman配置"></a>浏览器或postman配置</h1><p>可以通过浏览器、postman、phpstorm自身等方式来模拟请求</p>
+<h2 id="chrome或firefox浏览器安装扩展"><a href="#chrome或firefox浏览器安装扩展" class="headerlink" title="chrome或firefox浏览器安装扩展"></a>chrome或firefox浏览器安装扩展</h2><p><img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467962586560.png" alt=""></p>
+<p>安装<a href="https://chrome.google.com/webstore/detail/xdebug-helper/eadndfjplgieldjbigjakmdgkmoaaaoc?hl=zh-CN" target="_blank" rel="external">xdebug-helper</a>扩展并开启，直到在浏览器工具栏可以看到激活状态的图标<br><img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467962624678.png" alt=""></p>
+<h2 id="postman设置"><a href="#postman设置" class="headerlink" title="postman设置"></a>postman设置</h2><p>也可以不使用浏览器进行接口请求</p>
+<p>在postman请求接口的时候，headers中配置Cookie，加入以下内容</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">XDEBUG_SESSION=PHPSTORM;</div></pre></td></tr></table></figure>
+<h2 id="phpstorm"><a href="#phpstorm" class="headerlink" title="phpstorm"></a>phpstorm</h2><p>见<a href="https://16bh.github.io/2018/05/07/phpstorm-editor-based-Rest-Client/">phpstorm可编辑的Rest客户端</a></p>
 <h1 id="xdebug使用"><a href="#xdebug使用" class="headerlink" title="xdebug使用"></a>xdebug使用</h1><ol>
 <li>在<code>chrome</code>上启用<code>xdebug-helper</code>扩展，输入网址或请求的接口地址</li>
 <li><p>在<code>phpstorm</code>上开启<code>xdeubg</code>监听<img src="/2016/07/08/xdebug-in-phpstorm-on-mac/1467963645152.png" alt=""></p>

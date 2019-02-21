@@ -373,20 +373,6 @@
     </url>
 
     <url>
-        <loc>https://16bh.github.io/tags/phpstorm/</loc>
-        <lastmod>2018-10-21T11:50:45.094Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://16bh.github.io/tags/xdebug/</loc>
-        <lastmod>2018-10-21T11:50:45.094Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://16bh.github.io/tags/xml/</loc>
         <lastmod>2018-10-21T11:50:45.096Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -424,6 +410,20 @@
     <url>
         <loc>https://16bh.github.io/tags/reading/</loc>
         <lastmod>2019-01-24T10:41:36.415Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://16bh.github.io/tags/phpstorm/</loc>
+        <lastmod>2019-02-21T10:58:44.538Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://16bh.github.io/tags/xdebug/</loc>
+        <lastmod>2019-02-21T10:58:44.538Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
