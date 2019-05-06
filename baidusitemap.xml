@@ -5,10 +5,10 @@
     
   <url>
     <loc>https://16bh.github.io/2019/05/06/kakaxi-bie-yan-wo/</loc>
-    <lastmod>2019-05-06T12:25:01.734Z</lastmod>
+    <lastmod>2019-05-06T12:25:17.845Z</lastmod>
     <data>
         <display>
-        <title>kakaxi bie yan wo</title>
+        <title>卡卡西你为什么要演我</title>
         <pubTime>2019-05-06T12:21:16.000Z</pubTime>
         
         <tag>game</tag>
@@ -409,26 +409,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/07/12/using-Coding-host-website-code/</loc>
-    <lastmod>2018-10-21T11:50:45.091Z</lastmod>
-    <data>
-        <display>
-        <title>将Hexo网站托管到Coding.net</title>
-        <pubTime>2017-07-12T08:37:04.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Blog" url="https://16bh.github.io/categories/Blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2017/08/04/using-composer/</loc>
     <lastmod>2018-10-21T11:50:45.091Z</lastmod>
     <data>
@@ -449,14 +429,34 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/06/22/use-sublime-open-project/</loc>
+    <loc>https://16bh.github.io/2017/07/12/using-Coding-host-website-code/</loc>
+    <lastmod>2018-10-21T11:50:45.091Z</lastmod>
+    <data>
+        <display>
+        <title>将Hexo网站托管到Coding.net</title>
+        <pubTime>2017-07-12T08:37:04.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Blog" url="https://16bh.github.io/categories/Blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2017/07/12/use-mtr-detect-network-status/</loc>
     <lastmod>2018-10-21T11:50:45.090Z</lastmod>
     <data>
         <display>
-        <title>设置使用sublime打开项目文件夹</title>
-        <pubTime>2017-06-22T03:42:45.000Z</pubTime>
+        <title>使用mtr工具检测网络</title>
+        <pubTime>2017-07-12T09:21:07.000Z</pubTime>
         
-        <tag>sublime</tag>
+        <tag>mtr</tag>
          
          
            
@@ -489,14 +489,14 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/07/12/use-mtr-detect-network-status/</loc>
+    <loc>https://16bh.github.io/2017/06/22/use-sublime-open-project/</loc>
     <lastmod>2018-10-21T11:50:45.090Z</lastmod>
     <data>
         <display>
-        <title>使用mtr工具检测网络</title>
-        <pubTime>2017-07-12T09:21:07.000Z</pubTime>
+        <title>设置使用sublime打开项目文件夹</title>
+        <pubTime>2017-06-22T03:42:45.000Z</pubTime>
         
-        <tag>mtr</tag>
+        <tag>sublime</tag>
          
          
            
@@ -637,13 +637,15 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/06/sublime-plugin-css-color-hignlighter/</loc>
+    <loc>https://16bh.github.io/2016/07/21/sublime-build-js-develop-environment/</loc>
     <lastmod>2018-10-21T11:50:45.087Z</lastmod>
     <data>
         <display>
-        <title>sublime插件 - css颜色高亮与取色器</title>
-        <pubTime>2016-07-06T13:12:17.000Z</pubTime>
+        <title>sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</title>
+        <pubTime>2016-07-21T10:50:05.000Z</pubTime>
         
+        <tag>js</tag>
+         
         <tag>sublime</tag>
          
          
@@ -657,15 +659,13 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/21/sublime-build-js-develop-environment/</loc>
+    <loc>https://16bh.github.io/2016/07/06/sublime-plugin-css-color-hignlighter/</loc>
     <lastmod>2018-10-21T11:50:45.087Z</lastmod>
     <data>
         <display>
-        <title>sublime搭建js编译环境及自动根据文件后缀选择对应的编译环境</title>
-        <pubTime>2016-07-21T10:50:05.000Z</pubTime>
+        <title>sublime插件 - css颜色高亮与取色器</title>
+        <pubTime>2016-07-06T13:12:17.000Z</pubTime>
         
-        <tag>js</tag>
-         
         <tag>sublime</tag>
          
          
@@ -723,26 +723,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/10/28/some-sql/</loc>
-    <lastmod>2018-10-21T11:50:45.085Z</lastmod>
-    <data>
-        <display>
-        <title>常用sql操作</title>
-        <pubTime>2016-10-28T04:08:42.000Z</pubTime>
-        
-        <tag>mysql</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2017/04/01/some-psr-error/</loc>
     <lastmod>2018-10-21T11:50:45.085Z</lastmod>
     <data>
@@ -763,17 +743,20 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/06/24/show-name-of-template-and-block-in-magento/</loc>
-    <lastmod>2018-10-21T11:50:45.084Z</lastmod>
+    <loc>https://16bh.github.io/2016/10/28/some-sql/</loc>
+    <lastmod>2018-10-21T11:50:45.085Z</lastmod>
     <data>
         <display>
-        <title>定位前台的template和block</title>
-        <pubTime>2016-06-24T10:25:19.000Z</pubTime>
+        <title>常用sql操作</title>
+        <pubTime>2016-10-28T04:08:42.000Z</pubTime>
         
-        <tag>magento</tag>
+        <tag>mysql</tag>
          
          
            
+             
+              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
+          
         </display>
     </data>
     </url>
@@ -794,6 +777,23 @@
              
               <breadCrumb title="Software" url="https://16bh.github.io/categories/Software/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2016/06/24/show-name-of-template-and-block-in-magento/</loc>
+    <lastmod>2018-10-21T11:50:45.084Z</lastmod>
+    <data>
+        <display>
+        <title>定位前台的template和block</title>
+        <pubTime>2016-06-24T10:25:19.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
         </display>
     </data>
     </url>
@@ -987,14 +987,16 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/08/10/postman-test-image-upload/</loc>
+    <loc>https://16bh.github.io/2017/04/27/phpstorm-use-atom-theme/</loc>
     <lastmod>2018-10-21T11:50:45.077Z</lastmod>
     <data>
         <display>
-        <title>postman模拟图片上传</title>
-        <pubTime>2017-08-10T07:30:32.000Z</pubTime>
+        <title>phpstorm安装Atom主题</title>
+        <pubTime>2017-04-27T10:47:52.000Z</pubTime>
         
-        <tag>postman</tag>
+        <tag>phpstorm</tag>
+         
+        <tag>atom</tag>
          
          
            
@@ -1007,16 +1009,14 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/04/27/phpstorm-use-atom-theme/</loc>
+    <loc>https://16bh.github.io/2017/08/10/postman-test-image-upload/</loc>
     <lastmod>2018-10-21T11:50:45.077Z</lastmod>
     <data>
         <display>
-        <title>phpstorm安装Atom主题</title>
-        <pubTime>2017-04-27T10:47:52.000Z</pubTime>
+        <title>postman模拟图片上传</title>
+        <pubTime>2017-08-10T07:30:32.000Z</pubTime>
         
-        <tag>phpstorm</tag>
-         
-        <tag>atom</tag>
+        <tag>postman</tag>
          
          
            
@@ -1089,12 +1089,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</loc>
+    <loc>https://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
     <lastmod>2018-10-21T11:50:45.075Z</lastmod>
     <data>
         <display>
-        <title>phpstorm忽略拼写错误</title>
-        <pubTime>2017-08-21T03:23:39.000Z</pubTime>
+        <title>phpstorm生成函数调用关系</title>
+        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
         
         <tag>phpstorm</tag>
          
@@ -1109,12 +1109,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/10/16/phpstorm-generate-Call-Hierarchy/</loc>
+    <loc>https://16bh.github.io/2017/08/21/phpstorm-ignore-spell-error/</loc>
     <lastmod>2018-10-21T11:50:45.075Z</lastmod>
     <data>
         <display>
-        <title>phpstorm生成函数调用关系</title>
-        <pubTime>2017-10-16T08:25:39.000Z</pubTime>
+        <title>phpstorm忽略拼写错误</title>
+        <pubTime>2017-08-21T03:23:39.000Z</pubTime>
         
         <tag>phpstorm</tag>
          
@@ -1237,12 +1237,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/05/26/php-review-note-on-2017-06/</loc>
+    <loc>https://16bh.github.io/2016/04/22/php-review-note-on-2016-04/</loc>
     <lastmod>2018-10-21T11:50:45.072Z</lastmod>
     <data>
         <display>
-        <title>2017年4月php面试</title>
-        <pubTime>2017-05-26T09:39:25.000Z</pubTime>
+        <title>2016年4月php面试笔记</title>
+        <pubTime>2016-04-22T07:00:35.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -1259,12 +1259,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/04/22/php-review-note-on-2016-04/</loc>
+    <loc>https://16bh.github.io/2017/05/26/php-review-note-on-2017-06/</loc>
     <lastmod>2018-10-21T11:50:45.072Z</lastmod>
     <data>
         <display>
-        <title>2016年4月php面试笔记</title>
-        <pubTime>2016-04-22T07:00:35.000Z</pubTime>
+        <title>2017年4月php面试</title>
+        <pubTime>2017-05-26T09:39:25.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -1400,26 +1400,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/04/07/markdown-insert-image-skills/</loc>
-    <lastmod>2018-10-21T11:50:45.068Z</lastmod>
-    <data>
-        <display>
-        <title>MarkDown插入图片技巧</title>
-        <pubTime>2017-04-07T03:39:01.000Z</pubTime>
-        
-        <tag>markdown</tag>
-         
-         
-           
-             
-              <breadCrumb title="Software" url="https://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2017/04/12/my-thinking-about-redis/</loc>
     <lastmod>2018-10-21T11:50:45.068Z</lastmod>
     <data>
@@ -1433,6 +1413,26 @@
            
              
               <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2017/04/07/markdown-insert-image-skills/</loc>
+    <lastmod>2018-10-21T11:50:45.068Z</lastmod>
+    <data>
+        <display>
+        <title>MarkDown插入图片技巧</title>
+        <pubTime>2017-04-07T03:39:01.000Z</pubTime>
+        
+        <tag>markdown</tag>
+         
+         
+           
+             
+              <breadCrumb title="Software" url="https://16bh.github.io/categories/Software/"/>
           
         </display>
     </data>
@@ -1460,12 +1460,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/07/magneto-enable-backend-login-captcha/</loc>
+    <loc>https://16bh.github.io/2016/07/07/mangeto-rewrite-core-model/</loc>
     <lastmod>2018-10-21T11:50:45.067Z</lastmod>
     <data>
         <display>
-        <title>magento用户登录开启验证码功能</title>
-        <pubTime>2016-07-07T05:39:19.000Z</pubTime>
+        <title>magento复写core中的model</title>
+        <pubTime>2016-07-07T10:20:15.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1480,12 +1480,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/07/mangeto-rewrite-core-model/</loc>
+    <loc>https://16bh.github.io/2016/07/07/magneto-enable-backend-login-captcha/</loc>
     <lastmod>2018-10-21T11:50:45.067Z</lastmod>
     <data>
         <display>
-        <title>magento复写core中的model</title>
-        <pubTime>2016-07-07T10:20:15.000Z</pubTime>
+        <title>magento用户登录开启验证码功能</title>
+        <pubTime>2016-07-07T05:39:19.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1642,12 +1642,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/04/06/magento-get-address-data-by-order/</loc>
+    <loc>https://16bh.github.io/2016/10/27/magento-inspect-sql-of-specific-code/</loc>
     <lastmod>2018-10-21T11:50:45.061Z</lastmod>
     <data>
         <display>
-        <title>Magento根据订单获取地址信息</title>
-        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
+        <title>magento中查看某一段代码生成的sql</title>
+        <pubTime>2016-10-27T08:25:49.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -1662,12 +1662,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/10/27/magento-inspect-sql-of-specific-code/</loc>
+    <loc>https://16bh.github.io/2017/04/06/magento-get-address-data-by-order/</loc>
     <lastmod>2018-10-21T11:50:45.061Z</lastmod>
     <data>
         <display>
-        <title>magento中查看某一段代码生成的sql</title>
-        <pubTime>2016-10-27T08:25:49.000Z</pubTime>
+        <title>Magento根据订单获取地址信息</title>
+        <pubTime>2017-04-06T06:35:24.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -2148,26 +2148,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/06/30/how-to-add-module-in-magento/</loc>
-    <lastmod>2018-10-21T11:50:45.044Z</lastmod>
-    <data>
-        <display>
-        <title>新增magento模块</title>
-        <pubTime>2016-06-30T10:26:54.000Z</pubTime>
-        
-        <tag>magento</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2016/06/24/how-to-install-magento/</loc>
     <lastmod>2018-10-21T11:50:45.044Z</lastmod>
     <data>
@@ -2201,6 +2181,26 @@
            
              
               <breadCrumb title="Blog" url="https://16bh.github.io/categories/Blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2016/06/30/how-to-add-module-in-magento/</loc>
+    <lastmod>2018-10-21T11:50:45.044Z</lastmod>
+    <data>
+        <display>
+        <title>新增magento模块</title>
+        <pubTime>2016-06-30T10:26:54.000Z</pubTime>
+        
+        <tag>magento</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
           
         </display>
     </data>
@@ -2307,12 +2307,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
+    <loc>https://16bh.github.io/2016/07/06/hexo-new-post-template/</loc>
     <lastmod>2018-10-21T11:50:45.041Z</lastmod>
     <data>
         <display>
-        <title>hexo nexT主题新增分类页和标签页</title>
-        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
+        <title>hexo默认文章的模板修改</title>
+        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2327,12 +2327,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/06/hexo-new-post-template/</loc>
+    <loc>https://16bh.github.io/2017/03/30/hexo-nexT-theme-add-categories-and-tags/</loc>
     <lastmod>2018-10-21T11:50:45.041Z</lastmod>
     <data>
         <display>
-        <title>hexo默认文章的模板修改</title>
-        <pubTime>2016-07-06T06:41:14.000Z</pubTime>
+        <title>hexo nexT主题新增分类页和标签页</title>
+        <pubTime>2017-03-30T11:35:59.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2467,26 +2467,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
-    <lastmod>2018-10-21T11:50:45.037Z</lastmod>
-    <data>
-        <display>
-        <title>hexo侧边栏安装最近评论小物件</title>
-        <pubTime>2016-07-06T06:10:06.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Blog" url="https://16bh.github.io/categories/Blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2016/07/06/hexo-landscape-plus-add-post-toc/</loc>
     <lastmod>2018-10-21T11:50:45.037Z</lastmod>
     <data>
@@ -2507,12 +2487,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/05/hexo-enable-duoshuo/</loc>
-    <lastmod>2018-10-21T11:50:45.036Z</lastmod>
+    <loc>https://16bh.github.io/2016/07/06/hexo-landscape-pluas-add-recent-comment/</loc>
+    <lastmod>2018-10-21T11:50:45.037Z</lastmod>
     <data>
         <display>
-        <title>hexo支持多说评论</title>
-        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
+        <title>hexo侧边栏安装最近评论小物件</title>
+        <pubTime>2016-07-06T06:10:06.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2533,6 +2513,26 @@
         <display>
         <title>运行hexo报错解决方案</title>
         <pubTime>2016-07-06T04:30:02.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Blog" url="https://16bh.github.io/categories/Blog/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2016/07/05/hexo-enable-duoshuo/</loc>
+    <lastmod>2018-10-21T11:50:45.036Z</lastmod>
+    <data>
+        <display>
+        <title>hexo支持多说评论</title>
+        <pubTime>2016-07-05T12:12:33.000Z</pubTime>
         
         <tag>hexo</tag>
          
@@ -2584,26 +2584,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/04/11/go-study-note/</loc>
-    <lastmod>2018-10-21T11:50:45.034Z</lastmod>
-    <data>
-        <display>
-        <title>go语言入门知识点</title>
-        <pubTime>2017-04-11T02:09:55.000Z</pubTime>
-        
-        <tag>go</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2017/04/11/go-study-note-vscode/</loc>
     <lastmod>2018-10-21T11:50:45.034Z</lastmod>
     <data>
@@ -2619,6 +2599,26 @@
            
              
               <breadCrumb title="Software" url="https://16bh.github.io/categories/Software/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2017/04/11/go-study-note/</loc>
+    <lastmod>2018-10-21T11:50:45.034Z</lastmod>
+    <data>
+        <display>
+        <title>go语言入门知识点</title>
+        <pubTime>2017-04-11T02:09:55.000Z</pubTime>
+        
+        <tag>go</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
           
         </display>
     </data>
@@ -2768,23 +2768,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
-    <lastmod>2018-10-21T11:50:45.028Z</lastmod>
-    <data>
-        <display>
-        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
-        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2017/07/07/fix-invalid-private-key-after-reboot/</loc>
     <lastmod>2018-10-21T11:50:45.028Z</lastmod>
     <data>
@@ -2799,6 +2782,23 @@
              
               <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2016/07/06/fix-hexo-landscape-plus-theme-cannot-split-page/</loc>
+    <lastmod>2018-10-21T11:50:45.028Z</lastmod>
+    <data>
+        <display>
+        <title>解决hexo的landscape-plus主题标签和归档无法分页的bug</title>
+        <pubTime>2016-07-06T07:23:12.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
         </display>
     </data>
     </url>
@@ -2886,12 +2886,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/06/30/enable-magento-develop-model/</loc>
+    <loc>https://16bh.github.io/2016/06/30/disable-module-in-magento/</loc>
     <lastmod>2018-10-21T11:50:45.025Z</lastmod>
     <data>
         <display>
-        <title>开启开发者模式</title>
-        <pubTime>2016-06-30T10:26:22.000Z</pubTime>
+        <title>禁用magento模块</title>
+        <pubTime>2016-06-30T10:27:32.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -2906,12 +2906,12 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/06/30/disable-module-in-magento/</loc>
+    <loc>https://16bh.github.io/2016/06/30/enable-magento-develop-model/</loc>
     <lastmod>2018-10-21T11:50:45.025Z</lastmod>
     <data>
         <display>
-        <title>禁用magento模块</title>
-        <pubTime>2016-06-30T10:27:32.000Z</pubTime>
+        <title>开启开发者模式</title>
+        <pubTime>2016-06-30T10:26:22.000Z</pubTime>
         
         <tag>magento</tag>
          
@@ -2966,26 +2966,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2018/10/10/change-back-to-github-io-domin/</loc>
-    <lastmod>2018-10-21T11:50:45.023Z</lastmod>
-    <data>
-        <display>
-        <title>博客域名切回github</title>
-        <pubTime>2018-10-10T03:39:27.000Z</pubTime>
-        
-        <tag>hexo</tag>
-         
-         
-           
-             
-              <breadCrumb title="Blog" url="https://16bh.github.io/categories/Blog/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2016/07/01/build-php-develop-environment-in-macvim/</loc>
     <lastmod>2018-10-21T11:50:45.023Z</lastmod>
     <data>
@@ -3001,6 +2981,26 @@
            
              
               <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2018/10/10/change-back-to-github-io-domin/</loc>
+    <lastmod>2018-10-21T11:50:45.023Z</lastmod>
+    <data>
+        <display>
+        <title>博客域名切回github</title>
+        <pubTime>2018-10-10T03:39:27.000Z</pubTime>
+        
+        <tag>hexo</tag>
+         
+         
+           
+             
+              <breadCrumb title="Blog" url="https://16bh.github.io/categories/Blog/"/>
           
         </display>
     </data>
@@ -3074,28 +3074,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
-    <lastmod>2018-10-21T11:50:45.020Z</lastmod>
-    <data>
-        <display>
-        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
-        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-        <tag>brew</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2018/10/15/batch-download-image-from-qiniu/</loc>
     <lastmod>2018-10-21T11:50:45.020Z</lastmod>
     <data>
@@ -3136,12 +3114,54 @@
 
     
   <url>
+    <loc>https://16bh.github.io/2016/06/23/brew-install-php-error-PHP-Startup-Unable-to-load-dynamic-library/</loc>
+    <lastmod>2018-10-21T11:50:45.020Z</lastmod>
+    <data>
+        <display>
+        <title>mac环境下通过homebrew安装的php报错解决：PHP Startup: Unable to load dynamic library</title>
+        <pubTime>2016-06-23T10:22:39.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+        <tag>brew</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://16bh.github.io/2017/04/20/backend-develop-skill-tree/</loc>
     <lastmod>2018-10-21T11:50:45.019Z</lastmod>
     <data>
         <display>
         <title>后端开发技能树</title>
         <pubTime>2017-04-20T15:54:54.000Z</pubTime>
+        
+        <tag>php</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2018/02/06/auto-add-whitespace-at-the-start-of-string-when-echo/</loc>
+    <lastmod>2018-10-21T11:50:45.018Z</lastmod>
+    <data>
+        <display>
+        <title>echo字符串时字符串头部出现空格bug</title>
+        <pubTime>2018-02-06T10:51:50.000Z</pubTime>
         
         <tag>php</tag>
          
@@ -3169,26 +3189,6 @@
            
              
               <breadCrumb title="Software" url="https://16bh.github.io/categories/Software/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://16bh.github.io/2018/02/06/auto-add-whitespace-at-the-start-of-string-when-echo/</loc>
-    <lastmod>2018-10-21T11:50:45.018Z</lastmod>
-    <data>
-        <display>
-        <title>echo字符串时字符串头部出现空格bug</title>
-        <pubTime>2018-02-06T10:51:50.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
           
         </display>
     </data>
@@ -3238,26 +3238,6 @@
 
     
   <url>
-    <loc>https://16bh.github.io/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
-    <lastmod>2018-10-21T11:50:45.016Z</lastmod>
-    <data>
-        <display>
-        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
-        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
-        
-        <tag>php</tag>
-         
-         
-           
-             
-              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://16bh.github.io/2017/07/26/Permanently-added-the-RSA-host-key-for-IP-address-to-the-list-of-known-hosts/</loc>
     <lastmod>2018-10-21T11:50:45.016Z</lastmod>
     <data>
@@ -3270,6 +3250,26 @@
         <tag>git</tag>
          
         <tag>ssh</tag>
+         
+         
+           
+             
+              <breadCrumb title="IT" url="https://16bh.github.io/categories/IT/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://16bh.github.io/2017/03/27/PHP-ERROR-Arrays-are-not-allowed-in-class-constants/</loc>
+    <lastmod>2018-10-21T11:50:45.016Z</lastmod>
+    <data>
+        <display>
+        <title>[PHP ERROR]:Arrays are not allowed in class constants </title>
+        <pubTime>2017-03-27T10:38:37.000Z</pubTime>
+        
+        <tag>php</tag>
          
          
            
