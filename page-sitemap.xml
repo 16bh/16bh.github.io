@@ -14,13 +14,6 @@
     </url>
     
     <url>
-        <loc>https://16bh.github.io/categories/</loc>
-        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    <url>
         <loc>https://16bh.github.io/messageboard/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -29,6 +22,13 @@
     
     <url>
         <loc>https://16bh.github.io/tags/</loc>
+        <lastmod>2017-05-11T09:50:47.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://16bh.github.io/categories/</loc>
         <lastmod>2017-05-11T09:50:47.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>

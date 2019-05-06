@@ -79,14 +79,14 @@
     </url>
 
     <url>
-        <loc>https://16bh.github.io/tags/photos/</loc>
+        <loc>https://16bh.github.io/tags/windows/</loc>
         <lastmod>2018-10-21T11:50:45.045Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://16bh.github.io/tags/windows/</loc>
+        <loc>https://16bh.github.io/tags/photos/</loc>
         <lastmod>2018-10-21T11:50:45.045Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -424,6 +424,13 @@
     <url>
         <loc>https://16bh.github.io/tags/xdebug/</loc>
         <lastmod>2019-02-21T10:58:44.538Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://16bh.github.io/tags/game/</loc>
+        <lastmod>2019-05-06T12:25:01.734Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
