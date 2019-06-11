@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://16bh.github.io/"/>
-  <updated>2019-05-06T12:31:59.077Z</updated>
+  <updated>2019-02-12T07:38:30.650Z</updated>
   <id>https://16bh.github.io/</id>
   
   <author>
@@ -14,32 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>卡卡西你为什么要演我</title>
-    <link href="https://16bh.github.io/2019/05/06/kakaxi-bie-yan-wo/"/>
-    <id>https://16bh.github.io/2019/05/06/kakaxi-bie-yan-wo/</id>
-    <published>2019-05-06T12:21:16.000Z</published>
-    <updated>2019-05-06T12:31:59.077Z</updated>
-    
-    <content type="html"><![CDATA[<a id="more"></a>
-<p><img src="/2019/05/06/kakaxi-bie-yan-wo/image-20190506203156096.png" alt="image-20190506203156096"></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;p&gt;&lt;img src=&quot;/2019/05/06/kakaxi-bie-yan-wo/image-20190506203156096.png&quot; alt=&quot;image-20190506203156096&quot;&gt;&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="Game" scheme="https://16bh.github.io/categories/Game/"/>
-    
-    
-      <category term="game" scheme="https://16bh.github.io/tags/game/"/>
-    
-  </entry>
   
   <entry>
     <title>mac软件正版化</title>
@@ -1300,6 +1274,53 @@
     
     
       <category term="php" scheme="https://16bh.github.io/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jupyter support php</title>
+    <link href="https://16bh.github.io/2017/11/20/jupyter-support-php/"/>
+    <id>https://16bh.github.io/2017/11/20/jupyter-support-php/</id>
+    <published>2017-11-20T08:28:48.000Z</published>
+    <updated>2018-10-21T11:50:45.053Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote>
+<p>ignore: not used now</p>
+</blockquote>
+<p>As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.</p>
+<a id="more"></a>
+<h2 id="envirenement"><a href="#envirenement" class="headerlink" title="envirenement"></a>envirenement</h2><ul>
+<li>php7</li>
+<li>zeromq</li>
+<li>php-zmq</li>
+<li>jupyter</li>
+<li>composer</li>
+</ul>
+<blockquote>
+<p>just run <code>brew install zeromq</code> to install zeromq on mac</p>
+<p>php7.0 don’t support php-zmq,must upgrade to php7.1,then <code>brew install php71-zmq</code></p>
+</blockquote>
+<h2 id="install-jupyter-PHP"><a href="#install-jupyter-PHP" class="headerlink" title="install jupyter-PHP"></a>install jupyter-PHP</h2><p>download here <a href="https://litipk.github.io/Jupyter-PHP-Installer/" target="_blank" rel="external">https://litipk.github.io/Jupyter-PHP-Installer/</a></p>
+<h2 id="notice"><a href="#notice" class="headerlink" title="notice"></a>notice</h2><p>while installing, if you see error below:</p>
+<p>You are running PHP-CLI with xdebug enabled. This will have a major impact on the kernel’s performance.</p>
+<p>it means that you have’t install zeromq</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;ignore: not used now&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;As we know, jupyter support python originally. It can also support other language like php.U need to install specific kenerl.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="Software" scheme="https://16bh.github.io/categories/Software/"/>
+    
+    
+      <category term="php" scheme="https://16bh.github.io/tags/php/"/>
+    
+      <category term="jupyter" scheme="https://16bh.github.io/tags/jupyter/"/>
     
   </entry>
   
